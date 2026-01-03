@@ -1,0 +1,49 @@
+*.dll
+*.fpk
+Readme.txt
+*.exe
+*.lnk
+*.thm
+*.nif
+*.bik
+*.dds
+*.mcl
+
+Shaders/
+Miles/
+Warlords/
+/Mods/
+LeaderHeads/
+
+Beyond the Sword/Mods/Afterworld/
+Beyond the Sword/Mods/Broken Star/
+Beyond the Sword/Mods/Charlemagne/
+Beyond the Sword/Mods/Crossroads of the World/
+Beyond the Sword/Mods/Defense/
+Beyond the Sword/Mods/FfH Age of Ice/
+Beyond the Sword/Mods/Final Frontier/
+Beyond the Sword/Mods/Gods of Old/
+Beyond the Sword/Mods/MesoAmerica/
+Beyond the Sword/Mods/Rhye's and Fall of Civilization/
+Beyond the Sword/Mods/The Road to War/
+Beyond the Sword/Resource/
+
+Beyond the Sword/steam_appid.txt
+
+Beyond the Sword/Civ4BTSMCE.xml
+
+Beyond the Sword/ThemeParseLog.txt
+
+Beyond the Sword/Assets/Sounds/
+
+Beyond the Sword/Assets/Art/Units/
+
+Assets/_Localizations/French/
+
+Assets/_Localizations/German/
+
+Assets/_Localizations/Italian/
+
+Assets/_Localizations/Spanish/
+
+Assets/Sounds/
