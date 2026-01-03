@@ -7,6 +7,7 @@
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_LINCOLN_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;, [CT_NAME]! &#223; - [OUR_NAME]. &#206;&#247;&#229;&#237;&#252; &#240;&#224;&#228; &#237;&#224;&#248;&#229;&#233; &#226;&#241;&#242;&#240;&#229;&#247;&#229;.</Russian>
 		<English>Greetings, [CT_NAME]. I am [OUR_NAME]. It is indeed an honor to meet you.</English>
 		<French>Salutations, [CT_NAME] ! Je suis [OUR_NAME]. C'est un honneur de vous rencontrer.</French>
 		<German>Seid gegrüßt, [CT_NAME]. Mein Name ist [OUR_NAME]. Es ist mir eine Ehre, Eure Bekanntschaft zu machen.</German>
@@ -15,6 +16,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_LINCOLN_1</Tag>
+		<Russian>&#211;&#225;&#232;&#240;&#224;&#233;&#242;&#229;&#241;&#252;.</Russian>
 		<English>Drop dead.</English>
 		<French>Allez vous faire voir !</French>
 		<German>Fahrt zur Hölle!</German>
@@ -23,14 +25,16 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_LINCOLN_1</Tag>
+		<Russian>&#206;&#228;&#232;&#237; &#236;&#238;&#233; &#228;&#240;&#243;&#227; &#234;&#224;&#234;-&#242;&#238; &#241;&#234;&#224;&#231;&#224;&#235;: "&#205;&#229; &#236;&#238;&#230;&#229;&#242; &#225;&#251;&#242;&#252; &#239;&#240;&#232;&#237;&#255;&#242;&#238; &#237;&#232;&#234;&#224;&#234;&#232;&#245; &#243;&#241;&#235;&#238;&#226;&#232;&#233;, &#234;&#240;&#238;&#236;&#229; &#225;&#229;&#231;&#238;&#227;&#238;&#226;&#238;&#240;&#238;&#247;&#237;&#238;&#233; &#232; &#237;&#229;&#236;&#229;&#228;&#235;&#229;&#237;&#237;&#238;&#233; &#234;&#224;&#239;&#232;&#242;&#243;&#235;&#255;&#246;&#232;&#232;". &#202;&#224;&#234; &#253;&#242;&#238; &#226;&#229;&#240;&#237;&#238;!</Russian>
 		<English>As a friend of mine once said, 'No terms except unconditional and immediate surrender can be accepted.' Pithy, don't you agree?</English>
 		<French>Comme un ami m'a dit un jour, "Aucune condition ne saurait être acceptée, hormis une capitulation immédiate et inconditionnelle." Dommage, n'est-ce pas ?</French>
 		<German>Wie ein Freund von mir zu sagen pflegte: 'Ich akzeptiere nur die sofortige und bedingungslose Kapitulation'. Äußerst treffend, nicht wahr?</German>
-		<Italian>Come disse una volta un mio amico: &quot;L'unica cosa accettabile è una resa incondizionata e immediata.&quot; Conciso, non trovi?</Italian>
-		<Spanish>Como un amigo mío dijo una vez: &quot;Ninguna condición es aceptable, salvo una rendición incondicional e inmediata&quot;. Es una lástima, ¿no creéis?</Spanish>
+		<Italian>Come disse una volta un mio amico: "L'unica cosa accettabile è una resa incondizionata e immediata." Conciso, non trovi?</Italian>
+		<Spanish>Como un amigo mío dijo una vez: "Ninguna condición es aceptable, salvo una rendición incondicional e inmediata". Es una lástima, ¿no creéis?</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_LINCOLN_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;, [CT_NAME]. &#207;&#240;&#232;&#241;&#224;&#230;&#232;&#226;&#224;&#233;&#242;&#229;&#241;&#252;, &#239;&#238;&#225;&#238;&#235;&#242;&#224;&#229;&#236;.</Russian>
 		<English>Greetings, [CT_NAME]. Sit down and let's chat for a spell.</English>
 		<French>Salutations, [CT_NAME] ! Asseyez-vous et bavardons un instant.</French>
 		<German>Seid gegrüßt, [CT_NAME]. Nehmt Platz und lasst uns ein wenig plaudern.</German>
@@ -39,6 +43,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_LINCOLN_1</Tag>
+		<Russian>&#215;&#229;&#236; &#238;&#225;&#255;&#231;&#224;&#237; &#241;&#242;&#238;&#235;&#252; &#237;&#229;&#230;&#228;&#224;&#237;&#237;&#238;&#236;&#243; &#226;&#232;&#231;&#232;&#242;&#243;?</Russian>
 		<English>And to what do I owe the dubious honor of your presence?</English>
 		<French>Que me vaut l'honneur peu enviable de votre présence ?</French>
 		<German>Was verschafft mir die zweifelhafte Ehre Eures Besuchs?</German>
@@ -47,6 +52,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_LINCOLN_1</Tag>
+		<Russian>&#194;&#251; &#226;&#229;&#228;&#252; &#236;&#238;&#230;&#229;&#242;&#229; &#239;&#238;&#228;&#229;&#235;&#232;&#242;&#252;&#241;&#255; &#241; &#228;&#240;&#243;&#231;&#252;&#255;&#236;&#232;, [CT_NAME]?</Russian>
 		<English>Can you spare this for a good friend, [CT_NAME]?</English>
 		<French>Pourriez-vous donner ceci à un bon ami, [CT_NAME] ?</French>
 		<German>Ihr werdet einem treuen Freund diese kleine Bitte doch nicht abschlagen, [CT_NAME]?</German>
@@ -55,6 +61,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_LINCOLN_1</Tag>
+		<Russian>&#196;&#229;&#235;&#232;&#242;&#252;&#241;&#255; - &#231;&#237;&#224;&#247;&#232;&#242; &#231;&#224;&#225;&#238;&#242;&#232;&#242;&#252;&#241;&#255;, [CT_NAME].</Russian>
 		<English>Sharing is caring, [CT_NAME].</English>
 		<French>Partager, c'est le début de l'amitié, [CT_NAME].</French>
 		<German>Helfen heißt brüderlich teilen, [CT_NAME].</German>
@@ -63,14 +70,16 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LINCOLN_1</Tag>
+		<Russian>&#196;&#224;&#233;&#242;&#229; &#237;&#224;&#236; &#242;&#238;, &#247;&#242;&#238; &#237;&#224;&#236; &#237;&#243;&#230;&#237;&#238;, &#232;&#235;&#232; &#239;&#238;&#231;&#237;&#224;&#229;&#242;&#229; &#255;&#240;&#238;&#241;&#242;&#252; &#237;&#224;&#248;&#229;&#227;&#238; "&#240;&#224;&#231;&#255;&#249;&#229;&#227;&#238; &#236;&#229;&#247;&#224;"!</Russian>
 		<English>Hand this over or feel the wrath of our 'terrible swift sword.' </English>
 		<French>Répondez à nos exigences ou vous subirez la foudre de notre "terrible et rapide épée".</French>
 		<German>Schlagt ein, wenn Ihr kein zweites Gettysburg erleben wollt! </German>
-		<Italian>Dammi ciò che chiedo o proverai l'ira della nostra &quot;terribile e rapida spada.&quot; </Italian>
-		<Spanish>Dadnos esto o sentiréis la cólera de nuestra &quot;terrible y veloz espada&quot;. </Spanish>
+		<Italian>Dammi ciò che chiedo o proverai l'ira della nostra "terribile e rapida spada." </Italian>
+		<Spanish>Dadnos esto o sentiréis la cólera de nuestra "terrible y veloz espada". </Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_HAMMURABI_1</Tag>
+		<Russian>&#209;&#235;&#224;&#226;&#237;&#251;&#229; [OUR_CIV_SHORT] &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;&#242; &#226;&#224;&#241;! &#194;&#237;&#229;&#236;&#235;&#232;&#242;&#229; &#237;&#224;&#248;&#229;&#236;&#243; &#226;&#229;&#235;&#232;&#247;&#232;&#254;!</Russian>
 		<English>Greetings, stranger! Gaze in awe on the majesty that is [OUR_CIV_SHORT]!</English>
 		<French>Bonjour, étranger ! Contemplez avec crainte la majesté des [OUR_CIV_ADJ:3] !</French>
 		<German>Ich grüße Euch, Fremdling! Kommt und bestaunt die Pracht des Volkes von [OUR_CIV_SHORT]!</German>
@@ -79,6 +88,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_HAMMURABI_1</Tag>
+		<Russian>&#223; &#237;&#229; &#240;&#224;&#231;&#227;&#238;&#226;&#224;&#240;&#232;&#226;&#224;&#254; &#241; &#235;&#227;&#243;&#237;&#224;&#236;&#232; &#232; &#236;&#238;&#248;&#229;&#237;&#237;&#232;&#234;&#224;&#236;&#232;.</Russian>
 		<English>I do not speak to liars and cheats.</English>
 		<French>Je ne parle ni aux menteurs ni aux traîtres.</French>
 		<German>Mit Lügnern und Betrügern wie Euch will ich nichts zu schaffen haben!</German>
@@ -87,6 +97,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_HAMMURABI_1</Tag>
+		<Russian>&#211; &#237;&#224;&#241; &#237;&#229; &#225;&#243;&#228;&#229;&#242; &#236;&#232;&#240;&#224; &#228;&#238; &#242;&#229;&#245; &#239;&#238;&#240;, &#239;&#238;&#234;&#224; [OUR_CIV_ADJ] &#237;&#229; &#239;&#240;&#238;&#237;&#231;&#255;&#242; &#234;&#238;&#239;&#252;&#255;&#236;&#232; &#239;&#238;&#241;&#235;&#229;&#228;&#237;&#229;&#227;&#238; &#241;&#238;&#235;&#228;&#224;&#242;&#224;, &#234;&#238;&#242;&#238;&#240;&#238;&#227;&#238; [CT_CIV_ADJ] &#239;&#240;&#232;&#226;&#229;&#235;&#232; &#237;&#224; &#253;&#242;&#232; &#231;&#229;&#236;&#235;&#232;!</Russian>
 		<English>There will be no peace until the last [CT_CIV_ADJ] soldier's head is atop a [OUR_CIV_ADJ] spear!</English>
 		<French>Il n'y aura pas de paix tant que la tête du dernier soldat [CT_CIV_ADJ:1] ne sera pas au bout d'une lance [OUR_CIV_ADJ:2] !</French>
 		<German>Es wird keinen Frieden geben, bis nicht auch das letzte Haupt eines [CT_CIV_ADJ:2] Kriegers die Spitze eines [OUR_CIV_ADJ:2] Speers ziert!</German>
@@ -95,6 +106,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_HAMMURABI_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#242;&#229;&#225;&#255;, [CT_NAME]! &#215;&#242;&#238; &#236;&#238;&#227;&#243;&#242; &#241;&#228;&#229;&#235;&#224;&#242;&#252; &#236;&#238;&#227;&#243;&#249;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#251;&#229; [OUR_CIV_SHORT] &#228;&#235;&#255; &#242;&#226;&#238;&#229;&#233; &#241;&#234;&#240;&#238;&#236;&#237;&#238;&#233; &#232;&#236;&#239;&#229;&#240;&#232;&#232;?</Russian>
 		<English>Welcome, friend [CT_NAME]! What can mighty [OUR_CIV_SHORT] do to assist your humble empire?</English>
 		<French>Bienvenue, cher [CT_NAME] ! En quoi les puissants [OUR_CIV_SHORT:3] peuvent-ils aider votre humble empire ?</French>
 		<German>Ich grüße Euch in Freundschaft, [CT_NAME]! Womit kann das mächtige Volk von [OUR_CIV_SHORT] Eurem bescheidenen Reich dienen?</German>
@@ -103,6 +115,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HAMMURABI_1</Tag>
+		<Russian>&#194; &#247;&#229;&#236; &#228;&#229;&#235;&#238;? &#207;&#238;&#247;&#229;&#236;&#243; &#236;&#229;&#237;&#255; &#238;&#242;&#226;&#235;&#229;&#234;&#224;&#254;&#242; &#238;&#242; &#231;&#224;&#234;&#238;&#237;&#238;&#242;&#226;&#238;&#240;&#247;&#229;&#241;&#242;&#226;&#224;?</Russian>
 		<English>Well? Get on with it! I have laws to write!</English>
 		<French>Alors ? Dépêchez-vous ! J'ai des lois à écrire !</French>
 		<German>Nun? Was gibt's? Ich habe Gesetze zu erlassen!</German>
@@ -111,6 +124,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_HAMMURABI_1</Tag>
+		<Russian>&#205;&#224;&#236; &#237;&#243;&#230;&#237;&#224; &#226;&#224;&#248;&#224; &#239;&#238;&#236;&#238;&#249;&#252;, [CT_NAME].</Russian>
 		<English>We could use your assistance, friend [CT_NAME].</English>
 		<French>Nous aurions besoin de votre aide, cher [CT_NAME].</French>
 		<German>Wir könnten Eure freundliche Unterstützung gebrauchen, [CT_NAME].</German>
@@ -119,6 +133,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_HAMMURABI_1</Tag>
+		<Russian>&#205;&#229; &#239;&#238;&#228;&#229;&#235;&#232;&#242;&#229;&#241;&#252; &#235;&#232; &#226;&#251; &#234;&#238;&#229;-&#247;&#229;&#236; &#241; &#245;&#238;&#240;&#238;&#248;&#232;&#236; &#228;&#240;&#243;&#227;&#238;&#236;?</Russian>
 		<English>Can you spare this for a good friend?</English>
 		<French>Pouvez-vous donner ceci à un bon ami ?</French>
 		<German>Könntet Ihr dies für gute Freunde erübrigen?</German>
@@ -127,6 +142,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_HAMMURABI_1</Tag>
+		<Russian>&#196;&#224;&#233;&#242;&#229; &#237;&#224;&#236; &#226;&#241;&#229;, &#247;&#242;&#238; &#236;&#251; &#239;&#240;&#238;&#241;&#232;&#236;, &#232;&#237;&#224;&#247;&#229; &#236;&#251; &#231;&#224;&#225;&#229;&#240;&#229;&#236; &#253;&#242;&#238; &#241;&#232;&#235;&#238;&#233;.</Russian>
 		<English>Give us this or we shall surely come and take it.</English>
 		<French>Donnez-nous ce que nous voulons ou nous viendrons nous en emparer par la force.</French>
 		<German>Gebt uns, was wir verlangen, oder wir werden kommen und es uns holen!</German>
@@ -135,6 +151,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JUSTINIAN_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#226;&#224;&#241;, [CT_NAME]! &#196;&#224; &#225;&#235;&#224;&#227;&#238;&#241;&#235;&#238;&#226;&#255;&#242; &#226;&#224;&#241; &#237;&#229;&#225;&#229;&#241;&#224; &#239;&#238; &#226;&#224;&#248;&#232;&#236; &#231;&#224;&#241;&#235;&#243;&#227;&#224;&#236;!</Russian>
 		<English>Welcome, [CT_NAME]! May the heavens bless you as you deserve to be blessed!</English>
 		<French>Bienvenue, [CT_NAME] ! Que les cieux vous bénissent comme vous le méritez !</French>
 		<German>Willkommen, [CT_NAME]! Mögen die Götter Euch segnen, denn Ihr verdient ihren Segen!</German>
@@ -143,6 +160,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_JUSTINIAN_1</Tag>
+		<Russian>&#205;&#229;&#242;!</Russian>
 		<English>No!</English>
 		<French>Non !</French>
 		<German>Nein!</German>
@@ -151,6 +169,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_JUSTINIAN_1</Tag>
+		<Russian>&#193;&#235;&#224;&#227;&#238;&#228;&#224;&#240;&#254; &#231;&#224; &#241;&#242;&#238;&#235;&#252; &#246;&#229;&#237;&#237;&#238;&#229; &#239;&#240;&#229;&#228;&#235;&#238;&#230;&#229;&#237;&#232;&#229;, [CT_NAME], &#237;&#238; &#255; &#225;&#251; &#239;&#240;&#229;&#228;&#239;&#238;&#247;&#229;&#235; &#241;&#242;&#229;&#240;&#229;&#242;&#252; &#226;&#224;&#248;&#243; &#246;&#232;&#226;&#232;&#235;&#232;&#231;&#224;&#246;&#232;&#254; &#241; &#235;&#232;&#246;&#224; &#231;&#229;&#236;&#235;&#232;.</Russian>
 		<English>Thank you for your kind offer, [CT_NAME], but I believe that I would prefer to wipe your civilization off of the face of the world.</English>
 		<French>Je vous remercie de votre offre, [CT_NAME], mais je crois que je préfèrerais rayer votre civilisation de la carte.</French>
 		<German>Danke für Euer freundliches Angebot, [CT_NAME], aber ich bevorzuge es, Eure Zivilisation vom Antlitz der Erde zu tilgen!</German>
@@ -159,6 +178,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JUSTINIAN_1</Tag>
+		<Russian>&#194;&#241;&#229; [OUR_CIV_SHORT] &#239;&#238;&#247;&#232;&#242;&#224;&#254;&#242; &#231;&#224; &#247;&#229;&#241;&#242;&#252; &#226;&#224;&#248;&#229; &#239;&#240;&#232;&#241;&#243;&#242;&#241;&#242;&#226;&#232;&#229;, [CT_NAME]. &#215;&#229;&#236; &#236;&#251; &#236;&#238;&#230;&#229;&#236; &#239;&#238;&#236;&#238;&#247;&#252; &#226;&#224;&#236;?</Russian>
 		<English>You honor [OUR_CIV_SHORT] with your presence, [CT_NAME]. How can we assist you?</English>
 		<French>Vous honorez les [OUR_CIV_SHORT:3] de votre présence, [CT_NAME]. En quoi puis-je vous aider ?</French>
 		<German>Ihr ehrt das Volk von [OUR_CIV_SHORT] mit Eurem Besuch, [CT_NAME]. Wie können wir Euch behilflich sein?</German>
@@ -167,6 +187,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JUSTINIAN_1</Tag>
+		<Russian>&#206;&#239;&#243;&#241;&#242;&#232;&#236; &#235;&#254;&#225;&#229;&#231;&#237;&#238;&#241;&#242;&#232;, [CT_NAME]. &#215;&#242;&#238; &#236;&#238;&#227;&#243;&#249;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#251;&#229; [OUR_CIV_SHORT] &#236;&#238;&#227;&#243;&#242; &#241;&#228;&#229;&#235;&#224;&#242;&#252; &#228;&#235;&#255; &#226;&#224;&#241;?</Russian>
 		<English>You may skip the pleasantries, [CT_NAME]. Why have you come to mighty [OUR_CIV_SHORT]?</English>
 		<French>Trêve de courtoisies, [CT_NAME]. Que voulez-vous aux puissants [OUR_CIV_SHORT:3] ?</French>
 		<German>Ihr könnt Euch die Freundlichkeiten sparen, [CT_NAME]. Warum belästigt Ihr das mächtige Volk von [OUR_CIV_SHORT]?</German>
@@ -175,6 +196,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_JUSTINIAN_1</Tag>
+		<Russian>&#194;&#251; &#236;&#238;&#230;&#229;&#242;&#229; &#239;&#238;&#228;&#229;&#235;&#232;&#242;&#252;&#241;&#255; &#241; &#237;&#224;&#236;&#232; &#234;&#238;&#229;-&#247;&#229;&#236;, [CT_NAME]?</Russian>
 		<English>Could you spare this for us, [CT_NAME]?</English>
 		<French>Pourriez-vous nous donner ceci, [CT_NAME] ? </French>
 		<German>Würdet Ihr uns dies hier überlassen, [CT_NAME]?</German>
@@ -183,6 +205,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_JUSTINIAN_1</Tag>
+		<Russian>&#206;&#242;&#228;&#224;&#233;&#242;&#229; &#237;&#224;&#236; &#253;&#242;&#238;, [CT_NAME]. &#221;&#242;&#238; &#243;&#239;&#240;&#238;&#247;&#232;&#242; &#228;&#240;&#243;&#230;&#225;&#243; &#237;&#224;&#248;&#232;&#245; &#226;&#229;&#235;&#232;&#234;&#232;&#245; &#232;&#236;&#239;&#229;&#240;&#232;&#233;.</Russian>
 		<English>Please give us this, [CT_NAME]. It will help to ensure continued friendship between our two great empires.</English>
 		<French>Veuillez nous donner ceci, [CT_NAME]. Cela renforcera l'amitié entre nos deux grands empires.</French>
 		<German>Bitte gebt uns, worum wir Euch bitten, [CT_NAME]. Diese Geste wird zweifellos zur fortgesetzten Freundschaft unserer großen Reiche beitragen.</German>
@@ -191,6 +214,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JUSTINIAN_1</Tag>
+		<Russian>&#196;&#224;&#233;&#242;&#229; &#237;&#224;&#236; &#242;&#238;, &#247;&#242;&#238; &#236;&#251; &#239;&#240;&#238;&#241;&#232;&#236;, [CT_NAME]. &#194;&#224;&#248;&#224; &#224;&#240;&#236;&#232;&#255; &#237;&#229; &#232;&#228;&#229;&#242; &#237;&#232; &#226; &#234;&#224;&#234;&#238;&#229; &#241;&#240;&#224;&#226;&#237;&#229;&#237;&#232;&#229; &#241; &#237;&#224;&#248;&#229;&#233;, &#226;&#251; &#230;&#229; &#231;&#237;&#224;&#229;&#242;&#229;.</Russian>
 		<English>Give us what we want, [CT_NAME]. Your armies are no match for ours, and you know it.</English>
 		<French>Donnez-nous ce que nous voulons, [CT_NAME]. Vos armées ne font pas le poids face aux nôtres et vous le savez.</French>
 		<German>Gebt uns, was wir verlangen, [CT_NAME]! Eure Truppen können es nicht mit unseren aufnehmen, und das wisst Ihr auch!</German>
@@ -199,6 +223,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_ZARA_YAQOB_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#226;&#224;&#241;, [CT_NAME]. &#223; - [OUR_NAME], &#234;&#238;&#242;&#238;&#240;&#238;&#227;&#238; &#239;&#238;&#247;&#232;&#242;&#224;&#254;&#242; &#225;&#238;&#227;&#238;&#225;&#238;&#255;&#231;&#237;&#229;&#237;&#237;&#251;&#229; [OUR_CIV_ADJ]! &#207;&#243;&#241;&#242;&#252; &#236;&#229;&#230;&#228;&#243; &#237;&#224;&#248;&#232;&#236;&#232; &#228;&#229;&#240;&#230;&#224;&#226;&#224;&#236;&#232; &#239;&#240;&#238;&#246;&#226;&#229;&#242;&#224;&#229;&#242; &#228;&#240;&#243;&#230;&#225;&#224;! &#207;&#238;&#234;&#224; &#237;&#224;&#236; &#253;&#242;&#238; &#226;&#251;&#227;&#238;&#228;&#237;&#238;...</Russian>
 		<English>Hail to you, [CT_NAME]. I am [OUR_NAME], ruler of the god-fearing [OUR_CIV_ADJ] people! May the friendship between our two great civilizations last until we are much, much larger than you! </English>
 		<French>Mes respects, [CT_NAME] ! Je suis [OUR_NAME], chef des dévots [OUR_CIV_ADJ:3] ! Que l'amitié entre nos deux grandes civilisations dure jusqu'à ce que nous soyons bien plus puissants que vous !</French>
 		<German>Seid gegrüßt, [CT_NAME]. Ich bin [OUR_NAME], Staatsoberhaupt des gottesfürchtigen [OUR_CIV_ADJ:2] Volkes! Möge die Freundschaft zwischen unseren großartigen Nationen andauern, bis wir Euch haushoch überlegen sind! </German>
@@ -207,6 +232,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_ZARA_YAQOB_1</Tag>
+		<Russian>&#207;&#240;&#238;&#247;&#252; &#241; &#227;&#235;&#224;&#231; &#236;&#238;&#232;&#245;, &#255;&#231;&#251;&#247;&#237;&#232;&#234;!</Russian>
 		<English>Be gone, you heathen fool!</English>
 		<French>Hors de ma vue, païen !</French>
 		<German>Hinfort mit Euch, heidnisches Wesen!</German>
@@ -215,6 +241,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_ZARA_YAQOB_1</Tag>
+		<Russian>&#205;&#224; &#253;&#242;&#238;&#233; &#231;&#229;&#236;&#235;&#229; &#237;&#229; &#225;&#243;&#228;&#229;&#242; &#236;&#232;&#240;&#224; &#228;&#238; &#242;&#229;&#245; &#239;&#238;&#240;, &#239;&#238;&#234;&#224; &#242;&#226;&#238;&#255; &#228;&#243;&#248;&#224; &#237;&#229; &#241;&#227;&#238;&#240;&#232;&#242; &#226; &#224;&#228;&#241;&#234;&#238;&#236; &#239;&#235;&#224;&#236;&#229;&#237;&#232;!</Russian>
 		<English>There shall be no peace until your tortured soul is burning in the fiery pits of the netherworld!</English>
 		<French>Il n'y aura pas de paix tant que votre âme torturée ne brûlera pas dans les flammes de l'enfer !</French>
 		<German>Es wird keinen Frieden geben, bis Eure gepeinigte Seele in den Tiefen der Hölle schmort!</German>
@@ -223,6 +250,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ZARA_YAQOB_1</Tag>
+		<Russian>&#196;&#224; &#225;&#235;&#224;&#227;&#238;&#241;&#235;&#238;&#226;&#255;&#242; &#226;&#224;&#241; &#237;&#229;&#225;&#229;&#241;&#224;, [CT_NAME]!</Russian>
 		<English>May the blessings of Heaven be upon you, [CT_NAME]!</English>
 		<French>Que les cieux vous bénissent, [CT_NAME] !</French>
 		<German>Mögen die Götter Euch segnen, [CT_NAME]!</German>
@@ -231,6 +259,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ZARA_YAQOB_1</Tag>
+		<Russian>&#209;&#234;&#224;&#230;&#232;, &#231;&#224;&#247;&#229;&#236; &#242;&#251; &#231;&#228;&#229;&#241;&#252;. &#223; &#241;&#235;&#243;&#248;&#224;&#254;.</Russian>
 		<English>Say what you have come to say, sinful one. I am listening.</English>
 		<French>Dites ce que vous avez à dire, misérable pécheur. Je vous écoute. </French>
 		<German>Sagt, was Ihr zu sagen habt, sündiges Wesen! Ich höre!</German>
@@ -239,6 +268,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ZARA_YAQOB_1</Tag>
+		<Russian>&#199;&#224;&#239;&#235;&#224;&#242;&#232;&#242;&#229; &#237;&#224;&#236;, [CT_NAME].</Russian>
 		<English>Pay it forward, [CT_NAME]. </English>
 		<French>Payez-nous votre tribut, [CT_NAME].</French>
 		<German>Her damit, [CT_NAME]! </German>
@@ -247,6 +277,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ZARA_YAQOB_1</Tag>
+		<Russian>&#206;&#242;&#228;&#224;&#233;&#242;&#229; &#242;&#238;, &#247;&#242;&#238; &#237;&#224;&#236; &#239;&#240;&#232;&#247;&#232;&#242;&#224;&#229;&#242;&#241;&#255;, [CT_NAME], &#232;&#235;&#232; &#226;&#224;&#241; &#239;&#238;&#240;&#224;&#231;&#255;&#242; &#227;&#240;&#238;&#236;&#251; &#237;&#229;&#225;&#229;&#241;&#237;&#251;&#229;!</Russian>
 		<English>The heavens command that you give us the following, [CT_NAME]. Unless you particularly like thunderbolts I urge you to comply.</English>
 		<French>Le ciel vous ordonne de nous donner ceci, [CT_NAME]. Je vous conseille d'obéir, à moins que vous n'aimiez les éclairs.</French>
 		<German>Die Götter verlangen, dass Ihr uns Tribut zollt, [CT_NAME]. Und wenn Ihr nicht vom Blitz erschlagen werden wollt, solltet Ihr ihnen Folge leisten!</German>
@@ -255,6 +286,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ZARA_YAQOB_1</Tag>
+		<Russian>&#211; &#226;&#241;&#229;&#245; &#241;&#226;&#238;&#232; &#239;&#238;&#242;&#240;&#229;&#225;&#237;&#238;&#241;&#242;&#232;, [CT_NAME]. &#202; &#239;&#240;&#232;&#236;&#229;&#240;&#243;, &#243; &#237;&#224;&#241; &#229;&#241;&#242;&#252; &#239;&#238;&#242;&#240;&#229;&#225;&#237;&#238;&#241;&#242;&#252; &#226; &#253;&#242;&#238;&#236; &#240;&#229;&#241;&#243;&#240;&#241;&#229;, &#224; &#243; &#226;&#224;&#241; - &#239;&#238;&#242;&#240;&#229;&#225;&#237;&#238;&#241;&#242;&#252; &#238;&#242;&#228;&#224;&#242;&#252; &#229;&#227;&#238; &#237;&#224;&#236;.</Russian>
 		<English>Everyone has needs, [CT_NAME]. For example, we need the following, and you need to give it to us. </English>
 		<French>Tout le monde a des besoins, [CT_NAME]. En l'occurrence, il nous faut un tribut, et il vous faut le satisfaire.</French>
 		<German>Jeder hat doch so seine Bedürfnisse, nicht wahr, [CT_NAME]? Uns fehlt es beispielsweise an diesem hier und Ihr tätet gut daran, es uns beschaffen. </German>
@@ -263,6 +295,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_DE_GAULLE_1</Tag>
+		<Russian>&#223;, [OUR_NAME], &#238;&#225;&#235;&#224;&#228;&#224;&#242;&#229;&#235;&#252; &#241;&#224;&#236;&#238;&#227;&#238; &#228;&#235;&#232;&#237;&#237;&#238;&#227;&#238; &#232; &#234;&#240;&#224;&#241;&#232;&#226;&#238;&#227;&#238; &#237;&#238;&#241;&#224;, &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#242;&#229;&#225;&#255; &#237;&#224; &#231;&#229;&#236;&#235;&#255;&#245;, &#234;&#238;&#242;&#238;&#240;&#251;&#236;&#232; &#226;&#235;&#224;&#228;&#229;&#254;&#242; [OUR_CIV_SHORT].</Russian>
 		<English>I, [OUR_NAME], possessor of one of the largest and finest noses in human history, welcome you to glorious [OUR_CIV_SHORT]!</English>
 		<French>Moi, [OUR_NAME], détenteur du plus grand nez de l'histoire humaine, je vous souhaite la bienvenue chez les [OUR_CIV_SHORT:3] !</French>
 		<German>Ich, [OUR_NAME], ausgestattet mit einem der größten und schönsten Riechkolben der Menschheitsgeschichte, heiße Euch im Namen des glorreichen Volkes von [OUR_CIV_SHORT] willkommen!</German>
@@ -271,6 +304,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_DE_GAULLE_1</Tag>
+		<Russian>&#205;&#224;&#236; &#237;&#229; &#238; &#247;&#229;&#236; &#227;&#238;&#226;&#238;&#240;&#232;&#242;&#252;. &#211;&#245;&#238;&#228;&#232;&#242;&#229;.</Russian>
 		<English>There is nothing to discuss. Go away now.</English>
 		<French>Il n'y a rien à discuter. Partez !</French>
 		<German>Wir haben uns nichts zu sagen! Verschwindet!</German>
@@ -279,6 +313,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_DE_GAULLE_1</Tag>
+		<Russian>&#206;&#225; &#253;&#242;&#238;&#236; &#237;&#229; &#236;&#238;&#230;&#229;&#242; &#225;&#251;&#242;&#252; &#232; &#240;&#229;&#247;&#232;, [OUR_CIV_SHORT] &#225;&#243;&#228;&#243;&#242; &#241;&#240;&#224;&#230;&#224;&#242;&#252;&#241;&#255; &#228;&#238; &#242;&#229;&#245; &#239;&#238;&#240;, &#239;&#238;&#234;&#224; &#238;&#234;&#238;&#237;&#247;&#224;&#242;&#229;&#235;&#252;&#237;&#238; &#237;&#229; &#240;&#224;&#231;&#227;&#240;&#238;&#236;&#255;&#242; &#226;&#224;&#241;!</Russian>
 		<English>Certainly not! The honor of [OUR_CIV_SHORT] demands that this war continue until you are ground into very small bits.</English>
 		<French>Certainement pas ! L'honneur des [OUR_CIV_SHORT:3] exige que cette guerre continue jusqu'à ce que vous soyez réduits en bouillie.</French>
 		<German>Keinesfalls! Es gebührt der Ehre des Volkes von [OUR_CIV_SHORT], dass dieser Krieg fortgeführt wird, bis Ihr alle im Staub liegt!</German>
@@ -287,6 +322,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_DE_GAULLE_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#226;&#224;&#241;, [CT_NAME]. &#199;&#224;&#248;&#235;&#232; &#239;&#238;&#235;&#254;&#225;&#238;&#226;&#224;&#242;&#252;&#241;&#255; &#236;&#238;&#232;&#236; &#227;&#238;&#240;&#228;&#251;&#236; &#239;&#240;&#238;&#244;&#232;&#235;&#229;&#236;?</Russian>
 		<English>Welcome, [CT_NAME]. Have you come yet again to admire my heroic profile?</English>
 		<French>Bienvenue, [CT_NAME]. Etes-vous revenu admirer mon allure héroïque ?</French>
 		<German>Willkommen, [CT_NAME]. Seid Ihr gekommen, um ein weiteres Mal mein heldenhaftes Profil zu würdigen?</German>
@@ -295,6 +331,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_DE_GAULLE_1</Tag>
+		<Russian>&#199;&#224;&#247;&#229;&#236; &#226;&#251; &#239;&#240;&#232;&#248;&#235;&#232;, [CT_NAME]? &#223; &#237;&#229; &#241;&#238;&#225;&#232;&#240;&#224;&#254;&#241;&#252; &#242;&#240;&#224;&#242;&#232;&#242;&#252; &#237;&#224; &#226;&#224;&#241; &#241;&#226;&#238;&#229; &#226;&#240;&#229;&#236;&#255;.</Russian>
 		<English>Say what you have to say, [CT_NAME]. I have no desire to spend any more time with you than absolutely necessary.</English>
 		<French>Dites ce que vous avez à dire, [CT_NAME]. Je n'ai aucune envie de passer plus de temps que nécessaire avec vous.</French>
 		<German>Sagt, was Ihr zu sagen habt, [CT_NAME]! Ich habe nicht vor, mehr Zeit mit Euch zu vergeuden als unbedingt erforderlich!</German>
@@ -303,6 +340,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_DE_GAULLE_1</Tag>
+		<Russian>[OUR_CIV_SHORT] &#234;&#240;&#224;&#233;&#237;&#229; &#237;&#243;&#230;&#228;&#224;&#254;&#242;&#241;&#255; &#226; &#253;&#242;&#238;&#236; &#240;&#229;&#241;&#243;&#240;&#241;&#229;. &#205;&#224;&#228;&#229;&#254;&#241;&#252;, &#228;&#235;&#255; &#226;&#224;&#241; &#253;&#242;&#238; &#237;&#229; &#239;&#240;&#238;&#225;&#235;&#229;&#236;&#224;.</Russian>
 		<English>The honor of [OUR_CIV_SHORT] demands that you provide us with the following. If it isn't too much trouble, that is.</English>
 		<French>L'honneur des [OUR_CIV_SHORT:3] exige que vous nous donniez ceci. Si ce n'est pas trop vous demander, bien sûr.</French>
 		<German>Es gebührt der Ehre des Volkes von [OUR_CIV_SHORT], dass Ihr uns gebt, wonach wir verlangen. Natürlich nur, wenn es Euch nicht allzu viele Umstände macht ...</German>
@@ -311,6 +349,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_DE_GAULLE_1</Tag>
+		<Russian>&#204;&#251;, [OUR_CIV_SHORT], &#242;&#240;&#229;&#225;&#243;&#229;&#236;, &#247;&#242;&#238;&#225;&#251; &#226;&#251; &#239;&#240;&#229;&#228;&#238;&#241;&#242;&#224;&#226;&#232;&#235;&#232; &#237;&#224;&#236; &#253;&#242;&#238;&#242; &#240;&#229;&#241;&#243;&#240;&#241;. &#206;&#242;&#227;&#238;&#226;&#238;&#240;&#234;&#232; &#237;&#229; &#239;&#240;&#232;&#237;&#232;&#236;&#224;&#254;&#242;&#241;&#255;.</Russian>
 		<English>The honor of [OUR_CIV_SHORT] demands that you provide us with the following. We really mean it this time.</English>
 		<French>L'honneur des [OUR_CIV_SHORT:3] exige que vous nous donniez ceci. Et on ne plaisante pas, cette fois.</French>
 		<German>Es gebührt der Ehre des Volkes von [OUR_CIV_SHORT], dass Ihr uns Tribut zollt. Diesmal ist es uns ernst damit!</German>
@@ -319,6 +358,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_DE_GAULLE_1</Tag>
+		<Russian>&#204;&#251;, [OUR_CIV_SHORT], &#242;&#240;&#229;&#225;&#243;&#229;&#236;, &#247;&#242;&#238;&#225;&#251; &#226;&#251; &#239;&#240;&#229;&#228;&#238;&#241;&#242;&#224;&#226;&#232;&#235;&#232; &#237;&#224;&#236; &#253;&#242;&#238;&#242; &#240;&#229;&#241;&#243;&#240;&#241; - &#232;&#235;&#232; &#226;&#224;&#248;&#224; &#228;&#229;&#240;&#230;&#224;&#226;&#224; &#225;&#243;&#228;&#229;&#242; &#240;&#224;&#231;&#240;&#243;&#248;&#229;&#237;&#224;.</Russian>
 		<English>The honor of [OUR_CIV_SHORT] demands that you provide us with the following. Or we'll destroy you.</English>
 		<French>L'honneur des [OUR_CIV_SHORT:3] exige que vous nous donniez ceci. Sinon, nous vous anéantirons.</French>
 		<German>Es gebührt der Ehre des Volkes von [OUR_CIV_SHORT], dass Ihr uns dies hier überlasst. Andernfalls werden wir Euch vernichten müssen!</German>
@@ -327,6 +367,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PERICLES_1</Tag>
+		<Russian>&#194;&#224;&#241; &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;&#242; [OUR_CIV_SHORT], &#239;&#240;&#224;&#240;&#238;&#228;&#232;&#242;&#229;&#235;&#232; &#246;&#232;&#226;&#232;&#235;&#232;&#231;&#224;&#246;&#232;&#232;! &#204;&#238;&#229; &#232;&#236;&#255; [OUR_NAME]. &#215;&#242;&#238; [CT_CIV_ADJ] &#232;&#249;&#243;&#242; &#226; &#237;&#224;&#248;&#232;&#245; &#224;&#226;&#227;&#243;&#241;&#242;&#229;&#233;&#248;&#232;&#245; &#226;&#235;&#224;&#228;&#229;&#237;&#232;&#255;&#245;?</Russian>
 		<English>As the leader of ancient [OUR_CIV_SHORT], father and mother of all that is civilized, I, [OUR_NAME], welcome the leader of the upstart [CT_CIV_ADJ] people into my august presence.</English>
 		<French>En tant que chef des vénérables [OUR_CIV_SHORT:3], père et mère de tout ce qui est civilisé, moi, [OUR_NAME], daigne accepter le chef des présomptueux [CT_CIV_ADJ:3] en mon auguste présence</French>
 		<German>Als Staatsoberhaupt des alten Volkes von [OUR_CIV_SHORT], dessen Ahnen bereits zivilisiert waren, heiße ich, [OUR_NAME], das Staatsoberhaupt des aufstrebenden [CT_CIV_ADJ:2] Volkes in meiner erhabenen Pracht willkommen.</German>
@@ -335,6 +376,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_PERICLES_1</Tag>
+		<Russian>&#205;&#229;&#242;!</Russian>
 		<English>No!</English>
 		<French>Non !</French>
 		<German>Nein!</German>
@@ -343,6 +385,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_PERICLES_1</Tag>
+		<Russian>&#204;&#232;&#240;? &#205;&#229; &#239;&#240;&#232;&#234;&#232;&#228;&#251;&#226;&#224;&#233;&#242;&#229;&#241;&#252;. &#205;&#229; &#236;&#238;&#230;&#229;&#242; &#225;&#251;&#242;&#252; &#237;&#232;&#234;&#224;&#234;&#238;&#227;&#238; &#236;&#232;&#240;&#224; &#236;&#229;&#230;&#228;&#243; &#237;&#224;&#236;&#232; &#232; &#226;&#224;&#240;&#226;&#224;&#240;&#224;&#236;&#232;.</Russian>
 		<English>Peace? Don't be foolish. There can be no peace between Civilization and Barbarian. </English>
 		<French>La paix ? Ne soyez pas ridicule. Il ne peut y avoir de paix entre des êtres civilisés et des barbares.</French>
 		<German>Frieden? Seid nicht albern! Zwischen zivilisierten Menschen und Barbaren kann es keinen Frieden geben! </German>
@@ -351,6 +394,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_PERICLES_1</Tag>
+		<Russian>&#194;&#251; &#241;&#237;&#238;&#226;&#224; &#231;&#228;&#229;&#241;&#252;, [CT_NAME]? &#207;&#240;&#229;&#234;&#240;&#224;&#241;&#237;&#238;! &#207;&#240;&#232;&#241;&#255;&#228;&#229;&#236; &#231;&#228;&#229;&#241;&#252;, &#237;&#224; &#225;&#240;&#229;&#226;&#237;&#251;&#248;&#234;&#229;, &#232; &#238;&#225;&#241;&#243;&#228;&#232;&#236; "&#204;&#229;&#242;&#224;&#244;&#232;&#231;&#232;&#234;&#243;" &#192;&#240;&#232;&#241;&#242;&#238;&#242;&#229;&#235;&#255;, &#229;&#241;&#235;&#232; &#226;&#251; &#237;&#229; &#239;&#240;&#238;&#242;&#232;&#226;.</Russian>
 		<English>Have you come again, [CT_NAME]? Wonderful! Let us sit on a log and debate Aristotelian Metaphysics until bedtime, shall we?</English>
 		<French>Vous revoilà, [CT_NAME] ? Merveilleux ! Asseyons-nous sur un rondin et débattons de métaphysique aristotélicienne, voulez-vous ?</French>
 		<German>Ihr besucht uns erneut, [CT_NAME]? Wunderbar! Lasst uns Platz nehmen und über die Metaphysik des Aristoteles diskutieren, bis es Schlafenszeit ist, in Ordnung?</German>
@@ -359,6 +403,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_PERICLES_1</Tag>
+		<Russian>&#195;&#238;&#226;&#238;&#240;&#232;&#242;&#229; &#225;&#251;&#241;&#242;&#240;&#229;&#229;.</Russian>
 		<English>Well? Out with it!</English>
 		<French>Alors ? Parlez !</French>
 		<German>Nun? Raus damit!</German>
@@ -367,6 +412,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_PERICLES_1</Tag>
+		<Russian>&#204;&#238;&#227;&#243;&#249;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#251;&#229; [OUR_CIV_SHORT] &#245;&#238;&#242;&#255;&#242;, &#247;&#242;&#238;&#225;&#251; &#232;&#245; &#226;&#229;&#240;&#237;&#251;&#229; &#241;&#238;&#254;&#231;&#237;&#232;&#234;&#232; [CT_CIV_SHORT] &#239;&#240;&#238;&#255;&#226;&#232;&#235;&#232; &#241;&#226;&#238;&#229; &#228;&#240;&#243;&#230;&#229;&#235;&#254;&#225;&#232;&#229;.</Russian>
 		<English>Mighty [OUR_CIV_SHORT] requests a small token of friendship from its faithful ally, [CT_CIV_SHORT]. </English>
 		<French>Les puissants [OUR_CIV_SHORT:3] exigent un petit gage d'amitié de leurs loyaux alliés [CT_CIV_SHORT:3]. </French>
 		<German>Das mächtige Volk von [OUR_CIV_SHORT] fordert eine kleine Geste der Freundschaft von seinen treuen Verbündeten, den Bürgern von [CT_CIV_SHORT]. </German>
@@ -375,6 +421,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_PERICLES_1</Tag>
+		<Russian>&#194;&#238;&#232;&#241;&#242;&#232;&#237;&#243;, &#225;&#235;&#224;&#227;&#238;&#240;&#238;&#228;&#237;&#251;&#233; &#239;&#240;&#224;&#226;&#232;&#242;&#229;&#235;&#252; &#239;&#240;&#229;&#228;&#238;&#241;&#242;&#224;&#226;&#232;&#242; &#237;&#224;&#236; &#242;&#238;, &#238; &#247;&#229;&#236; &#236;&#251; &#239;&#240;&#238;&#241;&#232;&#236;. &#205;&#229; &#242;&#224;&#234; &#235;&#232;, [CT_NAME]? </Russian>
 		<English>A truly civilized leader would give us what we want, [CT_NAME]? </English>
 		<French>Un chef véritablement civilisé nous offrirait ce que nous voulons, [CT_NAME].</French>
 		<German>Ein wahrhaft zivilisiertes Staatsoberhaupt würde uns geben, was wir verlangen, [CT_NAME]. </German>
@@ -383,6 +430,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PERICLES_1</Tag>
+		<Russian>&#193;&#238;&#233;&#242;&#229;&#241;&#252; &#227;&#240;&#229;&#234;&#238;&#226;, &#228;&#224;&#240;&#251; &#239;&#240;&#238;&#241;&#255;&#249;&#232;&#245;, [CT_NAME].</Russian>
 		<English>Beware of Greeks demanding gifts, [CT_NAME]. </English>
 		<French>Ne prenez pas les exigences des Grecs à la légère, [CT_NAME].</French>
 		<German>Nehmt Euch vor Griechen in Acht, die Geschenke von Euch fordern, [CT_NAME]! </German>
@@ -391,6 +439,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_CHARLEMAGNE_1</Tag>
+		<Russian>&#196;&#224; &#225;&#235;&#224;&#227;&#238;&#241;&#235;&#238;&#226;&#255;&#242; &#226;&#224;&#241; &#237;&#229;&#225;&#229;&#241;&#224;, [CT_NAME]! [OUR_NAME] &#232; &#227;&#238;&#240;&#228;&#251;&#229; [OUR_CIV_ADJ] &#240;&#224;&#228;&#251; &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#238;&#226;&#224;&#242;&#252; &#226;&#224;&#241;.</Russian>
 		<English>May the blessings of Heaven be upon you, [CT_NAME]. I, [OUR_NAME], leader of the puissant [OUR_CIV_ADJ] people, welcome you to our mighty empire.</English>
 		<French>Que les cieux vous bénissent, [CT_NAME] ! Moi, [OUR_NAME], chef des puissants [OUR_CIV_ADJ:3] vous souhaite la bienvenue dans notre grand empire.</French>
 		<German>Möge der Himmel Euch segnen, [CT_NAME]! Ich, [OUR_NAME], Staatsoberhaupt des überragenden [OUR_CIV_ADJ:2] Volkes, heiße Euch in unserem prachtvollen Reich willkommen.</German>
@@ -399,6 +448,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_CHARLEMAGNE_1</Tag>
+		<Russian>&#211;&#225;&#232;&#240;&#224;&#233;&#242;&#229;&#241;&#252; &#238;&#242;&#241;&#254;&#228;&#224;, &#239;&#238;&#234;&#224; &#255; &#237;&#229; &#241;&#238;&#226;&#229;&#240;&#248;&#232;&#235; &#234;&#240;&#224;&#233;&#237;&#229; &#237;&#229;&#228;&#232;&#239;&#235;&#238;&#236;&#224;&#242;&#232;&#247;&#237;&#251;&#233; &#239;&#238;&#241;&#242;&#243;&#239;&#238;&#234;.</Russian>
 		<English>Get out of my sight before I do something extremely undiplomatic.</English>
 		<French>Hors de ma vue, avant que je ne fasse quelque chose d'extrêmement peu diplomatique.</French>
 		<German>Geht mir aus den Augen, bevor ich mich zu etwas gänzlich Undiplomatischem hinreißen lasse!</German>
@@ -407,6 +457,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_CHARLEMAGNE_1</Tag>
+		<Russian>&#204;&#232;&#240;? &#205;&#243; &#237;&#229;&#242;, &#234;&#235;&#255;&#237;&#243;&#241;&#252; &#241;&#226;&#238;&#232;&#236; &#228;&#226;&#238;&#233;&#237;&#251;&#236; &#239;&#238;&#228;&#225;&#238;&#240;&#238;&#228;&#234;&#238;&#236;!</Russian>
 		<English>Peace? Not by the hair on my chinny-chin-chin!</English>
 		<French>La paix ? Par ma barbe, jamais !</French>
 		<German>Frieden? Bei meinem Barthaar: Auf keinen Fall!</German>
@@ -415,6 +466,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_CHARLEMAGNE_1</Tag>
+		<Russian>&#204;&#251; &#236;&#232;&#235;&#238;&#241;&#242;&#232;&#226;&#238; &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#229;&#236; &#241;&#235;&#224;&#226;&#237;&#238;&#227;&#238; &#239;&#240;&#224;&#226;&#232;&#242;&#229;&#235;&#255;. &#215;&#242;&#238; [OUR_CIV_SHORT] &#245;&#238;&#242;&#255;&#242; &#238;&#242; &#237;&#224;&#241;?</Russian>
 		<English>We graciously welcome the mighty leader of [OUR_CIV_SHORT] to our presence.</English>
 		<French>Nous accueillons gracieusement le puissant chef des [OUR_CIV_SHORT:3] parmi nous.</French>
 		<German>Wir heißen das mächtige Staatsoberhaupt des Volkes von [OUR_CIV_SHORT] gnädigerweise willkommen.</German>
@@ -423,6 +475,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_CHARLEMAGNE_1</Tag>
+		<Russian>&#215;&#242;&#238; &#242;&#229;&#225;&#229; &#237;&#224;&#228;&#238;, &#236;&#238;&#248;&#229;&#237;&#237;&#232;&#234;?</Russian>
 		<English>What do YOU want, knave?</English>
 		<French>Que voulez-vous, manant ?</French>
 		<German>Was wollt IHR denn, Gauner?</German>
@@ -431,6 +484,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_CHARLEMAGNE_1</Tag>
+		<Russian>&#207;&#238;&#228;&#229;&#235;&#232;&#242;&#229;&#241;&#252; &#241;&#226;&#238;&#232;&#236;&#232; &#225;&#238;&#227;&#224;&#242;&#241;&#242;&#226;&#224;&#236;&#232;!</Russian>
 		<English>Share the wealth a little, willya?</English>
 		<French>Je veux ma part du gâteau.</French>
 		<German>Lasst uns doch nur ein wenig an Eurem Wohlstand teilhaben ... bitte?</German>
@@ -439,6 +493,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_CHARLEMAGNE_1</Tag>
+		<Russian>&#204;&#237;&#229; &#234;&#224;&#230;&#229;&#242;&#241;&#255;, [CT_CIV_SHORT] &#228;&#238;&#235;&#230;&#237;&#251; &#239;&#238;&#235;&#243;&#247;&#232;&#242;&#252; &#238;&#242; &#226;&#224;&#241; &#253;&#242;&#238;&#242; &#239;&#238;&#228;&#224;&#240;&#238;&#234;.</Russian>
 		<English>I believe that you'll find it in [CT_CIV_SHORT]'s best interest to supply us with the following.</English>
 		<French>Vous comprendrez aisément qu'il est dans l'intérêt des [CT_CIV_SHORT:3] de nous donner ceci.</French>
 		<German>Ich denke, es wäre im besten Interesse des Volkes von [CT_CIV_SHORT], uns Tribut zu zollen, findet Ihr nicht auch?</German>
@@ -447,6 +502,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_CHARLEMAGNE_1</Tag>
+		<Russian>&#196;&#224;&#233;&#242;&#229; &#237;&#224;&#236; &#242;&#238;, &#247;&#242;&#238; &#236;&#251; &#242;&#240;&#229;&#225;&#243;&#229;&#236;, &#232;, &#226;&#238;&#231;&#236;&#238;&#230;&#237;&#238;, &#226;&#224;&#248;&#229; &#255;&#231;&#251;&#247;&#229;&#241;&#234;&#238;&#229; &#239;&#235;&#229;&#236;&#255; &#239;&#240;&#238;&#241;&#243;&#249;&#229;&#241;&#242;&#226;&#243;&#229;&#242; &#229;&#249;&#229; &#234;&#224;&#234;&#238;&#229;-&#242;&#238; &#226;&#240;&#229;&#236;&#255;.</Russian>
 		<English>Give us what we want and perhaps your heathenish empire will survive another day. Perhaps...</English>
 		<French>Donnez-nous ce que nous voulons et nous laisserons votre empire barbare survivre un jour de plus. Enfin, peut-être...</French>
 		<German>Wenn Ihr uns gebt, was wir verlangen, wird Euer heidnisches Volk möglicherweise noch eine Weile überdauern. Möglicherweise ...</German>
@@ -455,6 +511,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SURYAVARMAN_1</Tag>
+		<Russian>&#208;&#224;&#228; &#226;&#241;&#242;&#240;&#229;&#247;&#229;, [CT_NAME]! &#223; &#245;&#238;&#247;&#243;, &#247;&#242;&#238;&#225;&#251; &#237;&#224;&#248;&#232; &#226;&#229;&#235;&#232;&#234;&#232;&#229; &#237;&#224;&#240;&#238;&#228;&#251; &#228;&#238;&#235;&#227;&#232;&#229; &#227;&#238;&#228;&#251; &#230;&#232;&#235;&#232; &#226; &#241;&#238;&#227;&#235;&#224;&#241;&#232;&#232;!</Russian>
 		<English>I am pleased to meet you, [CT_NAME], and I look forward to many years of peace and friendship between our two great nations.</English>
 		<French>Je suis ravi de vous rencontrer, [CT_NAME], et je me réjouis à l'idée de longues années de paix et d'amitié entre nous.</French>
 		<German>Ich freue mich, Euch zu sehen, [CT_NAME], und ich freue mich auch auf viele zukünftige Jahre des Friedens und der Freundschaft zwischen unseren großen Nationen.</German>
@@ -463,6 +520,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SURYAVARMAN_1</Tag>
+		<Russian>&#207;&#240;&#238;&#247;&#252;, &#226;&#224;&#240;&#226;&#224;&#240;&#241;&#234;&#224;&#255; &#241;&#238;&#225;&#224;&#234;&#224;!</Russian>
 		<English>Leave me alone, you barbarian cur!</English>
 		<French>Laissez-moi tranquille, sale barbare !</French>
 		<German>Lasst mich in Ruhe, barbarischer Abschaum!</German>
@@ -471,6 +529,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_SURYAVARMAN_1</Tag>
+		<Russian>&#204;&#251; &#237;&#229; &#231;&#224;&#234;&#235;&#254;&#247;&#224;&#229;&#236; &#236;&#232;&#240;&#224; &#241; &#226;&#224;&#240;&#226;&#224;&#240;&#224;&#236;&#232;.</Russian>
 		<English>We do not make peace with barbarians.</English>
 		<French>Nous ne faisons pas la paix avec les barbares.</French>
 		<German>Wir schließen keinen Frieden mit Barbaren!</German>
@@ -479,6 +538,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SURYAVARMAN_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#226;&#224;&#241;, &#228;&#240;&#243;&#230;&#232;&#249;&#229;! &#205;&#224;&#236; &#237;&#243;&#230;&#237;&#238; &#238;&#225;&#241;&#243;&#228;&#232;&#242;&#252; &#236;&#237;&#238;&#230;&#229;&#241;&#242;&#226;&#238; &#240;&#224;&#231;&#237;&#251;&#245; &#226;&#229;&#249;&#229;&#233;. &#211;&#227;&#238;&#249;&#224;&#233;&#242;&#229;&#241;&#252; &#236;&#224;&#237;&#227;&#238;!</Russian>
 		<English>Welcome, my friend! Let us discuss many things. Here: have a mango.</English>
 		<French>Bienvenue, mon ami ! Discutons un instant. Tenez, prenez une mangue.</French>
 		<German>Ich grüße Euch in Freundschaft! Lasst uns doch ein wenig plaudern. Hier, kostet eine Mango!</German>
@@ -487,6 +547,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SURYAVARMAN_1</Tag>
+		<Russian>&#196;&#224;?</Russian>
 		<English>Well?</English>
 		<French>Eh bien ?</French>
 		<German>Nun?</German>
@@ -495,6 +556,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SURYAVARMAN_1</Tag>
+		<Russian>[CT_NAME], [OUR_CIV_ADJ] &#237;&#243;&#230;&#228;&#224;&#254;&#242;&#241;&#255; &#226; &#226;&#224;&#248;&#229;&#233; &#239;&#238;&#236;&#238;&#249;&#232;. &#223; &#237;&#224;&#228;&#229;&#254;&#241;&#252;, &#226;&#251; &#237;&#229; &#240;&#224;&#231;&#238;&#247;&#224;&#240;&#243;&#229;&#242;&#229; &#232;&#245;.</Russian>
 		<English>The [OUR_CIV_ADJ] people could use your assistance, [CT_NAME]. I trust that you won't disappoint them.</English>
 		<French>Les [OUR_CIV_ADJ:3] ont besoin de votre aide, [CT_NAME]. J'espère que vous ne les décevrez pas.</French>
 		<German>Das [OUR_CIV_ADJ:3] Volk könnte Eure Hilfe gebrauchen, [CT_NAME]. Ihr werdet es doch sicher nicht enttäuschen wollen ...</German>
@@ -503,6 +565,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SURYAVARMAN_1</Tag>
+		<Russian>&#207;&#238;&#228;&#229;&#235;&#232;&#242;&#229;&#241;&#252; &#241; &#237;&#224;&#236;&#232; &#241;&#226;&#238;&#232;&#236;&#232; &#225;&#238;&#227;&#224;&#242;&#241;&#242;&#226;&#224;&#236;&#232;!</Russian>
 		<English>Share the wealth, Baby?</English>
 		<French>On se partage le butin, mon pote ?</French>
 		<German>Seid Ihr bereit, Euren Reichtum zu teilen?</German>
@@ -511,6 +574,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SURYAVARMAN_1</Tag>
+		<Russian>&#199;&#224;&#239;&#235;&#224;&#242;&#232;&#242;&#229; &#237;&#224;&#236; &#241;&#229;&#227;&#238;&#228;&#237;&#255;, &#232;&#235;&#232; &#231;&#224;&#226;&#242;&#240;&#224; &#239;&#240;&#238;&#235;&#252;&#229;&#242;&#241;&#255; &#226;&#224;&#248;&#224; &#234;&#240;&#238;&#226;&#252;.</Russian>
 		<English>You may pay us in treasure today or in blood tomorrow. I strongly recommend the former.</English>
 		<French>Vous avez le choix entre nous payer en or aujourd'hui ou en sang demain. Je vous recommande fortement la première option.</French>
 		<German>Ihr habt die Wahl: Überschüttet uns heute mit Reichtümern oder zahlt morgen mit Eurem Blut. Ich persönlich würde Euch eindringlich zu Ersterem raten ...</German>
@@ -519,6 +583,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_PACAL_1</Tag>
+		<Russian>&#204;&#238;&#227;&#243;&#249;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#251;&#229; [OUR_CIV_SHORT] &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;&#242; &#226;&#224;&#241;, [CT_NAME]. &#198;&#232;&#226;&#232;&#242;&#229; &#241; &#237;&#224;&#236;&#232; &#226; &#236;&#232;&#240;&#229;, &#232; &#226;&#251; &#225;&#243;&#228;&#229;&#242;&#229; &#239;&#240;&#238;&#246;&#226;&#229;&#242;&#224;&#242;&#252;. &#205;&#224;&#239;&#224;&#228;&#229;&#242;&#229; &#237;&#224; &#237;&#224;&#241; - &#232; &#234;&#240;&#238;&#226;&#252; &#226;&#224;&#248;&#232;&#245; &#226;&#238;&#232;&#237;&#238;&#226; &#239;&#240;&#238;&#235;&#252;&#229;&#242;&#241;&#255; &#237;&#224; &#237;&#224;&#248;&#232;&#245; &#224;&#235;&#242;&#224;&#240;&#255;&#245;!</Russian>
 		<English>I greet you, [CT_NAME]. [OUR_CIV_SHORT] is mighty - deal with us fairly and you will prosper. Attack us and our temples will run red with the blood of your warriors!</English>
 		<French>Je vous salue, [CT_NAME]. Les [OUR_CIV_SHORT:3] sont puissants. Agissez loyalement avec nous et vous prospèrerez. Attaquez-nous et le sang de vos guerriers teindra en rouge les façades de nos temples !</French>
 		<German>Ich grüße Euch, [CT_NAME]. Das Volk von [OUR_CIV_SHORT] ist mächtig - behandelt uns fair, dann soll es Euer Schaden nicht sein. Solltet Ihr uns jedoch angreifen, werden wir unsere Tempel mit dem Blut Eurer Krieger tränken!</German>
@@ -527,6 +592,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_PACAL_1</Tag>
+		<Russian>&#205;&#229;&#242;! &#194;&#251; &#237;&#229;&#228;&#238;&#241;&#242;&#238;&#233;&#237;&#251; &#240;&#224;&#231;&#227;&#238;&#226;&#238;&#240;&#224;.</Russian>
 		<English>No! I am far too important to speak with you!</English>
 		<French>Non ! Je suis bien trop important pour parler avec vous !</French>
 		<German>Nein! Ich bin eine viel zu bedeutende Persönlichkeit, als dass ich mich mit Euch abgeben würde!</German>
@@ -535,6 +601,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_PACAL_1</Tag>
+		<Russian>&#204;&#232;&#240;? &#209;&#229;&#233;&#247;&#224;&#241;? &#194;&#251;, &#228;&#238;&#235;&#230;&#237;&#238; &#225;&#251;&#242;&#252;, &#248;&#243;&#242;&#232;&#242;&#229;.</Russian>
 		<English>Peace now? You've got to be kidding me!</English>
 		<French>La paix maintenant ? Vous rigolez ?</French>
 		<German>Frieden? Jetzt? Das soll wohl ein Witz sein!</German>
@@ -543,6 +610,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_PACAL_1</Tag>
+		<Russian>[CT_NAME], &#255; &#240;&#224;&#228; &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#238;&#226;&#224;&#242;&#252; &#241;&#226;&#238;&#229;&#227;&#238; &#241;&#238;&#254;&#231;&#237;&#232;&#234;&#224;. &#215;&#242;&#238; &#231;&#224; &#239;&#238;&#228;&#224;&#240;&#238;&#234; &#226;&#251; &#239;&#240;&#229;&#239;&#238;&#228;&#237;&#229;&#241;&#229;&#242;&#229; &#237;&#224;&#236; &#241;&#229;&#227;&#238;&#228;&#237;&#255;?</Russian>
 		<English>I greet my friend and almost equal, [CT_NAME]. And what present shall you give us today?</English>
 		<French>Je salue mon ami et quasi égal, [CT_NAME]. Alors, qu'allez-vous nous offrir aujourd'hui ?</French>
 		<German>Ich grüße Euch in Freundschaft und als nahezu ebenbürtiges Staatsoberhaupt, [CT_NAME]. Und? Womit wollt Ihr uns heute erfreuen?</German>
@@ -551,6 +619,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_PACAL_1</Tag>
+		<Russian>&#194;&#251; &#239;&#240;&#232;&#248;&#235;&#232; &#239;&#238;&#234;&#235;&#238;&#237;&#232;&#242;&#252;&#241;&#255; &#237;&#224;&#236;? &#205;&#243; &#247;&#242;&#238; &#230;, &#239;&#240;&#232;&#241;&#242;&#243;&#239;&#224;&#233;&#242;&#229;.</Russian>
 		<English>Come to grovel at our feet, eh? Well, go ahead.</English>
 		<French>Venu ramper à nos pieds, hein ? Bon, je vous écoute.</French>
 		<German>Seid Ihr gekommen, um vor uns zu kriechen? Nun denn, nur zu!</German>
@@ -559,6 +628,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_PACAL_1</Tag>
+		<Russian>[CT_NAME], &#226;&#238;&#233;&#237;&#243; &#236;&#229;&#230;&#228;&#243; &#237;&#224;&#248;&#232;&#236;&#232; &#226;&#229;&#235;&#232;&#234;&#232;&#236;&#232; &#227;&#238;&#241;&#243;&#228;&#224;&#240;&#241;&#242;&#226;&#224;&#236;&#232; &#241;&#235;&#229;&#228;&#243;&#229;&#242; &#239;&#240;&#229;&#228;&#238;&#242;&#226;&#240;&#224;&#242;&#232;&#242;&#252; &#235;&#254;&#225;&#238;&#233; &#246;&#229;&#237;&#238;&#233;, &#226;&#229;&#240;&#237;&#238;? &#210;&#238;&#227;&#228;&#224; &#239;&#235;&#224;&#242;&#232;&#242;&#229;.</Russian>
 		<English>[CT_NAME], a war between our two great people is to be avoided at all costs, wouldn't you agree? So pay up.</English>
 		<French>[CT_NAME], la guerre entre nos deux grandes nations doit à tout prix être évitée, vous ne croyez pas ? Alors, payez !</French>
 		<German>Es ist doch sicher auch in Eurem Sinne, einen Krieg zwischen unseren Völkern zu vermeiden, nicht wahr, [CT_NAME]? Also, her damit!</German>
@@ -567,6 +637,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_PACAL_1</Tag>
+		<Russian>&#197;&#228;&#232;&#237;&#241;&#242;&#226;&#229;&#237;&#237;&#238;&#229;, &#247;&#242;&#238; &#239;&#238;&#236;&#238;&#230;&#229;&#242; &#226;&#224;&#236; &#232;&#231;&#225;&#229;&#230;&#224;&#242;&#252; &#227;&#232;&#225;&#229;&#235;&#232; - &#253;&#242;&#238; &#243;&#239;&#235;&#224;&#242;&#224; &#228;&#224;&#237;&#232;.</Russian>
 		<English>Giving us what we want is the only way to avoid immediate destruction. Pay up.</English>
 		<French>Donnez-nous ce que nous voulons. C'est le seul moyen d'éviter l'anéantissement immédiat. Payez !</French>
 		<German>Der einzige Weg, Eure sofortige Vernichtung zu verhindern, ist, unsere Forderung zu erfüllen. Also, her damit!</German>
@@ -575,6 +646,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PACAL_1</Tag>
+		<Russian>&#196;&#224;&#233;&#242;&#229; &#237;&#224;&#236; &#242;&#238;, &#247;&#242;&#238; &#236;&#251; &#239;&#240;&#238;&#241;&#232;&#236;, &#232;&#235;&#232; &#243;&#236;&#240;&#232;&#242;&#229;.</Russian>
 		<English>Give us what we want or die.</English>
 		<French>Donnez-nous ce que nous voulons ou mourez !</French>
 		<German>Gebt uns, wonach wir verlangen, oder sterbt!</German>
@@ -583,6 +655,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SITTING_BULL_1</Tag>
+		<Russian>&#194;&#229;&#235;&#232;&#234;&#232;&#229; [OUR_CIV_ADJ] &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;&#242; &#226;&#224;&#241;, [CT_NAME]. &#204;&#238;&#227;&#243; &#235;&#232; &#255; &#239;&#240;&#229;&#228;&#235;&#238;&#230;&#232;&#242;&#252; &#226;&#224;&#236; &#242;&#240;&#243;&#225;&#234;&#243; &#236;&#232;&#240;&#224;?</Russian>
 		<English>The great [OUR_CIV_ADJ] people welcome you, [CT_NAME]. Would it be politically correct to offer you a peace-pipe?</English>
 		<French>Les puissants [OUR_CIV_ADJ:3] vous souhaitent la bienvenue, [CT_NAME]. Serait-il politiquement correct de vous offrir un calumet de la paix ?</French>
 		<German>Das großartige [OUR_CIV_ADJ:3] Volk heißt Euch willkommen, [CT_NAME]. Wäre es politisch korrekt, Euch die Friedenspfeife anzubieten?</German>
@@ -591,6 +664,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SITTING_BULL_1</Tag>
+		<Russian>&#223; &#237;&#229; &#240;&#224;&#231;&#227;&#238;&#226;&#224;&#240;&#232;&#226;&#224;&#254; &#241; &#235;&#230;&#229;&#246;&#224;&#236;&#232;. &#192; &#242;&#229;&#239;&#229;&#240;&#252; &#243;&#225;&#232;&#240;&#224;&#233;&#241;&#255;.</Russian>
 		<English>I don't speak with liars. Now scram.</English>
 		<French>Je ne parle pas aux menteurs. Maintenant, filez !</French>
 		<German>Ich gebe mich nicht mit Lügnern ab! Und jetzt verschwindet!</German>
@@ -599,6 +673,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_SITTING_BULL_1</Tag>
+		<Russian>&#194;&#238;&#233;&#237;&#224; &#231;&#224;&#234;&#238;&#237;&#247;&#232;&#242;&#241;&#255;, &#242;&#238;&#235;&#252;&#234;&#238; &#234;&#238;&#227;&#228;&#224; &#255; &#240;&#229;&#248;&#243; &#229;&#229; &#239;&#240;&#229;&#234;&#240;&#224;&#242;&#232;&#242;&#252;, &#232; &#237;&#232; &#236;&#227;&#237;&#238;&#226;&#229;&#237;&#232;&#229;&#236; &#240;&#224;&#237;&#252;&#248;&#229;.</Russian>
 		<English>This war will end when I decide it will end, and not a moment before.</English>
 		<French>Cette guerre prendra fin quand je le déciderai et pas avant.</French>
 		<German>Dieser Krieg wird erst enden, wenn ich es sage, und nicht einen Augenblick früher!</German>
@@ -607,6 +682,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SITTING_BULL_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#226;&#224;&#241;, &#236;&#238;&#233; &#228;&#240;&#243;&#227;! &#194;&#251; &#228;&#229;&#233;&#241;&#242;&#226;&#232;&#242;&#229;&#235;&#252;&#237;&#238; &#236;&#243;&#228;&#240;&#251;, &#229;&#241;&#235;&#232; &#232;&#249;&#229;&#242;&#229; &#236;&#238;&#229;&#227;&#238; &#241;&#238;&#226;&#229;&#242;&#224;.</Russian>
 		<English>Welcome, my friend! You are indeed wise to seek the council of your betters.</English>
 		<French>Bienvenue, mon ami ! Je vous félicite d'avoir eu la sagesse de chercher conseil auprès de civilisations plus évoluées.</French>
 		<German>Willkommen! Ihr seid in der Tat gut beraten, Euch mit jenen, die Euch überlegen sind, gutzustellen.</German>
@@ -615,6 +691,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SITTING_BULL_1</Tag>
+		<Russian>&#196;&#243;&#236;&#224;&#229;&#242;&#229;, &#226;&#224;&#236; &#229;&#241;&#242;&#252; &#247;&#229;&#236; &#236;&#229;&#237;&#255; &#231;&#224;&#232;&#237;&#242;&#229;&#240;&#229;&#241;&#238;&#226;&#224;&#242;&#252;?</Russian>
 		<English>What could you possibly say that would be of even the slightest interest to me?</English>
 		<French>Que pourriez-vous dire qui soit du moindre intérêt pour moi ?</French>
 		<German>Was könntet Ihr mir schon zu bieten haben?</German>
@@ -623,6 +700,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SITTING_BULL_1</Tag>
+		<Russian>&#194;&#251; &#226;&#229;&#228;&#252; &#227;&#238;&#242;&#238;&#226;&#251; &#239;&#238;&#228;&#229;&#235;&#232;&#242;&#252;&#241;&#255; &#241;&#226;&#238;&#232;&#236; &#225;&#238;&#227;&#224;&#242;&#241;&#242;&#226;&#238;&#236; &#241; &#228;&#238;&#225;&#240;&#251;&#236;&#232; &#228;&#240;&#243;&#231;&#252;&#255;&#236;&#232; &#232; &#241;&#238;&#254;&#231;&#237;&#232;&#234;&#224;&#236;&#232;, [CT_NAME]?</Russian>
 		<English>Would you care to share some of your wealth with your good friends and allies, [CT_NAME]?</English>
 		<French>Voudriez-vous partager votre richesse avec vos amis et alliés, [CT_NAME] ?</French>
 		<German>Wärt Ihr bereit, Euren Wohlstand mit guten Freunden und verlässlichen Verbündeten zu teilen, [CT_NAME]?</German>
@@ -631,6 +709,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SITTING_BULL_1</Tag>
+		<Russian>&#208;&#224;&#228;&#232; &#239;&#240;&#238;&#228;&#238;&#235;&#230;&#229;&#237;&#232;&#255; &#228;&#240;&#243;&#230;&#225;&#251; &#236;&#229;&#230;&#228;&#243; &#237;&#224;&#248;&#232;&#236;&#232; &#226;&#229;&#235;&#232;&#234;&#232;&#236;&#232; &#237;&#224;&#240;&#238;&#228;&#224;&#236;&#232; &#255; &#242;&#240;&#229;&#225;&#243;&#254; &#238;&#242; &#226;&#224;&#241; &#253;&#242;&#238;&#242; &#228;&#224;&#240;.</Russian>
 		<English>For the sake of the continued friendship between our two great peoples, I request the following token of appreciation.</English>
 		<French>Au nom de l'amitié qui lie nos grands peuples, j'exige que vous nous donniez ceci en gage d'estime. </French>
 		<German>Zum Wohle der fortgesetzten Freundschaft unserer großartigen Völker fordere ich ein Zeichen Eurer Anerkennung!</German>
@@ -639,6 +718,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SITTING_BULL_1</Tag>
+		<Russian>&#203;&#232;&#248;&#224;&#242;&#252; &#227;&#238;&#235;&#238;&#228;&#237;&#238;&#227;&#238; &#236;&#229;&#228;&#226;&#229;&#228;&#255; &#229;&#227;&#238; &#231;&#224;&#234;&#238;&#237;&#237;&#238;&#233; &#228;&#238;&#225;&#251;&#247;&#232; &#237;&#229;&#243;&#236;&#237;&#238;, [CT_NAME]. &#206;&#247;&#229;&#237;&#252; &#226;&#229;&#240;&#238;&#255;&#242;&#237;&#238;, &#247;&#242;&#238; &#238;&#237; &#237;&#224;&#225;&#240;&#238;&#241;&#232;&#242;&#241;&#255; &#237;&#224; &#226;&#224;&#241;.</Russian>
 		<English>It is unwise to deny a hungry bear its food, [CT_NAME]. You're liable to get mauled.</English>
 		<French>Il n'est pas sage de priver de nourriture un ours affamé, [CT_NAME]. Vous risquez de vous faire déchiqueter. </French>
 		<German>Es wäre nicht besonders klug, einem hungrigen Bär sein Futter zu verweigern, [CT_NAME]. Ihr würdet Euch nur selbst schaden.</German>
@@ -647,6 +727,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_WILLEM_VAN_ORANJE_1</Tag>
+		<Russian>&#194;&#241;&#242;&#240;&#229;&#242;&#232;&#242;&#252;&#241;&#255; &#241; &#226;&#224;&#236;&#232; - &#247;&#229;&#241;&#242;&#252; &#228;&#235;&#255; &#236;&#229;&#237;&#255;, [CT_NAME]. &#205;&#224;&#228;&#229;&#254;&#241;&#252;, &#237;&#224;&#248;&#232; &#226;&#229;&#235;&#232;&#234;&#232;&#229; &#237;&#224;&#240;&#238;&#228;&#251; &#225;&#243;&#228;&#243;&#242; &#230;&#232;&#242;&#252; &#226; &#236;&#232;&#240;&#229; &#232; &#228;&#240;&#243;&#230;&#225;&#229;.</Russian>
 		<English>I am honored to meet you, [CT_NAME]. I hope that our two nations will be able to live in peace and friendship.</English>
 		<French>Je suis honoré de vous rencontrer, [CT_NAME]. J'espère que nos deux nations seront capables de vivre dans la paix et l'amitié.</French>
 		<German>Es ist mir eine Ehre, [CT_NAME]. Ich hoffe, es wird Friede und Freundschaft zwischen unseren Völkern herrschen.</German>
@@ -655,6 +736,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_WILLEM_VAN_ORANJE_1</Tag>
+		<Russian>&#205;&#229;&#242;!</Russian>
 		<English>No!</English>
 		<French>Non !</French>
 		<German>Nein!</German>
@@ -663,6 +745,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_WILLEM_VAN_ORANJE_1</Tag>
+		<Russian>&#205;&#229;&#242;, &#237;&#232; &#231;&#224; &#247;&#242;&#238;! &#194;&#238;&#233;&#237;&#224; &#225;&#243;&#228;&#229;&#242; &#239;&#240;&#238;&#228;&#238;&#235;&#230;&#224;&#242;&#252;&#241;&#255; &#228;&#238; &#242;&#229;&#245; &#239;&#238;&#240;, &#239;&#238;&#234;&#224; &#236;&#251; &#237;&#229; &#238;&#228;&#229;&#240;&#230;&#232;&#236; &#239;&#238;&#225;&#229;&#228;&#243;.</Russian>
 		<English>Certainly not. The war will continue until we have achieved total victory.</English>
 		<French>Certainement pas. La guerre continuera jusqu'à la victoire totale.</French>
 		<German>Auf keinen Fall! Der Krieg wird so lange fortgeführt, bis wir den vollständigen Sieg erzielt haben!</German>
@@ -671,6 +754,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WILLEM_VAN_ORANJE_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#226;&#224;&#241;, [CT_NAME]. &#211; &#236;&#229;&#237;&#255; &#226;&#241;&#229;&#227;&#228;&#224; &#229;&#241;&#242;&#252; &#226;&#240;&#229;&#236;&#255; &#228;&#235;&#255; &#228;&#240;&#243;&#231;&#229;&#233; &#232; &#241;&#238;&#254;&#231;&#237;&#232;&#234;&#238;&#226;.</Russian>
 		<English>Welcome, [CT_NAME]. I can always spare a few moments to converse with friends and allies.</English>
 		<French>Bienvenue, [CT_NAME]. Je suis toujours disponible pour discuter avec mes amis et alliés.</French>
 		<German>Willkommen, [CT_NAME]. Für Freunde und Verbündete habe ich doch immer ein paar Minuten Zeit.</German>
@@ -679,6 +763,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WILLEM_VAN_ORANJE_1</Tag>
+		<Russian>&#223; &#241;&#235;&#243;&#248;&#224;&#254;.</Russian>
 		<English>I'm listening.</English>
 		<French>Je vous écoute.</French>
 		<German>Ich höre!</German>
@@ -687,6 +772,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WILLEM_VAN_ORANJE_1</Tag>
+		<Russian>&#194;&#251; &#237;&#229; &#236;&#238;&#227;&#235;&#232; &#225;&#251; &#239;&#238;&#228;&#229;&#235;&#232;&#242;&#252;&#241;&#255; &#241; &#237;&#224;&#236;&#232; &#234;&#238;&#229;-&#247;&#229;&#236;, [CT_NAME]? &#204;&#251; &#225;&#251;&#235;&#232; &#225;&#251; &#247;&#240;&#229;&#231;&#226;&#251;&#247;&#224;&#233;&#237;&#238; &#225;&#235;&#224;&#227;&#238;&#228;&#224;&#240;&#237;&#251; &#226;&#224;&#236;.</Russian>
 		<English>Can you spare us this, [CT_NAME]? I would be extremely grateful for your assistance.</English>
 		<French>Pouvez-vous nous donner ceci, [CT_NAME] ? Je vous serais extrêmement reconnaissant de votre aide.</French>
 		<German>Könnt Ihr das hier erübrigen, [CT_NAME]? Ich wäre Euch wirklich außerordentlich verbunden.</German>
@@ -695,6 +781,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WILLEM_VAN_ORANJE_1</Tag>
+		<Russian>&#204;&#251; &#241;&#247;&#232;&#242;&#224;&#229;&#236;, &#226;&#251; &#238;&#225;&#255;&#231;&#224;&#237;&#251; &#239;&#240;&#229;&#228;&#238;&#241;&#242;&#224;&#226;&#232;&#242;&#252; &#237;&#224;&#236; &#242;&#238;, &#247;&#242;&#238; &#237;&#224;&#236; &#237;&#243;&#230;&#237;&#238;. &#221;&#242;&#238; &#229;&#228;&#232;&#237;&#241;&#242;&#226;&#229;&#237;&#237;&#238; &#226;&#229;&#240;&#237;&#251;&#233; &#245;&#238;&#228;, [CT_NAME]!</Russian>
 		<English>It would be diplomatically expedient to give us what we want, [CT_NAME]?</English>
 		<French>Il serait diplomatiquement opportun de nous donner ce que nous voulons, [CT_NAME].</French>
 		<German>Es wäre in diplomatischer Hinsicht durchaus angebracht, unsere Forderung zu erfüllen, [CT_NAME].</German>
@@ -703,6 +790,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WILLEM_VAN_ORANJE_1</Tag>
+		<Russian>&#205;&#224;&#241;&#242;&#224;&#235;&#238; &#226;&#240;&#229;&#236;&#255; &#239;&#235;&#224;&#242;&#232;&#242;&#252; &#239;&#238; &#241;&#247;&#229;&#242;&#224;&#236;, [CT_NAME].</Russian>
 		<English>Time to pay the piper, [CT_NAME].</English>
 		<French>Il est temps de payer l'ardoise, [CT_NAME].</French>
 		<German>Zeit, die Zeche zu zahlen, [CT_NAME].</German>
@@ -711,6 +799,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_SULEIMAN_1</Tag>
+		<Russian>&#202;&#224;&#234;&#224;&#255; &#239;&#240;&#232;&#255;&#242;&#237;&#224;&#255; &#226;&#241;&#242;&#240;&#229;&#247;&#224;, [CT_NAME]! &#223; - [OUR_NAME] &#194;&#229;&#235;&#232;&#234;&#238;&#235;&#229;&#239;&#237;&#251;&#233;. &#208;&#224;&#241;&#239;&#238;&#235;&#224;&#227;&#224;&#233;&#242;&#229;&#241;&#252; &#226; &#242;&#229;&#237;&#232; &#236;&#238;&#229;&#233; &#241;&#235;&#224;&#226;&#251;, &#237;&#224;&#236; &#229;&#241;&#242;&#252; &#247;&#242;&#238; &#238;&#225;&#241;&#243;&#228;&#232;&#242;&#252;.</Russian>
 		<English>Well met, [CT_NAME]! I am [OUR_NAME] the Magnificent. Come - sit and bathe in my glory while we discuss many things.</English>
 		<French>Ravi de vous rencontrer, [CT_NAME] ! Je suis [OUR_NAME] le Magnifique. Asseyez-vous à mes côtés pour baigner dans ma gloire.</French>
 		<German>Wohlan, [CT_NAME]! Ich bin [OUR_NAME], auch Euer Prächtigkeit genannt. Kommt, setzt Euch und sonnt Euch in meinem Glanze, während wir ein paar Dinge besprechen.</German>
@@ -719,6 +808,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_SULEIMAN_1</Tag>
+		<Russian>&#196;&#224;&#230;&#229; &#237;&#229; &#237;&#224;&#228;&#229;&#233;&#242;&#229;&#241;&#252;.</Russian>
 		<English>Not a chance.</English>
 		<French>Aucune chance.</French>
 		<German>Keine Chance!</German>
@@ -727,6 +817,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_SULEIMAN_1</Tag>
+		<Russian>&#194; &#228;&#224;&#237;&#237;&#251;&#233; &#236;&#238;&#236;&#229;&#237;&#242; &#253;&#242;&#238; &#225;&#251;&#235;&#238; &#225;&#251; &#237;&#229;&#240;&#224;&#231;&#243;&#236;&#237;&#238;. &#194;&#238;&#233;&#237;&#224; &#228;&#238; &#239;&#238;&#225;&#229;&#228;&#237;&#238;&#227;&#238; &#234;&#238;&#237;&#246;&#224;!</Russian>
 		<English>That would be unwise at the moment. The war shall continue.</English>
 		<French>Ce ne serait pas avisé pour le moment. La guerre continuera.</French>
 		<German>Das wäre gegenwärtig unklug. Der Krieg wird fortgesetzt!</German>
@@ -735,6 +826,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SULEIMAN_1</Tag>
+		<Russian>&#204;&#238;&#233; &#228;&#226;&#238;&#240;&#229;&#246; &#226;&#241;&#229;&#227;&#228;&#224; &#238;&#242;&#234;&#240;&#251;&#242; &#228;&#235;&#255; &#226;&#224;&#241;, [CT_NAME]. &#204;&#243;&#228;&#240;&#251;&#229; &#232; &#249;&#229;&#228;&#240;&#251;&#229; [CT_CIV_SHORT] - &#237;&#224;&#248;&#232; &#230;&#229;&#235;&#224;&#237;&#237;&#251;&#229; &#227;&#238;&#241;&#242;&#232;.</Russian>
 		<English>My palace is always open to you, [CT_NAME], oh wise and generous leader of [CT_CIV_SHORT].</English>
 		<French>Mon palais vous est toujours ouvert, [CT_NAME], ô sage et généreux chef des [CT_CIV_SHORT:3].</French>
 		<German>Mein Palast steht Euch immer offen, [CT_NAME], weises und großzügiges Staatsoberhaupt von [CT_CIV_SHORT].</German>
@@ -743,6 +835,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SULEIMAN_1</Tag>
+		<Russian>&#205;&#243; &#247;&#242;&#238; &#242;&#224;&#236; &#229;&#249;&#229;? &#204;&#237;&#229; &#239;&#240;&#238;&#242;&#232;&#226;&#237;&#238; &#227;&#235;&#255;&#228;&#229;&#242;&#252; &#237;&#224; &#226;&#224;&#241;!</Russian>
 		<English>Well? Get on with it! Every moment that I spend gazing upon your wizened visage is painful to me.</English>
 		<French>Eh bien ? Parlez ! Chaque moment que je passe à contempler votre visage ratatiné m'est affreusement pénible.</French>
 		<German>Nun? Redet schon! Jeder Augenblick, den ich Eure schrumpelige Visage betrachten muss, ist mir ein Gräuel!</German>
@@ -751,6 +844,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SULEIMAN_1</Tag>
+		<Russian>[OUR_CIV_SHORT] &#242;&#224;&#234; &#237;&#243;&#230;&#228;&#224;&#254;&#242;&#241;&#255; &#226; &#253;&#242;&#238;&#236; &#237;&#229;&#225;&#238;&#235;&#252;&#248;&#238;&#236; &#231;&#237;&#224;&#234;&#229; &#243;&#226;&#224;&#230;&#229;&#237;&#232;&#255;, [CT_NAME].</Russian>
 		<English>Would you care to give [OUR_CIV_SHORT] a small token of your affection, [CT_NAME]?</English>
 		<French>Auriez-vous l'obligeance d'offrir aux [OUR_CIV_SHORT:3] un petit gage de votre affection, [CT_NAME] ?</French>
 		<German>Was haltet Ihr davon, die Bürger von [OUR_CIV_SHORT] mit einer Geste der Ehrerbietung zu erfreuen, [CT_NAME]?</German>
@@ -759,6 +853,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SULEIMAN_1</Tag>
+		<Russian>&#209;&#235;&#224;&#225;&#251;&#229; &#228;&#229;&#240;&#230;&#224;&#226;&#251; &#228;&#238;&#235;&#230;&#237;&#251; &#239;&#240;&#229;&#239;&#238;&#228;&#237;&#238;&#241;&#232;&#242;&#252; &#228;&#224;&#240;&#251; &#242;&#229;&#236;, &#234;&#242;&#238; &#239;&#240;&#229;&#226;&#231;&#238;&#248;&#229;&#235; &#232;&#245;. &#205;&#229; &#242;&#224;&#234; &#235;&#232;?</Russian>
 		<English>It is wise for inferior cultures to shower their betters with gifts, don't you think?</English>
 		<French>Vous ne trouvez pas qu'il est sage de couvrir de cadeaux les civilisations supérieures ?</French>
 		<German>Unterlegene Kulturen sind gut beraten, die ihnen überlegenen Völker zu beschenken, findet Ihr nicht auch?</German>
@@ -767,6 +862,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SULEIMAN_1</Tag>
+		<Russian>&#205;&#224;&#248;&#229; &#239;&#238;&#234;&#240;&#238;&#226;&#232;&#242;&#229;&#235;&#252;&#241;&#242;&#226;&#238; &#241;&#242;&#238;&#232;&#242; &#228;&#229;&#237;&#229;&#227;, [CT_NAME]. &#207;&#235;&#224;&#242;&#232;&#242;&#229; &#232;&#235;&#232; &#239;&#238;&#230;&#224;&#235;&#229;&#229;&#242;&#229;!</Russian>
 		<English>Our protection comes at a price, [CT_NAME]. Pay up or suffer the consequences.</English>
 		<French>Notre protection a un prix, [CT_NAME]. Payez ou vous en subirez les conséquences.</French>
 		<German>Unser Schutz ist nicht umsonst zu haben, [CT_NAME]! Also zahlt oder tragt die Konsequenzen!</German>
@@ -775,6 +871,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_DARIUS_1</Tag>
+		<Russian>&#223;, [OUR_NAME], &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254; &#226;&#224;&#241;, [CT_NAME]. &#215;&#242;&#238; [CT_CIV_SHORT] &#236;&#238;&#227;&#243;&#242; &#237;&#224;&#236; &#239;&#240;&#229;&#228;&#235;&#238;&#230;&#232;&#242;&#252;?</Russian>
 		<English>I, [OUR_NAME], welcome [CT_NAME], ruler of the upstart nation of [CT_CIV_SHORT].</English>
 		<French>Moi, [OUR_NAME], souhaite la bienvenue à [CT_NAME], chef de la présomptueuse nation des [CT_CIV_SHORT:3].</French>
 		<German>Ich, [OUR_NAME], heiße Euch willkommen, [CT_NAME], Staatsoberhaupt des aufstrebenden Volkes von [CT_CIV_SHORT].</German>
@@ -783,6 +880,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_DARIUS_1</Tag>
+		<Russian>&#223; &#237;&#229; &#241;&#238;&#225;&#232;&#240;&#224;&#254;&#241;&#252; &#240;&#224;&#231;&#227;&#238;&#226;&#224;&#240;&#232;&#226;&#224;&#242;&#252; &#241; &#226;&#224;&#236;&#232;!</Russian>
 		<English>I will not speak with you!</English>
 		<French>Je ne veux pas vous parler !</French>
 		<German>Ich werde nicht mit Euch reden!</German>
@@ -791,6 +889,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_DARIUS_1</Tag>
+		<Russian>&#207;&#240;&#229;&#241;&#236;&#251;&#234;&#224;&#233;&#242;&#229;&#241;&#252; &#241;&#234;&#238;&#235;&#252;&#234;&#238; &#243;&#227;&#238;&#228;&#237;&#238;, [CT_NAME]. &#221;&#242;&#238; &#237;&#229; &#241;&#239;&#224;&#241;&#229;&#242; &#226;&#224;&#248;&#243; &#230;&#224;&#235;&#234;&#243;&#254; &#228;&#229;&#240;&#230;&#224;&#226;&#243; &#238;&#242; &#240;&#224;&#231;&#240;&#243;&#248;&#229;&#237;&#232;&#255;!</Russian>
 		<English>Grovel all you want, [CT_NAME]. It will not save your pitiful people from their destruction!</English>
 		<French>Suppliez-moi tant que vous voulez, [CT_NAME]. Je ne sauverai pas votre misérable peuple de l'anéantissement !</French>
 		<German>Kriecht so viel vor mir herum, wie Ihr wollt, [CT_NAME], doch das wird Euer erbärmliches Volk auch nicht vor der Vernichtung bewahren!</German>
@@ -799,6 +898,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_DARIUS_1</Tag>
+		<Russian>&#206;, &#241;&#237;&#238;&#226;&#224; &#226;&#251;. &#215;&#242;&#238; &#241;&#235;&#243;&#247;&#232;&#235;&#238;&#241;&#252;?</Russian>
 		<English>Back again, eh? What is it this time?</English>
 		<French>Vous revoilà, hein ? Qu'est-ce qu'il y a encore ?</French>
 		<German>Schon wieder Ihr? Nun, worum geht es diesmal?</German>
@@ -807,6 +907,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_DARIUS_1</Tag>
+		<Russian>&#202;&#224;&#234;&#232;&#236; &#226;&#229;&#242;&#240;&#238;&#236; &#226;&#224;&#241; &#241;&#254;&#228;&#224; &#231;&#224;&#237;&#229;&#241;&#235;&#238;?</Russian>
 		<English>Well look what the goat dragged in.</English>
 		<French>Tiens, tiens, regardez qui voilà...</French>
 		<German>Sieh einer an, wer da hereingeschneit kommt!</German>
@@ -815,6 +916,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_DARIUS_1</Tag>
+		<Russian>&#205;&#224;&#236; &#237;&#243;&#230;&#237;&#238; &#253;&#242;&#238;, &#237;&#229;&#236;&#229;&#228;&#235;&#229;&#237;&#237;&#238;. &#199;&#224;&#240;&#224;&#237;&#229;&#229; &#225;&#235;&#224;&#227;&#238;&#228;&#224;&#240;&#254; &#231;&#224; &#239;&#238;&#236;&#238;&#249;&#252;.</Russian>
 		<English>We need this. Now. Thank you for your cooperation.</English>
 		<French>On a besoin de ça. Immédiatement. Merci de votre coopération.</French>
 		<German>Das ist unsere Forderung und wir verlangen sofortige Erfüllung! Danke für Eure Kooperation!</German>
@@ -823,6 +925,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_DARIUS_1</Tag>
+		<Russian>&#194;&#251; &#228;&#238;&#235;&#230;&#237;&#251; &#239;&#240;&#229;&#228;&#238;&#241;&#242;&#224;&#226;&#232;&#242;&#252; &#237;&#224;&#236; &#242;&#238;, &#247;&#242;&#238; &#237;&#224;&#236; &#237;&#243;&#230;&#237;&#238;, [CT_NAME]. &#206;&#242; &#253;&#242;&#238;&#227;&#238; &#231;&#224;&#226;&#232;&#241;&#232;&#242; &#225;&#235;&#224;&#227;&#238;&#239;&#238;&#235;&#243;&#247;&#232;&#229; &#226;&#224;&#248;&#229;&#227;&#238; &#237;&#224;&#240;&#238;&#228;&#224;.</Russian>
 		<English>You should give us what we want, [CT_NAME] - your people's future depends upon it.</English>
 		<French>Vous devriez nous donner ce que nous voulons, [CT_NAME], l'avenir de votre peuple en dépend</French>
 		<German>Ihr solltet unsere Forderung erfüllen, [CT_NAME] - denn damit werdet Ihr über die Zukunft Eures Volkes entscheiden!</German>
@@ -831,6 +934,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_DARIUS_1</Tag>
+		<Russian>&#204;&#237;&#229; &#237;&#243;&#230;&#237;&#251; &#242;&#226;&#238;&#232; &#241;&#238;&#234;&#240;&#238;&#226;&#232;&#249;&#224;, [CT_NAME]! &#207;&#238;&#242;&#238;&#240;&#238;&#239;&#232;&#241;&#252;, &#232;&#235;&#232; &#239;&#238;&#230;&#224;&#235;&#229;&#229;&#248;&#252; &#238; &#239;&#238;&#241;&#235;&#229;&#228;&#241;&#242;&#226;&#232;&#255;&#245;.</Russian>
 		<English>I'm all about the bling, [CT_NAME]. Hand it over or suffer the consequences.</English>
 		<French>Je ne crois qu'à l'argent, [CT_NAME]. Payez ou vous en subirez les conséquences.</French>
 		<German>Ich stehe auf Glitzerzeug, [CT_NAME], also überlasst uns Eure Wertsachen oder tragt die Konsequenzen!</German>
@@ -839,6 +943,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_JOAO_1</Tag>
+		<Russian>&#207;&#238;&#231;&#228;&#240;&#224;&#226;&#235;&#255;&#254;, [CT_NAME]! &#205;&#224;&#234;&#238;&#237;&#229;&#246;-&#242;&#238; &#236;&#251; &#226;&#241;&#242;&#240;&#229;&#242;&#232;&#235;&#232;&#241;&#252;!</Russian>
 		<English>Congratulations, [CT_NAME]! At last your explorations have led you to me!</English>
 		<French>Félicitations, [CT_NAME] ! Vos explorations vous ont enfin conduit jusqu'à moi !</French>
 		<German>Ich gratuliere, [CT_NAME]! Endlich haben Euch Eure Erkundungsreisen zu mir geführt!</German>
@@ -847,6 +952,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_JOAO_1</Tag>
+		<Russian>&#207;&#240;&#238;&#247;&#252; &#238;&#242;&#241;&#254;&#228;&#224;!</Russian>
 		<English>Go away, you vile person!</English>
 		<French>Disparaissez, scélérat !</French>
 		<German>Hinfort, niederträchtige Person!</German>
@@ -855,6 +961,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_JOAO_1</Tag>
+		<Russian>&#207;&#238;&#234;&#224; [CT_CIV_ADJ] &#237;&#229; &#243;&#237;&#232;&#247;&#242;&#238;&#230;&#229;&#237;&#251;, &#236;&#232;&#240;&#224; &#237;&#229; &#225;&#243;&#228;&#229;&#242;!</Russian>
 		<English>Not while there are still so many [CT_CIV_ADJ] warriors to slaughter!</English>
 		<French>Pas tant qu'il reste tant de guerriers [CT_CIV_ADJ:3] à massacrer !</French>
 		<German>Nicht, solange es noch so viele [CT_CIV_ADJ:3] Krieger niederzumetzeln gibt!</German>
@@ -863,6 +970,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JOAO_1</Tag>
+		<Russian>&#208;&#224;&#228; &#239;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#238;&#226;&#224;&#242;&#252; &#226;&#224;&#241;!</Russian>
 		<English>I greet you with effusive ebullience, my good friend.</English>
 		<French>Je vous souhaite chaleureusement la bienvenue, mon bon ami.</French>
 		<German>Ich grüße Euch mit Überschwang und in Freundschaft.</German>
@@ -871,6 +979,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JOAO_1</Tag>
+		<Russian>&#215;&#242;&#238; &#237;&#224; &#253;&#242;&#238;&#242; &#240;&#224;&#231;?</Russian>
 		<English>What now?</English>
 		<French>Quoi encore ?</French>
 		<German>Was wollt Ihr nun schon wieder?</German>
@@ -879,6 +988,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_JOAO_1</Tag>
+		<Russian>[CT_NAME], [OUR_CIV_SHORT] &#237;&#243;&#230;&#228;&#224;&#254;&#242;&#241;&#255; &#226; &#226;&#224;&#248;&#229;&#233; &#239;&#238;&#236;&#238;&#249;&#232;. &#205;&#224;&#228;&#229;&#254;&#241;&#252;, &#253;&#242;&#238; &#226;&#224;&#241; &#237;&#229; &#231;&#224;&#242;&#240;&#243;&#228;&#237;&#232;&#242;.</Russian>
 		<English>If it pleases you, [CT_NAME], [OUR_CIV_SHORT] could use a little assistance.</English>
 		<French>Si vous n'y voyez aucun inconvénient, [CT_NAME], les [OUR_CIV_SHORT:3] auraient besoin d'aide.</French>
 		<German>Wenn Ihr die Güte hättet, [CT_NAME]: Das Volk von [OUR_CIV_SHORT] könnte ein wenig Unterstützung gebrauchen.</German>
@@ -887,6 +997,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_JOAO_1</Tag>
+		<Russian>&#205;&#224;&#236; &#237;&#243;&#230;&#237;&#224; &#226;&#224;&#248;&#224; &#239;&#238;&#236;&#238;&#249;&#252;, [CT_NAME]. &#194;&#251; &#236;&#238;&#230;&#229;&#242;&#229; &#239;&#238;&#228;&#229;&#235;&#232;&#242;&#252;&#241;&#255; &#241; &#237;&#224;&#236;&#232;?</Russian>
 		<English>We could use your aid, [CT_NAME]. Can you spare us this?</English>
 		<French>Nous aurions besoin de votre aide, [CT_NAME]. Pourriez-vous nous donner ceci ?</French>
 		<German>Wir könnten Eure Hilfe brauchen, [CT_NAME]. Seid Ihr einverstanden?</German>
@@ -895,6 +1006,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JOAO_1</Tag>
+		<Russian>[CT_NAME], &#238;&#242; &#242;&#224;&#234;&#238;&#227;&#238; &#239;&#240;&#229;&#228;&#235;&#238;&#230;&#229;&#237;&#232;&#255; &#237;&#229;&#226;&#238;&#231;&#236;&#238;&#230;&#237;&#238; &#238;&#242;&#234;&#224;&#231;&#224;&#242;&#252;&#241;&#255;..</Russian>
 		<English>[CT_NAME], I'm making you an offer you can't refuse.</English>
 		<French>[CT_NAME], je vais vous faire une offre que vous ne pourrez pas refuser.</French>
 		<German>Ich mache Euch ein Angebot, das Ihr nicht ablehnen könnt, [CT_NAME].</German>
@@ -903,6 +1015,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_GILGAMESH_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;! &#223; [OUR_NAME], &#225;&#238;&#230;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#251;&#233; &#239;&#240;&#224;&#226;&#232;&#242;&#229;&#235;&#252; &#241;&#226;&#238;&#229;&#227;&#238; &#237;&#224;&#240;&#238;&#228;&#224;. &#215;&#242;&#238; [OUR_CIV_SHORT] &#236;&#238;&#227;&#243;&#242; &#238;&#230;&#232;&#228;&#224;&#242;&#252; &#238;&#242; &#242;&#229;&#225;&#255;?</Russian>
 		<English>Welcome, puny mortal. I am [OUR_NAME], divine leader of [OUR_CIV_SHORT]. How can you assist me?</English>
 		<French>Bienvenue, misérable mortel. Je suis [OUR_NAME], divin chef des [OUR_CIV_SHORT:3]. Que pouvez-vous faire pour moi ?</French>
 		<German>Willkommen, sterbliches Wesen. Ich bin [OUR_NAME], gottgleiches Staatsoberhaupt des Volkes von [OUR_CIV_SHORT]. Was könnt Ihr für mich tun?</German>
@@ -911,6 +1024,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_GILGAMESH_1</Tag>
+		<Russian>&#210;&#226;&#238;&#232; &#236;&#238;&#235;&#252;&#225;&#251; &#238;&#241;&#242;&#224;&#237;&#243;&#242;&#241;&#255; &#225;&#229;&#231; &#238;&#242;&#226;&#229;&#242;&#224;.</Russian>
 		<English>No! Your prayers will remain unanswered!</English>
 		<French>Non ! Vos prières resteront sans réponse !</French>
 		<German>Nein! Eure Gebete werden nicht erhört!</German>
@@ -919,6 +1033,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_GILGAMESH_1</Tag>
+		<Russian>&#194;&#238;&#233;&#237;&#224; &#225;&#243;&#228;&#229;&#242; &#239;&#240;&#238;&#228;&#238;&#235;&#230;&#224;&#242;&#252;&#241;&#255; &#228;&#238; &#242;&#229;&#245; &#239;&#238;&#240;, &#239;&#238;&#234;&#224; &#255; &#237;&#229; &#243;&#242;&#238;&#235;&#254; &#241;&#226;&#238;&#254; &#225;&#238;&#230;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#243;&#254; &#230;&#224;&#230;&#228;&#243; &#234;&#240;&#238;&#226;&#232;!</Russian>
 		<English>This war will continue until my divine bloodlust is completely sated.</English>
 		<French>Cette guerre continuera jusqu'à ce que ma soif de sang soit totalement étanchée.</French>
 		<German>Dieser Krieg wird so lange dauern, bis es meinen göttlichen Gaumen nicht mehr nach Blut dürstet!</German>
@@ -927,6 +1042,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_GILGAMESH_1</Tag>
+		<Russian>&#205;&#229;&#225;&#229;&#241;&#224; &#239;&#238;&#236;&#238;&#227;&#235;&#232; &#242;&#229;&#225;&#229; &#226;&#237;&#238;&#226;&#252; &#238;&#234;&#224;&#231;&#224;&#242;&#252;&#241;&#255; &#226; &#236;&#238;&#232;&#245; &#225;&#238;&#230;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#251;&#245; &#247;&#229;&#240;&#242;&#238;&#227;&#224;&#245;, [CT_NAME]. &#210;&#251; &#239;&#240;&#232;&#237;&#229;&#241; &#239;&#238;&#228;&#237;&#238;&#248;&#229;&#237;&#232;&#255;?</Russian>
 		<English>You are truly blessed to come once more into my divine presence, [CT_NAME]. I assume that you've brought gifts?</English>
 		<French>Vous avez vraiment de la chance d'être une nouvelle fois en ma divine présence, [CT_NAME]. J'imagine que vous avez amené des cadeaux ?</French>
 		<German>Ihr seid wahrhaft gesegnet, dass Ihr Euch erneut in meinem göttlichen Glanz sonnen dürft, [CT_NAME]. Ich nehme an, Ihr habt angemessene Geschenke dabei?</German>
@@ -935,6 +1051,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_GILGAMESH_1</Tag>
+		<Russian>&#195;&#238;&#226;&#238;&#240;&#232; &#225;&#251;&#241;&#242;&#240;&#238;, &#239;&#238;&#234;&#224; &#247;&#224;&#248;&#224; &#236;&#238;&#229;&#227;&#238; &#225;&#238;&#230;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#238;&#227;&#238; &#242;&#229;&#240;&#239;&#229;&#237;&#232;&#255; &#237;&#229; &#239;&#229;&#240;&#229;&#239;&#238;&#235;&#237;&#232;&#235;&#224;&#241;&#252;!</Russian>
 		<English>Speak quickly before I open a big old can of divine wrath on you, false one!</English>
 		<French>Parlez vite, avant que je ne vous foudroie de ma colère divine, scélérat !</French>
 		<German>Redet, bevor ich die Geduld mit Euch falscher Schlange verliere!</German>
@@ -943,6 +1060,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_GILGAMESH_1</Tag>
+		<Russian>[CT_NAME], &#239;&#238;&#240;&#238;&#233; &#228;&#224;&#230;&#229; &#241;&#235;&#224;&#225;&#238;&#240;&#224;&#231;&#226;&#232;&#242;&#251;&#229; &#237;&#224;&#240;&#238;&#228;&#251; &#236;&#238;&#227;&#243;&#242; &#239;&#238;&#236;&#238;&#247;&#252; &#226;&#229;&#235;&#232;&#234;&#232;&#236; &#228;&#229;&#240;&#230;&#224;&#226;&#224;&#236;. &#202;&#241;&#242;&#224;&#242;&#232;, &#241;&#229;&#233;&#247;&#224;&#241; [OUR_CIV_SHORT] &#234;&#238;&#229; &#226; &#247;&#229;&#236; &#237;&#243;&#230;&#228;&#224;&#254;&#242;&#241;&#255;...</Russian>
 		<English>Even the most inferior culture may have something to contribute to [OUR_CIV_SHORT]'s greatness, [CT_NAME]. For example:</English>
 		<French>Même les civilisations les plus primitives peuvent détenir quelque chose susceptible de contribuer à la grandeur des [OUR_CIV_SHORT], [CT_NAME]. Par exemple :</French>
 		<German>Selbst die mickrigste Kultur besitzt etwas, was sie dem großen Volk von [OUR_CIV_SHORT] überlassen kann, [CT_NAME]. Zum Beispiel das hier:</German>
@@ -951,6 +1069,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_GILGAMESH_1</Tag>
+		<Russian>&#208;&#229;&#248;&#224;&#233; &#241;&#234;&#238;&#240;&#229;&#229;, [CT_NAME], &#228;&#238;&#227;&#238;&#226;&#238;&#240;&#232;&#236;&#241;&#255; &#236;&#251; &#236;&#232;&#240;&#238;&#236; &#232;&#235;&#232; &#237;&#229;&#242;.</Russian>
 		<English>Decide now, [CT_NAME]: deal, or no deal.</English>
 		<French>Décidez-vous, [CT_NAME] : on fait affaire, oui ou non ?</French>
 		<German>Entscheidet Euch, [CT_NAME]: Ja oder Nein!</German>
@@ -959,6 +1078,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_GILGAMESH_1</Tag>
+		<Russian>&#197;&#241;&#235;&#232; &#242;&#251; &#230;&#229;&#235;&#224;&#229;&#248;&#252; &#228;&#238;&#225;&#240;&#224; &#241;&#226;&#238;&#229;&#233; &#237;&#232;&#247;&#242;&#238;&#230;&#237;&#238;&#233; &#228;&#229;&#240;&#230;&#224;&#226;&#229;, &#237;&#224;&#241;&#242;&#238;&#255;&#242;&#229;&#235;&#252;&#237;&#238; &#240;&#229;&#234;&#238;&#236;&#229;&#237;&#228;&#243;&#254; &#226;&#251;&#241;&#235;&#224;&#242;&#252; &#237;&#224;&#236; &#253;&#242;&#238;&#242; &#237;&#229;&#225;&#238;&#235;&#252;&#248;&#238;&#233; &#228;&#224;&#240;.</Russian>
 		<English>If you wish for your puny civilization to survive, I urge you to make a small donation to us. Immediately.</English>
 		<French>Si vous souhaitez que votre pitoyable civilisation survive, je vous conseille de nous faire une modeste donation. Immédiatement.</French>
 		<German>Wenn Euch am Überleben Eurer armseligen Zivilisation gelegen ist, solltet Ihr uns schleunigst Tribut zollen. Sofort!</German>
@@ -967,6 +1087,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_FIRST_CONTACT_LEADER_BOUDICA_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;, [CT_NAME]! &#204;&#238;&#227;&#243;&#249;&#229;&#241;&#242;&#226;&#229;&#237;&#237;&#251;&#229; [OUR_CIV_SHORT] &#245;&#238;&#242;&#255;&#242; &#230;&#232;&#242;&#252; &#226; &#236;&#232;&#240;&#229; &#241; &#226;&#224;&#248;&#229;&#233; &#241;&#235;&#224;&#225;&#238;&#233; &#228;&#229;&#240;&#230;&#224;&#226;&#238;&#233;. &#196;&#238; &#239;&#238;&#240;&#251; &#228;&#238; &#226;&#240;&#229;&#236;&#229;&#237;&#232;...</Russian>
 		<English>Welcome, [CT_NAME]! Mighty [OUR_CIV_SHORT] seeks peace with your weak little civilization. For the moment, that is.</English>
 		<French>Bienvenue, [CT_NAME] ! Les puissants [OUR_CIV_SHORT:3] veulent la paix avec votre misérable civilisation. Enfin, pour l'instant.</French>
 		<German>Willkommen, [CT_NAME]! Das mächtige Volk von [OUR_CIV_SHORT] wünscht friedvolle Beziehungen zu Eurer bedauernswerten Nation. Zumindest für den Augenblick ...</German>
@@ -975,6 +1096,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_REFUSE_TO_TALK_LEADER_BOUDICA_1</Tag>
+		<Russian>&#207;&#240;&#238;&#247;&#252;, &#239;&#238;&#234;&#224; &#255; &#237;&#229; &#241;&#234;&#238;&#240;&#236;&#232;&#235;&#224; &#226;&#224;&#241; &#241;&#226;&#238;&#232;&#236; &#225;&#224;&#240;&#241;&#243;&#234;&#224;&#236;!</Russian>
 		<English>Go away before I throw you to the badgers!</English>
 		<French>Disparaissez avant que je vous jette aux blaireaux !</French>
 		<German>Hinfort, bevor ich Euch einkerkern lasse!</German>
@@ -983,6 +1105,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_NO_PEACE_LEADER_BOUDICA_1</Tag>
+		<Russian>&#205;&#229; &#241;&#236;&#229;&#248;&#232;&#242;&#229; &#236;&#229;&#237;&#255;!</Russian>
 		<English>Don't make me laugh!</English>
 		<French>Ne me faites pas rire !</French>
 		<German>Macht Euch nicht lächerlich!</German>
@@ -991,6 +1114,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FR_LEADER_BOUDICA_1</Tag>
+		<Russian>&#207;&#240;&#232;&#226;&#229;&#242;&#241;&#242;&#226;&#243;&#254;, [CT_NAME]! &#207;&#240;&#229;&#228;&#235;&#224;&#227;&#224;&#254; &#226;&#224;&#236; &#239;&#240;&#238;&#234;&#224;&#242;&#232;&#242;&#252;&#241;&#255; &#237;&#224; &#236;&#238;&#229;&#233; &#226;&#229;&#235;&#232;&#234;&#238;&#235;&#229;&#239;&#237;&#238;&#233; &#234;&#238;&#235;&#229;&#241;&#237;&#232;&#246;&#229;, &#224; &#231;&#224;&#238;&#228;&#237;&#238; &#239;&#238;&#238;&#245;&#238;&#242;&#232;&#242;&#252;&#241;&#255; &#237;&#224; &#226;&#224;&#240;&#226;&#224;&#240;&#238;&#226;!</Russian>
 		<English>Greetings, [CT_NAME]! Let us mount my mighty chariot and hunt down some barbarians! You can ride "shotgun!"</English>
 		<French>Mes respects, [CT_NAME] ! Montons sur mon puissant char et sus aux barbares ! Mais c'est moi qui conduis !</French>
 		<German>Seid gegrüßt, [CT_NAME]! Lasst uns meinen prachtvollen Streitwagen besteigen und ein paar Barbaren jagen! Ihr dürft mein "Beifahrer" sein!</German>
@@ -999,6 +1123,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_BOUDICA_1</Tag>
+		<Russian>&#208;&#224;&#241;&#241;&#234;&#224;&#230;&#232;&#242;&#229; &#247;&#242;&#238;-&#237;&#232;&#225;&#243;&#228;&#252; &#232;&#237;&#242;&#229;&#240;&#229;&#241;&#237;&#238;&#229;.</Russian>
 		<English>Go ahead: Make my day. </English>
 		<French>Allez-y : faites-moi rire.</French>
 		<German>Nur zu: Macht mich glücklich! </German>
@@ -1007,6 +1132,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_BOUDICA_1</Tag>
+		<Russian>&#205;&#229; &#236;&#238;&#227;&#235;&#232; &#225;&#251; &#226;&#251; &#241;&#228;&#229;&#235;&#224;&#242;&#252; &#241;&#226;&#238;&#232;&#236; &#228;&#240;&#243;&#231;&#252;&#255;&#236; &#237;&#229;&#225;&#238;&#235;&#252;&#248;&#238;&#233; &#239;&#238;&#228;&#224;&#240;&#238;&#234;?</Russian>
 		<English>Could you spare your good friends a small gift?</English>
 		<French>Offririez-vous ce modeste présent à vos bons amis ?</French>
 		<German>Würdet Ihr Euren Freunden ein kleines Geschenk machen?</German>
@@ -1015,6 +1141,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_BOUDICA_1</Tag>
+		<Russian>&#196;&#224;&#233;&#242;&#229; &#237;&#224;&#236; &#242;&#238;, &#247;&#242;&#238; &#236;&#251; &#239;&#240;&#238;&#241;&#232;&#236;, [CT_NAME]. &#194;&#224;&#236; &#226;&#229;&#228;&#252; &#237;&#243;&#230;&#237;&#251; &#228;&#240;&#243;&#231;&#252;&#255;?</Russian>
 		<English>Give us this, [CT_NAME]. Frankly you need all of the friends you can get.</English>
 		<French>Donnez-nous ce que nous demandons, [CT_NAME]. Franchement, vous avez besoin de tous les amis possibles.</French>
 		<German>Schlagt ein, [CT_NAME]. Ist es nicht so, dass Ihr jeden Freund braucht, den Ihr kriegen könnt?</German>
@@ -1023,6 +1150,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_BOUDICA_1</Tag>
+		<Russian>&#207;&#235;&#224;&#242;&#232;&#242;&#229;, [CT_NAME], &#232;&#235;&#232; &#239;&#238;&#230;&#224;&#235;&#229;&#229;&#242;&#229;!</Russian>
 		<English>Give until it hurts, [CT_NAME].</English>
 		<French>Donnez-nous jusqu'à la dernière pièce de votre coffre, [CT_NAME].</French>
 		<German>Ihr solltet bereit sein, Euer Bestes zu geben, [CT_NAME].</German>

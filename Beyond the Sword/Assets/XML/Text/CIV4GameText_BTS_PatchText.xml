@@ -1,253 +1,160 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
 <Civ4GameText xmlns="http://www.firaxis.com">
-	<!-- For the "TXT_KEY_CONCEPT_BORDERS_PEDIA" entry, only the last paragraph beginning with the head "Open Borders" needs to be translated -->
+<!-- For the "TXT_KEY_CONCEPT_BORDERS_PEDIA" entry, only the last paragraph beginning with the head "Open Borders" needs to be translated -->
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_ARITITY</Tag>
+		<Russian>&#199;&#224;&#241;&#243;&#248;&#235;&#232;&#226;&#238;&#241;&#242;&#252;</Russian>
 		<English>Aridity Level</English>
-		<French>Taux d'aridité</French>
-		<German>Dürrestufe</German>
-		<Italian>Livello aridità</Italian>
-		<Spanish>Nivel de aridez</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_EARTH_70</Tag>
+		<Russian>&#199;&#229;&#236;&#235;&#255; (70%% &#226;&#238;&#228;&#251;)</Russian>
 		<English>Earthlike (70%% water)</English>
-		<French>Semblable à la Terre (70% d'eau)</French>
-		<German>Erdähnlich (70%% Wasser)</German>
-		<Italian>Simile alla Terra (70%% acqua)</Italian>
-		<Spanish>Similar a la Tierra (70%% agua)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_EARTH_60</Tag>
+		<Russian>60%% &#226;&#238;&#228;&#251;</Russian>
 		<English>60%% water</English>
-		<French>60% d'eau</French>
-		<German>60%% Wasser</German>
-		<Italian>60%% acqua</Italian>
-		<Spanish>60%% agua</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_PANGAEA</Tag>
+		<Russian>&#207;&#224;&#237;&#227;&#229;&#255;</Russian>
 		<English>Pangaea</English>
-		<French>Pangée</French>
-		<German>Pangäa</German>
-		<Italian>Pangea</Italian>
-		<Spanish>Pangea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_LAKES</Tag>
+		<Russian>&#206;&#231;&#229;&#240;&#224; (30%% &#226;&#238;&#228;&#251;)</Russian>
 		<English>Lakes (30%% water)</English>
-		<French>Lacs (30% d'eau)</French>
-		<German>Seen (30%% Wasser)</German>
-		<Italian>Laghi (30%% acqua)</Italian>
-		<Spanish>Lagos (30%% agua)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_MEDITERRANEAN</Tag>
+		<Russian>&#209;&#240;&#229;&#228;&#232;&#231;&#229;&#236;&#237;&#238;&#236;&#238;&#240;&#252;&#229;</Russian>
 		<English>Mediterranean</English>
-		<French>Méditerranéen</French>
-		<German>Mediterran</German>
-		<Italian>Mediterraneo</Italian>
-		<Spanish>Mediterráneo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_NO_ICE</Tag>
+		<Russian>&#193;&#229;&#231; &#235;&#252;&#228;&#224;</Russian>
 		<English>No ice</English>
-		<French>Pas de glace</French>
-		<German>Kein Eis</German>
-		<Italian>No ghiaccio</Italian>
-		<Spanish>Sin hielo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_WET</Tag>
+		<Russian>&#194;&#235;&#224;&#230;&#237;&#238;&#241;&#242;&#252;</Russian>
 		<English>Wet</English>
-		<French>Humide</French>
-		<German>Feucht</German>
-		<Italian>Umido</Italian>
-		<Spanish>Húmedo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ELECTION_CANCELLED</Tag>
+		<Russian>&#194;&#251;&#225;&#238;&#240;&#251; &#225;&#251;&#235;&#232; &#238;&#242;&#236;&#229;&#237;&#229;&#237;&#251;</Russian>
 		<English>The election has been cancelled</English>
-		<French>Le vote a été annulé.</French>
-		<German>Die Wahl wurde abgebrochen</German>
-		<Italian>L'elezione è stata annullata</Italian>
-		<Spanish>Se ha cancelado la elección</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_CREATION_METHOD</Tag>
+		<Russian>&#209;&#239;&#238;&#241;&#238;&#225; &#241;&#238;&#231;&#228;&#224;&#237;&#232;&#255;</Russian>
 		<English>Creation Method</English>
-		<French>Méthode de création</French>
-		<German>Erstellungsmethode</German>
-		<Italian>Metodo di creazione</Italian>
-		<Spanish>Método de creación</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_AI_START</Tag>
+		<Russian>&#205;&#224;&#247;&#232;&#237;&#224;&#229;&#242; &#234;&#238;&#236;&#239;&#252;&#254;&#242;&#229;&#240;</Russian>
 		<English>AI's Start</English>
-		<French>IA : c'est parti !</French>
-		<German>KI-Start</German>
-		<Italian>Partenza IA</Italian>
-		<Spanish>Inicio de IA</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_PLAYER_START</Tag>
+		<Russian>&#205;&#224;&#247;&#232;&#237;&#224;&#229;&#242; &#232;&#227;&#240;&#238;&#234;</Russian>
 		<English>Players' Start</English>
-		<French>Joueur : c'est parti !</French>
-		<German>Spieler-Start</German>
-		<Italian>Partenza giocatore</Italian>
-		<Spanish>Inicio de jugador</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_EXCLUDE_METHOD</Tag>
+		<Russian>&#200;&#241;&#234;&#235;&#254;&#247;&#232;&#242;&#252; &#241;&#239;&#238;&#241;&#238;&#225;</Russian>
 		<English>Exclude Method</English>
-		<French>Méthode d'exclusion</French>
-		<German>Ausschlussmethode</German>
-		<Italian>Metodo di esclusione</Italian>
-		<Spanish>Excluir método</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_NO_CONDITIONS</Tag>
+		<Russian>&#205;&#229;&#242; &#243;&#241;&#235;&#238;&#226;&#232;&#233;</Russian>
 		<English>No Conditions</English>
-		<French>Pas de conditions</French>
-		<German>Keine Bedingungen</German>
-		<Italian>Nessuna condizione</Italian>
-		<Spanish>Sin condiciones</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_DEFAULT</Tag>
+		<Russian>&#211;&#241;&#235;&#238;&#226;&#232;&#255; &#241;&#246;&#229;&#237;&#224;&#240;&#232;&#255;</Russian>
 		<English>Script Default</English>
-		<French>Script par défaut</French>
-		<German>Script-Standard</German>
-		<Italian>Script predefinito</Italian>
-		<Spanish>Secuencia de comandos predeterminada</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_ALL_IN_OLD_WORLD</Tag>
+		<Russian>&#194;&#241;&#229; &#226; &#209;&#242;&#224;&#240;&#238;&#236; &#209;&#226;&#229;&#242;&#229;</Russian>
 		<English>All In Old World</English>
-		<French>Tous dans l'Antiquité</French>
-		<German>Alle in Alter Welt</German>
-		<Italian>Tutto nel Vecchio Mondo</Italian>
-		<Spanish>Todos en el Viejo Mundo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_SAME_AS_AI</Tag>
+		<Russian>&#207;&#240;&#224;&#226;&#232;&#235;&#224; &#234;&#224;&#234; &#228;&#235;&#255; &#234;&#238;&#236;&#239;&#252;&#254;&#242;&#229;&#240;&#224;</Russian>
 		<English>Same Rules As AI</English>
-		<French>Même règles que pour l'IA</French>
-		<German>Gleiche Regeln wie KI</German>
-		<Italian>Stesse regole per l'IA</Italian>
-		<Spanish>Las mismas reglas que en IA</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_NEAR_COAST</Tag>
+		<Russian>&#205;&#224; &#225;&#229;&#240;&#229;&#227;&#243;</Russian>
 		<English>Near Coast</English>
-		<French>Près de la côte</French>
-		<German>Küstennähe</German>
-		<Italian>Vicino alla costa</Italian>
-		<Spanish>Cerca de la costa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_LARGEST_CONTINENT</Tag>
+		<Russian>&#202;&#240;&#243;&#239;&#237;&#229;&#233;&#248;&#232;&#233; &#234;&#238;&#237;&#242;&#232;&#237;&#229;&#237;&#242;</Russian>
 		<English>Largest Continent</English>
-		<French>Plus grand continent</French>
-		<German>Größter Kontinent</German>
-		<Italian>Continente più grande</Italian>
-		<Spanish>Mayor continente</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_COASTAL_LARGEST_CONTINENT</Tag>
+		<Russian>&#193;&#229;&#240;&#229;&#227; &#232;&#235;&#232; &#234;&#240;&#243;&#239;&#237;&#229;&#233;&#248;&#232;&#233; &#234;&#238;&#237;&#242;&#232;&#237;&#229;&#237;&#242;</Russian>
 		<English>Coastal or Largest Continent</English>
-		<French>Côte ou plus grand continent</French>
-		<German>Küste oder Größter Kontinent</German>
-		<Italian>Continente più grande o vicino alla costa</Italian>
-		<Spanish>Cerca de la costa o mayor continente</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_LEFT_VS_RIGHT_BRIDGE</Tag>
+		<Russian>&#203;&#229;&#226;&#251;&#229; &#239;&#240;&#238;&#242;&#232;&#226; &#239;&#240;&#224;&#226;&#251;&#245;, &#236;&#229;&#230;&#228;&#243; &#237;&#232;&#236;&#232; &#239;&#243;&#241;&#242;&#251;&#237;&#255;</Russian>
 		<English>Left vs Right with Desert Bridge</English>
-		<French>Gauche contre droite avec pont du désert</French>
-		<German>Links gegen Rechts mit Wüstenbrücke</German>
-		<Italian>Sinistra contro destra con ponte nel deserto</Italian>
-		<Spanish>Izquierda contra derecha con puente del desierto</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_ROUND</Tag>
+		<Russian>&#208;&#224;&#243;&#237;&#228;</Russian>
 		<English>Round</English>
-		<French>Ronde</French>
-		<German>Rund</German>
-		<Italian>Tondo</Italian>
-		<Spanish>Ronda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_DONUT</Tag>
+		<Russian>&#202;&#238;&#235;&#252;&#246;&#238;</Russian>
 		<English>Donut</English>
-		<French>Beignet</French>
-		<German>Donut</German>
-		<Italian>Ciambella</Italian>
-		<Spanish>Donut</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_TERRA</Tag>
+		<Russian>&#208;&#229;&#224;&#235;&#252;&#237;&#224;&#255; &#199;&#229;&#236;&#235;&#255; &#241; &#253;&#235;&#229;&#236;&#229;&#237;&#242;&#224;&#236;&#232; &#241;&#235;&#243;&#247;&#224;&#233;&#237;&#238;&#241;&#242;&#232;</Russian>
 		<English>Randomized Actual Earth</English>
-		<French>Randomisation de la Terre actuelle</French>
-		<German>Zufällige Anordnung der Erde</German>
-		<Italian>Terra odierna casuale</Italian>
-		<Spanish>Tierra real al azar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_TERRA_OLD_WORLD_START</Tag>
+		<Russian>&#208;&#229;&#224;&#235;&#252;&#237;&#224;&#255; &#199;&#229;&#236;&#235;&#255; &#241; &#253;&#235;&#229;&#236;&#229;&#237;&#242;&#224;&#236;&#232; &#241;&#235;&#243;&#247;&#224;&#233;&#237;&#238;&#241;&#242;&#232; (&#241;&#242;&#224;&#240;&#242; &#226; &#209;&#242;&#224;&#240;&#238;&#236; &#209;&#226;&#229;&#242;&#229;)</Russian>
 		<English>Randomized Actual Earth (Old World Start)</English>
-		<French>Randomisation de la Terre actuelle (départ : Antiquité)</French>
-		<German>Zufällige Anordnung der Erde (Start Alte Welt)</German>
-		<Italian>Terra odierna casuale (partenza Vecchio Mondo)</Italian>
-		<Spanish>Tierra real al azar (inicio en Viejo Mundo)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_EARTH2_DESCR</Tag>
-		<English>An Earth randomizer: it provides continents, islands, and most seas, in actual Earth locations. Apart from that, anything goes. The result is a map in which you may recognize your general starting location, but you won't have a clue about anything around you. Because of Earth's innate tactical opportunities (land and sea chokepoints, secluded islands, etc) this map type offers interesting tactical situations. "Rocky" climate and normal sea levels are recommended if you want a more "earthy" map.</English>
-		<French>Randomisation de la Terre : permet de créer des continents, des îles et la plupart des mers sur la Terre. Tout est possible ! Il en résulte une carte sur laquelle vous reconnaîtrez peut-être votre point de départ, mais rien de plus. De par sa nature, la Terre fournit de nombreuses opportunités tactiques (goulets d'étranglement terrestres et maritimes, îles isolées, etc.), ce type de carte offre donc de très intéressantes possibilités. Pour une atmosphère plus "terrestre", optez pour un climat instable et un niveau de mer normal !</French>
-		<German>Ein Erd-Zufallsgenerator: er erstellt Kontinente, Inseln und die meisten Meere an ihrer tatsächlichen Position auf der Erde. Davon abgesehen ist alles möglich. Das Ergebnis ist eine Karte, in der Sie Ihren allgemeinen Ausgangspunkt möglicherweise wiedererkennen, aber Sie haben keine Ahnung, was um Sie herum vorgeht. Aufgrund der taktischen Möglichkeiten der Erde (Land- und Meeresengpässe, einsame Inseln, etc.) bietet diese Karte interessante taktische Situationen. Empfehlenswert ist "felsiges" Klima und ein normaler Meeresspiegel, wenn Sie eine "irdischere" Karte möchten.</German>
-		<Italian>Un generatore casuale della Terra odierna: fornisce continenti, isole e la maggior parte dei mari nei luoghi reali del pianeta Terra. A parte quello, va tutto bene. Il risultato è una mappa nella quale puoi riconoscere la tua posizione iniziale, ma senza avere idea di cosa ti circonda. A causa delle congenite opportunità tattiche offerte dalla Terra (vicoli ciechi di mare e terra, isole appartate, eccetera), questa mappa offre delle situazioni strategiche interessanti. Sono consigliati l'ambientazione &quot;Roccioso&quot; e i livelli del mare se si desidera una mappa più &quot;reale&quot;.</Italian>
-		<Spanish>Un generador aleatorio de la Tierra: proporciona continentes, islas y la mayoría de mares en lugares reales de la Tierra. Aparte de esto, todo vale. Da como resultado un mapa en el que puedes reconocer tu posición inicial, pero no tienes ni idea de lo que te rodea. Debido a las características intrínsecas de la Tierra (cuellos de botella terrestres y marítimos, islas apartadas, etc.), este tipo de mapa ofrece situaciones tácticas muy interesantes. Se recomienda un clima &quot;rocoso&quot; y niveles normales del mar si quieres un mapa más &quot;terrestre&quot;.</Spanish>
+		<Russian>&#199;&#229;&#236;&#235;&#255; &#241;&#238; &#241;&#235;&#243;&#247;&#224;&#233;&#237;&#251;&#236;&#232; &#244;&#224;&#234;&#242;&#238;&#240;&#224;&#236;&#232;: &#237;&#224; &#241;&#226;&#238;&#232;&#245; &#236;&#229;&#241;&#242;&#224;&#245; &#237;&#224;&#245;&#238;&#228;&#255;&#242;&#241;&#255; &#234;&#238;&#237;&#242;&#232;&#237;&#229;&#237;&#242;&#251;, &#238;&#241;&#242;&#240;&#238;&#226;&#224; &#232; &#225;&#238;&#235;&#252;&#248;&#224;&#255; &#247;&#224;&#241;&#242;&#252; &#236;&#238;&#240;&#229;&#233;. &#194; &#240;&#229;&#231;&#243;&#235;&#252;&#242;&#224;&#242;&#229; &#232;&#227;&#240;&#238;&#234;&#232; &#236;&#238;&#227;&#243;&#242; &#238;&#239;&#238;&#231;&#237;&#224;&#242;&#252; &#241;&#226;&#238;&#254; &#241;&#242;&#224;&#240;&#242;&#238;&#226;&#243;&#254; &#239;&#238;&#231;&#232;&#246;&#232;&#254;, &#237;&#238; &#237;&#229; &#231;&#237;&#224;&#254;&#242;, &#247;&#242;&#238; &#232;&#245; &#238;&#234;&#240;&#243;&#230;&#224;&#229;&#242;. &#206;&#241;&#238;&#225;&#229;&#237;&#237;&#238;&#241;&#242;&#232; &#242;&#232;&#239;&#232;&#247;&#237;&#238;&#227;&#238; &#231;&#229;&#236;&#237;&#238;&#227;&#238; &#235;&#224;&#237;&#228;&#248;&#224;&#244;&#242;&#224; &#228;&#224;&#254;&#242; &#248;&#232;&#240;&#238;&#234;&#232;&#229; &#242;&#224;&#234;&#242;&#232;&#247;&#229;&#241;&#234;&#232;&#229; &#226;&#238;&#231;&#236;&#238;&#230;&#237;&#238;&#241;&#242;&#232; (&#243;&#231;&#234;&#232;&#229; &#239;&#229;&#240;&#229;&#248;&#229;&#233;&#234;&#232; &#237;&#224; &#241;&#243;&#248;&#229; &#232; &#237;&#224; &#236;&#238;&#240;&#229;, &#232;&#231;&#238;&#235;&#232;&#240;&#238;&#226;&#224;&#237;&#237;&#251;&#229; &#238;&#241;&#242;&#240;&#238;&#226;&#224; &#232; &#242;.&#228;.). &quot;&#209;&#234;&#224;&#235;&#232;&#241;&#242;&#251;&#233;&quot; &#235;&#224;&#237;&#228;&#248;&#224;&#244;&#242; &#232; &#241;&#242;&#224;&#237;&#228;&#224;&#240;&#242;&#237;&#251;&#233; &#243;&#240;&#238;&#226;&#229;&#237;&#252; &#236;&#238;&#240;&#255; &#238;&#225;&#229;&#241;&#239;&#229;&#247;&#232;&#226;&#224;&#254;&#242; &#237;&#224;&#232;&#225;&#238;&#235;&#229;&#229; &quot;&#231;&#229;&#236;&#237;&#243;&#254;&quot; &#234;&#224;&#240;&#242;&#243;.</Russian>
+		<English>An Earth randomizer: it provides continents, islands, and most seas, in actual Earth locations. Apart from that, anything goes. The result is a map in which you may recognize your general starting location, but you won't have a clue about anything around you. Because of Earth's innate tactical opportunities (land and sea chokepoints, secluded islands, etc) this map type offers interesting tactical situations. &quot;Rocky&quot; climate and normal sea levels are recommended if you want a more &quot;earthy&quot; map.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAP_SCRIPT_TECTONICS_DESCR</Tag>
+		<Russian>&#209;&#238;&#231;&#228;&#224;&#254;&#242;&#241;&#255; &#227;&#238;&#240;&#237;&#251;&#229; &#227;&#240;&#255;&#228;&#251;, &#236;&#238;&#228;&#229;&#235;&#232;&#240;&#243;&#254;&#242;&#241;&#255; &#242;&#229;&#234;&#242;&#238;&#237;&#232;&#247;&#229;&#241;&#234;&#232;&#229; &#241;&#228;&#226;&#232;&#227;&#232;, &#247;&#242;&#238; &#238;&#225;&#229;&#241;&#239;&#229;&#247;&#232;&#226;&#224;&#229;&#242; &#225;&#238;&#235;&#229;&#229; &#239;&#240;&#224;&#226;&#228;&#238;&#239;&#238;&#228;&#238;&#225;&#237;&#251;&#233; &#235;&#224;&#237;&#228;&#248;&#224;&#244;&#242; (&#227;&#238;&#240;&#237;&#251;&#229; &#227;&#240;&#255;&#228;&#251;, &#227;&#238;&#240;&#251; &#237;&#224; &#239;&#238;&#225;&#229;&#240;&#229;&#230;&#252;&#229; - &#192;&#237;&#228;&#251; - &#232;&#235;&#232; &#236;&#229;&#230;&#228;&#243; &#241;&#243;&#225;&#234;&#238;&#237;&#242;&#232;&#237;&#229;&#237;&#242;&#224;&#236;&#232; - &#195;&#232;&#236;&#224;&#235;&#224;&#232;).</Russian>
 		<English>Produces mountain ranges, and simulates plate tectonics, giving more realistic/earthlike terrain (mountain ranges, mountains near coasts like the Andes, or between subcontinents like the Himalaia).</English>
-		<French>Crée des chaînes de montagne et simule la tectonique des plaques, pour un terrain plus réaliste et plus semblable à la Terre (chaînes de montagne, montagnes à proximité des côtes comme les Andes, ou entre différents sous-continents comme l'Himalaya).</French>
-		<German>Erstellt Bergketten und simuliert Plattentektonik für realistischeres/irdischeres Gelände (wie Bergketten, Berge in Küstennähe, wie etwa die Anden, oder zwischen Subkontinenten, wie etwa der Himalaja).</German>
-		<Italian>Produce catene montuose e simula la tettonica a placche fornendo un territorio più realistico e simile a quello della Terra (montagne costiere come le Ande oppure tra subcontinenti come l'Himalaya).</Italian>
-		<Spanish>Produce cadenas montañosas y simula placas tectónicas, lo que da un terreno más realista y similar al terrestre (cadenas montañosas; montañas cerca de la costa, como los Andes, o entre subcontinentes, como el Himalaya).</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GAME_OPTION_NO_ESPIONAGE</Tag>
+		<Russian>&#193;&#229;&#231; &#248;&#239;&#232;&#238;&#237;&#224;&#230;&#224;</Russian>
 		<English>No Espionage</English>
-		<French>Pas d'espionnage</French>
-		<German>Keine Spionage</German>
-		<Italian>Nessuno spionaggio</Italian>
-		<Spanish>Sin espionaje</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GAME_OPTION_NO_ESPIONAGE_HELP</Tag>
+		<Russian>&#216;&#239;&#232;&#238;&#237;&#251; &#237;&#229;&#228;&#238;&#241;&#242;&#243;&#239;&#237;&#251;, &#238;&#247;&#234;&#232; &#248;&#239;&#232;&#238;&#237;&#224;&#230;&#224; &#234;&#238;&#237;&#226;&#229;&#240;&#242;&#232;&#240;&#243;&#254;&#242;&#241;&#255; &#226; &#234;&#243;&#235;&#252;&#242;&#243;&#240;&#243;</Russian>
 		<English>Spies are not available, and Espionage Points are converted into Culture</English>
-		<French>Les espions ne sont pas disponibles, et des points d'espionnage sont convertis en culture</French>
-		<German>Spione sind nicht vorhanden und Spionage-Punkte werden in Kultur umgewandelt</German>
-		<Italian>Le spie non sono disponibili ed i punti di spionaggio sono convertiti in coltura</Italian>
-		<Spanish>Los esp&#237;as no est&#233;n disponibles, y los puntos del espionaje se convierten en cultura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_HELP_COMMERCE_TO_COMMERCE_FLOAT</Tag>
+		<Russian>[ICON_BULLET]%s1 %F2 &#238;&#242; %F3</Russian>
 		<English>[ICON_BULLET]%s1 %F2 from %F3</English>
-		<French>[ICON_BULLET]%s1 %F2 (%F3)</French>
-		<German>[ICON_BULLET]%s1 %F2 durch %F3</German>
-		<Italian>[ICON_BULLET]%s1 %F2 da %F3</Italian>
-		<Spanish>[ICON_BULLET]%s1 %F2 de %F3</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_HELP_COMMERCE_TO_COMMERCE</Tag>
+		<Russian>[ICON_BULLET]%D1%F2 &#238;&#242; %F3</Russian>
 		<English>[ICON_BULLET]%D1%F2 from %F3</English>
-		<French>[ICON_BULLET]%D1%F2 (%F3)</French>
-		<German>[ICON_BULLET]%D1%F2 durch %F3</German>
-		<Italian>[ICON_BULLET]%D1%F2 dalla %F3</Italian>
-		<Spanish>[ICON_BULLET]%D1 %F2 por %F3</Spanish>
 	</TEXT>
 </Civ4GameText>

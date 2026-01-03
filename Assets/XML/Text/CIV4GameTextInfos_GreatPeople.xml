@@ -1,3968 +1,1493 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
-<!-- Sid Meier's Civilization 4 -->
-<!-- Copyright Firaxis Games 2005 -->
-<!-- -->
-<!-- GameText Great People -->
-<Civ4GameText xmlns="http://www.firaxis.com">
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MOSES</Tag>
-		<English>Moses</English>
-		<French>
-			<Text>Mo&#239;se</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Moses</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Mos&#232;</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Mois&#233;s</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MAHAVIRA</Tag>
-		<English>Mahavira</English>
-		<French>
-			<Text>Mah&#226;v&#238;ra</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Mahavira</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Mahavira</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Mahavira</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ZOROASTER</Tag>
-		<English>Zoroaster</English>
-		<French>
-			<Text>Zoroastre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Zarathustra</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Zarathustra</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Zoroastro</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ANANDA</Tag>
-		<English>Ananda</English>
-		<French>
-			<Text>Ananda</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ananda</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ananda</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ananda</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_CHUANG_TZU</Tag>
-		<English>Chuang-Tzu</English>
-		<French>
-			<Text>Chuang-Tzu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Chuang-Tzu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Chuang-Tzu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Chuang-tzu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MENCIUS</Tag>
-		<English>Mencius</English>
-		<French>
-			<Text>Meng Tzeu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Mencius</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Mencius</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Mencio</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MO_TZU</Tag>
-		<English>Mo Tzu</English>
-		<French>
-			<Text>Mo-Tzu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Mo Tzu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Mo Tzu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Mo-tzu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ST_JOHN</Tag>
-		<English>St. John</English>
-		<French>
-			<Text>Saint Jean</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>St. John</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>San Giovanni</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>San Juan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ST_PETER</Tag>
-		<English>St. Peter</English>
-		<French>
-			<Text>Saint Pierre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>St. Peter</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>San Pietro</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>San Pedro</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ST_PAUL</Tag>
-		<English>St. Paul</English>
-		<French>
-			<Text>Saint Paul</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>St. Paul</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>San Paolo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>San Pablo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_RABBI_AKIVA</Tag>
-		<English>Rabbi Akiva</English>
-		<French>
-			<Text>Akiva</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Rabbi Akiva</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Rabbino Akiva</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Rabino Akiva</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MANI</Tag>
-		<English>Mani</English>
-		<French>
-			<Text>Mani</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Mani</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Mani</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Mani</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ST_AUGUSTINE</Tag>
-		<English>St. Augustine</English>
-		<French>
-			<Text>Saint Augustin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>St. Augustin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sant'Agostino</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>San Agust&#237;n</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ST_PATRICK</Tag>
-		<English>St. Patrick</English>
-		<French>
-			<Text>Saint Patrick</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>St. Patrick</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>San Patrizio</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>San Patricio</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ABU_BAKR</Tag>
-		<English>Abu Bakr</English>
-		<French>
-			<Text>Abu Bakr</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Abu Bakr</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Abu Bakr</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Abu Bakr</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_SHANKARA</Tag>
-		<English>Shankara</English>
-		<French>
-			<Text>Shankara</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Shankara</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Shankara</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Shankara</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_KOBO_DAISHI</Tag>
-		<English>Kobo-Daishi</English>
-		<French>
-			<Text>Kobo-Daishi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Kobo-Daishi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Kobo Daishi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Kobo Daishi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ATISHA</Tag>
-		<English>Atisha</English>
-		<French>
-			<Text>Atisha</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Atisha</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Atisha</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Atisha</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ST_THOMAS_AQUINAS</Tag>
-		<English>St. Thomas Aquinas</English>
-		<French>
-			<Text>Saint Thomas d'Aquin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Thomas von Aquin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>San Tommaso d'Aquino</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Santo Tom&#225;s de Aquino</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MOHAMMED_SHAH</Tag>
-		<English>Mohammed Shah</English>
-		<French>
-			<Text>Mohammad Shah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Mohammed Shah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Mohammed Shah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Mohamed Shah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_TSONGKHAPA</Tag>
-		<English>Tsongkhapa</English>
-		<French>
-			<Text>Tsongkhapa</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Tsongkhapa</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Tsongkhapa</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Tsongkhapa</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JEANNE_ARC</Tag>
-		<English>Jeanne d'Arc</English>
-		<French>
-			<Text>Jeanne d'Arc</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Jeanne d'Arc</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Giovanna d'Arco</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Juana de Arco</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NARAK</Tag>
-		<English>Narak</English>
-		<French>
-			<Text>Narak</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Narak</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Narak</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Narak</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_TIPU_SULTAN</Tag>
-		<English>Tipu Sultan</English>
-		<French>
-			<Text>Sultan Tipu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Tipu Sultan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Tipu Sultan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Tipu Sult&#225;n</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_RAMAKRISHNA</Tag>
-		<English>Ramakrishna</English>
-		<French>
-			<Text>Ramakrishna</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ramakrishna</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ramakrishna</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ramakrishna</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NARAYANA_GURU</Tag>
-		<English>Narayana Guru</English>
-		<French>
-			<Text>Narayana</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Narayana Guru</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Narayana Guru</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Gur&#250; Narayana</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_SOJOURNER_TRUTH</Tag>
-		<English>Sojourner Truth</English>
-		<French>
-			<Text>Sojourner Truth</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Sojourner Truth</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sojourner Truth</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sojourner Truth</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_HOMER</Tag>
-		<English>Homer</English>
-		<French>
-			<Text>Hom&#232;re</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Homer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Omero</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Homero</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_THESPIS</Tag>
-		<English>Thespis</English>
-		<French>
-			<Text>Thespis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Thespis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Thespis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Thespis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_LING_LUN</Tag>
-		<English>Ling Lun</English>
-		<French>
-			<Text>Ling Lun</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ling Lun</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Lyng Lun</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ling Lun</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_WANG_XIZHI</Tag>
-		<English>Wang Xizhi</English>
-		<French>
-			<Text>Wang Xizhi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Wang Xizhi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Wang Xizhi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Wang Xizhi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_VALMIKI</Tag>
-		<English>Valmiki</English>
-		<French>
-			<Text>Valmiki</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Valmiki</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Valmiki</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Valmiki</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_VIRGIL</Tag>
-		<English>Virgil</English>
-		<French>
-			<Text>Virgile</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Virgil</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Virgilio</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Virgilio</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_KALIDAS</Tag>
-		<English>Kalidas</English>
-		<French>
-			<Text>Kalidas</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Kalidas</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Kalidas</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Kalidasa</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_LI_PO</Tag>
-		<English>Li Po</English>
-		<French>
-			<Text>Li Bo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Li Po</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Li Po</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Li Po</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_DU_FU</Tag>
-		<English>Du Fu</English>
-		<French>
-			<Text>Du Fu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Du Fu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Du Fu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Du Fu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JALAL_ALDIN_RUMI</Tag>
-		<English>Jalal al-Din Rumi</English>
-		<French>
-			<Text>Jalal al-Din Rumi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Jalal al-Din Rumi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Jalal al-Din Rumi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Jalal ad-Din Rumi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_DANTE_ALIGHIERI</Tag>
-		<English>Dante Alighieri</English>
-		<French>
-			<Text>Dante Alighieri</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Dante Alighieri</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Dante Alighieri</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Dante Alighieri</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_YUNUS_EMRE</Tag>
-		<English>Yunus Emre</English>
-		<French>
-			<Text>Yunus Emre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Yunus Emre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Yunus Emre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Yunus Emre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_AMIR_KHUSRO</Tag>
-		<English>Amir Khusro</English>
-		<French>
-			<Text>Amir Khusraw</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Amir Khusro</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Amir Khusro</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Amir Khusro</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_IBN_MUQLAH</Tag>
-		<English>Ibn Muqlah</English>
-		<French>
-			<Text>Ibn Muqlah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ibn Muqlah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ibn Mullah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ibn Muqlah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MICHAELANGELO</Tag>
-		<English>Michaelangelo</English>
-		<French>
-			<Text>Michel-Ange</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Michelangelo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Michelangelo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Miguel &#193;ngel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_RAPHAEL</Tag>
-		<English>Raphael</English>
-		<French>
-			<Text>Rapha&#235;l</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Raphael</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Raffaello</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Rafael</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_SHAKESPEARE</Tag>
-		<English>William Shakespeare</English>
-		<French>
-			<Text>William Shakespeare</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>William Shakespeare</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>William Shakespeare</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>William Shakespeare</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MIGUEL_DE_CERVANTES</Tag>
-		<English>Miguel de Cervantes</English>
-		<French>
-			<Text>Miguel de Cervant&#232;s</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Miguel de Cervantes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Miguel de Cervantes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Miguel de Cervantes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_REMBRANDT</Tag>
-		<English>Rembrandt van Rijn</English>
-		<French>
-			<Text>Rembrandt van Rijn</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Rembrandt van Rijn</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Rembrandt van Rijn</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Rembrandt van Rijn</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHANNES_VERMEER</Tag>
-		<English>Johannes Vermeer</English>
-		<French>
-			<Text>Johannes Vermeer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Johannes Vermeer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Johannes Vermeer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Jan Vermeer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JS_BACH</Tag>
-		<English>J. S. Bach</English>
-		<French>
-			<Text>J. S. Bach</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>J. S. Bach</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>J. S. Bach</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>J. S. Bach</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_WOLFGANG_MOZART</Tag>
-		<English>Wolfgang Amadeus Mozart</English>
-		<French>
-			<Text>Wolfgang Amadeus Mozart</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Wolfgang Amadeus Mozart</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Wolfgang Amadeus Mozart</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Wolfgang Amadeus Mozart</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHANN_GOETHE</Tag>
-		<English>Johann Wolfgang von Goethe</English>
-		<French>
-			<Text>Johann Wolfgang von Goethe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Johann Wolfgang von Goethe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Johann Wolfgang von Goethe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Johann Wolfgang von Goethe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_LUDWIG_VAN_BEETHOVEN</Tag>
-		<English>Ludwig van Beethoven</English>
-		<French>
-			<Text>Ludwig van Beethoven</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ludwig van Beethoven</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ludwig van Beethoven</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ludwig van Beethoven</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_VICTOR_HUGO</Tag>
-		<English>Victor Hugo</English>
-		<French>
-			<Text>Victor Hugo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Victor Hugo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Victor Hugo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Victor Hugo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_VINCENT_VAN_GOGH</Tag>
-		<English>Vincent van Gogh</English>
-		<French>
-			<Text>Vincent van Gogh</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Vincent van Gogh</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Vincent van Gogh</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Vincent van Gogh</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHANNES_BRAHMS</Tag>
-		<English>Johannes Brahms</English>
-		<French>
-			<Text>Johannes Brahms</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Johannes Brahms</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Johannes Brahms</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Johannes Brahms</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_DVORAK</Tag>
-		<English>Antonin Dvorak</English>
-		<French>
-			<Text>Antonin Dvorak</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Antonin Dvorak</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Antonin Dvorak</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Anton&#237;n Dvor&#225;k</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MARK_TWAIN</Tag>
-		<English>Mark Twain</English>
-		<French>
-			<Text>Mark Twain</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Mark Twain</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Mark Twain</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Mark Twain</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_CLAUDE_MONET</Tag>
-		<English>Claude Monet</English>
-		<French>
-			<Text>Claude Monet</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Claude Monet</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Claude Monet</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Claude Monet</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_CONRAD</Tag>
-		<English>Joseph Conrad</English>
-		<French>
-			<Text>Joseph Conrad</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Joseph Conrad</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Joseph Conrad</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Joseph Conrad</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_FRANK_KAFKA</Tag>
-		<English>Frank Kafka</English>
-		<French>
-			<Text>Franz Kafka</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Frank Kafka</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Franz Kafka</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Frank Kafka</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_ARMSTRONG</Tag>
-		<English>Louis Armstrong</English>
-		<French>
-			<Text>Louis Armstrong</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Louis Armstrong</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Louis Armstrong</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Louis Armstrong</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_DUKE_ELLINGTON</Tag>
-		<English>Duke Ellington</English>
-		<French>
-			<Text>Duke Ellington</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Duke Ellington</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Duke Ellington</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Duke Ellington</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_PABLO_PICASSO</Tag>
-		<English>Pablo Picasso</English>
-		<French>
-			<Text>Pablo Picasso</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Pablo Picasso</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Pablo Picasso</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Pablo Picasso</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MILES_DAVIS</Tag>
-		<English>Miles Davis</English>
-		<French>
-			<Text>Miles Davis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Miles Davis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Miles Davis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Miles Davis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MERIT_PTAH</Tag>
-		<English>Merit Ptah</English>
-		<French>
-			<Text>Merit Ptah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Merit Ptah</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Merit Ptah</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Merit Ptah</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_XI_LING_SHI</Tag>
-		<English>Xi Ling Shi</English>
-		<French>
-			<Text>Xi Ling Shi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Xi Ling Shi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Xi Ling Shi</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Xi Ling-Shi</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NABU_RIMANNI</Tag>
-		<English>Nabu-rimanni</English>
-		<French>
-			<Text>Nabu-rimanni</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Nabu-rimanni</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Nabu-rimanni</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Nabu-rimanni</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_SOCRATES</Tag>
-		<English>Socrates</English>
-		<French>
-			<Text>Socrate</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Sokrates</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Socrate</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>S&#243;crates</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_PLATO</Tag>
-		<English>Plato</English>
-		<French>
-			<Text>Platon</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Plato</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Platone</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Plat&#243;n</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ARISTOTLE</Tag>
-		<English>Aristotle</English>
-		<French>
-			<Text>Aristote</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Aristoteles</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Aristotele</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Arist&#243;teles</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_EUCLID</Tag>
-		<English>Euclid</English>
-		<French>
-			<Text>Euclide</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Euklid</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Euclide</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Euclides</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_PTOLEMY</Tag>
-		<English>Ptolemy</English>
-		<French>
-			<Text>Ptol&#233;m&#233;e</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ptolem&#228;us</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Tolomeo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ptolomeo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_HYPATIA</Tag>
-		<English>Hypatia</English>
-		<French>
-			<Text>Hypathie</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Hypatia</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Hypatia</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Hipatia</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ZU_CHONGZHI</Tag>
-		<English>Zu Chongzhi</English>
-		<French>
-			<Text>Zu Chongzhi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Zu Chongzhi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Zu Chongzhi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Zu Chongzhi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ARYABHATA</Tag>
-		<English>Aryabhata</English>
-		<French>
-			<Text>Aryabhata</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Aryabhata</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Aryabhata</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Aryabhata</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_AL_KINDI</Tag>
-		<English>Al-Kindi</English>
-		<French>
-			<Text>Al-Kindi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Al-Kindi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Al-Kindi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Al-Kindi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_AL_KHWARIZMI</Tag>
-		<English>Al-Khwarizmi</English>
-		<French>
-			<Text>Al-Khwarizmi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Al-Khwarizmi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Al-Khwarizmi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Al-Khwarizmi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_AL_RAZI</Tag>
-		<English>Al-Razi</English>
-		<French>
-			<Text>Al-Razi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Al-Razi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Al-Razi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Al-Razi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ALHAZEN</Tag>
-		<English>Alhazen</English>
-		<French>
-			<Text>Alhazen</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Alhazen</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Alhazen</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Alhazen</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NICOLAUS_COPERNICUS</Tag>
-		<English>Nicolaus Copernicus</English>
-		<French>
-			<Text>Nicolas Copernic</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Nikolaus Kopernikus</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Niccol&#242; Copernico</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Nicol&#225;s Cop&#233;rnico</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_FRANCIS_BACON</Tag>
-		<English>Francis Bacon</English>
-		<French>
-			<Text>Francis Bacon</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Francis Bacon</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Francesco Bacone</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Francis Bacon</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_TYCHO_BRAHE</Tag>
-		<English>Tycho Brahe</English>
-		<French>
-			<Text>Tycho Brahe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Tycho Brahe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ticone Brahe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Tycho Brahe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHANNES_KEPLER</Tag>
-		<English>Johannes Kepler</English>
-		<French>
-			<Text>Johannes Kepler</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Johannes Kepler</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Giovanni Keplero</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Johannes Kepler</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ISAAC_NEWTON</Tag>
-		<English>Isaac Newton</English>
-		<French>
-			<Text>Isaac Newton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Isaac Newton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Isaac Newton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Isaac Newton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_GALILEO_GALILEI</Tag>
-		<English>Galileo Galilei</English>
-		<French>
-			<Text>Galil&#233;e</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Galileo Galilei</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Galileo Galilei</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Galileo Galilei</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_RENE_DESCARTES</Tag>
-		<English>Rene Descartes</English>
-		<French>
-			<Text>Ren&#233; Descartes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Rene Descartes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Cartesio</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ren&#233; Descartes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ANTONY_VAN_LEEUWENHOEK</Tag>
-		<English>Antony van Leeuwenhoek</English>
-		<French>
-			<Text>Antoine van Leeuwenhoek</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Antony van Leeuwenhoek</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Antony van Leeuwenhoek</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Antony van Leeuwenhoek</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_GOTTFRIED_LEIBNIZ</Tag>
-		<English>Gottfried Leibniz</English>
-		<French>
-			<Text>Gottfried Leibniz</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Gottfried Leibniz</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Gottfried Leibniz</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Gottfried Leibniz</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MIKHAIL_LOMONOSOV</Tag>
-		<English>Mikhail Lomonosov</English>
-		<French>
-			<Text>Michel Lomonosov</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Mikhail Lomonosov</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Mikhail Lomonosov</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Mija&#237;l Lomon&#243;sov</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ANTOINE_LAURENT_lAVOISIER</Tag>
-		<English>Antoine Laurent Lavoisier</English>
-		<French>
-			<Text>Antoine Laurent Lavoisier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Antoine Laurent Lavoisier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Antoine Laurent Lavoisier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Antoine Laurent de Lavoisier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_CARL_FRIEDRICH_GAUSS</Tag>
-		<English>Carl Friedrich Gauss</English>
-		<French>
-			<Text>Carl Friedrich Gauss</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Carl Friedrich Gauss</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Carl Friedrich Gauss</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Carl Friedrich Gauss</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHN_DALTON</Tag>
-		<English>John Dalton</English>
-		<French>
-			<Text>John Dalton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>John Dalton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>John Dalton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>John Dalton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MICHAEL_FARADAY</Tag>
-		<English>Michael Faraday</English>
-		<French>
-			<Text>Michael Faraday</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Michael Faraday</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Michael Faraday</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Michael Faraday</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JAMES_CLERK_MAXWELL</Tag>
-		<English>James Clerk Maxwell</English>
-		<French>
-			<Text>James Clerk Maxwell</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>James Clerk Maxwell</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>James Clerk Maxwell</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>James Clerk Maxwell</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_PASTEUR</Tag>
-		<English>Louis Pasteur</English>
-		<French>
-			<Text>Louis Pasteur</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Louis Pasteur</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Louis Pasteur</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Louis Pasteur</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_DARWIN</Tag>
-		<English>Charles Darwin</English>
-		<French>
-			<Text>Charles Darwin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Charles Darwin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Charles Darwin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Charles Darwin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ERNEST_RUTHERFORD</Tag>
-		<English>Ernest Rutherford</English>
-		<French>
-			<Text>Ernest Rutherford</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ernest Rutherford</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ernest Rutherford</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ernest Rutherford</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MARIE_CURIE</Tag>
-		<English>Marie Curie</English>
-		<French>
-			<Text>Marie Curie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Marie Curie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Marie Curie</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Marie Curie</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ALBERT_EINSTEIN</Tag>
-		<English>Albert Einstein</English>
-		<French>
-			<Text>Albert Einstein</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Albert Einstein</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Albert Einstein</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Albert Einstein</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NIELS_BOHR</Tag>
-		<English>Niels Bohr</English>
-		<French>
-			<Text>Niels Bohr</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Niels Bohr</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Niels Bohr</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Niels Bohr</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_WERNER_HEISENBERG</Tag>
-		<English>Werner Heisenberg</English>
-		<French>
-			<Text>Werner Heisenberg</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Werner Heisenberg</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Werner Heisenberg</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Werner Karl Heisenberg</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ENRICO_FERMI</Tag>
-		<English>Enrico Fermi</English>
-		<French>
-			<Text>Enrico Fermi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Enrico Fermi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Enrico Fermi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Enrico Fermi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ROSALIND_FRANKLIN</Tag>
-		<English>Rosalind Franklin</English>
-		<French>
-			<Text>Rosalind Franklin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Rosalind Franklin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Rosalind Franklin</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Rosalind Franklin</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ANDREI_SAKHAROV</Tag>
-		<English>Andrei Sakharov</English>
-		<French>
-			<Text>Andre&#239; Sakharov</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Andrei Sacharow</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Andrei Sakharov</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Andr&#233;i Saj&#225;rov</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_HARKUF</Tag>
-		<English>Harkuf</English>
-		<French>
-			<Text>Harkuf</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Harkuf</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Harkuf</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Harkhuf</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_HANNO</Tag>
-		<English>Hanno</English>
-		<French>
-			<Text>Hanno</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Hanno</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Hanno</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Hann&#243;n</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_PYTHEAS</Tag>
-		<English>Pytheas</English>
-		<French>
-			<Text>Pyth&#233;as</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Pytheas</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Pytheas</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Piteas</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_QIAN</Tag>
-		<English>Zhang Qian</English>
-		<French>
-			<Text>Zhang Qian</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Zhang Qian</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Zhang Qian</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Zhang Qian</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ARETAS_III</Tag>
-		<English>Aretas III</English>
-		<French>
-			<Text>Aretas III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Aretas III.</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Aretas III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Aretas III</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_LEIF_ERICKSON</Tag>
-		<English>Leif Erickson</English>
-		<French>
-			<Text>Leif Erickson</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Leif Erikson</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Leif Erickson</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Leif Ericson</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_WANG_ANSHI</Tag>
-		<English>Wang Anshi</English>
-		<French>
-			<Text>Wang Anshi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Wang Anshi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Wang Anshi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Wang Anshi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ENRICO_DANDOLO</Tag>
-		<English>Enrico Dandolo</English>
-		<French>
-			<Text>Enrico Dandolo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Enrico Dandolo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Enrico Dandolo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Enrico Dandolo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_MARCO_POLO</Tag>
-		<English>Marco Polo</English>
-		<French>
-			<Text>Marco Polo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Marco Polo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Marco Polo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Marco Polo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_IBN_BATTUTA</Tag>
-		<English>Ibn Battuta</English>
-		<French>
-			<Text>Ibn Battuta</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ibn Battuta</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ibn Battuta</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ibn Batuta</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_RRICHARD_WHITTINGTON</Tag>
-		<English>Richard Whittington</English>
-		<French>
-			<Text>Richard Whittington</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Richard Whittington</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Richard Whittington</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Richard Whittington</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_GIOVANNI_DE_MEDICI</Tag>
-		<English>Giovanni de Medici</English>
-		<French>
-			<Text>Jean de M&#233;dicis</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Giovanni de Medici</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Giovanni de' Medici</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Giovanni de Medici</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ZHENG_HE</Tag>
-		<English>Zheng He</English>
-		<French>
-			<Text>Zheng He</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Zheng He</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Zheng He</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Zheng He</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_VASCO_DA_GAMA</Tag>
-		<English>Vasco da Gama</English>
-		<French>
-			<Text>Vasco de Gama</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Vasco da Gama</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Vasco da Gama</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Vasco da Gama</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_CHRISTOPHER_COLUMBUS</Tag>
-		<English>Christopher Columbus</English>
-		<French>
-			<Text>Christophe Colomb</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Christoph Columbus</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Cristoforo Colombo</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Crist&#243;bal Col&#243;n</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_FERDINAND_MAGELLAN</Tag>
-		<English>Ferdinand Magellan</English>
-		<French>
-			<Text>Ferdinand Magellan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ferdinand Magellan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ferdinando Magellano</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Fernando de Magallanes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JACQUES_CARTIER</Tag>
-		<English>Jacques Cartier</English>
-		<French>
-			<Text>Jacques Cartier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Jacques Cartier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Jacques Cartier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Jacques Cartier</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_RAJA_TODAR_MAL</Tag>
-		<English>Raja Todar Mal</English>
-		<French>
-			<Text>Rajah Todar Mal</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Raja Todar Mal</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Rajah Todar Mal</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Raj&#225; Todar Mal</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ANTONY_VAN_DIEMEN</Tag>
-		<English>Anthony van Diemen</English>
-		<French>
-			<Text>Anthony van Diemen</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Anthony van Diemen</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Anthony van Diemen</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Anthony van Diemen</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_SIR_THOMAS_ROE</Tag>
-		<English>Sir Thomas Roe</English>
-		<French>
-			<Text>Sir Thomas Roe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Sir Thomas Roe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sir Thomas Roe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sir Thomas Roe</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_SHAH_JAHAN</Tag>
-		<English>Shah Jahan</English>
-		<French>
-			<Text>Shah Jahan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Shah Jahan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sci&#224; Jahan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Shah Jahan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ADAM_SMITH</Tag>
-		<English>Adam Smith</English>
-		<French>
-			<Text>Adam Smith</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Adam Smith</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Adam Smith</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Adam Smith</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JAMES_COOK</Tag>
-		<English>James Cook</English>
-		<French>
-			<Text>James Cook</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>James Cook</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>James Cook</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>James Cook</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_CORNELIUS_VANDERBILT</Tag>
-		<English>Cornelius Vanderbilt</English>
-		<French>
-			<Text>Cornelius Vanderbilt</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Cornelius Vanderbilt</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Cornelius Vanderbilt</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Cornelius Vanderbilt</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_SIR_ALEXANDER_MACKENZIE</Tag>
-		<English>Sir Alexander Mackenzie</English>
-		<French>
-			<Text>Sir Alexander Mackenzie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Sir Alexander Mackenzie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sir Alexander Mackenzie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sir Alexander Mackenzie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHN_STUART_MILL</Tag>
-		<English>John Stuart Mill</English>
-		<French>
-			<Text>John Stuart Mill</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>John Stuart Mill</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>John Stuart Mill</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>John Stuart Mill</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ANDREW_CARNEGIE</Tag>
-		<English>Andrew Carnegie</English>
-		<French>
-			<Text>Andrew Carnegie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Andrew Carnegie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Andrew Carnegie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Andrew Carnegie</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHN_D_ROCKEFELLER</Tag>
-		<English>John D. Rockefeller</English>
-		<French>
-			<Text>John D. Rockefeller</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>John D. Rockefeller</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>John D. Rockefeller</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>John D. Rockefeller</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHN_MAYNARD_KEYNES</Tag>
-		<English>John Maynard Keynes</English>
-		<French>
-			<Text>John Maynard Keynes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>John Maynard Keynes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>John Maynard Keynes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>John Maynard Keynes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_COCO_CHANEL</Tag>
-		<English>Coco Chanel</English>
-		<French>
-			<Text>Coco Chanel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Coco Chanel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Coco Chanel</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Coco Chanel</Text>
-			<Gender>Female</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_IMHOTEP</Tag>
-		<English>Imhotep</English>
-		<French>
-			<Text>Imhotep</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Imhotep</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Imhotep</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Imhotep</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ARCHIMEDES</Tag>
-		<English>Archimedes</English>
-		<French>
-			<Text>Archim&#232;de</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Archimedes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Archimede</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Arqu&#237;medes</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_HERON</Tag>
-		<English>Heron</English>
-		<French>
-			<Text>H&#233;ron</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Heron</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Heron</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Her&#243;n</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_CAI_LUN</Tag>
-		<English>Cai Lun</English>
-		<French>
-			<Text>Cai Lun</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Cai Lun</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Cai Lun</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Cai Lun</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_HENG</Tag>
-		<English>Zhang Heng</English>
-		<French>
-			<Text>Zhang Heng</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Zhang Heng</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Zhang Heng</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Zhang Heng</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_BI_SHENG</Tag>
-		<English>Bi Sheng</English>
-		<French>
-			<Text>Bi Sheng</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Bi Sheng</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Bi Sheng</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Bi Sheng</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_LEONARDO_DA_VINCI</Tag>
-		<English>Leonardo da Vinci</English>
-		<French>
-			<Text>L&#233;onard de Vinci</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Leonardo da Vinci</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Leonardo da Vinci</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Leonardo da Vinci</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_SINAN</Tag>
-		<English>Sinan</English>
-		<French>
-			<Text>Sinan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Sinan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Sinan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Sinan</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_WILHELM_SCHICKARD</Tag>
-		<English>Wilhelm Schickard</English>
-		<French>
-			<Text>Wilhelm Schickard</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Wilhelm Schickard</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Wilhelm Schickard</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Wilhelm Schickard</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_BLAISE_PASCAL</Tag>
-		<English>Blaise Pascal</English>
-		<French>
-			<Text>Blaise Pascal</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Blaise Pascal</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Blaise Pascal</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Blaise Pascal</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_BENJAMIN_FRANKLIN</Tag>
-		<English>Benjamin Franklin</English>
-		<French>
-			<Text>Benjamin Franklin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Benjamin Franklin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Benjamin Franklin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Benjamin Franklin</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_AUGUSTIN_DE_COULOMB</Tag>
-		<English>Charles Augustin de Coulomb</English>
-		<French>
-			<Text>Charles Augustin Coulomb</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Charles Augustin de Coulomb</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Charles Augustin de Coulomb</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Charles Augustin de Coulomb</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JAMES_WATT</Tag>
-		<English>James Watt</English>
-		<French>
-			<Text>James Watt</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>James Watt</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>James Watt</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>James Watt</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_MARIE_JACQUARD</Tag>
-		<English>Joseph Marie Jacquard</English>
-		<French>
-			<Text>Joseph-Marie Jacquard</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Joseph Marie Jacquard</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Joseph Marie Jacquard</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Joseph Marie Jacquard</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ISAMBARD_KINGDOM_BRUNEL</Tag>
-		<English>Isambard Kingdom Brunel</English>
-		<French>
-			<Text>Isambard Kingdom Brunel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Isambard Kingdom Brunel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Isambard Kingdom Brunel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Isambard Kingdom Brunel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_WILLIAN_MORTON</Tag>
-		<English>William T. G. Morton</English>
-		<French>
-			<Text>William T. G. Morton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>William T. G. Morton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>William T. G. Morton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>William T. G. Morton</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_DAGUERRE</Tag>
-		<English>Louis Daguerre</English>
-		<French>
-			<Text>Louis Daguerre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Louis Daguerre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Louis Daguerre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Louis Daguerre</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_FERDINAND_DE_LESSEPS</Tag>
-		<English>Ferdinand de Lesseps</English>
-		<French>
-			<Text>Ferdinand de Lesseps</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Ferdinand de Lesseps</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Ferdinand de Lesseps</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Ferdinand de Lesseps</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_JOHN_ROEBLING</Tag>
-		<English>John Roebling</English>
-		<French>
-			<Text>John Roebling</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>John Roebling</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>John Roebling</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>John Roebling</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NOBERT_RILLIEUX</Tag>
-		<English>Norbert Rillieux</English>
-		<French>
-			<Text>Norbert Rillieux</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Norbert Rillieux</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Norbert Rillieux</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Norbert Rillieux</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_HENRY_BESSEMER</Tag>
-		<English>Henry Bessemer</English>
-		<French>
-			<Text>Henry Bessemer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Henry Bessemer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Henry Bessemer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Henry Bessemer</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NAIN_SINGH</Tag>
-		<English>Nain Singh</English>
-		<French>
-			<Text>Nain Singh</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Nain Singh</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Nain Singh</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Nain Singh</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDER_GRAHM_BELL</Tag>
-		<English>Alexander Graham Bell</English>
-		<French>
-			<Text>Alexander Graham Bell</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Alexander Graham Bell</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Alexander Graham Bell</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Alexander Graham Bell</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NIKOLAUS_AUGUST_OTTO</Tag>
-		<English>Nikolaus August Otto</English>
-		<French>
-			<Text>Nikolaus August Otto</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Nikolaus August Otto</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Nikolaus August Otto</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Nikolaus August Otto</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_NICHOLA_TESLA</Tag>
-		<English>Nichola Tesla</English>
-		<French>
-			<Text>Nikola Tesla</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Nichola Tesla</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Nikola Tesla</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Nikola Tesla</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_THOMAS_EDISON</Tag>
-		<English>Thomas Edison</English>
-		<French>
-			<Text>Thomas Edison</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Thomas Edison</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Thomas Edison</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Thomas Edison</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_GUGLIELMO_MARCONI</Tag>
-		<English>Guglielmo Marconi</English>
-		<French>
-			<Text>Guglielmo Marconi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Guglielmo Marconi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Guglielmo Marconi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Guglielmo Marconi</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDRE_GUSTAVE_EIFFEL</Tag>
-		<English>Alexandre Gustave Eiffel</English>
-		<French>
-			<Text>Alexandre Gustave Eiffel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Alexandre Gustave Eiffel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Alexandre Gustave Eiffel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Alexandre Gustave Eiffel</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_WASHINGTON_GOETHALS</Tag>
-		<English>George Washington Goethals</English>
-		<French>
-			<Text>George Washington Goethals</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>George Washington Goethals</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>George Washington Goethals</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>George Washington Goethals</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_HENRY_FORD</Tag>
-		<English>Henry Ford</English>
-		<French>
-			<Text>Henry Ford</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Henry Ford</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Henry Ford</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Henry Ford</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_WILBUR_WRIGHT</Tag>
-		<English>Wilbur Wright</English>
-		<French>
-			<Text>Wilbur Wright</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Wilbur Wright</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Wilbur Wright</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Wilbur Wright</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_GREAT_PERSON_ORVILLE_WRIGHT</Tag>
-		<English>Orville Wright</English>
-		<French>
-			<Text>Orville Wright</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</French>
-		<German>
-			<Text>Orville Wright</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</German>
-		<Italian>
-			<Text>Orville Wright</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>Orville Wright</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Spanish>
-	</TEXT>
-</Civ4GameText>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->				
+<!-- Sid Meier's Civilization 4 -->				
+<!-- Copyright Firaxis Games 2005 -->				
+<!-- -->				
+<!-- GameText Great People -->				
+<Civ4GameText xmlns="http://www.firaxis.com">				
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MOSES</Tag>		
+		<Russian>		
+			<Text>&#204;&#238;&#232;&#241;&#229;&#233;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Moses</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MAHAVIRA</Tag>		
+		<Russian>		
+			<Text>&#204;&#224;&#245;&#224;&#226;&#232;&#240;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Mahavira</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ZOROASTER</Tag>		
+		<Russian>		
+			<Text>&#199;&#224;&#240;&#224;&#242;&#243;&#241;&#242;&#240;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Zoroaster</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ANANDA</Tag>		
+		<Russian>		
+			<Text>&#192;&#237;&#224;&#237;&#228;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ananda</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_CHUANG_TZU</Tag>		
+		<Russian>		
+			<Text>&#215;&#230;&#243;&#224;&#237;-&#246;&#231;&#251;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Chuang-Tzu</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MENCIUS</Tag>		
+		<Russian>		
+			<Text>&#204;&#253;&#237;-&#246;&#231;&#251;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Mencius</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MO_TZU</Tag>		
+		<Russian>		
+			<Text>&#204;&#238;-&#246;&#231;&#251;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Mo Tzu</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ST_JOHN</Tag>		
+		<Russian>		
+			<Text>&#209;&#226;. &#200;&#238;&#224;&#237;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>St. John</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ST_PETER</Tag>		
+		<Russian>		
+			<Text>&#209;&#226;. &#207;&#229;&#242;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>St. Peter</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ST_PAUL</Tag>		
+		<Russian>		
+			<Text>&#209;&#226;. &#207;&#224;&#226;&#229;&#235;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>St. Paul</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_RABBI_AKIVA</Tag>		
+		<Russian>		
+			<Text>&#208;&#224;&#225;&#225;&#232; &#192;&#234;&#232;&#226;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Rabbi Akiva</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MANI</Tag>		
+		<Russian>		
+			<Text>&#204;&#224;&#237;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Mani</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ST_AUGUSTINE</Tag>		
+		<Russian>		
+			<Text>&#193;&#235;. &#192;&#226;&#227;&#243;&#241;&#242;&#232;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>St. Augustine</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ST_PATRICK</Tag>		
+		<Russian>		
+			<Text>&#209;&#226;. &#207;&#224;&#242;&#240;&#232;&#234;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>St. Patrick</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ABU_BAKR</Tag>		
+		<Russian>		
+			<Text>&#192;&#225;&#243; &#193;&#224;&#234;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Abu Bakr</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_SHANKARA</Tag>		
+		<Russian>		
+			<Text>&#216;&#224;&#237;&#234;&#224;&#240;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Shankara</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_KOBO_DAISHI</Tag>		
+		<Russian>		
+			<Text>&#202;&#238;&#225;&#238; &#196;&#224;&#233;&#248;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Kobo-Daishi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ATISHA</Tag>		
+		<Russian>		
+			<Text>&#192;&#242;&#232;&#248;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Atisha</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ST_THOMAS_AQUINAS</Tag>		
+		<Russian>		
+			<Text>&#212;&#238;&#236;&#224; &#192;&#234;&#226;&#232;&#237;&#241;&#234;&#232;&#233;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>St. Thomas Aquinas</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MOHAMMED_SHAH</Tag>		
+		<Russian>		
+			<Text>&#204;&#238;&#245;&#224;&#236;&#236;&#229;&#228;-&#248;&#224;&#245;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Mohammed Shah</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_TSONGKHAPA</Tag>		
+		<Russian>		
+			<Text>&#214;&#238;&#237;&#234;&#224;&#239;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Tsongkhapa</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JEANNE_ARC</Tag>		
+		<Russian>		
+			<Text>&#198;&#224;&#237;&#237;&#224; &#196;'&#192;&#240;&#234;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Jeanne d'Arc</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NARAK</Tag>		
+		<Russian>		
+			<Text>&#205;&#224;&#240;&#224;&#234;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Narak</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_TIPU_SULTAN</Tag>		
+		<Russian>		
+			<Text>&#209;&#243;&#235;&#242;&#224;&#237; &#210;&#232;&#239;&#243;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Tipu Sultan</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_RAMAKRISHNA</Tag>		
+		<Russian>		
+			<Text>&#208;&#224;&#236;&#224;&#234;&#240;&#232;&#248;&#237;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ramakrishna</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NARAYANA_GURU</Tag>		
+		<Russian>		
+			<Text>&#205;&#224;&#240;&#224;&#255;&#237;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Narayana Guru</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_SOJOURNER_TRUTH</Tag>		
+		<Russian>		
+			<Text>&#209;&#238;&#230;&#243;&#240;&#237;&#229;&#240; &#210;&#240;&#243;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Sojourner Truth</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_HOMER</Tag>		
+		<Russian>		
+			<Text>&#195;&#238;&#236;&#229;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Homer</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_THESPIS</Tag>		
+		<Russian>		
+			<Text>&#212;&#229;&#241;&#239;&#232;&#228;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Thespis</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_LING_LUN</Tag>		
+		<Russian>		
+			<Text>&#203;&#232;&#237; &#203;&#243;&#237;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ling Lun</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_WANG_XIZHI</Tag>		
+		<Russian>		
+			<Text>&#194;&#224;&#237; &#209;&#232;&#247;&#230;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Wang Xizhi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_VALMIKI</Tag>		
+		<Russian>		
+			<Text>&#194;&#224;&#235;&#236;&#232;&#234;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Valmiki</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_VIRGIL</Tag>		
+		<Russian>		
+			<Text>&#194;&#229;&#240;&#227;&#232;&#235;&#232;&#233;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Virgil</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_KALIDAS</Tag>		
+		<Russian>		
+			<Text>&#202;&#224;&#235;&#232;&#228;&#224;&#241;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Kalidas</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_LI_PO</Tag>		
+		<Russian>		
+			<Text>&#203;&#232; &#193;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Li Po</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_DU_FU</Tag>		
+		<Russian>		
+			<Text>&#196;&#243; &#212;&#243;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Du Fu</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JALAL_ALDIN_RUMI</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#224;&#235;&#224;&#235; &#224;&#228;-&#196;&#232;&#237; &#208;&#243;&#236;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Jalal al-Din Rumi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_DANTE_ALIGHIERI</Tag>		
+		<Russian>		
+			<Text>&#196;&#224;&#237;&#242;&#229; &#192;&#235;&#232;&#227;&#252;&#229;&#240;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Dante Alighieri</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_YUNUS_EMRE</Tag>		
+		<Russian>		
+			<Text>&#222;&#237;&#243;&#241; &#221;&#236;&#240;&#229;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Yunus Emre</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_AMIR_KHUSRO</Tag>		
+		<Russian>		
+			<Text>&#192;&#236;&#232;&#240; &#213;&#243;&#241;&#240;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Amir Khusro</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_MUQLAH</Tag>		
+		<Russian>		
+			<Text>&#200;&#225;&#237; &#204;&#243;&#234;&#235;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ibn Muqlah</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MICHAELANGELO</Tag>		
+		<Russian>		
+			<Text>&#204;&#232;&#234;&#229;&#235;&#224;&#237;&#228;&#230;&#229;&#235;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Michaelangelo</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_RAPHAEL</Tag>		
+		<Russian>		
+			<Text>&#208;&#224;&#244;&#224;&#253;&#235;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Raphael</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_SHAKESPEARE</Tag>		
+		<Russian>		
+			<Text>&#211;&#232;&#235;&#252;&#255;&#236; &#216;&#229;&#234;&#241;&#239;&#232;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>William Shakespeare</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MIGUEL_DE_CERVANTES</Tag>		
+		<Russian>		
+			<Text>&#204;&#232;&#227;&#229;&#235;&#252; &#228;&#229; &#209;&#229;&#240;&#226;&#224;&#237;&#242;&#229;&#241;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Miguel de Cervantes</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_REMBRANDT</Tag>		
+		<Russian>		
+			<Text>&#208;&#229;&#236;&#225;&#240;&#224;&#237;&#228;&#242; &#226;&#224;&#237; &#208;&#229;&#233;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Rembrandt van Rijn</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHANNES_VERMEER</Tag>		
+		<Russian>		
+			<Text>&#223;&#237; &#194;&#229;&#240;&#236;&#229;&#229;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Johannes Vermeer</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JS_BACH</Tag>		
+		<Russian>		
+			<Text>&#200;&#238;&#227;&#224;&#237;&#237; &#209;&#229;&#225;&#224;&#241;&#242;&#252;&#255;&#237; &#193;&#224;&#245;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>J. S. Bach</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_WOLFGANG_MOZART</Tag>		
+		<Russian>		
+			<Text>&#194;&#238;&#235;&#252;&#244;&#227;&#224;&#237;&#227; &#192;&#236;&#224;&#228;&#229;&#233; &#204;&#238;&#246;&#224;&#240;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Wolfgang Amadeus Mozart</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHANN_GOETHE</Tag>		
+		<Russian>		
+			<Text>&#200;&#238;&#227;&#224;&#237;&#237; &#194;&#238;&#235;&#252;&#244;&#227;&#224;&#237;&#227; &#244;&#238;&#237; &#195;&#229;&#242;&#229;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Johann Wolfgang von Goethe</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_LUDWIG_VAN_BEETHOVEN</Tag>		
+		<Russian>		
+			<Text>&#203;&#254;&#228;&#226;&#232;&#227; &#226;&#224;&#237; &#193;&#229;&#242;&#245;&#238;&#226;&#229;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ludwig van Beethoven</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_VICTOR_HUGO</Tag>		
+		<Russian>		
+			<Text>&#194;&#232;&#234;&#242;&#238;&#240; &#195;&#254;&#227;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Victor Hugo</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_VINCENT_VAN_GOGH</Tag>		
+		<Russian>		
+			<Text>&#194;&#232;&#237;&#241;&#229;&#237;&#242; &#194;&#224;&#237; &#195;&#238;&#227;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Vincent van Gogh</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHANNES_BRAHMS</Tag>		
+		<Russian>		
+			<Text>&#200;&#238;&#227;&#224;&#237;&#237;&#229;&#241; &#193;&#240;&#224;&#236;&#241;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Johannes Brahms</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_DVORAK</Tag>		
+		<Russian>		
+			<Text>&#192;&#237;&#242;&#238;&#237;&#232;&#237; &#196;&#226;&#238;&#240;&#224;&#234;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Antonin Dvorak</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MARK_TWAIN</Tag>		
+		<Russian>		
+			<Text>&#204;&#224;&#240;&#234; &#210;&#226;&#229;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Mark Twain</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_CLAUDE_MONET</Tag>		
+		<Russian>		
+			<Text>&#202;&#235;&#238;&#228; &#204;&#238;&#237;&#229;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Claude Monet</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_CONRAD</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#238;&#231;&#229;&#244; &#202;&#238;&#237;&#240;&#224;&#228;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Joseph Conrad</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_FRANK_KAFKA</Tag>		
+		<Russian>		
+			<Text>&#212;&#240;&#224;&#237;&#246; &#202;&#224;&#244;&#234;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Frank Kafka</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_ARMSTRONG</Tag>		
+		<Russian>		
+			<Text>&#203;&#243;&#232; &#192;&#240;&#236;&#241;&#242;&#240;&#238;&#237;&#227;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Louis Armstrong</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_DUKE_ELLINGTON</Tag>		
+		<Russian>		
+			<Text>&#196;&#254;&#234; &#221;&#235;&#235;&#232;&#237;&#227;&#242;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Duke Ellington</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_PABLO_PICASSO</Tag>		
+		<Russian>		
+			<Text>&#207;&#224;&#225;&#235;&#238; &#207;&#232;&#234;&#224;&#241;&#241;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Pablo Picasso</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MILES_DAVIS</Tag>		
+		<Russian>		
+			<Text>&#204;&#224;&#233;&#235;&#241; &#196;&#229;&#226;&#232;&#241;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Miles Davis</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MERIT_PTAH</Tag>		
+		<Russian>		
+			<Text>&#204;&#229;&#240;&#232;&#242; &#207;&#242;&#224;&#245;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Merit Ptah</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_XI_LING_SHI</Tag>		
+		<Russian>		
+			<Text>&#209;&#232; &#203;&#232;&#237; &#216;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Xi Ling Shi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NABU_RIMANNI</Tag>		
+		<Russian>		
+			<Text>&#205;&#224;&#225;&#243;-&#208;&#232;&#236;&#224;&#237;&#237;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Nabu-rimanni</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_SOCRATES</Tag>		
+		<Russian>		
+			<Text>&#209;&#238;&#234;&#240;&#224;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Socrates</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_PLATO</Tag>		
+		<Russian>		
+			<Text>&#207;&#235;&#224;&#242;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Plato</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ARISTOTLE</Tag>		
+		<Russian>		
+			<Text>&#192;&#240;&#232;&#241;&#242;&#238;&#242;&#229;&#235;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Aristotle</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_EUCLID</Tag>		
+		<Russian>		
+			<Text>&#197;&#226;&#234;&#235;&#232;&#228;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Euclid</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_PTOLEMY</Tag>		
+		<Russian>		
+			<Text>&#207;&#242;&#238;&#235;&#229;&#236;&#229;&#233;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ptolemy</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_HYPATIA</Tag>		
+		<Russian>		
+			<Text>&#195;&#232;&#239;&#224;&#242;&#232;&#255;</Text>	
+			<Gender>Female</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Hypatia</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ZU_CHONGZHI</Tag>		
+		<Russian>		
+			<Text>&#214;&#231;&#243; &#215;&#243;&#237;&#247;&#230;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Zu Chongzhi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ARYABHATA</Tag>		
+		<Russian>		
+			<Text>&#192;&#240;&#232;&#224;&#225;&#245;&#224;&#242;&#224; </Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Aryabhata</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_AL_KINDI</Tag>		
+		<Russian>		
+			<Text>&#192;&#235;&#252;-&#202;&#232;&#237;&#228;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Al-Kindi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_AL_KHWARIZMI</Tag>		
+		<Russian>		
+			<Text>&#192;&#235;&#252;-&#213;&#238;&#240;&#229;&#231;&#236;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Al-Khwarizmi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_AL_RAZI</Tag>		
+		<Russian>		
+			<Text>&#192;&#235;&#252;-&#208;&#224;&#231;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Al-Razi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ALHAZEN</Tag>		
+		<Russian>		
+			<Text>&#192;&#235;&#245;&#224;&#231;&#229;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Alhazen</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NICOLAUS_COPERNICUS</Tag>		
+		<Russian>		
+			<Text>&#205;&#232;&#234;&#238;&#235;&#224;&#233; &#202;&#238;&#239;&#229;&#240;&#237;&#232;&#234;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Nicolaus Copernicus</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_FRANCIS_BACON</Tag>		
+		<Russian>		
+			<Text>&#212;&#240;&#229;&#237;&#241;&#232;&#241; &#193;&#253;&#234;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Francis Bacon</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_TYCHO_BRAHE</Tag>		
+		<Russian>		
+			<Text>&#210;&#232;&#245;&#238; &#193;&#240;&#224;&#227;&#229;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Tycho Brahe</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHANNES_KEPLER</Tag>		
+		<Russian>		
+			<Text>&#200;&#238;&#227;&#224;&#237;&#237; &#202;&#229;&#239;&#235;&#229;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Johannes Kepler</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ISAAC_NEWTON</Tag>		
+		<Russian>		
+			<Text>&#200;&#241;&#224;&#224;&#234; &#205;&#252;&#254;&#242;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Isaac Newton</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_GALILEO_GALILEI</Tag>		
+		<Russian>		
+			<Text>&#195;&#224;&#235;&#232;&#235;&#229;&#238; &#195;&#224;&#235;&#232;&#235;&#229;&#233;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Galileo Galilei</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_RENE_DESCARTES</Tag>		
+		<Russian>		
+			<Text>&#208;&#229;&#237;&#229; &#196;&#229;&#234;&#224;&#240;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Rene Descartes</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ANTONY_VAN_LEEUWENHOEK</Tag>		
+		<Russian>		
+			<Text>&#192;&#237;&#242;&#238;&#237;&#232; &#226;&#224;&#237; &#203;&#229;&#226;&#229;&#237;&#227;&#243;&#234;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Antony van Leeuwenhoek</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_GOTTFRIED_LEIBNIZ</Tag>		
+		<Russian>		
+			<Text>&#195;&#238;&#242;&#242;&#244;&#240;&#232;&#228; &#203;&#229;&#233;&#225;&#237;&#232;&#246;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Gottfried Leibniz</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MIKHAIL_LOMONOSOV</Tag>		
+		<Russian>		
+			<Text>&#204;&#232;&#245;&#224;&#232;&#235; &#203;&#238;&#236;&#238;&#237;&#238;&#241;&#238;&#226;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Mikhail Lomonosov</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ANTOINE_LAURENT_lAVOISIER</Tag>		
+		<Russian>		
+			<Text>&#192;&#237;&#242;&#243;&#224;&#237; &#203;&#238;&#240;&#224;&#237; &#203;&#224;&#226;&#243;&#224;&#231;&#252;&#229;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Antoine Laurent Lavoisier</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_CARL_FRIEDRICH_GAUSS</Tag>		
+		<Russian>		
+			<Text>&#202;&#224;&#240;&#235; &#212;&#240;&#232;&#228;&#240;&#232;&#245; &#195;&#224;&#243;&#241;&#241;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Carl Friedrich Gauss</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_DALTON</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#238;&#237; &#196;&#224;&#235;&#252;&#242;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>John Dalton</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MICHAEL_FARADAY</Tag>		
+		<Russian>		
+			<Text>&#204;&#224;&#233;&#234;&#235; &#212;&#224;&#240;&#224;&#228;&#229;&#233;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Michael Faraday</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JAMES_CLERK_MAXWELL</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#229;&#233;&#236;&#241; &#202;. &#204;&#224;&#234;&#241;&#226;&#229;&#235;&#235;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>James Clerk Maxwell</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_PASTEUR</Tag>		
+		<Russian>		
+			<Text>&#203;&#243;&#232; &#207;&#224;&#241;&#242;&#229;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Louis Pasteur</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_DARWIN</Tag>		
+		<Russian>		
+			<Text>&#215;&#224;&#240;&#235;&#252;&#231; &#196;&#224;&#240;&#226;&#232;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Charles Darwin</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ERNEST_RUTHERFORD</Tag>		
+		<Russian>		
+			<Text>&#221;&#240;&#237;&#229;&#241;&#242; &#208;&#229;&#231;&#229;&#240;&#244;&#238;&#240;&#228;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ernest Rutherford</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MARIE_CURIE</Tag>		
+		<Russian>		
+			<Text>&#204;&#224;&#240;&#232;&#255; &#202;&#254;&#240;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Marie Curie</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ALBERT_EINSTEIN</Tag>		
+		<Russian>		
+			<Text>&#192;&#235;&#252;&#225;&#229;&#240;&#242; &#221;&#233;&#237;&#248;&#242;&#229;&#233;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Albert Einstein</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NIELS_BOHR</Tag>		
+		<Russian>		
+			<Text>&#205;&#232;&#235;&#252;&#241; &#193;&#238;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Niels Bohr</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_WERNER_HEISENBERG</Tag>		
+		<Russian>		
+			<Text>&#194;&#229;&#240;&#237;&#229;&#240; &#195;&#229;&#233;&#231;&#229;&#237;&#225;&#229;&#240;&#227;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Werner Heisenberg</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ENRICO_FERMI</Tag>		
+		<Russian>		
+			<Text>&#221;&#237;&#240;&#232;&#234;&#238; &#212;&#229;&#240;&#236;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Enrico Fermi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ROSALIND_FRANKLIN</Tag>		
+		<Russian>		
+			<Text>&#208;&#238;&#231;&#224;&#235;&#232;&#237;&#228;&#224; &#212;&#240;&#224;&#237;&#234;&#235;&#232;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Rosalind Franklin</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ANDREI_SAKHAROV</Tag>		
+		<Russian>		
+			<Text>&#192;&#237;&#228;&#240;&#229;&#233; &#209;&#224;&#245;&#224;&#240;&#238;&#226;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Andrei Sakharov</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_HARKUF</Tag>		
+		<Russian>		
+			<Text>&#192;&#240;&#234;&#243;&#244;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Harkuf</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_HANNO</Tag>		
+		<Russian>		
+			<Text>&#195;&#224;&#237;&#237;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Hanno</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_PYTHEAS</Tag>		
+		<Russian>		
+			<Text>&#207;&#232;&#244;&#229;&#233;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Pytheas</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_QIAN</Tag>		
+		<Russian>		
+			<Text>&#215;&#230;&#224;&#237; &#214;&#255;&#237;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Zhang Qian</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ARETAS_III</Tag>		
+		<Russian>		
+			<Text>&#192;&#240;&#229;&#242;&#224; III</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Aretas III</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_LEIF_ERICKSON</Tag>		
+		<Russian>		
+			<Text>&#203;&#229;&#233;&#244; &#221;&#240;&#232;&#234;&#241;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Leif Erickson</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_WANG_ANSHI</Tag>		
+		<Russian>		
+			<Text>&#194;&#224;&#237; &#192;&#237;&#252;&#248;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Wang Anshi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ENRICO_DANDOLO</Tag>		
+		<Russian>		
+			<Text>&#221;&#237;&#240;&#232;&#234;&#238; &#196;&#224;&#237;&#228;&#238;&#235;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Enrico Dandolo</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_MARCO_POLO</Tag>		
+		<Russian>		
+			<Text>&#204;&#224;&#240;&#234;&#238; &#207;&#238;&#235;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Marco Polo</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_IBN_BATTUTA</Tag>		
+		<Russian>		
+			<Text>&#200;&#225;&#237; &#193;&#224;&#242;&#242;&#243;&#242;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ibn Battuta</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_RRICHARD_WHITTINGTON</Tag>		
+		<Russian>		
+			<Text>&#208;&#232;&#247;&#224;&#240;&#228; &#211;&#232;&#242;&#242;&#232;&#237;&#227;&#242;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Richard Whittington</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_GIOVANNI_DE_MEDICI</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#238;&#226;&#224;&#237;&#237;&#232; &#228;&#229; &#204;&#229;&#228;&#232;&#247;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Giovanni de Medici</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ZHENG_HE</Tag>		
+		<Russian>		
+			<Text>&#215;&#230;&#229;&#237; &#213;&#253;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Zheng He</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_VASCO_DA_GAMA</Tag>		
+		<Russian>		
+			<Text>&#194;&#224;&#241;&#234;&#238; &#228;&#224; &#195;&#224;&#236;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Vasco da Gama</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_CHRISTOPHER_COLUMBUS</Tag>		
+		<Russian>		
+			<Text>&#213;&#240;&#232;&#241;&#242;&#238;&#244;&#238;&#240; &#202;&#238;&#235;&#243;&#236;&#225;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Christopher Columbus</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_FERDINAND_MAGELLAN</Tag>		
+		<Russian>		
+			<Text>&#212;&#229;&#240;&#228;&#232;&#237;&#224;&#237;&#228; &#204;&#224;&#227;&#229;&#235;&#235;&#224;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ferdinand Magellan</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JACQUES_CARTIER</Tag>		
+		<Russian>		
+			<Text>&#198;&#224;&#234; &#202;&#224;&#240;&#242;&#252;&#229;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Jacques Cartier</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_RAJA_TODAR_MAL</Tag>		
+		<Russian>		
+			<Text>&#208;&#224;&#228;&#230;&#224; &#210;&#238;&#228;&#224;&#240; &#204;&#224;&#235;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Raja Todar Mal</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ANTONY_VAN_DIEMEN</Tag>		
+		<Russian>		
+			<Text>&#221;&#237;&#242;&#238;&#237;&#232; &#226;&#224;&#237; &#196;&#252;&#229;&#236;&#229;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Anthony van Diemen</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_SIR_THOMAS_ROE</Tag>		
+		<Russian>		
+			<Text>&#209;&#253;&#240; &#210;&#238;&#236;&#224;&#241; &#208;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Sir Thomas Roe</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_SHAH_JAHAN</Tag>		
+		<Russian>		
+			<Text>&#216;&#224;&#245; &#196;&#230;&#224;&#245;&#224;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Shah Jahan</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ADAM_SMITH</Tag>		
+		<Russian>		
+			<Text>&#192;&#228;&#224;&#236; &#209;&#236;&#232;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Adam Smith</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JAMES_COOK</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#229;&#233;&#236;&#241; &#202;&#243;&#234;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>James Cook</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_CORNELIUS_VANDERBILT</Tag>		
+		<Russian>		
+			<Text>&#202;&#238;&#240;&#237;&#229;&#235;&#232;&#243;&#241; &#194;&#224;&#237;&#228;&#229;&#240;&#225;&#232;&#235;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Cornelius Vanderbilt</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_SIR_ALEXANDER_MACKENZIE</Tag>		
+		<Russian>		
+			<Text>&#209;&#253;&#240; &#192;&#235;&#229;&#234;&#241;&#224;&#237;&#228;&#229;&#240; &#204;&#224;&#234;&#229;&#237;&#231;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Sir Alexander Mackenzie</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_STUART_MILL</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#238;&#237; &#209;&#242;&#254;&#224;&#240;&#242; &#204;&#232;&#235;&#235;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>John Stuart Mill</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ANDREW_CARNEGIE</Tag>		
+		<Russian>		
+			<Text>&#221;&#237;&#228;&#240;&#254; &#202;&#224;&#240;&#237;&#229;&#227;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Andrew Carnegie</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_D_ROCKEFELLER</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#238;&#237; &#196;. &#208;&#238;&#234;&#244;&#229;&#235;&#235;&#229;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>John D. Rockefeller</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_MAYNARD_KEYNES</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#238;&#237; &#204;&#229;&#233;&#237;&#224;&#240;&#228; &#202;&#229;&#233;&#237;&#241;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>John Maynard Keynes</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_COCO_CHANEL</Tag>		
+		<Russian>		
+			<Text>&#202;&#238;&#234;&#238; &#216;&#224;&#237;&#229;&#235;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Coco Chanel</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_IMHOTEP</Tag>		
+		<Russian>		
+			<Text>&#200;&#236;&#245;&#238;&#242;&#229;&#239;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Imhotep</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ARCHIMEDES</Tag>		
+		<Russian>		
+			<Text>&#192;&#240;&#245;&#232;&#236;&#229;&#228;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Archimedes</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_HERON</Tag>		
+		<Russian>		
+			<Text>&#195;&#229;&#240;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Heron</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_CAI_LUN</Tag>		
+		<Russian>		
+			<Text>&#214;&#224;&#233; &#203;&#243;&#237;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Cai Lun</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ZHANG_HENG</Tag>		
+		<Russian>		
+			<Text>&#215;&#230;&#224;&#237; &#213;&#253;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Zhang Heng</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_BI_SHENG</Tag>		
+		<Russian>		
+			<Text>&#193;&#232; &#216;&#253;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Bi Sheng</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_LEONARDO_DA_VINCI</Tag>		
+		<Russian>		
+			<Text>&#203;&#229;&#238;&#237;&#224;&#240;&#228;&#238; &#228;&#224; &#194;&#232;&#237;&#247;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Leonardo da Vinci</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_SINAN</Tag>		
+		<Russian>		
+			<Text>&#209;&#232;&#237;&#224;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Sinan</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_WILHELM_SCHICKARD</Tag>		
+		<Russian>		
+			<Text>&#194;&#232;&#235;&#252;&#227;&#229;&#235;&#252;&#236; &#216;&#232;&#234;&#234;&#224;&#240;&#228;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Wilhelm Schickard</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_BLAISE_PASCAL</Tag>		
+		<Russian>		
+			<Text>&#193;&#235;&#229;&#231; &#207;&#224;&#241;&#234;&#224;&#235;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Blaise Pascal</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_BENJAMIN_FRANKLIN</Tag>		
+		<Russian>		
+			<Text>&#193;&#229;&#237;&#228;&#230;&#224;&#236;&#232;&#237; &#212;&#240;&#224;&#237;&#234;&#235;&#232;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Benjamin Franklin</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_CHARLES_AUGUSTIN_DE_COULOMB</Tag>		
+		<Russian>		
+			<Text>&#216;&#224;&#240;&#235;&#252; &#206;&#227;&#254;&#241;&#242;&#229;&#237; &#228;&#229; &#202;&#243;&#235;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Charles Augustin de Coulomb</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JAMES_WATT</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#229;&#233;&#236;&#241; &#211;&#224;&#242;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>James Watt</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOSEPH_MARIE_JACQUARD</Tag>		
+		<Russian>		
+			<Text>&#198;&#238;&#231;&#229;&#244; &#204;&#224;&#240;&#232; &#198;&#224;&#234;&#234;&#224;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Joseph Marie Jacquard</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ISAMBARD_KINGDOM_BRUNEL</Tag>		
+		<Russian>		
+			<Text>&#200;&#241;&#224;&#236;&#225;&#224;&#240;&#228; &#202;&#232;&#237;&#227;&#228;&#238;&#236; &#193;&#240;&#243;&#237;&#229;&#235;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Isambard Kingdom Brunel</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_WILLIAN_MORTON</Tag>		
+		<Russian>		
+			<Text>&#211;&#232;&#235;&#252;&#255;&#236; &#210;.&#195;. &#204;&#238;&#240;&#242;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>William T. G. Morton</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_LOUIS_DAGUERRE</Tag>		
+		<Russian>		
+			<Text>&#203;&#243;&#232; &#196;&#224;&#227;&#229;&#240;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Louis Daguerre</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_FERDINAND_DE_LESSEPS</Tag>		
+		<Russian>		
+			<Text>&#212;&#229;&#240;&#228;&#232;&#237;&#224;&#237;&#228; &#228;&#229; &#203;&#229;&#241;&#241;&#229;&#239;&#241;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Ferdinand de Lesseps</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_JOHN_ROEBLING</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#238;&#237; &#208;&#229;&#225;&#235;&#232;&#237;&#227;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>John Roebling</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NOBERT_RILLIEUX</Tag>		
+		<Russian>		
+			<Text>&#205;&#238;&#240;&#225;&#229;&#240;&#242; &#208;&#232;&#235;&#252;&#229;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Norbert Rillieux</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_HENRY_BESSEMER</Tag>		
+		<Russian>		
+			<Text>&#195;&#229;&#237;&#240;&#232; &#193;&#229;&#241;&#241;&#229;&#236;&#229;&#240;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Henry Bessemer</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NAIN_SINGH</Tag>		
+		<Russian>		
+			<Text>&#205;&#224;&#232;&#237; &#209;&#232;&#237;&#227;&#245;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Nain Singh</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDER_GRAHM_BELL</Tag>		
+		<Russian>		
+			<Text>&#192;&#235;&#229;&#234;&#241;&#224;&#237;&#228;&#229;&#240; &#195;&#240;&#229;&#233;&#224;&#236; &#193;&#229;&#235;&#235;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Alexander Graham Bell</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NIKOLAUS_AUGUST_OTTO</Tag>		
+		<Russian>		
+			<Text>&#205;&#232;&#234;&#238;&#235;&#224;&#243;&#241; &#192;&#226;&#227;&#243;&#241;&#242; &#206;&#242;&#242;&#238;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Nikolaus August Otto</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_NICHOLA_TESLA</Tag>		
+		<Russian>		
+			<Text>&#205;&#232;&#234;&#238;&#235;&#224; &#210;&#229;&#241;&#235;&#224;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Nichola Tesla</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_THOMAS_EDISON</Tag>		
+		<Russian>		
+			<Text>&#210;&#238;&#236;&#224;&#241; &#221;&#228;&#232;&#241;&#238;&#237;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Thomas Edison</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_GUGLIELMO_MARCONI</Tag>		
+		<Russian>		
+			<Text>&#195;&#232;&#235;&#252;&#229;&#240;&#236;&#238; &#204;&#224;&#240;&#234;&#238;&#237;&#232;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Guglielmo Marconi</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ALEXANDRE_GUSTAVE_EIFFEL</Tag>		
+		<Russian>		
+			<Text>&#195;&#254;&#241;&#242;&#224;&#226; &#221;&#233;&#244;&#229;&#235;&#252;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Alexandre Gustave Eiffel</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_GEORGE_WASHINGTON_GOETHALS</Tag>		
+		<Russian>		
+			<Text>&#196;&#230;&#238;&#240;&#228;&#230; &#194;&#224;&#248;&#232;&#237;&#227;&#242;&#238;&#237; &#195;&#238;&#243;&#242;&#224;&#235;&#241;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>George Washington Goethals</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_HENRY_FORD</Tag>		
+		<Russian>		
+			<Text>&#195;&#229;&#237;&#240;&#232; &#212;&#238;&#240;&#228;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Henry Ford</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_WILBUR_WRIGHT</Tag>		
+		<Russian>		
+			<Text>&#211;&#232;&#235;&#225;&#243;&#240; &#208;&#224;&#233;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Wilbur Wright</English>		
+	</TEXT>			
+	<TEXT>			
+		<Tag>TXT_KEY_GREAT_PERSON_ORVILLE_WRIGHT</Tag>		
+		<Russian>		
+			<Text>&#206;&#240;&#226;&#232;&#235;&#235; &#208;&#224;&#233;&#242;</Text>	
+			<Gender>Male</Gender>	
+			<Plural>0</Plural>	
+		</Russian>		
+		<English>Orville Wright</English>		
+	</TEXT>			
+</Civ4GameText>				

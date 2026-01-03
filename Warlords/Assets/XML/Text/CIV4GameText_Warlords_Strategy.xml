@@ -8,42 +8,27 @@
 	<!--Please place any new text entries into this file-->
 	<TEXT>
 		<Tag>TXT_KEY_ALEXANDER_UNIT_PELTASTS_STRATEGY</Tag>
+		<Russian>&#221;&#242;&#232; &#241;&#235;&#224;&#225;&#251;&#229; &#239;&#229;&#245;&#238;&#242;&#237;&#251;&#229; &#254;&#237;&#232;&#242;&#251; &#236;&#238;&#230;&#237;&#238; &#232;&#241;&#239;&#238;&#235;&#252;&#231;&#238;&#226;&#224;&#242;&#252; &#234;&#224;&#234; &#238;&#225;&#238;&#240;&#238;&#237;&#232;&#242;&#229;&#235;&#252;&#237;&#251;&#229; &#226;&#238;&#233;&#241;&#234;&#224; &#225;&#251;&#241;&#242;&#240;&#238;&#227;&#238; &#240;&#229;&#224;&#227;&#232;&#240;&#238;&#226;&#224;&#237;&#232;&#255;.</Russian>
 		<English>Build this low powered melee combat unit to provide your army with quick response defensive units.</English>
-		<French>Produisez cette unit&#233; peu puissante de combat rapproch&#233; pour fournir rapidement &#224; votre arm&#233;e des unit&#233;s d&#233;fensives.</French>
-		<German>Mit diesen ansonsten eher schwachen Nahkampfeinheiten stellen Sie Ihren Truppen Defensivkämpfer für schnelle Gegenangriffe zur Seite.</German>
-		<Italian>Costruisci questa unità da combattimento in mischia poco potente per integrare il tuo esercito con unità di difesa a risposta rapida.</Italian>
-		<Spanish>Construye esta unidad de combate cuerpo a cuerpo, poco poderosa, para dotar a tu ej&#233;rcito con unidades defensivas de respuesta rápida.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ALEXANDER_UNIT_PRODROMOI_STRATEGY</Tag>
+		<Russian>&#221;&#242;&#238;&#242; &#234;&#238;&#237;&#237;&#251;&#233; &#254;&#237;&#232;&#242; &#253;&#244;&#244;&#229;&#234;&#242;&#232;&#226;&#229;&#237; &#226; &#237;&#224;&#247;&#224;&#235;&#229; &#232;&#227;&#240;&#251;, &#238;&#241;&#238;&#225;&#229;&#237;&#237;&#238; &#239;&#240;&#238;&#242;&#232;&#226; &#234;&#224;&#242;&#224;&#239;&#243;&#235;&#252;&#242;.</Russian>
 		<English>This mounted unit is very powerful for early in the game and is a great counter to an enemy with catapults.</English>
-		<French>Cette unit&#233; mont&#233;e est particuli&#232;rement efficace dans les premi&#232;res phases du jeu et s'av&#232;re tr&#232;s utile face &#224; un ennemi disposant de catapultes.</French>
-		<German>Diese berittene Einheit ist in den frühen Phasen des Spiels sehr effizient und eignet sich hervorragend für Angriffe auf feindliche Katapulte.</German>
-		<Italian>Questa unità montante è molto potente nelle prime fasi della partita ed è ottima per contrastare le catapulte nemiche.</Italian>
-		<Spanish>Esta unidad montada es muy poderosa al principio del juego, y sirve para contrarrestar a un enemigo que disponga de catapultas.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MILITARY_ACADEMY_STRATEGY</Tag>
+		<Russian>[COLOR_BUILDING_TEXT]&#194;&#238;&#229;&#237;&#237;&#224;&#255; &#224;&#234;&#224;&#228;&#229;&#236;&#232;&#255;[COLOR_REVERT] &#243;&#241;&#234;&#238;&#240;&#255;&#229;&#242; &#239;&#240;&#238;&#232;&#231;&#226;&#238;&#228;&#241;&#242;&#226;&#238; &#226;&#238;&#229;&#237;&#237;&#251;&#245; &#254;&#237;&#232;&#242;&#238;&#226;.</Russian>
 		<English>[COLOR_BUILDING_TEXT]Military Academies[COLOR_REVERT] increase a city's military unit production.</English>
-		<French>Les [COLOR_BUILDING_TEXT]acad&#233;mies militaires[COLOR_REVERT] augmentent la production d'unit&#233;s militaires de la ville.</French>
-		<German>Die [COLOR_BUILDING_TEXT]Militärakademie[COLOR_REVERT] erhöht die städtische Produktion militärischer Einheiten.</German>
-		<Italian>Questa [COLOR_BUILDING_TEXT]Accademia militare[COLOR_REVERT] incrementa la produzione di unità militari della città.</Italian>
-		<Spanish>Las [COLOR_BUILDING_TEXT]Academias militares[COLOR_REVERT] aumentan la producción de unidades militares de una ciudad.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_STABLE_STRATEGY</Tag>
+		<Russian>[COLOR_BUILDING_TEXT]&#202;&#238;&#237;&#254;&#248;&#237;&#232;[COLOR_REVERT] &#228;&#224;&#254;&#242; &#238;&#239;&#251;&#242; &#234;&#238;&#237;&#237;&#251;&#236; &#254;&#237;&#232;&#242;&#224;&#236;.</Russian>
 		<English>[COLOR_BUILDING_TEXT]Stables[COLOR_REVERT] provide your mounted units with additional experience.</English>
-		<French>Les [COLOR_BUILDING_TEXT]&#233;curies[COLOR_REVERT] octroient de l'exp&#233;rience suppl&#233;mentaire &#224; vos unit&#233;s montées.</French>
-		<German>Durch die [COLOR_BUILDING_TEXT]Stallungen[COLOR_REVERT] erhalten Ihre berittenen Einheiten zusätzliche Erfahrungspunkte.</German>
-		<Italian>Queste [COLOR_BUILDING_TEXT]Stalle[COLOR_REVERT] danno un bonus di esperienza alle unità a cavallo.</Italian>
-		<Spanish>Los [COLOR_BUILDING_TEXT]Establos[COLOR_REVERT] otorgan más experiencia a tus unidades montadas.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREEKWAR_IMPROVEMENT_OLIVE_PRESS_STRATEGY</Tag>
+		<Russian>&#221;&#242;&#238;&#242; &#238;&#225;&#250;&#229;&#234;&#242; &#239;&#238;&#231;&#226;&#238;&#235;&#255;&#229;&#242; &#241;&#238;&#225;&#232;&#240;&#224;&#242;&#252; [COLOR_HIGHLIGHT_TEXT]&#238;&#235;&#232;&#226;&#234;&#232;[COLOR_REVERT].</Russian>
 		<English>This improvement allows you to harvest [COLOR_HIGHLIGHT_TEXT]Olives[COLOR_REVERT].</English>
-		<French>Cette am&#233;lioration vous permet de cultiver des [COLOR_HIGHLIGHT_TEXT]olives[COLOR_REVERT].</French>
-		<German>Diese Modernisierung ermöglicht die Verarbeitung von [COLOR_HIGHLIGHT_TEXT]Oliven[COLOR_REVERT].</German>
-		<Italian>Questo miglioramento ti consente di raccogliere le [COLOR_HIGHLIGHT_TEXT]olive[COLOR_REVERT].</Italian>
-		<Spanish>Esta mejora te permite cosechar [COLOR_HIGHLIGHT_TEXT]Aceitunas[COLOR_REVERT].</Spanish>
 	</TEXT>
 </Civ4GameText>

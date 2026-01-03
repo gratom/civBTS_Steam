@@ -7,6 +7,7 @@
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_DESC</Tag>
+		<Russian>&#209;&#226;&#255;&#249;&#229;&#237;&#237;&#224;&#255; &#208;&#232;&#236;&#241;&#234;&#224;&#255; &#232;&#236;&#239;&#229;&#240;&#232;&#255;</Russian>
 		<English>Holy Roman Empire</English>
 		<French>
 			<Text>Saint Empire romain germanique</Text>
@@ -14,7 +15,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Heiliges R&#246;misches Reich:Heilige R&#246;mische Reich:Heiligen R&#246;mischen Reich</Text>
+			<Text>Heiliges Römisches Reich:Heilige Römische Reich:Heiligen Römischen Reich</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -31,6 +32,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_SHORT_DESC</Tag>
+		<Russian>&#195;&#229;&#240;&#236;&#224;&#237;&#246;&#251;</Russian>
 		<English>Holy Rome</English>
 		<French>
 			<Text>Romains saints</Text>
@@ -55,6 +57,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_HOLY_ROMAN_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#227;&#229;&#240;&#236;&#224;&#237;&#246;&#251;:&#227;&#229;&#240;&#236;&#224;&#237;&#246;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Holy Roman:Holy Romans</Text>
 			<Gender>Male</Gender>
@@ -66,7 +73,7 @@
 			<Plural>0:0:1:1</Plural>
 		</French>
 		<German>
-			<Text>Heilig-r&#246;misch:heilig-r&#246;mischen:heilig-r&#246;mische</Text>
+			<Text>Heilig-römisch:heilig-römischen:heilig-römische</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -83,6 +90,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_CHARLEMAGNE</Tag>
+		<Russian>&#202;&#224;&#240;&#235; &#194;&#229;&#235;&#232;&#234;&#232;&#233;</Russian>
 		<English>Charlemagne</English>
 		<French>
 			<Text>Charlemagne</Text>
@@ -90,7 +98,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Karl der Gro&#223;e</Text>
+			<Text>Karl der Große</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -107,6 +115,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HOLY_ROMAN_RATHAUS</Tag>
+		<Russian>&#208;&#224;&#242;&#243;&#248;&#224;</Russian>
 		<English>Rathaus</English>
 		<French>
 			<Text>Rathaus</Text>
@@ -131,6 +140,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HOLY_ROMAN_LANDSKNECHT</Tag>
+		<Russian>&#203;&#224;&#237;&#228;&#241;&#234;&#237;&#229;&#245;&#242;</Russian>
 		<English>Landsknecht</English>
 		<French>
 			<Text>Lansquenet:Lansquenets</Text>
@@ -155,6 +165,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_NETHERLANDS_OOSTINDIEVAARDER</Tag>
+		<Russian>&#206;&#241;&#242;-&#232;&#237;&#228;&#232;&#229;&#246;</Russian>
 		<English>East Indiaman</English>
 		<French>
 			<Text>East Indiaman</Text>
@@ -172,16 +183,17 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Nav&#237;o de las Indias Orientales:Nav&#237;os de las Indias Orientales</Text>
+			<Text>Navío de las Indias Orientales:Navíos de las Indias Orientales</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_PERICLES</Tag>
+		<Russian>&#207;&#229;&#240;&#232;&#234;&#235;</Russian>
 		<English>Pericles</English>
 		<French>
-			<Text>P&#233;ricl&#232;s</Text>
+			<Text>Périclès</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -203,6 +215,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_WILLEM_VAN_ORANJE</Tag>
+		<Russian>&#194;&#232;&#235;&#252;&#227;&#229;&#235;&#252;&#236; I</Russian>
 		<English>Willem van Oranje</English>
 		<French>
 			<Text>Guillaume d'Orange</Text>
@@ -227,14 +240,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NETHERLANDS_DESC</Tag>
+		<Russian>&#205;&#232;&#228;&#229;&#240;&#235;&#224;&#237;&#228;&#251;</Russian>
 		<English>Dutch Empire</English>
 		<French>
-			<Text>Empire n&#233;erlandais</Text>
+			<Text>Empire néerlandais</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Holl&#228;ndisches Reich:Holl&#228;ndische Reich:Holl&#228;ndischen Reich</Text>
+			<Text>Holländisches Reich:Holländische Reich:Holländischen Reich</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -244,13 +258,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Imperio Holand&#233;s</Text>
+			<Text>Imperio Holandés</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NETHERLANDS_SHORT_DESC</Tag>
+		<Russian>&#205;&#232;&#228;&#229;&#240;&#235;&#224;&#237;&#228;&#246;&#251;</Russian>
 		<English>Netherlands</English>
 		<French>
 			<Text>Pays-Bas</Text>
@@ -275,18 +290,23 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NETHERLANDS_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#237;&#232;&#228;&#229;&#240;&#235;&#224;&#237;&#228;&#246;&#251;:&#237;&#232;&#228;&#229;&#240;&#235;&#224;&#237;&#228;&#246;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Dutch:Dutch</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</English>
 		<French>
-			<Text>n&#233;erlandais:n&#233;erlandaise:n&#233;erlandais:n&#233;erlandaises</Text>
+			<Text>néerlandais:néerlandaise:néerlandais:néerlandaises</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
 		<German>
-			<Text>Holl&#228;ndisch:holl&#228;ndischen:holl&#228;ndische</Text>
+			<Text>Holländisch:holländischen:holländische</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -296,13 +316,14 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>holand&#233;s:holandesa:holandeses:holandesas</Text>
+			<Text>holandés:holandesa:holandeses:holandesas</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CUSTOM_HOUSE</Tag>
+		<Russian>&#210;&#224;&#236;&#238;&#230;&#237;&#255;</Russian>
 		<English>Customs House</English>
 		<French>
 			<Text>Poste de douane:Postes de douane</Text>
@@ -327,6 +348,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INDUSTRIAL_PARK</Tag>
+		<Russian>&#207;&#240;&#238;&#236;. &#234;&#238;&#236;&#239;&#235;&#229;&#234;&#241;</Russian>
 		<English>Industrial Park</English>
 		<French>
 			<Text>Zone industrielle:Zones industrielles</Text>
@@ -344,13 +366,14 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Pol&#237;gono industrial:Pol&#237;gonos industriales</Text>
+			<Text>Polígono industrial:Polígonos industriales</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PUBLIC_TRANSPORTATION</Tag>
+		<Russian>&#206;&#225;&#249;. &#242;&#240;&#224;&#237;&#241;&#239;&#238;&#240;&#242;</Russian>
 		<English>Public Transportation</English>
 		<French>
 			<Text>Transports publics</Text>
@@ -358,7 +381,7 @@
 			<Plural>1</Plural>
 		</French>
 		<German>
-			<Text>&#214;ffentliche Verkehrsmittel</Text>
+			<Text>Öffentliche Verkehrsmittel</Text>
 			<Gender>Neuter</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -368,16 +391,17 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Transporte p&#250;blico:Transportes p&#250;blicos</Text>
+			<Text>Transporte público:Transportes públicos</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_LEVEE</Tag>
+		<Russian>&#207;&#235;&#238;&#242;&#232;&#237;&#224;</Russian>
 		<English>Levee</English>
 		<French>
-			<Text>Lev&#233;e:Lev&#233;es</Text>
+			<Text>Levée:Levées</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -399,6 +423,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NETHERLANDS_DIKE</Tag>
+		<Russian>&#196;&#224;&#236;&#225;&#224;</Russian>
 		<English>Dike</English>
 		<French>
 			<Text>Digue:Digues</Text>
@@ -423,6 +448,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_PACAL</Tag>
+		<Russian>&#207;&#224;&#234;&#224;&#235;&#252; II</Russian>
 		<English>Pacal II</English>
 		<French>
 			<Text>Pacal II</Text>
@@ -447,6 +473,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_DESC</Tag>
+		<Russian>&#200;&#236;&#239;&#229;&#240;&#232;&#255; &#236;&#224;&#233;&#255;</Russian>
 		<English>Maya Empire</English>
 		<French>
 			<Text>Empire maya</Text>
@@ -471,6 +498,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_SHORT_DESC</Tag>
+		<Russian>&#204;&#224;&#233;&#255;</Russian>
 		<English>Maya</English>
 		<French>
 			<Text>Mayas</Text>
@@ -488,13 +516,18 @@
 			<Plural>1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Am&#233;rica Maya</Text>
+			<Text>América Maya</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_MAYA_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#236;&#224;&#233;&#255;:&#236;&#224;&#233;&#255;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Maya:Maya</Text>
 			<Gender>Male</Gender>
@@ -523,6 +556,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MAYA_BALL_COURT</Tag>
+		<Russian>&#200;&#227;&#240;&#238;&#226;&#238;&#229; &#239;&#238;&#235;&#229;</Russian>
 		<English>Ball Court</English>
 		<French>
 			<Text>Terrain de jeu de balle:Terrains de jeu de balle</Text>
@@ -547,6 +581,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MAYA_HOLKAN</Tag>
+		<Russian>&#213;&#238;&#235;&#252;&#234;&#224;&#237;</Russian>
 		<English>Holkan</English>
 		<French>
 			<Text>Holkan:Holkans</Text>
@@ -571,6 +606,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_ZARA_YAQOB</Tag>
+		<Russian>&#199;&#224;&#240;&#224;-&#223;&#234;&#238;&#225;</Russian>
 		<English>Zara Yaqob</English>
 		<French>
 			<Text>Zara Yacoub</Text>
@@ -595,14 +631,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_DESC</Tag>
+		<Russian>&#221;&#244;&#232;&#238;&#239;&#232;&#255;</Russian>
 		<English>Ethiopian Empire</English>
 		<French>
-			<Text>Empire &#233;thiopien</Text>
+			<Text>Empire éthiopien</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>&#196;thiopisches Reich:&#196;thiopische Reich:&#196;thiopischen Reich</Text>
+			<Text>Äthiopisches Reich:Äthiopische Reich:Äthiopischen Reich</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -612,13 +649,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Imperio Et&#237;ope</Text>
+			<Text>Imperio Etíope</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_SHORT_DESC</Tag>
+		<Russian>&#221;&#244;&#232;&#238;&#239;&#251;</Russian>
 		<English>Ethiopia</English>
 		<French>
 			<Text>Ethiopiens</Text>
@@ -626,7 +664,7 @@
 			<Plural>1</Plural>
 		</French>
 		<German>
-			<Text>&#196;thiopien</Text>
+			<Text>Äthiopien</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -636,25 +674,30 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Etiop&#237;a</Text>
+			<Text>Etiopía</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ETHIOPIA_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#253;&#244;&#232;&#238;&#239;&#251;:&#253;&#244;&#232;&#238;&#239;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Ethiopian:Ethiopians</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</English>
 		<French>
-			<Text>&#233;thiopien:&#233;thiopienne:&#233;thiopiens:&#233;thiopiennes</Text>
+			<Text>éthiopien:éthiopienne:éthiopiens:éthiopiennes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
 		<German>
-			<Text>&#196;thiopisch:&#228;thiopischen:&#228;thiopische</Text>
+			<Text>Äthiopisch:äthiopischen:äthiopische</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -664,16 +707,17 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>et&#237;ope:et&#237;ope:et&#237;opes:et&#237;opes</Text>
+			<Text>etíope:etíope:etíopes:etíopes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ETHIOPIAN_STELE</Tag>
+		<Russian>&#209;&#242;&#229;&#235;&#224;</Russian>
 		<English>Stele</English>
 		<French>
-			<Text>St&#232;le:St&#232;les</Text>
+			<Text>Stèle:Stèles</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -695,6 +739,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ETHIOPIAN_OROMO_WARRIOR</Tag>
+		<Russian>&#194;&#238;&#232;&#237; &#238;&#240;&#238;&#236;&#238;</Russian>
 		<English>Oromo Warrior</English>
 		<French>
 			<Text>Guerrier Oromo:Guerriers Oromo</Text>
@@ -719,6 +764,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SULEIMAN</Tag>
+		<Russian>&#209;&#243;&#235;&#229;&#233;&#236;&#224;&#237; I</Russian>
 		<English>Suleiman</English>
 		<French>
 			<Text>Soliman</Text>
@@ -726,7 +772,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>S&#252;leyman I.</Text>
+			<Text>Süleyman I.</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -736,16 +782,17 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Solim&#225;n</Text>
+			<Text>Solimán</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_BOUDICA</Tag>
+		<Russian>&#193;&#238;&#243;&#228;&#232;&#234;&#224;</Russian>
 		<English>Boudica</English>
 		<French>
-			<Text>Boadic&#233;e</Text>
+			<Text>Boadicée</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -767,6 +814,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_LINCOLN</Tag>
+		<Russian>&#203;&#232;&#237;&#234;&#238;&#235;&#252;&#237;</Russian>
 		<English>Lincoln</English>
 		<French>
 			<Text>Lincoln</Text>
@@ -791,6 +839,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_DARIUS</Tag>
+		<Russian>&#196;&#224;&#240;&#232;&#233; I</Russian>
 		<English>Darius I</English>
 		<French>
 			<Text>Darios Ier</Text>
@@ -808,13 +857,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Dar&#237;o I</Text>
+			<Text>Darío I</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_DE_GAULLE</Tag>
+		<Russian>&#216;&#224;&#240;&#235;&#252; &#228;&#229; &#195;&#238;&#235;&#235;&#252;</Russian>
 		<English>De Gaulle</English>
 		<French>
 			<Text>De Gaulle</Text>
@@ -839,6 +889,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_HAMMURABI</Tag>
+		<Russian>&#213;&#224;&#236;&#236;&#243;&#240;&#224;&#239;&#232;</Russian>
 		<English>Hammurabi</English>
 		<French>
 			<Text>Hammourabi</Text>
@@ -863,6 +914,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_GILGAMESH</Tag>
+		<Russian>&#195;&#232;&#235;&#252;&#227;&#224;&#236;&#229;&#248;</Russian>
 		<English>Gilgamesh</English>
 		<French>
 			<Text>Gilgamesh</Text>
@@ -887,6 +939,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHMER_DESC</Tag>
+		<Russian>&#202;&#245;&#236;&#229;&#240;&#241;&#234;&#224;&#255; &#232;&#236;&#239;&#229;&#240;&#232;&#255;</Russian>
 		<English>Khmer Empire</English>
 		<French>
 			<Text>Empire khmer</Text>
@@ -904,13 +957,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Imperio J&#233;mer</Text>
+			<Text>Imperio Jémer</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHMER_SHORT_DESC</Tag>
+		<Russian>&#202;&#245;&#236;&#229;&#240;&#251;</Russian>
 		<English>Khmer</English>
 		<French>
 			<Text>Khmers</Text>
@@ -928,13 +982,18 @@
 			<Plural>1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>J&#233;mer</Text>
+			<Text>Jémer</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_KHMER_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#234;&#245;&#236;&#229;&#240;&#251;:&#234;&#245;&#236;&#229;&#240;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Khmer:Khmer</Text>
 			<Gender>Male</Gender>
@@ -956,13 +1015,14 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>j&#233;mer:j&#233;mer:j&#233;meres:j&#233;meres</Text>
+			<Text>jémer:jémer:jémeres:jémeres</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SURYAVARMAN</Tag>
+		<Russian>&#209;&#243;&#240;&#252;&#255;&#226;&#224;&#240;&#236;&#224;&#237; II</Russian>
 		<English>Suryavarman II</English>
 		<French>
 			<Text>Suryavarman II</Text>
@@ -987,9 +1047,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_KHMER_BALLISTA_ELEPHANT</Tag>
+		<Russian>&#209;&#235;&#238;&#237; &#241; &#225;&#224;&#235;&#235;&#232;&#241;&#242;&#238;&#233;</Russian>
 		<English>Ballista Elephant</English>
 		<French>
-			<Text>El&#233;phant avec baliste:El&#233;phants avec balliste</Text>
+			<Text>Eléphant avec baliste:Eléphants avec balliste</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -1011,6 +1072,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_KHMER_BARAY</Tag>
+		<Russian>&#193;&#224;&#240;&#224;&#233;</Russian>
 		<English>Baray</English>
 		<French>
 			<Text>Baray</Text>
@@ -1035,6 +1097,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BABYLON_DESC</Tag>
+		<Russian>&#194;&#224;&#226;&#232;&#235;&#238;&#237;&#232;&#255;</Russian>
 		<English>Babylonian Empire</English>
 		<French>
 			<Text>Empire babylonien</Text>
@@ -1059,6 +1122,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BABYLON_SHORT_DESC</Tag>
+		<Russian>&#194;&#224;&#226;&#232;&#235;&#238;&#237;&#255;&#237;&#229;</Russian>
 		<English>Babylon</English>
 		<French>
 			<Text>Babyloniens</Text>
@@ -1083,6 +1147,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BABYLON_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#226;&#224;&#226;&#232;&#235;&#238;&#237;&#255;&#237;&#229;:&#226;&#224;&#226;&#232;&#235;&#238;&#237;&#255;&#237;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Babylonian:Babylonians</Text>
 			<Gender>Male</Gender>
@@ -1111,6 +1180,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BABYLON_BOWMAN</Tag>
+		<Russian>&#194;&#224;&#226;&#232;&#235;. &#235;&#243;&#247;&#237;&#232;&#234;</Russian>
 		<English>Bowman</English>
 		<French>
 			<Text>Archer babylonien:Archers</Text>
@@ -1118,7 +1188,7 @@
 			<Plural>0:1</Plural>
 		</French>
 		<German>
-			<Text>Kampfbogensch&#252;tze</Text>
+			<Text>Kampfbogenschütze</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -1135,6 +1205,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BABYLON_GARDEN</Tag>
+		<Russian>&#209;&#224;&#228;&#251;</Russian>
 		<English>Garden</English>
 		<French>
 			<Text>Jardin:Jardins</Text>
@@ -1152,16 +1223,17 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Jard&#237;n:Jardines</Text>
+			<Text>Jardín:Jardines</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SUMERIA_DESC</Tag>
+		<Russian>&#216;&#243;&#236;&#229;&#240;&#241;&#234;&#238;&#229; &#246;&#224;&#240;&#241;&#242;&#226;&#238;</Russian>
 		<English>Sumerian Empire</English>
 		<French>
-			<Text>Empire sum&#233;rien</Text>
+			<Text>Empire sumérien</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -1183,9 +1255,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SUMERIA_SHORT_DESC</Tag>
+		<Russian>&#216;&#243;&#236;&#229;&#240;&#251;</Russian>
 		<English>Sumeria</English>
 		<French>
-			<Text>Sum&#233;riens</Text>
+			<Text>Sumériens</Text>
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -1207,13 +1280,18 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SUMERIA_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#248;&#243;&#236;&#229;&#240;&#251;:&#248;&#243;&#236;&#229;&#240;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Sumerian:Sumerians</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</English>
 		<French>
-			<Text>sum&#233;rien:sum&#233;rienne:sum&#233;riens:sum&#233;riennes</Text>
+			<Text>sumérien:sumérienne:sumériens:sumériennes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
@@ -1235,6 +1313,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUMERIAN_VULTURE</Tag>
+		<Russian>&#194;&#238;&#232;&#237; &#202;&#238;&#240;&#248;&#243;&#237;&#224;</Russian>
 		<English>Vulture</English>
 		<French>
 			<Text>Vautour:Vautours</Text>
@@ -1259,6 +1338,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SUMERIAN_ZIGGURAT</Tag>
+		<Russian>&#199;&#232;&#234;&#234;&#243;&#240;&#224;&#242;</Russian>
 		<English>Ziggurat</English>
 		<French>
 			<Text>Ziggourat:Ziggourats</Text>
@@ -1283,6 +1363,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_SITTING_BULL</Tag>
+		<Russian>&#209;&#232;&#228;&#255;&#249;&#232;&#233; &#193;&#251;&#234;</Russian>
 		<English>Sitting Bull</English>
 		<French>
 			<Text>Sitting Bull</Text>
@@ -1307,9 +1388,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NATIVE_AMERICA_DESC</Tag>
+		<Russian>&#209;&#238;&#254;&#231; &#232;&#237;&#228;&#229;&#233;&#241;&#234;&#232;&#245; &#239;&#235;&#229;&#236;&#229;&#237;</Russian>
 		<English>Native American Empire</English>
 		<French>
-			<Text>Empire am&#233;rindien</Text>
+			<Text>Empire amérindien</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -1331,9 +1413,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NATIVE_AMERICA_SHORT_DESC</Tag>
+		<Russian>&#200;&#237;&#228;&#229;&#233;&#246;&#251;</Russian>
 		<English>Native America</English>
 		<French>
-			<Text>Am&#233;rindiens</Text>
+			<Text>Amérindiens</Text>
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -1348,20 +1431,25 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Am&#233;rica India</Text>
+			<Text>América India</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_NATIVE_AMERICA_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#232;&#237;&#228;&#229;&#233;&#246;&#251;:&#232;&#237;&#228;&#229;&#233;&#246;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Native American:Native Americans</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</English>
 		<French>
-			<Text>am&#233;rindien::am&#233;rindienne:am&#233;rindiens:am&#233;rindiennes</Text>
+			<Text>amérindien::amérindienne:amérindiens:amérindiennes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
@@ -1383,6 +1471,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NATIVE_AMERICA_TOTEM</Tag>
+		<Russian>&#210;&#238;&#242;&#229;&#236;&#237;&#251;&#233; &#241;&#242;&#238;&#235;&#225;</Russian>
 		<English>Totem Pole</English>
 		<French>
 			<Text>Totem:Totems</Text>
@@ -1400,13 +1489,14 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>T&#243;tem:T&#243;tems</Text>
+			<Text>Tótem:Tótems</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_NATIVE_AMERICA_DOG_SOLDIER</Tag>
+		<Russian>&#207;&#229;&#241;-&#226;&#238;&#232;&#237;</Russian>
 		<English>Dog Soldier</English>
 		<French>
 			<Text>Soldat chien:Soldats chiens</Text>
@@ -1431,6 +1521,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_JOAO</Tag>
+		<Russian>&#198;&#243;&#224;&#237; II</Russian>
 		<English>Joao II</English>
 		<French>
 			<Text>Jean II de Portugal</Text>
@@ -1455,6 +1546,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_DESC</Tag>
+		<Russian>&#207;&#238;&#240;&#242;&#243;&#227;&#224;&#235;&#232;&#255;</Russian>
 		<English>Portuguese Empire</English>
 		<French>
 			<Text>Empire portugais</Text>
@@ -1472,13 +1564,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Imperio Portugu&#233;s</Text>
+			<Text>Imperio Portugués</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_SHORT_DESC</Tag>
+		<Russian>&#207;&#238;&#240;&#242;&#243;&#227;&#224;&#235;&#252;&#246;&#251;</Russian>
 		<English>Portugal</English>
 		<French>
 			<Text>Portugais</Text>
@@ -1503,6 +1596,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_PORTUGAL_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#239;&#238;&#240;&#242;&#243;&#227;&#224;&#235;&#252;&#246;&#251;:&#239;&#238;&#240;&#242;&#243;&#227;&#224;&#235;&#252;&#246;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Portuguese:Portuguese</Text>
 			<Gender>Male</Gender>
@@ -1524,13 +1622,14 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>portugu&#233;s:portuguesa:portugueses:portuguesas</Text>
+			<Text>portugués:portuguesa:portugueses:portuguesas</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PORTUGAL_FEITORIA</Tag>
+		<Russian>&#212;&#224;&#234;&#242;&#238;&#240;&#232;&#255;</Russian>
 		<English>Feitoria</English>
 		<French>
 			<Text>Feitoria:Feitorias</Text>
@@ -1555,6 +1654,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_PORTUGAL_CARRACK</Tag>
+		<Russian>&#202;&#224;&#240;&#224;&#234;&#224;</Russian>
 		<English>Carrack</English>
 		<French>
 			<Text>Caraque:Caraques</Text>
@@ -1579,6 +1679,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_JUSTINIAN</Tag>
+		<Russian>&#222;&#241;&#242;&#232;&#237;&#232;&#224;&#237; I</Russian>
 		<English>Justinian I</English>
 		<French>
 			<Text>Justinien Ier</Text>
@@ -1603,6 +1704,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_DESC</Tag>
+		<Russian>&#194;&#232;&#231;&#224;&#237;&#242;&#232;&#255;</Russian>
 		<English>Byzantine Empire</English>
 		<French>
 			<Text>Empire byzantin</Text>
@@ -1627,6 +1729,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_SHORT_DESC</Tag>
+		<Russian>&#194;&#232;&#231;&#224;&#237;&#242;&#232;&#233;&#246;&#251;</Russian>
 		<English>Byzantium</English>
 		<French>
 			<Text>Byzantins</Text>
@@ -1651,6 +1754,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_BYZANTIUM_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#226;&#232;&#231;&#224;&#237;&#242;&#232;&#233;&#246;&#251;:&#226;&#232;&#231;&#224;&#237;&#242;&#232;&#233;&#246;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Russian>
 		<English>
 			<Text>Byzantine:Byzantines</Text>
 			<Gender>Male</Gender>
@@ -1679,6 +1787,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BYZANTINE_HIPPODROME</Tag>
+		<Russian>&#200;&#239;&#239;&#238;&#228;&#240;&#238;&#236;</Russian>
 		<English>Hippodrome</English>
 		<French>
 			<Text>Hippodrome:Hippodromes</Text>
@@ -1696,13 +1805,14 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Hip&#243;dromo:Hip&#243;dromos</Text>
+			<Text>Hipódromo:Hipódromos</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BYZANTINE_CATAPHRACT</Tag>
+		<Russian>&#202;&#224;&#242;&#224;&#244;&#240;&#224;&#234;&#242;&#224;&#240;&#232;&#233;</Russian>
 		<English>Cataphract</English>
 		<French>
 			<Text>Cataphractaire:Cataphractaires</Text>
@@ -1727,6 +1837,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CUIRASSIER</Tag>
+		<Russian>&#202;&#232;&#240;&#224;&#241;&#232;&#240;</Russian>
 		<English>Cuirassier</English>
 		<French>
 			<Text>Cuirassier:Cuirassiers</Text>
@@ -1734,7 +1845,7 @@
 			<Plural>0:1</Plural>
 		</French>
 		<German>
-			<Text>K&#252;rassier</Text>
+			<Text>Kürassier</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -1751,6 +1862,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AIRSHIP</Tag>
+		<Russian>&#196;&#232;&#240;&#232;&#230;&#224;&#225;&#235;&#252;</Russian>
 		<English>Airship</English>
 		<French>
 			<Text>Dirigeable:Dirigeables</Text>
@@ -1775,6 +1887,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ATTACK_SUBMARINE</Tag>
+		<Russian>&#211;&#228;. &#239;&#238;&#228;&#226;. &#235;&#238;&#228;&#234;&#224;</Russian>
 		<English>Attack Submarine</English>
 		<French>
 			<Text>Sous-marin d'attaque:Sous-marins d'attaques</Text>
@@ -1799,9 +1912,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GUIDED_MISSILE</Tag>
+		<Russian>&#211;&#239;&#240;. &#240;&#224;&#234;&#229;&#242;&#224;</Russian>
 		<English>Guided Missile</English>
 		<French>
-			<Text>Missile guid&#233;:Missiles guid&#233;s</Text>
+			<Text>Missile guidé:Missiles guidés</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -1823,6 +1937,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SHIP_OF_THE_LINE</Tag>
+		<Russian>&#203;&#232;&#237;. &#234;&#238;&#240;&#224;&#225;&#235;&#252;</Russian>
 		<English>Ship of the Line</English>
 		<French>
 			<Text>Galion de guerre:Galions de guerre</Text>
@@ -1847,6 +1962,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AT_INFANTRY</Tag>
+		<Russian>&#200;&#241;&#242;&#240;. &#242;&#224;&#237;&#234;&#238;&#226;</Russian>
 		<English>Anti-Tank</English>
 		<French>
 			<Text>Anti-char</Text>
@@ -1864,13 +1980,14 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Infanter&#237;a antitanque:Infanter&#237;as antitanque</Text>
+			<Text>Infantería antitanque:Infanterías antitanque</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MOBILE_ARTILLERY</Tag>
+		<Russian>&#209;&#192;&#211;</Russian>
 		<English>Mobile Artillery</English>
 		<French>
 			<Text>Artillerie mobile:Artilleries mobiles</Text>
@@ -1888,16 +2005,17 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Pieza de artiller&#237;a autopropulsada:Piezas de artiller&#237;a autopropulsada</Text>
+			<Text>Pieza de artillería autopropulsada:Piezas de artillería autopropulsada</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MOBILE_SAM</Tag>
+		<Russian>&#199;&#208;&#202;</Russian>
 		<English>Mobile SAM</English>
 		<French>
-			<Text>Unit&#233; SAM mobile:Unit&#233;s SAM mobiles</Text>
+			<Text>Unité SAM mobile:Unités SAM mobiles</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -1912,13 +2030,14 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Misil tierra-aire m&#243;vil:Misiles tierra-aire m&#243;viles</Text>
+			<Text>Misil tierra-aire móvil:Misiles tierra-aire móviles</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPECIALUNIT_MISSILE</Tag>
+		<Russian>&#208;&#224;&#234;. &#243;&#241;&#242;&#224;&#237;&#238;&#226;&#234;&#224;</Russian>
 		<English>Missiles</English>
 		<French>
 			<Text>Missiles</Text>
@@ -1943,6 +2062,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NATIONAL_PARK</Tag>
+		<Russian>&#205;&#224;&#246;. &#239;&#224;&#240;&#234;</Russian>
 		<English>National Park</English>
 		<French>
 			<Text>Parc national:Parcs nationaux</Text>
@@ -1967,6 +2087,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY</Tag>
+		<Russian>&#208;&#224;&#231;&#226;&#229;&#228;&#243;&#239;&#240;&#224;&#226;&#235;&#229;&#237;&#232;&#229;</Russian>
 		<English>Intelligence Agency</English>
 		<French>
 			<Text>Agence de renseignements:Agences de renseignements</Text>
@@ -1991,9 +2112,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NATIONAL_SECURITY</Tag>
+		<Russian>&#209;&#235;&#243;&#230;&#225;&#224; &#234;&#238;&#237;&#242;&#240;&#240;&#224;&#231;&#226;.</Russian>
 		<English>Security Bureau</English>
 		<French>
-			<Text>Agence de s&#233;curit&#233;:Agences de s&#233;curit&#233;</Text>
+			<Text>Agence de sécurité:Agences de sécurité</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -2015,6 +2137,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_STEALTH_DESTROYER</Tag>
+		<Russian>&#221;&#241;&#236;&#232;&#237;&#229;&#246; "&#209;&#242;&#229;&#235;&#241;"</Russian>
 		<English>Stealth Destroyer</English>
 		<French>
 			<Text>Destroyer furtif:Destroyers furtifs</Text>
@@ -2022,7 +2145,7 @@
 			<Plural>0:1</Plural>
 		</French>
 		<German>
-			<Text>Tarnzerst&#246;rer</Text>
+			<Text>Tarnzerstörer</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -2039,9 +2162,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FOREST_PRESERVE</Tag>
+		<Russian>&#203;&#229;&#241;&#237;&#238;&#233; &#231;&#224;&#239;&#238;&#226;&#229;&#228;&#237;&#232;&#234;</Russian>
 		<English>Forest Preserve</English>
 		<French>
-			<Text>R&#233;serve bois&#233;e:R&#233;serves bois&#233;es</Text>
+			<Text>Réserve boisée:Réserves boisées</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -2063,6 +2187,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPECIALIST_GREAT_SPY</Tag>
+		<Russian>&#194;&#229;&#235;&#232;&#234;&#232;&#233; &#248;&#239;&#232;&#238;&#237;</Russian>
 		<English>Great Spy</English>
 		<French>
 			<Text>Espion illustre:Espions illustres</Text>
@@ -2070,7 +2195,7 @@
 			<Plural>0:1</Plural>
 		</French>
 		<German>
-			<Text>Gro&#223;er Spion</Text>
+			<Text>Großer Spion</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -2080,16 +2205,17 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Gran esp&#237;a:Grandes esp&#237;as</Text>
+			<Text>Gran espía:Grandes espías</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MOAI_STATUES</Tag>
+		<Russian>&#202;&#238;&#236;&#239;&#235;&#229;&#234;&#241; &#236;&#238;&#224;&#232;</Russian>
 		<English>Moai Statues</English>
 		<French>
-			<Text>Statues moa&#239;</Text>
+			<Text>Statues moaï</Text>
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -2111,9 +2237,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CRISTO_REDENTOR</Tag>
+		<Russian>&#209;&#242;&#224;&#242;&#243;&#255; &#209;&#239;&#224;&#241;&#232;&#242;&#229;&#235;&#255;</Russian>
 		<English>Cristo Redentor</English>
 		<French>
-			<Text>Christ R&#233;dempteur</Text>
+			<Text>Christ Rédempteur</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -2135,6 +2262,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SHWEDAGON_PAYA</Tag>
+		<Russian>&#216;&#226;&#229;&#228;&#224;&#227;&#238;&#237;-&#207;&#224;&#255;</Russian>
 		<English>Shwedagon Paya</English>
 		<French>
 			<Text>Pagode Shwedagon</Text>
@@ -2159,9 +2287,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MAUSOLEUM_OF_MAUSSOLLOS</Tag>
+		<Russian>&#195;&#240;&#238;&#225;&#237;&#232;&#246;&#224; &#204;&#224;&#226;&#241;&#238;&#235;&#224;</Russian>
 		<English>Mausoleum of Maussollos</English>
 		<French>
-			<Text>Mausol&#233;e d'Halicarnasse</Text>
+			<Text>Mausolée d'Halicarnasse</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -2183,6 +2312,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_STATUE_OF_ZEUS</Tag>
+		<Russian>&#209;&#242;&#224;&#242;&#243;&#255; &#199;&#229;&#226;&#241;&#224;</Russian>
 		<English>The Statue of Zeus</English>
 		<French>
 			<Text>La statue de Zeus</Text>
@@ -2207,6 +2337,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MISSILE_CRUISER</Tag>
+		<Russian>&#208;&#224;&#234;&#229;&#242;&#237;&#251;&#233; &#234;&#240;&#229;&#233;&#241;&#229;&#240;</Russian>
 		<English>Missile Cruiser</English>
 		<French>
 			<Text>Croiseur lance-missiles:Croiseurs lance-missiles</Text>
@@ -2231,9 +2362,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_TACTICAL_NUKE</Tag>
+		<Russian>&#210;&#224;&#234;&#242;. &#255;&#228;. &#240;&#224;&#234;&#229;&#242;&#224;</Russian>
 		<English>Tactical Nuke</English>
 		<French>
-			<Text>Arme nucl&#233;aire tactique:Armes nucl&#233;aires tactiques</Text>
+			<Text>Arme nucléaire tactique:Armes nucléaires tactiques</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -2248,16 +2380,17 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Arma nuclear t&#225;ctica:Armas nucleares t&#225;cticas</Text>
+			<Text>Arma nuclear táctica:Armas nucleares tácticas</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ADVANCED_FLIGHT</Tag>
+		<Russian>&#194;&#238;&#229;&#237;&#237;&#224;&#255; &#224;&#226;&#232;&#224;&#246;&#232;&#255;</Russian>
 		<English>Advanced Flight</English>
 		<French>
-			<Text>Vol avanc&#233;</Text>
+			<Text>Vol avancé</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -2279,9 +2412,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_STEALTH</Tag>
+		<Russian>"&#209;&#242;&#229;&#235;&#241;"</Russian>
 		<English>Stealth</English>
 		<French>
-			<Text>Furtivit&#233;</Text>
+			<Text>Furtivité</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -2291,7 +2425,7 @@
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Invisibilit&#224;</Text>
+			<Text>Invisibilità</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
@@ -2303,6 +2437,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_SUPERCONDUCTORS</Tag>
+		<Russian>&#209;&#226;&#229;&#240;&#245;&#239;&#240;&#238;&#226;&#238;&#228;&#237;&#232;&#234;&#232;</Russian>
 		<English>Superconductors</English>
 		<French>
 			<Text>Supraconducteurs</Text>
@@ -2327,6 +2462,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_LASER</Tag>
+		<Russian>&#203;&#224;&#231;&#229;&#240;&#251;</Russian>
 		<English>Laser</English>
 		<French>
 			<Text>Laser</Text>
@@ -2344,21 +2480,22 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>L&#225;ser</Text>
+			<Text>Láser</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_AESTHETICS</Tag>
+		<Russian>&#221;&#241;&#242;&#229;&#242;&#232;&#234;&#224;</Russian>
 		<English>Aesthetics</English>
 		<French>
-			<Text>Esth&#233;tique</Text>
+			<Text>Esthétique</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>&#196;sthetik</Text>
+			<Text>Ästhetik</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -2368,13 +2505,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Est&#233;tica</Text>
+			<Text>Estética</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_MILITARY_SCIENCE</Tag>
+		<Russian>&#194;&#238;&#229;&#237;&#237;&#238;&#229; &#228;&#229;&#235;&#238;</Russian>
 		<English>Military Science</English>
 		<French>
 			<Text>Science militaire</Text>
@@ -2382,7 +2520,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Milit&#228;rwissenschaft</Text>
+			<Text>Militärwissenschaft</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -2392,13 +2530,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Belicolog&#237;a</Text>
+			<Text>Belicología</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_PRIVATEER</Tag>
+		<Russian>&#202;&#224;&#239;&#229;&#240;</Russian>
 		<English>Privateer</English>
 		<French>
 			<Text>Corsaire:Corsaires</Text>
@@ -2423,6 +2562,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_PARATROOPER</Tag>
+		<Russian>&#207;&#224;&#240;&#224;&#248;&#254;&#242;&#232;&#241;&#242;</Russian>
 		<English>Paratrooper</English>
 		<French>
 			<Text>Parachutiste:Parachutistes</Text>
@@ -2430,7 +2570,7 @@
 			<Plural>0:1</Plural>
 		</French>
 		<German>
-			<Text>Fallschirmj&#228;ger</Text>
+			<Text>Fallschirmjäger</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -2447,6 +2587,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BUOY</Tag>
+		<Russian>&#204;&#238;&#240;&#241;&#234;&#238;&#233; &#239;&#243;&#242;&#252;</Russian>
 		<English>Sea Route</English>
 		<French>
 			<Text>Route maritime:Routes maritimes</Text>
@@ -2464,16 +2605,17 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Ruta mar&#237;tima:Rutas mar&#237;timas</Text>
+			<Text>Ruta marítima:Rutas marítimas</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BUOY_PILLAGED</Tag>
+		<Russian>&#208;&#224;&#231;&#227;&#240;&#224;&#225;&#235;&#229;&#237;&#237;&#251;&#233; &#242;&#238;&#240;&#227;&#238;&#226;&#251;&#233; &#239;&#243;&#242;&#252;</Russian>
 		<English>Plundered Route</English>
 		<French>
-			<Text>Route pill&#233;e:Routes pill&#233;es</Text>
+			<Text>Route pillée:Routes pillées</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -2495,9 +2637,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_FLANK_ATTACK</Tag>
+		<Russian>&#206;&#241;&#224;&#228;&#237;&#251;&#229; &#254;&#237;&#232;&#242;&#251; &#232; &#244;&#235;&#224;&#237;&#227;&#238;&#226;&#224;&#255; &#224;&#242;&#224;&#234;&#224;</Russian>
 		<English>Improved Siege Combat</English>
 		<French>
-			<Text>Techniques de si&#232;ge avanc&#233;es</Text>
+			<Text>Techniques de siège avancées</Text>
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -2519,6 +2662,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_SEA_TRADE</Tag>
+		<Russian>&#204;&#238;&#240;&#241;&#234;&#232;&#229; &#242;&#238;&#240;&#227;&#238;&#226;&#251;&#229; &#239;&#243;&#242;&#232;</Russian>
 		<English>Naval Trade Routes</English>
 		<French>
 			<Text>Routes commerciales navales</Text>
@@ -2543,9 +2687,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_CORPORATIONS</Tag>
+		<Russian>&#202;&#238;&#240;&#239;&#238;&#240;&#224;&#246;&#232;&#232;</Russian>
 		<English>Corporations</English>
 		<French>
-			<Text>Soci&#233;t&#233;s commerciales</Text>
+			<Text>Sociétés commerciales</Text>
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -2567,6 +2712,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_COLONIES</Tag>
+		<Russian>&#202;&#238;&#235;&#238;&#237;&#232;&#232;</Russian>
 		<English>Colonies</English>
 		<French>
 			<Text>Colonies</Text>
@@ -2591,6 +2737,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_INVISIBLE_STEALTH_NAVY</Tag>
+		<Russian>&#202;&#238;&#240;&#224;&#225;&#235;&#232; "&#209;&#242;&#229;&#235;&#241;"</Russian>
 		<English>Stealth Ships</English>
 		<French>
 			<Text>Navires furtifs</Text>
@@ -2615,6 +2762,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PEDIA_CATEGORY_CONCEPT_NEW</Tag>
+		<Russian>&#205;&#238;&#226;&#238;&#229; &#226; "&#221;&#239;&#238;&#245;&#229; &#238;&#227;&#237;&#255;"</Russian>
 		<English>Beyond The Sword Concepts</English>
 		<French>
 			<Text>Concepts de Beyond The Sword</Text>
@@ -2639,6 +2787,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_ESPIONAGE_CULTURE</Tag>
+		<Russian>&#216;&#239;&#232;&#238;&#237;&#224;&#230;</Russian>
 		<English>Espionage</English>
 		<French>
 			<Text>Espionnage</Text>
@@ -2663,17 +2812,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_LATE_START</Tag>
+		<Russian>&#207;&#238;&#231;&#228;&#237;&#232;&#233; &#241;&#242;&#224;&#240;&#242;</Russian>
 		<English>Advanced Start</English>
-		<French>D&#233;part avanc&#233;</French>
+		<French>Départ avancé</French>
 		<German>Fortgeschrittener Start</German>
 		<Italian>Avvio avanzato</Italian>
 		<Spanish>Inicio avanzado</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_EVENTS</Tag>
+		<Russian>&#209;&#238;&#225;&#251;&#242;&#232;&#255;</Russian>
 		<English>Events</English>
 		<French>
-			<Text>Ev&#233;nements</Text>
+			<Text>Evénements</Text>
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -2695,9 +2846,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_AIR_COMBAT</Tag>
+		<Russian>&#194;&#238;&#231;&#228;&#243;&#248;&#237;&#251;&#233; &#225;&#238;&#233;</Russian>
 		<English>Air Combat</English>
 		<French>
-			<Text>Combat a&#233;rien</Text>
+			<Text>Combat aérien</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -2712,45 +2864,47 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Combate a&#233;reo</Text>
+			<Text>Combate aéreo</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_AIR_PROMOTIONS</Tag>
+		<Russian>&#202;&#226;&#224;&#235;&#232;&#244;&#232;&#234;&#224;&#246;&#232;&#232; &#226;&#238;&#231;&#228;&#243;&#248;&#237;&#251;&#245; &#254;&#237;&#232;&#242;&#238;&#226;</Russian>
 		<English>Air Unit Promotions</English>
 		<French>
-			<Text>Promotions d'unit&#233;s a&#233;riennes</Text>
+			<Text>Promotions d'unités aériennes</Text>
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
 		<German>
-			<Text>Bef&#246;rderungen Lufteinheiten</Text>
+			<Text>Beförderungen Lufteinheiten</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Promozioni unit&#224; aeree</Text>
+			<Text>Promozioni unità aeree</Text>
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Ascensos de las unidades a&#233;reas</Text>
+			<Text>Ascensos de las unidades aéreas</Text>
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_GREAT_SPY</Tag>
+		<Russian>&#194;&#229;&#235;&#232;&#234;&#232;&#233; &#248;&#239;&#232;&#238;&#237; &#232; &#241;&#239;&#229;&#246;&#232;&#224;&#235;&#232;&#241;&#242;-&#248;&#239;&#232;&#238;&#237;</Russian>
 		<English>Great Spy / Spy Specialist</English>
 		<French>
-			<Text>Espion illustre / Sp&#233;cialiste de l'espionnage:Espions illustres / Sp&#233;cialistes de l'espionnages</Text>
+			<Text>Espion illustre / Spécialiste de l'espionnage:Espions illustres / Spécialistes de l'espionnages</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</French>
 		<German>
-			<Text>Gro&#223;er Spion/Spion-Spezialist</Text>
+			<Text>Großer Spion/Spion-Spezialist</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -2760,16 +2914,17 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Gran esp&#237;a/esp&#237;a especialista</Text>
+			<Text>Gran espía/espía especialista</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BTS_FOREST_PRESERVE</Tag>
+		<Russian>&#203;&#229;&#241;&#237;&#238;&#233; &#231;&#224;&#239;&#238;&#226;&#229;&#228;&#237;&#232;&#234;</Russian>
 		<English>Forest Preserve</English>
 		<French>
-			<Text>R&#233;serve bois&#233;e:R&#233;serves bois&#233;es</Text>
+			<Text>Réserve boisée:Réserves boisées</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -2791,6 +2946,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_JUDAISM_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#232;&#243;&#228;&#229;&#233;&#241;&#234;&#232;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
 		<English>
 			<Text>Jewish</Text>
 			<Gender>Male</Gender>
@@ -2802,7 +2962,7 @@
 			<Plural>0:0:1:1</Plural>
 		</French>
 		<German>
-			<Text>J&#252;disch:j&#252;dischen:j&#252;dische</Text>
+			<Text>Jüdisch:jüdischen:jüdische</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -2812,20 +2972,25 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>jud&#237;o:jud&#237;a:jud&#237;os:jud&#237;as</Text>
+			<Text>judío:judía:judíos:judías</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_CHRISTIANITY_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#245;&#240;&#232;&#241;&#242;&#232;&#224;&#237;&#241;&#234;&#232;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
 		<English>
 			<Text>Christian</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>chr&#233;tien:chr&#233;tienne:chr&#233;tiens:chr&#233;tiennes</Text>
+			<Text>chrétien:chrétienne:chrétiens:chrétiennes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
@@ -2847,6 +3012,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_ISLAM_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#232;&#241;&#235;&#224;&#236;&#241;&#234;&#232;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
 		<English>
 			<Text>Islamic</Text>
 			<Gender>Male</Gender>
@@ -2868,13 +3038,18 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>isl&#225;mico:isl&#225;mica:isl&#225;micos:isl&#225;micas</Text>
+			<Text>islámico:islámica:islámicos:islámicas</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_HINDUISM_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#232;&#237;&#228;&#243;&#232;&#241;&#242;&#241;&#234;&#232;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
 		<English>
 			<Text>Hindu</Text>
 			<Gender>Male</Gender>
@@ -2891,18 +3066,23 @@
 			<Plural>0:0:0</Plural>
 		</German>
 		<Italian>
-			<Text>ind&#249;</Text>
+			<Text>indù</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>hind&#250;:hind&#250;:hind&#250;es:hind&#250;es</Text>
+			<Text>hindú:hindú:hindúes:hindúes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_BUDDHISM_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#225;&#243;&#228;&#228;&#232;&#233;&#241;&#234;&#232;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
 		<English>
 			<Text>Buddhist</Text>
 			<Gender>Male</Gender>
@@ -2931,13 +3111,18 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_CONFUCIANISM_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#234;&#238;&#237;&#244;&#243;&#246;&#232;&#224;&#237;&#241;&#234;&#232;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
 		<English>
 			<Text>Confucian</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>confuc&#233;en:confuc&#233;enne:confuc&#233;ens:confuc&#233;ennes</Text>
+			<Text>confucéen:confucéenne:confucéens:confucéennes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
@@ -2959,13 +3144,18 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_TAOISM_ADJECTIVE</Tag>
+		<Russian>
+			<Text>&#228;&#224;&#238;&#241;&#241;&#234;&#232;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
 		<English>
 			<Text>Taoist</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</English>
 		<French>
-			<Text>tao&#239;ste:tao&#239;ste:tao&#239;stes:tao&#239;stes</Text>
+			<Text>taoïste:taoïste:taoïstes:taoïstes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
@@ -2980,13 +3170,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>tao&#237;sta:tao&#237;sta:tao&#237;stas:tao&#237;stas</Text>
+			<Text>taoísta:taoísta:taoístas:taoístas</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_PEBEKKAMEN</Tag>
+		<Russian>&#207;&#229;&#225;&#229;&#234;&#234;&#224;&#236;&#229;&#237;</Russian>
 		<English>Pebekkamen</English>
 		<French>
 			<Text>Pebekkamen</Text>
@@ -3011,9 +3202,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_EPHIALTES</Tag>
+		<Russian>&#221;&#244;&#232;&#224;&#235;&#252;&#242;</Russian>
 		<English>Ephialtes of Trachis</English>
 		<French>
-			<Text>Ephialt&#232;s de Trachine</Text>
+			<Text>Ephialtès de Trachine</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3035,6 +3227,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JING_KE</Tag>
+		<Russian>&#215;&#230;&#232;&#237; &#202;&#229;</Russian>
 		<English>Jing Ke</English>
 		<French>
 			<Text>Jing Ke</Text>
@@ -3059,6 +3252,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_QIN_WUYANG</Tag>
+		<Russian>&#214;&#232;&#237;&#252; &#194;&#243;&#255;&#237;</Russian>
 		<English>Qin Wuyang</English>
 		<French>
 			<Text>Qin Wuyang</Text>
@@ -3083,6 +3277,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_CALIPPUS</Tag>
+		<Russian>&#202;&#224;&#235;&#235;&#232;&#239;&#239;</Russian>
 		<English>Calippus</English>
 		<French>
 			<Text>Calippe</Text>
@@ -3107,6 +3302,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_LEONE_ALBERTI</Tag>
+		<Russian>&#203;&#229;&#238;&#237; &#192;&#235;&#252;&#225;&#229;&#240;&#242;&#232;</Russian>
 		<English>Leone Alberti</English>
 		<French>
 			<Text>Leone Alberti</Text>
@@ -3131,6 +3327,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JOHN_BARLOW</Tag>
+		<Russian>&#196;&#230;&#238;&#237; &#193;&#224;&#240;&#235;&#238;&#243;</Russian>
 		<English>John Barlow</English>
 		<French>
 			<Text>John Barlow</Text>
@@ -3155,6 +3352,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_FRANCIS_WALSINGHAM</Tag>
+		<Russian>&#212;&#240;&#253;&#237;&#241;&#232;&#241; &#211;&#238;&#235;&#241;&#232;&#237;&#227;&#229;&#236;</Russian>
 		<English>Francis Walsingham</English>
 		<French>
 			<Text>Francis Walsingham</Text>
@@ -3179,6 +3377,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_HATTORI_HANZO</Tag>
+		<Russian>&#213;&#224;&#242;&#242;&#238;&#240;&#232; &#213;&#224;&#237;&#231;&#238;</Russian>
 		<English>Hattori Hanzo</English>
 		<French>
 			<Text>Hanzo Hattori</Text>
@@ -3203,9 +3402,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_BALTHASAR_GERARD</Tag>
+		<Russian>&#193;&#224;&#235;&#252;&#242;&#224;&#231;&#224;&#240; &#198;&#229;&#240;&#224;&#240;</Russian>
 		<English>Balthasar Gerard</English>
 		<French>
-			<Text>Balthazar G&#233;rard</Text>
+			<Text>Balthazar Gérard</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3227,6 +3427,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ANTHONY_BABINGTON</Tag>
+		<Russian>&#221;&#237;&#242;&#238;&#237;&#232; &#193;&#224;&#225;&#232;&#237;&#227;&#242;&#238;&#237;</Russian>
 		<English>Anthony Babington</English>
 		<French>
 			<Text>Anthony Babington</Text>
@@ -3251,6 +3452,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ISHIKAWA_GOEMON</Tag>
+		<Russian>&#200;&#241;&#232;&#234;&#224;&#226;&#224; &#195;&#238;&#253;&#236;&#238;&#237;</Russian>
 		<English>Ishikawa Goemon</English>
 		<French>
 			<Text>Ishikawa Goemon</Text>
@@ -3275,6 +3477,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_GASPAR_GRAZIANI</Tag>
+		<Russian>&#195;&#224;&#241;&#239;&#224;&#240; &#195;&#240;&#224;&#246;&#232;&#224;&#237;&#232;</Russian>
 		<English>Gaspar Graziani</English>
 		<French>
 			<Text>Gaspar Graziani</Text>
@@ -3299,6 +3502,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_GUY_FAWKES</Tag>
+		<Russian>&#195;&#224;&#233; &#212;&#238;&#234;&#241;</Russian>
 		<English>Guy Fawkes</English>
 		<French>
 			<Text>Guy Fawkes</Text>
@@ -3323,6 +3527,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JOHN_HONEYMAN</Tag>
+		<Russian>&#196;&#230;&#238;&#237; &#213;&#224;&#237;&#232;&#236;&#253;&#237;</Russian>
 		<English>John Honeyman</English>
 		<French>
 			<Text>John Honeyman</Text>
@@ -3347,6 +3552,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_NATHAN_HALE</Tag>
+		<Russian>&#205;&#224;&#242;&#224;&#237; &#213;&#253;&#233;&#235;</Russian>
 		<English>Nathan Hale</English>
 		<French>
 			<Text>Nathan Hale</Text>
@@ -3371,6 +3577,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_CHARLOTTE_CORDAY</Tag>
+		<Russian>&#216;&#224;&#240;&#235;&#238;&#242;&#242;&#224; &#202;&#238;&#240;&#228;&#229;&#233;</Russian>
 		<English>Charlotte Corday</English>
 		<French>
 			<Text>Charlotte Corday</Text>
@@ -3395,6 +3602,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_GIACOMO_CASANOVA</Tag>
+		<Russian>&#196;&#230;&#224;&#234;&#238;&#236;&#238; &#202;&#224;&#231;&#224;&#237;&#238;&#226;&#224;</Russian>
 		<English>Giacomo Casanova</English>
 		<French>
 			<Text>Giacomo Casanova</Text>
@@ -3419,6 +3627,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ALLAN_PINKERTON</Tag>
+		<Russian>&#192;&#235;&#224;&#237; &#207;&#232;&#237;&#234;&#229;&#240;&#242;&#238;&#237;</Russian>
 		<English>Allan Pinkerton</English>
 		<French>
 			<Text>Allan Pinkerton</Text>
@@ -3443,6 +3652,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_MELVILLE</Tag>
+		<Russian>&#211;&#232;&#235;&#252;&#255;&#236; &#204;&#229;&#235;&#226;&#232;&#235;&#235;</Russian>
 		<English>William Melville</English>
 		<French>
 			<Text>William Melville</Text>
@@ -3467,6 +3677,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_BELLE_BOYD</Tag>
+		<Russian>&#193;&#229;&#235;&#235;&#252; &#193;&#238;&#233;&#228;</Russian>
 		<English>Belle Boyd</English>
 		<French>
 			<Text>Belle Boyd</Text>
@@ -3491,6 +3702,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_SIDNEY_REILLY</Tag>
+		<Russian>&#209;&#232;&#228;&#237;&#229;&#233; &#208;&#229;&#233;&#235;&#232;</Russian>
 		<English>Sidney Reilly</English>
 		<French>
 			<Text>Sidney Reilly</Text>
@@ -3515,6 +3727,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_AN_JUNG_GEUN</Tag>
+		<Russian>&#192;&#237; &#215;&#230;&#243;&#237; &#195;&#251;&#237;</Russian>
 		<English>An Jung-Geun</English>
 		<French>
 			<Text>An Jung-Geun</Text>
@@ -3539,6 +3752,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_CLAUDE_DANSEY</Tag>
+		<Russian>&#202;&#235;&#238;&#228; &#196;&#253;&#237;&#241;&#232;</Russian>
 		<English>Claude Dansey</English>
 		<French>
 			<Text>Claude Dansey</Text>
@@ -3563,6 +3777,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MATA_HARI</Tag>
+		<Russian>&#204;&#224;&#242;&#224; &#213;&#224;&#240;&#232;</Russian>
 		<English>Mata Hari</English>
 		<French>
 			<Text>Mata Hari</Text>
@@ -3587,6 +3802,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_J_EDGAR_HOOVER</Tag>
+		<Russian>&#196;&#230;&#238;&#237; &#221;&#228;&#227;&#224;&#240; &#195;&#243;&#226;&#229;&#240;</Russian>
 		<English>J. Edgar Hoover</English>
 		<French>
 			<Text>J. Edgar Hoover</Text>
@@ -3611,6 +3827,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MOE_BERG</Tag>
+		<Russian>&#204;&#238; &#193;&#229;&#240;&#227;</Russian>
 		<English>Moe Berg</English>
 		<French>
 			<Text>Moe Berg</Text>
@@ -3635,6 +3852,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ETHEL_ROSENBERG</Tag>
+		<Russian>&#221;&#242;&#229;&#235;&#252; &#208;&#238;&#231;&#229;&#237;&#225;&#229;&#240;&#227;</Russian>
 		<English>Ethel Rosenberg</English>
 		<French>
 			<Text>Ethel Rosenberg</Text>
@@ -3659,6 +3877,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JULIUS_ROSENBERG</Tag>
+		<Russian>&#222;&#235;&#232;&#243;&#241; &#208;&#238;&#231;&#229;&#237;&#225;&#229;&#240;&#227;</Russian>
 		<English>Julius Rosenberg</English>
 		<French>
 			<Text>Julius Rosenberg</Text>
@@ -3683,6 +3902,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_CLAUS_VON_STAUFFENBERG</Tag>
+		<Russian>&#202;&#235;&#224;&#243;&#241; &#244;&#238;&#237; &#216;&#242;&#224;&#243;&#244;&#244;&#229;&#237;&#225;&#229;&#240;&#227;</Russian>
 		<English>Claus von Stauffenberg</English>
 		<French>
 			<Text>Claus von Stauffenberg</Text>
@@ -3707,6 +3927,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_SUZANNE_SPAAK</Tag>
+		<Russian>&#209;&#254;&#231;&#224;&#237;&#237;&#224; &#216;&#239;&#224;&#234;</Russian>
 		<English>Suzanne Spaak</English>
 		<French>
 			<Text>Suzanne Spaak</Text>
@@ -3731,6 +3952,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_WILLIAM_DONOVAN</Tag>
+		<Russian>&#211;&#232;&#235;&#252;&#255;&#236; &#196;&#238;&#237;&#238;&#226;&#224;&#237;</Russian>
 		<English>William Donovan</English>
 		<French>
 			<Text>William Donovan</Text>
@@ -3755,6 +3977,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_APOSTOLIC_PALACE</Tag>
+		<Russian>&#192;&#239;&#238;&#241;&#242;. &#228;&#226;&#238;&#240;&#229;&#246;</Russian>
 		<English>The Apostolic Palace</English>
 		<French>
 			<Text>Palais apostolique</Text>
@@ -3772,16 +3995,17 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>El Palacio Apost&#243;lico</Text>
+			<Text>El Palacio Apostólico</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_1</Tag>
+		<Russian>&#207;&#240;&#238;&#228;&#243;&#234;&#242;&#251; &#232;&#231; &#231;&#235;&#224;&#234;&#238;&#226;</Russian>
 		<English>Cereal Mills</English>
 		<French>
-			<Text>Les grands moulins c&#233;r&#233;aliers</Text>
+			<Text>Les grands moulins céréaliers</Text>
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -3803,6 +4027,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_3</Tag>
+		<Russian>&#221;&#242;&#224;&#237;&#238;&#235;-&#241;&#242;&#224;&#237;&#228;&#224;&#240;&#242;</Russian>
 		<English>Standard Ethanol</English>
 		<French>
 			<Text>Ethanol Inc.</Text>
@@ -3827,9 +4052,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_4</Tag>
+		<Russian>&#194;&#229;&#235;&#232;&#234;&#232;&#229; &#231;&#238;&#228;&#247;&#232;&#229;</Russian>
 		<English>Creative Constructions</English>
 		<French>
-			<Text>Constructions cr&#233;atives</Text>
+			<Text>Constructions créatives</Text>
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -3851,9 +4077,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_5</Tag>
+		<Russian>&#195;&#238;&#240;&#237;&#251;&#229; &#240;&#229;&#241;&#243;&#240;&#241;&#251;</Russian>
 		<English>Mining Inc</English>
 		<French>
-			<Text>Compagnie d'exploitation mini&#232;re</Text>
+			<Text>Compagnie d'exploitation minière</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3875,6 +4102,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_6</Tag>
+		<Russian>&#203;&#229;&#227;&#234;&#232;&#229; &#236;&#229;&#242;&#224;&#235;&#235;&#251;</Russian>
 		<English>Aluminum Co</English>
 		<French>
 			<Text>Aluminium S.A.</Text>
@@ -3899,9 +4127,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_7</Tag>
+		<Russian>&#204;&#232;&#240;&#238;&#226;&#251;&#229; &#254;&#226;&#229;&#235;&#232;&#240;&#251;</Russian>
 		<English>Civilized Jewelers Inc</English>
 		<French>
-			<Text>Bijoutiers associ&#233;s</Text>
+			<Text>Bijoutiers associés</Text>
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -3923,9 +4152,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EXECUTIVE_1</Tag>
+		<Russian>&#221;&#236;&#232;&#241;&#241;&#224;&#240; "&#207;&#199;"</Russian>
 		<English>Cereal Mills Executive</English>
 		<French>
-			<Text>Directeur des Grands moulins c&#233;r&#233;aliers</Text>
+			<Text>Directeur des Grands moulins céréaliers</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3947,6 +4177,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EXECUTIVE_3</Tag>
+		<Russian>&#221;&#236;&#232;&#241;&#241;&#224;&#240; "&#221;&#209;"</Russian>
 		<English>Std Ethanol Executive</English>
 		<French>
 			<Text>Directeur d'Ethanol Inc.</Text>
@@ -3971,9 +4202,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EXECUTIVE_4</Tag>
+		<Russian>&#221;&#236;&#232;&#241;&#241;&#224;&#240; "&#194;&#199;"</Russian>
 		<English>CreateCon Executive</English>
 		<French>
-			<Text>Directeur de Constructions cr&#233;atives</Text>
+			<Text>Directeur de Constructions créatives</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -3995,9 +4227,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EXECUTIVE_5</Tag>
+		<Russian>&#221;&#236;&#232;&#241;&#241;&#224;&#240; "&#195;&#208;"</Russian>
 		<English>Mining Inc Executive</English>
 		<French>
-			<Text>Directeur de la Compagnie d'exploitation mini&#232;re</Text>
+			<Text>Directeur de la Compagnie d'exploitation minière</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -4019,6 +4252,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EXECUTIVE_6</Tag>
+		<Russian>&#221;&#236;&#232;&#241;&#241;&#224;&#240; "&#203;&#204;"</Russian>
 		<English>AlumCo Executive</English>
 		<French>
 			<Text>Directeur d'Aluminium S.A.</Text>
@@ -4043,9 +4277,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EXECUTIVE_7</Tag>
+		<Russian>&#221;&#236;&#232;&#241;&#241;&#224;&#240; "&#204;&#222;"</Russian>
 		<English>Civ Jewels Executive</English>
 		<French>
-			<Text>Directeur des Bijoutiers associ&#233;es</Text>
+			<Text>Directeur des Bijoutiers associées</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -4067,6 +4302,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_WOODSMAN3</Tag>
+		<Russian>&#206;&#240;&#232;&#229;&#237;&#242;&#232;&#240;&#238;&#226;&#224;&#237;&#232;&#229; III</Russian>
 		<English>Woodsman III</English>
 		<French>
 			<Text>Forestier III</Text>
@@ -4091,9 +4327,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_RANGE1</Tag>
+		<Russian>&#196;&#224;&#235;&#252;&#237;&#238;&#241;&#242;&#252; I</Russian>
 		<English>Range I</English>
 		<French>
-			<Text>Port&#233;e I</Text>
+			<Text>Portée I</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -4115,9 +4352,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_RANGE2</Tag>
+		<Russian>&#196;&#224;&#235;&#252;&#237;&#238;&#241;&#242;&#252; II</Russian>
 		<English>Range II</English>
 		<French>
-			<Text>Port&#233;e II</Text>
+			<Text>Portée II</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -4139,6 +4377,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_INTERCEPTION1</Tag>
+		<Russian>&#207;&#229;&#240;&#229;&#245;&#226;&#224;&#242; I</Russian>
 		<English>Interception I</English>
 		<French>
 			<Text>Interception I</Text>
@@ -4156,13 +4395,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Intercepci&#243;n I</Text>
+			<Text>Intercepción I</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_INTERCEPTION2</Tag>
+		<Russian>&#207;&#229;&#240;&#229;&#245;&#226;&#224;&#242; II</Russian>
 		<English>Interception II</English>
 		<French>
 			<Text>Interception II</Text>
@@ -4180,13 +4420,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Intercepci&#243;n II</Text>
+			<Text>Intercepción II</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ACE</Tag>
+		<Russian>&#192;&#241;</Russian>
 		<English>Ace</English>
 		<French>
 			<Text>As</Text>
@@ -4211,9 +4452,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_AIR</Tag>
+		<Russian>&#194;&#238;&#231;&#228;&#243;&#248;&#237;&#251;&#229; &#254;&#237;&#232;&#242;&#251;</Russian>
 		<English>Air Units</English>
 		<French>
-			<Text>Unit&#233;s a&#233;riennes</Text>
+			<Text>Unités aériennes</Text>
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -4223,21 +4465,22 @@
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Unit&#224; aerea:Unit&#224; aeree</Text>
+			<Text>Unità aerea:Unità aeree</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Unidad a&#233;rea:Unidades a&#233;reas</Text>
+			<Text>Unidad aérea:Unidades aéreas</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_GERONIMO</Tag>
+		<Russian>&#196;&#230;&#229;&#240;&#238;&#237;&#232;&#236;&#238;</Russian>
 		<English>Geronimo</English>
 		<French>
-			<Text>G&#233;ronimo</Text>
+			<Text>Géronimo</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -4252,13 +4495,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Jer&#243;nimo</Text>
+			<Text>Jerónimo</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MAX_GOGF</Tag>
+		<Russian>&#204;&#224;&#234;&#241; &#195;&#238;&#227;&#244;</Russian>
 		<English>Max Gogf</English>
 		<French>
 			<Text>Max Gogf</Text>
@@ -4283,6 +4527,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_EYSTEIN</Tag>
+		<Russian>&#221;&#233;&#237;&#248;&#242;&#229;&#233;&#237; &#204;&#243;&#228;&#240;&#251;&#233;</Russian>
 		<English>Eystein the Wise</English>
 		<French>
 			<Text>Eystein le Sage</Text>
@@ -4307,6 +4552,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_SPEAKER</Tag>
+		<Russian>&#203;&#252;&#226;&#232;&#237;&#238;&#229; &#209;&#229;&#240;&#228;&#246;&#229;</Russian>
 		<English>Speaker the Lionhearted</English>
 		<French>
 			<Text>Speaker Coeur de Lion</Text>
@@ -4314,7 +4560,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Referent L&#246;wenherz</Text>
+			<Text>Referent Löwenherz</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -4324,13 +4570,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Orador Coraz&#243;n de Le&#243;n</Text>
+			<Text>Orador Corazón de León</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_MARK_SWISS</Tag>
+		<Russian>&#204;&#224;&#240;&#234; &#209;&#243;&#232;&#241;</Russian>
 		<English>Mark Swiss</English>
 		<French>
 			<Text>Mark Swiss</Text>
@@ -4355,6 +4602,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_DANIEL_COLE</Tag>
+		<Russian>&#196;&#253;&#237;&#232;&#253;&#235; &#202;&#238;&#243;&#235;</Russian>
 		<English>Daniel Cole</English>
 		<French>
 			<Text>Daniel Cole</Text>
@@ -4379,6 +4627,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_JOE_MATISE</Tag>
+		<Russian>&#196;&#230;&#238; &#204;&#224;&#242;&#232;&#231;</Russian>
 		<English>Joe Matise</English>
 		<French>
 			<Text>Joe Matise</Text>
@@ -4403,6 +4652,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_ATLAS</Tag>
+		<Russian>&#210;&#232;&#242;&#224;&#237; &#192;&#242;&#235;&#224;&#237;&#242;</Russian>
 		<English>Atlas Titanus</English>
 		<French>
 			<Text>Atlas Titanus</Text>
@@ -4427,6 +4677,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_NOLAN</Tag>
+		<Russian>&#205;&#238;&#235;&#224;&#237; &#193;&#243;&#238;&#237;&#224;&#240;&#240;&#238;&#242;&#232;</Russian>
 		<English>Nolan Buonarroti</English>
 		<French>
 			<Text>Nolan Buonarroti</Text>
@@ -4451,6 +4702,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_FOSHAUG</Tag>
+		<Russian>&#207;&#235;&#243;&#242; &#212;&#238;&#248;&#238;</Russian>
 		<English>Foshaug the Deceiver</English>
 		<French>
 			<Text>Foshaug le Trompeur</Text>
@@ -4475,6 +4727,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GREAT_PERSON_VIKTOR_GRIPH</Tag>
+		<Russian>&#194;&#232;&#234;&#242;&#238;&#240; &#195;&#240;&#232;&#244;</Russian>
 		<English>Viktor Griph</English>
 		<French>
 			<Text>Viktor Griph</Text>
@@ -4499,26 +4752,29 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_FORT</Tag>
+		<Russian>&#206;&#225;&#237;&#238;&#226;&#235;&#229;&#237;&#237;&#251;&#229; &#244;&#238;&#240;&#242;&#251;</Russian>
 		<English>Updated Forts</English>
-		<French>Forts mis &#224; jour</French>
+		<French>Forts mis à jour</French>
 		<German>Verbesserte Festungen</German>
 		<Italian>Fortini aggiornati</Italian>
 		<Spanish>Fuertes actualizados</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_LIBERATION</Tag>
+		<Russian>&#206;&#242;&#228;&#229;&#235;&#229;&#237;&#232;&#229; &#227;&#238;&#240;&#238;&#228;&#238;&#226;</Russian>
 		<English>City Liberation</English>
-		<French>Lib&#233;ration de ville</French>
+		<French>Libération de ville</French>
 		<German>Stadtbefreiung</German>
 		<Italian>Liberazione cittadina</Italian>
-		<Spanish>Liberaci&#243;n de ciudades</Spanish>
+		<Spanish>Liberación de ciudades</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>CONCEPT_APOSTOLIC_PALACE</Tag>
+		<Russian>&#192;&#239;&#238;&#241;&#242;&#238;&#235;&#232;&#247;&#229;&#241;&#234;&#232;&#233; &#228;&#226;&#238;&#240;&#229;&#246; &#232; &#206;&#206;&#205;</Russian>
 		<English>Apostolic Palace / United Nations</English>
 		<French>Palais apostolique / Nations Unies</French>
 		<German>Apostolischer Palast / Vereinte Nationen</German>
 		<Italian>Palazzo Apostolico/Nazioni Unite</Italian>
-		<Spanish>El Palacio Apost&#243;lico/las Naciones Unidas</Spanish>
+		<Spanish>El Palacio Apostólico/las Naciones Unidas</Spanish>
 	</TEXT>
 </Civ4GameText>

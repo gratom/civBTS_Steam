@@ -7,4562 +7,2852 @@
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PRAGUE</Tag>
+		<Russian>&#207;&#240;&#224;&#227;&#224;</Russian>
 		<English>Prague</English>
-		<French>Prague</French>
-		<German>Prag</German>
-		<Italian>Praga</Italian>
-		<Spanish>Praga</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VIENNA</Tag>
+		<Russian>&#194;&#229;&#237;&#224;</Russian>
 		<English>Vienna</English>
-		<French>Vienne</French>
-		<German>Wien</German>
-		<Italian>Vienna</Italian>
-		<Spanish>Viena</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FLORENCE</Tag>
+		<Russian>&#212;&#235;&#238;&#240;&#229;&#237;&#246;&#232;&#255;</Russian>
 		<English>Florence</English>
-		<French>Florence</French>
-		<German>Florenz</German>
-		<Italian>Firenze</Italian>
-		<Spanish>Florencia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PISA</Tag>
+		<Russian>&#207;&#232;&#231;&#224;</Russian>
 		<English>Pisa</English>
-		<French>Pise</French>
-		<German>Pisa</German>
-		<Italian>Pisa</Italian>
-		<Spanish>Pisa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LUXEMBURG</Tag>
+		<Russian>&#203;&#254;&#234;&#241;&#229;&#236;&#225;&#243;&#240;&#227;</Russian>
 		<English>Luxemburg</English>
-		<French>Luxembourg</French>
-		<German>Luxemburg</German>
-		<Italian>Lussemburgo</Italian>
-		<Spanish>Luxemburgo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_STRASSBURG</Tag>
+		<Russian>&#209;&#242;&#240;&#224;&#241;&#225;&#243;&#240;&#227;</Russian>
 		<English>Strassburg</English>
-		<French>Strasbourg</French>
-		<German>Straßburg</German>
-		<Italian>Strasburgo</Italian>
-		<Spanish>Estrasburgo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BRANDENBURG</Tag>
+		<Russian>&#193;&#240;&#224;&#237;&#228;&#229;&#237;&#225;&#243;&#240;&#227;</Russian>
 		<English>Brandenburg</English>
-		<French>Brandebourg</French>
-		<German>Brandenburg</German>
-		<Italian>Brandeburgo</Italian>
-		<Spanish>Brandenburgo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WORMS</Tag>
+		<Russian>&#194;&#238;&#240;&#236;&#241;</Russian>
 		<English>Worms</English>
-		<French>Worms</French>
-		<German>Worms</German>
-		<Italian>Worms</Italian>
-		<Spanish>Worms</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CONSTANCE</Tag>
+		<Russian>&#202;&#238;&#237;&#241;&#242;&#224;&#237;&#246;</Russian>
 		<English>Constance</English>
-		<French>Constance</French>
-		<German>Konstanz</German>
-		<Italian>Costanza</Italian>
-		<Spanish>Constance</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BASLE</Tag>
+		<Russian>&#193;&#224;&#231;&#229;&#235;&#252;</Russian>
 		<English>Basle</English>
-		<French>Bâle</French>
-		<German>Basel</German>
-		<Italian>Basilea</Italian>
-		<Spanish>Basilea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ZURICH</Tag>
+		<Russian>&#214;&#254;&#240;&#232;&#245;</Russian>
 		<English>Zurich</English>
-		<French>Zurich</French>
-		<German>Zürich</German>
-		<Italian>Zurigo</Italian>
-		<Spanish>Zurich</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SALZBURG</Tag>
+		<Russian>&#199;&#224;&#235;&#252;&#246;&#225;&#243;&#240;&#227;</Russian>
 		<English>Salzburg</English>
-		<French>Salzbourg</French>
-		<German>Salzburg</German>
-		<Italian>Salisburgo</Italian>
-		<Spanish>Salzburgo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_INNSBRUCK</Tag>
+		<Russian>&#200;&#237;&#241;&#225;&#240;&#243;&#234;</Russian>
 		<English>Innsbruck</English>
-		<French>Innsbruck</French>
-		<German>Innsbruck</German>
-		<Italian>Innsbruck</Italian>
-		<Spanish>Innsbruck</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TRENT</Tag>
+		<Russian>&#210;&#240;&#229;&#237;&#242;</Russian>
 		<English>Trent</English>
-		<French>Trente</French>
-		<German>Trent</German>
-		<Italian>Trento</Italian>
-		<Spanish>Trento</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GENOA</Tag>
+		<Russian>&#195;&#229;&#237;&#243;&#255;</Russian>
 		<English>Genoa</English>
-		<French>Gênes</French>
-		<German>Genua</German>
-		<Italian>Genova</Italian>
-		<Spanish>Génova</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LUCCA</Tag>
+		<Russian>&#203;&#243;&#234;&#234;&#224;</Russian>
 		<English>Lucca</English>
-		<French>Lucques</French>
-		<German>Lucca</German>
-		<Italian>Lucca</Italian>
-		<Spanish>Lucca</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SIENNA</Tag>
+		<Russian>&#209;&#232;&#229;&#237;&#224;</Russian>
 		<English>Sienna</English>
-		<French>Sienne</French>
-		<German>Siena</German>
-		<Italian>Siena</Italian>
-		<Spanish>Siena</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ARLES</Tag>
+		<Russian>&#192;&#240;&#235;&#252;</Russian>
 		<English>Arles</English>
-		<French>Arles</French>
-		<German>Arles</German>
-		<Italian>Arles</Italian>
-		<Spanish>Arlés</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_METZ</Tag>
+		<Russian>&#204;&#229;&#242;&#246;</Russian>
 		<English>Metz</English>
-		<French>Metz</French>
-		<German>Metz</German>
-		<Italian>Metz</Italian>
-		<Spanish>Metz</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WIRTEN</Tag>
+		<Russian>&#194;&#232;&#240;&#242;&#229;&#237;</Russian>
 		<English>Wirten</English>
-		<French>Verdun</French>
-		<German>Wirten</German>
-		<Italian>Wirten</Italian>
-		<Spanish>Wirten</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BRUSSELS</Tag>
+		<Russian>&#193;&#240;&#254;&#241;&#241;&#229;&#235;&#252;</Russian>
 		<English>Brussels</English>
-		<French>Bruxelles</French>
-		<German>Brüssel</German>
-		<Italian>Bruxelles</Italian>
-		<Spanish>Bruselas</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANTWERP</Tag>
+		<Russian>&#192;&#237;&#242;&#226;&#229;&#240;&#239;&#229;&#237;</Russian>
 		<English>Antwerp</English>
-		<French>Anvers</French>
-		<German>Antwerpen</German>
-		<Italian>Anversa</Italian>
-		<Spanish>Amberes</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LUTTICH</Tag>
+		<Russian>&#203;&#254;&#242;&#242;&#232;&#245;</Russian>
 		<English>Luttich</English>
-		<French>Liège</French>
-		<German>Lüttich</German>
-		<Italian>Luttich</Italian>
-		<Spanish>Luttich</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_STETTIN</Tag>
+		<Russian>&#217;&#229;&#246;&#232;&#237;</Russian>
 		<English>Stettin</English>
-		<French>Szczecin</French>
-		<German>Stettin</German>
-		<Italian>Stettin</Italian>
-		<Spanish>Stettin</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KOLBERG</Tag>
+		<Russian>&#202;&#238;&#235;&#252;&#225;&#229;&#240;&#227;</Russian>
 		<English>Kolberg</English>
-		<French>Kolobrzeg</French>
-		<German>Kolberg</German>
-		<Italian>Kolberg</Italian>
-		<Spanish>Kolberg</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BRESLAU</Tag>
+		<Russian>&#194;&#240;&#238;&#246;&#235;&#224;&#226;</Russian>
 		<English>Breslau</English>
-		<French>Wroclaw</French>
-		<German>Breslau</German>
-		<Italian>Breslavia</Italian>
-		<Spanish>Breslavia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OLMUTZ</Tag>
+		<Russian>&#206;&#235;&#252;&#236;&#254;&#246;</Russian>
 		<English>Olmutz</English>
-		<French>Olomouc</French>
-		<German>Olmütz</German>
-		<Italian>Olmutz</Italian>
-		<Spanish>Ollmuth</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PILSEN</Tag>
+		<Russian>&#207;&#235;&#252;&#231;&#229;&#237;&#252;</Russian>
 		<English>Pilsen</English>
-		<French>Plzen</French>
-		<German>Pilsen</German>
-		<Italian>Pilsen</Italian>
-		<Spanish>Pilsen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BAMBERG</Tag>
+		<Russian>&#193;&#224;&#236;&#225;&#229;&#240;&#227;</Russian>
 		<English>Bamberg</English>
-		<French>Bamberg</French>
-		<German>Bamberg</German>
-		<Italian>Bamberg</Italian>
-		<Spanish>Bamberg</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GOSLAR</Tag>
+		<Russian>&#195;&#238;&#241;&#235;&#224;&#240;</Russian>
 		<English>Goslar</English>
-		<French>Goslar</French>
-		<German>Goslar</German>
-		<Italian>Goslar</Italian>
-		<Spanish>Goslar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SPIRES</Tag>
+		<Russian>&#216;&#239;&#229;&#233;&#229;&#240;</Russian>
 		<English>Spires</English>
-		<French>Spires</French>
-		<German>Speyer</German>
-		<Italian>Spires</Italian>
-		<Spanish>Spires</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PADERBORN</Tag>
+		<Russian>&#207;&#224;&#228;&#229;&#240;&#225;&#238;&#240;&#237;</Russian>
 		<English>Paderborn</English>
-		<French>Paderborn</French>
-		<German>Paderborn</German>
-		<Italian>Paderborn</Italian>
-		<Spanish>Paderborn</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PASSAU</Tag>
+		<Russian>&#207;&#224;&#241;&#241;&#224;&#243;</Russian>
 		<English>Passau</English>
-		<French>Passau</French>
-		<German>Passau</German>
-		<Italian>Passau</Italian>
-		<Spanish>Passau</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAGENAU</Tag>
+		<Russian>&#213;&#224;&#227;&#229;&#237;&#224;&#243;</Russian>
 		<English>Hagenau</English>
-		<French>Haguenau</French>
-		<German>Hagenau</German>
-		<Italian>Hagenau</Italian>
-		<Spanish>Hagenau</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AMSTERDAM</Tag>
+		<Russian>&#192;&#236;&#241;&#242;&#229;&#240;&#228;&#224;&#236;</Russian>
 		<English>Amsterdam</English>
-		<French>Amsterdam</French>
-		<German>Amsterdam</German>
-		<Italian>Amsterdam</Italian>
-		<Spanish>Amsterdam</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UTRECHT</Tag>
+		<Russian>&#211;&#242;&#240;&#229;&#245;&#242;</Russian>
 		<English>Utrecht</English>
-		<French>Utrecht</French>
-		<German>Utrecht</German>
-		<Italian>Utrecht</Italian>
-		<Spanish>Utrecht</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_S_GRAVENHAGE</Tag>
+		<Russian>&#195;&#224;&#224;&#227;&#224;</Russian>
 		<English>The Hague</English>
-		<French>La Haye</French>
-		<German>Den Haag</German>
-		<Italian>L'Aia</Italian>
-		<Spanish>La Haya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ROTTERDAM</Tag>
+		<Russian>&#208;&#238;&#242;&#242;&#229;&#240;&#228;&#224;&#236;</Russian>
 		<English>Rotterdam</English>
-		<French>Rotterdam</French>
-		<German>Rotterdam</German>
-		<Italian>Rotterdam</Italian>
-		<Spanish>Rotterdam</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NIJMEGEN</Tag>
+		<Russian>&#205;&#224;&#233;&#236;&#229;&#227;&#229;&#237;</Russian>
 		<English>Nijmegen</English>
-		<French>Nimègue</French>
-		<German>Nimwegen</German>
-		<Italian>Nijmegen</Italian>
-		<Spanish>Nimega</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MAASTRICHT</Tag>
+		<Russian>&#204;&#224;&#224;&#241;&#242;&#240;&#232;&#245;&#242;</Russian>
 		<English>Maastricht</English>
-		<French>Maastricht</French>
-		<German>Maastricht</German>
-		<Italian>Maastricht</Italian>
-		<Spanish>Maastricht</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MIDDELBURG</Tag>
+		<Russian>&#204;&#232;&#228;&#228;&#229;&#235;&#252;&#225;&#243;&#240;&#227;</Russian>
 		<English>Middelburg</English>
-		<French>Middelbourg</French>
-		<German>Middelburg</German>
-		<Italian>Middelburg</Italian>
-		<Spanish>Middelburg</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DELFT</Tag>
+		<Russian>&#196;&#229;&#235;&#244;&#242;</Russian>
 		<English>Delft</English>
-		<French>Delft</French>
-		<German>Delft</German>
-		<Italian>Delft</Italian>
-		<Spanish>Delft</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LEIDEN</Tag>
+		<Russian>&#203;&#229;&#233;&#228;&#229;&#237;</Russian>
 		<English>Leiden</English>
-		<French>Leiden</French>
-		<German>Leiden</German>
-		<Italian>Leiden</Italian>
-		<Spanish>Leiden</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAARLEM</Tag>
+		<Russian>&#213;&#224;&#240;&#235;&#229;&#236;</Russian>
 		<English>Haarlem</English>
-		<French>Haarlem</French>
-		<German>Haarlem</German>
-		<Italian>Haarlem</Italian>
-		<Spanish>Haarlem</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_S_HERTOGENBOSCH</Tag>
+		<Russian>&#213;&#229;&#240;&#242;&#238;&#227;&#229;&#237;&#225;&#238;&#241;</Russian>
 		<English>'s-Hertogenbosch</English>
-		<French>Bois-le-Duc</French>
-		<German>Herzogenbusch</German>
-		<Italian>'s-Hertogenbosch</Italian>
-		<Spanish>'s-Hertogenbosch</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DORESTAD</Tag>
+		<Russian>&#196;&#238;&#240;&#229;&#241;&#242;&#224;&#228;</Russian>
 		<English>Dorestad</English>
-		<French>Dorestad</French>
-		<German>Dorestad</German>
-		<Italian>Dorestad</Italian>
-		<Spanish>Dorestad</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DEVENTER</Tag>
+		<Russian>&#196;&#229;&#226;&#229;&#237;&#242;&#229;&#240;</Russian>
 		<English>Deventer</English>
-		<French>Deventer</French>
-		<German>Deventer</German>
-		<Italian>Deventer</Italian>
-		<Spanish>Deventer</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KAMPEN</Tag>
+		<Russian>&#202;&#224;&#236;&#239;&#229;&#237;</Russian>
 		<English>Kampen</English>
-		<French>Kampen</French>
-		<German>Kampen</German>
-		<Italian>Kampen</Italian>
-		<Spanish>Kampen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GRONINGEN</Tag>
+		<Russian>&#195;&#240;&#238;&#237;&#232;&#237;&#227;&#229;&#237;</Russian>
 		<English>Groningen</English>
-		<French>Groningue</French>
-		<German>Groningen</German>
-		<Italian>Groningen</Italian>
-		<Spanish>Groninga</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LEEUWARDEN</Tag>
+		<Russian>&#203;&#229;&#243;&#226;&#224;&#240;&#228;&#229;&#237;</Russian>
 		<English>Leeuwarden</English>
-		<French>Leeuwarden</French>
-		<German>Leeuwarden</German>
-		<Italian>Leeuwarden</Italian>
-		<Spanish>Leeuwarden</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ENKHUIZEN</Tag>
+		<Russian>&#221;&#237;&#234;&#245;&#229;&#233;&#231;&#229;&#237;</Russian>
 		<English>Enkhuizen</English>
-		<French>Enkhuizen</French>
-		<German>Enkhuizen</German>
-		<Italian>Enkhuizen</Italian>
-		<Spanish>Enkhuizen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HOORN</Tag>
+		<Russian>&#213;&#238;&#238;&#240;&#237;</Russian>
 		<English>Hoorn</English>
-		<French>Hoorn</French>
-		<German>Hoorn</German>
-		<Italian>Hoorn</Italian>
-		<Spanish>Hoorn</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TIEL</Tag>
+		<Russian>&#210;&#232;&#235;&#252;</Russian>
 		<English>Tiel</English>
-		<French>Tiel</French>
-		<German>Tiel</German>
-		<Italian>Tiel</Italian>
-		<Spanish>Tiel</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BREDA</Tag>
+		<Russian>&#193;&#240;&#229;&#228;&#224;</Russian>
 		<English>Breda</English>
-		<French>Breda</French>
-		<German>Breda</German>
-		<Italian>Breda</Italian>
-		<Spanish>Breda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EINDHOVEN</Tag>
+		<Russian>&#221;&#233;&#237;&#228;&#245;&#238;&#226;&#229;&#237;</Russian>
 		<English>Eindhoven</English>
-		<French>Eindhoven</French>
-		<German>Eindhoven</German>
-		<Italian>Eindhoven</Italian>
-		<Spanish>Eindhoven</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DORDRECHT</Tag>
+		<Russian>&#196;&#238;&#240;&#228;&#240;&#229;&#245;&#242;</Russian>
 		<English>Dordrecht</English>
-		<French>Dordrecht</French>
-		<German>Dordrecht</German>
-		<Italian>Dordrecht</Italian>
-		<Spanish>Dordrecht</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VLISSINGEN</Tag>
+		<Russian>&#212;&#235;&#232;&#241;&#241;&#232;&#237;&#227;&#229;&#237;</Russian>
 		<English>Vlissingen</English>
-		<French>Flessingue</French>
-		<German>Vlissingen</German>
-		<Italian>Vlissingen</Italian>
-		<Spanish>Vlissingen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KAMPVERE</Tag>
+		<Russian>&#202;&#224;&#236;&#239;&#229;&#240;&#235;&#224;&#237;&#228;</Russian>
 		<English>Kampvere</English>
-		<French>Kampvere</French>
-		<German>Kampvere</German>
-		<Italian>Kampvere</Italian>
-		<Spanish>Kampvere</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ROERMOND</Tag>
+		<Russian>&#208;&#238;&#229;&#240;&#236;&#238;&#237;&#228;</Russian>
 		<English>Roermond</English>
-		<French>Ruremonde</French>
-		<German>Roermond</German>
-		<Italian>Roermond</Italian>
-		<Spanish>Roermond</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ZUTPHEN</Tag>
+		<Russian>&#214;&#243;&#242;&#244;&#229;&#237;</Russian>
 		<English>Zutphen</English>
-		<French>Zutphen</French>
-		<German>Zutphen</German>
-		<Italian>Zutphen</Italian>
-		<Spanish>Zutphen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ARNHEM</Tag>
+		<Russian>&#192;&#240;&#237;&#229;&#236;</Russian>
 		<English>Arnhem</English>
-		<French>Arnhem</French>
-		<German>Arnheim</German>
-		<Italian>Arnhem</Italian>
-		<Spanish>Arnhem</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AMERSFOORT</Tag>
+		<Russian>&#192;&#236;&#229;&#240;&#241;&#244;&#238;&#240;&#242;</Russian>
 		<English>Amersfoort</English>
-		<French>Amersfoort</French>
-		<German>Amersfoort</German>
-		<Italian>Amersfoort</Italian>
-		<Spanish>Amersfoort</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GOUDA</Tag>
+		<Russian>&#195;&#224;&#243;&#228;&#224;</Russian>
 		<English>Gouda</English>
-		<French>Gouda</French>
-		<German>Gouda</German>
-		<Italian>Gouda</Italian>
-		<Spanish>Gouda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALKMAAR</Tag>
+		<Russian>&#192;&#235;&#234;&#236;&#224;&#240;</Russian>
 		<English>Alkmaar</English>
-		<French>Alkmaar</French>
-		<German>Alkmaar</German>
-		<Italian>Alkmaar</Italian>
-		<Spanish>Alkmaar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MEDEMBLIK</Tag>
+		<Russian>&#204;&#229;&#228;&#229;&#236;&#225;&#235;&#232;&#234;</Russian>
 		<English>Medemblik</English>
-		<French>Medemblik</French>
-		<German>Medemblik</German>
-		<Italian>Medemblik</Italian>
-		<Spanish>Medemblik</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GORKUM</Tag>
+		<Russian>&#195;&#238;&#240;&#232;&#237;&#245;&#229;&#236;</Russian>
 		<English>Gorkum</English>
-		<French>Gorinchem</French>
-		<German>Gorkum</German>
-		<Italian>Gorkum</Italian>
-		<Spanish>Gorkum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TILBURG</Tag>
+		<Russian>&#210;&#232;&#235;&#225;&#243;&#240;&#227;</Russian>
 		<English>Tilburg</English>
-		<French>Tilburg</French>
-		<German>Tilburg</German>
-		<Italian>Tilburg</Italian>
-		<Spanish>Tilburg</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BERGEN_OP_ZOOM</Tag>
+		<Russian>&#193;&#229;&#240;&#227;&#229;&#237;-&#238;&#239;-&#199;&#238;&#236;</Russian>
 		<English>Bergen op Zoom</English>
-		<French>Bergen op Zoom</French>
-		<German>Bergen op Zoom</German>
-		<Italian>Bergen op Zoom</Italian>
-		<Spanish>Bergen op Zoom</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ZWOLLE</Tag>
+		<Russian>&#199;&#226;&#238;&#235;&#235;&#229;</Russian>
 		<English>Zwolle</English>
-		<French>Zwolle</French>
-		<German>Zwolle</German>
-		<Italian>Zwolle</Italian>
-		<Spanish>Zwolle</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HARDERWIJK</Tag>
+		<Russian>&#213;&#224;&#240;&#228;&#229;&#240;&#226;&#229;&#233;&#234;</Russian>
 		<English>Harderwijk</English>
-		<French>Harderwijk</French>
-		<German>Harderwijk</German>
-		<Italian>Harderwijk</Italian>
-		<Spanish>Harderwijk</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VENLO</Tag>
+		<Russian>&#194;&#229;&#237;&#235;&#238;</Russian>
 		<English>Venlo</English>
-		<French>Venlo</French>
-		<German>Venlo</German>
-		<Italian>Venlo</Italian>
-		<Spanish>Venlo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FRANEKER</Tag>
+		<Russian>&#212;&#240;&#224;&#237;&#229;&#234;&#229;&#240;</Russian>
 		<English>Franeker</English>
-		<French>Franeker</French>
-		<German>Franeker</German>
-		<Italian>Franeker</Italian>
-		<Spanish>Franeker</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HARLINGEN</Tag>
+		<Russian>&#213;&#224;&#240;&#235;&#232;&#237;&#227;&#229;&#237;</Russian>
 		<English>Harlingen</English>
-		<French>Harlingen</French>
-		<German>Harlingen</German>
-		<Italian>Harlingen</Italian>
-		<Spanish>Harlingen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_STAVOREN</Tag>
+		<Russian>&#209;&#242;&#224;&#226;&#238;&#240;&#229;&#237;</Russian>
 		<English>Stavoren</English>
-		<French>Stavoren</French>
-		<German>Stavoren</German>
-		<Italian>Stavoren</Italian>
-		<Spanish>Stavoren</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ASSEN</Tag>
+		<Russian>Assen</Russian>
 		<English>Assen</English>
-		<French>Assen</French>
-		<German>Assen</German>
-		<Italian>Assen</Italian>
-		<Spanish>Assen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ENSCHEDE</Tag>
+		<Russian>&#221;&#237;&#241;&#245;&#229;&#228;&#229;</Russian>
 		<English>Enschede</English>
-		<French>Enschede</French>
-		<German>Enschede</German>
-		<Italian>Enschede</Italian>
-		<Spanish>Enschede</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_APELDOORN</Tag>
+		<Russian>&#192;&#239;&#229;&#235;&#228;&#238;&#240;&#237;</Russian>
 		<English>Apeldoorn</English>
-		<French>Apeldoorn</French>
-		<German>Apeldoorn</German>
-		<Italian>Apeldoorn</Italian>
-		<Spanish>Apeldoorn</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LELYSTAD</Tag>
+		<Russian>&#203;&#229;&#235;&#232;&#241;&#242;&#224;&#228;</Russian>
 		<English>Lelystad</English>
-		<French>Lelystad</French>
-		<German>Lelystad</German>
-		<Italian>Lelystad</Italian>
-		<Spanish>Lelystad</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALMERE</Tag>
+		<Russian>&#192;&#235;&#236;&#229;&#240;&#229;</Russian>
 		<English>Almere</English>
-		<French>Almere</French>
-		<German>Almere</German>
-		<Italian>Almere</Italian>
-		<Spanish>Almere</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MUTAL</Tag>
+		<Russian>&#204;&#243;&#242;&#224;&#235;&#224;</Russian>
 		<English>Mutal</English>
-		<French>Mutal</French>
-		<German>Tikal</German>
-		<Italian>Mutal</Italian>
-		<Spanish>Mutal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAKAMHA</Tag>
+		<Russian>&#203;&#224;&#234;&#224;&#236;&#245;&#224;</Russian>
 		<English>Lakamha</English>
-		<French>Lakamha</French>
-		<German>Lakamha</German>
-		<Italian>Lakamha</Italian>
-		<Spanish>Lakamha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHICHEN_ITZA</Tag>
+		<Russian>&#215;&#232;&#247;&#229;&#237;-&#200;&#242;&#246;&#224;</Russian>
 		<English>Chichen Itza</English>
-		<French>Chichen Itza</French>
-		<German>Chichen Itza</German>
-		<Italian>Chichen Itza</Italian>
-		<Spanish>Chichen Itzá</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UXMAL</Tag>
+		<Russian>&#211;&#248;&#236;&#224;&#235;&#252;</Russian>
 		<English>Uxmal</English>
-		<French>Uxmal</French>
-		<German>Uxmal</German>
-		<Italian>Uxmal</Italian>
-		<Spanish>Uxmal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MAYAPAN</Tag>
+		<Russian>&#204;&#224;&#233;&#255;&#239;&#224;&#237;</Russian>
 		<English>Mayapan</English>
-		<French>Mayapan</French>
-		<German>Mayapan</German>
-		<Italian>Mayapan</Italian>
-		<Spanish>Mayapán</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CALAKMUL</Tag>
+		<Russian>&#202;&#224;&#235;&#224;&#234;&#236;&#243;&#235;&#252;</Russian>
 		<English>Calakmul</English>
-		<French>Calakmul</French>
-		<German>Calakmul</German>
-		<Italian>Calakmul</Italian>
-		<Spanish>Calakmul</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OXHUITZA</Tag>
+		<Russian>&#202;&#224;&#240;&#224;&#234;&#238;&#235;&#252;</Russian>
 		<English>Oxhuitza</English>
-		<French>Oxhuitza</French>
-		<German>Oxhuitza</German>
-		<Italian>Oxhuitza</Italian>
-		<Spanish>Oxhuitza</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_XUKPI</Tag>
+		<Russian>&#202;&#241;&#243;&#234;&#239;&#232;</Russian>
 		<English>Xukpi</English>
-		<French>Xukpi</French>
-		<German>Xukpi</German>
-		<Italian>Xukpi</Italian>
-		<Spanish>Xukpi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_QUIRIGUA</Tag>
+		<Russian>&#202;&#232;&#240;&#232;&#227;&#243;&#224;</Russian>
 		<English>Quirigua</English>
-		<French>Quirigua</French>
-		<German>Quirigua</German>
-		<Italian>Quirigua</Italian>
-		<Spanish>Quiriguá</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_IZANCANAC</Tag>
+		<Russian>&#200;&#246;&#237;&#234;&#224;&#237;&#224;&#234;</Russian>
 		<English>Izancanac</English>
-		<French>Izancanac</French>
-		<German>Izancanac</German>
-		<Italian>Izancanac</Italian>
-		<Spanish>Izancanac</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_YOKIB</Tag>
+		<Russian>&#201;&#238;&#234;&#232;&#225;</Russian>
 		<English>Yokib</English>
-		<French>Yokib</French>
-		<German>Yokib</German>
-		<Italian>Yokib</Italian>
-		<Spanish>Yokib'</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALTUN_HA</Tag>
+		<Russian>&#192;&#235;&#242;&#243;&#237;-&#213;&#224;</Russian>
 		<English>Altun Ha</English>
-		<French>Altun Ha</French>
-		<German>Altun Ha</German>
-		<Italian>Altun Ha</Italian>
-		<Spanish>Altun Ha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_IZAMAL</Tag>
+		<Russian>&#200;&#246;&#236;&#224;&#235;&#252;</Russian>
 		<English>Izamal</English>
-		<French>Izamal</French>
-		<German>Izamal</German>
-		<Italian>Izamal</Italian>
-		<Spanish>Izamal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_COBA</Tag>
+		<Russian>&#202;&#238;&#225;&#224;</Russian>
 		<English>Coba</English>
-		<French>Coba</French>
-		<German>Cobá</German>
-		<Italian>Coba</Italian>
-		<Spanish>Cobá</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DZIBILCHALTUN</Tag>
+		<Russian>&#214;&#232;&#225;&#232;&#235;&#252;&#247;&#224;&#235;&#252;&#242;&#243;&#237;</Russian>
 		<English>Dzibilchaltun</English>
-		<French>Dzibilchaltun</French>
-		<German>Dzibilchaltún</German>
-		<Italian>Dzibilchaltun</Italian>
-		<Spanish>Dzibilchaltún</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_COZUMEL</Tag>
+		<Russian>&#202;&#238;&#246;&#243;&#236;&#229;&#235;</Russian>
 		<English>Cozumel</English>
-		<French>Cozumel</French>
-		<German>Cozumel</German>
-		<Italian>Cozumel</Italian>
-		<Spanish>Cozumel</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EDZNA</Tag>
+		<Russian>&#221;&#228;&#231;&#232;&#237;&#224;</Russian>
 		<English>Edzna</English>
-		<French>Edzna</French>
-		<German>Edzna</German>
-		<Italian>Edzna</Italian>
-		<Spanish>Edzná</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OXKINTOK</Tag>
+		<Russian>&#206;&#234;&#241;&#234;&#232;&#237;&#242;&#238;&#234;</Russian>
 		<English>Oxkintok</English>
-		<French>Oxkintok</French>
-		<German>Oxkintok</German>
-		<Italian>Oxkintok</Italian>
-		<Spanish>Oxkintok</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BECAN</Tag>
+		<Russian>&#193;&#229;&#234;&#224;&#237;</Russian>
 		<English>Becan</English>
-		<French>Becan</French>
-		<German>Becan</German>
-		<Italian>Becan</Italian>
-		<Spanish>Becán</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAKBE</Tag>
+		<Russian>&#205;&#224;&#234;&#225;&#229;</Russian>
 		<English>Nakbe</English>
-		<French>Nakbe</French>
-		<German>Nakbé</German>
-		<Italian>Nakbe</Italian>
-		<Spanish>Nakbé</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CIVAL</Tag>
+		<Russian>&#209;&#232;&#226;&#224;&#235;</Russian>
 		<English>Cival</English>
-		<French>Cival</French>
-		<German>Cival</German>
-		<Italian>Cival</Italian>
-		<Spanish>Cival</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAMANAIN</Tag>
+		<Russian>&#203;&#224;&#236;&#224;&#237;&#224;&#233;</Russian>
 		<English>Lamanain</English>
-		<French>Lamanain</French>
-		<German>Lamanai</German>
-		<Italian>Lamanain</Italian>
-		<Spanish>Lamanai</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KAMINALJUYU</Tag>
+		<Russian>&#202;&#224;&#236;&#232;&#237;&#224;&#235;&#245;&#243;&#254;</Russian>
 		<English>Kaminaljuyu</English>
-		<French>Kaminaljuyu</French>
-		<German>Kaminaljuyu</German>
-		<Italian>Kaminaljuyu</Italian>
-		<Spanish>Kaminaljuyú</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAKALIK_ABAJ</Tag>
+		<Russian>&#192;&#225;&#224;&#245;-&#210;&#224;&#234;&#224;&#235;&#232;&#234;</Russian>
 		<English>Takalik Abaj</English>
-		<French>Takalik Abaj</French>
-		<German>Takalik Abaj</German>
-		<Italian>Takalik Abaj</Italian>
-		<Spanish>Takalik Abaj</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HOLMUL</Tag>
+		<Russian>&#213;&#238;&#235;&#236;&#243;&#235;</Russian>
 		<English>Holmul</English>
-		<French>Holmul</French>
-		<German>Holmul</German>
-		<Italian>Holmul</Italian>
-		<Spanish>Holmul</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WAKA</Tag>
+		<Russian>&#194;&#224;&#234;&#224;</Russian>
 		<English>Waka</English>
-		<French>Waka</French>
-		<German>Waka</German>
-		<Italian>Waka</Italian>
-		<Spanish>Waka'</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SIAAN_KAAN</Tag>
+		<Russian>&#209;&#232;&#224;&#224;&#237;-&#202;&#224;&#224;&#237;</Russian>
 		<English>Siaan Kaan</English>
-		<French>Siaan Kaan</French>
-		<German>Siaan Kaan</German>
-		<Italian>Siaan Kaan</Italian>
-		<Spanish>Siaan Kaán</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BONAMPAK</Tag>
+		<Russian>&#193;&#238;&#237;&#224;&#236;&#239;&#224;&#234;</Russian>
 		<English>Bonampak</English>
-		<French>Bonampak</French>
-		<German>Bonampak</German>
-		<Italian>Bonampak</Italian>
-		<Spanish>Bonampak</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TONINA</Tag>
+		<Russian>&#210;&#238;&#237;&#232;&#237;&#224;</Russian>
 		<English>Tonina</English>
-		<French>Tonina</French>
-		<German>Toniná</German>
-		<Italian>Tonina</Italian>
-		<Spanish>Toniná</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAZUMAL</Tag>
+		<Russian>&#210;&#224;&#241;&#243;&#236;&#224;&#235;</Russian>
 		<English>Tazumal</English>
-		<French>Tazumal</French>
-		<German>Tazumal</German>
-		<Italian>Tazumal</Italian>
-		<Spanish>Tazumal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_COMALCALCO</Tag>
+		<Russian>&#202;&#238;&#236;&#224;&#235;&#234;&#224;&#235;&#234;&#238;</Russian>
 		<English>Comalcalco</English>
-		<French>Comalcalco</French>
-		<German>Comalcalco</German>
-		<Italian>Comalcalco</Italian>
-		<Spanish>Comalcalco</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NIM_LI_PUNIT</Tag>
+		<Russian>&#205;&#232;&#236;-&#203;&#232;-&#207;&#243;&#237;&#232;&#242;</Russian>
 		<English>Nim Li Punit</English>
-		<French>Nim Li Punit</French>
-		<German>Nim Li Punit</German>
-		<Italian>Nim Li Punit</Italian>
-		<Spanish>Nim Li Punit</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EKBALAM</Tag>
+		<Russian>&#221;&#234;-&#193;&#224;&#235;&#224;&#236;</Russian>
 		<English>Ekbalam</English>
-		<French>Ekbalam</French>
-		<German>Ek Balam</German>
-		<Italian>Ekbalam</Italian>
-		<Spanish>Ek Balam</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SAYIL</Tag>
+		<Russian>&#209;&#224;&#233;&#232;&#235;&#252;</Russian>
 		<English>Sayil</English>
-		<French>Sayil</French>
-		<German>Sayil</German>
-		<Italian>Sayil</Italian>
-		<Spanish>Sayil</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KABAH</Tag>
+		<Russian>&#202;&#224;&#225;&#224;&#245;</Russian>
 		<English>Kabah</English>
-		<French>Kabah</French>
-		<German>Kabah</German>
-		<Italian>Kabah</Italian>
-		<Spanish>Kabah</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LABNA</Tag>
+		<Russian>&#203;&#224;&#225;&#237;&#224;</Russian>
 		<English>Labna</English>
-		<French>Labna</French>
-		<German>Labna</German>
-		<Italian>Labna</Italian>
-		<Spanish>Labná</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WAK_KABNAL</Tag>
+		<Russian>&#194;&#224;&#234;-&#202;&#224;&#225;&#237;&#224;&#235;&#252;</Russian>
 		<English>Wak Kabnal</English>
-		<French>Wak Kabnal</French>
-		<German>Wak Kabnal</German>
-		<Italian>Wak Kabnal</Italian>
-		<Spanish>Wak Kabnal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_XUNANTUNICH</Tag>
+		<Russian>&#213;&#243;&#237;&#224;&#237;&#242;&#243;&#237;&#232;&#247;</Russian>
 		<English>Xunantunich</English>
-		<French>Xunantunich</French>
-		<German>Xunantunich</German>
-		<Italian>Xunantunich</Italian>
-		<Spanish>Xunantunich</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_IZAPA</Tag>
+		<Russian>&#200;&#231;&#224;&#239;&#224;</Russian>
 		<English>Izapa</English>
-		<French>Izapa</French>
-		<German>Izapa</German>
-		<Italian>Izapa</Italian>
-		<Spanish>Izapa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NOJ_PETEN</Tag>
+		<Russian>&#205;&#238;&#245;-&#207;&#229;&#242;&#229;&#237;</Russian>
 		<English>Noj Peten</English>
-		<French>Noj Peten</French>
-		<German>Noj Peten</German>
-		<Italian>Noj Peten</Italian>
-		<Spanish>Noj Petén</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UTALTAN</Tag>
+		<Russian>&#211;&#242;&#224;&#242;&#235;&#224;&#237;</Russian>
 		<English>Utatlan</English>
-		<French>Utatlan</French>
-		<German>Utatlán</German>
-		<Italian>Utatlan</Italian>
-		<Spanish>Utatlán</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MANI</Tag>
+		<Russian>&#204;&#224;&#237;&#232;</Russian>
 		<English>Mani</English>
-		<French>Mani</French>
-		<German>Maní</German>
-		<Italian>Mani</Italian>
-		<Spanish>Mani</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AKSUM</Tag>
+		<Russian>&#192;&#234;&#241;&#243;&#236;</Russian>
 		<English>Aksum</English>
-		<French>Aksum</French>
-		<German>Aksum</German>
-		<Italian>Axum</Italian>
-		<Spanish>Aksum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LALIBELA</Tag>
+		<Russian>&#203;&#224;&#235;&#232;&#225;&#229;&#235;&#224;</Russian>
 		<English>Lalibela</English>
-		<French>Lalibela</French>
-		<German>Lalibela</German>
-		<Italian>Lalibela</Italian>
-		<Spanish>Lalibela</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ADDIS_ABABA</Tag>
+		<Russian>&#192;&#228;&#228;&#232;&#241;-&#192;&#225;&#229;&#225;&#224;</Russian>
 		<English>Addis Ababa</English>
-		<French>Addis-Abeba</French>
-		<German>Addis Abeba</German>
-		<Italian>Addis Abeba</Italian>
-		<Spanish>Addis Abeba</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_YEHA</Tag>
+		<Russian>&#201;&#229;&#245;&#224;</Russian>
 		<English>Yeha</English>
-		<French>Yeha</French>
-		<German>Yeha</German>
-		<Italian>Yeha</Italian>
-		<Spanish>Yeha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DEBRE_BERHAN</Tag>
+		<Russian>&#196;&#229;&#225;&#240;&#229;-&#193;&#229;&#240;&#245;&#224;&#237;</Russian>
 		<English>Debre Berhan</English>
-		<French>Debré Berhan</French>
-		<German>Debre Berhan</German>
-		<Italian>Debre Berhan</Italian>
-		<Spanish>Debre Berhan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ADULIS</Tag>
+		<Russian>&#192;&#228;&#243;&#235;&#232;&#241;</Russian>
 		<English>Adulis</English>
-		<French>Adulis</French>
-		<German>Adulis</German>
-		<Italian>Adulis</Italian>
-		<Spanish>Adulis</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_QOHAITO</Tag>
+		<Russian>&#202;&#238;&#245;&#224;&#233;&#242;&#238;</Russian>
 		<English>Qohaito</English>
-		<French>Qohaito</French>
-		<German>Qohaito</German>
-		<Italian>Qohaito</Italian>
-		<Spanish>Qohaito</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MATARA</Tag>
+		<Russian>&#204;&#224;&#242;&#224;&#240;&#224;</Russian>
 		<English>Matara</English>
-		<French>Matara</French>
-		<German>Matara</German>
-		<Italian>Matara</Italian>
-		<Spanish>Matara</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAWULTI</Tag>
+		<Russian>&#213;&#224;&#243;&#235;&#242;&#232;</Russian>
 		<English>Hawulti</English>
-		<French>Hawulti</French>
-		<German>Hawulti</German>
-		<Italian>Hawulti</Italian>
-		<Spanish>Hawulti</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MASSAWA</Tag>
+		<Russian>&#204;&#224;&#241;&#241;&#224;&#226;&#224;</Russian>
 		<English>Massawa</English>
-		<French>Massawa</French>
-		<German>Massawa</German>
-		<Italian>Massawa</Italian>
-		<Spanish>Massawa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ADWA</Tag>
+		<Russian>&#192;&#228;&#243;&#224;</Russian>
 		<English>Adwa</English>
-		<French>Adoua</French>
-		<German>Adwa</German>
-		<Italian>Adwa</Italian>
-		<Spanish>Adua</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FASIL_GHEBBI</Tag>
+		<Russian>&#212;&#224;&#241;&#232;&#235;-&#195;&#229;&#225;&#225;&#232;</Russian>
 		<English>Fasil Ghebbi</English>
-		<French>Fasil Ghebbi</French>
-		<German>Fasil Ghebbi</German>
-		<Italian>Fasil Ghebbi</Italian>
-		<Spanish>Fasil Ghebbi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ZEILA</Tag>
+		<Russian>&#199;&#229;&#233;&#235;&#224;</Russian>
 		<English>Zeila</English>
-		<French>Zeila</French>
-		<German>Zeila</German>
-		<Italian>Zeila</Italian>
-		<Spanish>Zeila</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BERBERA</Tag>
+		<Russian>&#193;&#229;&#240;&#225;&#229;&#240;&#224;</Russian>
 		<English>Berbera</English>
-		<French>Berbera</French>
-		<German>Berbera</German>
-		<Italian>Berbera</Italian>
-		<Spanish>Berbera</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HARAR</Tag>
+		<Russian>&#213;&#224;&#240;&#224;&#240;</Russian>
 		<English>Harar</English>
-		<French>Harar</French>
-		<German>Harar</German>
-		<Italian>Harar</Italian>
-		<Spanish>Harar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KASKASE</Tag>
+		<Russian>&#202;&#224;&#241;&#234;&#224;&#231;</Russian>
 		<English>Kaskase</English>
-		<French>Kaskase</French>
-		<German>Kaskase</German>
-		<Italian>Kaskase</Italian>
-		<Spanish>Kaskase</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ADDI_GALAMO</Tag>
+		<Russian>&#192;&#228;&#228;&#232;-&#195;&#224;&#235;&#224;&#236;&#238;</Russian>
 		<English>Addi Galamo</English>
-		<French>Addi Galamo</French>
-		<German>Addi Galamo</German>
-		<Italian>Addi Galamo</Italian>
-		<Spanish>Addi Galamo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TOKONDA</Tag>
+		<Russian>&#210;&#238;&#234;&#238;&#237;&#228;&#224;</Russian>
 		<English>Tokonda</English>
-		<French>Tokonda</French>
-		<German>Tokonda</German>
-		<Italian>Tokonda</Italian>
-		<Spanish>Tokonda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUBAR</Tag>
+		<Russian>&#202;&#243;&#225;&#253;&#240;</Russian>
 		<English>Kubar</English>
-		<French>Kubar</French>
-		<German>Kubar</German>
-		<Italian>Kubar</Italian>
-		<Spanish>Kubar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TEGULAT</Tag>
+		<Russian>&#210;&#229;&#227;&#243;&#235;&#224;&#242;</Russian>
 		<English>Tegulat</English>
-		<French>Tegulat</French>
-		<German>Tegulat</German>
-		<Italian>Tegulat</Italian>
-		<Spanish>Tegulat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DEBRE_TABOR</Tag>
+		<Russian>&#196;&#229;&#225;&#240;&#224;-&#210;&#224;&#225;&#238;&#240;</Russian>
 		<English>Debre Tabor</English>
-		<French>Debré Tabor</French>
-		<German>Debre Tabor</German>
-		<Italian>Debre Tabor</Italian>
-		<Spanish>Debre Tabor</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MAGDALA</Tag>
+		<Russian>&#204;&#224;&#227;&#228;&#224;&#235;&#224;</Russian>
 		<English>Magdala</English>
-		<French>Magdala</French>
-		<German>Magdala</German>
-		<Italian>Magdala</Italian>
-		<Spanish>Magdala</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANKOBER</Tag>
+		<Russian>&#192;&#237;&#234;&#238;&#225;&#229;&#240;</Russian>
 		<English>Ankober</English>
-		<French>Ankober</French>
-		<German>Ankober</German>
-		<Italian>Ankober</Italian>
-		<Spanish>Ankober</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ASMARA</Tag>
+		<Russian>&#192;&#241;&#236;&#224;&#240;&#224;</Russian>
 		<English>Asmara</English>
-		<French>Asmara</French>
-		<German>Asmara</German>
-		<Italian>Asmara</Italian>
-		<Spanish>Asmara</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DIRE_DAWA</Tag>
+		<Russian>&#196;&#251;&#240;&#229;-&#196;&#224;&#243;&#224;</Russian>
 		<English>Dire Dawa</English>
-		<French>Dire Dawa</French>
-		<German>Dire Dawa</German>
-		<Italian>Dire Dawa</Italian>
-		<Spanish>Dire Daua</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ADAMA</Tag>
+		<Russian>&#192;&#228;&#224;&#236;&#224;</Russian>
 		<English>Adama</English>
-		<French>Adama</French>
-		<German>Adama</German>
-		<Italian>Adama</Italian>
-		<Spanish>Adama</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JIMMA</Tag>
+		<Russian>&#196;&#230;&#232;&#236;&#236;&#224;</Russian>
 		<English>Jimma</English>
-		<French>Jimma</French>
-		<German>Jimma</German>
-		<Italian>Jimma</Italian>
-		<Spanish>Jimma</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MEKELE</Tag>
+		<Russian>&#204;&#229;&#234;&#229;&#235;&#229;</Russian>
 		<English>Mekele</English>
-		<French>Mekele</French>
-		<German>Mek'ele</German>
-		<Italian>Mekele</Italian>
-		<Spanish>Mekele</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TIYA</Tag>
+		<Russian>&#210;&#232;&#233;&#224;</Russian>
 		<English>Tiya</English>
-		<French>Tiya</French>
-		<German>Tiya</German>
-		<Italian>Tiya</Italian>
-		<Spanish>Tiya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DEIRA</Tag>
+		<Russian>&#196;&#229;&#233;&#240;&#224;</Russian>
 		<English>Deira</English>
-		<French>Deira</French>
-		<German>Deira</German>
-		<Italian>Deira</Italian>
-		<Spanish>Deira</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GABAZA</Tag>
+		<Russian>&#195;&#224;&#225;&#224;&#231;&#224;</Russian>
 		<English>Gabaza</English>
-		<French>Gabaza</French>
-		<German>Gabaza</German>
-		<Italian>Gabaza</Italian>
-		<Spanish>Gabaza</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DAHLAK_KEBIR</Tag>
+		<Russian>&#196;&#224;&#245;&#235;&#224;&#234;-&#202;&#229;&#225;&#232;&#240;</Russian>
 		<English>Dahlak Kebir</English>
-		<French>Dahlak Kebir</French>
-		<German>Dahlak Kebir</German>
-		<Italian>Dahlak Kebir</Italian>
-		<Spanish>Dahlak Kebir</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MELAZO</Tag>
+		<Russian>&#204;&#229;&#235;&#224;&#231;&#238;</Russian>
 		<English>Melazo</English>
-		<French>Melazo</French>
-		<German>Melazo</German>
-		<Italian>Melazo</Italian>
-		<Spanish>Melazo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FIKYA</Tag>
+		<Russian>&#212;&#232;&#234;&#232;&#255;</Russian>
 		<English>Fikya</English>
-		<French>Fikya</French>
-		<German>Fikya</German>
-		<Italian>Fikya</Italian>
-		<Spanish>Fikya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SABEA</Tag>
+		<Russian>&#209;&#224;&#225;&#232;&#255;</Russian>
 		<English>Sabea</English>
-		<French>Sabea</French>
-		<German>Sabea</German>
-		<Italian>Sabea</Italian>
-		<Spanish>Sabea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAWILA_ASSARAW</Tag>
+		<Russian>&#213;&#224;&#226;&#232;&#235;&#224;-&#192;&#241;&#241;&#224;&#240;&#224;&#244;</Russian>
 		<English>Hawila Assaraw</English>
-		<French>Hawila Assaraw</French>
-		<German>Hawila Assaraw</German>
-		<Italian>Hawila Assaraw</Italian>
-		<Spanish>Hawila Assaraw</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WEQRO</Tag>
+		<Russian>&#194;&#243;&#234;&#240;&#238;</Russian>
 		<English>Weqro</English>
-		<French>Weqro</French>
-		<German>Weqro</German>
-		<Italian>Weqro</Italian>
-		<Spanish>Weqro</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_YASODHARAPURA</Tag>
+		<Russian>&#223;&#241;&#238;&#228;&#245;&#224;&#240;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Yasodharapura</English>
-		<French>Yasodharapura</French>
-		<German>Yasodharapura</German>
-		<Italian>Yasodharapura</Italian>
-		<Spanish>Yasodharapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HARIHARALAYA</Tag>
+		<Russian>&#213;&#224;&#240;&#232;&#245;&#224;&#240;&#224;&#235;&#224;&#255;</Russian>
 		<English>Hariharalaya</English>
-		<French>Hariharalaya</French>
-		<German>Hariharalaya</German>
-		<Italian>Hariharalaya</Italian>
-		<Spanish>Hariharalaya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANGKOR_THOM</Tag>
+		<Russian>&#192;&#237;&#227;&#234;&#238;&#240;-&#210;&#238;&#236;</Russian>
 		<English>Angkor Thom</English>
-		<French>Angkor Thom</French>
-		<German>Angkor Thom</German>
-		<Italian>Angkor Thom</Italian>
-		<Spanish>Angkor Thom</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANGKOR_WAT</Tag>
+		<Russian>&#192;&#237;&#227;&#234;&#238;&#240;-&#194;&#224;&#242;</Russian>
 		<English>Angkor Wat</English>
-		<French>Angkor Vat</French>
-		<German>Angkor Wat</German>
-		<Italian>Angkor Wat</Italian>
-		<Spanish>Angkor Wat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAGARA_JAYASRI</Tag>
+		<Russian>&#205;&#224;&#227;&#224;&#240;&#224;-&#196;&#230;&#224;&#233;&#224;&#248;&#240;&#232;</Russian>
 		<English>Nagara Jayasri</English>
-		<French>Nagara Jayasri</French>
-		<German>Nagara Jayasri</German>
-		<Italian>Nagara Jayasri</Italian>
-		<Spanish>Nagara Jayasri</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RAJAVIHARA</Tag>
+		<Russian>&#208;&#224;&#228;&#230;&#224;&#226;&#232;&#245;&#224;&#240;&#224;</Russian>
 		<English>Rajavihara</English>
-		<French>Rajavihara</French>
-		<German>Rajavihara</German>
-		<Italian>Rajavihara</Italian>
-		<Spanish>Rajavihara</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ISVARAPURA</Tag>
+		<Russian>&#200;&#241;&#226;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Isvarapura</English>
-		<French>Isvarapura</French>
-		<German>Isvarapura</German>
-		<Italian>Isvarapura</Italian>
-		<Spanish>Isvarapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BANTEAY_KDEI</Tag>
+		<Russian>&#193;&#224;&#237;&#242;&#229;&#233;-&#202;&#228;&#229;&#233;</Russian>
 		<English>Banteay Kdei</English>
-		<French>Banteay Kdei</French>
-		<German>Banteay Kdei</German>
-		<Italian>Banteay Kdei</Italian>
-		<Spanish>Banteay Kdei</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JAYENDRANAGARI</Tag>
+		<Russian>&#196;&#230;&#224;&#233;&#229;&#237;&#228;&#240;&#224;&#237;&#224;&#227;&#224;&#240;&#232;</Russian>
 		<English>Jayendranagari</English>
-		<French>Jayendranagari</French>
-		<German>Jayendranagari</German>
-		<Italian>Jayendranagari</Italian>
-		<Spanish>Jayendranagari</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PRE_RUP</Tag>
+		<Russian>&#207;&#240;&#229;-&#208;&#243;&#239;</Russian>
 		<English>Pre Rup</English>
-		<French>Pre Rup</French>
-		<German>Pre Rup</German>
-		<Italian>Pre Rup</Italian>
-		<Spanish>Pre Rup</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VIMAYAPURA</Tag>
+		<Russian>&#194;&#232;&#236;&#224;&#233;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Vimayapura</English>
-		<French>Vimayapura</French>
-		<German>Vimayapura</German>
-		<Italian>Vimayapura</Italian>
-		<Spanish>Vimayapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LINGAPURA</Tag>
+		<Russian>&#203;&#232;&#237;&#227;&#224;&#239;&#243;&#240;</Russian>
 		<English>Lingapura</English>
-		<French>Lingapura</French>
-		<German>Lingapura</German>
-		<Italian>Lingapura</Italian>
-		<Spanish>Lingapur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KRONG_CHAKTOMUK</Tag>
+		<Russian>&#202;&#240;&#238;&#237;&#227;-&#215;&#224;&#234;&#242;&#238;&#236;&#243;&#234;</Russian>
 		<English>Krong Chaktomuk</English>
-		<French>Krong Chaktomuk</French>
-		<German>Krong Chaktomuk</German>
-		<Italian>Krong Chaktomuk</Italian>
-		<Spanish>Krong Chaktomuk</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHOK_GARGYAR</Tag>
+		<Russian>&#215;&#230;&#238;&#234;-&#195;&#224;&#240;&#227;&#252;&#255;&#240;</Russian>
 		<English>Chok Gargyar</English>
-		<French>Chok Gargyar</French>
-		<German>Chok Gargyar</German>
-		<Italian>Chok Gargyar</Italian>
-		<Spanish>Chok Gargyar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MAHENDRAPARVATA</Tag>
+		<Russian>&#204;&#224;&#245;&#229;&#237;&#228;&#240;&#224;&#239;&#224;&#240;&#226;&#224;&#242;&#224;</Russian>
 		<English>Mahendraparvata</English>
-		<French>Mahendraparvata</French>
-		<German>Mahendraparvata</German>
-		<Italian>Mahendraparvata</Italian>
-		<Spanish>Mahendraparvata</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AMARENDRAPURA</Tag>
+		<Russian>&#192;&#236;&#224;&#240;&#229;&#237;&#228;&#240;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Amarendrapura</English>
-		<French>Amarendrapura</French>
-		<German>Amarendrapura</German>
-		<Italian>Amarendrapura</Italian>
-		<Spanish>Amarendrapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_INDRAPURA</Tag>
+		<Russian>&#200;&#237;&#228;&#240;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Indrapura</English>
-		<French>Indrapura</French>
-		<German>Indrapura</German>
-		<Italian>Indrapura</Italian>
-		<Spanish>Indrapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAVO</Tag>
+		<Russian>&#203;&#224;&#226;&#238;</Russian>
 		<English>Lavo</English>
-		<French>Lavo</French>
-		<German>Lavo</German>
-		<Italian>Lavo</Italian>
-		<Spanish>Lavo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PREAH_VIHEAR</Tag>
+		<Russian>&#207;&#240;&#229;&#224;&#245;&#194;&#232;&#245;&#229;&#224;&#240;</Russian>
 		<English>Preah Vihear</English>
-		<French>Preah Vihear</French>
-		<German>Preah Vihear</German>
-		<Italian>Preah Vihear</Italian>
-		<Spanish>Preah Vihear</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PHANOM_RUNG</Tag>
+		<Russian>&#207;&#245;&#224;&#237;&#238;&#236;-&#208;&#243;&#237;&#227;</Russian>
 		<English>Phanom Rung</English>
-		<French>Phanom Rung</French>
-		<German>Phanom Rung</German>
-		<Italian>Phanom Rung</Italian>
-		<Spanish>Phanom Rung</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PHIMAI</Tag>
+		<Russian>&#207;&#245;&#232;&#236;&#224;&#233;</Russian>
 		<English>Phimai</English>
-		<French>Phimai</French>
-		<German>Phimai</German>
-		<Italian>Phimai</Italian>
-		<Spanish>Phimai</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MUANG_TAM</Tag>
+		<Russian>&#204;&#243;&#224;&#237;&#227;-&#210;&#224;&#236;</Russian>
 		<English>Muang Tam</English>
-		<French>Muang Tam</French>
-		<German>Muang Tam</German>
-		<Italian>Muang Tam</Italian>
-		<Spanish>Muang Tam</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BENG_MELEA</Tag>
+		<Russian>&#193;&#229;&#237;&#227;-&#204;&#229;&#235;&#229;&#224;</Russian>
 		<English>Beng Melea</English>
-		<French>Beng Melea</French>
-		<German>Beng Melea</German>
-		<Italian>Beng Melea</Italian>
-		<Spanish>Beng Melea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PRASAT_BAKAN</Tag>
+		<Russian>&#207;&#240;&#224;&#241;&#224;&#242;-&#193;&#224;&#234;&#224;&#237;</Russian>
 		<English>Prasat Bakan</English>
-		<French>Prasat Bakan</French>
-		<German>Prasat Bakan</German>
-		<Italian>Prasat Bakan</Italian>
-		<Spanish>Prasat Bakan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SINGHAPURA</Tag>
+		<Russian>&#209;&#232;&#237;&#227;&#245;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Singhapura</English>
-		<French>Singhapura</French>
-		<German>Singhapura</German>
-		<Italian>Singhapura</Italian>
-		<Spanish>Singhapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHALIENG</Tag>
+		<Russian>&#215;&#224;&#235;&#232;&#229;&#237;&#227;</Russian>
 		<English>Chalieng</English>
-		<French>Chalieng</French>
-		<German>Chalieng</German>
-		<Italian>Chalieng</Italian>
-		<Spanish>Chalieng</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SUKHOTHAI</Tag>
+		<Russian>&#209;&#243;&#234;&#245;&#238;&#242;&#224;&#233;</Russian>
 		<English>Sukhothai</English>
-		<French>Sukhothai</French>
-		<German>Sukhothai</German>
-		<Italian>Sukhothai</Italian>
-		<Spanish>Sukhothai</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VIANGCHAN</Tag>
+		<Russian>&#194;&#232;&#224;&#237;&#227;&#247;&#224;&#237;</Russian>
 		<English>Viangchan</English>
-		<French>Viangchan</French>
-		<German>Viangchan</German>
-		<Italian>Viangchan</Italian>
-		<Spanish>Viangchan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BATTAMBANG</Tag>
+		<Russian>&#193;&#224;&#242;&#242;&#224;&#236;&#225;&#224;&#237;&#227;</Russian>
 		<English>Battambang</English>
-		<French>Battambang</French>
-		<German>Battambang</German>
-		<Italian>Battambang</Italian>
-		<Spanish>Battambang</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SURYAPARVATA</Tag>
+		<Russian>&#209;&#243;&#240;&#233;&#224;&#239;a&#240;&#226;&#224;&#242;&#224;</Russian>
 		<English>Suryaparvata</English>
-		<French>Suryaparvata</French>
-		<German>Suryaparvata</German>
-		<Italian>Suryaparvata</Italian>
-		<Spanish>Suryaparvata</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PREY_NOKOR</Tag>
+		<Russian>&#207;&#240;&#229;&#233;-&#205;&#238;&#234;&#238;&#240;</Russian>
 		<English>Prey Nokor</English>
-		<French>Prey Nokor</French>
-		<German>Prey Nokor</German>
-		<Italian>Prey Nokor</Italian>
-		<Spanish>Prey Nokor</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_O_KEO</Tag>
+		<Russian>&#206;-&#202;&#229;&#238;</Russian>
 		<English>O Keo</English>
-		<French>O Keo</French>
-		<German>O Keo</German>
-		<Italian>O Keo</Italian>
-		<Spanish>O Keo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANINDITAPURA</Tag>
+		<Russian>&#192;&#237;&#232;&#237;&#228;&#232;&#242;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Aninditapura</English>
-		<French>Aninditapura</French>
-		<German>Aninditapura</German>
-		<Italian>Aninditapura</Italian>
-		<Spanish>Aninditapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ISANAPURA</Tag>
+		<Russian>&#200;&#241;&#224;&#237;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Isanapura</English>
-		<French>Isanapura</French>
-		<German>Isanapura</German>
-		<Italian>Isanapura</Italian>
-		<Spanish>Isanapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SHRESTAPURA</Tag>
+		<Russian>&#216;&#240;&#229;&#241;&#242;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Shrestapura</English>
-		<French>Shrestapura</French>
-		<German>Shrestapura</German>
-		<Italian>Shrestapura</Italian>
-		<Spanish>Shrestapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANGKOR_BOREI</Tag>
+		<Russian>&#192;&#237;&#227;&#234;&#238;&#240;-&#193;&#238;&#240;&#229;&#233;</Russian>
 		<English>Angkor Borei</English>
-		<French>Angkor Borei</French>
-		<German>Angkor Borei</German>
-		<Italian>Angkor Borei</Italian>
-		<Spanish>Angkor Borei</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VYADHAPURA</Tag>
+		<Russian>&#194;&#252;&#255;&#228;&#245;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Vyadhapura</English>
-		<French>Vyadhapura</French>
-		<German>Vyadhapura</German>
-		<Italian>Vyadhapura</Italian>
-		<Spanish>Vyadhapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BHAVAPURA</Tag>
+		<Russian>&#193;&#245;&#224;&#226;&#224;&#239;&#243;&#240;&#224;</Russian>
 		<English>Bhavapura</English>
-		<French>Bhavapura</French>
-		<German>Bhavapura</German>
-		<Italian>Bhavapura</Italian>
-		<Spanish>Bhavapura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SAMBHUPURA</Tag>
+		<Russian>&#209;&#224;&#236;&#225;&#245;&#243;&#239;&#243;&#240;&#224;</Russian>
 		<English>Sambhupura</English>
-		<French>Sambhupura</French>
-		<German>Sambhupura</German>
-		<Italian>Sambhupura</Italian>
-		<Spanish>Sambhupura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LOVEK</Tag>
+		<Russian>&#203;&#238;&#226;&#229;&#234;</Russian>
 		<English>Lovek</English>
-		<French>Lovek</French>
-		<German>Lovek</German>
-		<Italian>Lovek</Italian>
-		<Spanish>Lovek</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UDONG</Tag>
+		<Russian>&#211;&#228;&#238;&#237;&#227;</Russian>
 		<English>Udong</English>
-		<French>Udong</French>
-		<German>Udong</German>
-		<Italian>Udong</Italian>
-		<Spanish>Udong</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_URUK</Tag>
+		<Russian>&#211;&#240;&#243;&#234;</Russian>
 		<English>Uruk</English>
-		<French>Uruk</French>
-		<German>Uruk</German>
-		<Italian>Uruk</Italian>
-		<Spanish>Uruk</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ERIDU</Tag>
+		<Russian>&#221;&#240;&#232;&#228;&#243;</Russian>
 		<English>Eridu</English>
-		<French>Eridu</French>
-		<German>Eridu</German>
-		<Italian>Eridu</Italian>
-		<Spanish>Eridú</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KISH</Tag>
+		<Russian>&#202;&#232;&#248;</Russian>
 		<English>Kish</English>
-		<French>Kish</French>
-		<German>Kish</German>
-		<Italian>Kish</Italian>
-		<Spanish>Kish</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAGASH</Tag>
+		<Russian>&#203;&#224;&#227;&#224;&#248;</Russian>
 		<English>Lagash</English>
-		<French>Lagash</French>
-		<German>Lagash</German>
-		<Italian>Lagash</Italian>
-		<Spanish>Lagash</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UR</Tag>
+		<Russian>&#211;&#240;</Russian>
 		<English>Ur</English>
-		<French>Ur</French>
-		<German>Ur</German>
-		<Italian>Ur</Italian>
-		<Spanish>Ur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NIBRU</Tag>
+		<Russian>&#205;&#232;&#225;&#240;&#243;</Russian>
 		<English>Nibru</English>
-		<French>Nibru</French>
-		<German>Nibru</German>
-		<Italian>Nibru</Italian>
-		<Spanish>Nibru</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BAD_TIBIRA</Tag>
+		<Russian>&#193;&#224;&#228;-&#210;&#232;&#225;&#232;&#240;&#224;</Russian>
 		<English>Bad-Tibira</English>
-		<French>Bad-Tibira</French>
-		<German>Bad-Tibira</German>
-		<Italian>Bad-Tibira</Italian>
-		<Spanish>Bad-Tibira</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ZIMBIR</Tag>
+		<Russian>&#199;&#232;&#236;&#225;&#232;&#240;</Russian>
 		<English>Zimbir</English>
-		<French>Zimbir</French>
-		<German>Zimbir</German>
-		<Italian>Zimbir</Italian>
-		<Spanish>Zimbir</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SHURUPPAK</Tag>
+		<Russian>&#216;&#243;&#240;&#243;&#239;&#239;&#224;&#234;</Russian>
 		<English>Shuruppak</English>
-		<French>Shuruppak</French>
-		<German>Shuruppak</German>
-		<Italian>Shuruppak</Italian>
-		<Spanish>Shuruppak</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UMMA</Tag>
+		<Russian>&#211;&#236;&#236;&#224;</Russian>
 		<English>Umma</English>
-		<French>Umma</French>
-		<German>Umma</German>
-		<Italian>Umma</Italian>
-		<Spanish>Umma</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LARSA</Tag>
+		<Russian>&#203;&#224;&#240;&#241;&#224;</Russian>
 		<English>Larsa</English>
-		<French>Larsa</French>
-		<German>Larsa</German>
-		<Italian>Larsa</Italian>
-		<Spanish>Larsa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ISIN</Tag>
+		<Russian>&#200;&#241;&#232;&#237;</Russian>
 		<English>Isin</English>
-		<French>Isin</French>
-		<German>Isin</German>
-		<Italian>Isin</Italian>
-		<Spanish>Isin</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GIRSU</Tag>
+		<Russian>&#195;&#232;&#240;&#241;&#243;</Russian>
 		<English>Girsu</English>
-		<French>Girsu</French>
-		<German>Girsu</German>
-		<Italian>Girsu</Italian>
-		<Spanish>Girsu</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ADAB</Tag>
+		<Russian>&#192;&#228;&#224;&#225;</Russian>
 		<English>Adab</English>
-		<French>Adab</French>
-		<German>Adab</German>
-		<Italian>Adab</Italian>
-		<Spanish>Adab</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ZABALAM</Tag>
+		<Russian>&#199;&#224;&#225;&#224;&#235;&#224;&#236;</Russian>
 		<English>Zabalam</English>
-		<French>Zabalam</French>
-		<German>Zabalam</German>
-		<Italian>Zabalam</Italian>
-		<Spanish>Zabalam</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AKSHAK</Tag>
+		<Russian>&#192;&#234;&#248;&#224;&#234;</Russian>
 		<English>Akshak</English>
-		<French>Akshak</French>
-		<German>Akshak</German>
-		<Italian>Akshak</Italian>
-		<Spanish>Akshak</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LARAK</Tag>
+		<Russian>&#203;&#224;&#240;&#224;&#234;</Russian>
 		<English>Larak</English>
-		<French>Larak</French>
-		<German>Larak</German>
-		<Italian>Larak</Italian>
-		<Spanish>Larak</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KISIGA</Tag>
+		<Russian>&#202;&#232;&#231;&#232;&#227;&#224;</Russian>
 		<English>Kisiga</English>
-		<French>Kisiga</French>
-		<German>Kisiga</German>
-		<Italian>Kisiga</Italian>
-		<Spanish>Kisiga</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NINA</Tag>
+		<Russian>&#205;&#232;&#237;&#224;</Russian>
 		<English>Nina</English>
-		<French>Nina</French>
-		<German>Nina</German>
-		<Italian>Nina</Italian>
-		<Spanish>Nina</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DILBAT</Tag>
+		<Russian>&#196;&#232;&#235;&#225;&#224;&#242;</Russian>
 		<English>Dilbat</English>
-		<French>Dilbat</French>
-		<German>Dilbat</German>
-		<Italian>Dilbat</Italian>
-		<Spanish>Dilbat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUTU</Tag>
+		<Russian>&#202;&#243;&#242;&#243;</Russian>
 		<English>Kutu</English>
-		<French>Kutu</French>
-		<German>Kutu</German>
-		<Italian>Kutu</Italian>
-		<Spanish>Kutu</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MARAD</Tag>
+		<Russian>&#204;&#224;&#240;&#224;&#228;</Russian>
 		<English>Marad</English>
-		<French>Marad</French>
-		<German>Marad</German>
-		<Italian>Marad</Italian>
-		<Spanish>Marad</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ENEGI</Tag>
+		<Russian>&#221;&#237;&#229;&#227;&#232;</Russian>
 		<English>Enegi</English>
-		<French>Enegi</French>
-		<German>Enegi</German>
-		<Italian>Enegi</Italian>
-		<Spanish>Enegi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ABU_SALABIKH</Tag>
+		<Russian>&#192;&#225;&#243;-&#209;&#224;&#235;&#224;&#225;&#232;&#245;</Russian>
 		<English>Abu Salabikh</English>
-		<French>Abu Salabikh</French>
-		<German>Abu Salabikh</German>
-		<Italian>Abu Salabikh</Italian>
-		<Spanish>Abu Salabikh</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KI_AN</Tag>
+		<Russian>&#202;&#232;-&#192;&#237;</Russian>
 		<English>Ki-an</English>
-		<French>Ki-an</French>
-		<German>Ki-an</German>
-		<Italian>Ki-an</Italian>
-		<Spanish>Ki-an</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PAZURISH_DAGAN</Tag>
+		<Russian>&#207;&#224;&#231;&#243;&#240;&#232;&#248;-&#196;&#224;&#227;&#224;&#237;</Russian>
 		<English>Pazurish-Dagan</English>
-		<French>Pazurish-Dagan</French>
-		<German>Pazurish-Dagan</German>
-		<Italian>Pazurish-Dagan</Italian>
-		<Spanish>Pazurish-Dagan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DABRUM</Tag>
+		<Russian>&#196;&#224;&#225;&#240;&#243;&#236;</Russian>
 		<English>Dabrum</English>
-		<French>Dabrum</French>
-		<German>Dabrum</German>
-		<Italian>Dabrum</Italian>
-		<Spanish>Dabrum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KISSURA</Tag>
+		<Russian>&#202;&#232;&#241;&#241;&#243;&#240;&#224;</Russian>
 		<English>Kissura</English>
-		<French>Kissura</French>
-		<German>Kissura</German>
-		<Italian>Kissura</Italian>
-		<Spanish>Kissura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUTALLU</Tag>
+		<Russian>&#202;&#243;&#242;&#224;&#235;&#235;&#243;</Russian>
 		<English>Kutallu</English>
-		<French>Kutallu</French>
-		<German>Kutallu</German>
-		<Italian>Kutallu</Italian>
-		<Spanish>Kutallu</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAGSU</Tag>
+		<Russian>&#205;&#224;&#227;&#241;&#243;</Russian>
 		<English>Nagsu</English>
-		<French>Nagsu</French>
-		<German>Nagsu</German>
-		<Italian>Nagsu</Italian>
-		<Spanish>Nagsu</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KESH</Tag>
+		<Russian>&#202;&#229;&#248;</Russian>
 		<English>Kesh</English>
-		<French>Kesh</French>
-		<German>Kesh</German>
-		<Italian>Kesh</Italian>
-		<Spanish>Kesh</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ARATTA</Tag>
+		<Russian>&#192;&#240;&#224;&#242;&#242;&#224;</Russian>
 		<English>Aratta</English>
-		<French>Aratta</French>
-		<German>Aratta</German>
-		<Italian>Aratta</Italian>
-		<Spanish>Aratta</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DER</Tag>
+		<Russian>&#196;&#229;&#240;</Russian>
 		<English>Der</English>
-		<French>Der</French>
-		<German>Der</German>
-		<Italian>Der</Italian>
-		<Spanish>Der</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAMAZI</Tag>
+		<Russian>&#213;&#224;&#236;&#224;&#231;&#232;</Russian>
 		<English>Hamazi</English>
-		<French>Hamazi</French>
-		<German>Hamazi</German>
-		<Italian>Hamazi</Italian>
-		<Spanish>Hamazi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_APISADA</Tag>
+		<Russian>&#192;&#239;&#232;&#241;&#224;&#228;&#224;</Russian>
 		<English>Apisada</English>
-		<French>Apisada</French>
-		<German>Apisada</German>
-		<Italian>Apisada</Italian>
-		<Spanish>Apisada</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JEMDET_NASR</Tag>
+		<Russian>&#196;&#230;&#229;&#236;&#228;&#229;&#242;-&#205;&#224;&#241;&#240;</Russian>
 		<English>Jemdet Nasr</English>
-		<French>Jemdet Nasr</French>
-		<German>Jemdet Nasr</German>
-		<Italian>Jemdet Nasr</Italian>
-		<Spanish>Jemdet Nasr</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UBAID</Tag>
+		<Russian>&#211;&#225;&#224;&#233;&#228;</Russian>
 		<English>Ubaid</English>
-		<French>Ubaid</French>
-		<German>Ubaid</German>
-		<Italian>Ubaid</Italian>
-		<Spanish>Ubaid</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BABYLON</Tag>
+		<Russian>&#194;&#224;&#226;&#232;&#235;&#238;&#237;</Russian>
 		<English>Babylon</English>
-		<French>Babylone</French>
-		<German>Babylon</German>
-		<Italian>Babilonia</Italian>
-		<Spanish>Babilonia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AKKAD</Tag>
+		<Russian>&#192;&#234;&#234;&#224;&#228;</Russian>
 		<English>Akkad</English>
-		<French>Akkad</French>
-		<German>Akkad</German>
-		<Italian>Akkad</Italian>
-		<Spanish>Acad</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DUR_KURIGALZU</Tag>
+		<Russian>&#196;&#243;&#240;-&#202;&#243;&#240;&#232;&#227;&#224;&#235;&#231;&#243;</Russian>
 		<English>Dur-Kurigalzu</English>
-		<French>Dur-Kurigalzu</French>
-		<German>Dur-Kurigalzu</German>
-		<Italian>Dur-Kurigalzu</Italian>
-		<Spanish>Dur-Kurigalzu</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NIPPUR</Tag>
+		<Russian>&#205;&#232;&#239;&#239;&#243;&#240;</Russian>
 		<English>Nippur</English>
-		<French>Nippur</French>
-		<German>Nippur</German>
-		<Italian>Nippur</Italian>
-		<Spanish>Nippur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BORSIPPA</Tag>
+		<Russian>&#193;&#238;&#240;&#241;&#232;&#239;&#239;&#224;</Russian>
 		<English>Borsippa</English>
-		<French>Borsippa</French>
-		<German>Borsippa</German>
-		<Italian>Borsippa</Italian>
-		<Spanish>Borsippa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SIPPAR</Tag>
+		<Russian>&#209;&#232;&#239;&#239;&#224;&#240;</Russian>
 		<English>Sippar</English>
-		<French>Sippar</French>
-		<German>Sippar</German>
-		<Italian>Sippar</Italian>
-		<Spanish>Sippar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OPIS</Tag>
+		<Russian>&#206;&#239;&#232;&#241;</Russian>
 		<English>Opis</English>
-		<French>Opis</French>
-		<German>Opis</German>
-		<Italian>Opis</Italian>
-		<Spanish>Opis</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MARI</Tag>
+		<Russian>&#204;&#224;&#240;&#232;</Russian>
 		<English>Mari</English>
-		<French>Mari</French>
-		<German>Mari</German>
-		<Italian>Mari</Italian>
-		<Spanish>Mari</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SHUSHAN</Tag>
+		<Russian>&#216;&#243;&#248;&#224;&#237;</Russian>
 		<English>Shushan</English>
-		<French>Shushan</French>
-		<German>Shushan</German>
-		<Italian>Shushan</Italian>
-		<Spanish>Susa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ESHNUNNA</Tag>
+		<Russian>&#221;&#248;&#237;&#243;&#237;&#237;&#224;</Russian>
 		<English>Eshnunna</English>
-		<French>Eshnunna</French>
-		<German>Eshnunna</German>
-		<Italian>Eshnunna</Italian>
-		<Spanish>Eshnunna</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ELLASAR</Tag>
+		<Russian>&#221;&#235;&#235;&#224;&#231;&#224;&#240;</Russian>
 		<English>Ellasar</English>
-		<French>Ellasar</French>
-		<German>Ellasar</German>
-		<Italian>Ellasar</Italian>
-		<Spanish>Ellasar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ERECH</Tag>
+		<Russian>&#221;&#240;&#229;&#245;</Russian>
 		<English>Erech</English>
-		<French>Erech</French>
-		<German>Erech</German>
-		<Italian>Erech</Italian>
-		<Spanish>Erech</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUTHA</Tag>
+		<Russian>&#202;&#243;&#244;&#224;</Russian>
 		<English>Kutha</English>
-		<French>Kutha</French>
-		<German>Kutha</German>
-		<Italian>Kutha</Italian>
-		<Spanish>Kutha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SIRPURLA</Tag>
+		<Russian>&#209;&#232;&#240;&#239;&#243;&#240;&#235;&#224;</Russian>
 		<English>Sirpurla</English>
-		<French>Sirpurla</French>
-		<German>Sirpurla</German>
-		<Italian>Sirpurla</Italian>
-		<Spanish>Sirpurla</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NERIBTUM</Tag>
+		<Russian>&#205;&#229;&#240;&#232;&#225;&#242;&#243;&#236;</Russian>
 		<English>Neribtum</English>
-		<French>Neribtum</French>
-		<German>Neribtum</German>
-		<Italian>Neribtum</Italian>
-		<Spanish>Neribtum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ASHUR</Tag>
+		<Russian>&#192;&#248;&#243;&#240;</Russian>
 		<English>Ashur</English>
-		<French>Ashur</French>
-		<German>Assur</German>
-		<Italian>Ashur</Italian>
-		<Spanish>Assur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NINEVEH</Tag>
+		<Russian>&#205;&#232;&#237;&#229;&#226;&#229;&#245;</Russian>
 		<English>Nineveh</English>
-		<French>Nineveh</French>
-		<German>Nineveh</German>
-		<Italian>Ninive</Italian>
-		<Spanish>Nínive</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NIMRUD</Tag>
+		<Russian>&#205;&#232;&#236;&#240;&#243;&#228;</Russian>
 		<English>Nimrud</English>
-		<French>Nimrud</French>
-		<German>Nimrud</German>
-		<Italian>Nimrud</Italian>
-		<Spanish>Nimrud</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NUZI</Tag>
+		<Russian>&#205;&#243;&#231;&#232;</Russian>
 		<English>Nuzi</English>
-		<French>Nuzi</French>
-		<German>Nuzi</German>
-		<Italian>Nuzi</Italian>
-		<Spanish>Nuzi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TUTUB</Tag>
+		<Russian>&#210;&#243;&#242;&#243;&#225;</Russian>
 		<English>Tutub</English>
-		<French>Tutub</French>
-		<German>Tutub</German>
-		<Italian>Tutub</Italian>
-		<Spanish>Tutub</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ARRAPKHA</Tag>
+		<Russian>&#192;&#240;&#240;&#224;&#239;&#245;&#224;</Russian>
 		<English>Arrapkha</English>
-		<French>Arrapkha</French>
-		<German>Arrapkha</German>
-		<Italian>Arrapkha</Italian>
-		<Spanish>Arrapkha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SHADUPPUM</Tag>
+		<Russian>&#216;&#224;&#228;&#243;&#239;&#239;&#243;&#236;</Russian>
 		<English>Shaduppum</English>
-		<French>Shaduppum</French>
-		<German>Shaduppum</German>
-		<Italian>Shaduppum</Italian>
-		<Spanish>Shaduppum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RAPIQUM</Tag>
+		<Russian>&#208;&#224;&#239;&#232;&#234;&#243;&#236;</Russian>
 		<English>Rapiqum</English>
-		<French>Rapiqum</French>
-		<German>Rapiqum</German>
-		<Italian>Rapiqum</Italian>
-		<Spanish>Rapiqum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MASHKAN_SHAPIR</Tag>
+		<Russian>&#204;&#224;&#248;&#234;&#224;&#237;-&#216;&#224;&#239;&#232;&#240;</Russian>
 		<English>Mashkan-Shapir</English>
-		<French>Mashkan-Shapir</French>
-		<German>Mashkan-Shapir</German>
-		<Italian>Mashkan-Shapir</Italian>
-		<Spanish>Mashkan-Shapir</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TUTTUL</Tag>
+		<Russian>&#210;&#243;&#242;&#242;&#243;&#235;</Russian>
 		<English>Tuttul</English>
-		<French>Tuttul</French>
-		<German>Tuttul</German>
-		<Italian>Tuttul</Italian>
-		<Spanish>Tuttul</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RAMADI</Tag>
+		<Russian>&#208;&#224;&#236;&#224;&#228;&#232;</Russian>
 		<English>Ramadi</English>
-		<French>Ramadi</French>
-		<German>Ramadi</German>
-		<Italian>Ramadi</Italian>
-		<Spanish>Ramadi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANA</Tag>
+		<Russian>&#192;&#237;&#224;</Russian>
 		<English>Ana</English>
-		<French>Ana</French>
-		<German>Ana</German>
-		<Italian>Ana</Italian>
-		<Spanish>Ana</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HARADUM</Tag>
+		<Russian>&#213;&#224;&#240;&#224;&#228;&#243;&#236;</Russian>
 		<English>Haradum</English>
-		<French>Haradum</French>
-		<German>Haradum</German>
-		<Italian>Haradum</Italian>
-		<Spanish>Haradum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AGRAB</Tag>
+		<Russian>&#192;&#227;&#240;&#224;&#225;</Russian>
 		<English>Agrab</English>
-		<French>Agrab</French>
-		<German>Agrab</German>
-		<Italian>Agrab</Italian>
-		<Spanish>Agrab</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UQAIR</Tag>
+		<Russian>&#211;&#234;&#224;&#232;&#240;</Russian>
 		<English>Uqair</English>
-		<French>Uqair</French>
-		<German>Uqair</German>
-		<Italian>Uqair</Italian>
-		<Spanish>Uqair</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GUBBA</Tag>
+		<Russian>&#195;&#243;&#225;&#225;&#224;</Russian>
 		<English>Gubba</English>
-		<French>Gubba</French>
-		<German>Gubba</German>
-		<Italian>Gubba</Italian>
-		<Spanish>Gubba</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAFRIYAT</Tag>
+		<Russian>&#213;&#224;&#244;&#240;&#232;&#255;&#242;</Russian>
 		<English>Hafriyat</English>
-		<French>Hafriyat</French>
-		<German>Hafriyat</German>
-		<Italian>Hafriyat</Italian>
-		<Spanish>Hafriyat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAGAR</Tag>
+		<Russian>&#205;&#224;&#227;&#224;&#240;</Russian>
 		<English>Nagar</English>
-		<French>Nagar</French>
-		<German>Nagar</German>
-		<Italian>Nagar</Italian>
-		<Spanish>Nagar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SHUBAT_ENLIL</Tag>
+		<Russian>&#216;&#243;&#225;&#224;&#242;-&#221;&#237;&#235;&#232;&#235;&#252;</Russian>
 		<English>Shubat-Enlil</English>
-		<French>Shubat-Enlil</French>
-		<German>Shubat-Enlil</German>
-		<Italian>Shubat-Enlil</Italian>
-		<Spanish>Shubat-Enlil</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_URHAI</Tag>
+		<Russian>&#211;&#240;&#245;&#224;&#233;</Russian>
 		<English>Urhai</English>
-		<French>Urhai</French>
-		<German>Urhai</German>
-		<Italian>Urhai</Italian>
-		<Spanish>Urhai</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_URKESH</Tag>
+		<Russian>&#211;&#240;&#234;&#229;&#248;</Russian>
 		<English>Urkesh</English>
-		<French>Urkesh</French>
-		<German>Urkesh</German>
-		<Italian>Urkesh</Italian>
-		<Spanish>Urkesh</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AWAN</Tag>
+		<Russian>&#192;&#226;&#224;&#237;</Russian>
 		<English>Awan</English>
-		<French>Awan</French>
-		<German>Awan</German>
-		<Italian>Awan</Italian>
-		<Spanish>Awan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RIBLAH</Tag>
+		<Russian>&#208;&#232;&#225;&#235;&#224;&#245;</Russian>
 		<English>Riblah</English>
-		<French>Riblah</French>
-		<German>Riblah</German>
-		<Italian>Riblah</Italian>
-		<Spanish>Riblah</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAYMA</Tag>
+		<Russian>&#210;&#224;&#233;&#236;&#224;</Russian>
 		<English>Tayma</English>
-		<French>Tayma</French>
-		<German>Tayma</German>
-		<Italian>Tayma</Italian>
-		<Spanish>Tayma</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LISBON</Tag>
+		<Russian>&#203;&#232;&#241;&#241;&#224;&#225;&#238;&#237;</Russian>
 		<English>Lisbon</English>
-		<French>Lisbonne</French>
-		<German>Lissabon</German>
-		<Italian>Lisbona</Italian>
-		<Spanish>Lisboa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OPORTO</Tag>
+		<Russian>&#207;&#238;&#240;&#242;&#243;</Russian>
 		<English>Oporto</English>
-		<French>Oporto</French>
-		<German>Porto</German>
-		<Italian>Oporto</Italian>
-		<Spanish>Oporto</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GUIMARAES</Tag>
-		<English>Guimarães</English>
-		<French>Guimarães</French>
-		<German>Guimarães</German>
-		<Italian>Guimarães</Italian>
-		<Spanish>Guimarães</Spanish>
+		<Russian>&#195;&#232;&#236;&#224;&#240;&#224;&#233;&#237;&#248;</Russian>
+		<English>Guimaraes</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_COIMBRA</Tag>
+		<Russian>&#202;&#238;&#232;&#236;&#225;&#240;&#224;</Russian>
 		<English>Coimbra</English>
-		<French>Coimbra</French>
-		<German>Coimbra</German>
-		<Italian>Coimbra</Italian>
-		<Spanish>Coimbra</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EVORA</Tag>
-		<English>Évora</English>
-		<French>Évora</French>
-		<German>Évora</German>
-		<Italian>&#201;vora</Italian>
-		<Spanish>&#201;vora</Spanish>
+		<Russian>&#221;&#226;&#238;&#240;&#224;</Russian>
+		<English>Evora</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAGOS</Tag>
+		<Russian>&#203;&#224;&#227;&#238;&#241;</Russian>
 		<English>Lagos</English>
-		<French>Lagos</French>
-		<German>Lagos</German>
-		<Italian>Lagos</Italian>
-		<Spanish>Lagos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BRAGA</Tag>
+		<Russian>&#193;&#240;&#224;&#227;&#224;</Russian>
 		<English>Braga</English>
-		<French>Braga</French>
-		<German>Braga</German>
-		<Italian>Braga</Italian>
-		<Spanish>Braga</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LEIRIA</Tag>
+		<Russian>&#203;&#229;&#233;&#240;&#232;&#255;</Russian>
 		<English>Leiria</English>
-		<French>Leiria</French>
-		<German>Leiria</German>
-		<Italian>Leiria</Italian>
-		<Spanish>Leiria</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FARO</Tag>
+		<Russian>&#212;&#224;&#240;&#243;</Russian>
 		<English>Faro</English>
-		<French>Faro</French>
-		<German>Faro</German>
-		<Italian>Faro</Italian>
-		<Spanish>Faro</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SANTAREM</Tag>
-		<English>Santarém</English>
-		<French>Santarém</French>
-		<German>Santarém</German>
-		<Italian>Santarém</Italian>
-		<Spanish>Santarém</Spanish>
+		<Russian>&#209;&#224;&#237;&#242;&#224;&#240;&#229;&#237;</Russian>
+		<English>Santarem</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BRAGANZA</Tag>
+		<Russian>&#193;&#240;&#224;&#227;&#224;&#237;&#241;&#224;</Russian>
 		<English>Braganza</English>
-		<French>Bragance</French>
-		<German>Bragança</German>
-		<Italian>Braganza</Italian>
-		<Spanish>Braganza</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SAGRES</Tag>
+		<Russian>&#209;&#224;&#227;&#240;&#229;&#241;</Russian>
 		<English>Sagres</English>
-		<French>Sagres</French>
-		<German>Sagres</German>
-		<Italian>Sagres</Italian>
-		<Spanish>Sagres</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AVEIRO</Tag>
+		<Russian>&#192;&#226;&#229;&#233;&#240;&#243;</Russian>
 		<English>Aveiro</English>
-		<French>Aveiro</French>
-		<German>Aveiro</German>
-		<Italian>Aveiro</Italian>
-		<Spanish>Aveiro</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VISEU</Tag>
+		<Russian>&#194;&#232;&#231;&#229;&#243;</Russian>
 		<English>Viseu</English>
-		<French>Viseu</French>
-		<German>Viseu</German>
-		<Italian>Viseu</Italian>
-		<Spanish>Viseu</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TOMAR</Tag>
+		<Russian>&#210;&#238;&#236;&#224;&#240;</Russian>
 		<English>Tomar</English>
-		<French>Tomar</French>
-		<German>Tomar</German>
-		<Italian>Tomar</Italian>
-		<Spanish>Tomar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CINTRA</Tag>
+		<Russian>&#209;&#232;&#237;&#242;&#240;&#224;</Russian>
 		<English>Cintra</English>
-		<French>Sintra</French>
-		<German>Sintra</German>
-		<Italian>Cintra</Italian>
-		<Spanish>Cintra</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PORTALEGRE</Tag>
+		<Russian>&#207;&#238;&#240;&#242;&#224;&#235;&#229;&#227;&#240;&#229;</Russian>
 		<English>Portalegre</English>
-		<French>Portalegre</French>
-		<German>Portalegre</German>
-		<Italian>Portalegre</Italian>
-		<Spanish>Portalegre</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ABRANTES</Tag>
+		<Russian>&#192;&#225;&#240;&#224;&#237;&#242;&#229;&#241;</Russian>
 		<English>Abrantes</English>
-		<French>Abrantes</French>
-		<German>Abrantes</German>
-		<Italian>Abrantes</Italian>
-		<Spanish>Abrantes</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GUARDA</Tag>
+		<Russian>&#195;&#243;&#224;&#240;&#228;&#224;</Russian>
 		<English>Guarda</English>
-		<French>Guarda</French>
-		<German>Guarda</German>
-		<Italian>Guarda</Italian>
-		<Spanish>Guarda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHAVES</Tag>
+		<Russian>&#216;&#224;&#226;&#229;&#248;</Russian>
 		<English>Chaves</English>
-		<French>Chaves</French>
-		<German>Chaves</German>
-		<Italian>Chaves</Italian>
-		<Spanish>Chaves</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ELVAS</Tag>
+		<Russian>&#221;&#235;&#226;&#224;&#248;</Russian>
 		<English>Elvas</English>
-		<French>Elvas</French>
-		<German>Elvas</German>
-		<Italian>Elvas</Italian>
-		<Spanish>Elvas</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_COVILHA</Tag>
-		<English>Covilhã</English>
-		<French>Covilhã</French>
-		<German>Covilhã</German>
-		<Italian>Covilhã</Italian>
-		<Spanish>Covilhã</Spanish>
+		<Russian>&#202;&#238;&#226;&#232;&#235;&#252;&#255;&#237;</Russian>
+		<English>Covilha</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SILVES</Tag>
+		<Russian>&#209;&#232;&#235;&#226;&#229;&#248;</Russian>
 		<English>Silves</English>
-		<French>Silves</French>
-		<German>Silves</German>
-		<Italian>Silves</Italian>
-		<Spanish>Silves</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VILA_REAL</Tag>
+		<Russian>&#194;&#232;&#235;&#224;-&#208;&#229;&#224;&#235;</Russian>
 		<English>Vila Real</English>
-		<French>Vila Real</French>
-		<German>Vila Real</German>
-		<Italian>Vila Real</Italian>
-		<Spanish>Vila Real</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAVIRA</Tag>
+		<Russian>&#210;&#224;&#226;&#232;&#240;&#224;</Russian>
 		<English>Tavira</English>
-		<French>Tavira</French>
-		<German>Tavira</German>
-		<Italian>Tavira</Italian>
-		<Spanish>Tavira</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LEIXOES</Tag>
-		<English>Leixões</English>
-		<French>Leixões</French>
-		<German>Leixões</German>
-		<Italian>Leixões</Italian>
-		<Spanish>Leixões</Spanish>
+		<Russian>&#203;&#229;&#233;&#234;&#241;&#238;&#229;&#248;</Russian>
+		<English>Leixoes</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SETUBAL</Tag>
-		<English>Setúbal</English>
-		<French>Setúbal</French>
-		<German>Setúbal</German>
-		<Italian>Setúbal</Italian>
-		<Spanish>Setúbal</Spanish>
+		<Russian>&#209;&#229;&#242;&#243;&#225;&#224;&#235;</Russian>
+		<English>Setubal</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BEJA</Tag>
+		<Russian>&#193;&#229;&#230;&#224;</Russian>
 		<English>Beja</English>
-		<French>Beja</French>
-		<German>Beja</German>
-		<Italian>Beja</Italian>
-		<Spanish>Beja</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SOURE</Tag>
+		<Russian>&#209;&#238;&#243;&#240;&#229;</Russian>
 		<English>Soure</English>
-		<French>Soure</French>
-		<German>Soure</German>
-		<Italian>Soure</Italian>
-		<Spanish>Soure</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAMEGO</Tag>
+		<Russian>&#203;&#224;&#236;&#229;&#227;&#238;</Russian>
 		<English>Lamego</English>
-		<French>Lamego</French>
-		<German>Lamego</German>
-		<Italian>Lamego</Italian>
-		<Spanish>Lamego</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PALMELA</Tag>
+		<Russian>&#207;&#224;&#235;&#236;&#229;&#235;&#224;</Russian>
 		<English>Palmela</English>
-		<French>Palmela</French>
-		<German>Palmela</German>
-		<Italian>Palmela</Italian>
-		<Spanish>Palmela</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SERPA</Tag>
+		<Russian>&#209;&#229;&#240;&#239;&#224;</Russian>
 		<English>Serpa</English>
-		<French>Serpa</French>
-		<German>Serpa</German>
-		<Italian>Serpa</Italian>
-		<Spanish>Serpa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SINES</Tag>
+		<Russian>&#209;&#232;&#237;&#229;&#248;</Russian>
 		<English>Sines</English>
-		<French>Sines</French>
-		<German>Sines</German>
-		<Italian>Sines</Italian>
-		<Spanish>Sines</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALMADA</Tag>
+		<Russian>&#192;&#235;&#236;&#224;&#228;&#224;</Russian>
 		<English>Almada</English>
-		<French>Almada</French>
-		<German>Almada</German>
-		<Italian>Almada</Italian>
-		<Spanish>Almada</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ESTREMOZ</Tag>
+		<Russian>&#221;&#241;&#242;&#240;&#229;&#236;&#238;&#248;</Russian>
 		<English>Estremoz</English>
-		<French>Estremoz</French>
-		<German>Estremoz</German>
-		<Italian>Estremoz</Italian>
-		<Spanish>Estremoz</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALCACER_DO_SAL</Tag>
-		<English>Alcácer do Sal</English>
-		<French>Alcácer do Sal</French>
-		<German>Alcácer do Sal</German>
-		<Italian>Alcácer do Sal</Italian>
-		<Spanish>Alcácer do Sal</Spanish>
+		<Russian>&#192;&#235;&#234;&#224;&#241;&#229;&#240;-&#228;&#243;-&#209;&#224;&#235;</Russian>
+		<English>Alcacer do Sal</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MERTOLA</Tag>
-		<English>Mértola</English>
-		<French>Mértola</French>
-		<German>Mértola</German>
-		<Italian>Mértola</Italian>
-		<Spanish>Mértola</Spanish>
+		<Russian>&#204;&#229;&#240;&#242;&#238;&#235;&#224;</Russian>
+		<English>Mertola</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MIRANDA_DO_DOURO</Tag>
+		<Russian>&#204;&#232;&#240;&#224;&#237;&#228;&#224;-&#228;&#243;-&#196;&#238;&#243;&#240;&#238;</Russian>
 		<English>Miranda do Douro</English>
-		<French>Miranda do Douro</French>
-		<German>Miranda do Douro</German>
-		<Italian>Miranda do Douro</Italian>
-		<Spanish>Miranda do Douro</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANGRA_DO_HEROISMO</Tag>
-		<English>Angra do Heroísmo</English>
-		<French>Angra do Heroísmo</French>
-		<German>Angra do Heroísmo</German>
-		<Italian>Angra do Heroísmo</Italian>
-		<Spanish>Angra do Heroísmo</Spanish>
+		<Russian>&#192;&#237;&#227;&#240;&#224;-&#228;&#243;-&#221;&#240;&#238;&#232;&#230;&#236;&#243;</Russian>
+		<English>Angra do Heroismo</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BAHIA</Tag>
+		<Russian>&#193;&#224;&#232;&#255;</Russian>
 		<English>Bahia</English>
-		<French>Bahia</French>
-		<German>Bahia</German>
-		<Italian>Bahia</Italian>
-		<Spanish>Bahía</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RIO_DE_JANEIRO</Tag>
+		<Russian>&#208;&#232;&#238;-&#228;&#229;-&#198;&#224;&#237;&#229;&#233;&#240;&#238;</Russian>
 		<English>Rio de Janeiro</English>
-		<French>Rio de Janeiro</French>
-		<German>Rio de Janeiro</German>
-		<Italian>Rio de Janeiro</Italian>
-		<Spanish>Río de Janeiro</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SAO_PAOLO</Tag>
-		<English>São Paulo</English>
-		<French>São Paulo</French>
-		<German>São Paulo</German>
-		<Italian>San Paolo</Italian>
-		<Spanish>São Paulo</Spanish>
+		<Russian>&#209;&#224;&#237;-&#207;&#224;&#243;&#235;&#243;</Russian>
+		<English>Sao Paulo</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LUANDA</Tag>
+		<Russian>&#203;&#243;&#224;&#237;&#228;&#224;</Russian>
 		<English>Luanda</English>
-		<French>Luanda</French>
-		<German>Luanda</German>
-		<Italian>Luanda</Italian>
-		<Spanish>Luanda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GOA</Tag>
+		<Russian>&#195;&#238;&#224;</Russian>
 		<English>Goa</English>
-		<French>Goa</French>
-		<German>Goa</German>
-		<Italian>Goa</Italian>
-		<Spanish>Goa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MACAO</Tag>
+		<Russian>&#204;&#224;&#234;&#224;&#238;</Russian>
 		<English>Macao</English>
-		<French>Macao</French>
-		<German>Macao</German>
-		<Italian>Macao</Italian>
-		<Spanish>Macao</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CONSTANTINOPLE</Tag>
+		<Russian>&#202;&#238;&#237;&#241;&#242;&#224;&#237;&#242;&#232;&#237;&#238;&#239;&#238;&#235;&#252;</Russian>
 		<English>Constantinople</English>
-		<French>Constantinople</French>
-		<German>Konstantinopel</German>
-		<Italian>Costantinopoli</Italian>
-		<Spanish>Constantinopla</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ADRIANOPLE</Tag>
+		<Russian>&#192;&#228;&#240;&#232;&#224;&#237;&#238;&#239;&#238;&#235;&#252;</Russian>
 		<English>Adrianople</English>
-		<French>Adrianople</French>
-		<German>Adrianopel</German>
-		<Italian>Adrianopoli</Italian>
-		<Spanish>Adrianópolis</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NICAEA</Tag>
+		<Russian>&#205;&#232;&#234;&#229;&#255;</Russian>
 		<English>Nicaea</English>
-		<French>Nicée</French>
-		<German>Nicaea</German>
-		<Italian>Nicaea</Italian>
-		<Spanish>Nicea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANTIOCH</Tag>
+		<Russian>&#192;&#237;&#242;&#232;&#238;&#245;</Russian>
 		<English>Antioch</English>
-		<French>Antioche</French>
-		<German>Antiochia</German>
-		<Italian>Antiochia</Italian>
-		<Spanish>Antioquía</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANGORA</Tag>
+		<Russian>&#192;&#237;&#227;&#238;&#240;&#224;</Russian>
 		<English>Angora</English>
-		<French>Ankara</French>
-		<German>Angora</German>
-		<Italian>Angora</Italian>
-		<Spanish>Angora</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TREBIZOND</Tag>
+		<Russian>&#210;&#240;&#224;&#225;&#231;&#238;&#237;</Russian>
 		<English>Trebizond</English>
-		<French>Trébizonde</French>
-		<German>Trapezunt</German>
-		<Italian>Trebisonda</Italian>
-		<Spanish>Trebisonda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ICONIUM</Tag>
+		<Russian>&#200;&#234;&#238;&#237;&#232;&#243;&#236;</Russian>
 		<English>Iconium</English>
-		<French>Iconium</French>
-		<German>Iconium</German>
-		<Italian>Iconium</Italian>
-		<Spanish>Iconio</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAODICEA</Tag>
+		<Russian>&#203;&#224;&#238;&#228;&#232;&#234;&#232;&#255;</Russian>
 		<English>Laodicea</English>
-		<French>Laodicée</French>
-		<German>Laodicea</German>
-		<Italian>Laodicea</Italian>
-		<Spanish>Laodicea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DORYLAEUM</Tag>
+		<Russian>&#196;&#238;&#240;&#232;&#235;&#229;&#233;</Russian>
 		<English>Dorylaeum</English>
-		<French>Dorylée</French>
-		<German>Doryläum</German>
-		<Italian>Dorylaeum</Italian>
-		<Spanish>Dorileo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AMORIUM</Tag>
+		<Russian>&#192;&#236;&#238;&#240;&#232;&#233;</Russian>
 		<English>Amorium</English>
-		<French>Amorion</French>
-		<German>Amorium</German>
-		<Italian>Amorium</Italian>
-		<Spanish>Amorio</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PHILIPPOPOLIS</Tag>
+		<Russian>&#212;&#232;&#235;&#232;&#239;&#239;&#238;&#239;&#238;&#235;&#252;</Russian>
 		<English>Philippopolis</English>
-		<French>Philippopolis</French>
-		<German>Philippopolis</German>
-		<Italian>Filippopoli</Italian>
-		<Spanish>Filipópolis</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MISTRA</Tag>
+		<Russian>&#204;&#232;&#241;&#242;&#240;&#224;</Russian>
 		<English>Mistra</English>
-		<French>Mistra</French>
-		<German>Mistra</German>
-		<Italian>Mistra</Italian>
-		<Spanish>Mistra</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DYRRACHIUM</Tag>
+		<Russian>&#196;&#232;&#240;&#240;&#224;&#245;&#232;&#233;</Russian>
 		<English>Dyrrachium</English>
-		<French>Duras</French>
-		<German>Dyrrachium</German>
-		<Italian>Durres</Italian>
-		<Spanish>Dirraquio</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_EDESSA</Tag>
+		<Russian>&#221;&#228;&#229;&#241;&#241;&#224;</Russian>
 		<English>Edessa</English>
-		<French>Edesse</French>
-		<German>Edessa</German>
-		<Italian>Edessa</Italian>
-		<Spanish>Edessa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HERACLEA</Tag>
+		<Russian>&#195;&#229;&#240;&#224;&#234;&#235;&#229;&#255;</Russian>
 		<English>Heraclea</English>
-		<French>Heraclea</French>
-		<German>Heraclea</German>
-		<Italian>Eraclea</Italian>
-		<Spanish>Heraclea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_THEODOSIOPOLIS</Tag>
+		<Russian>&#212;&#229;&#238;&#228;&#238;&#241;&#232;&#238;&#239;&#238;&#235;&#252;</Russian>
 		<English>Theodosiopolis</English>
-		<French>Theodosiopolis</French>
-		<German>Theodosiopolis</German>
-		<Italian>Teodosiopoli</Italian>
-		<Spanish>Thodosiópolis</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ODESSOS</Tag>
+		<Russian>&#206;&#228;&#229;&#241;&#241;&#238;&#241;</Russian>
 		<English>Odessos</English>
-		<French>Odessos</French>
-		<German>Odessos</German>
-		<Italian>Odessa</Italian>
-		<Spanish>Odesa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MESEMBRIA</Tag>
+		<Russian>&#204;&#229;&#241;&#229;&#236;&#225;&#240;&#232;&#255;</Russian>
 		<English>Mesembria</English>
-		<French>Messembria </French>
-		<German>Mesembria</German>
-		<Italian>Mesembria</Italian>
-		<Spanish>Mesembria</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SARDICA</Tag>
+		<Russian>&#209;&#224;&#240;&#228;&#232;&#234;&#224;</Russian>
 		<English>Sardica</English>
-		<French>Sardica</French>
-		<German>Sardica</German>
-		<Italian>Sardica</Italian>
-		<Spanish>Sárdica</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RAGUSA</Tag>
+		<Russian>&#208;&#224;&#227;&#243;&#231;&#224;</Russian>
 		<English>Ragusa</English>
-		<French>Raguse</French>
-		<German>Ragusa</German>
-		<Italian>Ragusa</Italian>
-		<Spanish>Ragusa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PHILIPPI</Tag>
+		<Russian>&#212;&#232;&#235;&#232;&#239;&#239;&#251;</Russian>
 		<English>Philippi</English>
-		<French>Philippi</French>
-		<German>Philippi</German>
-		<Italian>Filippi</Italian>
-		<Spanish>Filipos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JUSTINIANOPOLIS</Tag>
+		<Russian>&#222;&#241;&#242;&#232;&#237;&#232;&#224;&#237;&#238;&#239;&#238;&#235;&#232;&#241;</Russian>
 		<English>Justinianopolis</English>
-		<French>Justinianopolis</French>
-		<German>Justinianopolis</German>
-		<Italian>Giustinianopoli</Italian>
-		<Spanish>Justinianópolis</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_IOANNINA</Tag>
+		<Russian>&#223;&#237;&#232;&#237;&#224;</Russian>
 		<English>Ioannina</English>
-		<French>Ioannina</French>
-		<German>Ioannina</German>
-		<Italian>Ioannina</Italian>
-		<Spanish>Ioanina</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CEPHALONIA</Tag>
+		<Russian>&#202;&#229;&#244;&#224;&#235;&#232;&#237;&#232;&#255;</Russian>
 		<English>Cephalonia</English>
-		<French>Céphalonie</French>
-		<German>Kephallonia</German>
-		<Italian>Cefalonia</Italian>
-		<Spanish>Cefalonia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SELYMBRIA</Tag>
+		<Russian>&#209;&#229;&#235;&#232;&#236;&#225;&#240;&#232;&#255;</Russian>
 		<English>Selymbria</English>
-		<French>Silivri</French>
-		<German>Selymbria</German>
-		<Italian>Silivri</Italian>
-		<Spanish>Selimbria</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CALLIPOLIS</Tag>
+		<Russian>&#202;&#224;&#235;&#235;&#232;&#239;&#238;&#235;&#232;&#241;</Russian>
 		<English>Callipolis</English>
-		<French>Gallipoli</French>
-		<German>Callipolis</German>
-		<Italian>Gallipoli</Italian>
-		<Spanish>Callípolis</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHANDAX</Tag>
+		<Russian>&#213;&#224;&#237;&#228;&#224;&#234;&#241;</Russian>
 		<English>Chandax</English>
-		<French>Candie</French>
-		<German>Chandax</German>
-		<Italian>Chandax</Italian>
-		<Spanish>Chandax</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LEFKOSIA</Tag>
+		<Russian>&#203;&#229;&#244;&#234;&#238;&#241;&#232;&#255;</Russian>
 		<English>Lefkosia</English>
-		<French>Nicosie</French>
-		<German>Lefkosia</German>
-		<Italian>Nicosia</Italian>
-		<Spanish>Nicosia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FAMAGUSTA</Tag>
+		<Russian>&#212;&#224;&#236;&#224;&#227;&#243;&#241;&#242;&#224;</Russian>
 		<English>Famagusta</English>
-		<French>Famagusta</French>
-		<German>Famagusta</German>
-		<Italian>Famagosta</Italian>
-		<Spanish>Famagusta</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BARI</Tag>
+		<Russian>&#193;&#224;&#240;&#232;</Russian>
 		<English>Bari</English>
-		<French>Bari</French>
-		<German>Bari</German>
-		<Italian>Bari</Italian>
-		<Spanish>Bari</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OTRANTO</Tag>
+		<Russian>&#206;&#242;&#240;&#224;&#237;&#242;&#238;</Russian>
 		<English>Otranto</English>
-		<French>Otrante</French>
-		<German>Otranto</German>
-		<Italian>Otranto</Italian>
-		<Spanish>Otranto</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHALCEDON</Tag>
+		<Russian>&#213;&#224;&#235;&#234;&#232;&#228;&#238;&#237;</Russian>
 		<English>Chalcedon</English>
-		<French>Chalcédoine</French>
-		<German>Chalcedon</German>
-		<Italian>Calcedonia</Italian>
-		<Spanish>Calcedonia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NEOCAESAREA</Tag>
+		<Russian>&#205;&#229;&#238;&#234;&#229;&#241;&#224;&#240;&#232;&#255;</Russian>
 		<English>Neocaesarea</English>
-		<French>Néocésarée</French>
-		<German>Neocaesarea</German>
-		<Italian>Neocesarea</Italian>
-		<Spanish>Neocesárea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_METILENE</Tag>
+		<Russian>&#204;&#229;&#242;&#232;&#235;&#229;&#237;</Russian>
 		<English>Metilene</English>
-		<French>Mytilène</French>
-		<German>Metilene</German>
-		<Italian>Metilene</Italian>
-		<Spanish>Metilene</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SELEUCIA</Tag>
+		<Russian>&#209;&#229;&#235;&#229;&#226;&#234;&#232;&#255;</Russian>
 		<English>Seleucia</English>
-		<French>Séleucie</French>
-		<German>Seleucia</German>
-		<Italian>Seleucia</Italian>
-		<Spanish>Seleucia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SEBASTEA</Tag>
+		<Russian>&#209;&#229;&#225;&#224;&#241;&#242;&#232;&#255;</Russian>
 		<English>Sebastea</English>
-		<French>Sebastea</French>
-		<German>Sebastea</German>
-		<Italian>Sebastea</Italian>
-		<Spanish>Sebastea</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MYRA</Tag>
+		<Russian>&#204;&#232;&#240;&#224;</Russian>
 		<English>Myra</English>
-		<French>Myre</French>
-		<German>Myra</German>
-		<Italian>Myra</Italian>
-		<Spanish>Myra</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GANGRA</Tag>
+		<Russian>&#195;&#224;&#237;&#227;&#240;&#224;</Russian>
 		<English>Gangra</English>
-		<French>Çankiri</French>
-		<German>Gangra</German>
-		<Italian>Gangra</Italian>
-		<Spanish>Gangra</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OCHRYD</Tag>
+		<Russian>&#206;&#245;&#240;&#232;&#228;</Russian>
 		<English>Ochryd</English>
-		<French>Ohrid</French>
-		<German>Ohrid</German>
-		<Italian>Ochryd</Italian>
-		<Spanish>Ohryd</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BUTHROTUM</Tag>
+		<Russian>&#193;&#243;&#242;&#240;&#232;&#237;&#242;&#232;</Russian>
 		<English>Buthrotum</English>
-		<French>Buthrote</French>
-		<German>Buthrotum</German>
-		<Italian>Buthrotum</Italian>
-		<Spanish>Buthrotum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAISSUS</Tag>
+		<Russian>&#205;&#224;&#232;&#241;&#241;&#243;&#241;</Russian>
 		<English>Naissus</English>
-		<French>Naissus</French>
-		<German>Naissus</German>
-		<Italian>Naissus</Italian>
-		<Spanish>Naissus</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHERSON</Tag>
+		<Russian>&#213;&#229;&#240;&#241;&#238;&#237;&#229;&#241;</Russian>
 		<English>Cherson</English>
-		<French>Chersonèsos</French>
-		<German>Cherson</German>
-		<Italian>Cherson</Italian>
-		<Spanish>Cherson</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TRIPOLI</Tag>
+		<Russian>&#210;&#240;&#232;&#239;&#238;&#235;&#232;</Russian>
 		<English>Tripoli</English>
-		<French>Tripoli</French>
-		<German>Tripolis</German>
-		<Italian>Tripoli</Italian>
-		<Spanish>Trípoli</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TUNIS</Tag>
+		<Russian>&#210;&#243;&#237;&#232;&#241;</Russian>
 		<English>Tunis</English>
-		<French>Tunis</French>
-		<German>Tunis</German>
-		<Italian>Tunisi</Italian>
-		<Spanish>Túnez</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KAIROUAN</Tag>
+		<Russian>&#202;&#224;&#233;&#240;&#243;&#224;&#237;</Russian>
 		<English>Kairouan</English>
-		<French>Kairouan</French>
-		<German>Kairouan</German>
-		<Italian>Kairouan</Italian>
-		<Spanish>Kairouan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALGIERS</Tag>
+		<Russian>&#192;&#235;&#230;&#232;&#240;</Russian>
 		<English>Algiers</English>
-		<French>Alger</French>
-		<German>Algier</German>
-		<Italian>Algeri</Italian>
-		<Spanish>Argel</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ORAN</Tag>
+		<Russian>&#206;&#240;&#224;&#237;</Russian>
 		<English>Oran</English>
-		<French>Oran</French>
-		<German>Oran</German>
-		<Italian>Oran</Italian>
-		<Spanish>Orán</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TANGIER</Tag>
+		<Russian>&#210;&#224;&#237;&#230;&#229;&#240;</Russian>
 		<English>Tangier</English>
-		<French>Tanger</French>
-		<German>Tanger</German>
-		<Italian>Tangier</Italian>
-		<Spanish>Tánger</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CASABLANCA</Tag>
+		<Russian>&#202;&#224;&#241;&#224;&#225;&#235;&#224;&#237;&#234;&#224;</Russian>
 		<English>Casablanca</English>
-		<French>Casablanca</French>
-		<German>Casablanca</German>
-		<Italian>Casablanca</Italian>
-		<Spanish>Casablanca</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MARRAKECH</Tag>
+		<Russian>&#204;&#224;&#240;&#240;&#224;&#234;&#229;&#248;</Russian>
 		<English>Marrakech</English>
-		<French>Marrakech</French>
-		<German>Marrakesch</German>
-		<Italian>Marrakech</Italian>
-		<Spanish>Marrakech</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SOUTHAMPTON</Tag>
+		<Russian>&#209;&#224;&#243;&#242;&#227;&#229;&#236;&#239;&#242;&#238;&#237;</Russian>
 		<English>Southampton</English>
-		<French>Southampton</French>
-		<German>Southampton</German>
-		<Italian>Southampton</Italian>
-		<Spanish>Southampton</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SHEFFIELD</Tag>
+		<Russian>&#216;&#229;&#244;&#244;&#232;&#235;&#228;</Russian>
 		<English>Sheffield</English>
-		<French>Sheffield</French>
-		<German>Sheffield</German>
-		<Italian>Sheffield</Italian>
-		<Spanish>Sheffield</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SALISBURY</Tag>
+		<Russian>&#209;&#238;&#235;&#241;&#225;&#229;&#240;&#232;</Russian>
 		<English>Salisbury</English>
-		<French>Salisbury</French>
-		<German>Salisbury</German>
-		<Italian>Salisbury</Italian>
-		<Spanish>Salisbury</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_COLCHESTER</Tag>
+		<Russian>&#202;&#238;&#235;&#247;&#229;&#241;&#242;&#229;&#240;</Russian>
 		<English>Colchester</English>
-		<French>Colchester</French>
-		<German>Colchester</German>
-		<Italian>Colchester</Italian>
-		<Spanish>Colchester</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PLYMOUTH</Tag>
+		<Russian>&#207;&#235;&#232;&#236;&#243;&#242;</Russian>
 		<English>Plymouth</English>
-		<French>Plymouth</French>
-		<German>Plymouth</German>
-		<Italian>Plymouth</Italian>
-		<Spanish>Plymouth</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LANCASTER</Tag>
+		<Russian>&#203;&#224;&#237;&#234;&#224;&#241;&#242;&#229;&#240;</Russian>
 		<English>Lancaster</English>
-		<French>Lancaster</French>
-		<German>Lancaster</German>
-		<Italian>Lancaster</Italian>
-		<Spanish>Lancaster</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BLACKPOOL</Tag>
+		<Russian>&#193;&#235;&#253;&#234;&#239;&#243;&#235;</Russian>
 		<English>Blackpool</English>
-		<French>Blackpool</French>
-		<German>Blackpool</German>
-		<Italian>Blackpool</Italian>
-		<Spanish>Blackpool</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WINCHESTER</Tag>
+		<Russian>&#194;&#232;&#237;&#247;&#229;&#241;&#242;&#229;&#240;</Russian>
 		<English>Winchester</English>
-		<French>Winchester</French>
-		<German>Winchester</German>
-		<Italian>Winchester</Italian>
-		<Spanish>Winchester</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HULL</Tag>
+		<Russian>&#202;&#232;&#237;&#227;&#241;&#242;&#238;&#237;-&#224;&#239;&#238;&#237;-&#213;&#224;&#235;&#235;</Russian>
 		<English>Hull</English>
-		<French>Hull</French>
-		<German>Hull</German>
-		<Italian>Hull</Italian>
-		<Spanish>Hull</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NICE</Tag>
+		<Russian>&#205;&#232;&#246;&#246;&#224;</Russian>
 		<English>Nice</English>
-		<French>Nice</French>
-		<German>Nizza</German>
-		<Italian>Nizza</Italian>
-		<Spanish>Niza</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SAINT_ETIENNE</Tag>
+		<Russian>&#209;&#229;&#237;&#242;-&#221;&#242;&#252;&#229;&#237;</Russian>
 		<English>Saint-Etienne</English>
-		<French>Saint-Etienne</French>
-		<German>Saint-Etienne</German>
-		<Italian>Saint-Etienne</Italian>
-		<Spanish>Saint-&#201;tienne</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NANTES</Tag>
+		<Russian>&#205;&#224;&#237;&#242;</Russian>
 		<English>Nantes</English>
-		<French>Nantes</French>
-		<German>Nantes</German>
-		<Italian>Nantes</Italian>
-		<Spanish>Nantes</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_REIMS</Tag>
+		<Russian>&#208;&#229;&#233;&#236;&#241;</Russian>
 		<English>Reims</English>
-		<French>Reims</French>
-		<German>Reims</German>
-		<Italian>Reims</Italian>
-		<Spanish>Reims</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LE_MANS</Tag>
+		<Russian>&#203;&#229;-&#204;&#224;&#237;</Russian>
 		<English>Le Mans</English>
-		<French>Le Mans</French>
-		<German>Le Mans</German>
-		<Italian>Le Mans</Italian>
-		<Spanish>Le Mans</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MONTPELLIER</Tag>
+		<Russian>&#204;&#238;&#237;&#239;&#229;&#235;&#252;&#229;</Russian>
 		<English>Montpellier</English>
-		<French>Montpellier</French>
-		<German>Montpellier</German>
-		<Italian>Montpellier</Italian>
-		<Spanish>Montpellier</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LIMOGES</Tag>
+		<Russian>&#203;&#232;&#236;&#238;&#230;</Russian>
 		<English>Limoges</English>
-		<French>Limoges</French>
-		<German>Limoges</German>
-		<Italian>Limoges</Italian>
-		<Spanish>Limoges</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NANCY</Tag>
+		<Russian>&#205;&#224;&#237;&#241;&#232;</Russian>
 		<English>Nancy</English>
-		<French>Nancy</French>
-		<German>Nancy</German>
-		<Italian>Nancy</Italian>
-		<Spanish>Nancy</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LILLE</Tag>
+		<Russian>&#203;&#232;&#235;&#235;&#252;</Russian>
 		<English>Lille</English>
-		<French>Lille</French>
-		<German>Lille</German>
-		<Italian>Lille</Italian>
-		<Spanish>Lille</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CAEN</Tag>
+		<Russian>&#202;&#224;&#237;</Russian>
 		<English>Caen</English>
-		<French>Caen</French>
-		<German>Caen</German>
-		<Italian>Caen</Italian>
-		<Spanish>Caen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TOULON</Tag>
+		<Russian>&#210;&#243;&#235;&#238;&#237;</Russian>
 		<English>Toulon</English>
-		<French>Toulon</French>
-		<German>Toulon</German>
-		<Italian>Tolone</Italian>
-		<Spanish>Tolón</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NIMES</Tag>
+		<Russian>&#205;&#232;&#236;</Russian>
 		<English>Nimes</English>
-		<French>Nîmes</French>
-		<German>Nîmes</German>
-		<Italian>Nimes</Italian>
-		<Spanish>Nîmes</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LE_HAVRE</Tag>
+		<Russian>&#195;&#224;&#226;&#240;</Russian>
 		<English>Le Havre</English>
-		<French>Le Havre</French>
-		<German>Le Havre</German>
-		<Italian>Le Havre</Italian>
-		<Spanish>El Havre</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LOURDES</Tag>
+		<Russian>&#203;&#243;&#240;&#228;</Russian>
 		<English>Lourdes</English>
-		<French>Lourdes</French>
-		<German>Lourdes</German>
-		<Italian>Lourdes</Italian>
-		<Spanish>Lourdes</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CARCASSONNE</Tag>
+		<Russian>&#202;&#224;&#240;&#241;&#224;&#241;&#241;&#238;&#237;</Russian>
 		<English>Carcassonne</English>
-		<French>Carcassonne</French>
-		<German>Carcassonne</German>
-		<Italian>Carcassonne</Italian>
-		<Spanish>Carcassonne</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CANNES</Tag>
+		<Russian>&#202;&#224;&#237;&#237;&#251;</Russian>
 		<English>Cannes</English>
-		<French>Cannes</French>
-		<German>Cannes</German>
-		<Italian>Cannes</Italian>
-		<Spanish>Cannes</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AIX_EN_PROVINCE</Tag>
+		<Russian>&#221;&#234;&#241;-&#224;&#237;-&#207;&#240;&#238;&#226;&#224;&#237;&#241;</Russian>
 		<English>Aix-en-Province</English>
-		<French>Aix-en-Provence</French>
-		<German>Aix-en-Provence</German>
-		<Italian>Aix-en-Province</Italian>
-		<Spanish>Aix-en-Provence</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LA_ROCHELLE</Tag>
+		<Russian>&#203;&#224;-&#208;&#238;&#248;&#229;&#235;&#252;</Russian>
 		<English>La Rochelle</English>
-		<French>La Rochelle</French>
-		<German>La Rochelle</German>
-		<Italian>La Rochelle</Italian>
-		<Spanish>La Rochela</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BOURGES</Tag>
+		<Russian>&#193;&#243;&#240;&#230;</Russian>
 		<English>Bourges</English>
-		<French>Bourges</French>
-		<German>Bourges</German>
-		<Italian>Bourges</Italian>
-		<Spanish>Bourges</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CALAIS</Tag>
+		<Russian>&#202;&#224;&#235;&#229;</Russian>
 		<English>Calais</English>
-		<French>Calais</French>
-		<German>Calais</German>
-		<Italian>Calais</Italian>
-		<Spanish>Calais</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TUMBES</Tag>
+		<Russian>&#210;&#243;&#236;&#225;&#229;&#241;</Russian>
 		<English>Tumbes</English>
-		<French>Tumbes</French>
-		<German>Tumbes</German>
-		<Italian>Tumbes</Italian>
-		<Spanish>Tumbes</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHAN_CHAN</Tag>
+		<Russian>&#215;&#224;&#237;-&#215;&#224;&#237;</Russian>
 		<English>Chan Chan</English>
-		<French>Chan Chan</French>
-		<German>Chan Chan</German>
-		<Italian>Chan Chan</Italian>
-		<Spanish>Chan Chen</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SIPAN</Tag>
+		<Russian>&#209;&#232;&#239;&#224;&#237;</Russian>
 		<English>Sipan</English>
-		<French>Sipan</French>
-		<German>Sipan</German>
-		<Italian>Sipan</Italian>
-		<Spanish>Sipán</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PACHACAMAC</Tag>
+		<Russian>&#207;&#224;&#247;&#224;&#234;&#224;&#236;&#224;&#234;</Russian>
 		<English>Pachacamac</English>
-		<French>Pachacamac</French>
-		<German>Pachacamac</German>
-		<Italian>Pachacamac</Italian>
-		<Spanish>Pachacamac</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LLACTAPATA</Tag>
+		<Russian>&#223;&#234;&#242;&#224;&#239;&#224;&#242;&#224;</Russian>
 		<English>Llactapata</English>
-		<French>Llactapata</French>
-		<German>Llactapata</German>
-		<Italian>Llactapata</Italian>
-		<Spanish>Llactapata</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PISAC</Tag>
+		<Russian>&#207;&#232;&#241;&#224;&#234;</Russian>
 		<English>Pisac</English>
-		<French>Pisac</French>
-		<German>Pisac</German>
-		<Italian>Pisac</Italian>
-		<Spanish>Pisac</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUELAP</Tag>
+		<Russian>&#202;&#243;&#229;&#235;&#224;&#239;</Russian>
 		<English>Kuelap</English>
-		<French>Kuelap</French>
-		<German>Kuelap</German>
-		<Italian>Kuelap</Italian>
-		<Spanish>Kuelap</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PAJATEN</Tag>
+		<Russian>&#207;&#224;&#245;&#224;&#242;&#229;&#237;</Russian>
 		<English>Pajaten</English>
-		<French>Pajaten</French>
-		<German>Pajaten</German>
-		<Italian>Pajaten</Italian>
-		<Spanish>Pajatén</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHUCUITO</Tag>
+		<Russian>&#215;&#243;&#234;&#243;&#232;&#242;&#238;</Russian>
 		<English>Chucuito</English>
-		<French>Chucuito</French>
-		<German>Chucuito</German>
-		<Italian>Chucuito</Italian>
-		<Spanish>Chucuito</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KOBE</Tag>
+		<Russian>&#202;&#238;&#225;&#229;</Russian>
 		<English>Kobe</English>
-		<French>Kobe</French>
-		<German>Kobe</German>
-		<Italian>Kobe</Italian>
-		<Spanish>Kobe</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAGANO</Tag>
+		<Russian>&#205;&#224;&#227;&#224;&#237;&#238;</Russian>
 		<English>Nagano</English>
-		<French>Nagano</French>
-		<German>Nagano</German>
-		<Italian>Nagano</Italian>
-		<Spanish>Nagano</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HIROSHIMA</Tag>
+		<Russian>&#213;&#232;&#240;&#238;&#241;&#232;&#236;&#224;</Russian>
 		<English>Hiroshima</English>
-		<French>Hiroshima</French>
-		<German>Hiroshima</German>
-		<Italian>Hiroshima</Italian>
-		<Spanish>Hiroshima</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAKAYAMA</Tag>
+		<Russian>&#210;&#224;&#234;&#224;&#255;&#236;&#224;</Russian>
 		<English>Takayama</English>
-		<French>Takayama</French>
-		<German>Takayama</German>
-		<Italian>Takayama</Italian>
-		<Spanish>Takayama</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AKITA</Tag>
+		<Russian>&#192;&#234;&#232;&#242;&#224;</Russian>
 		<English>Akita</English>
-		<French>Akita</French>
-		<German>Akita</German>
-		<Italian>Akita</Italian>
-		<Spanish>Akita</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FUKUOKA</Tag>
+		<Russian>&#212;&#243;&#234;&#243;&#238;&#234;&#224;</Russian>
 		<English>Fukuoka</English>
-		<French>Fukuoka</French>
-		<German>Fukuoka</German>
-		<Italian>Fukuoka</Italian>
-		<Spanish>Fukuoka</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AOMORI</Tag>
+		<Russian>&#192;&#238;&#236;&#238;&#240;&#232;</Russian>
 		<English>Aomori</English>
-		<French>Aomori</French>
-		<German>Aomori</German>
-		<Italian>Aomori</Italian>
-		<Spanish>Aomori</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KAMAKURO</Tag>
+		<Russian>&#202;&#224;&#236;&#224;&#234;&#243;&#240;&#238;</Russian>
 		<English>Kamakuro</English>
-		<French>Kamakuro</French>
-		<German>Kamakura</German>
-		<Italian>Kamakura</Italian>
-		<Spanish>Kamakuro</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KOCHI</Tag>
+		<Russian>&#202;&#238;&#247;&#232;</Russian>
 		<English>Kochi</English>
-		<French>Kochi</French>
-		<German>Kochi</German>
-		<Italian>Kochi</Italian>
-		<Spanish>Kochi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAHA</Tag>
+		<Russian>&#205;&#224;&#245;&#224;</Russian>
 		<English>Naha</English>
-		<French>Naha</French>
-		<German>Naha</German>
-		<Italian>Naha</Italian>
-		<Spanish>Naha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KANGABA</Tag>
+		<Russian>&#202;&#224;&#237;&#227;&#224;&#225;&#224;</Russian>
 		<English>Kangaba</English>
-		<French>Kangaba</French>
-		<German>Kangaba</German>
-		<Italian>Kangaba</Italian>
-		<Spanish>Kangaba</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DIA</Tag>
+		<Russian>&#196;&#232;&#255;</Russian>
 		<English>Dia</English>
-		<French>Dia</French>
-		<German>Dia</German>
-		<Italian>Dia</Italian>
-		<Spanish>Dia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TIRAQQA</Tag>
+		<Russian>&#210;&#232;&#240;&#224;&#234;&#234;&#224;</Russian>
 		<English>Tiraqqa</English>
-		<French>Tiraqqa</French>
-		<German>Tiraqqa</German>
-		<Italian>Tiraqqa</Italian>
-		<Spanish>Tiraqqa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AWKAR</Tag>
+		<Russian>&#192;&#243;&#234;&#224;&#240;</Russian>
 		<English>Awkar</English>
-		<French>Awkar</French>
-		<German>Awkar</German>
-		<Italian>Awkar</Italian>
-		<Spanish>Awkar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUKIYA</Tag>
+		<Russian>&#202;&#243;&#234;&#232;&#255;</Russian>
 		<English>Kukiya</English>
-		<French>Kukiya</French>
-		<German>Kukiya</German>
-		<Italian>Kukiya</Italian>
-		<Spanish>Kukiya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAKRUR</Tag>
+		<Russian>&#210;&#224;&#234;&#240;&#243;&#240;</Russian>
 		<English>Takrur</English>
-		<French>Takrur</French>
-		<German>Takrur</German>
-		<Italian>Takrur</Italian>
-		<Spanish>Takrur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ARAWAN</Tag>
+		<Russian>&#192;&#240;&#224;&#226;&#224;&#237;</Russian>
 		<English>Arawan</English>
-		<French>Arawan</French>
-		<German>Arawan</German>
-		<Italian>Arawan</Italian>
-		<Spanish>Arawan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SYA</Tag>
+		<Russian>&#209;&#232;&#255;</Russian>
 		<English>Sya</English>
-		<French>Sya</French>
-		<German>Sya</German>
-		<Italian>Sya</Italian>
-		<Spanish>Sya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAOUDENNI</Tag>
+		<Russian>&#210;&#224;&#243;&#228;&#229;&#237;&#237;&#232;</Russian>
 		<English>Taoudenni</English>
-		<French>Taoudenni</French>
-		<German>Taoudenni</German>
-		<Italian>Taoudenni</Italian>
-		<Spanish>Taoudenni</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BAMBOUK</Tag>
+		<Russian>&#193;&#224;&#236;&#225;&#243;&#234;</Russian>
 		<English>Bambouk</English>
-		<French>Bambouk</French>
-		<German>Bambouk</German>
-		<Italian>Bambouk</Italian>
-		<Spanish>Bambouk</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KIRINA</Tag>
+		<Russian>&#202;&#232;&#240;&#232;&#237;&#224;</Russian>
 		<English>Kirina</English>
-		<French>Kirina</French>
-		<German>Kirina</German>
-		<Italian>Kirina</Italian>
-		<Spanish>Kirina</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TRABZON</Tag>
+		<Russian>&#210;&#240;&#224;&#225;&#231;&#238;&#237;</Russian>
 		<English>Trabzon</English>
-		<French>Trabzon</French>
-		<German>Trabzon</German>
-		<Italian>Trabzon</Italian>
-		<Spanish>Trabzon</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ERZURUM</Tag>
+		<Russian>&#221;&#240;&#231;&#243;&#240;&#243;&#236;</Russian>
 		<English>Erzurum</English>
-		<French>Erzurum</French>
-		<German>Erzurum</German>
-		<Italian>Erzurum</Italian>
-		<Spanish>Erzurum</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_URFA</Tag>
+		<Russian>&#211;&#240;&#244;&#224;</Russian>
 		<English>Urfa</English>
-		<French>Urfa</French>
-		<German>Urfa</German>
-		<Italian>Urfa</Italian>
-		<Spanish>Urfa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_IZMIT</Tag>
+		<Russian>&#200;&#231;&#236;&#232;&#242;</Russian>
 		<English>Izmit</English>
-		<French>Izmit</French>
-		<German>Izmit</German>
-		<Italian>Izmit</Italian>
-		<Spanish>Izmit</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AFYON</Tag>
+		<Russian>&#192;&#244;&#233;&#238;&#237;</Russian>
 		<English>Afyon</English>
-		<French>Afyon</French>
-		<German>Afyon</German>
-		<Italian>Afyon</Italian>
-		<Spanish>Afyon</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BITLIS</Tag>
+		<Russian>&#193;&#232;&#242;&#235;&#232;&#241;</Russian>
 		<English>Bitlis</English>
-		<French>Bitlis</French>
-		<German>Bitlis</German>
-		<Italian>Bitlis</Italian>
-		<Spanish>Bitlis</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LA_CORUNA</Tag>
+		<Russian>&#203;&#224;-&#202;&#238;&#240;&#243;&#237;&#252;&#255;</Russian>
 		<English>La Coruna</English>
-		<French>La Corogne</French>
-		<German>La Coruña</German>
-		<Italian>La Coruna</Italian>
-		<Spanish>La Coruña</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OVIEDO</Tag>
+		<Russian>&#206;&#226;&#252;&#229;&#228;&#238;</Russian>
 		<English>Oviedo</English>
-		<French>Oviedo</French>
-		<German>Oviedo</German>
-		<Italian>Oviedo</Italian>
-		<Spanish>Oviedo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BILBAO</Tag>
+		<Russian>&#193;&#232;&#235;&#252;&#225;&#224;&#238;</Russian>
 		<English>Bilbao</English>
-		<French>Bilbao</French>
-		<German>Bilbao</German>
-		<Italian>Bilbao</Italian>
-		<Spanish>Bilbao</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SAN_SEBASTIAN</Tag>
+		<Russian>&#209;&#224;&#237;-&#209;&#229;&#225;&#224;&#241;&#242;&#252;&#255;&#237;</Russian>
 		<English>San Sebastian</English>
-		<French>San Sebastian</French>
-		<German>San Sebastian</German>
-		<Italian>San Sebastiano</Italian>
-		<Spanish>San Sebastián</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GRANADA</Tag>
+		<Russian>&#195;&#240;&#224;&#237;&#224;&#228;&#224;</Russian>
 		<English>Granada</English>
-		<French>Grenade</French>
-		<German>Granada</German>
-		<Italian>Granada</Italian>
-		<Spanish>Granada</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MERIDA</Tag>
+		<Russian>&#204;&#229;&#240;&#232;&#228;&#224;</Russian>
 		<English>Merida</English>
-		<French>Mérida</French>
-		<German>Mérida</German>
-		<Italian>Merida</Italian>
-		<Spanish>Mérida</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HUELVA</Tag>
+		<Russian>&#211;&#253;&#235;&#252;&#226;&#224;</Russian>
 		<English>Huelva</English>
-		<French>Huelva</French>
-		<German>Huelva</German>
-		<Italian>Huelva</Italian>
-		<Spanish>Huelva</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_IBIZA</Tag>
+		<Russian>&#200;&#226;&#232;&#241;&#224;</Russian>
 		<English>Ibiza</English>
-		<French>Ibiza</French>
-		<German>Ibiza</German>
-		<Italian>Ibiza</Italian>
-		<Spanish>Ibiza</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAS_PALMAS</Tag>
+		<Russian>&#203;&#224;&#241;-&#207;&#224;&#235;&#252;&#236;&#224;&#241;</Russian>
 		<English>Las Palmas</English>
-		<French>Las Palmas</French>
-		<German>Las Palmas</German>
-		<Italian>Las Palmas</Italian>
-		<Spanish>Las Palmas</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TENERIFE</Tag>
+		<Russian>&#210;&#229;&#237;&#229;&#240;&#232;&#244;&#229;</Russian>
 		<English>Tenerife</English>
-		<French>Tenerife</French>
-		<German>Teneriffa</German>
-		<Italian>Tenerife</Italian>
-		<Spanish>Tenerife</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SICYON</Tag>
+		<Russian>&#209;&#232;&#234;&#232;&#238;&#237;</Russian>
 		<English>Sicyon</English>
-		<French>Sicyone</French>
-		<German>Sikyon</German>
-		<Italian>Sicione</Italian>
-		<Spanish>Sición</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MESSENE</Tag>
+		<Russian>&#204;&#229;&#241;&#241;&#229;&#237;&#224;</Russian>
 		<English>Messene</English>
-		<French>Messène</French>
-		<German>Messene</German>
-		<Italian>Messene</Italian>
-		<Spanish>Mesenia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AMBRACIA</Tag>
+		<Russian>&#192;&#236;&#225;&#240;&#224;&#246;&#232;&#255;</Russian>
 		<English>Ambracia</English>
-		<French>Ambracie</French>
-		<German>Ambracia</German>
-		<Italian>Ambracia</Italian>
-		<Spanish>Ambracia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KNIDOS</Tag>
+		<Russian>&#202;&#237;&#232;&#228;&#238;&#241;</Russian>
 		<English>Knidos</English>
-		<French>Cnide</French>
-		<German>Knidos</German>
-		<Italian>Knidos</Italian>
-		<Spanish>Cnido</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KOS</Tag>
+		<Russian>&#202;&#238;&#241;</Russian>
 		<English>Kos</English>
-		<French>Cos</French>
-		<German>Kos</German>
-		<Italian>Kos</Italian>
-		<Spanish>Cos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ORCHOMENOS</Tag>
+		<Russian>&#206;&#240;&#245;&#238;&#236;&#229;&#237;&#238;&#241;</Russian>
 		<English>Orchomenos</English>
-		<French>Orchomène</French>
-		<German>Orchomenos</German>
-		<Italian>Orchomenos</Italian>
-		<Spanish>Orchomenos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CAHOKIA</Tag>
+		<Russian>&#202;&#224;&#245;&#238;&#234;&#232;&#255;</Russian>
 		<English>Cahokia</English>
-		<French>Cahokia</French>
-		<German>Cahokia</German>
-		<Italian>Cahokia</Italian>
-		<Spanish>Cahokia</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_POVERTY_POINT</Tag>
+		<Russian>&#207;&#238;&#226;&#229;&#240;&#242;&#232;-&#207;&#238;&#233;&#237;&#242;</Russian>
 		<English>Poverty Point</English>
-		<French>Poverty Point</French>
-		<German>Poverty Point</German>
-		<Italian>Poverty Point</Italian>
-		<Spanish>Poverty Point</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MOUND_CITY</Tag>
+		<Russian>&#204;&#224;&#243;&#237;&#228;-&#209;&#232;&#242;&#232;</Russian>
 		<English>Mound City</English>
-		<French>Mound City</French>
-		<German>Mound City</German>
-		<Italian>Mound City</Italian>
-		<Spanish>Mound City</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHACO_CANYON</Tag>
+		<Russian>&#215;&#224;&#234;&#238;</Russian>
 		<English>Chaco Canyon</English>
-		<French>Chaco Canyon</French>
-		<German>Chaco Canyon</German>
-		<Italian>Chaco Canyon</Italian>
-		<Spanish>Chaco Canyon</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MESA_VERDE</Tag>
+		<Russian>&#204;&#229;&#241;&#224;-&#194;&#229;&#240;&#228;&#229;</Russian>
 		<English>Mesa Verde</English>
-		<French>Mesa Verde</French>
-		<German>Mesa Verde</German>
-		<Italian>Mesa Verde</Italian>
-		<Spanish>Mesa Verde</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SNAKETOWN</Tag>
+		<Russian>&#209;&#237;&#253;&#232;&#234;&#242;&#224;&#243;&#237;</Russian>
 		<English>Snaketown</English>
-		<French>Snaketown</French>
-		<German>Snaketown</German>
-		<Italian>Snaketown</Italian>
-		<Spanish>Snaketown</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SPIRO</Tag>
+		<Russian>&#209;&#239;&#232;&#240;&#238;</Russian>
 		<English>Spiro</English>
-		<French>Spiro</French>
-		<German>Spiro</German>
-		<Italian>Spiro</Italian>
-		<Spanish>Spiro</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MOUNDVILLE</Tag>
+		<Russian>&#204;&#224;&#243;&#237;&#228;&#226;&#232;&#235;&#252;</Russian>
 		<English>Moundville</English>
-		<French>Moundville</French>
-		<German>Moundville</German>
-		<Italian>Moundville</Italian>
-		<Spanish>Moundville</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NACOGDOCHES</Tag>
+		<Russian>&#205;&#224;&#234;&#238;&#227;&#228;&#238;&#247;&#229;&#241;</Russian>
 		<English>Nacogdoches</English>
-		<French>Nacogdoches</French>
-		<German>Nacogdoches</German>
-		<Italian>Nacogdoches</Italian>
-		<Spanish>Nacogdoches</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NANIH_WAIYA</Tag>
+		<Russian>&#205;&#232;&#237;&#232;&#245;-&#194;&#224;&#233;&#255;</Russian>
 		<English>Nanih Waiya</English>
-		<French>Nanih Waiya</French>
-		<German>Nanih Waiya</German>
-		<Italian>Nanih Waiya</Italian>
-		<Spanish>Nanih Waiya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANHAICA</Tag>
+		<Russian>&#192;&#237;&#245;&#224;&#232;&#234;&#224;</Russian>
 		<English>Anhaica</English>
-		<French>Anhaica</French>
-		<German>Anhaica</German>
-		<Italian>Anhaica</Italian>
-		<Spanish>Anhaica</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ETOWAH</Tag>
+		<Russian>&#221;&#242;&#238;&#226;&#224;</Russian>
 		<English>Etowah</English>
-		<French>Etowah</French>
-		<German>Etowah</German>
-		<Italian>Etowah</Italian>
-		<Spanish>Etowah</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OCMULGEE</Tag>
+		<Russian>&#206;&#234;&#236;&#224;&#235;&#227;&#232;</Russian>
 		<English>Ocmulgee</English>
-		<French>Ocmulgee</French>
-		<German>Ocmulgee</German>
-		<Italian>Ocmulgee</Italian>
-		<Spanish>Ocmulgee</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KITUHWA</Tag>
+		<Russian>&#202;&#232;&#242;&#243;&#226;&#224;</Russian>
 		<English>Kituhwa</English>
-		<French>Kituhwa</French>
-		<German>Kituhwa</German>
-		<Italian>Kituhwa</Italian>
-		<Spanish>Kituhwa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FORT_ANCIENT</Tag>
+		<Russian>&#212;&#238;&#240;&#242;-&#221;&#233;&#237;&#248;&#229;&#237;&#242;</Russian>
 		<English>Fort Ancient</English>
-		<French>Fort Ancient</French>
-		<German>Fort Ancient</German>
-		<Italian>Fort Ancient</Italian>
-		<Spanish>Fort Ancient</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ONONDAGA</Tag>
+		<Russian>&#206;&#237;&#238;&#237;&#228;&#224;&#227;&#224;</Russian>
 		<English>Onondaga</English>
-		<French>Onondaga</French>
-		<German>Onondaga</German>
-		<Italian>Onondaga</Italian>
-		<Spanish>Onondaga</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BAWATING</Tag>
+		<Russian>&#193;&#224;&#226;&#224;&#242;&#232;&#237;&#227;</Russian>
 		<English>Bawating</English>
-		<French>Bawating</French>
-		<German>Bawating</German>
-		<Italian>Bawating</Italian>
-		<Spanish>Bawating</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ACOMA</Tag>
+		<Russian>&#192;&#234;&#238;&#236;&#224;</Russian>
 		<English>Acoma</English>
-		<French>Acoma</French>
-		<German>Acoma</German>
-		<Italian>Acoma</Italian>
-		<Spanish>Acoma</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAMBE</Tag>
-		<English>Nambé</English>
-		<French>Nambé</French>
-		<German>Nambé</German>
-		<Italian>Nambé</Italian>
-		<Spanish>Nambé</Spanish>
+		<Russian>&#205;&#224;&#236;&#225;&#229;</Russian>
+		<English>Nambe</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HOVENSWEEP</Tag>
+		<Russian>&#213;&#238;&#226;&#229;&#237;&#226;&#232;&#239;</Russian>
 		<English>Hovenweep</English>
-		<French>Hovenweep</French>
-		<German>Hovenweep</German>
-		<Italian>Hovenweep</Italian>
-		<Spanish>Hovenweep</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CASA_GRANDE</Tag>
+		<Russian>&#202;&#224;&#241;&#224;-&#195;&#240;&#224;&#237;&#228;&#229;</Russian>
 		<English>Casa Grande</English>
-		<French>Casa Grande</French>
-		<German>Casa Grande</German>
-		<Italian>Casa Grande</Italian>
-		<Spanish>Casa Grande</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CRIEL</Tag>
+		<Russian>&#202;&#232;&#229;&#235;-&#204;&#224;&#243;&#237;&#228;</Russian>
 		<English>Criel</English>
-		<French>Criel</French>
-		<German>Criel</German>
-		<Italian>Criel</Italian>
-		<Spanish>Criel</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JOARA</Tag>
+		<Russian>&#196;&#230;&#238;&#224;&#240;&#238;</Russian>
 		<English>Joara</English>
-		<French>Joara</French>
-		<German>Joara</German>
-		<Italian>Joara</Italian>
-		<Spanish>Joara</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAKE_JACKSON</Tag>
+		<Russian>&#203;&#229;&#233;&#234;-&#196;&#230;&#229;&#234;&#241;&#238;&#237;</Russian>
 		<English>Lake Jackson</English>
-		<French>Lake Jackson</French>
-		<German>Lake Jackson</German>
-		<Italian>Lake Jackson</Italian>
-		<Spanish>Lake Jackson</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHOTA</Tag>
+		<Russian>&#215;&#238;&#242;&#224;</Russian>
 		<English>Chota</English>
-		<French>Chota</French>
-		<German>Chota</German>
-		<Italian>Chota</Italian>
-		<Spanish>Chota</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ONEIDA</Tag>
+		<Russian>&#206;&#237;&#229;&#232;&#228;&#224;</Russian>
 		<English>Oneida</English>
-		<French>Oneida</French>
-		<German>Oneida</German>
-		<Italian>Oneida</Italian>
-		<Spanish>Oneida</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LOGSTOWN</Tag>
+		<Russian>&#203;&#238;&#227;&#241;&#242;&#224;&#243;&#237;</Russian>
 		<English>Logstown</English>
-		<French>Logstown</French>
-		<German>Logstown</German>
-		<Italian>Logstown</Italian>
-		<Spanish>Logstown</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FIVE_FINGER_RIDGE</Tag>
+		<Russian>&#212;&#224;&#233;&#226;-&#212;&#232;&#237;&#227;&#229;&#240;-&#208;&#232;&#228;&#230;</Russian>
 		<English>Five Finger Ridge</English>
-		<French>Five Finger Ridge</French>
-		<German>Five Finger Ridge</German>
-		<Italian>Five Finger Ridge</Italian>
-		<Spanish>Five Finger Ridge</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FRIJOLES_CANYON</Tag>
+		<Russian>&#212;&#240;&#232;&#245;&#238;&#235;&#229;&#241;-&#202;&#224;&#237;&#252;&#238;&#237;</Russian>
 		<English>Frijoles Canyon</English>
-		<French>Frijoles Canyon</French>
-		<German>Frijoles Canyon</German>
-		<Italian>Frijoles Canyon</Italian>
-		<Spanish>Fríjoles Canyon</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PUYE_CLIFF</Tag>
+		<Russian>&#207;&#254;&#233;&#229;-&#202;&#235;&#232;&#244;&#244;</Russian>
 		<English>Puye Cliff</English>
-		<French>Puye Cliff</French>
-		<German>Puye Cliff</German>
-		<Italian>Puye Cliff</Italian>
-		<Spanish>Puye Cliff</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KIET_SIEL</Tag>
+		<Russian>&#205;&#238;&#226;&#224;&#245;&#238;</Russian>
 		<English>Kiet Siel</English>
-		<French>Kiet Siel</French>
-		<German>Kiet Siel</German>
-		<Italian>Kiet Siel</Italian>
-		<Spanish>Kiet Siel</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MONTEZUMA_CASTLE</Tag>
+		<Russian>&#204;&#238;&#237;&#242;&#229;&#241;&#243;&#236;&#224;-&#202;&#224;&#241;&#242;&#235;</Russian>
 		<English>Montezuma Castle</English>
-		<French>Montezuma Castle</French>
-		<German>Montezuma Castle</German>
-		<Italian>Montezuma Castle</Italian>
-		<Spanish>Montezuma Castle</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WICKLIFFE</Tag>
+		<Russian>&#211;&#232;&#234;&#235;&#232;&#244;&#244;</Russian>
 		<English>Wickliffe</English>
-		<French>Wickliffe</French>
-		<German>Wickliffe</German>
-		<Italian>Wickliffe</Italian>
-		<Spanish>Wickliffe</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AZTALAN</Tag>
+		<Russian>&#192;&#231;&#242;&#224;&#235;&#224;&#237;</Russian>
 		<English>Aztalan</English>
-		<French>Aztalan</French>
-		<German>Aztalan</German>
-		<Italian>Aztalan</Italian>
-		<Spanish>Aztalan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANGEL_MOUNDS</Tag>
+		<Russian>&#221;&#233;&#237;&#228;&#230;&#229;&#235;-&#204;&#224;&#243;&#237;&#228;&#231;</Russian>
 		<English>Angel Mounds</English>
-		<French>Angel Mounds</French>
-		<German>Angel Mounds</German>
-		<Italian>Angel Mounds</Italian>
-		<Spanish>Angel Mounds</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TSIREGE</Tag>
+		<Russian>&#210;&#241;&#232;&#240;&#229;&#227;&#229;</Russian>
 		<English>Tsirege</English>
-		<French>Tsirege</French>
-		<German>Tsirege</German>
-		<Italian>Tsirege</Italian>
-		<Spanish>Tsirege</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAOS</Tag>
+		<Russian>&#210;&#224;&#238;&#241;</Russian>
 		<English>Taos</English>
-		<French>Taos</French>
-		<German>Taos</German>
-		<Italian>Taos</Italian>
-		<Spanish>Taos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ZUNI</Tag>
+		<Russian>&#199;&#243;&#237;&#232;</Russian>
 		<English>Zuni</English>
-		<French>Zuni</French>
-		<German>Zuni</German>
-		<Italian>Zuni</Italian>
-		<Spanish>Zuni</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TISHOMINGO</Tag>
+		<Russian>&#210;&#232;&#248;&#238;&#236;&#232;&#237;&#227;&#238;</Russian>
 		<English>Tishomingo</English>
-		<French>Tishomingo</French>
-		<German>Tishomingo</German>
-		<Italian>Tishomingo</Italian>
-		<Spanish>Tishomingo</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SHAUGAWAUMIKONG</Tag>
+		<Russian>&#216;&#238;&#227;&#224;&#226;&#224;&#243;&#236;&#232;&#234;&#238;&#237;&#227;</Russian>
 		<English>Shaugawaumikong</English>
-		<French>Shaugawaumikong</French>
-		<German>Shaugawaumikong</German>
-		<Italian>Shaugawaumikong</Italian>
-		<Spanish>Shaugawaumikong</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALLUMETTE</Tag>
+		<Russian>&#192;&#235;&#254;&#236;&#229;&#242;&#242;&#229;</Russian>
 		<English>Allumette</English>
-		<French>Allumette</French>
-		<German>Allumette</German>
-		<Italian>Allumette</Italian>
-		<Spanish>Allumette</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WENDAKE</Tag>
+		<Russian>&#194;&#229;&#237;&#228;&#229;&#233;&#234;</Russian>
 		<English>Wendake</English>
-		<French>Wendake</French>
-		<German>Wendake</German>
-		<Italian>Wendake</Italian>
-		<Spanish>Wendake</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NORRIDGEWOCK</Tag>
+		<Russian>&#205;&#238;&#240;&#240;&#232;&#228;&#230;&#229;&#226;&#238;&#234;</Russian>
 		<English>Norridgewock</English>
-		<French>Norridgewock</French>
-		<German>Norridgewock</German>
-		<Italian>Norridgewock</Italian>
-		<Spanish>Norridgewock</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MUTSUN</Tag>
+		<Russian>&#204;&#243;&#242;&#241;&#243;&#237;</Russian>
 		<English>Mutsun</English>
-		<French>Mutsun</French>
-		<German>Mutsun</German>
-		<Italian>Mutsun</Italian>
-		<Spanish>Mutsun</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_OZETTE</Tag>
+		<Russian>&#206;&#231;&#229;&#242;&#242;&#229;</Russian>
 		<English>Ozette</English>
-		<French>Ozette</French>
-		<German>Ozette</German>
-		<Italian>Ozette</Italian>
-		<Spanish>Ozette</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ESTIPAH_SKIKIKINI_KOTS</Tag>
+		<Russian>&#221;&#241;&#242;&#232;&#239;&#224;&#245;-&#241;&#234;&#232;&#234;&#232;&#234;&#232;&#237;&#232;-&#234;&#238;&#242;&#241;</Russian>
 		<English>Estipah-skikikini-kots</English>
-		<French>Estipah-skikikini-kots</French>
-		<German>Estipah-skikikini-kots</German>
-		<Italian>Estipah-skikikini-kots</Italian>
-		<Spanish>Estipah-skikikini-kots</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HUECO_TANKS</Tag>
+		<Russian>&#213;&#243;&#253;&#234;&#238;&#210;&#253;&#237;&#234;&#241;</Russian>
 		<English>Hueco Tanks</English>
-		<French>Hueco Tanks</French>
-		<German>Hueco Tanks</German>
-		<Italian>Hueco Tanks</Italian>
-		<Spanish>Hueco Tanks</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UKPIAGVIK</Tag>
+		<Russian>&#211;&#234;&#239;&#232;&#224;&#227;&#226;&#232;&#234;</Russian>
 		<English>Ukpiagvik</English>
-		<French>Ukpiagvik</French>
-		<German>Ukpiagvik</German>
-		<Italian>Ukpiagvik</Italian>
-		<Spanish>Ukpiagvik</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KETCHIKAN</Tag>
+		<Russian>&#202;&#229;&#242;&#247;&#232;&#234;&#224;&#237;</Russian>
 		<English>Ketchikan</English>
-		<French>Ketchikan</French>
-		<German>Ketchikan</German>
-		<Italian>Ketchikan</Italian>
-		<Spanish>Ketchikan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUUJJUAQ</Tag>
+		<Russian>&#202;&#243;&#243;&#233;&#233;&#243;&#224;&#234;</Russian>
 		<English>Kuujjuaq</English>
-		<French>Kuujjuaq</French>
-		<German>Kuujjuaq</German>
-		<Italian>Kuujjuaq</Italian>
-		<Spanish>Kuujjuaq</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VIJAYANAGARA</Tag>
+		<Russian>&#194;&#232;&#228;&#230;&#224;&#233;&#224;&#237;&#224;&#227;&#224;&#240;&#224;</Russian>
 		<English>Vijayanagara</English>
-		<French>Vijayanagara</French>
-		<German>Vijayanagara</German>
-		<Italian>Vijayanagara</Italian>
-		<Spanish>Vijayanagar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PATALIPUTRA</Tag>
+		<Russian>&#207;&#224;&#242;&#224;&#235;&#232;&#239;&#243;&#242;&#240;&#224;</Russian>
 		<English>Pataliputra</English>
-		<French>Pataliputra</French>
-		<German>Pataliputra</German>
-		<Italian>Pataliputra</Italian>
-		<Spanish>Pataliputra</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AGRA</Tag>
+		<Russian>&#192;&#227;&#240;&#224;</Russian>
 		<English>Agra</English>
-		<French>Agra</French>
-		<German>Agra</German>
-		<Italian>Agra</Italian>
-		<Spanish>Agra</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MADURAI</Tag>
+		<Russian>&#204;&#224;&#228;&#243;&#240;&#224;&#233;</Russian>
 		<English>Madurai</English>
-		<French>Madurai</French>
-		<German>Madurai</German>
-		<Italian>Madurai</Italian>
-		<Spanish>Madurai</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AHMEDABAD</Tag>
+		<Russian>&#192;&#245;&#236;&#224;&#228;&#224;&#225;&#224;&#228;</Russian>
 		<English>Ahmedabad</English>
-		<French>Ahmedabad</French>
-		<German>Ahmedabad</German>
-		<Italian>Ahmedabad</Italian>
-		<Spanish>Ahmedabad</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PRAYAGA</Tag>
+		<Russian>&#207;&#240;&#224;&#255;&#227;&#224;</Russian>
 		<English>Prayaga</English>
-		<French>Prayaga</French>
-		<German>Prayag</German>
-		<Italian>Prayaga</Italian>
-		<Spanish>Prayaga</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AYODHYA</Tag>
+		<Russian>&#192;&#233;&#238;&#228;&#245;&#252;&#255;</Russian>
 		<English>Ayodhya</English>
-		<French>Ayodhya</French>
-		<German>Ayodhya</German>
-		<Italian>Ayodhya</Italian>
-		<Spanish>Ayodhya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_INDRAPRASTHA</Tag>
+		<Russian>&#200;&#237;&#228;&#240;&#224;&#239;&#240;&#224;&#241;&#242;&#245;&#224;</Russian>
 		<English>Indraprastha</English>
-		<French>Indraprastha</French>
-		<German>Indraprastha</German>
-		<Italian>Indraprastha</Italian>
-		<Spanish>Indraprastha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MATHURA</Tag>
+		<Russian>&#204;&#224;&#242;&#245;&#243;&#240;&#224;</Russian>
 		<English>Mathura</English>
-		<French>Mathura</French>
-		<German>Mathura</German>
-		<Italian>Mathura</Italian>
-		<Spanish>Mathura</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_UJJAIN</Tag>
+		<Russian>&#211;&#228;&#230;&#224;&#232;&#237;</Russian>
 		<English>Ujjain</English>
-		<French>Ujjain</French>
-		<German>Ujjain</German>
-		<Italian>Ujjain</Italian>
-		<Spanish>Ujjain</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GULBARGA</Tag>
+		<Russian>&#195;&#243;&#235;&#225;&#224;&#240;&#227;&#224;</Russian>
 		<English>Gulbarga</English>
-		<French>Gulbarga</French>
-		<German>Gulbarga</German>
-		<Italian>Gulbarga</Italian>
-		<Spanish>Gulbarga</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RAJAGRIHA</Tag>
+		<Russian>&#208;&#224;&#228;&#230;&#224;&#227;&#240;&#232;&#245;&#224;</Russian>
 		<English>Rajagriha</English>
-		<French>Rajagriha</French>
-		<German>Rajagriha</German>
-		<Italian>Rajagriha</Italian>
-		<Spanish>Rajagriha</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SRAVASTI</Tag>
+		<Russian>&#209;&#240;&#224;&#226;&#224;&#241;&#242;&#232;</Russian>
 		<English>Sravasti</English>
-		<French>Sravasti</French>
-		<German>Sravasti</German>
-		<Italian>Sravasti</Italian>
-		<Spanish>Sravasti</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TIRUCHIRAPALLI</Tag>
+		<Russian>&#210;&#232;&#240;&#243;&#247;&#232;&#240;&#224;&#239;&#224;&#235;&#235;&#232;</Russian>
 		<English>Tiruchirapalli</English>
-		<French>Tiruchirapalli</French>
-		<German>Tiruchirapalli</German>
-		<Italian>Tiruchirapalli</Italian>
-		<Spanish>Tiruchirapalli</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BODHGAYA</Tag>
+		<Russian>&#193;&#238;&#228;&#245;&#227;&#224;&#233;&#224;</Russian>
 		<English>Bodhgaya</English>
-		<French>Bodhgaya</French>
-		<German>Bodhgaya</German>
-		<Italian>Bodhgaya</Italian>
-		<Spanish>Bodhgaya</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KUSHINAGAR</Tag>
+		<Russian>&#202;&#232;&#248;&#232;&#237;&#224;&#227;&#224;&#240;</Russian>
 		<English>Kushinagar</English>
-		<French>Kushinagar</French>
-		<German>Kushinagar</German>
-		<Italian>Kushinagar</Italian>
-		<Spanish>Kushinagar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AMARAVATI</Tag>
+		<Russian>&#192;&#236;&#224;&#240;&#224;&#226;&#224;&#242;&#232;</Russian>
 		<English>Amaravati</English>
-		<French>Amaravati</French>
-		<German>Amaravati</German>
-		<Italian>Amaravati</Italian>
-		<Spanish>Amaravati</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GAUR</Tag>
+		<Russian>&#195;&#224;&#243;&#240;</Russian>
 		<English>Gaur</English>
-		<French>Gaur</French>
-		<German>Gaur</German>
-		<Italian>Gaur</Italian>
-		<Spanish>Gaur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GWALIOR</Tag>
+		<Russian>&#195;&#226;&#224;&#235;&#232;&#238;&#240;</Russian>
 		<English>Gwalior</English>
-		<French>Gwalior</French>
-		<German>Gwalior</German>
-		<Italian>Gwalior</Italian>
-		<Spanish>Gwalior</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DHAKA</Tag>
+		<Russian>&#196;&#245;&#224;&#234;&#224;</Russian>
 		<English>Dhaka</English>
-		<French>Dhaka</French>
-		<German>Dhaka</German>
-		<Italian>Dhaka</Italian>
-		<Spanish>Dhaka</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JODHPUR</Tag>
+		<Russian>&#201;&#238;&#228;&#245;&#239;&#243;&#240;</Russian>
 		<English>Jodhpur</English>
-		<French>Jodhpur</French>
-		<German>Jodhpur</German>
-		<Italian>Jodhpur</Italian>
-		<Spanish>Jodhpur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_INDORE</Tag>
+		<Russian>&#200;&#237;&#228;&#238;&#240;</Russian>
 		<English>Indore</English>
-		<French>Indore</French>
-		<German>Indore</German>
-		<Italian>Indore</Italian>
-		<Spanish>Indore</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KANPUR</Tag>
+		<Russian>&#202;&#224;&#237;&#239;&#243;&#240;</Russian>
 		<English>Kanpur</English>
-		<French>Kanpur</French>
-		<German>Kanpur</German>
-		<Italian>Kanpur</Italian>
-		<Spanish>Kanpur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAGPUR</Tag>
+		<Russian>&#205;&#224;&#227;&#239;&#243;&#240;</Russian>
 		<English>Nagpur</English>
-		<French>Nagpur</French>
-		<German>Nagpur</German>
-		<Italian>Nagpur</Italian>
-		<Spanish>Nagpur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MULTAN</Tag>
+		<Russian>&#204;&#243;&#235;&#242;&#224;&#237;</Russian>
 		<English>Multan</English>
-		<French>Multan</French>
-		<German>Multan</German>
-		<Italian>Multan</Italian>
-		<Spanish>Multan</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SURAT</Tag>
+		<Russian>&#209;&#243;&#240;&#224;&#242;</Russian>
 		<English>Surat</English>
-		<French>Surat</French>
-		<German>Surat</German>
-		<Italian>Surat</Italian>
-		<Spanish>Surat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BHUBANESHWAR</Tag>
+		<Russian>&#193;&#245;&#243;&#225;&#224;&#237;&#229;&#248;&#226;&#224;&#240;</Russian>
 		<English>Bhubaneshwar</English>
-		<French>Bhubaneshwar</French>
-		<German>Bhubaneshwar</German>
-		<Italian>Bhubaneshwar</Italian>
-		<Spanish>Bhubaneshwar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TAMRALIPTA</Tag>
+		<Russian>&#210;&#224;&#236;&#240;&#224;&#235;&#232;&#239;&#242;&#224;</Russian>
 		<English>Tamralipta</English>
-		<French>Tamralipta</French>
-		<German>Tamralipta</German>
-		<Italian>Tamralipta</Italian>
-		<Spanish>Tamralipta</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VIJAYAWADA</Tag>
+		<Russian>&#194;&#232;&#228;&#230;&#224;&#233;&#224;&#226;&#224;&#228;&#224;</Russian>
 		<English>Vijayawada</English>
-		<French>Vijayawada</French>
-		<German>Vijayawada</German>
-		<Italian>Vijayawada</Italian>
-		<Spanish>Vijayawada</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MYSORE</Tag>
+		<Russian>&#204;&#224;&#233;&#241;&#243;&#240;</Russian>
 		<English>Mysore</English>
-		<French>Mysore</French>
-		<German>Mysore</German>
-		<Italian>Mysore</Italian>
-		<Spanish>Mysore</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SRIRANGAPATNA</Tag>
+		<Russian>&#209;&#240;&#232;&#240;&#224;&#237;&#227;&#224;&#239;&#224;&#242;&#242;&#224;&#237;</Russian>
 		<English>Srirangapatna</English>
-		<French>Srirangapatna</French>
-		<German>Srirangapatna</German>
-		<Italian>Srirangapatna</Italian>
-		<Spanish>Srirangapatna</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AMRITSAR</Tag>
+		<Russian>&#192;&#236;&#240;&#232;&#242;&#241;&#224;&#240;</Russian>
 		<English>Amritsar</English>
-		<French>Amritsar</French>
-		<German>Amritsar</German>
-		<Italian>Amritsar</Italian>
-		<Spanish>Amritsar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SRINAGAR</Tag>
+		<Russian>&#209;&#240;&#232;&#237;&#224;&#227;&#224;&#240;</Russian>
 		<English>Srinagar</English>
-		<French>Srinagar</French>
-		<German>Srinagar</German>
-		<Italian>Srinagar</Italian>
-		<Spanish>Srinagar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CAMBAY</Tag>
+		<Russian>&#202;&#253;&#236;&#225;&#229;&#233;</Russian>
 		<English>Cambay</English>
-		<French>Cambay</French>
-		<German>Cambay</German>
-		<Italian>Cambay</Italian>
-		<Spanish>Cambay</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ANHILWARA</Tag>
+		<Russian>&#192;&#237;&#245;&#232;&#235;&#226;&#224;&#240;&#224;</Russian>
 		<English>Anhilwara</English>
-		<French>Anhilwara</French>
-		<German>Anhilwara</German>
-		<Italian>Anhilwara</Italian>
-		<Spanish>Anhilwara</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PAHARPUR</Tag>
+		<Russian>&#207;&#224;&#245;&#224;&#240;&#239;&#243;&#240;</Russian>
 		<English>Paharpur</English>
-		<French>Paharpur</French>
-		<German>Paharpur</German>
-		<Italian>Paharpur</Italian>
-		<Spanish>Paharpur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MAHASTHANGARH</Tag>
+		<Russian>&#204;&#224;&#245;&#224;&#241;&#242;&#224;&#237;&#227;&#224;&#240;&#245;</Russian>
 		<English>Mahasthangarh</English>
-		<French>Mahasthangarh</French>
-		<German>Mahasthangarh</German>
-		<Italian>Mahasthangarh</Italian>
-		<Spanish>Mahasthangarh</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GANGAI_KONDA_CHOLAPURAM</Tag>
+		<Russian>&#195;&#224;&#237;&#227;&#224;&#232;-&#202;&#238;&#237;&#228;&#224;-&#215;&#238;&#235;&#224;&#239;&#243;&#240;&#224;&#236;</Russian>
 		<English>Gangai Konda Cholapuram</English>
-		<French>Gangai Konda Cholapuram</French>
-		<German>Gangai Konda Cholapuram</German>
-		<Italian>Gangai Konda Cholapuram</Italian>
-		<Spanish>Gangai Konda Cholapuram</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KANCHI</Tag>
+		<Russian>&#202;&#224;&#237;&#247;&#232;</Russian>
 		<English>Kanchi</English>
-		<French>Kanchi</French>
-		<German>Kanchi</German>
-		<Italian>Kanchi</Italian>
-		<Spanish>Kanchi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAGAPATTINAM</Tag>
+		<Russian>&#205;&#224;&#227;&#224;&#239;&#224;&#242;&#242;&#232;&#237;&#224;&#236;</Russian>
 		<English>Nagapattinam</English>
-		<French>Nagapattinam</French>
-		<German>Nagapattinam</German>
-		<Italian>Nagapattinam</Italian>
-		<Spanish>Nagapattinam</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KAVERIPATTINAM</Tag>
+		<Russian>&#202;&#224;&#226;&#229;&#240;&#232;&#239;&#224;&#242;&#242;&#232;&#237;&#224;&#236;</Russian>
 		<English>Kaveripattinam</English>
-		<French>Kaveripattinam</French>
-		<German>Kaveripattinam</German>
-		<Italian>Kaveripattinam</Italian>
-		<Spanish>Kaveripattinam</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KALYANI</Tag>
+		<Russian>&#202;&#224;&#235;&#233;&#224;&#237;&#232;</Russian>
 		<English>Kalyani</English>
-		<French>Kalyani</French>
-		<German>Kalyani</German>
-		<Italian>Kalyani</Italian>
-		<Spanish>Kalyani</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DHARWAD</Tag>
+		<Russian>&#196;&#245;&#224;&#240;&#226;&#224;&#228;</Russian>
 		<English>Dharwad</English>
-		<French>Dharwad</French>
-		<German>Dharwad</German>
-		<Italian>Dharwad</Italian>
-		<Spanish>Dharwad</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SALEM</Tag>
+		<Russian>&#209;&#224;&#235;&#229;&#236;</Russian>
 		<English>Salem</English>
-		<French>Salem</French>
-		<German>Salem</German>
-		<Italian>Salem</Italian>
-		<Spanish>Salem</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_COIMBATORE</Tag>
+		<Russian>&#202;&#238;&#255;&#236;&#239;&#243;&#242;&#242;&#243;&#240;</Russian>
 		<English>Coimbatore</English>
-		<French>Coimbatore</French>
-		<German>Coimbatore</German>
-		<Italian>Coimbatore</Italian>
-		<Spanish>Coimbatore</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MASULIPATNAM</Tag>
+		<Russian>&#204;&#224;&#241;&#243;&#235;&#232;&#239;&#224;&#242;&#237;&#224;&#236;</Russian>
 		<English>Masulipatnam</English>
-		<French>Masulipatnam</French>
-		<German>Masulipatnam</German>
-		<Italian>Masulipatnam</Italian>
-		<Spanish>Masulipatnam</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BIDAR</Tag>
+		<Russian>&#193;&#232;&#228;&#224;&#240;</Russian>
 		<English>Bidar</English>
-		<French>Bidar</French>
-		<German>Bidar</German>
-		<Italian>Bidar</Italian>
-		<Spanish>Bidar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GOLCONDA</Tag>
+		<Russian>&#195;&#238;&#235;&#234;&#238;&#237;&#228;&#224;</Russian>
 		<English>Golconda</English>
-		<French>Golconda</French>
-		<German>Golconda</German>
-		<Italian>Golconda</Italian>
-		<Spanish>Golconda</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ELLICHPUR</Tag>
+		<Russian>&#200;&#235;&#232;&#247;&#239;&#243;&#240;</Russian>
 		<English>Ellichpur</English>
-		<French>Ellichpur</French>
-		<German>Ellichpur</German>
-		<Italian>Ellichpur</Italian>
-		<Spanish>Ellichpur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WARANGAL</Tag>
+		<Russian>&#194;&#224;&#240;&#224;&#237;&#227;&#224;&#235;</Russian>
 		<English>Warangal</English>
-		<French>Warangal</French>
-		<German>Warangal</German>
-		<Italian>Warangal</Italian>
-		<Spanish>Warangal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HALEBID</Tag>
+		<Russian>&#213;&#224;&#235;&#229;&#225;&#232;&#228;</Russian>
 		<English>Halebid</English>
-		<French>Halebid</French>
-		<German>Halebid</German>
-		<Italian>Halebid</Italian>
-		<Spanish>Halebid</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PRATISHTHANA</Tag>
+		<Russian>&#207;&#240;&#224;&#242;&#232;&#248;&#242;&#245;&#224;&#237;&#224;</Russian>
 		<English>Pratishthana</English>
-		<French>Pratishthana</French>
-		<German>Pratishthana</German>
-		<Italian>Pratishthana</Italian>
-		<Spanish>Pratishthana</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BIJAPUR</Tag>
+		<Russian>&#193;&#232;&#228;&#230;&#224;&#239;&#243;&#240;</Russian>
 		<English>Bijapur</English>
-		<French>Bijapur</French>
-		<German>Bijapur</German>
-		<Italian>Bijapur</Italian>
-		<Spanish>Bijapur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SOLAPUR</Tag>
+		<Russian>&#209;&#238;&#235;&#224;&#239;&#243;&#240;</Russian>
 		<English>Solapur</English>
-		<French>Solapur</French>
-		<German>Solapur</German>
-		<Italian>Solapur</Italian>
-		<Spanish>Solapur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BHARUCH</Tag>
+		<Russian>&#193;&#245;&#224;&#240;&#243;&#247;</Russian>
 		<English>Bharuch</English>
-		<French>Bharuch</French>
-		<German>Bharuch</German>
-		<Italian>Bharuch</Italian>
-		<Spanish>Bharuch</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MANGALORE</Tag>
+		<Russian>&#204;&#224;&#237;&#227;&#224;&#235;&#243;&#240;</Russian>
 		<English>Mangalore</English>
-		<French>Mangalore</French>
-		<German>Mangalore</German>
-		<Italian>Mangalore</Italian>
-		<Spanish>Mangalore</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DHAR</Tag>
+		<Russian>&#196;&#245;&#224;&#240;</Russian>
 		<English>Dhar</English>
-		<French>Dhar</French>
-		<German>Dhar</German>
-		<Italian>Dhar</Italian>
-		<Spanish>Dhar</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_AMBER</Tag>
+		<Russian>&#192;&#236;&#225;&#229;&#240;</Russian>
 		<English>Amber</English>
-		<French>Amber</French>
-		<German>Amber</German>
-		<Italian>Amber</Italian>
-		<Spanish>Amber</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHITTOR</Tag>
+		<Russian>&#215;&#232;&#242;&#242;&#238;&#240;</Russian>
 		<English>Chittor</English>
-		<French>Chittor</French>
-		<German>Chittor</German>
-		<Italian>Chittor</Italian>
-		<Spanish>Chittor</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BADORA</Tag>
+		<Russian>&#193;&#224;&#228;&#238;&#240;&#224;</Russian>
 		<English>Badora</English>
-		<French>Badora</French>
-		<German>Badora</German>
-		<Italian>Badora</Italian>
-		<Spanish>Badora</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KALPI</Tag>
+		<Russian>&#202;&#224;&#235;&#239;&#232;</Russian>
 		<English>Kalpi</English>
-		<French>Kalpi</French>
-		<German>Kalpi</German>
-		<Italian>Kalpi</Italian>
-		<Spanish>Kalpi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BELUR</Tag>
+		<Russian>&#193;&#229;&#235;&#243;&#240;</Russian>
 		<English>Belur</English>
-		<French>Belur</French>
-		<German>Belur</German>
-		<Italian>Belur</Italian>
-		<Spanish>Belur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAINITAL</Tag>
+		<Russian>&#205;&#224;&#233;&#237;&#232;&#242;&#224;&#235;</Russian>
 		<English>Nainital</English>
-		<French>Nainital</French>
-		<German>Nainital</German>
-		<Italian>Nainital</Italian>
-		<Spanish>Nainital</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JABALPUR</Tag>
+		<Russian>&#196;&#230;&#224;&#225;&#224;&#235;&#239;&#243;&#240;</Russian>
 		<English>Jabalpur</English>
-		<French>Jabalpur</French>
-		<German>Jabalpur</German>
-		<Italian>Jabalpur</Italian>
-		<Spanish>Jabalpur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RANCHI</Tag>
+		<Russian>&#208;&#224;&#237;&#247;&#232;</Russian>
 		<English>Ranchi</English>
-		<French>Ranchi</French>
-		<German>Ranchi</German>
-		<Italian>Ranchi</Italian>
-		<Spanish>Ranchi</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RAIPUR</Tag>
+		<Russian>&#208;&#224;&#233;&#239;&#243;&#240;</Russian>
 		<English>Raipur</English>
-		<French>Raipur</French>
-		<German>Raipur</German>
-		<Italian>Raipur</Italian>
-		<Spanish>Raipur</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BOGRA</Tag>
+		<Russian>&#193;&#238;&#227;&#240;&#224;</Russian>
 		<English>Bogra</English>
-		<French>Bogra</French>
-		<German>Bogra</German>
-		<Italian>Bogra</Italian>
-		<Spanish>Bogra</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_IMPHAL</Tag>
+		<Russian>&#200;&#236;&#239;&#245;&#224;&#235;</Russian>
 		<English>Imphal</English>
-		<French>Imphal</French>
-		<German>Imphal</German>
-		<Italian>Imphal</Italian>
-		<Spanish>Imphal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CHANDIGARH</Tag>
+		<Russian>&#215;&#224;&#237;&#228;&#232;&#227;&#224;&#240;&#245;</Russian>
 		<English>Chandigarh</English>
-		<French>Chandigarh</French>
-		<German>Chandigarh</German>
-		<Italian>Chandigarh</Italian>
-		<Spanish>Chandigarh</Spanish>
 	</TEXT>
 </Civ4GameText>
