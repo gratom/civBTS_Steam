@@ -1,0 +1,6 @@
+Version=11
+BeginGame
+	Description=TXT_KEY_NEXT_WAR_EPIC_WB_DESC
+	ModPath=Mods\Next War\
+	Random=1
+EndGame

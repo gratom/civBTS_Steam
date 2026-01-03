@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by XMLSPY 2004 Professional Ed. Release 2, Installed Multi + SMP for 3 users (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!--Please place any new text entries into this file-->
+	<TEXT>
+		<Tag>TXT_AI_ATTITUDE_WEIGHT</Tag>
+		<Russian>&#202;&#238;&#253;&#244;&#244;&#232;&#246;&#232;&#229;&#237;&#242;</Russian>
+		<English>AI Attitude Weight</English>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,10911 @@
+Version=11
+BeginGame
+	SyncRandSeed=177296188
+	Tutorial=0
+	Speed=GAMESPEED_NORMAL
+	Handicap=HANDICAP_NOBLE
+	Calendar=CALENDAR_DEFAULT
+	GameTurn=0
+	Description=
+	ModPath=
+EndGame
+BeginTeam
+	Tech=TECH_MYSTICISM
+	Tech=TECH_MEDITATION
+	Tech=TECH_POLYTHEISM
+	Tech=TECH_PRIESTHOOD
+	Tech=TECH_MONOTHEISM
+	Tech=TECH_MONARCHY
+	Tech=TECH_LITERATURE
+	Tech=TECH_CODE_OF_LAWS
+	Tech=TECH_DRAMA
+	Tech=TECH_FEUDALISM
+	Tech=TECH_THEOLOGY
+	Tech=TECH_MUSIC
+	Tech=TECH_CIVIL_SERVICE
+	Tech=TECH_GUILDS
+	Tech=TECH_DIVINE_RIGHT
+	Tech=TECH_NATIONALISM
+	Tech=TECH_MILITARY_TRADITION
+	Tech=TECH_CONSTITUTION
+	Tech=TECH_LIBERALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CORPORATION
+	Tech=TECH_FASCISM
+	Tech=TECH_UTOPIA
+	Tech=TECH_MASS_MEDIA
+	Tech=TECH_ECOLOGY
+	Tech=TECH_FISHING
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_POTTERY
+	Tech=TECH_SAILING
+	Tech=TECH_WRITING
+	Tech=TECH_MATHEMATICS
+	Tech=TECH_ALPHABET
+	Tech=TECH_CALENDAR
+	Tech=TECH_CURRENCY
+	Tech=TECH_PHILOSOPHY
+	Tech=TECH_PAPER
+	Tech=TECH_BANKING
+	Tech=TECH_EDUCATION
+	Tech=TECH_PRINTING_PRESS
+	Tech=TECH_ECONOMICS
+	Tech=TECH_ASTRONOMY
+	Tech=TECH_CHEMISTRY
+	Tech=TECH_SCIENTIFIC_METHOD
+	Tech=TECH_PHYSICS
+	Tech=TECH_BIOLOGY
+	Tech=TECH_MEDICINE
+	Tech=TECH_ELECTRICITY
+	Tech=TECH_COMBUSTION
+	Tech=TECH_FISSION
+	Tech=TECH_FLIGHT
+	Tech=TECH_PLASTICS
+	Tech=TECH_COMPOSITES
+	Tech=TECH_GENETICS
+	Tech=TECH_FIBER_OPTICS
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
+	Tech=TECH_ARCHERY
+	Tech=TECH_MASONRY
+	Tech=TECH_ANIMAL_HUSBANDRY
+	Tech=TECH_BRONZE_WORKING
+	Tech=TECH_HORSEBACK_RIDING
+	Tech=TECH_IRON_WORKING
+	Tech=TECH_METAL_CASTING
+	Tech=TECH_COMPASS
+	Tech=TECH_CONSTRUCTION
+	Tech=TECH_MACHINERY
+	Tech=TECH_ENGINEERING
+	Tech=TECH_OPTICS
+	Tech=TECH_GUNPOWDER
+	Tech=TECH_REPLACEABLE_PARTS
+	Tech=TECH_RIFLING
+	Tech=TECH_STEAM_POWER
+	Tech=TECH_STEEL
+	Tech=TECH_ASSEMBLY_LINE
+	Tech=TECH_RAILROAD
+	Tech=TECH_INDUSTRIALISM
+	Tech=TECH_RADIO
+	Tech=TECH_REFRIGERATION
+	Tech=TECH_COMPUTERS
+	Tech=TECH_ROCKETRY
+	Tech=TECH_SATELLITES
+	Tech=TECH_ROBOTICS
+	AtWar=1
+EndTeam
+BeginTeam
+	Tech=TECH_MYSTICISM
+	Tech=TECH_MEDITATION
+	Tech=TECH_POLYTHEISM
+	Tech=TECH_PRIESTHOOD
+	Tech=TECH_MONOTHEISM
+	Tech=TECH_MONARCHY
+	Tech=TECH_LITERATURE
+	Tech=TECH_CODE_OF_LAWS
+	Tech=TECH_DRAMA
+	Tech=TECH_FEUDALISM
+	Tech=TECH_THEOLOGY
+	Tech=TECH_MUSIC
+	Tech=TECH_CIVIL_SERVICE
+	Tech=TECH_GUILDS
+	Tech=TECH_DIVINE_RIGHT
+	Tech=TECH_NATIONALISM
+	Tech=TECH_MILITARY_TRADITION
+	Tech=TECH_CONSTITUTION
+	Tech=TECH_LIBERALISM
+	Tech=TECH_DEMOCRACY
+	Tech=TECH_CORPORATION
+	Tech=TECH_FASCISM
+	Tech=TECH_UTOPIA
+	Tech=TECH_MASS_MEDIA
+	Tech=TECH_FISHING
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_POTTERY
+	Tech=TECH_SAILING
+	Tech=TECH_WRITING
+	Tech=TECH_MATHEMATICS
+	Tech=TECH_ALPHABET
+	Tech=TECH_CALENDAR
+	Tech=TECH_CURRENCY
+	Tech=TECH_PHILOSOPHY
+	Tech=TECH_PAPER
+	Tech=TECH_BANKING
+	Tech=TECH_EDUCATION
+	Tech=TECH_PRINTING_PRESS
+	Tech=TECH_ECONOMICS
+	Tech=TECH_ASTRONOMY
+	Tech=TECH_CHEMISTRY
+	Tech=TECH_SCIENTIFIC_METHOD
+	Tech=TECH_PHYSICS
+	Tech=TECH_BIOLOGY
+	Tech=TECH_ELECTRICITY
+	Tech=TECH_COMBUSTION
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
+	Tech=TECH_ARCHERY
+	Tech=TECH_MASONRY
+	Tech=TECH_ANIMAL_HUSBANDRY
+	Tech=TECH_BRONZE_WORKING
+	Tech=TECH_HORSEBACK_RIDING
+	Tech=TECH_IRON_WORKING
+	Tech=TECH_METAL_CASTING
+	Tech=TECH_COMPASS
+	Tech=TECH_CONSTRUCTION
+	Tech=TECH_MACHINERY
+	Tech=TECH_ENGINEERING
+	Tech=TECH_OPTICS
+	Tech=TECH_GUNPOWDER
+	Tech=TECH_REPLACEABLE_PARTS
+	Tech=TECH_RIFLING
+	Tech=TECH_STEAM_POWER
+	Tech=TECH_STEEL
+	Tech=TECH_ASSEMBLY_LINE
+	Tech=TECH_RAILROAD
+	Tech=TECH_RADIO
+	AtWar=0
+	AtWar=2
+	AtWar=3
+	AtWar=4
+	AtWar=5
+	AtWar=6
+	AtWar=7
+	AtWar=8
+	AtWar=9
+	AtWar=10
+	AtWar=11
+	AtWar=12
+	AtWar=13
+	AtWar=14
+	AtWar=15
+	AtWar=16
+	AtWar=17
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginTeam
+	AtWar=1
+EndTeam
+BeginPlayer
+	CivDesc=Chinese Empire
+	CivShortDesc=China
+	LeaderName=Qin Shi Huang
+	CivAdjective=Chinese
+	Handicap=HANDICAP_NOBLE
+	LeaderType=LEADER_QIN_SHI_HUANG
+	CivType=CIVILIZATION_CHINA
+	PlayableCiv=1
+	MinorNationStatus=0
+	Team=0
+EndPlayer
+BeginPlayer
+	CivDesc=Egyptian Empire
+	CivShortDesc=Egypt
+	LeaderName=Hatshepsut
+	CivAdjective=Egyptian
+	Handicap=HANDICAP_NOBLE
+	LeaderType=LEADER_HATSHEPSUT
+	CivType=CIVILIZATION_EGYPT
+	PlayableCiv=1
+	MinorNationStatus=1
+	Team=1
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=2
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=3
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=4
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=5
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=6
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=7
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=8
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=9
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=10
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=11
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=12
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=13
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=14
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=15
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=16
+EndPlayer
+BeginPlayer
+	CivDesc=
+	CivShortDesc=
+	LeaderName=
+	CivAdjective=
+	LeaderType=NONE
+	CivType=NONE
+	Team=17
+EndPlayer
+BeginMap
+	grid width=52
+	grid height=32
+	wrap X=1
+	wrap Y=0
+	world size=WORLDSIZE_TINY
+	climate=CLIMATE_TEMPERATE
+	sealevel=SEALEVEL_MEDIUM
+	num plots written=1664
+EndMap
+
+### Plot Info ###
+BeginPlot
+	x=0,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=21
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=15
+	BonusType=BONUS_CLAM
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=19
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=20
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=21
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=4
+	BonusType=BONUS_COPPER
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=1
+EndPlot
+BeginPlot
+	x=5,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=7
+	BonusType=BONUS_OIL
+	ImprovementType=IMPROVEMENT_OFFSHORE_PLATFORM
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=5,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=19
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=5,y=20
+	RiverNSDirection=0
+	isWOfRiver
+	BonusType=BONUS_WINE
+	ImprovementType=IMPROVEMENT_WINERY
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=5,y=21
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=5
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_TRANSPORT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GUNSHIP, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GUNSHIP, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_BARRAGE1
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Canton
+		CityPopulation=13
+		CityCulture=1591
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_OBELISK
+		BuildingType=BUILDING_MARKET
+	EndCity
+EndPlot
+BeginPlot
+	x=6,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=10
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=11
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=15
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=6,y=16
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=6,y=17
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=18
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=19
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=20
+	isNOfRiver
+	RiverWEDirection=3
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=21
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=6,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=24
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=26
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=27
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=28
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=6
+	BonusType=BONUS_MARBLE
+	ImprovementType=IMPROVEMENT_QUARRY
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
+EndPlot
+BeginPlot
+	x=7,y=7
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=7,y=8
+	BonusType=BONUS_CLAM
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=10
+	BonusType=BONUS_IVORY
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=12
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=13
+	ImprovementType=IMPROVEMENT_FARM
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=14
+	isNOfRiver
+	RiverWEDirection=3
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=7,y=15
+	BonusType=BONUS_SUGAR
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=16
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=17
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=7,y=18
+	BonusType=BONUS_BANANA
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=19
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_FIGHTER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_RAIDER1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Nanking
+		CityPopulation=24
+		CityCulture=15761
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_CASTLE
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_RECYCLING_CENTER
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_HYDRO_PLANT
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_LABORATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_SUPERMARKET
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_JEWISH_TEMPLE
+		BuildingType=BUILDING_JEWISH_CATHEDRAL
+		BuildingType=BUILDING_HINDU_TEMPLE
+		BuildingType=BUILDING_HINDU_MONASTERY
+		BuildingType=BUILDING_HERMITAGE
+		BuildingType=BUILDING_WALL_STREET
+		BuildingType=BUILDING_GREAT_LIBRARY
+		BuildingType=BUILDING_NOTRE_DAME
+		BuildingType=BUILDING_EIFFEL_TOWER
+		BuildingType=BUILDING_ROCKNROLL
+	EndCity
+EndPlot
+BeginPlot
+	x=7,y=20
+	isNOfRiver
+	RiverWEDirection=3
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=21
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=22
+	BonusType=BONUS_COAL
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=7,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=0
+EndPlot
+BeginPlot
+	x=7,y=24
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=26
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=27
+	BonusType=BONUS_DEER
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_TRANSPORT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Anyang
+		CityPopulation=2
+		CityCulture=1026
+	EndCity
+EndPlot
+BeginPlot
+	x=7,y=28
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=6
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=8,y=7
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=9
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_MACHINE_GUN, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_DRILL1
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Beijing
+		CityPopulation=21
+		CityCulture=38396
+		BuildingType=BUILDING_PALACE
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_RECYCLING_CENTER
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_DRYDOCK
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_LABORATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_JEWISH_TEMPLE
+		BuildingType=BUILDING_JEWISH_CATHEDRAL
+		BuildingType=BUILDING_JEWISH_MONASTERY
+		BuildingType=BUILDING_HINDU_TEMPLE
+		BuildingType=BUILDING_HINDU_CATHEDRAL
+		BuildingType=BUILDING_HINDU_MONASTERY
+		BuildingType=BUILDING_HINDU_SHRINE
+		BuildingType=BUILDING_OXFORD_UNIVERSITY
+		BuildingType=BUILDING_MT_RUSHMORE
+		BuildingType=BUILDING_GREAT_LIGHTHOUSE
+		BuildingType=BUILDING_COLOSSUS
+		BuildingType=BUILDING_PARTHENON
+		BuildingType=BUILDING_HAGIA_SOPHIA
+		BuildingType=BUILDING_TAJ_MAHAL
+	EndCity
+EndPlot
+BeginPlot
+	x=8,y=10
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=12
+	BonusType=BONUS_IRON
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=13
+	ImprovementType=IMPROVEMENT_FARM
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=14
+	isNOfRiver
+	RiverWEDirection=3
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_FIGHTER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=9, Experience=6
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=9, Experience=6
+		PromotionType=PROMOTION_BARRAGE1
+		PromotionType=PROMOTION_BARRAGE2
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Tsingtao
+		CityPopulation=21
+		CityCulture=11800
+		BuildingType=BUILDING_VERSAILLES
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_CASTLE
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_RECYCLING_CENTER
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_HYDRO_PLANT
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_SUPERMARKET
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_JEWISH_TEMPLE
+		BuildingType=BUILDING_CHRISTIAN_TEMPLE
+		BuildingType=BUILDING_CHRISTIAN_CATHEDRAL
+		BuildingType=BUILDING_GLOBE_THEATRE
+		BuildingType=BUILDING_SISTINE_CHAPEL
+	EndCity
+EndPlot
+BeginPlot
+	x=8,y=15
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=8,y=16
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=17
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=18
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=19
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=8,y=20
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=21
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=22
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=8,y=23
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=24
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=25
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=8,y=26
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=27
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=28
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=7
+	BonusType=BONUS_COW
+	ImprovementType=IMPROVEMENT_PASTURE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=9
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=9,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=12
+	RiverNSDirection=0
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=13
+	RiverNSDirection=0
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=14
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=15
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=9,y=16
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=9,y=17
+	BonusType=BONUS_ALUMINUM
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=9,y=18
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=19
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=9,y=20
+	BonusType=BONUS_COPPER
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=21
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=22
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=23
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=24
+	BonusType=BONUS_ALUMINUM
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=9,y=25
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=26
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=27
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=7
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=9
+	BonusType=BONUS_SPICES
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=10
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=10,y=12
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=13
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=14
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=15
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_WATERMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=16
+	RiverNSDirection=2
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=17
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=18
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=19
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=10,y=20
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=21
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=22
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=23
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=24
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=25
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_MACHINE_GUN, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Cherokee
+		CityPopulation=13
+		CityCulture=2453
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_HOSPITAL
+		BuildingType=BUILDING_RECYCLING_CENTER
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_LABORATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_TAOIST_TEMPLE
+		BuildingType=BUILDING_IRON_WORKS
+		BuildingType=BUILDING_SCOTLAND_YARD
+		BuildingType=BUILDING_HOLLYWOOD
+		BuildingType=BUILDING_PENTAGON
+		BuildingType=BUILDING_UNITED_NATIONS
+	EndCity
+EndPlot
+BeginPlot
+	x=10,y=26
+	BonusType=BONUS_SHEEP
+	ImprovementType=IMPROVEMENT_PASTURE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=27
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=28
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=9
+	FeatureType=FEATURE_OASIS, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=10
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=11
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=11,y=12
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=13
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=14
+	BonusType=BONUS_SILK
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=15
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=11,y=16
+	BonusType=BONUS_GEMS
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=17
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=18
+	RiverNSDirection=2
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_WATERMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=19
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=11,y=20
+	BonusType=BONUS_COW
+	ImprovementType=IMPROVEMENT_PASTURE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=21
+	ImprovementType=IMPROVEMENT_VILLAGE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=22
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MARINE, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_AMPHIBIOUS
+	EndUnit
+EndPlot
+BeginPlot
+	x=11,y=23
+	BonusType=BONUS_GOLD
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=11,y=24
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=25
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=26
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=27
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
+EndPlot
+BeginPlot
+	x=11,y=28
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	BeginUnit
+		UnitType=UNIT_DESTROYER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=12,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=8
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=12,y=9
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=10
+	BonusType=BONUS_URANIUM
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=12
+	BonusType=BONUS_COAL
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=12,y=13
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=12,y=14
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MODERN_ARMOR, UnitOwner=0
+		Level=9, Experience=6
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_COMBAT2
+		PromotionType=PROMOTION_BLITZ
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GUNSHIP, UnitOwner=0
+		Level=9, Experience=6
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_PINCH
+	EndUnit
+EndPlot
+BeginPlot
+	x=12,y=15
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=16
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_DRILL1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_BARRAGE1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WAR_ELEPHANT, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Shanghai
+		CityPopulation=14
+		CityCulture=3727
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_HYDRO_PLANT
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_OBELISK
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_LABORATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_JEWISH_TEMPLE
+		BuildingType=BUILDING_CHRISTIAN_TEMPLE
+	EndCity
+EndPlot
+BeginPlot
+	x=12,y=17
+	ImprovementType=IMPROVEMENT_WATERMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=18
+	ImprovementType=IMPROVEMENT_WATERMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=19
+	isNOfRiver
+	RiverWEDirection=3
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=20
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=9, Experience=6
+		PromotionType=PROMOTION_MARCH
+		PromotionType=PROMOTION_CITY_GARRISON1
+		PromotionType=PROMOTION_CITY_GARRISON2
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=2
+		PromotionType=PROMOTION_WOODSMAN1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Hangchow
+		CityPopulation=14
+		CityCulture=3648
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_BUNKER
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_HINDU_TEMPLE
+		BuildingType=BUILDING_HINDU_CATHEDRAL
+	EndCity
+EndPlot
+BeginPlot
+	x=12,y=21
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=12,y=22
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=12,y=23
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=12,y=24
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=25
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=26
+	BonusType=BONUS_FUR
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=27
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=28
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=10
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_WORKBOAT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Tientsin
+		CityPopulation=9
+		CityCulture=889
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_DRYDOCK
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_LABORATORY
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_JEWISH_TEMPLE
+	EndCity
+EndPlot
+BeginPlot
+	x=13,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_KNIGHT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=13,y=12
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=13
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=14
+	BonusType=BONUS_DYE
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=15
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=13,y=16
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=17
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=18
+	BonusType=BONUS_IVORY
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=19
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=13,y=20
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=21
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=22
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=23
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=24
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=13,y=25
+	BonusType=BONUS_FUR
+	ImprovementType=IMPROVEMENT_CAMP
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
+EndPlot
+BeginPlot
+	x=13,y=26
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=27
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=1
+EndPlot
+BeginPlot
+	x=13,y=28
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=29
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=13
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=14
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=15
+	BonusType=BONUS_DYE
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=16
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=17
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=18
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=19
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=20
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=21
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=22
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=23
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=14,y=24
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=25
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
+EndPlot
+BeginPlot
+	x=14,y=26
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=27
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=1
+EndPlot
+BeginPlot
+	x=14,y=28
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=6, Experience=2
+		PromotionType=PROMOTION_BARRAGE1
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Kaifeng
+		CityPopulation=5
+		CityCulture=682
+	EndCity
+EndPlot
+BeginPlot
+	x=14,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=14
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=15,y=15
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Macao
+		CityPopulation=8
+		CityCulture=1060
+		BuildingType=BUILDING_LIGHTHOUSE
+	EndCity
+EndPlot
+BeginPlot
+	x=15,y=16
+	ImprovementType=IMPROVEMENT_WORKSHOP
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=17
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=18
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=19
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=15,y=20
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=15,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WAR_ELEPHANT, UnitOwner=0
+		Level=3, Experience=1
+	EndUnit
+EndPlot
+BeginPlot
+	x=15,y=22
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=23
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=24
+	BonusType=BONUS_ALUMINUM
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=15,y=25
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=26
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=27
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=1
+EndPlot
+BeginPlot
+	x=15,y=28
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=1
+EndPlot
+BeginPlot
+	x=15,y=29
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=16,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=17
+	BonusType=BONUS_SILK
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=18
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=19
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=20
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=16,y=21
+	BonusType=BONUS_SPICES
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=16,y=22
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=16,y=23
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=24
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=16,y=25
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=26
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=16,y=27
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=28
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=29
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=19
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=17,y=20
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=17,y=21
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=22
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=17,y=23
+	RiverNSDirection=2
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_FARM
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=24
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=25
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GUNSHIP, UnitOwner=0
+		Level=9, Experience=6
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_COMBAT2
+	EndUnit
+EndPlot
+BeginPlot
+	x=17,y=26
+	BonusType=BONUS_HORSE
+	ImprovementType=IMPROVEMENT_PASTURE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=27
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=28
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=29
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=18
+	BonusType=BONUS_RICE
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=19
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=0
+EndPlot
+BeginPlot
+	x=18,y=21
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=18,y=22
+	ImprovementType=IMPROVEMENT_FARM
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=23
+	isNOfRiver
+	RiverWEDirection=1
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=18,y=24
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=9, Experience=6
+		PromotionType=PROMOTION_CITY_GARRISON1
+		PromotionType=PROMOTION_CITY_GARRISON2
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_MERCHANT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Xinjian
+		CityPopulation=21
+		CityCulture=6935
+		BuildingType=BUILDING_GREAT_PALACE
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_CASTLE
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_BUNKER
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_RECYCLING_CENTER
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_LABORATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_SUPERMARKET
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_HINDU_TEMPLE
+		BuildingType=BUILDING_NATIONAL_EPIC
+		BuildingType=BUILDING_CHICHEN_ITZA
+		BuildingType=BUILDING_STATUE_OF_LIBERTY
+		BuildingType=BUILDING_BROADWAY
+	EndCity
+EndPlot
+BeginPlot
+	x=18,y=25
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WAR_ELEPHANT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=18,y=26
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=0
+EndPlot
+BeginPlot
+	x=18,y=27
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+EndPlot
+BeginPlot
+	x=18,y=28
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=29
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=19
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Tatung
+		CityPopulation=10
+		CityCulture=1234
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_DRYDOCK
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_LABORATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_ISLAMIC_TEMPLE
+	EndCity
+EndPlot
+BeginPlot
+	x=19,y=20
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=21
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=22
+	BonusType=BONUS_WINE
+	ImprovementType=IMPROVEMENT_WINERY
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=23
+	isNOfRiver
+	RiverWEDirection=1
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=19,y=24
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=25
+	BonusType=BONUS_COW
+	ImprovementType=IMPROVEMENT_PASTURE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=26
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=27
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=28
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=19
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=20
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=21
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=20,y=22
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=23
+	isNOfRiver
+	RiverWEDirection=1
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=24
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=25
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=26
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=27
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=20
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=21
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=23
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=21,y=24
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=25
+	ImprovementType=IMPROVEMENT_HAMLET
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=26
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=27
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	BeginUnit
+		UnitType=UNIT_GALLEY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=22,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=23
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=22,y=24
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=22,y=25
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=26
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=7
+	BonusType=BONUS_CRAB
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=23
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=23,y=24
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_FIGHTER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=2
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=2
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_MACHINE_GUN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_BARRAGE1
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Chengdu
+		CityPopulation=16
+		CityCulture=1724
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_DRYDOCK
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_COURTHOUSE
+	EndCity
+EndPlot
+BeginPlot
+	x=23,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=8
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Shantung
+		CityPopulation=5
+		CityCulture=374
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_THEATRE
+	EndCity
+EndPlot
+BeginPlot
+	x=24,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=10
+	BonusType=BONUS_FISH
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=24
+	BonusType=BONUS_IRON
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=24,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=7
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=8
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	ImprovementType=IMPROVEMENT_WATERMILL
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=9
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=24
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	BeginUnit
+		UnitType=UNIT_BATTLESHIP, UnitOwner=0
+		Level=9, Experience=6
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_COMBAT2
+	EndUnit
+EndPlot
+BeginPlot
+	x=25,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=5
+	BonusType=BONUS_WHALE
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=7
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=26,y=8
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=26,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=26,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=24
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=7
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=27,y=8
+	BonusType=BONUS_SHEEP
+	ImprovementType=IMPROVEMENT_PASTURE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=27,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=8
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=28,y=9
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=28,y=10
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=8
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_FRIGATE, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GALLEON, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_LONGBOWMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Byblos
+		CityPopulation=6
+		CityCulture=304
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_THEATRE
+	EndCity
+EndPlot
+BeginPlot
+	x=29,y=9
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=29,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=8
+	ImprovementType=IMPROVEMENT_HAMLET
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=30,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=19
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=20
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=21
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=19
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=31,y=20
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=31,y=21
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=19
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=20
+	BonusType=BONUS_HORSE
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=32,y=21
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=32,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	BeginUnit
+		UnitType=UNIT_GALLEY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=33,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=19
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=20
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=21
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=33,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	BeginUnit
+		UnitType=UNIT_GALLEY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GALLEY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=34,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=20
+	BonusType=BONUS_OIL
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=34,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=12
+	BonusType=BONUS_INCENSE
+	ImprovementType=IMPROVEMENT_PLANTATION
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=35,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=35,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=4
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=7
+	BonusType=BONUS_CLAM
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=36,y=12
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=36,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=36,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=6
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_GALLEON, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GALLEON, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CATAPULT, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_BARRAGE1
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Heliopolis
+		CityPopulation=16
+		CityCulture=12866
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_BROADCAST_TOWER
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_ISLAMIC_TEMPLE
+		BuildingType=BUILDING_ISLAMIC_MONASTERY
+		BuildingType=BUILDING_ISLAMIC_SHRINE
+		BuildingType=BUILDING_CONFUCIAN_TEMPLE
+		BuildingType=BUILDING_CONFUCIAN_CATHEDRAL
+		BuildingType=BUILDING_CONFUCIAN_SHRINE
+	EndCity
+EndPlot
+BeginPlot
+	x=37,y=7
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=37,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=10
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=37,y=11
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_GRENADIER, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Elephantine
+		CityPopulation=12
+		CityCulture=4604
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_BROADCAST_TOWER
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_CONFUCIAN_TEMPLE
+		BuildingType=BUILDING_CONFUCIAN_MONASTERY
+	EndCity
+EndPlot
+BeginPlot
+	x=37,y=12
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=37,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=37,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=6
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=38,y=7
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=38,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=38,y=9
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=38,y=10
+	BonusType=BONUS_IRON
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=38,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=38,y=12
+	ImprovementType=IMPROVEMENT_VILLAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=38,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=38,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	BeginUnit
+		UnitType=UNIT_GALLEY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=39,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=6
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=39,y=7
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=39,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=39,y=9
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=39,y=10
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=39,y=11
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=39,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=39,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=6
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=40,y=7
+	BonusType=BONUS_COAL
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=40,y=8
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=40,y=9
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=40,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=40,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=40,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=40,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=6
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=41,y=7
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=41,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=41,y=9
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=41,y=10
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Alexandria
+		CityPopulation=13
+		CityCulture=9570
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_BROADCAST_TOWER
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_CONFUCIAN_TEMPLE
+		BuildingType=BUILDING_TAOIST_TEMPLE
+		BuildingType=BUILDING_TAOIST_CATHEDRAL
+		BuildingType=BUILDING_TAOIST_MONASTERY
+		BuildingType=BUILDING_TAOIST_SHRINE
+		BuildingType=BUILDING_HERMITAGE
+	EndCity
+EndPlot
+BeginPlot
+	x=41,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=41,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=41,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=5
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_GALLEON, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=6, Experience=2
+		PromotionType=PROMOTION_CITY_RAIDER1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_LONGBOWMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CATAPULT, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_BARRAGE1
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Giza
+		CityPopulation=10
+		CityCulture=2833
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_BROADCAST_TOWER
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_TAOIST_TEMPLE
+		BuildingType=BUILDING_TAOIST_MONASTERY
+	EndCity
+EndPlot
+BeginPlot
+	x=42,y=6
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=42,y=7
+	BonusType=BONUS_CORN
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=42,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=42,y=9
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=42,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=42,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=42,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=5
+	RiverNSDirection=2
+	isWOfRiver
+	BonusType=BONUS_SILVER
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=1
+EndPlot
+BeginPlot
+	x=43,y=6
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=43,y=7
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=43,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=43,y=9
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=43,y=10
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=43,y=11
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=43,y=12
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=43,y=13
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=43,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=29
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=43,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=5
+	ImprovementType=IMPROVEMENT_WATERMILL
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+EndPlot
+BeginPlot
+	x=44,y=6
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=2
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=44,y=7
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=44,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=44,y=9
+	BonusType=BONUS_STONE
+	ImprovementType=IMPROVEMENT_QUARRY
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=44,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=11
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=44,y=12
+	ImprovementType=IMPROVEMENT_VILLAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=44,y=13
+	BonusType=BONUS_CLAM
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=24
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=25
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=44,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=6
+	BonusType=BONUS_URANIUM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_GALLEON, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_LONGBOWMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Memphis
+		CityPopulation=13
+		CityCulture=6298
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_BROADCAST_TOWER
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_BUDDHIST_TEMPLE
+		BuildingType=BUILDING_BUDDHIST_MONASTERY
+		BuildingType=BUILDING_CONFUCIAN_TEMPLE
+		BuildingType=BUILDING_CONFUCIAN_MONASTERY
+		BuildingType=BUILDING_OXFORD_UNIVERSITY
+	EndCity
+EndPlot
+BeginPlot
+	x=45,y=7
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=45,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=45,y=9
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=45,y=10
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=45,y=11
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKBOAT, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=1
+		Level=9, Experience=6
+		PromotionType=PROMOTION_COMBAT1
+		PromotionType=PROMOTION_COVER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_LONGBOWMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CATAPULT, UnitOwner=1
+		Level=9, Experience=6
+		PromotionType=PROMOTION_CITY_RAIDER1
+		PromotionType=PROMOTION_BARRAGE1
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_PROPHET, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Thebes
+		CityPopulation=21
+		CityCulture=83383
+		BuildingType=BUILDING_PALACE
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_CASTLE
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_BUNKER
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_DRYDOCK
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_BROADCAST_TOWER
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_ISLAMIC_TEMPLE
+		BuildingType=BUILDING_ISLAMIC_CATHEDRAL
+		BuildingType=BUILDING_BUDDHIST_TEMPLE
+		BuildingType=BUILDING_BUDDHIST_CATHEDRAL
+		BuildingType=BUILDING_BUDDHIST_MONASTERY
+		BuildingType=BUILDING_BUDDHIST_SHRINE
+		BuildingType=BUILDING_CONFUCIAN_TEMPLE
+		BuildingType=BUILDING_CONFUCIAN_CATHEDRAL
+		BuildingType=BUILDING_CONFUCIAN_MONASTERY
+		BuildingType=BUILDING_NATIONAL_EPIC
+		BuildingType=BUILDING_GLOBE_THEATRE
+		BuildingType=BUILDING_PYRAMID
+		BuildingType=BUILDING_STONEHENGE
+		BuildingType=BUILDING_HANGING_GARDEN
+		BuildingType=BUILDING_ORACLE
+		BuildingType=BUILDING_ANGKOR_WAT
+		BuildingType=BUILDING_SPIRAL_MINARET
+		BuildingType=BUILDING_KREMLIN
+	EndCity
+EndPlot
+BeginPlot
+	x=45,y=12
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=45,y=13
+	ImprovementType=IMPROVEMENT_HAMLET
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=45,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=21
+	BonusType=BONUS_FISH
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=24
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=45,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=7
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=46,y=8
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=46,y=9
+	ImprovementType=IMPROVEMENT_WINDMILL
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CATAPULT, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=46,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=11
+	BonusType=BONUS_CLAM
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=12
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=46,y=13
+	BonusType=BONUS_PIG
+	ImprovementType=IMPROVEMENT_PASTURE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=46,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=15
+	BonusType=BONUS_OIL
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=23
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=46,y=24
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=46,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=26
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=46,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=8
+	ImprovementType=IMPROVEMENT_TOWN
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=47,y=9
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=47,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=12
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=6, Experience=4
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=47,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=47,y=24
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=47,y=25
+	BonusType=BONUS_URANIUM
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=47,y=26
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=47,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=8
+	ImprovementType=IMPROVEMENT_LUMBERMILL
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=48,y=9
+	BonusType=BONUS_IRON
+	ImprovementType=IMPROVEMENT_MINE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=48,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	BeginUnit
+		UnitType=UNIT_GALLEY, UnitOwner=1
+		Level=6, Experience=2
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=48,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	BeginUnit
+		UnitType=UNIT_GALLEY, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=48,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=24
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=6, Experience=4
+		PromotionType=PROMOTION_CITY_GARRISON1
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Chinan
+		CityPopulation=3
+		CityCulture=324
+		BuildingType=BUILDING_FORGE
+	EndCity
+EndPlot
+BeginPlot
+	x=48,y=25
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=48,y=26
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=30
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=48,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=49,y=9
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=1
+		Level=1, Experience=0
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Pi-Ramesses
+		CityPopulation=11
+		CityCulture=2580
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_CONFUCIAN_TEMPLE
+	EndCity
+EndPlot
+BeginPlot
+	x=49,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=24
+	BonusType=BONUS_HORSE
+	ImprovementType=IMPROVEMENT_PASTURE
+	RouteType=ROUTE_RAILROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=49,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=26
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=49,y=31
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=24
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=50,y=25
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=50,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=3
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=24
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=25
+	BonusType=BONUS_CRAB
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=26
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=27
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=28
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=29
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=30
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=51,y=31
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot

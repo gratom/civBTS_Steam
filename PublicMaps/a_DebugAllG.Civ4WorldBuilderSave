@@ -1,0 +1,4190 @@
+Version=11
+BeginGame
+	SyncRandSeed=189061775
+	Tutorial=0
+	Speed=GAMESPEED_NORMAL
+	Handicap=HANDICAP_NOBLE
+	Calendar=CALENDAR_DEFAULT
+	GameTurn=0
+EndGame
+BeginPlayer
+	LeaderType=LEADER_SALADIN
+	CivType=CIVILIZATION_ARABIA
+	PlayableCiv=1
+	MinorNationStatus=0
+	Team=0
+	Tech=TECH_MYSTICISM
+	Tech=TECH_MEDITATION
+	Tech=TECH_POLYTHEISM
+	Tech=TECH_PRIESTHOOD
+	Tech=TECH_MONOTHEISM
+	Tech=TECH_MONARCHY
+	Tech=TECH_LITERATURE
+	Tech=TECH_CODE_OF_LAWS
+	Tech=TECH_DRAMA
+	Tech=TECH_FEUDALISM
+	Tech=TECH_THEOLOGY
+	Tech=TECH_MUSIC
+	Tech=TECH_CIVIL_SERVICE
+	Tech=TECH_GUILDS
+	Tech=TECH_DIVINE_RIGHT
+	Tech=TECH_FISHING
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_POTTERY
+	Tech=TECH_SAILING
+	Tech=TECH_WRITING
+	Tech=TECH_MATHEMATICS
+	Tech=TECH_ALPHABET
+	Tech=TECH_CALENDAR
+	Tech=TECH_CURRENCY
+	Tech=TECH_PHILOSOPHY
+	Tech=TECH_PAPER
+	Tech=TECH_BANKING
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
+	Tech=TECH_ARCHERY
+	Tech=TECH_MASONRY
+	Tech=TECH_ANIMAL_HUSBANDRY
+	Tech=TECH_BRONZE_WORKING
+	Tech=TECH_HORSEBACK_RIDING
+	Tech=TECH_IRON_WORKING
+	Tech=TECH_METAL_CASTING
+	Tech=TECH_COMPASS
+	Tech=TECH_CONSTRUCTION
+	Tech=TECH_MACHINERY
+	Tech=TECH_ENGINEERING
+	Tech=TECH_OPTICS
+EndPlayer
+BeginPlayer
+	LeaderType=LEADER_ISABELLA
+	CivType=CIVILIZATION_SPAIN
+	PlayableCiv=1
+	MinorNationStatus=0
+	Team=1
+	Tech=TECH_MYSTICISM
+	Tech=TECH_MEDITATION
+	Tech=TECH_POLYTHEISM
+	Tech=TECH_PRIESTHOOD
+	Tech=TECH_MONOTHEISM
+	Tech=TECH_MONARCHY
+	Tech=TECH_LITERATURE
+	Tech=TECH_CODE_OF_LAWS
+	Tech=TECH_DRAMA
+	Tech=TECH_FEUDALISM
+	Tech=TECH_THEOLOGY
+	Tech=TECH_MUSIC
+	Tech=TECH_CIVIL_SERVICE
+	Tech=TECH_GUILDS
+	Tech=TECH_DIVINE_RIGHT
+	Tech=TECH_FISHING
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_POTTERY
+	Tech=TECH_SAILING
+	Tech=TECH_WRITING
+	Tech=TECH_MATHEMATICS
+	Tech=TECH_ALPHABET
+	Tech=TECH_CALENDAR
+	Tech=TECH_CURRENCY
+	Tech=TECH_PHILOSOPHY
+	Tech=TECH_PAPER
+	Tech=TECH_BANKING
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
+	Tech=TECH_ARCHERY
+	Tech=TECH_MASONRY
+	Tech=TECH_ANIMAL_HUSBANDRY
+	Tech=TECH_BRONZE_WORKING
+	Tech=TECH_HORSEBACK_RIDING
+	Tech=TECH_IRON_WORKING
+	Tech=TECH_METAL_CASTING
+	Tech=TECH_COMPASS
+	Tech=TECH_CONSTRUCTION
+	Tech=TECH_MACHINERY
+	Tech=TECH_ENGINEERING
+	Tech=TECH_OPTICS
+EndPlayer
+BeginPlayer
+	LeaderType=LEADER_ALEXANDER
+	CivType=CIVILIZATION_GREECE
+	PlayableCiv=1
+	MinorNationStatus=0
+	Team=2
+	Tech=TECH_MYSTICISM
+	Tech=TECH_MEDITATION
+	Tech=TECH_POLYTHEISM
+	Tech=TECH_PRIESTHOOD
+	Tech=TECH_MONOTHEISM
+	Tech=TECH_MONARCHY
+	Tech=TECH_LITERATURE
+	Tech=TECH_CODE_OF_LAWS
+	Tech=TECH_DRAMA
+	Tech=TECH_FEUDALISM
+	Tech=TECH_THEOLOGY
+	Tech=TECH_MUSIC
+	Tech=TECH_CIVIL_SERVICE
+	Tech=TECH_GUILDS
+	Tech=TECH_DIVINE_RIGHT
+	Tech=TECH_FISHING
+	Tech=TECH_THE_WHEEL
+	Tech=TECH_AGRICULTURE
+	Tech=TECH_POTTERY
+	Tech=TECH_SAILING
+	Tech=TECH_WRITING
+	Tech=TECH_MATHEMATICS
+	Tech=TECH_ALPHABET
+	Tech=TECH_CALENDAR
+	Tech=TECH_CURRENCY
+	Tech=TECH_PHILOSOPHY
+	Tech=TECH_PAPER
+	Tech=TECH_BANKING
+	Tech=TECH_HUNTING
+	Tech=TECH_MINING
+	Tech=TECH_ARCHERY
+	Tech=TECH_MASONRY
+	Tech=TECH_ANIMAL_HUSBANDRY
+	Tech=TECH_BRONZE_WORKING
+	Tech=TECH_HORSEBACK_RIDING
+	Tech=TECH_IRON_WORKING
+	Tech=TECH_METAL_CASTING
+	Tech=TECH_COMPASS
+	Tech=TECH_CONSTRUCTION
+	Tech=TECH_MACHINERY
+	Tech=TECH_ENGINEERING
+	Tech=TECH_OPTICS
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=3
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=4
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=5
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=6
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=7
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=8
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=9
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=10
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=11
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=12
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=13
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=14
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=15
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=16
+EndPlayer
+BeginPlayer
+	LeaderType=NONE
+	CivType=NONE
+	Team=17
+EndPlayer
+BeginMap
+	grid width=32
+	grid height=20
+	wrap X=0
+	wrap Y=0
+	world size=WORLDSIZE_DUEL
+	climate=CLIMATE_TEMPERATE
+	sealevel=SEALEVEL_LOW
+	num plots written=640
+EndMap
+
+### Plot Info ###
+BeginPlot
+	x=0,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SCIENTIST, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=0,y=1
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MACHINE_GUN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=0,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SPANISH_CONQUISTADOR, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=0,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_LONGBOWMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=0,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=0,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_AZTEC_JAGUAR, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=0,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_JEWISH_MISSIONARY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=0,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_LION, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=0,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=0,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=0,y=11
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=0,y=12
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=0,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=0,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=0,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=0,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MERCHANT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=1,y=1
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ARTILLERY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=1,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CAVALRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=1,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CROSSBOWMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=1,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ENGLISH_REDCOAT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=1,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ROME_PRAETORIAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=1,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CHRISTIAN_MISSIONARY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=1,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_BEAR, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=1,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=1,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=1,y=11
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=1,y=12
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=1,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=1,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=18
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=1,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ENGINEER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=2,y=1
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_RUSSIA_COSSACK, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=2,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CHINA_CHOKONU, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=2,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_GRENADIER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=2,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_AXEMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=2,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ISLAMIC_MISSIONARY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=2,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_PANTHER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=2,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=2,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=2,y=11
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=2,y=12
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=2,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=2,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=2,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=2,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=2,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=3,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_FIGHTER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=3,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_WAR_ELEPHANT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=3,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CHARIOT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=3,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=3,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MACEMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=3,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=3,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_WOLF, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=3,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=3,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=3,y=11
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=3,y=12
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=3,y=13
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginCity
+		CityOwner=0
+		CityName=Mecca
+		CityPopulation=76
+		CityCulture=10000
+		BuildingType=BUILDING_PALACE
+		BuildingType=BUILDING_GREAT_PALACE
+		BuildingType=BUILDING_VERSAILLES
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_CASTLE
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_BUNKER
+		BuildingType=BUILDING_BOMB_SHELTER
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_HOSPITAL
+		BuildingType=BUILDING_RECYCLING_CENTER
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_DRYDOCK
+		BuildingType=BUILDING_AIRPORT
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_FACTORY
+		BuildingType=BUILDING_COAL_PLANT
+		BuildingType=BUILDING_HYDRO_PLANT
+		BuildingType=BUILDING_NUCLEAR_PLANT
+		BuildingType=BUILDING_OBELISK
+		BuildingType=BUILDING_ACADEMY
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_UNIVERSITY
+		BuildingType=BUILDING_OBSERVATORY
+		BuildingType=BUILDING_LABORATORY
+		BuildingType=BUILDING_THEATRE
+		BuildingType=BUILDING_COLOSSEUM
+		BuildingType=BUILDING_BROADCAST_TOWER
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_GROCER
+		BuildingType=BUILDING_BANK
+		BuildingType=BUILDING_SUPERMARKET
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_JAIL
+		BuildingType=BUILDING_JEWISH_TEMPLE
+		BuildingType=BUILDING_JEWISH_CATHEDRAL
+		BuildingType=BUILDING_JEWISH_MONASTERY
+		BuildingType=BUILDING_JEWISH_SHRINE
+		BuildingType=BUILDING_CHRISTIAN_TEMPLE
+		BuildingType=BUILDING_CHRISTIAN_CATHEDRAL
+		BuildingType=BUILDING_CHRISTIAN_MONASTERY
+		BuildingType=BUILDING_CHRISTIAN_SHRINE
+		BuildingType=BUILDING_ISLAMIC_TEMPLE
+		BuildingType=BUILDING_ISLAMIC_CATHEDRAL
+		BuildingType=BUILDING_ISLAMIC_MONASTERY
+		BuildingType=BUILDING_ISLAMIC_SHRINE
+		BuildingType=BUILDING_HINDU_TEMPLE
+		BuildingType=BUILDING_HINDU_CATHEDRAL
+		BuildingType=BUILDING_HINDU_MONASTERY
+		BuildingType=BUILDING_HINDU_SHRINE
+		BuildingType=BUILDING_BUDDHIST_TEMPLE
+		BuildingType=BUILDING_BUDDHIST_CATHEDRAL
+		BuildingType=BUILDING_CONFUCIAN_TEMPLE
+		BuildingType=BUILDING_CONFUCIAN_CATHEDRAL
+		BuildingType=BUILDING_CONFUCIAN_MONASTERY
+		BuildingType=BUILDING_CONFUCIAN_SHRINE
+		BuildingType=BUILDING_TAOIST_TEMPLE
+		BuildingType=BUILDING_TAOIST_CATHEDRAL
+		BuildingType=BUILDING_TAOIST_MONASTERY
+		BuildingType=BUILDING_TAOIST_SHRINE
+		BuildingType=BUILDING_HEROIC_EPIC
+		BuildingType=BUILDING_NATIONAL_EPIC
+		BuildingType=BUILDING_GLOBE_THEATRE
+		BuildingType=BUILDING_HERMITAGE
+		BuildingType=BUILDING_OXFORD_UNIVERSITY
+		BuildingType=BUILDING_WALL_STREET
+		BuildingType=BUILDING_IRON_WORKS
+		BuildingType=BUILDING_WEST_POINT
+		BuildingType=BUILDING_MT_RUSHMORE
+		BuildingType=BUILDING_RED_CROSS
+		BuildingType=BUILDING_SCOTLAND_YARD
+		BuildingType=BUILDING_PYRAMID
+		BuildingType=BUILDING_STONEHENGE
+		BuildingType=BUILDING_GREAT_LIBRARY
+		BuildingType=BUILDING_GREAT_LIGHTHOUSE
+		BuildingType=BUILDING_HANGING_GARDEN
+		BuildingType=BUILDING_COLOSSUS
+		BuildingType=BUILDING_ORACLE
+		BuildingType=BUILDING_PARTHENON
+		BuildingType=BUILDING_ANGKOR_WAT
+		BuildingType=BUILDING_HAGIA_SOPHIA
+		BuildingType=BUILDING_CHICHEN_ITZA
+		BuildingType=BUILDING_SISTINE_CHAPEL
+		BuildingType=BUILDING_SPIRAL_MINARET
+		BuildingType=BUILDING_NOTRE_DAME
+		BuildingType=BUILDING_TAJ_MAHAL
+		BuildingType=BUILDING_KREMLIN
+		BuildingType=BUILDING_EIFFEL_TOWER
+		BuildingType=BUILDING_STATUE_OF_LIBERTY
+		BuildingType=BUILDING_BROADWAY
+		BuildingType=BUILDING_ROCKNROLL
+		BuildingType=BUILDING_HOLLYWOOD
+		BuildingType=BUILDING_GREAT_DAM
+		BuildingType=BUILDING_PENTAGON
+		BuildingType=BUILDING_UNITED_NATIONS
+		BuildingType=BUILDING_SPACE_ELEVATOR
+	EndCity
+EndPlot
+BeginPlot
+	x=3,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=3,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=3,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=4,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_JET_FIGHTER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=4,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_TANK, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_BLITZ
+	EndUnit
+EndPlot
+BeginPlot
+	x=4,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_EGYPT_WARCHARIOT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=4,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SAM_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=4,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_JAPAN_SAMURAI, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=4,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_BUDDHIST_MISSIONARY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=4,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SETTLER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=4,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=4,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=4,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=4,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=5,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_BOMBER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=5,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_GERMAN_PANZER, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_BLITZ
+	EndUnit
+EndPlot
+BeginPlot
+	x=5,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_PERSIA_IMMORTAL, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=5,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MARINE, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_AMPHIBIOUS
+	EndUnit
+EndPlot
+BeginPlot
+	x=5,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=5,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=5,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=5,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=5,y=10
+	BonusType=BONUS_CORN
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=5,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=5,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=6,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_STEALTH_BOMBER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=6,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MODERN_ARMOR, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_BLITZ
+	EndUnit
+EndPlot
+BeginPlot
+	x=6,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_HORSE_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=6,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_AMERICAN_NAVY_SEAL, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_AMPHIBIOUS
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+EndPlot
+BeginPlot
+	x=6,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_GREEK_PHALANX, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=6,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_TAOIST_MISSIONARY, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=6,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_INDIAN_FAST_WORKER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=6,y=9
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=11
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=12
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=6,y=15
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=6,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=18
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=6,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=7,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ICBM, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=7,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_GUNSHIP, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=7,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MONGOL_KESHIK, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=7,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MECHANIZED_INFANTRY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_MARCH
+	EndUnit
+EndPlot
+BeginPlot
+	x=7,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_PIKEMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=7,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_WARRIOR, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=7,y=8
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SCOUT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=7,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=7,y=11
+	BonusType=BONUS_COPPER
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=12
+	BonusType=BONUS_HORSE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=13
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=7,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=7,y=16
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
+EndPlot
+BeginPlot
+	x=7,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=7,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=8,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_PROPHET, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=8,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CATAPULT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=8,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_KNIGHT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=8,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=8,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MUSKETMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=8,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_INCAN_QUECHUA, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=8,y=8
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_EXPLORER, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_GUERILLA1
+		PromotionType=PROMOTION_WOODSMAN1
+	EndUnit
+EndPlot
+BeginPlot
+	x=8,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=8,y=11
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=12
+	FeatureType=FEATURE_OASIS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=8,y=16
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=17
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+EndPlot
+BeginPlot
+	x=8,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=8,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=9,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ARTIST, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=9,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=9,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_CANNON, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=9,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_ARABIA_CAMELARCHER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=9,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_MALI_SKIRMISHER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=9,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_FRENCH_MUSKETEER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=9,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SWORDSMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=9,y=8
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SPY, UnitOwner=0
+		Level=1, Experience=0
+		PromotionType=PROMOTION_SENTRY
+	EndUnit
+EndPlot
+BeginPlot
+	x=9,y=9
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=10
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=11
+	BonusType=BONUS_COAL
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=9,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=16
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=17
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=18
+	BonusType=BONUS_URANIUM
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+EndPlot
+BeginPlot
+	x=9,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=3
+	BonusType=BONUS_CLAM
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=8
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=9
+	BonusType=BONUS_DYE
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=10
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=11
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=12
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=13
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=14
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=15
+	BonusType=BONUS_STONE
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=16
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=1
+EndPlot
+BeginPlot
+	x=10,y=17
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+EndPlot
+BeginPlot
+	x=10,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=10,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=3
+	BonusType=BONUS_WHALE
+	ImprovementType=IMPROVEMENT_WHALING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=4
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=5
+	BonusType=BONUS_CRAB
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=6
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=11,y=7
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=9
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=10
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=11
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=13
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=14
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=15
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=16
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=11,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=11,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=3
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=12,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=12,y=10
+	BonusType=BONUS_RICE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MACEMAN, UnitOwner=2
+		Level=1, Experience=0
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=12,y=11
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WARRIOR, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=12,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=12,y=13
+	BonusType=BONUS_WINE
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=14
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=0
+EndPlot
+BeginPlot
+	x=12,y=16
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=12,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=12,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=2
+	BonusType=BONUS_GOLD
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=3
+	BonusType=BONUS_SHEEP
+	ImprovementType=IMPROVEMENT_PASTURE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=4
+	BonusType=BONUS_CORN
+	ImprovementType=IMPROVEMENT_FARM
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=5
+	BonusType=BONUS_MARBLE
+	ImprovementType=IMPROVEMENT_QUARRY
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=6
+	BonusType=BONUS_ALUMINUM
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=13,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=11
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=13
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=0
+EndPlot
+BeginPlot
+	x=13,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=13,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=13,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=3
+	BonusType=BONUS_WHEAT
+	ImprovementType=IMPROVEMENT_FARM
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=4
+	BonusType=BONUS_COW
+	ImprovementType=IMPROVEMENT_PASTURE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=5
+	BonusType=BONUS_OIL
+	ImprovementType=IMPROVEMENT_WELL
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=6
+	BonusType=BONUS_COAL
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=7
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=14,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=2
+		Level=1, Experience=0
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=14,y=11
+	BonusType=BONUS_SUGAR
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_JAPAN_SAMURAI, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=2
+		Level=1, Experience=0
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=14,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=16
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=14,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=18
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=14,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=2
+	BonusType=BONUS_INCENSE
+	ImprovementType=IMPROVEMENT_PLANTATION
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=3
+	BonusType=BONUS_DYE
+	ImprovementType=IMPROVEMENT_PLANTATION
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=4
+	BonusType=BONUS_DEER
+	ImprovementType=IMPROVEMENT_CAMP
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=5
+	BonusType=BONUS_STONE
+	ImprovementType=IMPROVEMENT_QUARRY
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=6
+	BonusType=BONUS_COPPER
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=9
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=11
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=12
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=14
+	BonusType=BONUS_OIL
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=16
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=15,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=15,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=2
+	BonusType=BONUS_IVORY
+	ImprovementType=IMPROVEMENT_CAMP
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=3
+	BonusType=BONUS_FUR
+	ImprovementType=IMPROVEMENT_CAMP
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=4
+	BonusType=BONUS_PIG
+	ImprovementType=IMPROVEMENT_PASTURE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=5
+	BonusType=BONUS_URANIUM
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=6
+	BonusType=BONUS_HORSE
+	ImprovementType=IMPROVEMENT_PASTURE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=10
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=11
+	BonusType=BONUS_SPICES
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_INCAN_QUECHUA, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=16,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=16,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=16,y=14
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=15
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=16,y=16
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=17
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=16,y=18
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=16,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=17,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=3
+	BonusType=BONUS_GEMS
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=4
+	BonusType=BONUS_RICE
+	ImprovementType=IMPROVEMENT_FARM
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=5
+	BonusType=BONUS_BANANA
+	ImprovementType=IMPROVEMENT_PLANTATION
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=6
+	BonusType=BONUS_IRON
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=8
+	BonusType=BONUS_MARBLE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_PIKEMAN, UnitOwner=2
+		Level=1, Experience=0
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=17,y=10
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=17,y=11
+	isNOfRiver
+	RiverWEDirection=3
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=14
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=16
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=17
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=18
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=17,y=19
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=18,y=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=3
+	BonusType=BONUS_SPICES
+	ImprovementType=IMPROVEMENT_PLANTATION
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=4
+	BonusType=BONUS_SILVER
+	ImprovementType=IMPROVEMENT_MINE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=5
+	BonusType=BONUS_SILK
+	ImprovementType=IMPROVEMENT_PLANTATION
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=6
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=18,y=8
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=9
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=18,y=10
+	BonusType=BONUS_GEMS
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=11
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=18,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=16
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=18,y=17
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=18,y=18
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=18,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=19,y=2
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=3
+	BonusType=BONUS_WINE
+	ImprovementType=IMPROVEMENT_PLANTATION
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=4
+	BonusType=BONUS_SUGAR
+	ImprovementType=IMPROVEMENT_PLANTATION
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=6
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=1
+	isWOfRiver
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=7
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=8
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=19,y=10
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=11
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=15
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginCity
+		CityOwner=0
+		CityName=Medina
+		CityPopulation=71
+		CityCulture=10000
+		BuildingType=BUILDING_GREAT_PALACE
+		BuildingType=BUILDING_VERSAILLES
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_CASTLE
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_CONFUCIAN_TEMPLE
+		BuildingType=BUILDING_TAOIST_MONASTERY
+		BuildingType=BUILDING_MT_RUSHMORE
+		BuildingType=BUILDING_RED_CROSS
+		BuildingType=BUILDING_ORACLE
+		BuildingType=BUILDING_HAGIA_SOPHIA
+		BuildingType=BUILDING_TAJ_MAHAL
+		BuildingType=BUILDING_KREMLIN
+		BuildingType=BUILDING_ROCKNROLL
+		BuildingType=BUILDING_UNITED_NATIONS
+	EndCity
+EndPlot
+BeginPlot
+	x=19,y=16
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=17
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=18
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=19,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=5
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=6
+	isNOfRiver
+	RiverWEDirection=1
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MALI_SKIRMISHER, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=20,y=7
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ENGLISH_REDCOAT, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=20,y=9
+	BonusType=BONUS_HORSE
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=10
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=20,y=11
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_RIFLEMAN, UnitOwner=0
+		Level=1, Experience=0
+	EndUnit
+EndPlot
+BeginPlot
+	x=20,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=13
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=16
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=20,y=17
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=20,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=20,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=5
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=6
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=7
+	BonusType=BONUS_GOLD
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=21,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=2
+		Level=1, Experience=0
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=21,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=10
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_JAPAN_SAMURAI, UnitOwner=2
+		Level=1, Experience=0
+		PromotionType=PROMOTION_COMBAT1
+	EndUnit
+EndPlot
+BeginPlot
+	x=21,y=11
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=12
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=14
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=15
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=16
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=17
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=21,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=21,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=22,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=22,y=8
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=22,y=9
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=22,y=10
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=22,y=11
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=22,y=12
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=22,y=13
+	BonusType=BONUS_ALUMINUM
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=22,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=22,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=18
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=22,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=23,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=23,y=10
+	ImprovementType=IMPROVEMENT_GOODY_HUT
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=23,y=11
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=23,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=23,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=18
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=23,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=6
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=24,y=7
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=24,y=8
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=24,y=9
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=24,y=10
+	BonusType=BONUS_BANANA
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=24,y=11
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=24,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=24,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=24,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=18
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=24,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=2
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=4
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=0
+EndPlot
+BeginPlot
+	x=25,y=6
+	BonusType=BONUS_COW
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=7
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=8
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=9
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=25,y=10
+	FeatureType=FEATURE_JUNGLE, FeatureVariety=0
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=11
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=12
+	BonusType=BONUS_INCENSE
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=14
+	BonusType=BONUS_IVORY
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=25,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=25,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=4
+	ImprovementType=IMPROVEMENT_GOODY_HUT
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=26,y=5
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=26,y=6
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=26,y=7
+	TerrainType=TERRAIN_GRASS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=26,y=8
+	TerrainType=TERRAIN_GRASS
+	PlotType=1
+EndPlot
+BeginPlot
+	x=26,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=26,y=14
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_GRASS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=26,y=15
+	ImprovementType=IMPROVEMENT_GOODY_HUT
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=26,y=16
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=26,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=26,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=3
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=4
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=5
+	BonusType=BONUS_ALUMINUM
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=27,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=1
+EndPlot
+BeginPlot
+	x=27,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=9
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=10
+	BonusType=BONUS_FISH
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=15
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=16
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=17
+	TerrainType=TERRAIN_SNOW
+	PlotType=2
+EndPlot
+BeginPlot
+	x=27,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=27,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=3
+	TerrainType=TERRAIN_SNOW
+	PlotType=0
+EndPlot
+BeginPlot
+	x=28,y=4
+	TerrainType=TERRAIN_PLAINS
+	PlotType=0
+EndPlot
+BeginPlot
+	x=28,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=28,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=28,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=15
+	BonusType=BONUS_IRON
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+EndPlot
+BeginPlot
+	x=28,y=16
+	TerrainType=TERRAIN_TUNDRA
+	PlotType=2
+EndPlot
+BeginPlot
+	x=28,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=28,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=1
+	BonusType=BONUS_WHALE
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=5
+	BonusType=BONUS_IRON
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=29,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=9
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+EndPlot
+BeginPlot
+	x=29,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=29,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=3
+	BonusType=BONUS_FISH
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=10
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=14
+	BonusType=BONUS_CLAM
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=30,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=0
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=1
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=11
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=12
+	FeatureType=FEATURE_FOREST, FeatureVariety=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot
+BeginPlot
+	x=31,y=19
+	FeatureType=FEATURE_ICE, FeatureVariety=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+EndPlot

@@ -1,0 +1,4423 @@
+Version=11
+BeginGame
+	Era=ERA_ANCIENT
+	Speed=GAMESPEED_NORMAL
+	Calendar=CALENDAR_MONTHS
+	Option=GAMEOPTION_NO_CITY_RAZING
+	Option=GAMEOPTION_NO_CHANGING_WAR_PEACE
+	Victory=VICTORY_TIME
+	Victory=VICTORY_CONQUEST
+	Victory=VICTORY_DOMINATION
+	GameTurn=0
+	MaxTurns=445
+	MaxCityElimination=0
+	TargetScore=0
+	StartYear=1184
+	Description=
+	ModPath=Mods/Crusades
+EndGame
+BeginTeam
+	Tech=TECH_FISHING
+	ContactWithTeam=0
+	ContactWithTeam=1
+	ContactWithTeam=2
+	AtWar=1
+	RevealMap=0
+EndTeam
+BeginTeam
+	Tech=TECH_FISHING
+	ContactWithTeam=0
+	ContactWithTeam=1
+	ContactWithTeam=2
+	AtWar=0
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=0
+	ContactWithTeam=1
+	AtWar=0
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=3
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=4
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=5
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=6
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=7
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=8
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=9
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=10
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=11
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=12
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=13
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=14
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=15
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=16
+	RevealMap=0
+EndTeam
+BeginTeam
+	ContactWithTeam=17
+	RevealMap=0
+EndTeam
+BeginPlayer
+	Team=0
+	LeaderType=LEADER_SALADIN
+	LeaderName=SINLESS
+	CivDesc=Arabian Empire
+	CivShortDesc=Arabia
+	CivAdjective=Arabian
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_Arabic.dds
+	WhiteFlag=0
+	CivType=CIVILIZATION_ARABIA
+	Color=PLAYERCOLOR_DARK_GREEN
+	ArtStyle=ARTSTYLE_MIDDLE_EAST
+	PlayableCiv=1
+	MinorNationStatus=0
+	StartingGold=100
+	StateReligion=RELIGION_ISLAM
+	StartingEra=ERA_MEDIEVAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=1
+	LeaderType=LEADER_GUY
+	LeaderName=Guy of Lusignan
+	CivDesc=Frankish states
+	CivShortDesc=TXT_KEY_CIV_FRANKS_SHORT_DESC
+	CivAdjective=TXT_KEY_CIV_FRANKS_ADJECTIVE
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_FleurDeLis.dds
+	WhiteFlag=0
+	CivType=CIVILIZATION_FRANKS
+	Color=PLAYERCOLOR_DARK_BLUE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=100
+	StateReligion=RELIGION_CHRISTIANITY
+	StartingEra=ERA_MEDIEVAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=1
+	LeaderType=LEADER_RICHARD
+	LeaderName=Richard the Lionheart
+	CivDesc=English Empire
+	CivShortDesc=England
+	CivAdjective=English
+	FlagDecal=Art/Interface/TeamColor/FlagDECAL_StGeorgeCross.dds
+	WhiteFlag=0
+	CivType=CIVILIZATION_ENGLAND
+	Color=PLAYERCOLOR_WHITE
+	ArtStyle=ARTSTYLE_EUROPEAN
+	PlayableCiv=0
+	MinorNationStatus=0
+	StartingGold=100
+	StateReligion=RELIGION_CHRISTIANITY
+	StartingEra=ERA_MEDIEVAL
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_DESPOTISM
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_BARBARISM
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_TRIBALISM
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_DECENTRALIZATION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_PAGANISM
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=3
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=4
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=5
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=6
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=7
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=8
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=9
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=10
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=11
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=12
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=13
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=14
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=15
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=16
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginPlayer
+	Team=17
+	LeaderType=NONE
+	CivType=NONE
+	Color=NONE
+	ArtStyle=NONE
+	Handicap=HANDICAP_NOBLE
+EndPlayer
+BeginMap
+	grid width=24
+	grid height=24
+	top latitude=0
+	bottom latitude=0
+	wrap X=0
+	wrap Y=0
+	world size=WORLDSIZE_DUEL
+	climate=CLIMATE_TEMPERATE
+	sealevel=SEALEVEL_HIGH
+	num plots written=576
+EndMap
+
+### Plot Info ###
+BeginPlot
+	x=0,y=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=0,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=1
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=2
+	BonusType=BONUS_FISH
+	ImprovementType=IMPROVEMENT_FISHING_BOATS
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=14
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=1,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=0
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_HORSE_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_HORSE_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_HORSE_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=1
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_HORSE_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_HORSE_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_HORSE_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=2
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Gaza
+		CityPopulation=3
+		ProductionUnit=UNIT_ARCHER
+		ReligionType=RELIGION_ISLAM
+		Player0Culture=2
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=3
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_CATAPULT, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK_CITY
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CATAPULT, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK_CITY
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_CATAPULT, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_ATTACK_CITY
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=5
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=6
+	BonusType=BONUS_FISH
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=15
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=16
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=17
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=18
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=19
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=2,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=2
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=4
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=5
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Ascalon
+		CityPopulation=3
+		ProductionBuilding=BUILDING_GRANARY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=6
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=8
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=13
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=14
+	BonusType=BONUS_FISH
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=15
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=16
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=17
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=18
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=19
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=20
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=21
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=22
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=3,y=23
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=5
+	BonusType=BONUS_WHEAT
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=6
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=8
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=13
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Ibelim
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=14
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=15
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=16
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Jaffa
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=17
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=18
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=19
+	BonusType=BONUS_FISH
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=20
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=21
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=22
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=4,y=23
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=5
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=7
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=8
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=13
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=16
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=19
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Arsuf
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=20
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=21
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=5,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=5
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_WORKER
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=9
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=12
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=20
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=21
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=6,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=4
+	BonusType=BONUS_STONE
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=5
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Gibelin
+		CityPopulation=2
+		ProductionUnit=UNIT_ARCHER
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=6
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=8
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=9
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Bethlehem
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=12
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Ranile
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=7,y=23
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=4
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=5
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=8
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=9
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=13
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=14
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=15
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=21
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=22
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Sibaste
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=8,y=23
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=5
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=10
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=11
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=12
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=15
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=16
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_WORKER
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Lydda
+		CityPopulation=3
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=22
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=9,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=5
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=11
+	ImprovementType=IMPROVEMENT_OUTSKIRTS_OF_JERUSALEM
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=12
+	ImprovementType=IMPROVEMENT_OUTSKIRTS_OF_JERUSALEM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=13
+	ImprovementType=IMPROVEMENT_OUTSKIRTS_OF_JERUSALEM
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=15
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=16
+	BonusType=BONUS_WHEAT
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=17
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=18
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=10,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=5
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=6
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=7
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Hebron
+		CityPopulation=3
+		ProductionBuilding=BUILDING_GRANARY
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=8
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=10
+	BonusType=BONUS_WHEAT
+	ImprovementType=IMPROVEMENT_FARM
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=11
+	ImprovementType=IMPROVEMENT_OUTSKIRTS_OF_JERUSALEM
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=12
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=1
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Jerusalem
+		CityPopulation=5
+		BuildingType=BUILDING_OURSKIRT_OF_JERUSALEM
+		BuildingType=BUILDING_CASTLE
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_COURTHOUSE
+		BuildingType=BUILDING_BARRACKS
+		BuildingType=BUILDING_AQUEDUCT
+		BuildingType=BUILDING_HOSPITAL
+		BuildingType=BUILDING_DOME_OF_THE_ROCK
+		ReligionType=RELIGION_CHRISTIANITY
+		HolyCityReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+		HolyCityReligionType=RELIGION_ISLAM
+		Player1Culture=200
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=13
+	ImprovementType=IMPROVEMENT_OUTSKIRTS_OF_JERUSALEM
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=14
+	BonusType=BONUS_WHEAT
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=19
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=20
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_WORKER
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Mirabel
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=21
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=11,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=3
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=4
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Gadera
+		CityPopulation=2
+		ProductionUnit=UNIT_ARCHER
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=6
+	BonusType=BONUS_WHEAT
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_WORKER
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=9
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=10
+	BonusType=BONUS_WHEAT
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=11
+	ImprovementType=IMPROVEMENT_OUTSKIRTS_OF_JERUSALEM
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=12
+	ImprovementType=IMPROVEMENT_OUTSKIRTS_OF_JERUSALEM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=13
+	ImprovementType=IMPROVEMENT_OUTSKIRTS_OF_JERUSALEM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_UNKNOWN
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=14
+	BonusType=BONUS_WHEAT
+	ImprovementType=IMPROVEMENT_FARM
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=19
+	BonusType=BONUS_HORSE
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=20
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=21
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=12,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=3
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_WORKER
+	EndUnit
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=4
+	BonusType=BONUS_HORSE
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=11
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=13,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=1
+	FeatureType=FEATURE_OASIS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=3
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=7
+	FeatureType=FEATURE_OASIS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=12
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=22
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Nablus
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=14,y=23
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=1
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=2
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Engandi
+		CityPopulation=3
+		ProductionBuilding=BUILDING_BARRACKS
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=7
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=8
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=0
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=0
+		CityName=Blanche Garde
+		CityPopulation=3
+		ProductionUnit=UNIT_ARCHER
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=12
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Jericho
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=22
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=15,y=23
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=2
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=3
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=8
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=9
+	ImprovementType=IMPROVEMENT_COTTAGE
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=10
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=11
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=12
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=13
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=14
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=15
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_SPEARMAN, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_COUNTER
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Tyre
+		CityPopulation=3
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=16,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=8
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=14
+	BonusType=BONUS_WHEAT
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=15
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=20
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=21
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Belvoir
+		CityPopulation=2
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=17,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=15
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=19
+	BonusType=BONUS_STONE
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=20
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=21
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=22
+	TerrainType=TERRAIN_PLAINS
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=18,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=1
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=15
+	RiverNSDirection=2
+	isWOfRiver
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Darum
+		CityPopulation=3
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=16
+	RiverNSDirection=2
+	isWOfRiver
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=17
+	RiverNSDirection=2
+	isWOfRiver
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=18
+	RiverNSDirection=2
+	isWOfRiver
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_CITY_DEFENSE
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_WORKER, UnitOwner=1
+		Level=1, Experience=0
+		UnitAIType=UNITAI_WORKER
+	EndUnit
+	BeginCity
+		CityOwner=1
+		CityName=Paris
+		CityPopulation=3
+		ReligionType=RELIGION_CHRISTIANITY
+		ReligionType=RELIGION_ISLAM
+	EndCity
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=19
+	RiverNSDirection=2
+	isWOfRiver
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	RouteType=ROUTE_ROAD
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=20
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=21
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=19,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=0
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=1
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=2
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=3
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=4
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=9
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=10
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=11
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=12
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=13
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=15
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=16
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=17
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=18
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=19
+	FeatureType=FEATURE_FLOOD_PLAINS, FeatureVariety=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=21
+	RiverNSDirection=2
+	isNOfRiver
+	RiverWEDirection=3
+	isWOfRiver
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=22
+	RiverNSDirection=2
+	isWOfRiver
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=20,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=0
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=1
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=2
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=3
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=5
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=6
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=7
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=8
+	TerrainType=TERRAIN_OCEAN
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=10
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=11
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=12
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=13
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=14
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=21
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=21,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=4
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=5
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=6
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=7
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=8
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=9
+	TerrainType=TERRAIN_COAST
+	PlotType=3
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=21
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=22,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=0
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=1
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=2
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=3
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=4
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=5
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=6
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=7
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=8
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=9
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=10
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=11
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=12
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=13
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=14
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=15
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=16
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=17
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=18
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=19
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=20
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=21
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=22
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot
+BeginPlot
+	x=23,y=23
+	TerrainType=TERRAIN_DESERT
+	PlotType=2
+	TeamReveal=0,1,
+EndPlot

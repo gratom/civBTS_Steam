@@ -1,0 +1,252 @@
+////Ship Camera Animations
+
+100 Camera zoom to Casing1
+101 Camera look at Casing1 - loop
+
+200 Camera zoom to Casing2
+201 Camera look at Casing2 - loop
+
+300 Camera zoom to Casing3
+301 Camera look at Casing3 - loop
+
+400 Camera zoom to Casing4
+401 Camera look at Casing4 - loop
+
+500 Camera zoom to Casing5
+501 Camera look at Casing5 - loop
+
+1000 Normal Camera - loop
+1010 Camera Launch
+1011 Launch_In_Game
+1020 Ship_In_Space
+
+1100 Camera zoom to Cockpit
+1101 Camera look at cockpit - loop
+
+1200 Camera zoom to Docking Bay
+1201 Camera look at Docking Bay - loop
+
+1300 Camera zoom to Main Engine
+1301 Camera look at Main Engine - loop
+
+1400 Camera zoom to Life Support
+1401 Camera look at Life Support - loop
+
+1500 Camera zoom to Stasis Chamber 
+1501 Camera look at Stasis Chamber - loop
+
+1600 Camera zoom to Thrusters
+1601 Camera look at Thrusters - loop
+
+////Layered Environment Effects
+
+9090 Gantry Smoke
+	(This should be present except for when in 1020_Ship_In_Space)
+
+1710 Light_Cockpit_Off
+1720 Light_Casing2_Off
+1730 Light_Engine_Off
+1740 Light_StasisChamber_Off
+1750 Light_Thruster_Off
+	(These should be activated except for 1010 Camera Launch & 1020_Ship_In_Space)
+
+3030 RearEngineThrust_Off
+3031 RearEngineThrust_On
+3040 FrontEngineThrust_Off
+3041 FrontEngineThrust_On
+	(The Off state for both of these should always be on except for when in 1020_Ship_In_Space)
+	(If both engines are present, both on states should be activated) 
+	(If one engine is present only the Rear Engine Thrust Should be Used.)
+
+////Layered Ship Upgrade
+
+	Thruster Upgrades
+
+2000 0 Thrusters Visibile - loop
+
+2005 Thruster 1 Preview - loop
+2010 Thruster 1 Appears
+2011 1 Thruster Visible - loop
+
+2015 Thruster 2 Preview - loop
+2020 Thruster 2 Appears
+2021 2 Thrusters Visible - loop
+
+2025 Thruster 3 Preview - loop
+2030 Thruster 3 Appears
+2031 3 Thrusters Visible - loop
+
+2035 Thruster 4 Preview - loop
+2040 Thruster 4 Appears
+2041 4 Thrusters Visible - loop
+
+2045 Thruster 5 Preview - loop
+2050 Thruster 5 Appears
+2051 5 Thrusters Visible - loop
+
+
+	Engine Upgrades
+
+3000 0 Engines Visibile - loop
+
+3005 1 Engine Preview - loop
+3010 Engine 1 Appears
+3011 1 Engine Visible - loop
+
+3015 1 Engine Preview - loop
+3020 Engine 2 Appears
+3021 2 Engine Visible - loop
+
+
+	Cockpit Options
+
+4000 No Cockpit Visibile - loop
+
+4005 Cockpit A Preview - loop
+4010 Cockpit A Appears
+4011 Cockpit A Visible - loop
+
+4015 Cockpit B Preview - loop
+4020 Cockpit B Appears
+4021 Cockpit B Visible - loop
+
+4025 Cockpit C Preview - loop
+4030 Cockpit C Appears
+4031 Cockpit C Visible - loop
+
+
+	Docking Bay Options
+
+5000 No Docking Bay Visibile - loop
+
+5005 Docking Bay A Preview - loop
+5010 Docking Bay A Appears
+5011 Docking Bay A Visible - loop
+
+5015 Docking Bay B Preview - loop
+5020 Docking Bay B Appears
+5021 Docking Bay B Visible - loop
+
+5025 Docking Bay C Preview - loop
+5030 Docking Bay C Appears
+5031 Docking Bay C Visible - loop
+
+
+	Life Support Options
+
+6000 No Life Support Visibile - loop
+
+6005 Life Support A Preview - loop
+6010 Life Support A Appears
+6011 Life Support A Visible - loop
+
+6015 Life Support B Preview - loop
+6020 Life Support B Appears
+6021 Life Support B Visible - loop
+
+6025 Life Support C Preview - loop
+6030 Life Support C Appears
+6031 Life Support C Visible - loop
+
+
+	Stasis Chamber Options
+
+7000 No Stasis Chamber Visibile - loop
+
+7005 Stasis Chamber A Preview - loop
+7010 Stasis Chamber A Appears
+7011 Stasis Chamber A Visible - loop
+
+7015 Stasis Chamber B Preview - loop
+7020 Stasis Chamber B Appears
+7021 Stasis Chamber B Visible - loop
+
+7025 Stasis Chamber C Preview - loop
+7030 Stasis Chamber C Appears
+7031 Stasis Chamber C Visible - loop
+
+
+	Casing 1 Chamber Options
+
+8100 No Casing 1 Visibile - loop
+
+8105 Casing 1 A Preview - loop
+8110 Casing 1 A Appears
+8111 Casing 1 A Visible - loop
+
+8115 Casing 1 B Preview - loop
+8120 Casing 1 B Appears
+8121 Casing 1 B Visible - loop
+
+8125 Casing 1 C Preview - loop
+8130 Casing 1 C Appears
+8131 Casing 1 C Visible - loop
+
+
+	Casing 2 Chamber Options
+
+8200 No Casing 2 Visibile - loop
+
+8205 Casing 2 A Preview - loop
+8210 Casing 2 A Appears
+8211 Casing 2 A Visible - loop
+
+8215 Casing 2 B Preview - loop
+8220 Casing 2 B Appears
+8221 Casing 2 B Visible - loop
+
+8225 Casing 2 C Preview - loop
+8230 Casing 2 C Appears
+8231 Casing 2 C Visible - loop
+
+
+	Casing 3 Chamber Options
+
+8300 No Casing 3 Visibile - loop
+
+8305 Casing 3 A Preview - loop
+8310 Casing 3 A Appears
+8311 Casing 3 A Visible - loop
+
+8315 Casing 3 B Preview - loop
+8320 Casing 3 B Appears
+8321 Casing 3 B Visible - loop
+
+8325 Casing 3 C Preview - loop
+8330 Casing 3 C Appears
+8331 Casing 3 C Visible - loop	
+
+
+	Casing 4 Chamber Options
+
+8400 No Casing 4 Visibile - loop
+
+8405 Casing 4 A Preview - loop
+8410 Casing 4 A Appears
+8411 Casing 4 A Visible - loop
+
+8415 Casing 4 A Preview - loop
+8420 Casing 4 B Appears
+8421 Casing 4 B Visible - loop
+
+8425 Casing 4 A Preview - loop
+8430 Casing 4 C Appears
+8431 Casing 4 C Visible - loop	
+
+
+	Casing 5 Chamber Options
+
+8500 No Casing 5 Visibile - loop
+
+8505 Casing 5 A Preview - loop
+8510 Casing 5 A Appears
+8511 Casing 5 A Visible - loop
+
+8515 Casing 5 A Preview - loop
+8520 Casing 5 B Appears
+8521 Casing 5 B Visible - loop
+
+8525 Casing 5 A Preview - loop
+8530 Casing 5 C Appears
+8531 Casing 5 C Visible - loop
+		
