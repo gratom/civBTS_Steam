@@ -7,6 +7,7 @@
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_MR_BIG</Tag>
+		<Russian>&#193;&#238;&#241;&#241;</Russian>
 		<English>Mr. Big</English>
 		<French>
 			<Text>M. Big</Text>
@@ -31,6 +32,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_THE_LADY</Tag>
+		<Russian>&#202;&#238;&#240;&#238;&#235;&#229;&#226;&#224;</Russian>
 		<English>The Lady</English>
 		<French>
 			<Text>La Grande Dame</Text>
@@ -55,6 +57,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_HIS_EXCELLENCY</Tag>
+		<Russian>&#212;&#229;&#235;&#252;&#228;&#236;&#224;&#240;&#248;&#224;&#235;</Russian>
 		<English>His Excellency</English>
 		<French>
 			<Text>Son Excellence</Text>
@@ -79,6 +82,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADER_THE_GLORIOUS_LEADER</Tag>
+		<Russian>&#194;&#238;&#230;&#228;&#252;</Russian>
 		<English>The Glorious Leader</English>
 		<French>
 			<Text>Le Glorieux Meneur</Text>
@@ -103,6 +107,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_INC_DESC</Tag>
+		<Russian>&#202;&#238;&#240;&#239;&#238;&#240;&#224;&#246;&#232;&#255; "&#192;&#236;&#229;&#240;&#232;&#234;&#224;"</Russian>
 		<English>America Inc.</English>
 		<French>
 			<Text>America Inc.</Text>
@@ -127,6 +132,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_INC_SHORT_DESC</Tag>
+		<Russian>&#192;&#236;&#229;&#240;&#232;&#234;&#224;&#237;&#246;&#251;</Russian>
 		<English>America Inc.</English>
 		<French>
 			<Text>America Inc.</Text>
@@ -151,6 +157,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_AMERICA_INC_ADJECTIVE</Tag>
+		<Russian>&#224;&#236;&#229;&#240;&#232;&#234;&#224;&#237;&#246;&#251;</Russian>
 		<English>American</English>
 		<French>
 			<Text>américain:américaine:américains:américaines</Text>
@@ -175,6 +182,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SOUTHERN_EMPIRE_DESC</Tag>
+		<Russian>&#222;&#230;&#237;&#224;&#255; &#200;&#236;&#239;&#229;&#240;&#232;&#255;</Russian>
 		<English>The Great Southern Empire</English>
 		<French>
 			<Text>Le Grand Empire du Sud</Text>
@@ -199,6 +207,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SOUTHERN_EMPIRE_SHORT_DESC</Tag>
+		<Russian>&#222;&#230;&#224;&#237;&#229;</Russian>
 		<English>Southern Empire</English>
 		<French>
 			<Text>Empire du Sud</Text>
@@ -223,6 +232,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_SOUTHERN_EMPIRE_ADJECTIVE</Tag>
+		<Russian>&#254;&#230;&#224;&#237;&#229;</Russian>
 		<English>Southern</English>
 		<French>
 			<Text>du Sud:du Sud:du Sud:du Sud</Text>
@@ -247,6 +257,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASIA_DESC</Tag>
+		<Russian>&#207;&#224;&#237;&#224;&#231;&#232;&#224;&#242;&#241;&#234;&#232;&#233; &#205;&#224;&#240;&#238;&#228;&#237;&#251;&#233; &#209;&#238;&#254;&#231;</Russian>
 		<English>Pan-Asiatic People's Cooperative</English>
 		<French>
 			<Text>Coopérative Populaire Pan-Asiatique</Text>
@@ -271,6 +282,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASIA_SHORT_DESC</Tag>
+		<Russian>&#192;&#231;&#232;&#224;&#242;&#251;</Russian>
 		<English>Asia</English>
 		<French>
 			<Text>Asie</Text>
@@ -295,6 +307,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ASIA_ADJECTIVE</Tag>
+		<Russian>&#224;&#231;&#232;&#224;&#242;&#251;</Russian>
 		<English>Asian</English>
 		<French>
 			<Text>asiatique:asiatique:asiatiques:asiatiques</Text>
@@ -319,6 +332,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EUROPA_DESC</Tag>
+		<Russian>&#197;&#226;&#240;&#238;&#239;&#224;</Russian>
 		<English>Europa</English>
 		<French>
 			<Text>Europe</Text>
@@ -343,6 +357,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EUROPA_SHORT_DESC</Tag>
+		<Russian>&#197;&#226;&#240;&#238;&#239;&#229;&#233;&#246;&#251;</Russian>
 		<English>Europa</English>
 		<French>
 			<Text>Europe</Text>
@@ -367,6 +382,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_EUROPA_ADJECTIVE</Tag>
+		<Russian>&#229;&#226;&#240;&#238;&#239;&#229;&#233;&#246;&#251;</Russian>
 		<English>Europan</English>
 		<French>
 			<Text>européen:européenne:européens:européennes</Text>
@@ -391,6 +407,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_HYDROPONICS</Tag>
+		<Russian>&#195;&#232;&#228;&#240;&#238;&#239;&#238;&#237;&#232;&#234;&#224;</Russian>
 		<English>Hydroponics</English>
 		<French>
 			<Text>Cultures hydroponiques</Text>
@@ -415,6 +432,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ARCOLOGY</Tag>
+		<Russian>&#202;&#243;&#239;&#238;&#235;</Russian>
 		<English>Arcology</English>
 		<French>
 			<Text>Arcologie</Text>
@@ -439,6 +457,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ANTIBIOLOGICAL</Tag>
+		<Russian>&#193;&#232;&#238;&#231;&#224;&#249;&#232;&#242;&#224;</Russian>
 		<English>Anti-Biological Warfare</English>
 		<French>
 			<Text>Guerre anti-biologique</Text>
@@ -463,6 +482,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_BIOLOGICAL</Tag>
+		<Russian>&#193;&#232;&#238;&#238;&#240;&#243;&#230;&#232;&#229;</Russian>
 		<English>Biological Warfare Units</English>
 		<French>
 			<Text>Unités de guerre biologique</Text>
@@ -487,6 +507,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_BIOLOGICAL_WARFARE</Tag>
+		<Russian>&#193;&#232;&#238;&#235;&#238;&#227;&#232;&#247;&#229;&#241;&#234;&#238;&#229; &#238;&#240;&#243;&#230;&#232;&#229;</Russian>
 		<English>Biological Warfare</English>
 		<French>
 			<Text>Guerre biologique</Text>
@@ -511,6 +532,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BIOLOGICAL_WARFARE_MISSILE</Tag>
+		<Russian>&#208;&#224;&#234;&#229;&#242;&#224; &#241; &#225;&#232;&#238;&#238;&#240;&#243;&#230;.</Russian>
 		<English>Biological Warfare Missile</English>
 		<French>
 			<Text>Missile de guerre biologique</Text>
@@ -535,6 +557,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BIOLOGICAL_WARFARE_LAB</Tag>
+		<Russian>&#193;&#232;&#238;&#235;&#224;&#225;&#238;&#240;&#224;&#242;&#238;&#240;&#232;&#255;</Russian>
 		<English>Biological Warfare Lab</English>
 		<French>
 			<Text>Laboratoire de guerre biologique</Text>
@@ -559,6 +582,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CENTERS_FOR_DISEASE_CONTROL</Tag>
+		<Russian>&#214;&#229;&#237;&#242;&#240; &#234;&#238;&#237;&#242;&#240;&#238;&#235;&#255;</Russian>
 		<English>Centers for Disease Control</English>
 		<French>
 			<Text>Centres de contrôle mental</Text>
@@ -583,6 +607,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AEGIS_CRUISER</Tag>
+		<Russian>&#202;&#240;&#229;&#233;&#241;&#229;&#240; "&#200;&#228;&#230;&#232;&#241;"</Russian>
 		<English>Aegis Cruiser</English>
 		<French>
 			<Text>Croiseur Aegis</Text>
@@ -607,6 +632,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ARCOLOGY_SHIELDING</Tag>
+		<Russian>&#211;&#234;&#240;&#229;&#239;&#235;. &#234;&#243;&#239;&#238;&#235;</Russian>
 		<English>Arcology Shielding</English>
 		<French>
 			<Text>Bouclier d'arcologie</Text>
@@ -631,6 +657,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_SHIELDING</Tag>
+		<Russian>&#221;&#234;&#240;&#224;&#237;&#232;&#240;&#238;&#226;&#224;&#237;&#232;&#229;</Russian>
 		<English>Shielding</English>
 		<French>
 			<Text>Bouclier</Text>
@@ -655,6 +682,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_CLONES</Tag>
+		<Russian>&#202;&#235;&#238;&#237;&#251;</Russian>
 		<English>Clone Units</English>
 		<French>
 			<Text>Clones</Text>
@@ -679,6 +707,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CLONING_FACTORY</Tag>
+		<Russian>&#212;&#224;&#225;&#240;&#232;&#234;&#224; &#234;&#235;&#238;&#237;&#238;&#226;</Russian>
 		<English>Cloning Factory</English>
 		<French>
 			<Text>Usine de clonage</Text>
@@ -703,6 +732,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_CLONING</Tag>
+		<Russian>&#202;&#235;&#238;&#237;&#232;&#240;&#238;&#226;&#224;&#237;&#232;&#229;</Russian>
 		<English>Cloning</English>
 		<French>
 			<Text>Clonage</Text>
@@ -727,6 +757,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CLONES</Tag>
+		<Russian>&#202;&#235;&#238;&#237;</Russian>
 		<English>Clones</English>
 		<French>
 			<Text>Clones</Text>
@@ -751,6 +782,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_AQUACULTURE</Tag>
+		<Russian>&#192;&#234;&#226;&#224;&#234;&#243;&#235;&#252;&#242;&#243;&#240;&#224;</Russian>
 		<English>Aquaculture</English>
 		<French>
 			<Text>Aquaculture</Text>
@@ -775,6 +807,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_BIONICS</Tag>
+		<Russian>&#193;&#232;&#238;&#237;&#232;&#234;&#224;</Russian>
 		<English>Bionics</English>
 		<French>
 			<Text>Bionique</Text>
@@ -799,6 +832,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AUTOMATONS</Tag>
+		<Russian>&#192;&#226;&#242;&#238;&#236;&#224;&#242;&#238;&#237;</Russian>
 		<English>Automatons</English>
 		<French>
 			<Text>Automates</Text>
@@ -823,6 +857,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_COLD_FUSION</Tag>
+		<Russian>&#213;&#238;&#235;&#238;&#228;&#237;&#251;&#233; &#241;&#232;&#237;&#242;&#229;&#231;</Russian>
 		<English>Cold Fusion</English>
 		<French>
 			<Text>Fusion froide</Text>
@@ -847,6 +882,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_CYBERNETICS</Tag>
+		<Russian>&#202;&#232;&#225;&#229;&#240;&#237;&#229;&#242;&#232;&#234;&#224;</Russian>
 		<English>Cybernetics</English>
 		<French>
 			<Text>Cybernétique</Text>
@@ -871,6 +907,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_ADVANCED_SHIELDING</Tag>
+		<Russian>&#209;&#226;&#229;&#240;&#245;&#239;&#240;. &#234;&#243;&#239;&#238;&#235;</Russian>
 		<English>Advanced Shielding</English>
 		<French>
 			<Text>Boucliers de pointe</Text>
@@ -895,6 +932,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_DREADNOUGHT</Tag>
+		<Russian>&#196;&#240;&#229;&#228;&#237;&#238;&#243;&#242;</Russian>
 		<English>Dreadnought</English>
 		<French>
 			<Text>Dreadnought</Text>
@@ -919,6 +957,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ASSAULT_MECH</Tag>
+		<Russian>&#216;&#242;&#243;&#240;&#236;&#238;&#226;&#232;&#234;</Russian>
 		<English>Assault Mech</English>
 		<French>
 			<Text>Robot de combat</Text>
@@ -943,6 +982,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_ASSAULT_MECH</Tag>
+		<Russian>&#216;&#242;&#243;&#240;&#236;&#238;&#226;&#232;&#234;&#232;</Russian>
 		<English>Assault Mech Units</English>
 		<French>
 			<Text>Robots de combat</Text>
@@ -966,7 +1006,108 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_GUIDED_MISSILE2</Tag>
+		<Russian>&#1056;&#1072;&#1082;&#1077;&#1090;&#1072;&#32;&#1076;&#1072;&#1083;&#1100;&#1085;&#1077;&#1075;&#1086;&#32;&#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1103;</Russian>
+		<English>Assault Mech Units</English>
+		<French>
+			<Text>Robots de combat</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Angriffsrobotereinheiten</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Unità di mech d'assalto:Unità di mech d'assalto</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Unidad de mech de asalto:Unidades de mechs de asalto</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHIP_OF_THE_LINE</Tag>
+		<Russian>&#1051;&#1080;&#1085;&#46;&#32;&#1082;&#1086;&#1088;&#1072;&#1073;&#1083;&#1100;</Russian>
+		<English>Lin.Ship</English>
+		<French>
+			<Text>Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cyborg:Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ciborg:Ciborgs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HARD_UNIT_MISSILE_CRUISER</Tag>
+		<Russian>&#1058;&#1103;&#1078;&#1077;&#1083;&#1099;&#1081;&#32;&#1088;&#1072;&#1082;&#1077;&#1090;&#1085;&#1099;&#1081;&#32;&#1082;&#1088;&#1077;&#1081;&#1089;&#1077;&#1088;</Russian>
+		<English>Hard missile cruiser</English>
+		<French>
+			<Text>Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cyborg:Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ciborg:Ciborgs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STEALTH_BOMBER2</Tag>
+		<Russian>&#88;&#45;&#73;&#110;&#118;&#105;&#115;&#105;&#98;&#108;&#101;</Russian>
+		<English>invisible2</English>
+		<French>
+			<Text>Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Cyborg:Cyborg</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ciborg:Ciborgs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_CYBORG</Tag>
+		<Russian>&#202;&#232;&#225;&#238;&#240;&#227;</Russian>
 		<English>Cyborg</English>
 		<French>
 			<Text>Cyborg</Text>
@@ -991,6 +1132,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_NANOIDS</Tag>
+		<Russian>&#205;&#224;&#237;&#238;&#232;&#228;&#251;</Russian>
 		<English>Nanoids</English>
 		<French>
 			<Text>Nanites</Text>
@@ -1015,6 +1157,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DEFLECTOR_SHIELDING</Tag>
+		<Russian>&#209;&#226;&#229;&#240;&#245;&#239;&#240;&#238;&#247;&#237;&#251;&#233; &#234;&#243;&#239;&#238;&#235;</Russian>
 		<English>Deflector Shielding</English>
 		<French>
 			<Text>Boucliers de pointe</Text>
@@ -1039,6 +1182,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITCOMBAT_DREADNOUGHT</Tag>
+		<Russian>&#196;&#240;&#229;&#228;&#237;&#238;&#243;&#242;&#251;</Russian>
 		<English>Dreadnought Units</English>
 		<French>
 			<Text>Dreadnoughts</Text>
@@ -1063,6 +1207,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MIND_CONTROL_CENTER</Tag>
+		<Russian>&#204;&#224;&#237;&#232;&#239;&#243;&#235;&#255;&#242;&#238;&#240; &#241;&#238;&#231;&#237;.</Russian>
 		<English>Mind-Control Center</English>
 		<French>
 			<Text>Centre de contrôle mental</Text>
@@ -1087,6 +1232,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_LEAGUE_OF_NATIONS</Tag>
+		<Russian>&#205;&#238;&#226;&#224;&#255; &#203;&#232;&#227;&#224; &#205;&#224;&#246;&#232;&#233;</Russian>
 		<English>New League of Nations</English>
 		<French>
 			<Text>Nouvelle Société des Nations</Text>
@@ -1111,6 +1257,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_VANCOUVER</Tag>
+		<Russian>&#194;&#224;&#237;&#234;&#243;&#226;&#229;&#240;</Russian>
 		<English>Vancouver</English>
 		<French>
 			<Text>Vancouver</Text>
@@ -1131,6 +1278,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MEXICO_CITY</Tag>
+		<Russian>&#204;&#229;&#245;&#232;&#234;&#238;</Russian>
 		<English>Mexico City</English>
 		<French>
 			<Text>Mexico</Text>
@@ -1151,6 +1299,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PANAMA_CITY</Tag>
+		<Russian>&#207;&#224;&#237;&#224;&#236;&#224;</Russian>
 		<English>Panama City</English>
 		<French>
 			<Text>Panama</Text>
@@ -1171,6 +1320,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HAVANA</Tag>
+		<Russian>&#195;&#224;&#226;&#224;&#237;&#224;</Russian>
 		<English>Havana</English>
 		<French>
 			<Text>La Havane</Text>
@@ -1191,6 +1341,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TORONTO</Tag>
+		<Russian>&#210;&#238;&#240;&#238;&#237;&#242;&#238;</Russian>
 		<English>Toronto</English>
 		<French>
 			<Text>Toronto</Text>
@@ -1211,6 +1362,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LIMA </Tag>
+		<Russian>&#203;&#232;&#236;&#224;</Russian>
 		<English>Lima</English>
 		<French>
 			<Text>Lima</Text>
@@ -1231,6 +1383,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CARACAS</Tag>
+		<Russian>&#202;&#224;&#240;&#224;&#234;&#224;&#241;</Russian>
 		<English>Caracas</English>
 		<French>
 			<Text>Caracas</Text>
@@ -1251,6 +1404,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CUIABA</Tag>
+		<Russian>&#202;&#243;&#255;&#225;&#224;</Russian>
 		<English>Cuiaba</English>
 		<French>
 			<Text>Cuiaba</Text>
@@ -1271,6 +1425,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RIO_DE_JANEIRO</Tag>
+		<Russian>&#208;&#232;&#238;-&#228;&#229;-&#198;&#224;&#237;&#229;&#233;&#240;&#238;</Russian>
 		<English>Rio de Janeiro</English>
 		<French>
 			<Text>Rio de Janeiro</Text>
@@ -1291,6 +1446,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BELEM</Tag>
+		<Russian>&#193;&#229;&#235;&#229;&#237;</Russian>
 		<English>Belem</English>
 		<French>
 			<Text>Belém</Text>
@@ -1311,6 +1467,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CASABLANCA</Tag>
+		<Russian>&#202;&#224;&#241;&#224;&#225;&#235;&#224;&#237;&#234;&#224;</Russian>
 		<English>Casablanca</English>
 		<French>
 			<Text>Casablanca</Text>
@@ -1331,6 +1488,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_GLASGOW</Tag>
+		<Russian>&#195;&#235;&#224;&#231;&#227;&#238;</Russian>
 		<English>Glasgow</English>
 		<French>
 			<Text>Glasgow</Text>
@@ -1351,6 +1509,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LAGOS</Tag>
+		<Russian>&#203;&#224;&#227;&#238;&#241;</Russian>
 		<English>Lagos</English>
 		<French>
 			<Text>Lagos</Text>
@@ -1371,6 +1530,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ALGIERS</Tag>
+		<Russian>&#192;&#235;&#230;&#232;&#240;</Russian>
 		<English>Algiers</English>
 		<French>
 			<Text>Alger</Text>
@@ -1391,6 +1551,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_LUANDA</Tag>
+		<Russian>&#203;&#243;&#224;&#237;&#228;&#224;</Russian>
 		<English>Luanda</English>
 		<French>
 			<Text>Luanda</Text>
@@ -1411,6 +1572,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_STOCKHOLM</Tag>
+		<Russian>&#209;&#242;&#238;&#234;&#227;&#238;&#235;&#252;&#236;</Russian>
 		<English>Stockholm</English>
 		<French>
 			<Text>Stockholm</Text>
@@ -1431,6 +1593,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TRONDHEIM</Tag>
+		<Russian>&#210;&#240;&#238;&#237;&#245;&#229;&#233;&#236;</Russian>
 		<English>Trondheim</English>
 		<French>
 			<Text>Trondheim</Text>
@@ -1451,6 +1614,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TRIPOLI</Tag>
+		<Russian>&#210;&#240;&#232;&#239;&#238;&#235;&#232;</Russian>
 		<English>Tripoli</English>
 		<French>
 			<Text>Tripoli</Text>
@@ -1471,6 +1635,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JOHANNESBURG</Tag>
+		<Russian>&#201;&#238;&#245;&#224;&#237;&#237;&#229;&#241;&#225;&#243;&#240;&#227;</Russian>
 		<English>Johannesburg</English>
 		<French>
 			<Text>Johannesburg</Text>
@@ -1491,6 +1656,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_KHARTOUM</Tag>
+		<Russian>&#213;&#224;&#240;&#242;&#243;&#236;</Russian>
 		<English>Khartoum</English>
 		<French>
 			<Text>Khartoum</Text>
@@ -1511,6 +1677,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_CAIRO</Tag>
+		<Russian>&#202;&#224;&#232;&#240;</Russian>
 		<English>Cairo</English>
 		<French>
 			<Text>Le Caire</Text>
@@ -1531,6 +1698,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ISTANBUL</Tag>
+		<Russian>&#209;&#242;&#224;&#236;&#225;&#243;&#235;</Russian>
 		<English>Istanbul</English>
 		<French>
 			<Text>Istanbul</Text>
@@ -1551,6 +1719,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_ODESSA</Tag>
+		<Russian>&#206;&#228;&#229;&#241;&#241;&#224;</Russian>
 		<English>Odessa</English>
 		<French>
 			<Text>Odessa</Text>
@@ -1571,6 +1740,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DAR_ES_SALAAM</Tag>
+		<Russian>&#196;&#224;&#240;-&#253;&#241;-&#209;&#224;&#235;&#224;&#236;</Russian>
 		<English>Dar Es Salaam</English>
 		<French>
 			<Text>Dar Es Salaam</Text>
@@ -1591,6 +1761,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JERUSALEM</Tag>
+		<Russian>&#200;&#229;&#240;&#243;&#241;&#224;&#235;&#232;&#236;</Russian>
 		<English>Jerusalem</English>
 		<French>
 			<Text>Jérusalem</Text>
@@ -1611,6 +1782,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_NAIROBI</Tag>
+		<Russian>&#205;&#224;&#233;&#240;&#238;&#225;&#232;</Russian>
 		<English>Nairobi</English>
 		<French>
 			<Text>Nairobi</Text>
@@ -1631,6 +1803,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_RIYADH</Tag>
+		<Russian>&#221;&#240;-&#208;&#232;&#255;&#228;</Russian>
 		<English>Riyadh</English>
 		<French>
 			<Text>Riyadh</Text>
@@ -1651,6 +1824,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_TEHERAN</Tag>
+		<Russian>&#210;&#229;&#227;&#229;&#240;&#224;&#237;</Russian>
 		<English>Teheran</English>
 		<French>
 			<Text>Téhéran</Text>
@@ -1671,6 +1845,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BANGKOK</Tag>
+		<Russian>&#193;&#224;&#237;&#227;&#234;&#238;&#234;</Russian>
 		<English>Bangkok</English>
 		<French>
 			<Text>Bangkok</Text>
@@ -1691,6 +1866,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_JAKARTA</Tag>
+		<Russian>&#196;&#230;&#224;&#234;&#224;&#240;&#242;&#224;</Russian>
 		<English>Jakarta</English>
 		<French>
 			<Text>Jakarta</Text>
@@ -1711,6 +1887,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_SINGAPORE</Tag>
+		<Russian>&#209;&#232;&#237;&#227;&#224;&#239;&#243;&#240;</Russian>
 		<English>Singapore</English>
 		<French>
 			<Text>Singapour</Text>
@@ -1731,6 +1908,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HO_CHI_MINH_CITY</Tag>
+		<Russian>&#213;&#238;&#248;&#232;&#236;&#232;&#237;</Russian>
 		<English>Ho Chi Minh City</English>
 		<French>
 			<Text>Hô-Chi-Minh-Ville</Text>
@@ -1751,6 +1929,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_PERTH</Tag>
+		<Russian>&#207;&#229;&#240;&#242;</Russian>
 		<English>Perth</English>
 		<French>
 			<Text>Perth</Text>
@@ -1771,6 +1950,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_QIQIHAR</Tag>
+		<Russian>&#214;&#232;&#246;&#232;&#234;&#224;&#240;</Russian>
 		<English>Qiqihar</English>
 		<French>
 			<Text>Qiqihar</Text>
@@ -1791,6 +1971,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_DARWIN</Tag>
+		<Russian>&#196;&#224;&#240;&#226;&#232;&#237;</Russian>
 		<English>Darwin</English>
 		<French>
 			<Text>Darwin</Text>
@@ -1811,6 +1992,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_HONG_KONG</Tag>
+		<Russian>&#195;&#238;&#237;&#234;&#238;&#237;&#227;</Russian>
 		<English>Hong Kong</English>
 		<French>
 			<Text>Hong Kong</Text>
@@ -1831,6 +2013,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MANILA</Tag>
+		<Russian>&#204;&#224;&#237;&#232;&#235;&#224;</Russian>
 		<English>Manila</English>
 		<French>
 			<Text>Manille</Text>
@@ -1851,6 +2034,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_FUKUOKA</Tag>
+		<Russian>&#212;&#243;&#234;&#243;&#238;&#234;&#224;</Russian>
 		<English>Fukuoka</English>
 		<French>
 			<Text>Fukuoka</Text>
@@ -1871,6 +2055,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_MELBOURNE</Tag>
+		<Russian>&#204;&#229;&#235;&#252;&#225;&#243;&#237;&#240;</Russian>
 		<English>Melbourne</English>
 		<French>
 			<Text>Melbourne</Text>
@@ -1891,6 +2076,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_BRISBANE</Tag>
+		<Russian>&#193;&#240;&#232;&#241;&#225;&#229;&#237;</Russian>
 		<English>Brisbane</English>
 		<French>
 			<Text>Brisbane</Text>
@@ -1911,6 +2097,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CITY_NAME_WELLINGTON</Tag>
+		<Russian>&#194;&#229;&#235;&#235;&#232;&#237;&#227;&#242;&#238;&#237;</Russian>
 		<English>Wellington</English>
 		<French>
 			<Text>Wellington</Text>
@@ -1931,9 +2118,10 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROJECT_MISSION_TO_MARS</Tag>
+		<Russian>&#221;&#234;&#241;&#239;&#229;&#228;&#232;&#246;&#232;&#255; &#237;&#224; &#204;&#224;&#240;&#241;</Russian>
 		<English>Mission to Mars</English>
 		<French>
-			<Text>Mission &#224; Mars</Text>
+			<Text>Mission à Mars</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -1948,7 +2136,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Misi&#243;n en Marte</Text>
+			<Text>Misión en Marte</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>

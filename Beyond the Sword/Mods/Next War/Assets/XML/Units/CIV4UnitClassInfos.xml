@@ -584,7 +584,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_SHIP_OF_THE_LINE</Type>
-			<Description>TXT_KEY_SHIP_OF_THE_LINE</Description>
+			<Description>TXT_KEY_UNIT_SHIP_OF_THE_LINE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
@@ -628,6 +628,15 @@
 			<DefaultUnit>UNIT_STEALTH_DESTROYER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
+			<Type>UNITCLASS_STEALTH_BOMBER2</Type>
+			<Description>TXT_KEY_UNIT_STEALTH_BOMBER2</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_STEALTH_DESTROYER2</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
 			<Type>UNITCLASS_BATTLESHIP</Type>
 			<Description>TXT_KEY_UNIT_BATTLESHIP</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -644,6 +653,15 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_MISSILE_CRUISER</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_HARD_MISSILE_CRUISER</Type>
+			<Description>TXT_KEY_HARD_UNIT_MISSILE_CRUISER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>4</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_HARD_MISSILE_CRUISER</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_SUBMARINE</Type>
@@ -725,6 +743,15 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_GUIDED_MISSILE</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_GUIDED_MISSILE2</Type>
+			<Description>TXT_KEY_UNIT_GUIDED_MISSILE2</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_GUIDED_MISSILE2</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_ICBM</Type>
@@ -812,7 +839,7 @@
 			<Description>TXT_KEY_UNIT_ASSAULT_MECH</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>4</iMaxPlayerInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_ASSAULT_MECH</DefaultUnit>
 		</UnitClassInfo>
@@ -857,7 +884,7 @@
 			<Description>TXT_KEY_UNIT_DREADNOUGHT</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>2</iMaxPlayerInstances>
+			<iMaxPlayerInstances>6</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_DREADNOUGHT</DefaultUnit>
 		</UnitClassInfo>
