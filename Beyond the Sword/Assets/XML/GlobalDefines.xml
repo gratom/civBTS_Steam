@@ -263,7 +263,7 @@
 	</Define>
 	<Define>
 		<DefineName>COMMERCE_PERCENT_CHANGE_INCREMENTS</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_TRADE_ROUTES</DefineName>
@@ -299,7 +299,7 @@
 	</Define>
 	<Define>
 		<DefineName>NUM_CORPORATION_PREREQ_BONUSES</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>NUM_ROUTE_PREREQ_OR_BONUSES</DefineName>
@@ -379,7 +379,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_DISTANCE_CITY_MAINTENANCE</DefineName>
-		<iDefineIntVal>25</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_TRADE_ROUTES</DefineName>
@@ -435,15 +435,15 @@
 	</Define>
 	<Define>
 		<DefineName>RIVER_ATTACK_MODIFIER</DefineName>
-		<iDefineIntVal>-25</iDefineIntVal>
+		<iDefineIntVal>-75</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>AMPHIB_ATTACK_MODIFIER</DefineName>
-		<iDefineIntVal>-50</iDefineIntVal>
+		<iDefineIntVal>-100</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ENEMY_HEAL_RATE</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>NEUTRAL_HEAL_RATE</DefineName>
@@ -451,11 +451,11 @@
 	</Define>
 	<Define>
 		<DefineName>FRIENDLY_HEAL_RATE</DefineName>
-		<iDefineIntVal>15</iDefineIntVal>
+		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>CITY_HEAL_RATE</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>FOUND_RELIGION_CITY_RAND</DefineName>
@@ -467,11 +467,11 @@
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD_INCREASE</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD_INCREASE_TEAM</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD</DefineName>
@@ -479,11 +479,11 @@
 	</Define>
 	<Define>
 		<DefineName>GREAT_GENERALS_THRESHOLD_INCREASE</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>40</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_GENERALS_THRESHOLD_INCREASE_TEAM</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>40</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_GENERALS_THRESHOLD</DefineName>
@@ -495,15 +495,15 @@
 	</Define>
 	<Define>
 		<DefineName>BASE_SPY_DESTROY_COST</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>200</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SPY_DESTROY_COST_MULTIPLIER_LIMITED</DefineName>
-		<iDefineIntVal>4</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SPY_DESTROY_COST_MULTIPLIER</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BASE_SPY_STEAL_PLANS_COST</DefineName>
@@ -587,7 +587,7 @@
 	</Define>
 	<Define>
 		<DefineName>GOLDEN_AGE_GREAT_PEOPLE_MODIFIER</DefineName>
-		<iDefineIntVal>100</iDefineIntVal>
+		<iDefineIntVal>150</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>HILLS_EXTRA_MOVEMENT</DefineName>
@@ -607,11 +607,11 @@
 	</Define>
 	<Define>
 		<DefineName>CAPITAL_TRADE_MODIFIER</DefineName>
-		<iDefineIntVal>25</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>OVERSEAS_TRADE_MODIFIER</DefineName>
-		<iDefineIntVal>100</iDefineIntVal>
+		<iDefineIntVal>125</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>FOREIGN_TRADE_MODIFIER</DefineName>
@@ -619,7 +619,7 @@
 	</Define>
 	<Define>
 		<DefineName>FOREIGN_TRADE_FULL_CREDIT_PEACE_TURNS</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>75</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>OUR_POPULATION_TRADE_MODIFIER</DefineName>
@@ -639,11 +639,11 @@
 	</Define>
 	<Define>
 		<DefineName>FORTIFY_MODIFIER_PER_TURN</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>4</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_FORTIFY_TURNS</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>WW_UNIT_KILLED_ATTACKING</DefineName>
@@ -727,7 +727,7 @@
 	</Define>
 	<Define>
 		<DefineName>GLOBAL_WARMING_PROB</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GLOBAL_WARMING_FOREST</DefineName>
