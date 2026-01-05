@@ -1007,8 +1007,8 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GUIDED_MISSILE2</Tag>
-		<Russian>&#1056;&#1072;&#1082;&#1077;&#1090;&#1072;&#32;&#1076;&#1072;&#1083;&#1100;&#1085;&#1077;&#1075;&#1086;&#32;&#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1103;</Russian>
-		<English>Assault Mech Units</English>
+		<Russian>&#193;&#224;&#235;&#235;&#232;&#241;&#242;&#232;&#247;&#229;&#241;&#234;&#224;&#255;&#32;&#240;&#224;&#234;&#229;&#242;&#224;</Russian>
+		<English>Heavy Missile</English>
 		<French>
 			<Text>Robots de combat</Text>
 			<Gender>Male</Gender>
@@ -1032,7 +1032,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SHIP_OF_THE_LINE</Tag>
-		<Russian>&#1051;&#1080;&#1085;&#46;&#32;&#1082;&#1086;&#1088;&#1072;&#1073;&#1083;&#1100;</Russian>
+		<Russian>&#203;&#232;&#237;&#229;&#233;&#237;&#251;&#233;&#32;&#234;&#238;&#240;&#224;&#225;&#235;&#252;</Russian>
 		<English>Lin.Ship</English>
 		<French>
 			<Text>Cyborg</Text>
@@ -1057,7 +1057,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_HARD_UNIT_MISSILE_CRUISER</Tag>
-		<Russian>&#1058;&#1103;&#1078;&#1077;&#1083;&#1099;&#1081;&#32;&#1088;&#1072;&#1082;&#1077;&#1090;&#1085;&#1099;&#1081;&#32;&#1082;&#1088;&#1077;&#1081;&#1089;&#1077;&#1088;</Russian>
+		<Russian>&#210;&#255;&#230;&#46;&#32;&#208;&#224;&#234;&#229;&#242;&#237;&#251;&#233;&#32;&#202;&#240;&#229;&#233;&#241;&#229;&#240;</Russian>
 		<English>Hard missile cruiser</English>
 		<French>
 			<Text>Cyborg</Text>
@@ -1082,7 +1082,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_STEALTH_BOMBER2</Tag>
-		<Russian>&#88;&#45;&#73;&#110;&#118;&#105;&#115;&#105;&#98;&#108;&#101;</Russian>
+		<Russian>&#207;&#240;&#238;&#229;&#234;&#242;&#32;&#34;&#205;&#229;&#226;&#232;&#228;&#232;&#236;&#234;&#224;&#34;</Russian>
 		<English>invisible2</English>
 		<French>
 			<Text>Cyborg</Text>

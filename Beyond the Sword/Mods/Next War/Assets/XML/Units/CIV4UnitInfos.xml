@@ -23336,7 +23336,7 @@
             <iFirstStrikes>0</iFirstStrikes>
             <iChanceFirstStrikes>0</iChanceFirstStrikes>
             <iInterceptionProbability>0</iInterceptionProbability>
-            <iEvasionProbability>100</iEvasionProbability>
+            <iEvasionProbability>95</iEvasionProbability>
             <iWithdrawalProb>0</iWithdrawalProb>
             <iCollateralDamage>0</iCollateralDamage>
             <iCollateralDamageLimit>0</iCollateralDamageLimit>
@@ -23511,7 +23511,7 @@
             <iFirstStrikes>0</iFirstStrikes>
             <iChanceFirstStrikes>0</iChanceFirstStrikes>
             <iInterceptionProbability>0</iInterceptionProbability>
-            <iEvasionProbability>100</iEvasionProbability>
+            <iEvasionProbability>95</iEvasionProbability>
             <iWithdrawalProb>0</iWithdrawalProb>
             <iCollateralDamage>0</iCollateralDamage>
             <iCollateralDamageLimit>0</iCollateralDamageLimit>
@@ -23654,7 +23654,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>250</iCost>
+            <iCost>600</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -23687,7 +23687,7 @@
             <iFirstStrikes>0</iFirstStrikes>
             <iChanceFirstStrikes>0</iChanceFirstStrikes>
             <iInterceptionProbability>0</iInterceptionProbability>
-            <iEvasionProbability>50</iEvasionProbability>
+            <iEvasionProbability>95</iEvasionProbability>
             <iWithdrawalProb>0</iWithdrawalProb>
             <iCollateralDamage>0</iCollateralDamage>
             <iCollateralDamageLimit>0</iCollateralDamageLimit>
@@ -23825,7 +23825,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>500</iCost>
+            <iCost>750</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
