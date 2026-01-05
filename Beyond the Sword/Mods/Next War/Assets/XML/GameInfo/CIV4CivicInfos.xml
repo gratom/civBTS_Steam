@@ -536,7 +536,7 @@
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<YieldModifiers/>
 			<CapitalYieldModifiers>
-				<iYield>0</iYield>
+				<iYield>20</iYield>
 				<iYield>100</iYield>
 				<iYield>200</iYield>
 			</CapitalYieldModifiers>
@@ -626,15 +626,16 @@
 			</SpecialistExtraCommerces>
 			<Hurrys/>
 			<SpecialBuildingNotRequireds/>
-			<SpecialistValids/>
+			<SpecialistValids>
+				<SpecialistValid>
+					<SpecialistType>SPECIALIST_SPY</SpecialistType>
+					<bValid>1</bValid>
+				</SpecialistValid>				
+			</SpecialistValids>
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>
 					<BuildingType>BUILDINGCLASS_BARRACKS</BuildingType>
 					<iHappinessChange>2</iHappinessChange>
-				</BuildingHappinessChange>
-				<BuildingHappinessChange>
-					<BuildingType>BUILDINGCLASS_JAIL</BuildingType>
-					<iHappinessChange>1</iHappinessChange>
 				</BuildingHappinessChange>
 				<BuildingHappinessChange>
 					<BuildingType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingType>
@@ -709,7 +710,11 @@
 				<iCommerce>100</iCommerce>
 			</CommerceModifiers>
 			<CapitalCommerceModifiers/>
-			<SpecialistExtraCommerces/>
+			<SpecialistExtraCommerces>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>2</iCommerce>
+			</SpecialistExtraCommerces>
 			<Hurrys/>
 			<SpecialBuildingNotRequireds/>
 			<SpecialistValids/>
@@ -1003,15 +1008,7 @@
 				<SpecialistValid>
 					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 					<bValid>1</bValid>
-				</SpecialistValid>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_SPY</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>				
+				</SpecialistValid>		
 			</SpecialistValids>
 			<BuildingHappinessChanges/>
 			<BuildingHealthChanges/>
@@ -1209,10 +1206,19 @@
 			<TradeYieldModifiers/>
 			<CommerceModifiers/>
 			<CapitalCommerceModifiers/>
-			<SpecialistExtraCommerces/>
+			<SpecialistExtraCommerces>
+				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</SpecialistExtraCommerces>
 			<Hurrys/>
 			<SpecialBuildingNotRequireds/>
-			<SpecialistValids/>
+			<SpecialistValids>
+				<SpecialistValid>
+					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+					<bValid>1</bValid>
+				</SpecialistValid>			
+			</SpecialistValids>
 			<BuildingHappinessChanges/>
 			<BuildingHealthChanges/>
 			<FeatureHappinessChanges/>
