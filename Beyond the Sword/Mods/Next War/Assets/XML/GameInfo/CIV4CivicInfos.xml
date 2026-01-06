@@ -1277,7 +1277,11 @@
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<YieldModifiers/>
 			<CapitalYieldModifiers/>
-			<TradeYieldModifiers/>
+			<TradeYieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>50</iYield>
+			</TradeYieldModifiers>
 			<CommerceModifiers/>
 			<CapitalCommerceModifiers/>
 			<SpecialistExtraCommerces/>
