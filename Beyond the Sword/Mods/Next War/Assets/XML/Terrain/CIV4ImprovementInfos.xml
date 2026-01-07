@@ -500,73 +500,7 @@
             <TerrainMakesValids/>
             <FeatureMakesValids/>
             <BonusTypeStructs>
-                <BonusTypeStruct>
-                    <BonusType>BONUS_ALUMINUM</BonusType>
-                    <bBonusMakesValid>1</bBonusMakesValid>
-                    <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>8000</iDiscoverRand>
-                    <YieldChanges>
-                        <iYieldChange>0</iYieldChange>
-                        <iYieldChange>1</iYieldChange>
-                        <iYieldChange>1</iYieldChange>
-                    </YieldChanges>
-                </BonusTypeStruct>
-                <BonusTypeStruct>
-                    <BonusType>BONUS_COAL</BonusType>
-                    <bBonusMakesValid>1</bBonusMakesValid>
-                    <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>6000</iDiscoverRand>
-                    <YieldChanges>
-                        <iYieldChange>0</iYieldChange>
-                        <iYieldChange>1</iYieldChange>
-                        <iYieldChange>0</iYieldChange>
-                    </YieldChanges>
-                </BonusTypeStruct>
-                <BonusTypeStruct>
-                    <BonusType>BONUS_COPPER</BonusType>
-                    <bBonusMakesValid>1</bBonusMakesValid>
-                    <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>6000</iDiscoverRand>
-                    <YieldChanges>
-                        <iYieldChange>0</iYieldChange>
-                        <iYieldChange>1</iYieldChange>
-                        <iYieldChange>0</iYieldChange>
-                    </YieldChanges>
-                </BonusTypeStruct>
-                <BonusTypeStruct>
-                    <BonusType>BONUS_GEMS</BonusType>
-                    <bBonusMakesValid>1</bBonusMakesValid>
-                    <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>10000</iDiscoverRand>
-                    <YieldChanges>
-                        <iYieldChange>0</iYieldChange>
-                        <iYieldChange>-1</iYieldChange>
-                        <iYieldChange>5</iYieldChange>
-                    </YieldChanges>
-                </BonusTypeStruct>
-                <BonusTypeStruct>
-                    <BonusType>BONUS_GOLD</BonusType>
-                    <bBonusMakesValid>1</bBonusMakesValid>
-                    <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>9000</iDiscoverRand>
-                    <YieldChanges>
-                        <iYieldChange>0</iYieldChange>
-                        <iYieldChange>-1</iYieldChange>
-                        <iYieldChange>6</iYieldChange>
-                    </YieldChanges>
-                </BonusTypeStruct>
-                <BonusTypeStruct>
-                    <BonusType>BONUS_IRON</BonusType>
-                    <bBonusMakesValid>1</bBonusMakesValid>
-                    <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>6000</iDiscoverRand>
-                    <YieldChanges>
-                        <iYieldChange>0</iYieldChange>
-                        <iYieldChange>2</iYieldChange>
-                        <iYieldChange>0</iYieldChange>
-                    </YieldChanges>
-                </BonusTypeStruct>
-                <BonusTypeStruct>
+				<BonusTypeStruct>
                     <BonusType>BONUS_SILVER</BonusType>
                     <bBonusMakesValid>1</bBonusMakesValid>
                     <bBonusTrade>1</bBonusTrade>
@@ -577,15 +511,81 @@
                         <iYieldChange>4</iYieldChange>
                     </YieldChanges>
                 </BonusTypeStruct>
+				<BonusTypeStruct>
+                    <BonusType>BONUS_GOLD</BonusType>
+                    <bBonusMakesValid>1</bBonusMakesValid>
+                    <bBonusTrade>1</bBonusTrade>
+                    <iDiscoverRand>8000</iDiscoverRand>
+                    <YieldChanges>
+                        <iYieldChange>0</iYieldChange>
+                        <iYieldChange>-1</iYieldChange>
+                        <iYieldChange>6</iYieldChange>
+                    </YieldChanges>
+                </BonusTypeStruct>
                 <BonusTypeStruct>
+                    <BonusType>BONUS_GEMS</BonusType>
+                    <bBonusMakesValid>1</bBonusMakesValid>
+                    <bBonusTrade>1</bBonusTrade>
+                    <iDiscoverRand>8000</iDiscoverRand>
+                    <YieldChanges>
+                        <iYieldChange>0</iYieldChange>
+                        <iYieldChange>-1</iYieldChange>
+                        <iYieldChange>5</iYieldChange>
+                    </YieldChanges>
+                </BonusTypeStruct>
+				<BonusTypeStruct>
                     <BonusType>BONUS_URANIUM</BonusType>
                     <bBonusMakesValid>1</bBonusMakesValid>
                     <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>10000</iDiscoverRand>
+                    <iDiscoverRand>7000</iDiscoverRand>
                     <YieldChanges>
                         <iYieldChange>-1</iYieldChange>
                         <iYieldChange>1</iYieldChange>
                         <iYieldChange>3</iYieldChange>
+                    </YieldChanges>
+                </BonusTypeStruct>
+                <BonusTypeStruct>
+                    <BonusType>BONUS_COAL</BonusType>
+                    <bBonusMakesValid>1</bBonusMakesValid>
+                    <bBonusTrade>1</bBonusTrade>
+                    <iDiscoverRand>7000</iDiscoverRand>
+                    <YieldChanges>
+                        <iYieldChange>0</iYieldChange>
+                        <iYieldChange>1</iYieldChange>
+                        <iYieldChange>0</iYieldChange>
+                    </YieldChanges>
+                </BonusTypeStruct>
+                <BonusTypeStruct>
+                    <BonusType>BONUS_COPPER</BonusType>
+                    <bBonusMakesValid>1</bBonusMakesValid>
+                    <bBonusTrade>1</bBonusTrade>
+                    <iDiscoverRand>7000</iDiscoverRand>
+                    <YieldChanges>
+                        <iYieldChange>0</iYieldChange>
+                        <iYieldChange>1</iYieldChange>
+                        <iYieldChange>0</iYieldChange>
+                    </YieldChanges>
+                </BonusTypeStruct>
+                <BonusTypeStruct>
+                    <BonusType>BONUS_IRON</BonusType>
+                    <bBonusMakesValid>1</bBonusMakesValid>
+                    <bBonusTrade>1</bBonusTrade>
+                    <iDiscoverRand>7000</iDiscoverRand>
+                    <YieldChanges>
+                        <iYieldChange>0</iYieldChange>
+                        <iYieldChange>2</iYieldChange>
+                        <iYieldChange>0</iYieldChange>
+                    </YieldChanges>
+                </BonusTypeStruct>
+				<BonusTypeStruct>
+                    <BonusType>BONUS_ALUMINUM</BonusType>
+                    <bBonusMakesValid>1</bBonusMakesValid>
+                    <bBonusTrade>1</bBonusTrade>
+                    <iDiscoverRand>7000</iDiscoverRand>
+                    <YieldChanges>
+                        <iYieldChange>0</iYieldChange>
+                        <iYieldChange>1</iYieldChange>
+                        <iYieldChange>1</iYieldChange>
                     </YieldChanges>
                 </BonusTypeStruct>
             </BonusTypeStructs>
