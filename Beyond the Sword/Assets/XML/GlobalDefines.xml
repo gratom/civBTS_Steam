@@ -379,7 +379,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_DISTANCE_CITY_MAINTENANCE</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>100</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_TRADE_ROUTES</DefineName>
@@ -439,7 +439,7 @@
 	</Define>
 	<Define>
 		<DefineName>AMPHIB_ATTACK_MODIFIER</DefineName>
-		<iDefineIntVal>-100</iDefineIntVal>
+		<iDefineIntVal>-95</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ENEMY_HEAL_RATE</DefineName>
@@ -467,11 +467,11 @@
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD_INCREASE</DefineName>
-		<iDefineIntVal>25</iDefineIntVal>
+		<iDefineIntVal>30</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD_INCREASE_TEAM</DefineName>
-		<iDefineIntVal>25</iDefineIntVal>
+		<iDefineIntVal>30</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_PEOPLE_THRESHOLD</DefineName>
@@ -495,15 +495,15 @@
 	</Define>
 	<Define>
 		<DefineName>BASE_SPY_DESTROY_COST</DefineName>
-		<iDefineIntVal>200</iDefineIntVal>
+		<iDefineIntVal>300</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SPY_DESTROY_COST_MULTIPLIER_LIMITED</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>SPY_DESTROY_COST_MULTIPLIER</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>20</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BASE_SPY_STEAL_PLANS_COST</DefineName>
@@ -547,11 +547,11 @@
 	</Define>
 	<Define>
 		<DefineName>INITIAL_FREE_UNITS_POPULATION_PERCENT</DefineName>
-		<iDefineIntVal>24</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_FREE_MILITARY_UNITS_POPULATION_PERCENT</DefineName>
-		<iDefineIntVal>12</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_GOLD_PER_UNIT</DefineName>
@@ -559,11 +559,11 @@
 	</Define>
 	<Define>
 		<DefineName>INITIAL_FREE_OUTSIDE_UNITS</DefineName>
-		<iDefineIntVal>4</iDefineIntVal>
+		<iDefineIntVal>5</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>INITIAL_OUTSIDE_UNIT_GOLD_PERCENT</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>75</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ANIMAL_MAX_XP_VALUE</DefineName>
@@ -571,7 +571,7 @@
 	</Define>
 	<Define>
 		<DefineName>BARBARIAN_MAX_XP_VALUE</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>15</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BASE_GOLDEN_AGE_UNITS</DefineName>
