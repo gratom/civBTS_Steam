@@ -3514,7 +3514,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>150</iCost>
+			<iCost>200</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -5234,7 +5234,7 @@
 			</YieldModifiers>
 			<PowerYieldModifiers>
 				<iYield>0</iYield>
-				<iYield>10</iYield>
+				<iYield>20</iYield>
 				<iYield>0</iYield>
 			</PowerYieldModifiers>
 			<CommerceChanges/>
@@ -5271,7 +5271,20 @@
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COAL</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>25</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COPPER</BonusType>
+					<iProductonModifier>25</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -5457,7 +5470,7 @@
 			</YieldModifiers>
 			<PowerYieldModifiers>
 				<iYield>0</iYield>
-				<iYield>10</iYield>
+				<iYield>20</iYield>
 				<iYield>0</iYield>
 			</PowerYieldModifiers>
 			<CommerceChanges/>
@@ -5496,7 +5509,20 @@
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COAL</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>25</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COPPER</BonusType>
+					<iProductonModifier>25</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -5613,7 +5639,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>250</iCost>
+			<iCost>400</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -5711,11 +5737,11 @@
 			<BonusHealthChanges>
 				<BonusHealthChange>
 					<BonusType>BONUS_OIL</BonusType>
-					<iHealthChange>-2</iHealthChange>
+					<iHealthChange>-1</iHealthChange>
 				</BonusHealthChange>
 				<BonusHealthChange>
 					<BonusType>BONUS_COAL</BonusType>
-					<iHealthChange>-3</iHealthChange>
+					<iHealthChange>-1</iHealthChange>
 				</BonusHealthChange>
 				<BonusHealthChange>
 					<BonusType>BONUS_IRON</BonusType>
@@ -5731,7 +5757,20 @@
 				</BonusHealthChange>
 			</BonusHealthChanges>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COAL</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COPPER</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -5860,7 +5899,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>250</iCost>
+			<iCost>450</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -5924,11 +5963,11 @@
 			<GlobalSeaPlotYieldChanges/>
 			<YieldChanges>
 				<iYield>0</iYield>
-				<iYield>4</iYield>
+				<iYield>5</iYield>
 			</YieldChanges>
 			<YieldModifiers>
 				<iYield>0</iYield>
-				<iYield>20</iYield>
+				<iYield>25</iYield>
 				<iYield>0</iYield>
 			</YieldModifiers>
 			<PowerYieldModifiers>
@@ -5958,11 +5997,11 @@
 			<BonusHealthChanges>
 				<BonusHealthChange>
 					<BonusType>BONUS_OIL</BonusType>
-					<iHealthChange>-2</iHealthChange>
+					<iHealthChange>-1</iHealthChange>
 				</BonusHealthChange>
 				<BonusHealthChange>
 					<BonusType>BONUS_COAL</BonusType>
-					<iHealthChange>-3</iHealthChange>
+					<iHealthChange>-1</iHealthChange>
 				</BonusHealthChange>
 				<BonusHealthChange>
 					<BonusType>BONUS_IRON</BonusType>
@@ -5981,7 +6020,15 @@
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_COAL</BonusType>
-					<iProductonModifier>50</iProductonModifier>
+					<iProductonModifier>75</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>75</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COPPER</BonusType>
+					<iProductonModifier>75</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
@@ -6107,7 +6154,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>150</iCost>
+			<iCost>300</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -6186,7 +6233,12 @@
 			<ConstructSound/>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COAL</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -6339,7 +6391,7 @@
 			<YieldChanges/>
 			<YieldModifiers>
 				<iYield>0</iYield>
-				<iYield>10</iYield>
+				<iYield>15</iYield>
 				<iYield>0</iYield>
 			</YieldModifiers>
 			<CommerceChanges/>
@@ -6358,7 +6410,12 @@
 			<ConstructSound/>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -6446,7 +6503,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>200</iCost>
+			<iCost>400</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -6525,7 +6582,12 @@
 			<ConstructSound>AS2D_BUILD_PLANTHYDRO</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -6613,7 +6675,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>250</iCost>
+			<iCost>600</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -6695,7 +6757,16 @@
 			<ConstructSound>AS2D_BUILD_PLANTNUCLEAR</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_URANIUM</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>25</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -6792,7 +6863,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>250</iCost>
+			<iCost>500</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -6856,7 +6927,7 @@
 			<GlobalSeaPlotYieldChanges/>
 			<YieldChanges>
 				<iYield>0</iYield>
-				<iYield>4</iYield>
+				<iYield>5</iYield>
 			</YieldChanges>
 			<YieldModifiers/>
 			<PowerYieldModifiers/>
@@ -6878,7 +6949,7 @@
 			<FreeSpecialistCounts>
 				<FreeSpecialistCount>
 					<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-					<iFreeSpecialistCount>2</iFreeSpecialistCount>
+					<iFreeSpecialistCount>1</iFreeSpecialistCount>
 				</FreeSpecialistCount>
 			</FreeSpecialistCounts>
 			<CommerceFlexibles/>
@@ -6887,7 +6958,7 @@
 			<BonusHealthChanges>
 				<BonusHealthChange>
 					<BonusType>BONUS_OIL</BonusType>
-					<iHealthChange>-1</iHealthChange>
+					<iHealthChange>-2</iHealthChange>
 				</BonusHealthChange>
 				<BonusHealthChange>
 					<BonusType>BONUS_COAL</BonusType>
@@ -6895,19 +6966,28 @@
 				</BonusHealthChange>
 				<BonusHealthChange>
 					<BonusType>BONUS_IRON</BonusType>
-					<iHealthChange>-1</iHealthChange>
+					<iHealthChange>-2</iHealthChange>
 				</BonusHealthChange>
 				<BonusHealthChange>
 					<BonusType>BONUS_COPPER</BonusType>
-					<iHealthChange>-1</iHealthChange>
+					<iHealthChange>-2</iHealthChange>
 				</BonusHealthChange>
 				<BonusHealthChange>
 					<BonusType>BONUS_ALUMINUM</BonusType>
-					<iHealthChange>-1</iHealthChange>
+					<iHealthChange>-2</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COAL</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -6933,7 +7013,7 @@
 					<BonusType>BONUS_ALUMINUM</BonusType>
 					<YieldModifiers>
 						<iYield>0</iYield>
-						<iYield>5</iYield>
+						<iYield>10</iYield>
 						<iYield>0</iYield>
 					</YieldModifiers>
 				</BonusYieldModifier>
