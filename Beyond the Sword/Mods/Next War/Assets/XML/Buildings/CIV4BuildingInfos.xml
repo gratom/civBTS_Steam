@@ -9855,7 +9855,12 @@
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_DYE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -10048,7 +10053,12 @@
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_DYE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -10056,7 +10066,16 @@
 			<PrereqBuildingClasses/>
 			<BuildingClassNeededs/>
 			<SpecialistYieldChanges/>
-			<BonusYieldModifiers/>
+			<BonusYieldModifiers>
+				<BonusYieldModifier>
+					<BonusType>BONUS_DYE</BonusType>
+					<YieldModifiers>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>10</iYield>
+					</YieldModifiers>
+				</BonusYieldModifier>
+			</BonusYieldModifiers>
 			<ImprovementFreeSpecialists/>
 			<Flavors>
 				<Flavor>
@@ -10232,7 +10251,12 @@
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_HORSE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -10240,7 +10264,16 @@
 			<PrereqBuildingClasses/>
 			<BuildingClassNeededs/>
 			<SpecialistYieldChanges/>
-			<BonusYieldModifiers/>
+			<BonusYieldModifiers>
+				<BonusYieldModifier>
+					<BonusType>BONUS_HORSE</BonusType>
+					<YieldModifiers>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>10</iYield>
+					</YieldModifiers>
+				</BonusYieldModifier>
+			</BonusYieldModifiers>
 			<ImprovementFreeSpecialists/>
 			<Flavors>
 				<Flavor>
@@ -10320,7 +10353,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>80</iCost>
+			<iCost>100</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -10403,7 +10436,16 @@
 			<ConstructSound>AS2D_BUILD_COLOSSEUM</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MARBLE</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_STONE</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -10486,7 +10528,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>80</iCost>
+			<iCost>100</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -10587,7 +10629,16 @@
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MARBLE</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_STONE</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -10670,7 +10721,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>80</iCost>
+			<iCost>100</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -10753,7 +10804,12 @@
 			<ConstructSound>AS2D_BUILD_COLOSSEUM</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_STONE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -10836,7 +10892,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>80</iCost>
+			<iCost>100</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -10870,7 +10926,7 @@
 			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
 			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
 			<iHealRateChange>0</iHealRateChange>
-			<iHealth>2</iHealth>
+			<iHealth>3</iHealth>
 			<iAreaHealth>0</iAreaHealth>
 			<iGlobalHealth>0</iGlobalHealth>
 			<iHappiness>1</iHappiness>
@@ -10919,7 +10975,12 @@
 			<ConstructSound>AS2D_BUILD_COLOSSEUM</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MARBLE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
@@ -11002,7 +11063,7 @@
 			<bPrereqReligion>0</bPrereqReligion>
 			<bCenterInCity>0</bCenterInCity>
 			<iAIWeight>0</iAIWeight>
-			<iCost>175</iCost>
+			<iCost>250</iCost>
 			<iHurryCostModifier>0</iHurryCostModifier>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -11107,7 +11168,16 @@
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
-			<BonusProductionModifiers/>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_IRON</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_COPPER</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<UnitCombatFreeExperiences/>
 			<DomainFreeExperiences/>
 			<DomainProductionModifiers/>
