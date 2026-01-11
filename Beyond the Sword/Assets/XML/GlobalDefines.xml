@@ -379,7 +379,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_DISTANCE_CITY_MAINTENANCE</DefineName>
-		<iDefineIntVal>100</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_TRADE_ROUTES</DefineName>

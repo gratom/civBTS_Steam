@@ -499,8 +499,8 @@
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
 			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
 			<iStateReligionGreatPeopleRateModifier>0</iStateReligionGreatPeopleRateModifier>
-			<iDistanceMaintenanceModifier>400</iDistanceMaintenanceModifier>
-			<iNumCitiesMaintenanceModifier>400</iNumCitiesMaintenanceModifier>
+			<iDistanceMaintenanceModifier>300</iDistanceMaintenanceModifier>
+			<iNumCitiesMaintenanceModifier>500</iNumCitiesMaintenanceModifier>
 			<iCorporationMaintenanceModifier>0</iCorporationMaintenanceModifier>
 			<iExtraHealth>0</iExtraHealth>
 			<iFreeExperience>0</iFreeExperience>
