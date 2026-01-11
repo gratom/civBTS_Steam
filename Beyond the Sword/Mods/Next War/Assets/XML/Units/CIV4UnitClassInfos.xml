@@ -92,7 +92,7 @@
 			<Description>TXT_KEY_UNIT_EXECUTIVE_1</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iMaxPlayerInstances>7</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EXECUTIVE_1</DefaultUnit>
 		</UnitClassInfo>
@@ -101,7 +101,7 @@
 			<Description>CHANGED_TXT_KEY_UNIT_EXECUTIVE_2</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iMaxPlayerInstances>7</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EXECUTIVE_2</DefaultUnit>
 		</UnitClassInfo>
@@ -110,7 +110,7 @@
 			<Description>TXT_KEY_UNIT_EXECUTIVE_3</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iMaxPlayerInstances>7</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EXECUTIVE_3</DefaultUnit>
 		</UnitClassInfo>
@@ -119,7 +119,7 @@
 			<Description>TXT_KEY_UNIT_EXECUTIVE_4</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iMaxPlayerInstances>7</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EXECUTIVE_4</DefaultUnit>
 		</UnitClassInfo>
@@ -128,7 +128,7 @@
 			<Description>TXT_KEY_UNIT_EXECUTIVE_5</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iMaxPlayerInstances>7</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EXECUTIVE_5</DefaultUnit>
 		</UnitClassInfo>
@@ -137,7 +137,7 @@
 			<Description>TXT_KEY_UNIT_EXECUTIVE_6</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iMaxPlayerInstances>7</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EXECUTIVE_6</DefaultUnit>
 		</UnitClassInfo>
@@ -146,7 +146,7 @@
 			<Description>TXT_KEY_UNIT_EXECUTIVE_7</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>5</iMaxPlayerInstances>
+			<iMaxPlayerInstances>7</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_EXECUTIVE_7</DefaultUnit>
 		</UnitClassInfo>
@@ -155,7 +155,7 @@
 			<Description>TXT_KEY_UNIT_JEWISH_MISSIONARY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_JEWISH_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
@@ -164,7 +164,7 @@
 			<Description>TXT_KEY_UNIT_CHRISTIAN_MISSIONARY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_CHRISTIAN_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
@@ -173,7 +173,7 @@
 			<Description>TXT_KEY_UNIT_ISLAMIC_MISSIONARY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_ISLAMIC_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
@@ -182,7 +182,7 @@
 			<Description>TXT_KEY_UNIT_HINDU_MISSIONARY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_HINDU_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
@@ -191,7 +191,7 @@
 			<Description>TXT_KEY_UNIT_BUDDHIST_MISSIONARY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_BUDDHIST_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
@@ -200,7 +200,7 @@
 			<Description>TXT_KEY_UNIT_CONFUCIAN_MISSIONARY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_CONFUCIAN_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
@@ -209,7 +209,7 @@
 			<Description>TXT_KEY_UNIT_TAOIST_MISSIONARY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>3</iMaxPlayerInstances>
+			<iMaxPlayerInstances>5</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_TAOIST_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
