@@ -198,6 +198,16 @@
 			<Button>,Art/Interface/Buttons/Buildings/Hospital.dds,Art/Interface/Buttons/Buildings_Atlas.dds,3,10</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_HOSPITAL2</Type>
+			<LSystem>LSYSTEM_4x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>2.52</fScale>
+			<fInterfaceScale>0.53</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Hospital/Hospital.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/Hospital.dds,Art/Interface/Buttons/NextWar_Atlas.dds,6,5</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_RECYCLING_CENTER</Type>
 			<LSystem>LSYSTEM_3x2</LSystem>
 			<bAnimated>0</bAnimated>
@@ -206,6 +216,26 @@
 			<NIF>Art/Structures/Buildings/RecyclingCenter/RecyclingCenter.nif</NIF>
 			<KFM/>
 			<Button>,Art/Interface/Buttons/Buildings/RecyclingCenter.dds,Art/Interface/Buttons/Buildings_Atlas.dds,1,2</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_RECYCLING_CENTER2</Type>
+			<LSystem>LSYSTEM_3x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>1.5</fScale>
+			<fInterfaceScale>0.73</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/RecyclingCenter/RecyclingCenter.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/RecyclingCenter2.dds,Art/Interface/Buttons/NextWar_Atlas.dds,7,5</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_CHEMISTRY_FACTORY</Type>
+			<LSystem>LSYSTEM_4x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>2.19</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Factory/Factory.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/ChemistryFactory.dds,Art/Interface/Buttons/NextWar_Atlas.dds,8,5</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_LIGHTHOUSE</Type>
@@ -306,6 +336,16 @@
 			<NIF>Art/Structures/Buildings/Factory/Factory.nif</NIF>
 			<KFM/>
 			<Button>,Art/Interface/Buttons/Buildings/Factory.dds,Art/Interface/Buttons/Buildings_Atlas.dds,7,2</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_MICROCHIP_FACTORY</Type>
+			<LSystem>LSYSTEM_4x2</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>2.09</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Factory/Factory.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Buildings/Factory.dds,Art/Interface/Buttons/NextWar_Atlas.dds,2,5</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_GERMAN_ASSEMBLY_PLANT</Type>
