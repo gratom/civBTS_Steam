@@ -9987,7 +9987,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_LASER</PrereqTech>
             <TechTypes>
                 <PrereqTech>NONE</PrereqTech>
@@ -10006,7 +10006,7 @@
             <iMinAreaSize>-1</iMinAreaSize>
             <iMoves>2</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
-            <iAirRange>1</iAirRange>
+            <iAirRange>3</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
             <iDropRange>0</iDropRange>
             <iNukeRange>-1</iNukeRange>
@@ -10023,10 +10023,10 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>22</iCombat>
+            <iCombat>26</iCombat>
             <iCombatLimit>100</iCombatLimit>
-            <iAirCombat>0</iAirCombat>
-            <iAirCombatLimit>0</iAirCombatLimit>
+            <iAirCombat>35</iAirCombat>
+            <iAirCombatLimit>95</iAirCombatLimit>
             <iXPValueAttack>4</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
             <iFirstStrikes>0</iFirstStrikes>
@@ -15376,7 +15376,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_RIFLING</PrereqTech>
@@ -15462,15 +15462,11 @@
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>10</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_ALUMINUM</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>		
-				<BonusProductionModifier>
-					<BonusType>BONUS_COAL</BonusType>
-					<iProductonModifier>10</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>				
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
@@ -15595,7 +15591,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_RIFLING</PrereqTech>
@@ -15677,7 +15673,7 @@
             <BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_IRON</BonusType>
-					<iProductonModifier>60</iProductonModifier>
+					<iProductonModifier>50</iProductonModifier>
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_OIL</BonusType>
@@ -15685,16 +15681,12 @@
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>10</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_ALUMINUM</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>	
-				<BonusProductionModifier>
-					<BonusType>BONUS_COAL</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>				
+					<iProductonModifier>25</iProductonModifier>
+				</BonusProductionModifier>			
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
             <iBombardRate>0</iBombardRate>
@@ -15813,7 +15805,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_COMPOSITES</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_COMPUTERS</PrereqTech>
@@ -15825,7 +15817,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>420</iCost>
+            <iCost>500</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -15903,16 +15895,12 @@
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>10</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_ALUMINUM</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>		
-				<BonusProductionModifier>
-					<BonusType>BONUS_COAL</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>				
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>			
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
             <iBombardRate>0</iBombardRate>
@@ -16040,7 +16028,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_ADVANCED_FLIGHT</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -16126,15 +16114,7 @@
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>
-				<BonusProductionModifier>
-					<BonusType>BONUS_IRON</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>
-				<BonusProductionModifier>
-					<BonusType>BONUS_COAL</BonusType>
-					<iProductonModifier>10</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
@@ -16861,7 +16841,7 @@
             <iMinAreaSize>-1</iMinAreaSize>
             <iMoves>1</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
-            <iAirRange>0</iAirRange>
+            <iAirRange>1</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
             <iDropRange>0</iDropRange>
             <iNukeRange>-1</iNukeRange>
@@ -16880,8 +16860,8 @@
             <FeaturePassableTechs/>
             <iCombat>12</iCombat>
             <iCombatLimit>80</iCombatLimit>
-            <iAirCombat>0</iAirCombat>
-            <iAirCombatLimit>0</iAirCombatLimit>
+            <iAirCombat>16</iAirCombat>
+            <iAirCombatLimit>25</iAirCombatLimit>
             <iXPValueAttack>4</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
             <iFirstStrikes>0</iFirstStrikes>
@@ -17252,7 +17232,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_ARTILLERY</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -17267,7 +17247,7 @@
             <iMinAreaSize>-1</iMinAreaSize>
             <iMoves>1</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
-            <iAirRange>0</iAirRange>
+            <iAirRange>2</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
             <iDropRange>0</iDropRange>
             <iNukeRange>-1</iNukeRange>
@@ -17284,10 +17264,10 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>18</iCombat>
+            <iCombat>14</iCombat>
             <iCombatLimit>85</iCombatLimit>
-            <iAirCombat>0</iAirCombat>
-            <iAirCombatLimit>0</iAirCombatLimit>
+            <iAirCombat>25</iAirCombat>
+            <iAirCombatLimit>40</iAirCombatLimit>
             <iXPValueAttack>4</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
             <iFirstStrikes>0</iFirstStrikes>
@@ -17450,7 +17430,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_LASER</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_ARTILLERY</PrereqTech>
@@ -17469,7 +17449,7 @@
             <iMinAreaSize>-1</iMinAreaSize>
             <iMoves>2</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
-            <iAirRange>0</iAirRange>
+            <iAirRange>3</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
             <iDropRange>0</iDropRange>
             <iNukeRange>-1</iNukeRange>
@@ -17486,10 +17466,10 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>26</iCombat>
+            <iCombat>16</iCombat>
             <iCombatLimit>85</iCombatLimit>
-            <iAirCombat>0</iAirCombat>
-            <iAirCombatLimit>0</iAirCombatLimit>
+            <iAirCombat>30</iAirCombat>
+            <iAirCombatLimit>60</iAirCombatLimit>
             <iXPValueAttack>4</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
             <iFirstStrikes>0</iFirstStrikes>
@@ -19672,7 +19652,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_STEEL</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_STEAM_POWER</PrereqTech>
@@ -20171,7 +20151,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_COMBUSTION</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -20419,7 +20399,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -20666,7 +20646,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_ROBOTICS</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -20913,7 +20893,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding></PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_COLD_FUSION</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -21169,7 +21149,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_STEALTH</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_ROBOTICS</PrereqTech>
@@ -21420,7 +21400,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_RADIO</PrereqTech>
             <TechTypes>
                 <PrereqTech>NONE</PrereqTech>
@@ -21683,7 +21663,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_ROCKETRY</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_RADIO</PrereqTech>
@@ -21938,7 +21918,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_DRYDOCK</PrereqBuilding>
             <PrereqTech>TECH_FLIGHT</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -22541,7 +22521,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_AIRPORT</PrereqBuilding>
             <PrereqTech>TECH_ADVANCED_FLIGHT</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -22726,7 +22706,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_AIRPORT</PrereqBuilding>
             <PrereqTech>TECH_RADIO</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_FLIGHT</PrereqTech>
@@ -22915,7 +22895,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_AIRPORT</PrereqBuilding>
             <PrereqTech>TECH_STEALTH</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_ROBOTICS</PrereqTech>
@@ -23103,7 +23083,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_AIRPORT</PrereqBuilding>
             <PrereqTech>TECH_SHIELDING</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_ROBOTICS</PrereqTech>
@@ -23291,7 +23271,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_ROCKETRY</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_RADIO</PrereqTech>
@@ -23467,7 +23447,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_ROBOTICS</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_RADIO</PrereqTech>
@@ -23642,7 +23622,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_FISSION</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_ROCKETRY</PrereqTech>
@@ -23813,7 +23793,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_FISSION</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_ROCKETRY</PrereqTech>
@@ -25563,7 +25543,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_SHIELDING</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_ROBOTICS</PrereqTech>
@@ -25580,7 +25560,7 @@
             <iAdvancedStartCost>700</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>-1</iMinAreaSize>
-            <iMoves>2</iMoves>
+            <iMoves>1</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
             <iAirRange>2</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
@@ -25601,8 +25581,8 @@
             <FeaturePassableTechs/>
             <iCombat>50</iCombat>
             <iCombatLimit>100</iCombatLimit>
-            <iAirCombat>30</iAirCombat>
-            <iAirCombatLimit>100</iAirCombatLimit>
+            <iAirCombat>20</iAirCombat>
+            <iAirCombatLimit>50</iAirCombatLimit>
             <iXPValueAttack>4</iXPValueAttack>
             <iXPValueDefense>2</iXPValueDefense>
             <iFirstStrikes>1</iFirstStrikes>
@@ -26442,7 +26422,7 @@
             <iMinAreaSize>-1</iMinAreaSize>
             <iMoves>2</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
-            <iAirRange>1</iAirRange>
+            <iAirRange>0</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
             <iDropRange>0</iDropRange>
             <iNukeRange>-1</iNukeRange>

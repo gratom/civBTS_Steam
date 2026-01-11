@@ -4966,6 +4966,7 @@
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_POTTERY</PrereqTech>
+				<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_METAL_CASTING_QUOTE</Quote>
 			<Sound>AS2D_TECH_METALCAST</Sound>

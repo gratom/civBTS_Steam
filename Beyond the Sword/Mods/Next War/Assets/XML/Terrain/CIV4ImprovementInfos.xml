@@ -591,7 +591,32 @@
             </BonusTypeStructs>
             <ImprovementPillage/>
             <ImprovementUpgrade/>
-            <TechYieldChanges/>
+            <TechYieldChanges>
+                <TechYieldChange>
+                    <PrereqTech>TECH_ENGINEERING</PrereqTech>
+                    <TechYields>
+                        <iYield>0</iYield>
+                        <iYield>1</iYield>
+                        <iYield>0</iYield>
+                    </TechYields>
+                </TechYieldChange>
+                <TechYieldChange>
+                    <PrereqTech>TECH_ELECTRICITY</PrereqTech>
+                    <TechYields>
+                        <iYield>0</iYield>
+                        <iYield>0</iYield>
+                        <iYield>1</iYield>
+                    </TechYields>
+                </TechYieldChange>
+                <TechYieldChange>
+                    <PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
+                    <TechYields>
+                        <iYield>0</iYield>
+                        <iYield>1</iYield>
+                        <iYield>0</iYield>
+                    </TechYields>
+                </TechYieldChange>
+            </TechYieldChanges>
             <RouteYieldChanges>
                 <RouteYieldChange>
                     <RouteType>ROUTE_RAILROAD</RouteType>
@@ -682,14 +707,6 @@
                     </TechYields>
                 </TechYieldChange>
                 <TechYieldChange>
-                    <PrereqTech>TECH_ELECTRICITY</PrereqTech>
-                    <TechYields>
-                        <iYield>0</iYield>
-                        <iYield>0</iYield>
-                        <iYield>1</iYield>
-                    </TechYields>
-                </TechYieldChange>
-                <TechYieldChange>
                     <PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
                     <TechYields>
                         <iYield>-1</iYield>
@@ -702,7 +719,7 @@
                     <TechYields>
                         <iYield>0</iYield>
                         <iYield>0</iYield>
-                        <iYield>2</iYield>
+                        <iYield>1</iYield>
                     </TechYields>
                 </TechYieldChange>
             </TechYieldChanges>
