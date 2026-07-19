@@ -523,7 +523,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MAIN_MENU_VICTORIES</Tag>
-		<Russian>&#211;&#241;&#235;&#238;&#226;&#232;&#255; &#239;&#238;&#225;&#229;&#228;&#251;</Russian>
+		<Russian>&#194;&#232;&#228;&#32;&#239;&#238;&#225;&#229;&#228;&#251;</Russian>
 		<English>Victories</English>
 	</TEXT>
 	<TEXT>
@@ -2798,7 +2798,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MEMBERS_ROOT_NAME</Tag>
-		<Russian>&#211;&#247;&#224;&#241;&#242;&#237;&#232;&#234;&#232;</Russian>
+		<Russian>&#211;&#215;&#192;&#209;&#210;&#205;&#200;&#202;&#200;</Russian>
 		<English>Members</English>
 	</TEXT>
 	<TEXT>
@@ -5278,7 +5278,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_WB_CITY_DATA</Tag>
-		<Russian>&#209;&#226;&#229;&#228;&#229;&#237;&#232;&#255;</Russian>
+		<Russian>&#196;&#224;&#237;&#237;&#251;&#229;</Russian>
 		<English>City Data</English>
 	</TEXT>
 	<TEXT>

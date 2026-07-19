@@ -2122,7 +2122,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_FOREIGN_ADVISOR_INFO</Tag>
-		<Russian>&#209;&#226;&#229;&#228;&#229;&#237;&#232;&#255;</Russian>
+		<Russian>&#196;&#224;&#237;&#237;&#251;&#229;</Russian>
 		<English>Info</English>
 		<French>Infos</French>
 		<German>Info</German>
@@ -5144,7 +5144,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CORPORATION_SCREEN_TITLE</Tag>
-		<Russian>&#209;&#238;&#226;&#229;&#242;&#237;&#232;&#234; &#239;&#238; &#234;&#238;&#240;&#239;&#238;&#240;&#224;&#246;&#232;&#255;&#236;</Russian>
+		<Russian>&#207;&#235;&#224;&#237;&#232;&#240;&#238;&#226;&#249;&#232;&#234;&#32;&#234;&#238;&#240;&#239;&#238;&#240;&#224;&#246;&#232;&#233;</Russian>
 		<English>Corporation Advisor</English>
 		<French>Conseiller commercial</French>
 		<German>Unternehmensberater</German>

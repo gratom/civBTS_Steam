@@ -3801,7 +3801,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TECH_CHOOSER_TITLE</Tag>
-		<Russian>&#209;&#238;&#226;&#229;&#242;&#237;&#232;&#234; &#239;&#238; &#242;&#229;&#245;&#237;&#238;&#235;&#238;&#227;&#232;&#255;&#236;</Russian>
+		<Russian>&#209;&#238;&#226;&#229;&#242;&#237;&#232;&#234;&#32;&#242;&#229;&#245;&#237;&#238;&#235;&#238;&#227;&#232;&#233;</Russian>
 		<English>Technology Advisor</English>
 	</TEXT>
 	<TEXT>
@@ -4076,7 +4076,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_FOREIGN_ADVISOR_RELATIONS</Tag>
-		<Russian>&#206;&#242;&#237;&#238;&#248;&#229;&#237;&#232;&#255;</Russian>
+		<Russian>&#195;&#229;&#238;&#239;&#238;&#235;&#232;&#242;&#232;&#234;&#224;</Russian>
 		<English>Relations</English>
 	</TEXT>
 	<TEXT>
@@ -4161,7 +4161,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_VICTORY_SCREEN_TITLE</Tag>
-		<Russian>&#211;&#241;&#235;&#238;&#226;&#232;&#255; &#239;&#238;&#225;&#229;&#228;&#251;</Russian>
+		<Russian>&#211;&#241;&#235;&#238;&#226;&#46;&#32;&#239;&#238;&#225;&#229;&#228;&#251;</Russian>
 		<English>Victory Conditions</English>
 	</TEXT>
 	<TEXT>
