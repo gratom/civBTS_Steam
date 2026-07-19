@@ -36,10 +36,11 @@ Assets/_Localizations/German/
 Assets/_Localizations/Italian/
 Assets/_Localizations/Spanish/
 Assets/Sounds/
-
 Warlords/Assets/Art/
-
 Warlords/Assets/Sounds/
 
 !Beyond the Sword/Assets/Art/Interface/Buttons
 !Beyond the Sword/Assets/Art/Interface/Buttons/*.dds
+
+!Beyond the Sword/Mods/Utopia/
+!Beyond the Sword/Mods/Utopia/**
