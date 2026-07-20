@@ -3291,6 +3291,15 @@
 		<English>Fast</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_AI</Tag>
+		<Russian>
+			<Text>&#200;&#200;&#45;&#241;&#235;&#238;&#230;&#237;&#238;&#241;&#242;&#252;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>AI-difficlult</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_HANDICAP_SETTLER</Tag>
 		<Russian>
 			<Text>&#207;&#238;&#241;&#229;&#235;&#229;&#237;&#229;&#246;</Text>

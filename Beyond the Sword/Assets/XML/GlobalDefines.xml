@@ -99,7 +99,7 @@
 	</Define>
 	<Define>
 		<DefineName>AI_HANDICAP</DefineName>
-		<DefineTextVal>HANDICAP_NOBLE</DefineTextVal>
+		<DefineTextVal>HANDICAP_AI</DefineTextVal>
 	</Define>
 	<Define>
 		<DefineName>BARBARIAN_HANDICAP</DefineName>
