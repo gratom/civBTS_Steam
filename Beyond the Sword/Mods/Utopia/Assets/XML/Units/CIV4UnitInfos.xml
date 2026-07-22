@@ -7773,7 +7773,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>100</iCost>
+            <iCost>85</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -7827,11 +7827,15 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>100</iUnitCombatMod>
+                    <iUnitCombatMod>125</iUnitCombatMod>
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
                     <iUnitCombatMod>100</iUnitCombatMod>
+                </UnitCombatMod>
+				<UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iUnitCombatMod>50</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes/>
