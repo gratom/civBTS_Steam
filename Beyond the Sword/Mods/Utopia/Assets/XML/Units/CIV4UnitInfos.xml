@@ -792,7 +792,7 @@
             <ProductionTraits>
                 <ProductionTrait>
                     <ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
-                    <iProductionTrait>50</iProductionTrait>
+                    <iProductionTrait>100</iProductionTrait>
                 </ProductionTrait>
             </ProductionTraits>
             <Flavors/>
@@ -1053,7 +1053,7 @@
             <ProductionTraits>
                 <ProductionTrait>
                     <ProductionTraitType>TRAIT_EXPANSIVE</ProductionTraitType>
-                    <iProductionTrait>25</iProductionTrait>
+                    <iProductionTrait>100</iProductionTrait>
                 </ProductionTrait>
             </ProductionTraits>
             <Flavors/>
@@ -1307,7 +1307,7 @@
             <ProductionTraits>
                 <ProductionTrait>
                     <ProductionTraitType>TRAIT_EXPANSIVE</ProductionTraitType>
-                    <iProductionTrait>25</iProductionTrait>
+                    <iProductionTrait>100</iProductionTrait>
                 </ProductionTrait>
             </ProductionTraits>
             <Flavors/>
@@ -1481,7 +1481,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>15</iCost>
@@ -1648,7 +1653,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>40</iCost>
@@ -3104,7 +3114,7 @@
             <Class>UNITCLASS_JEWISH_MISSIONARY</Class>
             <Type>UNIT_JEWISH_MISSIONARY</Type>
             <UniqueNames/>
-            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Special>SPECIALUNIT_PEOPLE_RELIGION</Special>
             <Capture>NONE</Capture>
             <Combat>NONE</Combat>
             <Domain>DOMAIN_LAND</Domain>
@@ -3271,7 +3281,7 @@
             <Class>UNITCLASS_CHRISTIAN_MISSIONARY</Class>
             <Type>UNIT_CHRISTIAN_MISSIONARY</Type>
             <UniqueNames/>
-            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Special>SPECIALUNIT_PEOPLE_RELIGION</Special>
             <Capture>NONE</Capture>
             <Combat>NONE</Combat>
             <Domain>DOMAIN_LAND</Domain>
@@ -3438,7 +3448,7 @@
             <Class>UNITCLASS_ISLAMIC_MISSIONARY</Class>
             <Type>UNIT_ISLAMIC_MISSIONARY</Type>
             <UniqueNames/>
-            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Special>SPECIALUNIT_PEOPLE_RELIGION</Special>
             <Capture>NONE</Capture>
             <Combat>NONE</Combat>
             <Domain>DOMAIN_LAND</Domain>
@@ -3605,7 +3615,7 @@
             <Class>UNITCLASS_HINDU_MISSIONARY</Class>
             <Type>UNIT_HINDU_MISSIONARY</Type>
             <UniqueNames/>
-            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Special>SPECIALUNIT_PEOPLE_RELIGION</Special>
             <Capture>NONE</Capture>
             <Combat>NONE</Combat>
             <Domain>DOMAIN_LAND</Domain>
@@ -3772,7 +3782,7 @@
             <Class>UNITCLASS_BUDDHIST_MISSIONARY</Class>
             <Type>UNIT_BUDDHIST_MISSIONARY</Type>
             <UniqueNames/>
-            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Special>SPECIALUNIT_PEOPLE_RELIGION</Special>
             <Capture>NONE</Capture>
             <Combat>NONE</Combat>
             <Domain>DOMAIN_LAND</Domain>
@@ -3939,7 +3949,7 @@
             <Class>UNITCLASS_CONFUCIAN_MISSIONARY</Class>
             <Type>UNIT_CONFUCIAN_MISSIONARY</Type>
             <UniqueNames/>
-            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Special>SPECIALUNIT_PEOPLE_RELIGION</Special>
             <Capture>NONE</Capture>
             <Combat>NONE</Combat>
             <Domain>DOMAIN_LAND</Domain>
@@ -4106,7 +4116,7 @@
             <Class>UNITCLASS_TAOIST_MISSIONARY</Class>
             <Type>UNIT_TAOIST_MISSIONARY</Type>
             <UniqueNames/>
-            <Special>SPECIALUNIT_PEOPLE</Special>
+            <Special>SPECIALUNIT_PEOPLE_RELIGION</Special>
             <Capture>NONE</Capture>
             <Combat>NONE</Combat>
             <Domain>DOMAIN_LAND</Domain>
@@ -11059,7 +11069,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>25</iCost>
@@ -11252,7 +11267,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>25</iCost>
@@ -11445,7 +11465,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>25</iCost>
@@ -11570,7 +11595,7 @@
             <bAnimal>0</bAnimal>
             <bFood>0</bFood>
             <bNoBadGoodies>0</bNoBadGoodies>
-            <bOnlyDefensive>0</bOnlyDefensive>
+            <bOnlyDefensive>1</bOnlyDefensive>
             <bNoCapture>0</bNoCapture>
             <bQuickCombat>0</bQuickCombat>
             <bRivalTerritory>0</bRivalTerritory>
@@ -11614,11 +11639,15 @@
             <FlankingStrikes/>
             <UnitAIs>
                 <UnitAI>
-                    <UnitAIType>UNITAI_ATTACK</UnitAIType>
+                    <UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
+                    <bUnitAI>1</bUnitAI>
+                </UnitAI>
+				<UnitAI>
+                    <UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
                     <bUnitAI>1</bUnitAI>
                 </UnitAI>
                 <UnitAI>
-                    <UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
+                    <UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
                     <bUnitAI>1</bUnitAI>
                 </UnitAI>
             </UnitAIs>
@@ -11643,7 +11672,12 @@
             </TechTypes>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>50</iCost>
@@ -17034,7 +17068,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_PROTECTIVE</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>250</iCost>
@@ -17839,7 +17878,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>50</iCost>
@@ -18331,7 +18375,7 @@
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
             <iBombardRate>0</iBombardRate>
-            <SpecialCargo>SPECIALUNIT_PEOPLE</SpecialCargo>
+            <SpecialCargo>SPECIALUNIT_PEOPLE_RELIGION</SpecialCargo>
             <DomainCargo>DOMAIN_LAND</DomainCargo>
             <iCargo>1</iCargo>
             <iConscription>0</iConscription>
@@ -18507,7 +18551,7 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>3</iCombat>
+            <iCombat>4</iCombat>
             <iCombatLimit>100</iCombatLimit>
             <iAirCombat>0</iAirCombat>
             <iAirCombatLimit>0</iAirCombatLimit>
@@ -18670,7 +18714,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>80</iCost>
@@ -18864,7 +18913,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>80</iCost>
@@ -19905,7 +19959,12 @@
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
-            <ProductionTraits/>
+            <ProductionTraits>
+                <ProductionTrait>
+                    <ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
+                    <iProductionTrait>100</iProductionTrait>
+                </ProductionTrait>
+            </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
             <iCost>230</iCost>
@@ -26235,7 +26294,7 @@
             <ProductionTraits>
                 <ProductionTrait>
                     <ProductionTraitType>TRAIT_EXPANSIVE</ProductionTraitType>
-                    <iProductionTrait>50</iProductionTrait>
+                    <iProductionTrait>100</iProductionTrait>
                 </ProductionTrait>
             </ProductionTraits>
             <Flavors/>
