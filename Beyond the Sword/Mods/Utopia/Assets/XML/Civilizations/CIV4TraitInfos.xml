@@ -273,6 +273,10 @@
 			<CommerceModifiers/>
 			<FreePromotions>
 				<FreePromotion>
+					<PromotionType>PROMOTION_CITY_GARRISON1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
 					<PromotionType>PROMOTION_CITY_GARRISON2</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
