@@ -363,7 +363,7 @@
 	</Define>
 	<Define>
 		<DefineName>FRESH_WATER_HEALTH_CHANGE</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
+		<iDefineIntVal>3</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>POWER_HEALTH_CHANGE</DefineName>
@@ -479,7 +479,7 @@
 	</Define>
 	<Define>
 		<DefineName>GREAT_GENERALS_THRESHOLD_INCREASE</DefineName>
-		<iDefineIntVal>40</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GREAT_GENERALS_THRESHOLD_INCREASE_TEAM</DefineName>
@@ -735,11 +735,11 @@
 	</Define>
 	<Define>
 		<DefineName>GLOBAL_WARMING_UNHEALTH_WEIGHT</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>GLOBAL_WARMING_NUKE_WEIGHT</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>0</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>TECH_COST_EXTRA_TEAM_MEMBER_MODIFIER</DefineName>
@@ -971,7 +971,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_EXPERIENCE_PER_COMBAT</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>15</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>EXPERIENCE_FROM_WITHDRAWL</DefineName>
@@ -979,7 +979,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_EXPERIENCE_AFTER_UPGRADE</DefineName>
-		<iDefineIntVal>10</iDefineIntVal>
+		<iDefineIntVal>15</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>BUILDING_PRODUCTION_DECAY_TIME</DefineName>
@@ -999,11 +999,11 @@
 	</Define>
 	<Define>
 		<DefineName>BASE_UNIT_UPGRADE_COST</DefineName>
-		<iDefineIntVal>20</iDefineIntVal>
+		<iDefineIntVal>250</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>UNIT_UPGRADE_COST_PER_PRODUCTION</DefineName>
-		<iDefineIntVal>3</iDefineIntVal>
+		<iDefineIntVal>2</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>WAR_SUCCESS_DEFENDING</DefineName>
@@ -1062,7 +1062,7 @@
 	</Define>
 	<Define>
 		<DefineName>TEAM_VOTE_MIN_CANDIDATES</DefineName>
-		<iDefineIntVal>2</iDefineIntVal>
+		<iDefineIntVal>3</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>DIPLOMACY_VALUE_REMAINDER</DefineName>
