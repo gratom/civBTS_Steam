@@ -10859,7 +10859,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>NONE</PrereqBuilding>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
             <PrereqTech>TECH_ROBOTICS</PrereqTech>
             <TechTypes>
                 <PrereqTech>TECH_RIFLING</PrereqTech>
