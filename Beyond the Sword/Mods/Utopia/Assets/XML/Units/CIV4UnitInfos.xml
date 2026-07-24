@@ -1312,7 +1312,7 @@
             </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>60</iCost>
+            <iCost>45</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -4583,7 +4583,7 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>2</iCombat>
+            <iCombat>3</iCombat>
             <iCombatLimit>100</iCombatLimit>
             <iAirCombat>0</iAirCombat>
             <iAirCombatLimit>0</iAirCombatLimit>
@@ -4614,6 +4614,10 @@
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
                     <iUnitCombatMod>100</iUnitCombatMod>
+                </UnitCombatMod>
+				<UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+                    <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes/>
@@ -5802,13 +5806,17 @@
             <UnitClassDefenseMods>
                 <UnitClassDefenseMod>
                     <UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
-                    <iUnitClassMod>100</iUnitClassMod>
+                    <iUnitClassMod>150</iUnitClassMod>
                 </UnitClassDefenseMod>
             </UnitClassDefenseMods>
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
+                    <iUnitCombatMod>75</iUnitCombatMod>
+                </UnitCombatMod>
+				<UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes/>
@@ -5816,11 +5824,11 @@
             <BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>100</iProductonModifier>
+					<iProductonModifier>125</iProductonModifier>
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_IRON</BonusType>
-					<iProductonModifier>25</iProductonModifier>
+					<iProductonModifier>50</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
@@ -5952,7 +5960,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>70</iCost>
+            <iCost>80</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -6006,6 +6014,10 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <iUnitCombatMod>50</iUnitCombatMod>
+                </UnitCombatMod>
+				<UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
                     <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
@@ -6018,7 +6030,7 @@
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_IRON</BonusType>
-					<iProductonModifier>25</iProductonModifier>
+					<iProductonModifier>50</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
@@ -6150,7 +6162,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>35</iCost>
+            <iCost>30</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -6204,21 +6216,12 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>100</iUnitCombatMod>
+                    <iUnitCombatMod>125</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes/>
             <DomainMods/>
-            <BonusProductionModifiers>
-				<BonusProductionModifier>
-					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>15</iProductonModifier>
-				</BonusProductionModifier>
-				<BonusProductionModifier>
-					<BonusType>BONUS_IRON</BonusType>
-					<iProductonModifier>5</iProductonModifier>
-				</BonusProductionModifier>
-			</BonusProductionModifiers>
+            <BonusProductionModifiers/>
             <iBombRate>0</iBombRate>
             <iBombardRate>0</iBombardRate>
             <SpecialCargo>NONE</SpecialCargo>
@@ -7174,7 +7177,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>55</iCost>
+            <iCost>45</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -7228,7 +7231,11 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>100</iUnitCombatMod>
+                    <iUnitCombatMod>125</iUnitCombatMod>
+                </UnitCombatMod>
+				<UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes/>
@@ -7244,7 +7251,7 @@
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_STONE</BonusType>
-					<iProductonModifier>20</iProductonModifier>
+					<iProductonModifier>50</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
@@ -7381,7 +7388,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>25</iCost>
+            <iCost>20</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -7435,25 +7442,16 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-                    <iUnitCombatMod>100</iUnitCombatMod>
+                    <iUnitCombatMod>125</iUnitCombatMod>
+                </UnitCombatMod>
+				<UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+                    <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes/>
             <DomainMods/>
-            <BonusProductionModifiers>
-				<BonusProductionModifier>
-					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>
-				<BonusProductionModifier>
-					<BonusType>BONUS_IRON</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>
-				<BonusProductionModifier>
-					<BonusType>BONUS_STONE</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>
-			</BonusProductionModifiers>
+            <BonusProductionModifiers/>
             <iBombRate>0</iBombRate>
             <iBombardRate>0</iBombardRate>
             <SpecialCargo>NONE</SpecialCargo>
@@ -10457,7 +10455,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>280</iCost>
+            <iCost>300</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -10481,7 +10479,7 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>25</iCombat>
+            <iCombat>28</iCombat>
             <iCombatLimit>100</iCombatLimit>
             <iAirCombat>0</iAirCombat>
             <iAirCombatLimit>0</iAirCombatLimit>
@@ -10509,11 +10507,11 @@
             <UnitClassAttackMods>
                 <UnitClassAttackMod>
                     <UnitClassType>UNITCLASS_MACHINE_GUN</UnitClassType>
-                    <iUnitClassMod>50</iUnitClassMod>
+                    <iUnitClassMod>75</iUnitClassMod>
                 </UnitClassAttackMod>
                 <UnitClassAttackMod>
                     <UnitClassType>UNITCLASS_ARTILLERY</UnitClassType>
-                    <iUnitClassMod>50</iUnitClassMod>
+                    <iUnitClassMod>75</iUnitClassMod>
                 </UnitClassAttackMod>
             </UnitClassAttackMods>
             <UnitClassDefenseMods/>
@@ -10524,7 +10522,7 @@
                 </UnitCombatMod>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>25</iUnitCombatMod>
+                    <iUnitCombatMod>50</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes/>
@@ -12537,7 +12535,7 @@
             <iChanceFirstStrikes>0</iChanceFirstStrikes>
             <iInterceptionProbability>0</iInterceptionProbability>
             <iEvasionProbability>0</iEvasionProbability>
-            <iWithdrawalProb>10</iWithdrawalProb>
+            <iWithdrawalProb>25</iWithdrawalProb>
             <iCollateralDamage>0</iCollateralDamage>
             <iCollateralDamageLimit>0</iCollateralDamageLimit>
             <iCollateralDamageMaxUnits>0</iCollateralDamageMaxUnits>
@@ -12769,7 +12767,7 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
+                    <iUnitCombatMod>100</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes/>
@@ -13133,7 +13131,7 @@
             <ProductionTraits/>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>90</iCost>
+            <iCost>70</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -13167,7 +13165,7 @@
             <iChanceFirstStrikes>0</iChanceFirstStrikes>
             <iInterceptionProbability>0</iInterceptionProbability>
             <iEvasionProbability>0</iEvasionProbability>
-            <iWithdrawalProb>20</iWithdrawalProb>
+            <iWithdrawalProb>30</iWithdrawalProb>
             <iCollateralDamage>0</iCollateralDamage>
             <iCollateralDamageLimit>100</iCollateralDamageLimit>
             <iCollateralDamageMaxUnits>6</iCollateralDamageMaxUnits>
@@ -13403,6 +13401,10 @@
                 <UnitClassAttackMod>
                     <UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
                     <iUnitClassMod>50</iUnitClassMod>
+                </UnitClassAttackMod>
+				<UnitClassAttackMod>
+                    <UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+                    <iUnitClassMod>25</iUnitClassMod>
                 </UnitClassAttackMod>
             </UnitClassAttackMods>
             <UnitClassDefenseMods/>
@@ -14200,7 +14202,7 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>12</iCombat>
+            <iCombat>14</iCombat>
             <iCombatLimit>100</iCombatLimit>
             <iAirCombat>0</iAirCombat>
             <iAirCombatLimit>0</iAirCombatLimit>
@@ -15260,7 +15262,7 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>8</iCombat>
+            <iCombat>9</iCombat>
             <iCombatLimit>100</iCombatLimit>
             <iAirCombat>0</iAirCombat>
             <iAirCombatLimit>0</iAirCombatLimit>
@@ -16506,7 +16508,7 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>5</iCombat>
+            <iCombat>6</iCombat>
             <iCombatLimit>75</iCombatLimit>
             <iAirCombat>0</iAirCombat>
             <iAirCombatLimit>0</iAirCombatLimit>
@@ -16536,7 +16538,11 @@
             <UnitCombatMods>
                 <UnitCombatMod>
                     <UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-                    <iUnitCombatMod>50</iUnitCombatMod>
+                    <iUnitCombatMod>25</iUnitCombatMod>
+                </UnitCombatMod>
+				<UnitCombatMod>
+                    <UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+                    <iUnitCombatMod>25</iUnitCombatMod>
                 </UnitCombatMod>
             </UnitCombatMods>
             <UnitCombatCollateralImmunes>
@@ -16549,19 +16555,15 @@
             <BonusProductionModifiers>				
 				<BonusProductionModifier>
 					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>10</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 				<BonusProductionModifier>
 					<BonusType>BONUS_IRON</BonusType>
-					<iProductonModifier>10</iProductonModifier>
-				</BonusProductionModifier>
-				<BonusProductionModifier>
-					<BonusType>BONUS_STONE</BonusType>
-					<iProductonModifier>10</iProductonModifier>
+					<iProductonModifier>25</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
-            <iBombardRate>8</iBombardRate>
+            <iBombardRate>12</iBombardRate>
             <SpecialCargo>NONE</SpecialCargo>
             <DomainCargo>NONE</DomainCargo>
             <iCargo>0</iCargo>
