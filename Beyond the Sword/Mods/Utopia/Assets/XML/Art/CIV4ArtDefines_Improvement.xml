@@ -97,6 +97,16 @@
 			<Button>,Art/Interface/Buttons/Builds/BuildMine.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,6,7</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_EXTRACTION_FACILITY</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>1.4</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<NIF>Art\Structures\Improvements\ExtractionFacilityUtopia/ExtractionFacility.nif</NIF>
+			<KFM/>
+			<SHADERNIF>Art/Structures/Improvements/ExtractionFacilityUtopia/ExtractionFacility_FX.nif</SHADERNIF>
+			<Button>,Art/Interface/Buttons/Units/BuildExtractionFacility.dds,Art/Interface/Buttons/NextWar_Atlas.dds,7,6</Button>
+		</ImprovementArtInfo>
+		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WORKSHOP</Type>
 			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>1.0</fScale>
