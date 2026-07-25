@@ -17,9 +17,9 @@
 			<iGold>500</iGold>
 			<iFreeUnits>20</iFreeUnits>
 			<iUnitCostPercent>40</iUnitCostPercent>
-			<iResearchPercent>60</iResearchPercent>
-			<iDistanceMaintenancePercent>35</iDistanceMaintenancePercent>
-			<iNumCitiesMaintenancePercent>30</iNumCitiesMaintenancePercent>
+			<iResearchPercent>65</iResearchPercent>
+			<iDistanceMaintenancePercent>75</iDistanceMaintenancePercent>
+			<iNumCitiesMaintenancePercent>10</iNumCitiesMaintenancePercent>
 			<iMaxNumCitiesMaintenance>4</iMaxNumCitiesMaintenance>
 			<iColonyMaintenancePercent>50</iColonyMaintenancePercent>
 			<iMaxColonyMaintenance>200</iMaxColonyMaintenance>
@@ -27,7 +27,7 @@
 			<iCivicUpkeepPercent>50</iCivicUpkeepPercent>
 			<iInflationPercent>50</iInflationPercent>
 			<iHealthBonus>15</iHealthBonus>
-			<iHappyBonus>7</iHappyBonus>
+			<iHappyBonus>5</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
 			<iNoTechTradeModifier>70</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
@@ -73,6 +73,7 @@
 				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
 				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
 				<GoodyType>GOODY_SETTLER</GoodyType>
+				<GoodyType>GOODY_SCOUT</GoodyType>
 				<GoodyType>GOODY_SCOUT</GoodyType>
 				<GoodyType>GOODY_WORKER</GoodyType>
 				<GoodyType>GOODY_WORKER</GoodyType>
