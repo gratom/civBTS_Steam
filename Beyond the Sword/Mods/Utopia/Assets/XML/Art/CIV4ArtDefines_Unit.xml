@@ -6101,5 +6101,34 @@
 			<SelectionSound>AS3D_UN_DREAD_FORT</SelectionSound>
 			<ActionSound>AS3D_UN_DREAD_FORT</ActionSound>
 		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ROBOWORKER</Type>
+			<Button>,Art/Interface/Buttons/Builds/BuildNeoFarm.dds,Art/Interface/Buttons/NextWar_Atlas.dds,6,6</Button>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Utopia_ConstructionRobot/ConstructionShip.nif</NIF>
+			<KFM>Art/Units/Utopia_ConstructionRobot/ConstructionShip.kfm</KFM>
+			<SHADERNIF>Art/Units/Utopia_ConstructionRobot/ConstructionShip_FX.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/WorkboatShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bSmoothMove>1</bSmoothMove>
+			<fAngleInterpRate>720.0</fAngleInterpRate>
+			<fBankRate>0.2</fBankRate>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_DREAD_FORT</SelectionSound>
+			<ActionSound>AS3D_UN_DREAD_FORT</ActionSound>
+		</UnitArtInfo>
 	</UnitArtInfos>
 </Civ4ArtDefines>
