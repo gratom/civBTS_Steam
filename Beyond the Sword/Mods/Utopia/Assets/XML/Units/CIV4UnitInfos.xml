@@ -970,6 +970,10 @@
                     <BuildType>BUILD_MINE</BuildType>
                     <bBuild>1</bBuild>
                 </Build>
+				<Build>
+                    <BuildType>BUILD_NEOFARM</BuildType>
+                    <bBuild>1</bBuild>
+                </Build>
                 <Build>
                     <BuildType>BUILD_WORKSHOP</BuildType>
                     <bBuild>1</bBuild>
@@ -26223,6 +26227,10 @@
                 </Build>
                 <Build>
                     <BuildType>BUILD_FARM</BuildType>
+                    <bBuild>1</bBuild>
+                </Build>
+				<Build>
+                    <BuildType>BUILD_NEOFARM</BuildType>
                     <bBuild>1</bBuild>
                 </Build>
                 <Build>
