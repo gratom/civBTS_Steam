@@ -504,7 +504,7 @@
 			<iDefense>50</iDefense>
 			<iAppearance>0</iAppearance>
 			<iDisappearance>0</iDisappearance>
-			<iGrowth>8</iGrowth>
+			<iGrowth>12</iGrowth>
 			<iTurnDamage>0</iTurnDamage>
 			<bNoCoast>0</bNoCoast>
 			<bNoRiver>0</bNoRiver>
