@@ -20,6 +20,7 @@ import sys
 import CvWorldBuilderScreen
 import CvAdvisorUtils
 import CvTechChooser
+import ClimatManager
 
 import pickle
 
@@ -381,6 +382,7 @@ class CvEventManager:
 	def onBeginGameTurn(self, argsList):
 		'Called at the beginning of the end of each turn'
 		iGameTurn = argsList[0]
+		ClimatManager.showClimatePopup()
 		CvTopCivs.CvTopCivs().turnChecker(iGameTurn)
 		if (CyMap().plot(0,0).getScriptData() == "Scenario"):
 			if iGameTurn!=0:
@@ -390,6 +392,7 @@ class CvEventManager:
 	def onEndGameTurn(self, argsList):
 		'Called at the end of the end of each turn'
 		iGameTurn = argsList[0]
+		ClimatManager.processGlobalClimate()
 		
 	def onBeginPlayerTurn(self, argsList):
 		'Called at the beginning of a players turn'
@@ -1188,22 +1191,22 @@ class CvEventManager:
 		self.doCheckWorkedResource("BONUS_WINE", "IMPROVEMENT_FORT", 1120)
 
 	def doCheckWorkedResource(self, bonus, improvement, randomInt):
-            
+			
 		iBonus = CvUtil.findInfoTypeNum(gc.getBonusInfo, gc.getNumBonusInfos(), bonus)
-        
+		
 		if (iBonus == -1):
 			return
-        
+		
 		lValidPlots = self.getPlotListbyBonus(iBonus)
-        
+		
 		if len(lValidPlots) == 0:
 			return
-                
+				
 ##If you have the requisite improvement (incl. fort) or if the plot is being worked by a City, continue.
-                        
+						
 			for plot in lValidPlots:
 				P = False
-                
+				
 				if plot.getImprovementType() == CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), improvement):
 					P = True
 				elif plot.isCity():
@@ -1211,15 +1214,15 @@ class CvEventManager:
 
 				if P == True:
 					if self.getRandomNumber(randomInt) == 0:
-                    
+					
 						pBonusInfo = gc.getBonusInfo(iBonus)
-                    
+					
 						plot.setBonusType(-1)
-                    
+					
 						szTitle = localText.getText("TEXT_KEY_NEXT_WAR_RESOURCE_DEPLETED_TITLE", ())# (pBonusInfo.getDescription(), plotgetX(), plot.getY()))
-                        #szText = localText.getText("TEXT_KEY_NEXT_WAR_RESOURCE_DEPLETED", (pBonusInfo.getDescription(), plot.getX(), plot.getY()))
-                        #Not sure what the above commented out code for (debugging?) -- it was commented out in PM's original NextWar code.  JKP1187
-                        
+						#szText = localText.getText("TEXT_KEY_NEXT_WAR_RESOURCE_DEPLETED", (pBonusInfo.getDescription(), plot.getX(), plot.getY()))
+						#Not sure what the above commented out code for (debugging?) -- it was commented out in PM's original NextWar code.  JKP1187
+						
 						CyInterface().addMessage(plot.getOwner(), False, gc.getEVENT_MESSAGE_TIME(), szTitle, "AS2D_DISCOVERBONUS", InterfaceMessageTypes.MESSAGE_TYPE_MINOR_EVENT, pBonusInfo.getButton(), gc.getInfoTypeForString("COLOR_GREEN"), plot.getX(), plot.getY(), True, True)		
 				else:
 					return
@@ -1242,7 +1245,7 @@ class CvEventManager:
 	def getRandomNumber(self, int):
 		return gc.getGame().getSorenRandNum(int, "Next War")
 
-	    
+		
 ###################### Popups ####################
 		
 	def addPopup(self, szTitle, szText):
