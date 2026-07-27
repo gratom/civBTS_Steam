@@ -698,6 +698,21 @@
 			<iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
 		</ControlInfo>
 		<ControlInfo>
+			<Type>CONTROL_CLIMAT_SCREEN</Type>
+			<Description>TXT_KEY_FINANCIAL_ADVISOR_TITLE</Description>
+			<Help/>
+			<HotKey>KB_F1</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>1</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<HotKeyAlt/>
+			<bAltDownAlt>0</bAltDownAlt>
+			<bShiftDownAlt>0</bShiftDownAlt>
+			<bCtrlDownAlt>0</bCtrlDownAlt>
+			<iHotKeyPriorityAlt>0</iHotKeyPriorityAlt>
+		</ControlInfo>
+		<ControlInfo>
 			<Type>CONTROL_MILITARY_SCREEN</Type>
 			<Description>TXT_KEY_MILITARY_ADVISOR_TITLE</Description>
 			<Help/>

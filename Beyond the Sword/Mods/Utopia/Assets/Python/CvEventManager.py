@@ -382,7 +382,7 @@ class CvEventManager:
 	def onBeginGameTurn(self, argsList):
 		'Called at the beginning of the end of each turn'
 		iGameTurn = argsList[0]
-		ClimatManager.showClimatePopup()
+		ClimatManager.processDesertGreening()
 		CvTopCivs.CvTopCivs().turnChecker(iGameTurn)
 		if (CyMap().plot(0,0).getScriptData() == "Scenario"):
 			if iGameTurn!=0:
@@ -392,7 +392,6 @@ class CvEventManager:
 	def onEndGameTurn(self, argsList):
 		'Called at the end of the end of each turn'
 		iGameTurn = argsList[0]
-		ClimatManager.processGlobalClimate()
 		
 	def onBeginPlayerTurn(self, argsList):
 		'Called at the beginning of a players turn'
