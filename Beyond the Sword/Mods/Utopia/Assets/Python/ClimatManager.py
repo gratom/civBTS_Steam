@@ -1,7 +1,24 @@
 from CvPythonExtensions import *
 import CvUtil
+import cPickle as pickle # В Python 2.4 (на котором работает Civ 4) используется cPickle
 
 gc = CyGlobalContext()
+
+# Global state memory
+climateData = {}
+
+def saveClimateData():
+    global climateData
+    dataString = pickle.dumps(climateData)
+    CyGame().setScriptData(dataString)
+
+def loadClimateData():
+    global climateData
+    dataString = CyGame().getScriptData()
+    if dataString == "":
+        climateData = {"temperature": 0, "pollution": 100}
+    else:
+        climateData = pickle.loads(dataString)
 
 def showClimatePopup():
     # --- Считаем леса и общую площадь карты ---

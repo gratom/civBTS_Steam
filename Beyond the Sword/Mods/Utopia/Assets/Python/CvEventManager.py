@@ -327,6 +327,8 @@ class CvEventManager:
 	def onPreSave(self, argsList):
 		"called before a game is actually saved"
 		CvUtil.pyPrint('OnPreSave')
+		import ClimatManager
+		ClimatManager.saveClimateData()
 	
 	def onSaveGame(self, argsList):
 		"return the string to be saved - Must be a string"
@@ -334,24 +336,17 @@ class CvEventManager:
 
 	def onLoadGame(self, argsList):
 		CvAdvisorUtils.resetNoLiberateCities()
+		import ClimatManager
+		ClimatManager.loadClimateData()
 		return 0
 
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
 
 		self.initScriptData()
+		import ClimatManager
+		ClimatManager.loadClimateData()
 		
-		# Are we using the scenario file? If so, then show the backstory popup
-		if (CyMap().plot(0,0).getScriptData() == "Scenario"):
-			for iPlayer in range(gc.getMAX_PLAYERS()):
-				player = gc.getPlayer(iPlayer)
-				if (player.isAlive() and player.isHuman()):
-					popupInfo = CyPopupInfo()
-					popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_TEXT)
-					szTitle = u"<font=4b>" + localText.getText("TXT_KEY_NEXT_WAR_BACKSTORY_TITLE", ()) + u"</font>"
-					szBody = u"<font=3>" + localText.getText("TXT_KEY_NEXT_WAR_BACKSTORY_TEXT", ()) + u"</font>"
-					popupInfo.setText(szTitle + u"\n\n" + szBody)
-					popupInfo.addPopup(iPlayer)
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
 			for iPlayer in range(gc.getMAX_PLAYERS()):
 				player = gc.getPlayer(iPlayer)
