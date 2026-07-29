@@ -259,8 +259,8 @@
 			<CapitalYieldModifiers/>
 			<TradeYieldModifiers/>
 			<CommerceModifiers>
-				<iCommerce>-5</iCommerce>
-				<iCommerce>-10</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
 				<iCommerce>-25</iCommerce>
 				<iCommerce>50</iCommerce>
 			</CommerceModifiers>
@@ -348,6 +348,14 @@
 					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_VILLAGE</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
@@ -444,7 +452,7 @@
 			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
 			<iBaseFreeUnits>3</iBaseFreeUnits>
 			<iBaseFreeMilitaryUnits>0</iBaseFreeMilitaryUnits>
-			<iFreeUnitsPopulationPercent>15</iFreeUnitsPopulationPercent>
+			<iFreeUnitsPopulationPercent>20</iFreeUnitsPopulationPercent>
 			<iFreeMilitaryUnitsPopulationPercent>0</iFreeMilitaryUnitsPopulationPercent>
 			<iGoldPerUnit>0</iGoldPerUnit>
 			<iGoldPerMilitaryUnit>0</iGoldPerMilitaryUnit>
@@ -501,7 +509,7 @@
 			<iStateReligionGreatPeopleRateModifier>0</iStateReligionGreatPeopleRateModifier>
 			<iDistanceMaintenanceModifier>400</iDistanceMaintenanceModifier>
 			<iNumCitiesMaintenanceModifier>1000</iNumCitiesMaintenanceModifier>
-			<iCorporationMaintenanceModifier>0</iCorporationMaintenanceModifier>
+			<iCorporationMaintenanceModifier>100</iCorporationMaintenanceModifier>
 			<iExtraHealth>0</iExtraHealth>
 			<iFreeExperience>0</iFreeExperience>
 			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
@@ -984,7 +992,7 @@
 			<bBuildingOnlyHealthy>0</bBuildingOnlyHealthy>
 			<iLargestCityHappiness>0</iLargestCityHappiness>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
-			<iFreeSpecialist>1</iFreeSpecialist>
+			<iFreeSpecialist>2</iFreeSpecialist>
 			<iTradeRoutes>0</iTradeRoutes>
 			<bNoForeignTrade>0</bNoForeignTrade>
 			<bNoCorporations>0</bNoCorporations>
@@ -1005,16 +1013,7 @@
 			<SpecialistExtraCommerces/>
 			<Hurrys/>
 			<SpecialBuildingNotRequireds/>
-			<SpecialistValids>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>		
-			</SpecialistValids>
+			<SpecialistValids/>
 			<BuildingHappinessChanges/>
 			<BuildingHealthChanges/>
 			<FeatureHappinessChanges/>
@@ -1407,7 +1406,12 @@
 			<SpecialistExtraCommerces/>
 			<Hurrys/>
 			<SpecialBuildingNotRequireds/>
-			<SpecialistValids/>
+			<SpecialistValids>
+				<SpecialistValid>
+					<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+					<bValid>1</bValid>
+				</SpecialistValid>			
+			</SpecialistValids>
 			<BuildingHappinessChanges/>
 			<BuildingHealthChanges/>
 			<FeatureHappinessChanges/>
@@ -1454,14 +1458,6 @@
 				</ImprovementYieldChange>
 				<ImprovementYieldChange>
 					<ImprovementType>IMPROVEMENT_WORKSHOP</ImprovementType>
-					<ImprovementYields>
-						<iYield>0</iYield>
-						<iYield>2</iYield>
-						<iYield>-1</iYield>
-					</ImprovementYields>
-				</ImprovementYieldChange>
-				<ImprovementYieldChange>
-					<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>2</iYield>
@@ -1555,7 +1551,7 @@
 					<ImprovementType>IMPROVEMENT_WINDMILL</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
+						<iYield>1</iYield>
 						<iYield>2</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
@@ -1563,7 +1559,7 @@
 					<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
-						<iYield>2</iYield>
+						<iYield>1</iYield>
 						<iYield>2</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>

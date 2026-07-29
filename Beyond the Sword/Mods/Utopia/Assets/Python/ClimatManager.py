@@ -21,50 +21,128 @@ def loadClimateData():
         climateData = pickle.loads(dataString)
 
 def showClimatePopup():
-    # --- Считаем леса и общую площадь карты ---
+    CvUtil.pyPrint('ClimateManager: popup called')
+
     mapObj = CyMap()
     totalPlots = mapObj.numPlots()
+
+    # Счетчики
+    landCount = 0
+    waterCount = 0
+
     forestCount = 0
     jungleCount = 0
+    iceFeatureCount = 0
 
-    # Получаем ID фичей леса и джунглей через глобальный контекст
+    desertCount = 0
+    plainsCount = 0
+    grassCount = 0
+    tundraCount = 0
+    snowTerrainCount = 0
+
+    # Получаем ID через глобальный контекст
     iForest = gc.getInfoTypeForString("FEATURE_FOREST")
     iJungle = gc.getInfoTypeForString("FEATURE_JUNGLE")
+    iIceFeature = gc.getInfoTypeForString("FEATURE_ICE")
+
+    iDesert = gc.getInfoTypeForString("TERRAIN_DESERT")
+    iPlains = gc.getInfoTypeForString("TERRAIN_PLAINS")
+    iGrass = gc.getInfoTypeForString("TERRAIN_GRASS")
+    iTundraTerrain = gc.getInfoTypeForString("TERRAIN_TUNDRA")
+    iSnowTerrain = gc.getInfoTypeForString("TERRAIN_SNOW")
 
     # Пробегаем по всем тайлам карты
     for i in range(totalPlots):
         plot = mapObj.plotByIndex(i)
-        if not plot.isWater(): # Нас интересует только суша
-            feature = plot.getFeatureType()
-            if feature == iForest:
-                forestCount += 1
-            elif feature == iJungle:
-                jungleCount += 1
 
-    # Пока что заглушка для загрязнений, но леса и джунгли берем честно с карты
+        # Вода / Суша
+        if plot.isWater():
+            waterCount += 1
+        else:
+            landCount += 1
+
+            # Типы террейна суши
+            terrain = plot.getTerrainType()
+            if terrain == iDesert:
+                desertCount += 1
+            elif terrain == iPlains:
+                plainsCount += 1
+            elif terrain == iGrass:
+                grassCount += 1
+            elif terrain == iTundraTerrain:
+                tundraCount += 1
+            elif terrain == iSnowTerrain:
+                snowTerrainCount += 1
+
+        # Фичи на тайлах
+        feature = plot.getFeatureType()
+        if feature == iForest:
+            forestCount += 1
+        elif feature == iJungle:
+            jungleCount += 1
+        elif feature == iIceFeature:
+            iceFeatureCount += 1
+
+    # Защита от деления на ноль
+    if totalPlots == 0: totalPlots = 1
+    if landCount == 0: landCount = 1
+
+    # Расчет процентов от суши
+    landPercent = (float(landCount) / totalPlots) * 100.0
+    waterPercent = (float(waterCount) / totalPlots) * 100.0
+
+    forestPercent = (float(forestCount) / landCount) * 100.0
+    junglePercent = (float(jungleCount) / landCount) * 100.0
+    icePercent = (float(iceFeatureCount) / landCount) * 100.0
+
+    desertPercent = (float(desertCount) / landCount) * 100.0
+    plainsPercent = (float(plainsCount) / landCount) * 100.0
+    grassPercent = (float(grassCount) / landCount) * 100.0
+    tundraPercent = (float(tundraCount) / landCount) * 100.0
+    snowPercent = (float(snowTerrainCount) / landCount) * 100.0
+
+    # Условные расчеты баланса
     pollution = 120
-    absorption = (forestCount + jungleCount) * 2  # Условный коэффициент поглощения
+    absorption = (forestCount + jungleCount) * 2
     netBalance = pollution - absorption
 
     # --- Формируем текст для окна ---
     popup = CyPopup(777, EventContextTypes.EVENTCONTEXT_SELF, True)
-    popup.setHeaderString("Global Climate Status", CvUtil.FONT_CENTER_JUSTIFY)
+    popup.setHeaderString("Global Climate & Map Analytics", CvUtil.FONT_CENTER_JUSTIFY)
 
-    bodyText = u"<font=3>Current Climate Balance:\n\n"
-    bodyText += u"- Forests on Map: %d\n" % forestCount
-    bodyText += u"- Jungles on Map: %d\n" % jungleCount
-    bodyText += u"- Total Pollution (Buildings + Nukes): +%d\n" % pollution
-    bodyText += u"- Total Absorption: -%d\n" % absorption
+    bodyText = u"<font=2>"
+    bodyText += u"<b>--- WORLD PROPORTIONS ---</b>\n"
+    bodyText += u"- Total Land: %d (%.1f%% of world)\n" % (landCount, landPercent)
+    bodyText += u"- Total Water: %d (%.1f%% of world)\n\n" % (waterCount, waterPercent)
+
+    bodyText += u"<b>--- TERRAIN BREAKDOWN (100% of Land) ---</b>\n"
+    bodyText += u"- Deserts: %d (%.1f%%)\n" % (desertCount, desertPercent)
+    bodyText += u"- Plains: %d (%.1f%%)\n" % (plainsCount, plainsPercent)
+    bodyText += u"- Grasslands: %d (%.1f%%)\n" % (grassCount, grassPercent)
+    bodyText += u"- Tundra: %d (%.1f%%)\n" % (tundraCount, tundraPercent)
+    bodyText += u"- Snow: %d (%.1f%%)\n\n" % (snowTerrainCount, snowPercent)
+
+    bodyText += u"<b>--- FEATURES (% of Land) ---</b>\n"
+    bodyText += u"- Forests: %d (%.1f%%)\n" % (forestCount, forestPercent)
+    bodyText += u"- Jungles: %d (%.1f%%)\n" % (jungleCount, junglePercent)
+    bodyText += u"- Ice (Features): %d (%.1f%%)\n\n" % (iceFeatureCount, icePercent)
+
+    bodyText += u"<b>--- CLIMATE BALANCE ---</b>\n"
+    bodyText += u"- Pollution: +%d | Absorption: -%d\n" % (pollution, absorption)
 
     if netBalance > 0:
-        bodyText += u"- Net Balance: +%d (Warming)</font>" % netBalance
+        bodyText += u"- Net Balance: +%d <color=249,125,125>(Warming)</color>" % netBalance
     else:
-        bodyText += u"- Net Balance: %d (Cooling / Ice Age)</font>" % netBalance
+        bodyText += u"- Net Balance: %d <color=125,249,125>(Cooling)</color>" % netBalance
+
+    bodyText += u"</font>"
 
     popup.setBodyString(bodyText, CvUtil.FONT_LEFT_JUSTIFY)
     popup.addButton("Close")
     popup.launch(False, PopupStates.POPUPSTATE_IMMEDIATE)
 
+    CvUtil.pyPrint('ClimateManager: Full analytics popup displayed successfully.')
+    
 def processDesertGreening():
     mapObj = CyMap()
     totalPlots = mapObj.numPlots()
