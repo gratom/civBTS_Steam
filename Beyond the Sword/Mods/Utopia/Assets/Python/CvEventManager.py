@@ -377,7 +377,7 @@ class CvEventManager:
 	def onBeginGameTurn(self, argsList):
 		'Called at the beginning of the end of each turn'
 		iGameTurn = argsList[0]
-		ClimatManager.processDesertGreening()
+		#ClimatManager.processDesertGreening()
 		CvTopCivs.CvTopCivs().turnChecker(iGameTurn)
 		if (CyMap().plot(0,0).getScriptData() == "Scenario"):
 			if iGameTurn!=0:
