@@ -42,7 +42,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>1</iGridX>
-      <iGridY>11</iGridY>
+      <iGridY>9</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -113,7 +113,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>2</iGridX>
-      <iGridY>9</iGridY>
+      <iGridY>7</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -182,7 +182,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>2</iGridX>
-      <iGridY>11</iGridY>
+      <iGridY>9</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -247,7 +247,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>3</iGridX>
-      <iGridY>9</iGridY>
+      <iGridY>8</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -321,7 +321,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>3</iGridX>
-      <iGridY>11</iGridY>
+      <iGridY>10</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -392,7 +392,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>5</iGridX>
-      <iGridY>10</iGridY>
+      <iGridY>9</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -541,7 +541,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>7</iGridX>
-      <iGridY>8</iGridY>
+      <iGridY>7</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -698,7 +698,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>7</iGridX>
-      <iGridY>10</iGridY>
+      <iGridY>9</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -769,7 +769,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>8</iGridX>
-      <iGridY>11</iGridY>
+      <iGridY>10</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -916,7 +916,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>8</iGridX>
-      <iGridY>8</iGridY>
+      <iGridY>7</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -1891,7 +1891,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>1</bWaterWork>
       <iGridX>1</iGridX>
-      <iGridY>1</iGridY>
+      <iGridY>14</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -1962,7 +1962,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>1</iGridX>
-      <iGridY>3</iGridY>
+      <iGridY>1</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -2037,7 +2037,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>1</iGridX>
-      <iGridY>5</iGridY>
+      <iGridY>3</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -2108,7 +2108,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>2</iGridX>
-      <iGridY>3</iGridY>
+      <iGridY>1</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -2133,11 +2133,9 @@
       </Flavors>
       <OrPreReqs>
         <PrereqTech>TECH_AGRICULTURE</PrereqTech>
-        <PrereqTech>TECH_FISHING</PrereqTech>
-      </OrPreReqs>
-      <AndPreReqs>
         <PrereqTech>TECH_THE_WHEEL</PrereqTech>
-      </AndPreReqs>
+      </OrPreReqs>
+      <AndPreReqs />
       <Quote>TXT_KEY_TECH_POTTERY_QUOTE</Quote>
       <Sound>AS2D_TECH_POTTERY</Sound>
       <SoundMP>AS2D_TECH_MP_POTTERY</SoundMP>
@@ -2253,7 +2251,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>2</iGridX>
-      <iGridY>1</iGridY>
+      <iGridY>14</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades>
@@ -4334,7 +4332,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>1</iGridX>
-      <iGridY>7</iGridY>
+      <iGridY>5</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -4409,7 +4407,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>1</iGridX>
-      <iGridY>14</iGridY>
+      <iGridY>12</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -4476,7 +4474,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>2</iGridX>
-      <iGridY>7</iGridY>
+      <iGridY>5</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -4545,7 +4543,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>2</iGridX>
-      <iGridY>13</iGridY>
+      <iGridY>11</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -4623,7 +4621,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>2</iGridX>
-      <iGridY>5</iGridY>
+      <iGridY>3</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -4705,7 +4703,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>3</iGridX>
-      <iGridY>14</iGridY>
+      <iGridY>12</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -4778,7 +4776,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>3</iGridX>
-      <iGridY>6</iGridY>
+      <iGridY>4</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -4855,7 +4853,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>4</iGridX>
-      <iGridY>14</iGridY>
+      <iGridY>12</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -4927,7 +4925,7 @@
       <bIrrigation>0</bIrrigation>
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
-      <iGridX>4</iGridX>
+      <iGridX>6</iGridX>
       <iGridY>12</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
@@ -4956,11 +4954,10 @@
         </Flavor>
       </Flavors>
       <OrPreReqs>
-        <PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+        <PrereqTech>TECH_IRON_WORKING</PrereqTech>
       </OrPreReqs>
       <AndPreReqs>
         <PrereqTech>TECH_POTTERY</PrereqTech>
-        <PrereqTech>TECH_IRON_WORKING</PrereqTech>
       </AndPreReqs>
       <Quote>TXT_KEY_TECH_METAL_CASTING_QUOTE</Quote>
       <Sound>AS2D_TECH_METALCAST</Sound>
@@ -5033,10 +5030,9 @@
       </Flavors>
       <OrPreReqs>
         <PrereqTech>TECH_IRON_WORKING</PrereqTech>
-      </OrPreReqs>
-      <AndPreReqs>
         <PrereqTech>TECH_SAILING</PrereqTech>
-      </AndPreReqs>
+      </OrPreReqs>
+      <AndPreReqs />
       <Quote>TXT_KEY_TECH_COMPASS_QUOTE</Quote>
       <Sound>AS2D_TECH_COMPASS</Sound>
       <SoundMP>AS2D_TECH_MP_COMPASS</SoundMP>
@@ -5165,7 +5161,7 @@
       <bIrrigation>0</bIrrigation>
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
-      <iGridX>6</iGridX>
+      <iGridX>7</iGridX>
       <iGridY>12</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
