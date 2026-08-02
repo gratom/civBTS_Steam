@@ -1592,7 +1592,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>15</iGridX>
-      <iGridY>6</iGridY>
+      <iGridY>7</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -1621,6 +1621,7 @@
       </Flavors>
       <OrPreReqs>
         <PrereqTech>TECH_ASSEMBLY_LINE</PrereqTech>
+        <PrereqTech>TECH_UTOPIA</PrereqTech>
       </OrPreReqs>
       <AndPreReqs>
         <PrereqTech>TECH_NATIONALISM</PrereqTech>
@@ -4215,10 +4216,11 @@
         </Flavor>
       </Flavors>
       <OrPreReqs>
-        <PrereqTech>TECH_COMPUTERS</PrereqTech>
         <PrereqTech>TECH_LASER</PrereqTech>
       </OrPreReqs>
-      <AndPreReqs />
+      <AndPreReqs>
+        <PrereqTech>TECH_COMPUTERS</PrereqTech>
+      </AndPreReqs>
       <Quote>TXT_KEY_TECH_FIBER_OPTICS_QUOTE</Quote>
       <Sound>AS2D_TECH_FIBER_OPTICS</Sound>
       <SoundMP>AS2D_TECH_MP_FIBER_OPTICS</SoundMP>
@@ -5530,7 +5532,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>13</iGridX>
-      <iGridY>12</iGridY>
+      <iGridY>3</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -5546,7 +5548,7 @@
         </Flavor>
       </Flavors>
       <OrPreReqs>
-        <PrereqTech>TECH_CHEMISTRY</PrereqTech>
+        <PrereqTech>TECH_RIFLING</PrereqTech>
       </OrPreReqs>
       <AndPreReqs />
       <Quote>TXT_KEY_TECH_MILITARY_SCIENCE_QUOTE</Quote>
@@ -5595,7 +5597,7 @@
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
       <iGridX>12</iGridX>
-      <iGridY>4</iGridY>
+      <iGridY>3</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
       <TerrainTrades />
@@ -5616,6 +5618,7 @@
       </Flavors>
       <OrPreReqs>
         <PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+        <PrereqTech>TECH_MILITARY_TRADITION</PrereqTech>
       </OrPreReqs>
       <AndPreReqs>
         <PrereqTech>TECH_GUNPOWDER</PrereqTech>
@@ -5982,7 +5985,7 @@
         </Flavor>
       </Flavors>
       <OrPreReqs>
-        <PrereqTech>TECH_RIFLING</PrereqTech>
+        <PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
       </OrPreReqs>
       <AndPreReqs>
         <PrereqTech>TECH_PHYSICS</PrereqTech>
