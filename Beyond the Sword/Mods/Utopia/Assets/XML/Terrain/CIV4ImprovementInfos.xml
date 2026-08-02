@@ -1911,9 +1911,9 @@
         </ImprovementInfo>
 		<ImprovementInfo>
             <Type>IMPROVEMENT_ECOCITY</Type>
-            <Description>TXT_KEY_IMPROVEMENT_LUMBERMILL</Description>
-            <Civilopedia>TXT_KEY_IMPROVEMENT_LUMBERMILL_PEDIA</Civilopedia>
-            <ArtDefineTag>ART_DEF_IMPROVEMENT_OFFSHORE_PLATFORM</ArtDefineTag>
+            <Description>TXT_KEY_IMPROVEMENT_ECOCITY</Description>
+            <Civilopedia>TXT_KEY_IMPROVEMENT_ECOCITY_PEDIA</Civilopedia>
+            <ArtDefineTag>ART_DEF_IMPROVEMENT_ECO_CITY</ArtDefineTag>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
                 <iYieldChange>1</iYieldChange>
@@ -1921,15 +1921,15 @@
             </YieldChanges>
             <RiverSideYieldChange>
                 <iYield>0</iYield>
-                <iYield>0</iYield>
-                <iYield>1</iYield>
+                <iYield>7</iYield>
+                <iYield>-1</iYield>
             </RiverSideYieldChange>
             <bActsAsCity>0</bActsAsCity>
             <bHillsMakesValid>0</bHillsMakesValid>
             <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
             <bRiverSideMakesValid>0</bRiverSideMakesValid>
             <bNoFreshWater>0</bNoFreshWater>
-            <bRequiresFlatlands>0</bRequiresFlatlands>
+            <bRequiresFlatlands>1</bRequiresFlatlands>
             <bRequiresRiverSide>0</bRequiresRiverSide>
             <bRequiresIrrigation>0</bRequiresIrrigation>
             <bCarriesIrrigation>0</bCarriesIrrigation>
@@ -1948,16 +1948,7 @@
             <iHappiness>0</iHappiness>
             <iPillageGold>5</iPillageGold>
             <bOutsideBorders>0</bOutsideBorders>
-            <TerrainMakesValids>
-                <TerrainMakesValid>
-                    <TerrainType>TERRAIN_GRASS</TerrainType>
-                    <bMakesValid>1</bMakesValid>
-                </TerrainMakesValid>
-                <TerrainMakesValid>
-                    <TerrainType>TERRAIN_PLAINS</TerrainType>
-                    <bMakesValid>1</bMakesValid>
-                </TerrainMakesValid>
-            </TerrainMakesValids>
+            <TerrainMakesValids/>
             <FeatureMakesValids>
                 <FeatureMakesValid>
                     <FeatureType>FEATURE_FOREST</FeatureType>
@@ -1972,7 +1963,7 @@
                     <RouteType>ROUTE_RAILROAD</RouteType>
                     <RouteYields>
                         <iYield>0</iYield>
-                        <iYield>1</iYield>
+                        <iYield>3</iYield>
                         <iYield>1</iYield>
                     </RouteYields>
                 </RouteYieldChange>

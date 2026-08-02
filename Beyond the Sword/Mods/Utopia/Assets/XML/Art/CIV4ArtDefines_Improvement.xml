@@ -241,6 +241,15 @@
 			<Button>,Art/Interface/Buttons/Builds/BuildTown.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,3,10</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_ECO_CITY</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>0.8</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<NIF>Art/NeoCity/Khmer_Baray.nif</NIF>
+			<KFM/>
+			<Button>,Art/Interface/Buttons/Units/BuildEcoCity.dds,Art/Interface/Buttons/NextWar_Atlas.dds,8,6</Button>
+		</ImprovementArtInfo>
+		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_FORT</Type>
 			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>0.5</fScale>
