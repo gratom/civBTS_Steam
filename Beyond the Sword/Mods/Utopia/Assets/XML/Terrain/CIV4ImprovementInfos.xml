@@ -1916,13 +1916,13 @@
             <ArtDefineTag>ART_DEF_IMPROVEMENT_ECO_CITY</ArtDefineTag>
             <YieldChanges>
                 <iYieldChange>0</iYieldChange>
-                <iYieldChange>1</iYieldChange>
-                <iYieldChange>0</iYieldChange>
+                <iYieldChange>-1</iYieldChange>
+                <iYieldChange>7</iYieldChange>
             </YieldChanges>
             <RiverSideYieldChange>
                 <iYield>0</iYield>
-                <iYield>7</iYield>
-                <iYield>-1</iYield>
+                <iYield>0</iYield>
+                <iYield>1</iYield>
             </RiverSideYieldChange>
             <bActsAsCity>0</bActsAsCity>
             <bHillsMakesValid>0</bHillsMakesValid>
@@ -1944,7 +1944,7 @@
             <iFeatureGrowth>256</iFeatureGrowth>
             <iUpgradeTime>0</iUpgradeTime>
             <iAirBombDefense>5</iAirBombDefense>
-            <iDefenseModifier>0</iDefenseModifier>
+            <iDefenseModifier>25</iDefenseModifier>
             <iHappiness>0</iHappiness>
             <iPillageGold>5</iPillageGold>
             <bOutsideBorders>0</bOutsideBorders>
@@ -1963,8 +1963,8 @@
                     <RouteType>ROUTE_RAILROAD</RouteType>
                     <RouteYields>
                         <iYield>0</iYield>
-                        <iYield>3</iYield>
                         <iYield>1</iYield>
+                        <iYield>3</iYield>
                     </RouteYields>
                 </RouteYieldChange>
             </RouteYieldChanges>
