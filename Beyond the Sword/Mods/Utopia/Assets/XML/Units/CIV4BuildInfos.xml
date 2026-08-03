@@ -222,7 +222,7 @@
 			<Type>BUILD_WORKSHOP</Type>
 			<Description>TXT_KEY_BUILD_WORKSHOP</Description>
 			<Help/>
-			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<PrereqTech>TECH_ORGANIZED_PRODUCTION</PrereqTech>
 			<iTime>600</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
@@ -425,6 +425,40 @@
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Builds/BuildQuarry.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,9</Button>
+		</BuildInfo>
+		<BuildInfo>
+			<Type>BUILD_GLASSBLOWING</Type>
+			<Description>TXT_KEY_BUILD_GLASSBLOWING</Description>
+			<Help/>
+			<PrereqTech>TECH_GLASSWORKING</PrereqTech>
+			<iTime>600</iTime>
+			<iCost>0</iCost>
+			<bKill>0</bKill>
+			<ImprovementType>IMPROVEMENT_GLASSBLOWING</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs>
+				<FeatureStruct>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+					<iTime>400</iTime>
+					<iProduction>20</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+					<iTime>300</iTime>
+					<iProduction>30</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+			</FeatureStructs>
+			<HotKey>NONE</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>Art/Interface/Buttons/Improvements/GlassBlowing.dds</Button>
 		</BuildInfo>
 		<BuildInfo>
 			<Type>BUILD_PASTURE</Type>

@@ -472,8 +472,8 @@
                     <iDiscoverRand>0</iDiscoverRand>
                     <YieldChanges>
                         <iYieldChange>2</iYieldChange>
-                        <iYieldChange>1</iYieldChange>
                         <iYieldChange>0</iYieldChange>
+                        <iYieldChange>1</iYieldChange>
                     </YieldChanges>
                 </BonusTypeStruct>
                 <BonusTypeStruct>
@@ -483,8 +483,8 @@
                     <iDiscoverRand>0</iDiscoverRand>
                     <YieldChanges>
                         <iYieldChange>2</iYieldChange>
-                        <iYieldChange>0</iYieldChange>
                         <iYieldChange>1</iYieldChange>
+                        <iYieldChange>0</iYieldChange>
                     </YieldChanges>
                 </BonusTypeStruct>
                 <BonusTypeStruct>
@@ -861,7 +861,7 @@
             </PrereqNatureYields>
             <YieldChanges>
                 <iYieldChange>-1</iYieldChange>
-                <iYieldChange>2</iYieldChange>
+                <iYieldChange>1</iYieldChange>
                 <iYieldChange>0</iYieldChange>
             </YieldChanges>
             <bActsAsCity>0</bActsAsCity>
@@ -898,11 +898,11 @@
                     <bMakesValid>1</bMakesValid>
                 </TerrainMakesValid>
                 <TerrainMakesValid>
-                    <TerrainType>TERRAIN_DESERT</TerrainType>
+                    <TerrainType>TERRAIN_TUNDRA</TerrainType>
                     <bMakesValid>1</bMakesValid>
                 </TerrainMakesValid>
-                <TerrainMakesValid>
-                    <TerrainType>TERRAIN_TUNDRA</TerrainType>
+				<TerrainMakesValid>
+                    <TerrainType>TERRAIN_DESERT</TerrainType>
                     <bMakesValid>1</bMakesValid>
                 </TerrainMakesValid>
             </TerrainMakesValids>
@@ -1324,7 +1324,7 @@
                     <BonusType>BONUS_MARBLE</BonusType>
                     <bBonusMakesValid>1</bBonusMakesValid>
                     <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>3000</iDiscoverRand>
+                    <iDiscoverRand>2000</iDiscoverRand>
                     <YieldChanges>
                         <iYieldChange>0</iYieldChange>
                         <iYieldChange>0</iYieldChange>
@@ -1335,7 +1335,7 @@
                     <BonusType>BONUS_STONE</BonusType>
                     <bBonusMakesValid>1</bBonusMakesValid>
                     <bBonusTrade>1</bBonusTrade>
-                    <iDiscoverRand>3000</iDiscoverRand>
+                    <iDiscoverRand>2000</iDiscoverRand>
                     <YieldChanges>
                         <iYieldChange>0</iYieldChange>
                         <iYieldChange>1</iYieldChange>
@@ -1353,6 +1353,75 @@
                         <iYield>0</iYield>
                         <iYield>2</iYield>
                         <iYield>2</iYield>
+                    </RouteYields>
+                </RouteYieldChange>
+            </RouteYieldChanges>
+            <bGraphicalOnly>0</bGraphicalOnly>
+        </ImprovementInfo>
+		<ImprovementInfo>
+            <Type>IMPROVEMENT_GLASSBLOWING</Type>
+            <Description>TXT_KEY_IMPROVEMENT_GLASSBLOWING</Description>
+            <Civilopedia>TXT_KEY_IMPROVEMENT_GLASSBLOWING_PEDIA</Civilopedia>
+            <ArtDefineTag>ART_DEF_IMPROVEMENT_GLASSBLOWING</ArtDefineTag>
+			<YieldChanges>
+                <iYieldChange>0</iYieldChange>
+                <iYieldChange>1</iYieldChange>
+                <iYieldChange>2</iYieldChange>
+            </YieldChanges>
+            <bActsAsCity>0</bActsAsCity>
+            <bHillsMakesValid>0</bHillsMakesValid>
+            <bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+            <bRiverSideMakesValid>0</bRiverSideMakesValid>
+            <bNoFreshWater>0</bNoFreshWater>
+            <bRequiresFlatlands>0</bRequiresFlatlands>
+            <bRequiresRiverSide>0</bRequiresRiverSide>
+            <bRequiresIrrigation>0</bRequiresIrrigation>
+            <bCarriesIrrigation>0</bCarriesIrrigation>
+            <bRequiresFeature>0</bRequiresFeature>
+            <bWater>0</bWater>
+            <bGoody>0</bGoody>
+            <bPermanent>0</bPermanent>
+            <iAdvancedStartCost>36</iAdvancedStartCost>
+            <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+            <iTilesPerGoody>0</iTilesPerGoody>
+            <iGoodyRange>0</iGoodyRange>
+            <iFeatureGrowth>0</iFeatureGrowth>
+            <iUpgradeTime>0</iUpgradeTime>
+            <iAirBombDefense>10</iAirBombDefense>
+            <iDefenseModifier>0</iDefenseModifier>
+            <iHappiness>0</iHappiness>
+            <iPillageGold>5</iPillageGold>
+            <bOutsideBorders>0</bOutsideBorders>
+            <TerrainMakesValids>
+                <TerrainMakesValid>
+                    <TerrainType>TERRAIN_DESERT</TerrainType>
+                    <bMakesValid>1</bMakesValid>
+                </TerrainMakesValid>
+            </TerrainMakesValids>
+            <FeatureMakesValids/>
+            <BonusTypeStructs>
+                <BonusTypeStruct>
+                    <BonusType>BONUS_GEMS</BonusType>
+                    <bBonusMakesValid>1</bBonusMakesValid>
+                    <bBonusTrade>1</bBonusTrade>
+                    <iDiscoverRand>5000</iDiscoverRand>
+                    <YieldChanges>
+                        <iYieldChange>0</iYieldChange>
+                        <iYieldChange>-1</iYieldChange>
+                        <iYieldChange>2</iYieldChange>
+                    </YieldChanges>
+                </BonusTypeStruct>
+            </BonusTypeStructs>
+            <ImprovementPillage/>
+            <ImprovementUpgrade/>
+            <TechYieldChanges/>
+            <RouteYieldChanges>
+                <RouteYieldChange>
+                    <RouteType>ROUTE_RAILROAD</RouteType>
+                    <RouteYields>
+                        <iYield>0</iYield>
+                        <iYield>1</iYield>
+                        <iYield>1</iYield>
                     </RouteYields>
                 </RouteYieldChange>
             </RouteYieldChanges>
@@ -1699,6 +1768,14 @@
                         <iYield>0</iYield>
                         <iYield>0</iYield>
                         <iYield>2</iYield>
+                    </TechYields>
+                </TechYieldChange>
+				<TechYieldChange>
+                    <PrereqTech>TECH_GLASSWORKING</PrereqTech>
+                    <TechYields>
+                        <iYield>0</iYield>
+                        <iYield>1</iYield>
+                        <iYield>1</iYield>
                     </TechYields>
                 </TechYieldChange>
             </TechYieldChanges>

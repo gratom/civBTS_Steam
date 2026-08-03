@@ -998,6 +998,10 @@
                     <BuildType>BUILD_QUARRY</BuildType>
                     <bBuild>1</bBuild>
                 </Build>
+				<Build>
+                    <BuildType>BUILD_GLASSBLOWING</BuildType>
+                    <bBuild>1</bBuild>
+                </Build>
                 <Build>
                     <BuildType>BUILD_PASTURE</BuildType>
                     <bBuild>1</bBuild>
@@ -1250,6 +1254,10 @@
                 </Build>
                 <Build>
                     <BuildType>BUILD_QUARRY</BuildType>
+                    <bBuild>1</bBuild>
+                </Build>
+				<Build>
+                    <BuildType>BUILD_GLASSBLOWING</BuildType>
                     <bBuild>1</bBuild>
                 </Build>
                 <Build>
@@ -26261,6 +26269,10 @@
                     <BuildType>BUILD_QUARRY</BuildType>
                     <bBuild>1</bBuild>
                 </Build>
+				<Build>
+                    <BuildType>BUILD_GLASSBLOWING</BuildType>
+                    <bBuild>1</bBuild>
+                </Build>
                 <Build>
                     <BuildType>BUILD_PASTURE</BuildType>
                     <bBuild>1</bBuild>
@@ -26518,6 +26530,10 @@
                     <BuildType>BUILD_QUARRY</BuildType>
                     <bBuild>1</bBuild>
                 </Build>
+				<Build>
+                    <BuildType>BUILD_GLASSBLOWING</BuildType>
+                    <bBuild>1</bBuild>
+                </Build>
                 <Build>
                     <BuildType>BUILD_PASTURE</BuildType>
                     <bBuild>1</bBuild>
@@ -26536,6 +26552,10 @@
                 </Build>
                 <Build>
                     <BuildType>BUILD_COTTAGE</BuildType>
+                    <bBuild>1</bBuild>
+                </Build>
+				<Build>
+                    <BuildType>BUILD_ECO_CITY</BuildType>
                     <bBuild>1</bBuild>
                 </Build>
                 <Build>
@@ -26565,7 +26585,7 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding>BUILDING_CLONING_FACTORY</PrereqBuilding>
+            <PrereqBuilding/>
             <PrereqTech>TECH_CLONING</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
@@ -26589,7 +26609,7 @@
             <iAirUnitCap>0</iAirUnitCap>
             <iDropRange>0</iDropRange>
             <iNukeRange>-1</iNukeRange>
-            <iWorkRate>200</iWorkRate>
+            <iWorkRate>300</iWorkRate>
             <iBaseDiscover>0</iBaseDiscover>
             <iDiscoverMultiplier>0</iDiscoverMultiplier>
             <iBaseHurry>0</iBaseHurry>
