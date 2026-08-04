@@ -11654,7 +11654,7 @@
             <bAlwaysHostile>0</bAlwaysHostile>
             <UnitClassUpgrades>
                 <UnitClassUpgrade>
-                    <UnitClassUpgradeType>UNITCLASS_RIFLEMAN</UnitClassUpgradeType>
+                    <UnitClassUpgradeType>UNITCLASS_MACHINE_GUN</UnitClassUpgradeType>
                     <bUnitClassUpgrade>1</bUnitClassUpgrade>
                 </UnitClassUpgrade>
             </UnitClassUpgrades>
@@ -16291,7 +16291,7 @@
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
             <PrereqBuilding>NONE</PrereqBuilding>
-            <PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+            <PrereqTech>TECH_GEOMETRY</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
@@ -17917,7 +17917,7 @@
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>20</iMinAreaSize>
-            <iMoves>2</iMoves>
+            <iMoves>1</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
             <iAirRange>0</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
@@ -18099,12 +18099,8 @@
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
             <PrereqBuilding>NONE</PrereqBuilding>
-            <PrereqTech>TECH_METAL_CASTING</PrereqTech>
-            <TechTypes>
-                <PrereqTech>TECH_SAILING</PrereqTech>
-                <PrereqTech>NONE</PrereqTech>
-                <PrereqTech>NONE</PrereqTech>
-            </TechTypes>
+            <PrereqTech>TECH_SHIPBUILDING</PrereqTech>
+            <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
             <ProductionTraits/>
@@ -18115,7 +18111,7 @@
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>20</iMinAreaSize>
-            <iMoves>2</iMoves>
+            <iMoves>1</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
             <iAirRange>0</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
@@ -18328,7 +18324,7 @@
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
             <PrereqBuilding>NONE</PrereqBuilding>
-            <PrereqTech>TECH_OPTICS</PrereqTech>
+            <PrereqTech>TECH_COMPASS</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
@@ -18340,7 +18336,7 @@
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>20</iMinAreaSize>
-            <iMoves>3</iMoves>
+            <iMoves>2</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
             <iAirRange>0</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
@@ -18546,7 +18542,7 @@
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
             <PrereqBuilding>NONE</PrereqBuilding>
-            <PrereqTech>TECH_OPTICS</PrereqTech>
+            <PrereqTech>TECH_COMPASS</PrereqTech>
             <TechTypes/>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
@@ -18753,7 +18749,7 @@
             <iAdvancedStartCost>100</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
             <iMinAreaSize>20</iMinAreaSize>
-            <iMoves>4</iMoves>
+            <iMoves>3</iMoves>
             <bNoRevealMap>0</bNoRevealMap>
             <iAirRange>0</iAirRange>
             <iAirUnitCap>0</iAirUnitCap>
