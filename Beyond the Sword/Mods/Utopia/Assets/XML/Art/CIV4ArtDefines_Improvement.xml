@@ -288,20 +288,20 @@
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PILGRIMAGE</Type>
 			<bExtraAnimations>0</bExtraAnimations>
-			<fScale>0.8</fScale>
+			<fScale>0.65</fScale>
 			<fInterfaceScale>0.8</fInterfaceScale>
-			<NIF>Art/Miracle/Moai_Statutes.nif</NIF>
+			<NIF>Art/Pilgrimage/Customs_House.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Miracle.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Pilgrimage.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SHRINE</Type>
 			<bExtraAnimations>0</bExtraAnimations>
-			<fScale>0.8</fScale>
+			<fScale>1.5</fScale>
 			<fInterfaceScale>0.8</fInterfaceScale>
-			<NIF>Art/Miracle/Moai_Statutes.nif</NIF>
+			<NIF>Art/ShrineImrovement/christian monastery.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Miracle.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/ShrineImprovement.dds</Button>
 		</ImprovementArtInfo>
 	</ImprovementArtInfos>
 </Civ4ArtDefines>
