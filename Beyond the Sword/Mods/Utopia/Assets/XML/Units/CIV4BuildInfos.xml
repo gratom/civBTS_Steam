@@ -780,5 +780,24 @@
 			<iHotKeyPriority>1</iHotKeyPriority>
 			<Button>,Art/Interface/Buttons/Builds/BuildScrubFallout.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,8</Button>
 		</BuildInfo>
+		<BuildInfo>
+			<Type>BUILD_MIRACLE</Type>
+			<Description>TXT_KEY_BUILD_MIRACLE</Description>
+			<Help/>
+			<PrereqTech>TECH_MONOTHEISM</PrereqTech>
+			<iTime>0</iTime>
+			<iCost>0</iCost>
+			<bKill>1</bKill>
+			<ImprovementType>IMPROVEMENT_MIRACLE</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs/>
+			<HotKey>NONE</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>Art/Interface/Buttons/Buildings/BuildMiracle.dds</Button>
+		</BuildInfo>
 	</BuildInfos>
 </Civ4BuildInfos>
