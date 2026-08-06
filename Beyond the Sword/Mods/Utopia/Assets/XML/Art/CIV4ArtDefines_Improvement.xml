@@ -121,7 +121,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lumbermill/Lumbermill.nif</NIF>
 			<KFM>Art/Structures/Improvements/Lumbermill/Lumbermill.kfm</KFM>
-			<Button>,Art/Interface/Buttons/Builds/BuildLumberMill.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,5,7</Button>
+			<Button>Art/Interface/Buttons/Improvements/Sawmill.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WINDMILL</Type>

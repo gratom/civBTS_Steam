@@ -269,7 +269,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>1</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildLumberMill.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,5,7</Button>
+			<Button>Art/Interface/Buttons/Improvements/Sawmill.dds</Button>
 		</BuildInfo>
 		<BuildInfo>
 			<Type>BUILD_ECO_CITY</Type>
@@ -288,7 +288,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildLumberMill.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,5,7</Button>
+			<Button>,Art/Interface/Buttons/Units/BuildEcoCity.dds,Art/Interface/Buttons/NextWar_Atlas.dds,8,6</Button>
 		</BuildInfo>
 		<BuildInfo>
 			<Type>BUILD_WINDMILL</Type>
