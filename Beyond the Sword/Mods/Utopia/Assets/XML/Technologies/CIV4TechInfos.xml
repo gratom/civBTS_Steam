@@ -5031,10 +5031,11 @@
         </Flavor>
       </Flavors>
       <OrPreReqs>
-        <PrereqTech>TECH_IRON_WORKING</PrereqTech>
         <PrereqTech>TECH_SHIPBUILDING</PrereqTech>
       </OrPreReqs>
-      <AndPreReqs />
+      <AndPreReqs>
+        <PrereqTech>TECH_IRON_WORKING</PrereqTech>
+      </AndPreReqs>
       <Quote>TXT_KEY_TECH_COMPASS_QUOTE</Quote>
       <Sound>AS2D_TECH_COMPASS</Sound>
       <SoundMP>AS2D_TECH_MP_COMPASS</SoundMP>
