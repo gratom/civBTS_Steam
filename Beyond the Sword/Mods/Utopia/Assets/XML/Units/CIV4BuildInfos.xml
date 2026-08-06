@@ -638,7 +638,7 @@
 			<Type>BUILD_FORT</Type>
 			<Description>TXT_KEY_BUILD_FORT</Description>
 			<Help/>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<PrereqTech>TECH_GEOMETRY</PrereqTech>
 			<iTime>1000</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
