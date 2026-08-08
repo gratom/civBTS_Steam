@@ -26582,9 +26582,13 @@
             <StateReligion>NONE</StateReligion>
             <PrereqReligion>NONE</PrereqReligion>
             <PrereqCorporation>NONE</PrereqCorporation>
-            <PrereqBuilding/>
-            <PrereqTech>TECH_CLONING</PrereqTech>
-            <TechTypes/>
+            <PrereqBuilding>BUILDING_INDUSTRIAL_PARK</PrereqBuilding>
+            <PrereqTech>TECH_NANO_FILMS</PrereqTech>
+            <TechTypes>
+                <PrereqTech>TECH_ROBOTICS</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
+                <PrereqTech>NONE</PrereqTech>
+            </TechTypes>
             <BonusType>NONE</BonusType>
             <PrereqBonuses/>
             <ProductionTraits>
@@ -26595,7 +26599,7 @@
             </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>500</iCost>
+            <iCost>450</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>80</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>

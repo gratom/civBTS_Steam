@@ -23913,7 +23913,7 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<ObsoleteTech>TECH_INDUSTRIALISM</ObsoleteTech>
+			<ObsoleteTech>TECH_PHYSICS</ObsoleteTech>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			<TechTypes/>
 			<Bonus>NONE</Bonus>

@@ -188,7 +188,7 @@
 			<Type>BUILD_EXTRACTION_FACILITY</Type>
 			<Description>TXT_KEY_BUILD_EXTRACTION_FACILITY</Description>
 			<Help/>
-			<PrereqTech>TECH_CLONING</PrereqTech>
+			<PrereqTech>TECH_META_MATERIALS</PrereqTech>
 			<iTime>3000</iTime>
 			<iCost>0</iCost>
 			<bKill>1</bKill>
