@@ -26238,10 +26238,6 @@
                     <BuildType>BUILD_FARM</BuildType>
                     <bBuild>1</bBuild>
                 </Build>
-				<Build>
-                    <BuildType>BUILD_NEOFARM</BuildType>
-                    <bBuild>1</bBuild>
-                </Build>
                 <Build>
                     <BuildType>BUILD_MINE</BuildType>
                     <bBuild>1</bBuild>
@@ -26599,7 +26595,7 @@
             </ProductionTraits>
             <Flavors/>
             <iAIWeight>0</iAIWeight>
-            <iCost>80</iCost>
+            <iCost>500</iCost>
             <iHurryCostModifier>0</iHurryCostModifier>
             <iAdvancedStartCost>80</iAdvancedStartCost>
             <iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
@@ -26610,7 +26606,7 @@
             <iAirUnitCap>0</iAirUnitCap>
             <iDropRange>0</iDropRange>
             <iNukeRange>-1</iNukeRange>
-            <iWorkRate>300</iWorkRate>
+            <iWorkRate>400</iWorkRate>
             <iBaseDiscover>0</iBaseDiscover>
             <iDiscoverMultiplier>0</iDiscoverMultiplier>
             <iBaseHurry>0</iBaseHurry>

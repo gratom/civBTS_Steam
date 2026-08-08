@@ -275,7 +275,7 @@
 			<Type>BUILD_ECO_CITY</Type>
 			<Description>TXT_KEY_BUILD_ECO_CITY</Description>
 			<Help/>
-			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+			<PrereqTech>TECH_NANO_FILMS</PrereqTech>
 			<iTime>3000</iTime>
 			<iCost>0</iCost>
 			<bKill>0</bKill>
