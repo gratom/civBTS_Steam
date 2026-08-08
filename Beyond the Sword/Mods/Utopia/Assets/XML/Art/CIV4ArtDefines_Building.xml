@@ -1408,6 +1408,16 @@
 			<Button>,Art/Interface/Buttons/Buildings/Pentagon.dds,Art/Interface/Buttons/Buildings_Atlas.dds,8,5</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_MURANO</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>0.65</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<NIF>Art/Murano/Customs_House.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Buildings/Murano.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_UNITED_NATIONS</Type>
 			<LSystem>LSYSTEM_4x2</LSystem>
 			<bAnimated>1</bAnimated>
