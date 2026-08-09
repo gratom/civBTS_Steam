@@ -792,7 +792,7 @@
             <ProductionTraits>
                 <ProductionTrait>
                     <ProductionTraitType>TRAIT_IMPERIALIST</ProductionTraitType>
-                    <iProductionTrait>100</iProductionTrait>
+                    <iProductionTrait>50</iProductionTrait>
                 </ProductionTrait>
             </ProductionTraits>
             <Flavors/>
