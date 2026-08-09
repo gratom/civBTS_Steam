@@ -15,6 +15,15 @@
 		<Spanish>Escenarios de "Beyond the Sword"</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_HANDICAP_BARON</Tag>
+		<Russian>&#193;&#224;&#240;&#238;&#237;</Russian>
+		<English>Baron</English>
+		<French>Baron</French>
+		<German>Baron</German>
+		<Italian>Baron</Italian>
+		<Spanish>Baron</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_ATTACK</Tag>
 		<Russian>[ICON_BULLET]%D1_Change%% &#234; &#224;&#242;&#224;&#234;&#229; &#237;&#224; &#239;&#240;&#232;&#226;&#251;&#247;&#237;&#238;&#233; &#236;&#229;&#241;&#242;&#237;&#238;&#241;&#242;&#232; (%s2_TerrOrFeat)</Russian>
 		<English>[ICON_BULLET]%D1_Change%% %s2_TerrOrFeat Attack</English>
