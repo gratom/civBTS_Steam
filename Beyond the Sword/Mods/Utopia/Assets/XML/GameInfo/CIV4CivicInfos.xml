@@ -527,7 +527,7 @@
 			<bNoUnhealthyPopulation>0</bNoUnhealthyPopulation>
 			<iExpInBorderModifier>0</iExpInBorderModifier>
 			<bBuildingOnlyHealthy>0</bBuildingOnlyHealthy>
-			<iLargestCityHappiness>8</iLargestCityHappiness>
+			<iLargestCityHappiness>0</iLargestCityHappiness>
 			<iWarWearinessModifier>0</iWarWearinessModifier>
 			<iFreeSpecialist>0</iFreeSpecialist>
 			<iTradeRoutes>0</iTradeRoutes>
@@ -552,7 +552,7 @@
 			<CommerceModifiers/>
 			<CapitalCommerceModifiers>
 				<iCommerce>50</iCommerce>
-				<iCommerce>20</iCommerce>
+				<iCommerce>25</iCommerce>
 				<iCommerce>50</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CapitalCommerceModifiers>
@@ -1699,8 +1699,8 @@
 			<iCivicPercentAnger>0</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>1</bNoNonStateReligionSpread>
-			<iStateReligionHappiness>1</iStateReligionHappiness>
-			<iNonStateReligionHappiness>-1</iNonStateReligionHappiness>
+			<iStateReligionHappiness>0</iStateReligionHappiness>
+			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>20</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
@@ -1769,8 +1769,8 @@
 			<iCivicPercentAnger>0</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>1</bNoNonStateReligionSpread>
-			<iStateReligionHappiness>1</iStateReligionHappiness>
-			<iNonStateReligionHappiness>-1</iNonStateReligionHappiness>
+			<iStateReligionHappiness>0</iStateReligionHappiness>
+			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>15</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>6</iStateReligionFreeExperience>
@@ -1834,8 +1834,8 @@
 			<iCivicPercentAnger>0</iCivicPercentAnger>
 			<bStateReligion>1</bStateReligion>
 			<bNoNonStateReligionSpread>1</bNoNonStateReligionSpread>
-			<iStateReligionHappiness>1</iStateReligionHappiness>
-			<iNonStateReligionHappiness>-1</iNonStateReligionHappiness>
+			<iStateReligionHappiness>0</iStateReligionHappiness>
+			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
 			<iStateReligionBuildingProductionModifier>0</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
