@@ -15,17 +15,17 @@
 			<iStartingLocPercent>40</iStartingLocPercent>
 			<iAdvancedStartPointsMod>115</iAdvancedStartPointsMod>
 			<iGold>200</iGold>
-			<iFreeUnits>8</iFreeUnits>
+			<iFreeUnits>24</iFreeUnits>
 			<iUnitCostPercent>45</iUnitCostPercent>
-			<iResearchPercent>85</iResearchPercent>
-			<iDistanceMaintenancePercent>200</iDistanceMaintenancePercent>
-			<iNumCitiesMaintenancePercent>10</iNumCitiesMaintenancePercent>
+			<iResearchPercent>75</iResearchPercent>
+			<iDistanceMaintenancePercent>40</iDistanceMaintenancePercent>
+			<iNumCitiesMaintenancePercent>40</iNumCitiesMaintenancePercent>
 			<iMaxNumCitiesMaintenance>4</iMaxNumCitiesMaintenance>
-			<iColonyMaintenancePercent>100</iColonyMaintenancePercent>
-			<iMaxColonyMaintenance>300</iMaxColonyMaintenance>
+			<iColonyMaintenancePercent>75</iColonyMaintenancePercent>
+			<iMaxColonyMaintenance>150</iMaxColonyMaintenance>
 			<iCorporationMaintenancePercent>85</iCorporationMaintenancePercent>
 			<iCivicUpkeepPercent>50</iCivicUpkeepPercent>
-			<iInflationPercent>80</iInflationPercent>
+			<iInflationPercent>30</iInflationPercent>
 			<iHealthBonus>15</iHealthBonus>
 			<iHappyBonus>5</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
@@ -66,17 +66,18 @@
 			<iAIInflationPercent>80</iAIInflationPercent>
 			<iAIWarWearinessPercent>80</iAIWarWearinessPercent>
 			<iAIPerEraModifier>0</iAIPerEraModifier>
-			<iAIAdvancedStartPercent>125</iAIAdvancedStartPercent>
+			<iAIAdvancedStartPercent>100</iAIAdvancedStartPercent>
 			<Goodies>
 				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
 				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
 				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
 				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
-				<GoodyType>GOODY_SETTLER</GoodyType>
+				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
 				<GoodyType>GOODY_SCOUT</GoodyType>
 				<GoodyType>GOODY_SCOUT</GoodyType>
 				<GoodyType>GOODY_WORKER</GoodyType>
 				<GoodyType>GOODY_WORKER</GoodyType>
+				<GoodyType>GOODY_TECH</GoodyType>
 				<GoodyType>GOODY_TECH</GoodyType>
 				<GoodyType>GOODY_TECH</GoodyType>
 			</Goodies>
@@ -388,7 +389,7 @@
 			<iFreeWinsVsBarbs>3</iFreeWinsVsBarbs>
 			<iAnimalAttackProb>80</iAnimalAttackProb>
 			<iStartingLocPercent>35</iStartingLocPercent>
-			<iAdvancedStartPointsMod>105</iAdvancedStartPointsMod>
+			<iAdvancedStartPointsMod>110</iAdvancedStartPointsMod>
 			<iGold>0</iGold>
 			<iFreeUnits>10</iFreeUnits>
 			<iUnitCostPercent>50</iUnitCostPercent>
@@ -455,11 +456,9 @@
 				<GoodyType>GOODY_MAP</GoodyType>
 				<GoodyType>GOODY_MAP</GoodyType>
 				<GoodyType>GOODY_WARRIOR</GoodyType>
-				<GoodyType>GOODY_WARRIOR</GoodyType>
+				<GoodyType>GOODY_SCOUT</GoodyType>
 				<GoodyType>GOODY_SCOUT</GoodyType>
 				<GoodyType>GOODY_EXPERIENCE</GoodyType>
-				<GoodyType>GOODY_EXPERIENCE</GoodyType>
-				<GoodyType>GOODY_HEALING</GoodyType>
 				<GoodyType>GOODY_TECH</GoodyType>
 				<GoodyType>GOODY_TECH</GoodyType>
 				<GoodyType>GOODY_TECH</GoodyType>
