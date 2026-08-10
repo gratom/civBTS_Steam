@@ -190,7 +190,7 @@
 			<ExtraYieldThresholds>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
 				<iExtraYieldThreshold>0</iExtraYieldThreshold>
-				<iExtraYieldThreshold>2</iExtraYieldThreshold>
+				<iExtraYieldThreshold>3</iExtraYieldThreshold>
 			</ExtraYieldThresholds>
 			<TradeYieldModifiers/>
 			<CommerceChanges/>
