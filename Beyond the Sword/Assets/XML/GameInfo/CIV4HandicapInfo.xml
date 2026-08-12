@@ -13,19 +13,19 @@
 			<iFreeWinsVsBarbs>0</iFreeWinsVsBarbs>
 			<iAnimalAttackProb>85</iAnimalAttackProb>
 			<iStartingLocPercent>40</iStartingLocPercent>
-			<iAdvancedStartPointsMod>115</iAdvancedStartPointsMod>
-			<iGold>200</iGold>
-			<iFreeUnits>24</iFreeUnits>
+			<iAdvancedStartPointsMod>125</iAdvancedStartPointsMod>
+			<iGold>250</iGold>
+			<iFreeUnits>28</iFreeUnits>
 			<iUnitCostPercent>45</iUnitCostPercent>
-			<iResearchPercent>75</iResearchPercent>
+			<iResearchPercent>70</iResearchPercent>
 			<iDistanceMaintenancePercent>40</iDistanceMaintenancePercent>
-			<iNumCitiesMaintenancePercent>40</iNumCitiesMaintenancePercent>
+			<iNumCitiesMaintenancePercent>45</iNumCitiesMaintenancePercent>
 			<iMaxNumCitiesMaintenance>4</iMaxNumCitiesMaintenance>
 			<iColonyMaintenancePercent>75</iColonyMaintenancePercent>
 			<iMaxColonyMaintenance>150</iMaxColonyMaintenance>
 			<iCorporationMaintenancePercent>85</iCorporationMaintenancePercent>
-			<iCivicUpkeepPercent>50</iCivicUpkeepPercent>
-			<iInflationPercent>30</iInflationPercent>
+			<iCivicUpkeepPercent>60</iCivicUpkeepPercent>
+			<iInflationPercent>20</iInflationPercent>
 			<iHealthBonus>15</iHealthBonus>
 			<iHappyBonus>5</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
