@@ -1460,11 +1460,11 @@
 	</Define>
 	<Define>
 		<DefineName>ESPIONAGE_SPENDING_MULTIPLIER</DefineName>
-		<iDefineIntVal>90</iDefineIntVal>
+		<iDefineIntVal>100</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ESPIONAGE_EACH_TURN_UNIT_COST_DECREASE</DefineName>
-		<iDefineIntVal>15</iDefineIntVal>
+		<iDefineIntVal>8</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>ESPIONAGE_INTERCEPT_SPENDING_MAX</DefineName>
