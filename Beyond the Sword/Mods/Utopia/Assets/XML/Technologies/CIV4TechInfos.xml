@@ -4061,7 +4061,7 @@
       <bIrrigation>0</bIrrigation>
       <bIgnoreIrrigation>0</bIgnoreIrrigation>
       <bWaterWork>0</bWaterWork>
-      <iGridX>20</iGridX>
+      <iGridX>19</iGridX>
       <iGridY>1</iGridY>
       <DomainExtraMoves />
       <CommerceFlexible />
@@ -7596,7 +7596,10 @@
       <OrPreReqs>
         <PrereqTech>TECH_NANO_FILMS</PrereqTech>
       </OrPreReqs>
-      <AndPreReqs />
+      <AndPreReqs>
+        <PrereqTech>TECH_FIBER_OPTICS</PrereqTech>
+        <PrereqTech>TECH_STEALTH</PrereqTech>
+      </AndPreReqs>
       <Quote>TXT_KEY_TECH_META_MATERIALS_QUOTE</Quote>
       <Sound>NONE</Sound>
       <SoundMP>NONE</SoundMP>

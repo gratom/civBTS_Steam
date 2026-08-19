@@ -736,8 +736,8 @@
             <Civilopedia>TXT_KEY_IMPROVEMENT_EXTRACTION_FACILITY_PEDIA</Civilopedia>
             <ArtDefineTag>ART_DEF_IMPROVEMENT_EXTRACTION_FACILITY</ArtDefineTag>
             <YieldChanges>
-                <iYieldChange>-5</iYieldChange>
-                <iYieldChange>5</iYieldChange>
+                <iYieldChange>0</iYieldChange>
+                <iYieldChange>4</iYieldChange>
                 <iYieldChange>0</iYieldChange>
             </YieldChanges>
             <bActsAsCity>0</bActsAsCity>
@@ -836,7 +836,16 @@
             </BonusTypeStructs>
             <ImprovementPillage/>
             <ImprovementUpgrade/>
-            <TechYieldChanges/>
+            <TechYieldChanges>
+                <TechYieldChange>
+                    <PrereqTech>TECH_COLD_FUSION</PrereqTech>
+                    <TechYields>
+                        <iYield>0</iYield>
+                        <iYield>2</iYield>
+                        <iYield>0</iYield>
+                    </TechYields>
+                </TechYieldChange>
+            </TechYieldChanges>
             <RouteYieldChanges>
                 <RouteYieldChange>
                     <RouteType>ROUTE_RAILROAD</RouteType>
@@ -1063,6 +1072,14 @@
                     <TechYields>
                         <iYield>0</iYield>
                         <iYield>0</iYield>
+                        <iYield>1</iYield>
+                    </TechYields>
+                </TechYieldChange>
+				<TechYieldChange>
+                    <PrereqTech>TECH_META_MATERIALS</PrereqTech>
+                    <TechYields>
+                        <iYield>0</iYield>
+                        <iYield>1</iYield>
                         <iYield>1</iYield>
                     </TechYields>
                 </TechYieldChange>
