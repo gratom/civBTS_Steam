@@ -3008,7 +3008,6 @@
         <PrereqTech>TECH_PAPER</PrereqTech>
       </OrPreReqs>
       <AndPreReqs>
-        <PrereqTech>TECH_MACHINERY</PrereqTech>
         <PrereqTech>TECH_ALPHABET</PrereqTech>
         <PrereqTech>TECH_ENGINEERING</PrereqTech>
       </AndPreReqs>
