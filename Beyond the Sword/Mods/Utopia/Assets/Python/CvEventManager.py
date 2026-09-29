@@ -37,6 +37,15 @@ PyInfo = PyHelpers.PyInfo
 g_iNumNukesWarningMessage = 7
 g_iNumNukesGameOver = 20
 
+# AI "wild growth" tile improvements (doAIWildImprovements)
+# % chance per turn (0-100), rolled per eligible tile with the synced game RNG,
+# for an AI-worked tile to advance one step up the cottage chain on its own.
+# Set any value to 0 to disable that step.
+CottageChance = 5
+HamletChance = 1
+VillageChance = 1
+TownChance = 1
+
 
 
 class CvEventManager:
@@ -405,6 +414,59 @@ class CvEventManager:
 		
 		CvAdvisorUtils.resetAdvisorNags()
 		CvAdvisorUtils.endTurnFeats(iPlayer)
+
+		self.doAIWildImprovements(iPlayer)
+
+	def doAIWildImprovements(self, iPlayer):
+		'Each turn, small synced chance for AI-worked tiles to step up the cottage chain on their own (stock worker/governor AI often leaves tiles unimproved or un-upgraded forever). Chances are the Cottage/Hamlet/Village/TownChance globals above.'
+
+		pPlayer = gc.getPlayer(iPlayer)
+
+		if (pPlayer.isHuman() or not pPlayer.isAlive()):
+			return
+
+		iFloodPlains = CvUtil.findInfoTypeNum(gc.getFeatureInfo, gc.getNumFeatureInfos(), 'FEATURE_FLOOD_PLAINS')
+
+		iCottage = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_COTTAGE')
+		iHamlet = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_HAMLET')
+		iVillage = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_VILLAGE')
+		iTown = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_TOWN')
+
+		# current improvement on the tile -> (improvement it can grow into, % chance per turn)
+		aWildGrowth = {
+			-1: (iCottage, CottageChance),
+			iCottage: (iHamlet, HamletChance),
+			iHamlet: (iVillage, VillageChance),
+			iVillage: (iTown, TownChance),
+		}
+
+		eTeam = pPlayer.getTeam()
+
+		(loopCity, iter) = pPlayer.firstCity(false)
+
+		while(loopCity):
+
+			for i in range(1, 21):
+				if (loopCity.isWorkingPlotByIndex(i)):
+					pPlot = loopCity.getCityIndexPlot(i)
+
+					if (pPlot):
+						iCurrent = pPlot.getImprovementType()
+
+						if (iCurrent in aWildGrowth):
+							# only the very first step (bare tile -> Cottage) needs the bonus/feature checks -
+							# once a cottage already exists, letting it keep growing is fine
+							iFeature = pPlot.getFeatureType()
+							bFeatureOk = (iFeature == -1 or iFeature == iFloodPlains)
+
+							if (iCurrent != -1 or (pPlot.getBonusType(eTeam) == -1 and bFeatureOk)):
+								(iNext, iChance) = aWildGrowth[iCurrent]
+
+								if (iChance > 0 and pPlot.canHaveImprovement(iNext, eTeam, false)):
+									if (gc.getGame().getSorenRandNum(100, "AI Wild Improvement Growth") < iChance):
+										pPlot.setImprovementType(iNext)
+
+			(loopCity, iter) = pPlayer.nextCity(iter, false)
 
 	def onEndTurnReady(self, argsList):
 		iGameTurn = argsList[0]
