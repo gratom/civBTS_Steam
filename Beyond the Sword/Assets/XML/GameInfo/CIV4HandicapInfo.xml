@@ -16,16 +16,16 @@
 			<iAdvancedStartPointsMod>125</iAdvancedStartPointsMod>
 			<iGold>250</iGold>
 			<iFreeUnits>28</iFreeUnits>
-			<iUnitCostPercent>45</iUnitCostPercent>
-			<iResearchPercent>70</iResearchPercent>
+			<iUnitCostPercent>55</iUnitCostPercent>
+			<iResearchPercent>65</iResearchPercent>
 			<iDistanceMaintenancePercent>40</iDistanceMaintenancePercent>
 			<iNumCitiesMaintenancePercent>45</iNumCitiesMaintenancePercent>
 			<iMaxNumCitiesMaintenance>4</iMaxNumCitiesMaintenance>
 			<iColonyMaintenancePercent>75</iColonyMaintenancePercent>
 			<iMaxColonyMaintenance>150</iMaxColonyMaintenance>
 			<iCorporationMaintenancePercent>85</iCorporationMaintenancePercent>
-			<iCivicUpkeepPercent>60</iCivicUpkeepPercent>
-			<iInflationPercent>20</iInflationPercent>
+			<iCivicUpkeepPercent>55</iCivicUpkeepPercent>
+			<iInflationPercent>0</iInflationPercent>
 			<iHealthBonus>15</iHealthBonus>
 			<iHappyBonus>5</iHappyBonus>
 			<iAttitudeChange>-1</iAttitudeChange>
