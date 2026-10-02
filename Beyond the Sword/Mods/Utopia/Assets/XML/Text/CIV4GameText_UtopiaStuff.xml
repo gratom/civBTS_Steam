@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Utopia mod - shared custom text (all mod-specific localization goes here) -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_ESPIONAGE</Tag>
+		<Russian>
+			<Text>&#216;&#239;&#232;&#238;&#237;&#224;&#230;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Espionage</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_ESPIONAGE_STRATEGY</Tag>
+		<Russian>
+			<Text>&#207;&#229;&#240;&#229;&#226;&#238;&#228;&#232;&#242; &#247;&#224;&#241;&#242;&#252; &#239;&#240;&#238;&#232;&#231;&#226;&#238;&#228;&#241;&#242;&#226;&#224; &#227;&#238;&#240;&#238;&#228;&#224; &#226; &#238;&#247;&#234;&#232; &#248;&#239;&#232;&#238;&#237;&#224;&#230;&#224;.</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Converts a portion of this city's production into espionage points.</English>
+	</TEXT>
+</Civ4GameText>
