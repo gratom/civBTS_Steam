@@ -12,6 +12,54 @@ gc = CyGlobalContext()
 ArtFileMgr = CyArtFileMgr()
 localText = CyTranslator()
 
+UNICODE_REPLACEMENT_CHAR = u"\uFFFD"
+CYRILLIC_RANGE_LOW = u"\u0400"
+CYRILLIC_RANGE_HIGH = u"\u04FF"
+
+def fixNetworkPlayerName(raw):
+	"""Repairs Cyrillic Steam nicknames that reach the engine as mis-decoded
+	bytes (ASCII-looking 'crocodile' garbage instead of real Cyrillic).
+
+	Steam hands the engine a UTF-8 name; if that UTF-8 byte stream gets
+	reinterpreted one byte at a time under a different single-byte codepage
+	before it reaches us, the result is garbled but fully recoverable: we
+	just have to find the codepage that undoes the damage. We only accept a
+	candidate if it decodes cleanly AND ends up containing real Cyrillic
+	letters - otherwise we leave the original value alone so non-Russian
+	names are never touched.
+	"""
+	if raw is None:
+		return raw
+	try:
+		if isinstance(raw, unicode):
+			uRaw = raw
+		else:
+			uRaw = unicode(raw, 'cp1251', 'replace')
+	except (UnicodeDecodeError, UnicodeEncodeError, TypeError):
+		return raw
+
+	if UNICODE_REPLACEMENT_CHAR in uRaw:
+		return raw
+
+	for szCodec in ('cp1252', 'cp1251', 'latin-1'):
+		try:
+			candidate = uRaw.encode(szCodec).decode('utf-8')
+		except (UnicodeEncodeError, UnicodeDecodeError):
+			continue
+		bHasCyrillic = False
+		for ch in candidate:
+			if ch >= CYRILLIC_RANGE_LOW and ch <= CYRILLIC_RANGE_HIGH:
+				bHasCyrillic = True
+				break
+		if bHasCyrillic:
+			try:
+				CvUtil.pyPrint("fixNetworkPlayerName: repaired %s -> %s via %s" %(repr(raw), repr(candidate), szCodec))
+			except Exception:
+				pass
+			return candidate
+
+	return raw
+
 g_NumEmphasizeInfos = 0
 g_NumCityTabTypes = 0
 g_NumHurryInfos = 0
@@ -2792,13 +2840,14 @@ class CvMainInterface:
 											if (not (gc.getPlayer(ePlayer).isTurnActive())):
 												szBuffer = szBuffer + "*"
 
+										szPlayerName = fixNetworkPlayerName(gc.getPlayer(ePlayer).getName())
 										if (not CyInterface().isFlashingPlayer(ePlayer) or CyInterface().shouldFlash(ePlayer)):
 											if (ePlayer == gc.getGame().getActivePlayer()):
-												szTempBuffer = u"%d: [<color=%d,%d,%d,%d>%s</color>]" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), gc.getPlayer(ePlayer).getName())
+												szTempBuffer = u"%d: [<color=%d,%d,%d,%d>%s</color>]" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), szPlayerName)
 											else:
-												szTempBuffer = u"%d: <color=%d,%d,%d,%d>%s</color>" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), gc.getPlayer(ePlayer).getName())
+												szTempBuffer = u"%d: <color=%d,%d,%d,%d>%s</color>" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), szPlayerName)
 										else:
-											szTempBuffer = u"%d: %s" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getName())
+											szTempBuffer = u"%d: %s" %(gc.getGame().getPlayerScore(ePlayer), szPlayerName)
 										szBuffer = szBuffer + szTempBuffer
 
 										if (gc.getTeam(eTeam).isAlive()):
