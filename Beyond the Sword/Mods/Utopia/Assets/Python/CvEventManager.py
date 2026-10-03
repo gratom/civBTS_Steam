@@ -307,11 +307,14 @@ class CvEventManager:
 
 	def onModNetMessage(self, argsList):
 		'Called whenever CyMessageControl().sendModNetMessage() is called - this is all for you modders!'
-		
+
 		iData1, iData2, iData3, iData4, iData5 = argsList
-		
-		print("Modder's net message!")
-		
+
+		import CvAutoSpecialistManager
+		if (iData1 == CvAutoSpecialistManager.MOD_MESSAGE_TOGGLE_AUTO_REMOVE):
+			CvAutoSpecialistManager.handleNetMessage(iData2, iData3, iData4, iData5)
+			return
+
 		CvUtil.pyPrint( 'onModNetMessage' )
 
 	def onInit(self, argsList):
@@ -404,16 +407,19 @@ class CvEventManager:
 	def onEndPlayerTurn(self, argsList):
 		'Called at the end of a players turn'
 		iGameTurn, iPlayer = argsList
-		
+
 		if (gc.getGame().getElapsedGameTurns() == 1):
 			if (gc.getPlayer(iPlayer).isHuman()):
 				if (gc.getPlayer(iPlayer).canRevolution(0)):
 					popupInfo = CyPopupInfo()
 					popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_CHANGECIVIC)
 					popupInfo.addPopup(iPlayer)
-		
+
 		CvAdvisorUtils.resetAdvisorNags()
 		CvAdvisorUtils.endTurnFeats(iPlayer)
+
+		import CvAutoSpecialistManager
+		CvAutoSpecialistManager.enforcePlayer(iPlayer)
 
 		self.doAIWildImprovements(iPlayer)
 

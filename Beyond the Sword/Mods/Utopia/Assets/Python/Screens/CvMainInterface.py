@@ -6,6 +6,7 @@ import ScreenInput
 import CvScreenEnums
 import CvEventInterface
 import CvNetworkNameFix
+import CvAutoSpecialistManager
 import time
 
 # globals
@@ -427,7 +428,7 @@ class CvMainInterface:
 		for i in range( gc.getNumSpecialistInfos() ):
 			if (gc.getSpecialistInfo(i).isVisible()):
 				szName = "IncreaseSpecialist" + str(i)
-				screen.setButtonGFC( szName, u"", "", xResolution - 46, (yResolution - 270 - (26 * iCount)), 20, 20, WidgetTypes.WIDGET_CHANGE_SPECIALIST, i, 1, ButtonStyles.BUTTON_STYLE_CITY_PLUS )
+				screen.setButtonGFC( szName, u"", "", xResolution - 72, (yResolution - 270 - (26 * iCount)), 20, 20, WidgetTypes.WIDGET_CHANGE_SPECIALIST, i, 1, ButtonStyles.BUTTON_STYLE_CITY_PLUS )
 				screen.hide( szName )
 
 				iCount = iCount + 1
@@ -439,7 +440,7 @@ class CvMainInterface:
 		for i in range( gc.getNumSpecialistInfos() ):
 			if (gc.getSpecialistInfo(i).isVisible()):
 				szName = "DecreaseSpecialist" + str(i)
-				screen.setButtonGFC( szName, u"", "", xResolution - 24, (yResolution - 270 - (26 * iCount)), 20, 20, WidgetTypes.WIDGET_CHANGE_SPECIALIST, i, -1, ButtonStyles.BUTTON_STYLE_CITY_MINUS )
+				screen.setButtonGFC( szName, u"", "", xResolution - 50, (yResolution - 270 - (26 * iCount)), 20, 20, WidgetTypes.WIDGET_CHANGE_SPECIALIST, i, -1, ButtonStyles.BUTTON_STYLE_CITY_MINUS )
 				screen.hide( szName )
 
 				iCount = iCount + 1
@@ -453,13 +454,13 @@ class CvMainInterface:
 			if (gc.getSpecialistInfo(i).isVisible()):
 			
 				szName = "CitizenDisabledButton" + str(i)
-				screen.setImageButton( szName, gc.getSpecialistInfo(i).getTexture(), xResolution - 74, (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_DISABLED_CITIZEN, i, -1 )
+				screen.setImageButton( szName, gc.getSpecialistInfo(i).getTexture(), xResolution - 100, (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_DISABLED_CITIZEN, i, -1 )
 				screen.enable( szName, False )
 				screen.hide( szName )
 
 				for j in range(MAX_CITIZEN_BUTTONS):
 					szName = "CitizenButton" + str((i * 100) + j)
-					screen.addCheckBoxGFC( szName, gc.getSpecialistInfo(i).getTexture(), "", xResolution - 74 - (26 * j), (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_CITIZEN, i, j, ButtonStyles.BUTTON_STYLE_LABEL )
+					screen.addCheckBoxGFC( szName, gc.getSpecialistInfo(i).getTexture(), "", xResolution - 100 - (26 * j), (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_CITIZEN, i, j, ButtonStyles.BUTTON_STYLE_LABEL )
 					screen.hide( szName )
 
 		# **********************************************************
@@ -1602,6 +1603,8 @@ class CvMainInterface:
 			screen.hide( szName )
 			szName = "CitizenDisabledButton" + str(i)
 			screen.hide( szName )
+			szName = "AutoRemoveSpecialist" + str(i)
+			screen.hide( szName )
 			for j in range(MAX_CITIZEN_BUTTONS):
 				szName = "CitizenButton" + str((i * 100) + j)
 				screen.hide( szName )
@@ -1673,7 +1676,16 @@ class CvMainInterface:
 							screen.hide( szName )
 							szName = "DecreaseSpecialist" + str(i)
 							screen.show( szName )
-							
+
+						if (gc.getSpecialistInfo(i).isVisible()):
+							szName = "AutoRemoveSpecialist" + str(i)
+							if (CvAutoSpecialistManager.isAutoRemoveSpecialist(pHeadSelectedCity, i)):
+								szTexture = "Art/Interface/Buttons/UI/SpecialistDisabled.dds"
+							else:
+								szTexture = "Art/Interface/Buttons/UI/SpecialistEnabled.dds"
+							screen.setImageButton( szName, szTexture, xResolution - 28, (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_GENERAL, i, -1 )
+							screen.show( szName )
+
 					if (pHeadSelectedCity.getSpecialistCount(i) < MAX_CITIZEN_BUTTONS):
 						iCount = pHeadSelectedCity.getSpecialistCount(i)
 					else:
@@ -1683,10 +1695,10 @@ class CvMainInterface:
 					for j in range( iCount ):
 						bHandled = True
 						szName = "CitizenButton" + str((i * 100) + j)
-						screen.addCheckBoxGFC( szName, gc.getSpecialistInfo(i).getTexture(), "", xResolution - 74 - (26 * j), (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_CITIZEN, i, j, ButtonStyles.BUTTON_STYLE_LABEL )
+						screen.addCheckBoxGFC( szName, gc.getSpecialistInfo(i).getTexture(), "", xResolution - 100 - (26 * j), (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_CITIZEN, i, j, ButtonStyles.BUTTON_STYLE_LABEL )
 						screen.show( szName )
 						szName = "CitizenButtonHighlight" + str((i * 100) + j)
-						screen.addDDSGFC( szName, ArtFileMgr.getInterfaceArtInfo("BUTTON_HILITE_SQUARE").getPath(), xResolution - 74 - (26 * j), (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_CITIZEN, i, j )
+						screen.addDDSGFC( szName, ArtFileMgr.getInterfaceArtInfo("BUTTON_HILITE_SQUARE").getPath(), xResolution - 100 - (26 * j), (yResolution - 272 - (26 * i)), 24, 24, WidgetTypes.WIDGET_CITIZEN, i, j )
 						if ( pHeadSelectedCity.getForceSpecialistCount(i) > j ):
 							screen.show( szName )
 						else:
@@ -3149,6 +3161,18 @@ class CvMainInterface:
 		if inputClass.getFunctionName() == "ClimateAdvisorButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
 			import ClimatManager
 			ClimatManager.showClimatePopup()
+			return 1
+
+		# NB: GFC strips the trailing digits off a widget's name and reports them
+		# separately via getID() - getFunctionName() alone comes back as just
+		# "AutoRemoveSpecialist" for every row, never "AutoRemoveSpecialist3".
+		if inputClass.getFunctionName() == "AutoRemoveSpecialist" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			pHeadSelectedCity = CyInterface().getHeadSelectedCity()
+			if (pHeadSelectedCity and (pHeadSelectedCity.getOwner() == gc.getGame().getActivePlayer() or gc.getGame().isDebugMode())):
+				i = inputClass.getID()
+				# Sends a synced net message rather than writing the flag directly here,
+				# so this stays correct in network multiplayer (see CvAutoSpecialistManager).
+				CvAutoSpecialistManager.requestToggle(pHeadSelectedCity, i)
 			return 1
 	
 	def update(self, fDelta):
