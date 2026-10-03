@@ -338,26 +338,20 @@ class CvEventManager:
 	def onPreSave(self, argsList):
 		"called before a game is actually saved"
 		CvUtil.pyPrint('OnPreSave')
-		import ClimatManager
-		ClimatManager.saveClimateData()
-	
+
 	def onSaveGame(self, argsList):
 		"return the string to be saved - Must be a string"
 		return ""
 
 	def onLoadGame(self, argsList):
 		CvAdvisorUtils.resetNoLiberateCities()
-		import ClimatManager
-		ClimatManager.loadClimateData()
 		return 0
 
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
 
 		self.initScriptData()
-		import ClimatManager
-		ClimatManager.loadClimateData()
-		
+
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
 			for iPlayer in range(gc.getMAX_PLAYERS()):
 				player = gc.getPlayer(iPlayer)

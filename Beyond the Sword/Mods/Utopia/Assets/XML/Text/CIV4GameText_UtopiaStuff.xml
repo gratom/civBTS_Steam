@@ -46,4 +46,76 @@
 		</Russian>
 		<English>Build this in major military cities once you already have two Military Academies, to train elite troops under the command of experienced Generals.</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_FOREST_FIRE_BIG</Tag>
+		<English>A massive wildfire has broken out!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_FOREST_FIRE_BIG</Tag>
+		<English>Dry winds have fanned a small fire into a raging inferno, consuming everything in its path.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FOREST_FIRE_BIG</Tag>
+		<English>Several forest tiles have burned down</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_VOLCANO_BIG</Tag>
+		<English>A volcano has violently erupted!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_VOLCANO_BIG</Tag>
+		<English>The eruption is far larger than usual, devastating the surrounding land.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_VOLCANO_BIG</Tag>
+		<English>Everything within two tiles has been destroyed by the eruption</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_DUSTBOWL_BIG</Tag>
+		<English>A great dust bowl is sweeping the land!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_DUSTBOWL_BIG</Tag>
+		<English>Years of drought and overfarming have culminated in a devastating dust storm.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_DUSTBOWL_BIG</Tag>
+		<English>Every nearby farm has been buried in dust</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_TORNADO_BIG</Tag>
+		<English>A massive tornado has touched down!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_TORNADO_BIG</Tag>
+		<English>A violent funnel cloud is carving a path of destruction across the land.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TORNADO_BIG</Tag>
+		<English>The tornado has carved a path of destruction</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_FLOOD</Tag>
+		<English>A great flood has struck the river!</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_FLOOD</Tag>
+		<English>Swollen by heavy rains, the river has burst its banks.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FLOOD</Tag>
+		<English>The river has flooded nearby land, leaving fertile silt behind</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_RIVER_TEST</Tag>
+		<English>[TEST] A new river has formed</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_TRIGGER_RIVER_TEST</Tag>
+		<English>[TEST] Shifting ground near the coast has carved a new river inland.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RIVER_TEST</Tag>
+		<English>[TEST] A new river now runs inland from the coast</English>
+	</TEXT>
 </Civ4GameText>

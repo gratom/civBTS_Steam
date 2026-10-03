@@ -11,9 +11,75 @@
 #
 import CvUtil
 from CvPythonExtensions import *
+import ClimatManager
 
 gc = CyGlobalContext()
 localText = CyTranslator()
+
+def _addPlotFoodYield(iX, iY, iAmount):
+	# CyGame только ПИШЕТ PlotExtraYield в Python (getPlotExtraYield в SWIG не
+	# экспортирован) - поэтому это не накопительное "+=", а прямая установка,
+	# как и в ванильном applySaltpeter. Для повторных +1 с разных событий этого достаточно.
+	gc.getGame().setPlotExtraYield(iX, iY, YieldTypes.YIELD_FOOD, iAmount)
+
+def _countVegetationNeighbors(iX, iY):
+	# Сколько соседних клеток (из 8) покрыты лесом/джунглями - используется, чтобы
+	# растительность защищала фермы от пыльных буль, как и в климатическом автомате.
+	iForest = gc.getInfoTypeForString("FEATURE_FOREST")
+	iJungle = gc.getInfoTypeForString("FEATURE_JUNGLE")
+
+	iCount = 0
+	for iDX in range(-1, 2):
+		for iDY in range(-1, 2):
+			if iDX == 0 and iDY == 0:
+				continue
+			loopPlot = plotXY(iX, iY, iDX, iDY)
+			if loopPlot and not loopPlot.isNone():
+				feature = loopPlot.getFeatureType()
+				if feature == iForest or feature == iJungle:
+					iCount += 1
+	return iCount
+
+def _pickRandomDirection8():
+	# SorenRand, не Python random() - направление должно совпадать у всех клиентов.
+	directions = [(1,0),(1,1),(0,1),(-1,1),(-1,0),(-1,-1),(0,-1),(1,-1)]
+	return directions[gc.getGame().getSorenRandNum(8, "Pick random direction")]
+
+
+######## FOREST FIRE ###########
+
+def applyForestFireFood(argsList):
+	# Пожар выжигает лес, но пепел на пару ходов удобряет почву.
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	_addPlotFoodYield(kTriggeredData.iPlotX, kTriggeredData.iPlotY, 1)
+
+def applyBigForestFire(argsList):
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	_addPlotFoodYield(kTriggeredData.iPlotX, kTriggeredData.iPlotY, 1)
+
+	iForest = gc.getInfoTypeForString("FEATURE_FOREST")
+
+	listForestPlots = []
+	for iDX in range(-2, 3):
+		for iDY in range(-2, 3):
+			if iDX == 0 and iDY == 0:
+				continue
+			loopPlot = plotXY(kTriggeredData.iPlotX, kTriggeredData.iPlotY, iDX, iDY)
+			if loopPlot and not loopPlot.isNone() and loopPlot.getFeatureType() == iForest:
+				listForestPlots.append(loopPlot)
+
+	iNumExtra = 2 + gc.getGame().getSorenRandNum(3, "Big Forest Fire: extra tiles burned")
+	for i in range(iNumExtra):
+		if len(listForestPlots) == 0:
+			break
+		loopPlot = listForestPlots[gc.getGame().getSorenRandNum(len(listForestPlots), "Big Forest Fire: pick tile")]
+		loopPlot.setFeatureType(-1, -1)
+		_addPlotFoodYield(loopPlot.getX(), loopPlot.getY(), 1)
+		listForestPlots.remove(loopPlot)
 
 
 ######## BLESSED SEA ###########
@@ -559,9 +625,136 @@ def canTriggerBrothersInNeed(argsList):
 def canDoBrothersInNeed1(argsList):
 	kTriggeredData = argsList[1]
 	newArgs = (kTriggeredData, )
-	
+
 	return canTriggerBrothersInNeed(newArgs)
-	
+
+######## TORNADO ###########
+
+def applyBigTornado(argsList):
+	# Торнадо идёт по прямой в случайном направлении: 1-я и 2-я клетка - гарантированно,
+	# после 2-й и 3-й - 50% шанс пройти ещё шаг (максимум 4 клетки). Города не трогает.
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	iDX, iDY = _pickRandomDirection8()
+
+	for iStep in range(4):
+		loopPlot = plotXY(kTriggeredData.iPlotX, kTriggeredData.iPlotY, iDX * iStep, iDY * iStep)
+		if not loopPlot or loopPlot.isNone():
+			break
+
+		if not loopPlot.isCity():
+			iImprovement = loopPlot.getImprovementType()
+			if iImprovement != -1:
+				szBuffer = localText.getText("TXT_KEY_EVENT_CITY_IMPROVEMENT_DESTROYED", (gc.getImprovementInfo(iImprovement).getTextKey(), ))
+				CyInterface().addMessage(kTriggeredData.ePlayer, false, gc.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_BOMBARDED", InterfaceMessageTypes.MESSAGE_TYPE_INFO, gc.getImprovementInfo(iImprovement).getButton(), gc.getInfoTypeForString("COLOR_RED"), loopPlot.getX(), loopPlot.getY(), true, true)
+				loopPlot.setImprovementType(-1)
+
+		if iStep == 1 or iStep == 2:
+			if gc.getGame().getSorenRandNum(100, "Big Tornado: continue roll") >= 50:
+				break
+
+######## FLOOD ###########
+
+def canTriggerFlood(argsList):
+	kTriggeredData = argsList[0]
+
+	plot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
+	if plot.isNone():
+		return false
+
+	return plot.isRiver()
+
+def applyFlood(argsList):
+	# 35% соседних (из 9: сама клетка + 8 соседей) речных клеток размывает -
+	# улучшение гибнет (если есть), но ил после паводка даёт +1 еды.
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	listRiverPlots = []
+	for iDX in range(-1, 2):
+		for iDY in range(-1, 2):
+			loopPlot = plotXY(kTriggeredData.iPlotX, kTriggeredData.iPlotY, iDX, iDY)
+			if loopPlot and not loopPlot.isNone() and loopPlot.isRiver():
+				listRiverPlots.append(loopPlot)
+
+	for loopPlot in listRiverPlots:
+		if gc.getGame().getSorenRandNum(100, "Flood: tile affected roll") < 35:
+			iImprovement = loopPlot.getImprovementType()
+			if iImprovement != -1:
+				szBuffer = localText.getText("TXT_KEY_EVENT_CITY_IMPROVEMENT_DESTROYED", (gc.getImprovementInfo(iImprovement).getTextKey(), ))
+				CyInterface().addMessage(kTriggeredData.ePlayer, false, gc.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_BOMBARDED", InterfaceMessageTypes.MESSAGE_TYPE_INFO, gc.getImprovementInfo(iImprovement).getButton(), gc.getInfoTypeForString("COLOR_RED"), loopPlot.getX(), loopPlot.getY(), true, true)
+				loopPlot.setImprovementType(-1)
+			_addPlotFoodYield(loopPlot.getX(), loopPlot.getY(), 1)
+
+######## RIVER CREATION TEST (прототип для будущего землетрясения) ###########
+
+def canTriggerRiverTest(argsList):
+	kTriggeredData = argsList[0]
+
+	plot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
+	if plot.isNone() or plot.isWater():
+		return false
+
+	# Нужен хотя бы один сосед-вода по стороне (не по диагонали) - реки идут по
+	# граням клеток, диагональные соседи для этого не годятся.
+	for (iDX, iDY) in [(0,1), (0,-1), (1,0), (-1,0)]:
+		loopPlot = plotXY(plot.getX(), plot.getY(), iDX, iDY)
+		if loopPlot and not loopPlot.isNone() and loopPlot.isWater():
+			return true
+
+	return false
+
+def _setRiverEdge(plotFrom, iStepDX, iStepDY):
+	# Грань реки принадлежит тому тайлу, у которого она "северная" или "западная" -
+	# поэтому для шага на юг/восток флаг ставится на СОСЕДНЕМ тайле, а не текущем.
+	# Направление течения выбрано обратным шагу - от суши к морю, откуда "растёт" река.
+	if iStepDY == 1:
+		plotFrom.setNOfRiver(True, CardinalDirectionTypes.CARDINALDIRECTION_SOUTH)
+	elif iStepDY == -1:
+		southPlot = plotXY(plotFrom.getX(), plotFrom.getY(), 0, -1)
+		southPlot.setNOfRiver(True, CardinalDirectionTypes.CARDINALDIRECTION_NORTH)
+	elif iStepDX == 1:
+		eastPlot = plotXY(plotFrom.getX(), plotFrom.getY(), 1, 0)
+		eastPlot.setWOfRiver(True, CardinalDirectionTypes.CARDINALDIRECTION_WEST)
+	elif iStepDX == -1:
+		plotFrom.setWOfRiver(True, CardinalDirectionTypes.CARDINALDIRECTION_EAST)
+
+def applyRiverTest(argsList):
+	# ТЕСТ: от берега тянем реку в сушу на 3-4 клетки, без всяких разрушений -
+	# нужно увидеть, нормально ли это рисуется в реальной игре (не в редакторе),
+	# прежде чем вешать это на землетрясение.
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	iX = kTriggeredData.iPlotX
+	iY = kTriggeredData.iPlotY
+	plot = gc.getMap().plot(iX, iY)
+	if plot.isNone():
+		return
+
+	listLandDirections = []
+	for (iDX, iDY) in [(0,1), (0,-1), (1,0), (-1,0)]:
+		loopPlot = plotXY(iX, iY, iDX, iDY)
+		if loopPlot and not loopPlot.isNone() and not loopPlot.isWater():
+			listLandDirections.append((iDX, iDY))
+
+	if len(listLandDirections) == 0:
+		return
+
+	(iStepDX, iStepDY) = listLandDirections[gc.getGame().getSorenRandNum(len(listLandDirections), "River test: pick inland direction")]
+
+	iNumSteps = 3 + gc.getGame().getSorenRandNum(2, "River test: river length")  # 3 или 4 клетки
+
+	currentPlot = plot
+	for iStep in range(iNumSteps):
+		nextPlot = plotXY(currentPlot.getX(), currentPlot.getY(), iStepDX, iStepDY)
+		if not nextPlot or nextPlot.isNone() or nextPlot.isWater():
+			break
+
+		_setRiverEdge(currentPlot, iStepDX, iStepDY)
+		currentPlot = nextPlot
+
 ######## HURRICANE ###########
 
 def canTriggerHurricaneCity(argsList):
@@ -751,6 +944,23 @@ def canTriggerMonsoonCity(argsList):
 				
 	return false
 
+######## BLIZZARD ###########
+
+def applyBlizzard1(argsList):
+	# Клетка превращается в снег и зачищается целиком (фича/улучшение/дорога) -
+	# города не трогаем, ресурс никак не затрагивается этими вызовами.
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	plot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
+	if plot.isNone() or plot.isCity():
+		return
+
+	plot.setFeatureType(-1, -1)
+	plot.setImprovementType(-1)
+	plot.setRouteType(-1, True)
+	plot.setTerrainType(gc.getInfoTypeForString("TERRAIN_SNOW"), True, True)
+
 ######## VOLCANO ###########
 
 def getHelpVolcano1(argsList):
@@ -807,38 +1017,98 @@ def applyVolcano1(argsList):
 				plot.setImprovementType(iRuins)
 			else:
 				plot.setImprovementType(-1)
+			_addPlotFoodYield(plot.getX(), plot.getY(), 1)
 			listPlots.remove(plot)
-			
+
 			if i == 1 and gc.getGame().getSorenRandNum(100, "Volcano event num improvements destroyed") < 50:
 				break
 
+def canApplyBigVolcano(argsList):
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	for iDX in range(-2, 3):
+		for iDY in range(-2, 3):
+			if iDX == 0 and iDY == 0:
+				continue
+			loopPlot = plotXY(kTriggeredData.iPlotX, kTriggeredData.iPlotY, iDX, iDY)
+			if loopPlot and not loopPlot.isNone() and loopPlot.getImprovementType() != -1:
+				return True
+
+	return False
+
+def applyBigVolcano(argsList):
+	# "Большое извержение" - радиус 2 вместо 1, и ломает ВСЕ улучшения в радиусе,
+	# а не до 3 случайных как обычный вулкан.
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	listRuins = []
+	listRuins.append(CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_COTTAGE'))
+	listRuins.append(CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_HAMLET'))
+	listRuins.append(CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_VILLAGE'))
+	listRuins.append(CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_TOWN'))
+
+	iRuins = CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_CITY_RUINS')
+
+	for iDX in range(-2, 3):
+		for iDY in range(-2, 3):
+			if iDX == 0 and iDY == 0:
+				continue
+			loopPlot = plotXY(kTriggeredData.iPlotX, kTriggeredData.iPlotY, iDX, iDY)
+			if not loopPlot or loopPlot.isNone():
+				continue
+
+			iImprovement = loopPlot.getImprovementType()
+			if iImprovement == -1:
+				continue
+
+			szBuffer = localText.getText("TXT_KEY_EVENT_CITY_IMPROVEMENT_DESTROYED", (gc.getImprovementInfo(iImprovement).getTextKey(), ))
+			CyInterface().addMessage(kTriggeredData.ePlayer, false, gc.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_BOMBARDED", InterfaceMessageTypes.MESSAGE_TYPE_INFO, gc.getImprovementInfo(iImprovement).getButton(), gc.getInfoTypeForString("COLOR_RED"), loopPlot.getX(), loopPlot.getY(), true, true)
+			if iImprovement in listRuins:
+				loopPlot.setImprovementType(iRuins)
+			else:
+				loopPlot.setImprovementType(-1)
+			_addPlotFoodYield(loopPlot.getX(), loopPlot.getY(), 1)
+
 ######## DUSTBOWL ###########
+
+def canTriggerDustbowl(argsList):
+	# Лес/джунгли рядом защищают ферму от пыльной бури - как минимум столько же
+	# соседей, сколько климатическому автомату нужно для озеленения клетки.
+	kTriggeredData = argsList[0]
+
+	iVegNeighbors = _countVegetationNeighbors(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
+	return iVegNeighbors < ClimatManager.CLIMATE_VEGETATION_NEIGHBOR_THRESHOLD
 
 def canTriggerDustbowlCont(argsList):
 	kTriggeredData = argsList[0]
 
 	trigger = gc.getEventTriggerInfo(kTriggeredData.eTrigger)
 	player = gc.getPlayer(kTriggeredData.ePlayer)
-	
+
 	kOrigTriggeredData = player.getEventOccured(trigger.getPrereqEvent(0))
-	
+
 	if (kOrigTriggeredData == None):
 		return false
 
 	iFarmType = CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_FARM')
 	iPlainsType = CvUtil.findInfoTypeNum(gc.getTerrainInfo,gc.getNumTerrainInfos(),'TERRAIN_PLAINS')
-	
+
 	map = gc.getMap()
 	iBestValue = map.getGridWidth() + map.getGridHeight()
 	bestPlot = None
 	for i in range(map.numPlots()):
 		plot = map.plotByIndex(i)
 		if (plot.getOwner() == kTriggeredData.ePlayer and plot.getImprovementType() == iFarmType and plot.getTerrainType() == iPlainsType):
+			# Лес/джунгли рядом защищают эту ферму - ищем следующую незащищённую
+			if _countVegetationNeighbors(plot.getX(), plot.getY()) >= ClimatManager.CLIMATE_VEGETATION_NEIGHBOR_THRESHOLD:
+				continue
 			iValue = plotDistance(kOrigTriggeredData.iPlotX, kOrigTriggeredData.iPlotY, plot.getX(), plot.getY())
 			if iValue < iBestValue:
 				iBestValue = iValue
 				bestPlot = plot
-				
+
 	if bestPlot != None:
 		kActualTriggeredDataObject = player.getEventTriggered(kTriggeredData.iId)
 		kActualTriggeredDataObject.iPlotX = bestPlot.getX()
@@ -846,8 +1116,26 @@ def canTriggerDustbowlCont(argsList):
 	else:
 		player.resetEventOccured(trigger.getPrereqEvent(0))
 		return false
-		
+
 	return true
+
+def applyBigDustbowl(argsList):
+	# "Большая пыльная буря" - в отличие от обычной, разрушает ВСЕ фермы
+	# на соседних клетках с целевой, а не только саму целевую клетку.
+	iEvent = argsList[0]
+	kTriggeredData = argsList[1]
+
+	iFarm = CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_FARM')
+
+	for iDX in range(-1, 2):
+		for iDY in range(-1, 2):
+			if iDX == 0 and iDY == 0:
+				continue
+			loopPlot = plotXY(kTriggeredData.iPlotX, kTriggeredData.iPlotY, iDX, iDY)
+			if loopPlot and not loopPlot.isNone() and loopPlot.getImprovementType() == iFarm:
+				szBuffer = localText.getText("TXT_KEY_EVENT_CITY_IMPROVEMENT_DESTROYED", (gc.getImprovementInfo(iFarm).getTextKey(), ))
+				CyInterface().addMessage(kTriggeredData.ePlayer, false, gc.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_BOMBARDED", InterfaceMessageTypes.MESSAGE_TYPE_INFO, gc.getImprovementInfo(iFarm).getButton(), gc.getInfoTypeForString("COLOR_RED"), loopPlot.getX(), loopPlot.getY(), true, true)
+				loopPlot.setImprovementType(-1)
 
 def getHelpDustBowl2(argsList):
 	iEvent = argsList[0]
@@ -856,6 +1144,25 @@ def getHelpDustBowl2(argsList):
 	szHelp = localText.getText("TXT_KEY_EVENT_DUSTBOWL_2_HELP", ())
 
 	return szHelp
+
+######## FAMINE ###########
+
+def canTriggerFamineCity(argsList):
+	# Город с Амбаром держит запас еды - голод в нём не случается.
+	eTrigger = argsList[0]
+	ePlayer = argsList[1]
+	iCity = argsList[2]
+
+	player = gc.getPlayer(ePlayer)
+	city = player.getCity(iCity)
+
+	if city.isNone():
+		return false
+
+	if city.isHasBuilding(gc.getInfoTypeForString("BUILDING_GRANARY")):
+		return false
+
+	return true
 
 ######## SALTPETER ###########
 

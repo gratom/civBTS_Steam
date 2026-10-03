@@ -1,6 +1,5 @@
 from CvPythonExtensions import *
 import CvUtil
-import ModGameData
 
 gc = CyGlobalContext()
 
@@ -14,24 +13,6 @@ CLIMATE_SPREAD_NEIGHBOR_THRESHOLD = 2  # дальше равнины (пусты
 CLIMATE_LAND_PICK_ATTEMPTS = 8         # попыток найти клетку суши на один слот (техническая настройка, не баланс)
 CLIMATE_FOREST_SPREAD_CHANCE_PERCENT = 2  # % за каждого соседа того же террейна с лесом (итог = это * кол-во соседей)
 CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT = 3  # % за каждого соседа того же террейна с джунглями
-
-# Global state memory
-climateData = {}
-
-def saveClimateData():
-    global climateData
-    ModGameData.updateValues({
-        "temperature": climateData.get("temperature", 0),
-        "pollution": climateData.get("pollution", 100),
-    })
-
-def loadClimateData():
-    global climateData
-    data = ModGameData.loadAll()
-    climateData = {
-        "temperature": data.get("temperature", 0),
-        "pollution": data.get("pollution", 100),
-    }
 
 def showClimatePopup():
     CvUtil.pyPrint('ClimateManager: popup called')
@@ -114,11 +95,6 @@ def showClimatePopup():
     tundraPercent = (float(tundraCount) / landCount) * 100.0
     snowPercent = (float(snowTerrainCount) / landCount) * 100.0
 
-    # Условные расчеты баланса
-    pollution = 120
-    absorption = (forestCount + jungleCount) * 2
-    netBalance = pollution - absorption
-
     # --- Формируем текст для окна ---
     popup = CyPopup(777, EventContextTypes.EVENTCONTEXT_SELF, True)
     popup.setHeaderString("Global Climate & Map Analytics", CvUtil.FONT_CENTER_JUSTIFY)
@@ -139,15 +115,6 @@ def showClimatePopup():
     bodyText += u"- Forests: %d (%.1f%%)\n" % (forestCount, forestPercent)
     bodyText += u"- Jungles: %d (%.1f%%)\n" % (jungleCount, junglePercent)
     bodyText += u"- Ice (Features): %d (%.1f%%)\n\n" % (iceFeatureCount, icePercent)
-
-    bodyText += u"<b>--- CLIMATE BALANCE ---</b>\n"
-    bodyText += u"- Pollution: +%d | Absorption: -%d\n" % (pollution, absorption)
-
-    if netBalance > 0:
-        bodyText += u"- Net Balance: +%d <color=249,125,125>(Warming)</color>" % netBalance
-    else:
-        bodyText += u"- Net Balance: %d <color=125,249,125>(Cooling)</color>" % netBalance
-
     bodyText += u"</font>"
 
     popup.setBodyString(bodyText, CvUtil.FONT_LEFT_JUSTIFY)
