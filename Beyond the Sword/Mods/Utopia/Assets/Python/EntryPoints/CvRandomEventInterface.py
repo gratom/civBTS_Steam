@@ -688,22 +688,58 @@ def applyFlood(argsList):
 			_addPlotFoodYield(loopPlot.getX(), loopPlot.getY(), 1)
 
 ######## RIVER CREATION TEST (прототип для будущего землетрясения) ###########
+# Пробный ивент (EVENTTRIGGER_RIVER_TEST/EVENT_RIVER_TEST) убран из XML -
+# рисование рек в рантайме через setNOfRiver/setWOfRiver оказалось сложнее,
+# чем хотелось для первой итерации. Код оставлен как задел: canTriggerRiverTest
+# уже умеет находить ближайший берег и переставлять туда точку триггера -
+# этот приём пригодится, когда будем делать землетрясение.
+
+def _findNearbyCoastalPlot(startPlot, iMaxRadius):
+	# Движок сам выбирает случайную клетку из ВСЕХ владений игрока ДО вызова
+	# PythonCanDo - у типичного игрока берег - маленькая доля территории, так что
+	# "попасть" в него одним случайным тайлом почти никогда не выйдет. Поэтому
+	# ищем ближайший берег колечками вокруг этой случайной клетки.
+	iX0 = startPlot.getX()
+	iY0 = startPlot.getY()
+
+	for iRadius in range(0, iMaxRadius + 1):
+		listCandidates = []
+		for iDX in range(-iRadius, iRadius + 1):
+			for iDY in range(-iRadius, iRadius + 1):
+				if max(abs(iDX), abs(iDY)) != iRadius:
+					continue  # только внешнее кольцо текущего радиуса
+				loopPlot = plotXY(iX0, iY0, iDX, iDY)
+				if not loopPlot or loopPlot.isNone() or loopPlot.isWater():
+					continue
+				for (iCX, iCY) in [(0,1), (0,-1), (1,0), (-1,0)]:
+					neighborPlot = plotXY(loopPlot.getX(), loopPlot.getY(), iCX, iCY)
+					if neighborPlot and not neighborPlot.isNone() and neighborPlot.isWater():
+						listCandidates.append(loopPlot)
+						break
+		if len(listCandidates) > 0:
+			return listCandidates[gc.getGame().getSorenRandNum(len(listCandidates), "River test: pick nearby coastal plot")]
+
+	return None
 
 def canTriggerRiverTest(argsList):
 	kTriggeredData = argsList[0]
 
-	plot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
-	if plot.isNone() or plot.isWater():
+	startPlot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
+	if startPlot.isNone() or startPlot.isWater():
 		return false
 
-	# Нужен хотя бы один сосед-вода по стороне (не по диагонали) - реки идут по
-	# граням клеток, диагональные соседи для этого не годятся.
-	for (iDX, iDY) in [(0,1), (0,-1), (1,0), (-1,0)]:
-		loopPlot = plotXY(plot.getX(), plot.getY(), iDX, iDY)
-		if loopPlot and not loopPlot.isNone() and loopPlot.isWater():
-			return true
+	coastalPlot = _findNearbyCoastalPlot(startPlot, 8)
+	if coastalPlot is None:
+		return false
 
-	return false
+	# Движок перечитывает iPlotX/iPlotY из этого объекта ПОСЛЕ вызова PythonCanDo -
+	# подставляем туда реально найденную береговую клетку (как делает canTriggerDustbowlCont).
+	player = gc.getPlayer(kTriggeredData.ePlayer)
+	kActualTriggeredDataObject = player.getEventTriggered(kTriggeredData.iId)
+	kActualTriggeredDataObject.iPlotX = coastalPlot.getX()
+	kActualTriggeredDataObject.iPlotY = coastalPlot.getY()
+
+	return true
 
 def _setRiverEdge(plotFrom, iStepDX, iStepDY):
 	# Грань реки принадлежит тому тайлу, у которого она "северная" или "западная" -
