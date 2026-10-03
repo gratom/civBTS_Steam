@@ -21,8 +21,7 @@ import CvWorldBuilderScreen
 import CvAdvisorUtils
 import CvTechChooser
 import ClimatManager
-
-import pickle
+import ModGameData
 
 gc = CyGlobalContext()
 localText = CyTranslator()
@@ -1322,30 +1321,20 @@ class CvEventManager:
 
 
 	def initScriptData(self):
-		
-		# Set default script data manually since we need defaults for all values in the array before any functions can be called on them
-		iDefaultNumNukesFired = 0
-		
-		aScriptData = [iDefaultNumNukesFired]
-		gc.getGame().setScriptData(pickle.dumps(aScriptData))
-		
+		ModGameData.setValue("numNukes", 0)
+
 	def getGameNumNukes(self):
-		aszScriptData = pickle.loads(gc.getGame().getScriptData())
-		iNumNukes = aszScriptData[0]		 # Num Nukes Fired is 0th element
-		return iNumNukes
+		return ModGameData.getValue("numNukes", 0)
 	def setGameNumNukes(self, iValue):
-		aszScriptData = pickle.loads(gc.getGame().getScriptData())
-		aszScriptData[0] = iValue
-		gc.getGame().setScriptData(pickle.dumps(aszScriptData))
-		
-		self.checkNukeStuff(aszScriptData[0])
-		
+		ModGameData.setValue("numNukes", iValue)
+
+		self.checkNukeStuff(iValue)
+
 	def changeGameNumNukes(self, iChange):
-		aszScriptData = pickle.loads(gc.getGame().getScriptData())
-		aszScriptData[0] = aszScriptData[0] + iChange
-		gc.getGame().setScriptData(pickle.dumps(aszScriptData))
-		
-		self.checkNukeStuff(aszScriptData[0])
+		iNumNukes = ModGameData.getValue("numNukes", 0) + iChange
+		ModGameData.setValue("numNukes", iNumNukes)
+
+		self.checkNukeStuff(iNumNukes)
 		
 	def checkNukeStuff(self, iNumNukes):
 		

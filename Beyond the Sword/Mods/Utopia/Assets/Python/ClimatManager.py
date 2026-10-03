@@ -1,6 +1,6 @@
 from CvPythonExtensions import *
 import CvUtil
-import cPickle as pickle # В Python 2.4 (на котором работает Civ 4) используется cPickle
+import ModGameData
 
 gc = CyGlobalContext()
 
@@ -9,16 +9,18 @@ climateData = {}
 
 def saveClimateData():
     global climateData
-    dataString = pickle.dumps(climateData)
-    CyGame().setScriptData(dataString)
+    ModGameData.updateValues({
+        "temperature": climateData.get("temperature", 0),
+        "pollution": climateData.get("pollution", 100),
+    })
 
 def loadClimateData():
     global climateData
-    dataString = CyGame().getScriptData()
-    if dataString == "":
-        climateData = {"temperature": 0, "pollution": 100}
-    else:
-        climateData = pickle.loads(dataString)
+    data = ModGameData.loadAll()
+    climateData = {
+        "temperature": data.get("temperature", 0),
+        "pollution": data.get("pollution", 100),
+    }
 
 def showClimatePopup():
     CvUtil.pyPrint('ClimateManager: popup called')
