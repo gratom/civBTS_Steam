@@ -47,8 +47,8 @@
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<TechPrereq>TECH_COMPUTERS</TechPrereq>
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
-			<iMaxGlobalInstances>1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>1</iMaxTeamInstances>
 			<iCost>2000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>2</iTechShare>
@@ -70,6 +70,33 @@
 			</BonusProductionModifiers>
 			<CreateSound/>
 			<MovieDefineTag>ART_DEF_MOVIE_INTERNET</MovieDefineTag>
+		</ProjectInfo>
+		<ProjectInfo>
+			<Type>PROJECT_PATENT_OFFICE</Type>
+			<Description>TXT_KEY_PROJECT_PATENT_OFFICE</Description>
+			<Civilopedia>TXT_KEY_PROJECT_PATENT_OFFICE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_PATENT_OFFICE_STRATEGY</Strategy>
+			<VictoryPrereq>NONE</VictoryPrereq>
+			<TechPrereq>TECH_EDUCATION</TechPrereq>
+			<AnyonePrereqProject>NONE</AnyonePrereqProject>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>1</iMaxTeamInstances>
+			<iCost>600</iCost>
+			<iNukeInterception>0</iNukeInterception>
+			<iTechShare>4</iTechShare>
+			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
+			<EveryoneSpecialBuilding>NONE</EveryoneSpecialBuilding>
+			<bSpaceship>0</bSpaceship>
+			<bAllowsNukes>0</bAllowsNukes>
+			<Button>Art/Interface/Buttons/Buildings/patentAgency.dds</Button>
+			<PrereqProjects/>
+			<VictoryThresholds/>
+			<VictoryMinThresholds/>
+			<iVictoryDelayPercent>0</iVictoryDelayPercent>
+			<iSuccessRate>0</iSuccessRate>
+			<BonusProductionModifiers/>
+			<CreateSound/>
+			<MovieDefineTag/>
 		</ProjectInfo>
 		<ProjectInfo>
 			<Type>PROJECT_SDI</Type>

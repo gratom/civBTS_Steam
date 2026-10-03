@@ -90,7 +90,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Der Glorreiche Anführer</Text>
+			<Text>Der Glorreiche Anfï¿½hrer</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -160,7 +160,7 @@
 		<Russian>&#224;&#236;&#229;&#240;&#232;&#234;&#224;&#237;&#246;&#251;</Russian>
 		<English>American</English>
 		<French>
-			<Text>américain:américaine:américains:américaines</Text>
+			<Text>amï¿½ricain:amï¿½ricaine:amï¿½ricains:amï¿½ricaines</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
@@ -190,7 +190,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Großes Südland:Große Südland:Großen Südland</Text>
+			<Text>Groï¿½es Sï¿½dland:Groï¿½e Sï¿½dland:Groï¿½en Sï¿½dland</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -215,7 +215,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Südland</Text>
+			<Text>Sï¿½dland</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -240,7 +240,7 @@
 			<Plural>0:0:1:1</Plural>
 		</French>
 		<German>
-			<Text>Südländisch:südländischen:südländische</Text>
+			<Text>Sï¿½dlï¿½ndisch:sï¿½dlï¿½ndischen:sï¿½dlï¿½ndische</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -250,7 +250,7 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>sureño:sureña:sureños:sureñas</Text>
+			<Text>sureï¿½o:sureï¿½a:sureï¿½os:sureï¿½as</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
@@ -260,7 +260,7 @@
 		<Russian>&#207;&#224;&#237;&#224;&#231;&#232;&#224;&#242;&#241;&#234;&#232;&#233; &#205;&#224;&#240;&#238;&#228;&#237;&#251;&#233; &#209;&#238;&#254;&#231;</Russian>
 		<English>Pan-Asiatic People's Cooperative</English>
 		<French>
-			<Text>Coopérative Populaire Pan-Asiatique</Text>
+			<Text>Coopï¿½rative Populaire Pan-Asiatique</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -275,7 +275,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Coop. Popular Panasiático</Text>
+			<Text>Coop. Popular Panasiï¿½tico</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -325,7 +325,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>asiático:asiática:asiáticos:asiáticas</Text>
+			<Text>asiï¿½tico:asiï¿½tica:asiï¿½ticos:asiï¿½ticas</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</Spanish>
@@ -340,7 +340,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Europäisches Reich:Europäische Reich:Europäischen Reich</Text>
+			<Text>Europï¿½isches Reich:Europï¿½ische Reich:Europï¿½ischen Reich</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -385,12 +385,12 @@
 		<Russian>&#229;&#226;&#240;&#238;&#239;&#229;&#233;&#246;&#251;</Russian>
 		<English>Europan</English>
 		<French>
-			<Text>européen:européenne:européens:européennes</Text>
+			<Text>europï¿½en:europï¿½enne:europï¿½ens:europï¿½ennes</Text>
 			<Gender>Male:Female:Male:Female</Gender>
 			<Plural>0:0:1:1</Plural>
 		</French>
 		<German>
-			<Text>Europäisch:europäischen:europäische</Text>
+			<Text>Europï¿½isch:europï¿½ischen:europï¿½ische</Text>
 			<Gender>Neuter:Neuter:Neuter</Gender>
 			<Plural>0:0:0</Plural>
 		</German>
@@ -425,7 +425,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Hidroponía</Text>
+			<Text>Hidroponï¿½a</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -450,7 +450,7 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Arcología</Text>
+			<Text>Arcologï¿½a</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -465,7 +465,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Antibiologische Kriegsführung</Text>
+			<Text>Antibiologische Kriegsfï¿½hrung</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -475,7 +475,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Guerra antibiológica</Text>
+			<Text>Guerra antibiolï¿½gica</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -485,22 +485,22 @@
 		<Russian>&#193;&#232;&#238;&#238;&#240;&#243;&#230;&#232;&#229;</Russian>
 		<English>Biological Warfare Units</English>
 		<French>
-			<Text>Unités de guerre biologique</Text>
+			<Text>Unitï¿½s de guerre biologique</Text>
 			<Gender>Female</Gender>
 			<Plural>1</Plural>
 		</French>
 		<German>
-			<Text>Einheiten für Biologische Kriegsführung</Text>
+			<Text>Einheiten fï¿½r Biologische Kriegsfï¿½hrung</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Unità per la guerra biologica:Unità per la guerra biologica</Text>
+			<Text>Unitï¿½ per la guerra biologica:Unitï¿½ per la guerra biologica</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Unidad de guerra biológica:Unidades de guerra biológica</Text>
+			<Text>Unidad de guerra biolï¿½gica:Unidades de guerra biolï¿½gica</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
@@ -515,7 +515,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Biologische Kriegsführung</Text>
+			<Text>Biologische Kriegsfï¿½hrung</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -525,7 +525,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Guerra biológica</Text>
+			<Text>Guerra biolï¿½gica</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -550,7 +550,7 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Misil de guerra biológica:Misiles de guerra biológica</Text>
+			<Text>Misil de guerra biolï¿½gica:Misiles de guerra biolï¿½gica</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
@@ -565,7 +565,7 @@
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Labor für Biologische Kriegsführung</Text>
+			<Text>Labor fï¿½r Biologische Kriegsfï¿½hrung</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -575,7 +575,7 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Laboratorio de guerra biológica:Laboratorios de guerra biológica</Text>
+			<Text>Laboratorio de guerra biolï¿½gica:Laboratorios de guerra biolï¿½gica</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
@@ -585,7 +585,7 @@
 		<Russian>&#214;&#229;&#237;&#242;&#240; &#234;&#238;&#237;&#242;&#240;&#238;&#235;&#255;</Russian>
 		<English>Centers for Disease Control</English>
 		<French>
-			<Text>Centres de contrôle mental</Text>
+			<Text>Centres de contrï¿½le mental</Text>
 			<Gender>Male</Gender>
 			<Plural>1</Plural>
 		</French>
@@ -650,7 +650,7 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Escudo arcológico:Escudos arcológicos</Text>
+			<Text>Escudo arcolï¿½gico:Escudos arcolï¿½gicos</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
@@ -695,7 +695,7 @@
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Unità di cloni:Unità di cloni</Text>
+			<Text>Unitï¿½ di cloni:Unitï¿½ di cloni</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Italian>
@@ -725,7 +725,7 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Planta de clonación:Planta de clonación</Text>
+			<Text>Planta de clonaciï¿½n:Planta de clonaciï¿½n</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
@@ -750,7 +750,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Clonación</Text>
+			<Text>Clonaciï¿½n</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -825,7 +825,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Biónica</Text>
+			<Text>Biï¿½nica</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -850,7 +850,7 @@
 			<Plural>0:1</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Autómata:Autómatas</Text>
+			<Text>Autï¿½mata:Autï¿½matas</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</Spanish>
@@ -875,7 +875,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Fusión fría</Text>
+			<Text>Fusiï¿½n frï¿½a</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -885,7 +885,7 @@
 		<Russian>&#202;&#232;&#225;&#229;&#240;&#237;&#229;&#242;&#232;&#234;&#224;</Russian>
 		<English>Cybernetics</English>
 		<French>
-			<Text>Cybernétique</Text>
+			<Text>Cybernï¿½tique</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -900,7 +900,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Cibernética</Text>
+			<Text>Cibernï¿½tica</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -995,7 +995,7 @@
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Unità di mech d'assalto:Unità di mech d'assalto</Text>
+			<Text>Unitï¿½ di mech d'assalto:Unitï¿½ di mech d'assalto</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Italian>
@@ -1020,7 +1020,7 @@
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Unità di mech d'assalto:Unità di mech d'assalto</Text>
+			<Text>Unitï¿½ di mech d'assalto:Unitï¿½ di mech d'assalto</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Italian>
@@ -1195,7 +1195,7 @@
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Unità di Dreadnought:Unità di Dreadnought</Text>
+			<Text>Unitï¿½ di Dreadnought:Unitï¿½ di Dreadnought</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</Italian>
@@ -1210,7 +1210,7 @@
 		<Russian>&#204;&#224;&#237;&#232;&#239;&#243;&#235;&#255;&#242;&#238;&#240; &#241;&#238;&#231;&#237;.</Russian>
 		<English>Mind-Control Center</English>
 		<French>
-			<Text>Centre de contrôle mental</Text>
+			<Text>Centre de contrï¿½le mental</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -1235,17 +1235,17 @@
 		<Russian>&#205;&#238;&#226;&#224;&#255; &#203;&#232;&#227;&#224; &#205;&#224;&#246;&#232;&#233;</Russian>
 		<English>New League of Nations</English>
 		<French>
-			<Text>Nouvelle Société des Nations</Text>
+			<Text>Nouvelle Sociï¿½tï¿½ des Nations</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
 		<German>
-			<Text>Neuer Völkerbund</Text>
+			<Text>Neuer Vï¿½lkerbund</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
 		<Italian>
-			<Text>Nuova Società delle Nazioni</Text>
+			<Text>Nuova Societï¿½ delle Nazioni</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
@@ -1287,12 +1287,12 @@
 		</French>
 		<German>Mexico City</German>
 		<Italian>
-			<Text>Città del Messico</Text>
+			<Text>Cittï¿½ del Messico</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>México D.F.</Text>
+			<Text>Mï¿½xico D.F.</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1313,7 +1313,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Ciudad de Panamá</Text>
+			<Text>Ciudad de Panamï¿½</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1418,7 +1418,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Cuiabá</Text>
+			<Text>Cuiabï¿½</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1439,7 +1439,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Río de Janeiro</Text>
+			<Text>Rï¿½o de Janeiro</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1449,7 +1449,7 @@
 		<Russian>&#193;&#229;&#235;&#229;&#237;</Russian>
 		<English>Belem</English>
 		<French>
-			<Text>Belém</Text>
+			<Text>Belï¿½m</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -1460,7 +1460,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Belém</Text>
+			<Text>Belï¿½m</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1628,7 +1628,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Trípoli</Text>
+			<Text>Trï¿½poli</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1764,7 +1764,7 @@
 		<Russian>&#200;&#229;&#240;&#243;&#241;&#224;&#235;&#232;&#236;</Russian>
 		<English>Jerusalem</English>
 		<French>
-			<Text>Jérusalem</Text>
+			<Text>Jï¿½rusalem</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -1775,7 +1775,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Jerusalén</Text>
+			<Text>Jerusalï¿½n</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1827,7 +1827,7 @@
 		<Russian>&#210;&#229;&#227;&#229;&#240;&#224;&#237;</Russian>
 		<English>Teheran</English>
 		<French>
-			<Text>Téhéran</Text>
+			<Text>Tï¿½hï¿½ran</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -1838,7 +1838,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Teherán</Text>
+			<Text>Teherï¿½n</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -1911,7 +1911,7 @@
 		<Russian>&#213;&#238;&#248;&#232;&#236;&#232;&#237;</Russian>
 		<English>Ho Chi Minh City</English>
 		<French>
-			<Text>Hô-Chi-Minh-Ville</Text>
+			<Text>Hï¿½-Chi-Minh-Ville</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -2121,7 +2121,7 @@
 		<Russian>&#221;&#234;&#241;&#239;&#229;&#228;&#232;&#246;&#232;&#255; &#237;&#224; &#204;&#224;&#240;&#241;</Russian>
 		<English>Mission to Mars</English>
 		<French>
-			<Text>Mission à Mars</Text>
+			<Text>Mission ï¿½ Mars</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -2136,9 +2136,14 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Misión en Marte</Text>
+			<Text>Misiï¿½n en Marte</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PATENT_OFFICE</Tag>
+		<Russian>&#207;&#224;&#242;&#229;&#237;&#242;&#237;&#238;&#229; &#225;&#254;&#240;&#238;</Russian>
+		<English>Patent Office</English>
 	</TEXT>
 </Civ4GameText>
