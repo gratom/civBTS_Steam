@@ -45,6 +45,12 @@ HamletChance = 1
 VillageChance = 1
 TownChance = 1
 
+# Once a city has at least (population * Num / Den) Farms (or Workshops), its *extra* Farms/Workshops
+# become eligible to roll into a Cottage too (same CottageChance above). E.g. 3/10 means a size-15 city
+# tolerates 5 Farms before any start converting.
+ImprovementReplaceRatioNum = 3
+ImprovementReplaceRatioDen = 10
+
 
 
 class CvEventManager:
@@ -430,6 +436,8 @@ class CvEventManager:
 		iHamlet = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_HAMLET')
 		iVillage = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_VILLAGE')
 		iTown = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_TOWN')
+		iFarm = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_FARM')
+		iWorkshop = CvUtil.findInfoTypeNum(gc.getImprovementInfo, gc.getNumImprovementInfos(), 'IMPROVEMENT_WORKSHOP')
 
 		# current improvement on the tile -> (improvement it can grow into, % chance per turn)
 		aWildGrowth = {
@@ -439,11 +447,37 @@ class CvEventManager:
 			iVillage: (iTown, TownChance),
 		}
 
+		# -1, Farm and Workshop all need the bonus/feature guard below (they're a fresh placement
+		# decision); once a Cottage already exists, upgrading it further doesn't need re-checking.
+		aGuardedSources = (-1, iFarm, iWorkshop)
+
 		eTeam = pPlayer.getTeam()
 
 		(loopCity, iter) = pPlayer.firstCity(false)
 
 		while(loopCity):
+
+			# precompute once per city (cheaper than re-counting per tile): how many Farms/Workshops
+			# this city already has, and how many of each it tolerates before the extras start
+			# rolling into Cottages too.
+			iFarmCount = 0
+			iWorkshopCount = 0
+			for i in range(1, 21):
+				pCountPlot = loopCity.getCityIndexPlot(i)
+				if (pCountPlot):
+					iCountImprovement = pCountPlot.getImprovementType()
+					if (iCountImprovement == iFarm):
+						iFarmCount += 1
+					elif (iCountImprovement == iWorkshop):
+						iWorkshopCount += 1
+
+			iReplaceThreshold = (loopCity.getPopulation() * ImprovementReplaceRatioNum + (ImprovementReplaceRatioDen / 2)) / ImprovementReplaceRatioDen
+
+			aCityGrowth = dict(aWildGrowth)
+			if (iFarmCount >= iReplaceThreshold):
+				aCityGrowth[iFarm] = (iCottage, CottageChance)
+			if (iWorkshopCount >= iReplaceThreshold):
+				aCityGrowth[iWorkshop] = (iCottage, CottageChance)
 
 			for i in range(1, 21):
 				if (loopCity.isWorkingPlotByIndex(i)):
@@ -452,18 +486,22 @@ class CvEventManager:
 					if (pPlot):
 						iCurrent = pPlot.getImprovementType()
 
-						if (iCurrent in aWildGrowth):
-							# only the very first step (bare tile -> Cottage) needs the bonus/feature checks -
-							# once a cottage already exists, letting it keep growing is fine
-							iFeature = pPlot.getFeatureType()
-							bFeatureOk = (iFeature == -1 or iFeature == iFloodPlains)
+						if (iCurrent in aCityGrowth):
+							bGuardOk = true
+							if (iCurrent in aGuardedSources):
+								iFeature = pPlot.getFeatureType()
+								bGuardOk = (pPlot.getBonusType(eTeam) == -1 and (iFeature == -1 or iFeature == iFloodPlains))
 
-							if (iCurrent != -1 or (pPlot.getBonusType(eTeam) == -1 and bFeatureOk)):
-								(iNext, iChance) = aWildGrowth[iCurrent]
+							if (bGuardOk):
+								(iNext, iChance) = aCityGrowth[iCurrent]
 
+								# canHaveImprovement already enforces Cottage's own terrain rules (Grass/Plains
+								# only in this mod's XML), so a Workshop sitting on Desert is naturally skipped here
 								if (iChance > 0 and pPlot.canHaveImprovement(iNext, eTeam, false)):
 									if (gc.getGame().getSorenRandNum(100, "AI Wild Improvement Growth") < iChance):
 										pPlot.setImprovementType(iNext)
+
+			(loopCity, iter) = pPlayer.nextCity(iter, false)
 
 			(loopCity, iter) = pPlayer.nextCity(iter, false)
 
