@@ -93,14 +93,14 @@
 				<BonusType>BONUS_SUGAR</BonusType>
 			</PrereqBonuses>
 			<HeadquarterCommerces>
-				<iHeadquarterCommerce>3</iHeadquarterCommerce>
+				<iHeadquarterCommerce>2</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 			</HeadquarterCommerces>
-			<BonusProduced>BONUS_OIL</BonusProduced>
+			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>150</iCommerceProduced>
+				<iCommerceProduced>100</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
@@ -200,11 +200,11 @@
 				<BonusType>BONUS_OIL</BonusType>
 			</PrereqBonuses>
 			<HeadquarterCommerces>
-				<iHeadquarterCommerce>3</iHeadquarterCommerce>
+				<iHeadquarterCommerce>2</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 			</HeadquarterCommerces>
-			<BonusProduced>BONUS_ALUMINUM</BonusProduced>
+			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>200</iCommerceProduced>
