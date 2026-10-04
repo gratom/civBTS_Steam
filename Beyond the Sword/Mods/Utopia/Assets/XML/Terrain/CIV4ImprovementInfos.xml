@@ -936,7 +936,7 @@
                     </TechYields>
                 </TechYieldChange>
                 <TechYieldChange>
-                    <PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
+                    <PrereqTech>TECH_ASSEMBLY_LINE</PrereqTech>
                     <TechYields>
                         <iYield>-1</iYield>
                         <iYield>1</iYield>

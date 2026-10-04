@@ -199,6 +199,18 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_RAILWAY_STATION</Type>
+			<Description>TXT_KEY_BUILDING_RAILWAY_STATION</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<DefaultBuilding>BUILDING_RAILWAY_STATION</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_DRYDOCK</Type>
 			<Description>TXT_KEY_BUILDING_DRYDOCK</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
