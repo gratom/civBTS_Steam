@@ -26694,7 +26694,11 @@
 			<GlobalSeaPlotYieldChanges/>
 			<YieldChanges/>
 			<CommerceChanges/>
-			<ObsoleteSafeCommerceChanges/>
+			<ObsoleteSafeCommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>4</iCommerce>
+			</ObsoleteSafeCommerceChanges>
 			<CommerceChangeDoubleTimes/>
 			<CommerceModifiers/>
 			<GlobalCommerceModifiers/>
