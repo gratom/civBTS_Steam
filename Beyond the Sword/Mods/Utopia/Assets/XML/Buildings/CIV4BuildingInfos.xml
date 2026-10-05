@@ -15236,7 +15236,12 @@
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>
 			<ProductionTraits/>
-			<HappinessTraits/>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
 			<PowerBonus>NONE</PowerBonus>
 			<FreeBonus>NONE</FreeBonus>
@@ -15954,7 +15959,12 @@
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>
 			<ProductionTraits/>
-			<HappinessTraits/>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
 			<PowerBonus>NONE</PowerBonus>
 			<FreeBonus>NONE</FreeBonus>
@@ -16672,7 +16682,12 @@
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>
 			<ProductionTraits/>
-			<HappinessTraits/>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
 			<PowerBonus>NONE</PowerBonus>
 			<FreeBonus>NONE</FreeBonus>
@@ -17390,7 +17405,12 @@
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>
 			<ProductionTraits/>
-			<HappinessTraits/>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
 			<PowerBonus>NONE</PowerBonus>
 			<FreeBonus>NONE</FreeBonus>
@@ -18108,7 +18128,12 @@
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>
 			<ProductionTraits/>
-			<HappinessTraits/>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
 			<PowerBonus>NONE</PowerBonus>
 			<FreeBonus>NONE</FreeBonus>
@@ -18826,7 +18851,12 @@
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>
 			<ProductionTraits/>
-			<HappinessTraits/>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
 			<PowerBonus>NONE</PowerBonus>
 			<FreeBonus>NONE</FreeBonus>
@@ -19544,7 +19574,12 @@
 			<Bonus>NONE</Bonus>
 			<PrereqBonuses/>
 			<ProductionTraits/>
-			<HappinessTraits/>
+			<HappinessTraits>
+				<HappinessTrait>
+					<HappinessTraitType>TRAIT_SPIRITUAL</HappinessTraitType>
+					<iHappinessTrait>1</iHappinessTrait>
+				</HappinessTrait>
+			</HappinessTraits>
 			<NoBonus>NONE</NoBonus>
 			<PowerBonus>NONE</PowerBonus>
 			<FreeBonus>NONE</FreeBonus>
