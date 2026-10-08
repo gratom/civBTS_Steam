@@ -1,10 +1,17 @@
 ## Utopia mod - shared helper for Cyrillic Steam nickname repair
-import CvUtil
+import re
 
 CYRILLIC_RANGE_LOW = u"\u0400"
 CYRILLIC_RANGE_HIGH = u"\u04FF"
 
-def fixNetworkPlayerName(raw, tag="?"):
+# Matches a run of plain ASCII mixed with 2-byte UTF-8 Cyrillic sequences
+# (lead byte \xd0-\xd3, continuation \x80-\xbf covers U+0400-U+04FF). Native
+# engine strings that are ALREADY correct Cyrillic use a different single
+# byte-per-letter scheme (see fixNetworkPlayerName's docstring), so they never
+# match this pattern - only a raw UTF-8 name embedded in the string does.
+_UTF8_CYRILLIC_RUN = re.compile(r'(?:[\x20-\x7e]|[\xd0-\xd3][\x80-\xbf])*[\xd0-\xd3][\x80-\xbf](?:[\x20-\x7e]|[\xd0-\xd3][\x80-\xbf])*')
+
+def fixNetworkPlayerName(raw):
 	"""Repairs Cyrillic Steam nicknames that reach the engine as UTF-8 bytes.
 
 	The game's bitmap font is indexed by raw byte value (0-255), the same way
@@ -20,16 +27,7 @@ def fixNetworkPlayerName(raw, tag="?"):
 	advisor screens, dropdowns, tables, etc). The pre-game multiplayer lobby
 	and the live chat window are drawn natively by the exe and never pass
 	through this function.
-
-	'tag' identifies the call site in PythonDbg.log (every call is logged,
-	success or not) so it's possible to tell which screens actually reach
-	this function and what raw data they hand it.
 	"""
-	try:
-		CvUtil.pyPrint("fixNetworkPlayerName[%s]: input=%s" %(tag, repr(raw)))
-	except Exception:
-		pass
-
 	if raw is None:
 		return raw
 	try:
@@ -38,19 +36,11 @@ def fixNetworkPlayerName(raw, tag="?"):
 		else:
 			rawBytes = raw
 	except (UnicodeEncodeError, TypeError):
-		try:
-			CvUtil.pyPrint("fixNetworkPlayerName[%s]: skip, could not get raw bytes" %(tag,))
-		except Exception:
-			pass
 		return raw
 
 	try:
 		realText = rawBytes.decode('utf-8')
 	except UnicodeDecodeError:
-		try:
-			CvUtil.pyPrint("fixNetworkPlayerName[%s]: skip, not valid UTF-8" %(tag,))
-		except Exception:
-			pass
 		return raw
 
 	bHasCyrillic = False
@@ -59,24 +49,60 @@ def fixNetworkPlayerName(raw, tag="?"):
 			bHasCyrillic = True
 			break
 	if not bHasCyrillic:
-		try:
-			CvUtil.pyPrint("fixNetworkPlayerName[%s]: skip, no Cyrillic found after UTF-8 decode (%s)" %(tag, repr(realText)))
-		except Exception:
-			pass
 		return raw
 
 	try:
 		fixedName = realText.encode('cp1251').decode('latin-1')
 	except UnicodeEncodeError:
-		try:
-			CvUtil.pyPrint("fixNetworkPlayerName[%s]: skip, cp1251 encode failed" %(tag,))
-		except Exception:
-			pass
 		return raw
 
-	try:
-		CvUtil.pyPrint("fixNetworkPlayerName[%s]: repaired %s -> %s" %(tag, repr(raw), repr(fixedName)))
-	except Exception:
-		pass
-
 	return fixedName
+
+def fixEmbeddedPlayerNames(text):
+	"""Repairs a raw UTF-8 Cyrillic player name embedded INSIDE a larger,
+	already-built native string - e.g. CyInterface().getHelpString(), which
+	the engine assembles itself and Python only displays. Unlike
+	fixNetworkPlayerName, this does not require the WHOLE string to be valid
+	UTF-8 (it won't be - the surrounding native Cyrillic text, if any, uses
+	the single byte-per-letter scheme, not real UTF-8). Instead it scans for
+	the one embedded run that looks like UTF-8 Cyrillic, repairs only that
+	span, and leaves everything else byte-for-byte untouched.
+	"""
+	if text is None:
+		return text
+	try:
+		if isinstance(text, unicode):
+			rawBytes = text.encode('latin-1')
+		else:
+			rawBytes = text
+	except (UnicodeEncodeError, TypeError):
+		return text
+
+	match = _UTF8_CYRILLIC_RUN.search(rawBytes)
+	if not match:
+		return text
+
+	szSpan = match.group(0)
+	try:
+		uSpan = szSpan.decode('utf-8')
+	except UnicodeDecodeError:
+		return text
+
+	nCyrillic = 0
+	for ch in uSpan:
+		if ch >= CYRILLIC_RANGE_LOW and ch <= CYRILLIC_RANGE_HIGH:
+			nCyrillic += 1
+	if nCyrillic < 2:
+		return text
+
+	try:
+		fixedSpanBytes = uSpan.encode('cp1251')
+	except UnicodeEncodeError:
+		return text
+
+	newBytes = rawBytes[:match.start()] + fixedSpanBytes + rawBytes[match.end():]
+
+	try:
+		return newBytes.decode('latin-1')
+	except UnicodeDecodeError:
+		return text

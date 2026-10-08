@@ -146,7 +146,7 @@ class CvUnVictoryScreen:
 			screen.addDDSGFC(szLeaderHead, gc.getLeaderHeadInfo(player.getLeaderType()).getButton(), int(fX), int(fY), iLeaderWidth, iLeaderHeight, WidgetTypes.WIDGET_GENERAL, -1, -1)
 				
 			szName = self.getNextWidgetName()
-			szText = u"<font=3>" + CvNetworkNameFix.fixNetworkPlayerName(player.getName(), "UnVictoryScreen.leaderLabel") + u"</font>"
+			szText = u"<font=3>" + CvNetworkNameFix.fixNetworkPlayerName(player.getName()) + u"</font>"
 			screen.setLabel(szName, "", szText, CvUtil.FONT_CENTER_JUSTIFY, fX + iLeaderWidth/2, fY + iLeaderHeight + 5, 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 
 			# Leader attitude towards active player

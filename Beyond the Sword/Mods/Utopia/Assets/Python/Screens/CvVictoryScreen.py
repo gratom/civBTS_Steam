@@ -196,7 +196,7 @@ class CvVictoryScreen:
 				if bUnknown:
 					szName = localText.getText("TXT_KEY_TOPCIVS_UNKNOWN", ())
 				else:
-					szName = CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iUNTeam).getName(), "VictoryScreen.unTeam")
+					szName = CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iUNTeam).getName())
 				screen.setTableText(szTable, 1, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_BUILT", (szName, )), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 			else:
 				screen.setTableText(szTable, 1, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_NOT_BUILT", ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
@@ -205,7 +205,7 @@ class CvVictoryScreen:
 			if (gc.getGame().canHaveSecretaryGeneral(i) and -1 != gc.getGame().getSecretaryGeneral(i)):
 				iRow = screen.appendTableRow(szTable)
 				screen.setTableText(szTable, 0, iRow, gc.getVoteSourceInfo(i).getSecretaryGeneralText(), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-				screen.setTableText(szTable, 1, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(gc.getGame().getSecretaryGeneral(i)).getName(), "VictoryScreen.secGenTeamName"), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+				screen.setTableText(szTable, 1, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(gc.getGame().getSecretaryGeneral(i)).getName()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 	
 			for iLoop in range(gc.getNumVoteInfos()):
 				if gc.getGame().countPossibleVote(iLoop, i) > 0:		
@@ -259,7 +259,7 @@ class CvVictoryScreen:
 								
 				for j in range(gc.getMAX_PLAYERS()):
 					if gc.getPlayer(j).isAlive() and not gc.getPlayer(j).isBarbarian() and gc.getTeam(iActiveTeam).isHasMet(gc.getPlayer(j).getTeam()):
-						szPlayerText = CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName(), "VictoryScreen.secGen")
+						szPlayerText = CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName())
 						if (-1 != iSecretaryGeneralVote):
 							szPlayerText += localText.getText("TXT_KEY_VICTORY_SCREEN_PLAYER_VOTES", (gc.getPlayer(j).getVotes(iSecretaryGeneralVote, i), )) 
 						if (gc.getGame().canHaveSecretaryGeneral(i) and gc.getGame().getSecretaryGeneral(i) == gc.getPlayer(j).getTeam()):
@@ -505,11 +505,11 @@ class CvVictoryScreen:
 										
 					iRow = screen.appendTableRow(szTable)
 					screen.setTableText(szTable, 0, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_TARGET_SCORE", (gc.getGame().getTargetScore(), )), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName(), "VictoryScreen.activeTeamLabel") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					screen.setTableText(szTable, 3, iRow, (u"%d" % ourScore), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					
 					if (iBestScoreTeam != -1):
-						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestScoreTeam).getName(), "VictoryScreen.bestScoreTeam") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestScoreTeam).getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 5, iRow, (u"%d" % bestScore), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						
 					bEntriesFound = True
@@ -520,11 +520,11 @@ class CvVictoryScreen:
 
 					iRow = screen.appendTableRow(szTable)
 					screen.setTableText(szTable, 0, iRow, szText1, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName(), "VictoryScreen.activeTeamLabel") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					screen.setTableText(szTable, 3, iRow, (u"%d" % ourScore), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					
 					if (iBestScoreTeam != -1):
-						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestScoreTeam).getName(), "VictoryScreen.bestScoreTeam") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestScoreTeam).getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 5, iRow, (u"%d" % bestScore), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						
 					bEntriesFound = True
@@ -540,10 +540,10 @@ class CvVictoryScreen:
 				if (gc.getGame().getAdjustedPopulationPercent(iLoopVC) > 0):			
 					iRow = screen.appendTableRow(szTable)
 					screen.setTableText(szTable, 0, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_PERCENT_POP", (gc.getGame().getAdjustedPopulationPercent(iLoopVC), )), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName(), "VictoryScreen.activeTeamLabel") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					screen.setTableText(szTable, 3, iRow, (u"%.2f%%" % popPercent), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					if (iBestPopTeam != -1):
-						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestPopTeam).getName(), "VictoryScreen.bestPopTeam") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestPopTeam).getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 5, iRow, (u"%.2f%%" % (bestPop * 100 / totalPop)), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					bEntriesFound = True
 
@@ -551,10 +551,10 @@ class CvVictoryScreen:
 				if (gc.getGame().getAdjustedLandPercent(iLoopVC) > 0):
 					iRow = screen.appendTableRow(szTable)
 					screen.setTableText(szTable, 0, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_PERCENT_LAND", (gc.getGame().getAdjustedLandPercent(iLoopVC), )), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName(), "VictoryScreen.activeTeamLabel") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					screen.setTableText(szTable, 3, iRow, (u"%.2f%%" % landPercent), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					if (iBestLandTeam != -1):
-						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestLandTeam).getName(), "VictoryScreen.bestLandTeam") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestLandTeam).getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 5, iRow, (u"%.2f%%" % (bestLand * 100 / totalLand)), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					bEntriesFound = True
 
@@ -565,7 +565,7 @@ class CvVictoryScreen:
 						screen.setTableText(szTable, 2, iRow, gc.getReligionInfo(iOurReligion).getDescription() + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 3, iRow, (u"%d%%" % ourReligionPercent), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					else:
-						screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName(), "VictoryScreen.activeTeamLabel") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+						screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 3, iRow, u"No Holy City", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					if (iBestReligion != -1):
 						screen.setTableText(szTable, 4, iRow, gc.getReligionInfo(iBestReligion).getDescription() + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
@@ -575,10 +575,10 @@ class CvVictoryScreen:
 				if (victory.getTotalCultureRatio() > 0):			
 					iRow = screen.appendTableRow(szTable)
 					screen.setTableText(szTable, 0, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_PERCENT_CULTURE", (int((100.0 * bestCulture) / victory.getTotalCultureRatio()), )), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName(), "VictoryScreen.activeTeamLabel") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+					screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					screen.setTableText(szTable, 3, iRow, unicode(ourCulture), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					if (iBestLandTeam != -1):
-						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestCultureTeam).getName(), "VictoryScreen.bestCultureTeam") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+						screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestCultureTeam).getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 5, iRow, unicode(bestCulture), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 					bEntriesFound = True
 
@@ -600,10 +600,10 @@ class CvVictoryScreen:
 						iRow = screen.appendTableRow(szTable)
 						szNumber = unicode(gc.getBuildingClassInfo(i).getVictoryThreshold(iLoopVC))
 						screen.setTableText(szTable, 0, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_BUILDING", (szNumber, gc.getBuildingClassInfo(i).getTextKey())), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-						screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName(), "VictoryScreen.activeTeamLabel") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+						screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 3, iRow, activePlayer.getTeam().getBuildingClassCount(i), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						if (iBestBuildingTeam != -1):
-							screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestBuildingTeam).getName(), "VictoryScreen.bestBuildingTeam") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+							screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestBuildingTeam).getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 							screen.setTableText(szTable, 5, iRow, gc.getTeam(iBestBuildingTeam).getBuildingClassCount(i), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						bEntriesFound = True
 						
@@ -628,7 +628,7 @@ class CvVictoryScreen:
 						else:
 							szNumber = unicode(gc.getProjectInfo(i).getVictoryMinThreshold(iLoopVC)) + u"-" + unicode(gc.getProjectInfo(i).getVictoryThreshold(iLoopVC))
 						screen.setTableText(szTable, 0, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_BUILDING", (szNumber, gc.getProjectInfo(i).getTextKey())), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-						screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName(), "VictoryScreen.activeTeamLabel") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+						screen.setTableText(szTable, 2, iRow, CvNetworkNameFix.fixNetworkPlayerName(activePlayer.getTeam().getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						screen.setTableText(szTable, 3, iRow, str(activePlayer.getTeam().getProjectCount(i)), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						
 						#check if spaceship
@@ -637,7 +637,7 @@ class CvVictoryScreen:
 							bSpaceshipFound = True
 						
 						if (iBestProjectTeam != -1):
-							screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestProjectTeam).getName(), "VictoryScreen.bestProjectTeam") + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+							screen.setTableText(szTable, 4, iRow, CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iBestProjectTeam).getName()) + ":", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 							screen.setTableText(szTable, 5, iRow, unicode(gc.getTeam(iBestProjectTeam).getProjectCount(i)), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						bEntriesFound = True
 						
@@ -662,7 +662,7 @@ class CvVictoryScreen:
 							if bUnknown:
 								szName = localText.getText("TXT_KEY_TOPCIVS_UNKNOWN", ())
 							else:
-								szName = CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iUNTeam).getName(), "VictoryScreen.unTeam")
+								szName = CvNetworkNameFix.fixNetworkPlayerName(gc.getTeam(iUNTeam).getName())
 							screen.setTableText(szTable, 2, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_BUILT", (szName, )), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 						else:
 							screen.setTableText(szTable, 2, iRow, localText.getText("TXT_KEY_VICTORY_SCREEN_NOT_BUILT", ()), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
@@ -719,7 +719,7 @@ class CvVictoryScreen:
 			screen.addDropDownBoxGFC(self.szDropdownName, 22, 12, 300, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 			for j in range(gc.getMAX_PLAYERS()):
 				if (gc.getPlayer(j).isAlive()):
-					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName(), "VictoryScreen.debugDropdown"), j, j, False )
+					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName()), j, j, False )
 		
 		self.drawTabs()
 

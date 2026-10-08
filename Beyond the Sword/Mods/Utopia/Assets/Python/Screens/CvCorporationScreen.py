@@ -120,7 +120,7 @@ class CvCorporationScreen:
 			screen.addDropDownBoxGFC(self.szDropdownName, 22, 12, 300, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 			for j in range(gc.getMAX_PLAYERS()):
 				if (gc.getPlayer(j).isAlive()):
-					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName(), "CorporationScreen.debugDropdown"), j, j, False )
+					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName()), j, j, False )
 
 		# Draw Corporation info
 		self.drawCorporationInfo()

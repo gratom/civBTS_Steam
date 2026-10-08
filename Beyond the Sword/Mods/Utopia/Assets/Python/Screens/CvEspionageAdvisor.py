@@ -89,7 +89,7 @@ class CvEspionageAdvisor:
 			screen.addDropDownBoxGFC(self.szDropdownName, 22, 12, 300, WidgetTypes.WIDGET_GENERAL, self.iDebugDropdownID, -1, FontTypes.GAME_FONT)
 			for j in range(gc.getMAX_PLAYERS()):
 				if (gc.getPlayer(j).isAlive()):
-					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName(), "EspionageAdvisor.debugDropdown"), j, j, False )
+					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName()), j, j, False )
 
 		# draw the contents
 		self.drawContents()
@@ -283,7 +283,7 @@ class CvEspionageAdvisor:
 
 				szName = "NameText%d" %(iPlayerID)
 				self.aszNameTexts.append(szName)
-				szTempBuffer = u"<color=%d,%d,%d,%d>%s (%s)</color>" %(pTargetPlayer.getPlayerTextColorR(), pTargetPlayer.getPlayerTextColorG(), pTargetPlayer.getPlayerTextColorB(), pTargetPlayer.getPlayerTextColorA(), CvNetworkNameFix.fixNetworkPlayerName(pTargetPlayer.getName(), "EspionageAdvisor.target"), self.getMultiplierAgainstTarget(iPlayerID))
+				szTempBuffer = u"<color=%d,%d,%d,%d>%s (%s)</color>" %(pTargetPlayer.getPlayerTextColorR(), pTargetPlayer.getPlayerTextColorG(), pTargetPlayer.getPlayerTextColorB(), pTargetPlayer.getPlayerTextColorA(), CvNetworkNameFix.fixNetworkPlayerName(pTargetPlayer.getName()), self.getMultiplierAgainstTarget(iPlayerID))
 				szText = u"<font=2>" + szTempBuffer + "</font>"
 				screen.setLabelAt( szName, attach, szText, 0, iX + 55, iY -15, self.Z_CONTROLS, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 );
 				

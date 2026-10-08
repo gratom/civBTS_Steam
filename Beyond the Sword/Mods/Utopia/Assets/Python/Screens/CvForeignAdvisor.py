@@ -120,7 +120,7 @@ class CvForeignAdvisor:
 			screen.addDropDownBoxGFC(self.szDropdownName, 22, 12, 300, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 			for j in range(gc.getMAX_PLAYERS()):
 				if (gc.getPlayer(j).isAlive()):
-					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName(), "ForeignAdvisor.debugDropdown"), j, j, False )
+					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName()), j, j, False )
 
 		CyInterface().setDirty(InterfaceDirtyBits.Foreign_Screen_DIRTY_BIT, False)
 		
@@ -210,7 +210,7 @@ class CvForeignAdvisor:
 
 			# Player panel
 			playerPanelName = self.getNextWidgetName()
-			screen.attachPanel(mainPanelName, playerPanelName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(iLoopPlayer).getName(), "ForeignAdvisor.activeDealsPanel"), "", False, True, PanelStyles.PANEL_STYLE_MAIN)
+			screen.attachPanel(mainPanelName, playerPanelName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(iLoopPlayer).getName()), "", False, True, PanelStyles.PANEL_STYLE_MAIN)
 
 			screen.attachLabel(playerPanelName, "", "   ")
 
@@ -246,7 +246,7 @@ class CvForeignAdvisor:
 
 		# Active player panel
 		activePlayerPanelName = self.getNextWidgetName()
-		szPlayerName = CvNetworkNameFix.fixNetworkPlayerName(playerActive.getName(), "ForeignAdvisor.possibleDealsActive")
+		szPlayerName = CvNetworkNameFix.fixNetworkPlayerName(playerActive.getName())
 		
 		if (gc.getTeam(playerActive.getTeam()).isGoldTrading() or gc.getTeam(playerSelected.getTeam()).isGoldTrading()):
 			if (self.iScreen == FOREIGN_BONUS_SCREEN):
@@ -314,7 +314,7 @@ class CvForeignAdvisor:
 			if (gc.getPlayer(iLoopPlayer).isAlive() and iLoopPlayer != self.iActiveLeader and (gc.getTeam(gc.getPlayer(iLoopPlayer).getTeam()).isHasMet(gc.getPlayer(self.iActiveLeader).getTeam()) or gc.getGame().isDebugMode()) and not gc.getPlayer(iLoopPlayer).isBarbarian() and not gc.getPlayer(iLoopPlayer).isMinorCiv()):
 
 				currentPlayerPanelName = self.getNextWidgetName()
-				szPlayerName = CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(iLoopPlayer).getName(), "ForeignAdvisor.possibleDealsOther")
+				szPlayerName = CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(iLoopPlayer).getName())
 				if (gc.getTeam(playerActive.getTeam()).isGoldTrading() or gc.getTeam(gc.getPlayer(iLoopPlayer).getTeam()).isGoldTrading()):
 					if (self.iScreen == FOREIGN_BONUS_SCREEN):
 						szPlayerName += u" : " + localText.getText("TXT_KEY_FOREIGN_ADVISOR_GOLD_PER_TURN_FOR_TRADE", (gc.getPlayer(iLoopPlayer).AI_maxGoldPerTurnTrade(self.iActiveLeader), ))
@@ -491,7 +491,7 @@ class CvForeignAdvisor:
 		else:
 			screen.setState(szLeaderHead, False)
 		szName = self.getNextWidgetName()
-		szLeaderName = u"<font=3>" + CvNetworkNameFix.fixNetworkPlayerName(playerActive.getName(), "ForeignAdvisor.relationsActive") + u"</font>"
+		szLeaderName = u"<font=3>" + CvNetworkNameFix.fixNetworkPlayerName(playerActive.getName()) + u"</font>"
 		screen.setLabel(szName, "", szLeaderName, CvUtil.FONT_CENTER_JUSTIFY, self.X_LEADER_CIRCLE_TOP, fLeaderTop + iLeaderHeight + 5, 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 
 				
@@ -524,7 +524,7 @@ class CvForeignAdvisor:
 				screen.setState(szLeaderHead, False)
 				
 			szName = self.getNextWidgetName()
-			szText = u"<font=3>" + CvNetworkNameFix.fixNetworkPlayerName(player.getName(), "ForeignAdvisor.relationsOther") + u"</font>"
+			szText = u"<font=3>" + CvNetworkNameFix.fixNetworkPlayerName(player.getName()) + u"</font>"
 			screen.setLabel(szName, "", szText, CvUtil.FONT_CENTER_JUSTIFY, fX + iLeaderWidth/2, fY + iLeaderHeight + 5, 0, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 
 			# Leader attitude towards active player

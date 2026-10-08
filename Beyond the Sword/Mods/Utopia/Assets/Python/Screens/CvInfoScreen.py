@@ -529,7 +529,7 @@ class CvInfoScreen:
 			screen.addDropDownBoxGFC(self.szDropdownName, 22, 12, 300, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 			for j in range(gc.getMAX_PLAYERS()):
 				if (gc.getPlayer(j).isAlive()):
-					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName(), "InfoScreen.debugDropdown"), j, j, False )
+					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName()), j, j, False )
 
 		self.iActivePlayer = CyGame().getActivePlayer()
 		self.pActivePlayer = gc.getPlayer(self.iActivePlayer)
@@ -881,7 +881,7 @@ class CvInfoScreen:
 		textColorG = gc.getPlayer(p).getPlayerTextColorG()
 		textColorB = gc.getPlayer(p).getPlayerTextColorB()
 		textColorA = gc.getPlayer(p).getPlayerTextColorA()
-		name = CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(p).getName(), "InfoScreen.legend")
+		name = CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(p).getName())
 
 		str = u"<color=%d,%d,%d,%d>%s</color>" %(textColorR,textColorG,textColorB,textColorA,name)
 
@@ -1920,7 +1920,7 @@ class CvInfoScreen:
 
 		# Leader Name
 		self.szLeaderNameWidget = self.getNextWidgetName()
-		szText = u"<font=4b>" + CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(self.iActivePlayer).getName(), "InfoScreen.leaderHeader") + u"</font>"
+		szText = u"<font=4b>" + CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(self.iActivePlayer).getName()) + u"</font>"
 		screen.setText(self.szLeaderNameWidget, "", szText, CvUtil.FONT_LEFT_JUSTIFY,
 			       self.X_LEADER_NAME, self.Y_LEADER_NAME, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 

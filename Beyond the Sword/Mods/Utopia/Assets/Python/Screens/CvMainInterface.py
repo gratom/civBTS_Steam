@@ -2817,7 +2817,7 @@ class CvMainInterface:
 											if (not (gc.getPlayer(ePlayer).isTurnActive())):
 												szBuffer = szBuffer + "*"
 
-										szPlayerName = fixNetworkPlayerName(gc.getPlayer(ePlayer).getName(), "Scoreboard") + u" [%d]" %(gc.getPlayer(ePlayer).getNumCities(),)
+										szPlayerName = fixNetworkPlayerName(gc.getPlayer(ePlayer).getName()) + u" [%d]" %(gc.getPlayer(ePlayer).getNumCities(),)
 										if (not CyInterface().isFlashingPlayer(ePlayer) or CyInterface().shouldFlash(ePlayer)):
 											if (ePlayer == gc.getGame().getActivePlayer()):
 												szTempBuffer = u"%d: [<color=%d,%d,%d,%d>%s</color>]" %(gc.getGame().getPlayerScore(ePlayer), gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(), szPlayerName)
@@ -2903,7 +2903,7 @@ class CvMainInterface:
 		if ( CyInterface().getShowInterface() == InterfaceVisibility.INTERFACE_HIDE_ALL ):
 			screen.setHelpTextString( "" )
 		else:
-			screen.setHelpTextString( CyInterface().getHelpString() )
+			screen.setHelpTextString( CvNetworkNameFix.fixEmbeddedPlayerNames(CyInterface().getHelpString()) )
 		
 		return 0
 		

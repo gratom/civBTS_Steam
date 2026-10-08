@@ -252,7 +252,7 @@ class CvExoticForeignAdvisor (CvForeignAdvisor.CvForeignAdvisor):
 			screen.addDropDownBoxGFC(self.szDropdownName, 22, 12, 300, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
 			for j in range(gc.getMAX_PLAYERS()):
 				if (gc.getPlayer(j).isAlive()):
-					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName(), "ExoticForeignAdvisor.debugDropdown"), j, j, False )
+					screen.addPullDownString(self.szDropdownName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(j).getName()), j, j, False )
 
 		CyInterface().setDirty(InterfaceDirtyBits.Foreign_Screen_DIRTY_BIT, False)
 		
@@ -318,7 +318,7 @@ class CvExoticForeignAdvisor (CvForeignAdvisor.CvForeignAdvisor):
 
 				# Player panel
 				playerPanelName = self.getNextWidgetName()
-				screen.attachPanel(mainPanelName, playerPanelName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(iLoopPlayer).getName(), "ExoticForeignAdvisor.panelTitle"), "", False, True, PanelStyles.PANEL_STYLE_MAIN)
+				screen.attachPanel(mainPanelName, playerPanelName, CvNetworkNameFix.fixNetworkPlayerName(gc.getPlayer(iLoopPlayer).getName()), "", False, True, PanelStyles.PANEL_STYLE_MAIN)
 
 				screen.attachImageButton(playerPanelName, "", objLeaderHead.getButton(), GenericButtonSizes.BUTTON_SIZE_CUSTOM, WidgetTypes.WIDGET_LEADERHEAD, iLoopPlayer, -1, False)
 						
@@ -721,7 +721,7 @@ class CvExoticForeignAdvisor (CvForeignAdvisor.CvForeignAdvisor):
 				if ( not activePlayer.canTradeNetworkWith(iLoopPlayer) ):
 					message = localText.getText("TXT_KEY_FOREIGN_ADVISOR_NOT_CONNECTED", ())
 				
-				self.resIconGrid.appendRow(CvNetworkNameFix.fixNetworkPlayerName(currentPlayer.getName(), "ExoticForeignAdvisor.resGrid"), message)
+				self.resIconGrid.appendRow(CvNetworkNameFix.fixNetworkPlayerName(currentPlayer.getName()), message)
 				self.resIconGrid.addIcon( currentRow, self.leaderCol
 										, gc.getLeaderHeadInfo(currentPlayer.getLeaderType()).getButton()
 										, WidgetTypes.WIDGET_LEADERHEAD, iLoopPlayer )
@@ -840,7 +840,7 @@ class CvExoticForeignAdvisor (CvForeignAdvisor.CvForeignAdvisor):
 				if ( not gc.getTeam(activePlayer.getTeam()).isTechTrading() and not gc.getTeam(currentPlayer.getTeam()).isTechTrading() ):
 					message = localText.getText("TXT_KEY_FOREIGN_ADVISOR_NO_TECH_TRADING", ())
 
-				self.techIconGrid.appendRow(CvNetworkNameFix.fixNetworkPlayerName(currentPlayer.getName(), "ExoticForeignAdvisor.techGrid"), message)
+				self.techIconGrid.appendRow(CvNetworkNameFix.fixNetworkPlayerName(currentPlayer.getName()), message)
 				self.techIconGrid.addIcon( currentRow, 0, gc.getLeaderHeadInfo(currentPlayer.getLeaderType()).getButton()
 										 , WidgetTypes.WIDGET_LEADERHEAD, iLoopPlayer )
 				
