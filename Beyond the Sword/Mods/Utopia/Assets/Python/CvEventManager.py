@@ -320,6 +320,11 @@ class CvEventManager:
 			CvAutoSpecialistManager.handleNetMessage(iData2, iData3, iData4, iData5)
 			return
 
+		import CvAutoGrowthManager
+		if (iData1 == CvAutoGrowthManager.MOD_MESSAGE_TOGGLE_GROWTH_FLAG):
+			CvAutoGrowthManager.handleNetMessage(iData2, iData3, iData4, iData5)
+			return
+
 		CvUtil.pyPrint( 'onModNetMessage' )
 
 	def onInit(self, argsList):
@@ -419,6 +424,9 @@ class CvEventManager:
 
 		import CvAutoSpecialistManager
 		CvAutoSpecialistManager.enforcePlayer(iPlayer)
+
+		import CvAutoGrowthManager
+		CvAutoGrowthManager.enforcePlayer(iPlayer)
 
 		self.doAIWildImprovements(iPlayer)
 

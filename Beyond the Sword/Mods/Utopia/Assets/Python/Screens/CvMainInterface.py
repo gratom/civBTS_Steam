@@ -7,6 +7,7 @@ import CvScreenEnums
 import CvEventInterface
 import CvNetworkNameFix
 import CvAutoSpecialistManager
+import CvAutoGrowthManager
 import time
 
 # globals
@@ -1863,9 +1864,11 @@ class CvMainInterface:
 		screen.hide( "PopulationText" )
 		screen.hide( "PopulationInputText" )
 		screen.hide( "HealthText" )
+		screen.hide( "ConsiderHealthButton" )
 		screen.hide( "ProductionText" )
 		screen.hide( "ProductionInputText" )
 		screen.hide( "HappinessText" )
+		screen.hide( "ConsiderHappyButton" )
 		screen.hide( "CultureText" )
 		screen.hide( "GreatPeopleText" )
 
@@ -2016,6 +2019,15 @@ class CvMainInterface:
 					screen.setLabel( "HealthText", "Background", szBuffer, CvUtil.FONT_LEFT_JUSTIFY, xResolution - iCityCenterRow1X + 6, iCityCenterRow1Y, -0.3, FontTypes.GAME_FONT, WidgetTypes.WIDGET_HELP_HEALTH, -1, -1 )
 					screen.show( "HealthText" )
 
+				if (pHeadSelectedCity.getOwner() == gc.getGame().getActivePlayer() or gc.getGame().isDebugMode()):
+					if (CvAutoGrowthManager.isConsiderHealth(pHeadSelectedCity)):
+						szTexture = "Art/Interface/Buttons/UI/AutoGrowEnabled.dds"
+					else:
+						szTexture = "Art/Interface/Buttons/UI/AutoGrowDisabled.dds"
+					screen.setImageButton( "ConsiderHealthButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow1Y - 4, 32, 32, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.show( "ConsiderHealthButton" )
+					screen.moveToFront( "ConsiderHealthButton" )
+
 				if (iFoodDifference < 0):
 
 					if ( pHeadSelectedCity.getFood() + iFoodDifference > 0 ):
@@ -2078,6 +2090,15 @@ class CvMainInterface:
 
 					screen.setLabel( "HappinessText", "Background", szBuffer, CvUtil.FONT_LEFT_JUSTIFY, xResolution - iCityCenterRow1X + 6, iCityCenterRow2Y, -0.3, FontTypes.GAME_FONT, WidgetTypes.WIDGET_HELP_HAPPINESS, -1, -1 )
 					screen.show( "HappinessText" )
+
+				if (pHeadSelectedCity.getOwner() == gc.getGame().getActivePlayer() or gc.getGame().isDebugMode()):
+					if (CvAutoGrowthManager.isConsiderHappy(pHeadSelectedCity)):
+						szTexture = "Art/Interface/Buttons/UI/AutoGrowEnabled.dds"
+					else:
+						szTexture = "Art/Interface/Buttons/UI/AutoGrowDisabled.dds"
+					screen.setImageButton( "ConsiderHappyButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow2Y - 4, 32, 32, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.show( "ConsiderHappyButton" )
+					screen.moveToFront( "ConsiderHappyButton" )
 
 				if (not(pHeadSelectedCity.isProductionProcess())):
 				
@@ -3184,7 +3205,19 @@ class CvMainInterface:
 				# so this stays correct in network multiplayer (see CvAutoSpecialistManager).
 				CvAutoSpecialistManager.requestToggle(pHeadSelectedCity, i)
 			return 1
-	
+
+		if inputClass.getFunctionName() == "ConsiderHealthButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			pHeadSelectedCity = CyInterface().getHeadSelectedCity()
+			if (pHeadSelectedCity and (pHeadSelectedCity.getOwner() == gc.getGame().getActivePlayer() or gc.getGame().isDebugMode())):
+				CvAutoGrowthManager.requestToggleHealth(pHeadSelectedCity)
+			return 1
+
+		if inputClass.getFunctionName() == "ConsiderHappyButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			pHeadSelectedCity = CyInterface().getHeadSelectedCity()
+			if (pHeadSelectedCity and (pHeadSelectedCity.getOwner() == gc.getGame().getActivePlayer() or gc.getGame().isDebugMode())):
+				CvAutoGrowthManager.requestToggleHappy(pHeadSelectedCity)
+			return 1
+
 	def update(self, fDelta):
 		return
 	
