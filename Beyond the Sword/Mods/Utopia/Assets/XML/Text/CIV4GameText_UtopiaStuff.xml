@@ -148,4 +148,13 @@
 		</Russian>
 		<English>Build a Railway Station in major trade cities after researching Steam Power to boost the number and income of trade routes. Coal nearby will speed up construction.</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_FREE_SPECIALISTS</Tag>
+		<Russian>
+			<Text>&#193;&#229;&#241;&#239;&#235;&#224;&#242;&#237;&#251;&#229;: %d1</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Free: %d1</English>
+	</TEXT>
 </Civ4GameText>

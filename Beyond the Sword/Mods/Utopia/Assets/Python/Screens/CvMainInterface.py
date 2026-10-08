@@ -1611,6 +1611,8 @@ class CvMainInterface:
 				szName = "CitizenButtonHighlight" + str((i * 100) + j)
 				screen.hide( szName )
 
+		screen.hide( "FreeSpecialistsText" )
+
 		pHeadSelectedCity = CyInterface().getHeadSelectedCity()
 
 		if ( CyInterface().isCityScreenUp() ):
@@ -1707,6 +1709,14 @@ class CvMainInterface:
 					if ( not bHandled ):
 						szName = "CitizenDisabledButton" + str(i)
 						screen.show( szName )
+
+				iTotalFreeSpecialists = pHeadSelectedCity.totalFreeSpecialists()
+				if (iTotalFreeSpecialists > 0):
+					szOutText = localText.getText("TXT_KEY_UTOPIA_FREE_SPECIALISTS", (iTotalFreeSpecialists,))
+					screen.setLabel( "FreeSpecialistsText", "Background", szOutText, CvUtil.FONT_RIGHT_JUSTIFY, xResolution - 4, yResolution - 246, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.show( "FreeSpecialistsText" )
+				else:
+					screen.hide( "FreeSpecialistsText" )
 
 		return 0
 			
