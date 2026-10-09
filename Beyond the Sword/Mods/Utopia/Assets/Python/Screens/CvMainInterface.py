@@ -26,6 +26,9 @@ g_NumProjectInfos = 0
 g_NumProcessInfos = 0
 g_NumActionInfos = 0
 g_eEndTurnButtonState = -1
+g_bShowEspionageInfo = True
+ESPIONAGE_TOGGLE_ICON_OFF = "Art/Interface/Buttons/TechTree/espionage.dds"
+ESPIONAGE_TOGGLE_ICON_ON = "Art/Interface/Buttons/TechTree/espionageEnabled.dds"
 
 MAX_SELECTED_TEXT = 5
 MAX_DISPLAYABLE_BUILDINGS = 15
@@ -2811,6 +2814,8 @@ class CvMainInterface:
 		for i in range( gc.getMAX_PLAYERS() ):
 			szName = "ScoreText" + str(i)
 			screen.hide( szName )
+			szEspName = "ScoreTextEsp" + str(i)
+			screen.hide( szEspName )
 
 		iWidth = 0
 		iCount = 0
@@ -2818,6 +2823,10 @@ class CvMainInterface:
 		
 		if ((CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY)):
 			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyEngine().isGlobeviewUp() == false):
+
+				iOurProduction = gc.getPlayer(gc.getGame().getActivePlayer()).calculateTotalYield(YieldTypes.YIELD_PRODUCTION)
+				iOurScience = gc.getPlayer(gc.getGame().getActivePlayer()).calculateResearchRate(-1)
+				iOurPower = gc.getPlayer(gc.getGame().getActivePlayer()).getPower()
 
 				i = gc.getMAX_CIV_TEAMS() - 1
 				while (i > -1):
@@ -2878,11 +2887,50 @@ class CvMainInterface:
 											if (gc.getEspionageMissionInfo(iMissionLoop).isSeeResearch()):
 												bEspionageCanSeeResearch = gc.getPlayer(gc.getGame().getActivePlayer()).canDoEspionageMission(iMissionLoop, ePlayer, None, -1)
 												break
-										
-										if (((gc.getPlayer(ePlayer).getTeam() == gc.getGame().getActiveTeam()) and (gc.getTeam(gc.getGame().getActiveTeam()).getNumMembers() > 1)) or (gc.getTeam(gc.getPlayer(ePlayer).getTeam()).isVassal(gc.getGame().getActiveTeam())) or gc.getGame().isDebugMode() or bEspionageCanSeeResearch):
-											if (gc.getPlayer(ePlayer).getCurrentResearch() != -1):
-												szTempBuffer = u"-%s (%d)" %(gc.getTechInfo(gc.getPlayer(ePlayer).getCurrentResearch()).getDescription(), gc.getPlayer(ePlayer).getResearchTurnsLeft(gc.getPlayer(ePlayer).getCurrentResearch(), True))
-												szBuffer = szBuffer + szTempBuffer
+
+										bEspionageCanSeePower = false
+										for iMissionLoop in range(gc.getNumEspionageMissionInfos()):
+											if (gc.getEspionageMissionInfo(iMissionLoop).isSeeDemographics()):
+												bEspionageCanSeePower = gc.getPlayer(gc.getGame().getActivePlayer()).canDoEspionageMission(iMissionLoop, ePlayer, None, -1)
+												break
+
+										bTeamVisible = (((gc.getPlayer(ePlayer).getTeam() == gc.getGame().getActiveTeam()) and (gc.getTeam(gc.getGame().getActiveTeam()).getNumMembers() > 1)) or (gc.getTeam(gc.getPlayer(ePlayer).getTeam()).isVassal(gc.getGame().getActiveTeam())) or gc.getGame().isDebugMode())
+
+										bHasEspLine = False
+										szEspBuffer = u""
+										if (g_bShowEspionageInfo and (bTeamVisible or bEspionageCanSeeResearch or bEspionageCanSeePower)):
+											szEspInner = u""
+											if ((bTeamVisible or bEspionageCanSeeResearch) and gc.getPlayer(ePlayer).getCurrentResearch() != -1):
+												iTheirProduction = gc.getPlayer(ePlayer).calculateTotalYield(YieldTypes.YIELD_PRODUCTION)
+												iTheirScience = gc.getPlayer(ePlayer).calculateResearchRate(-1)
+												if (iOurProduction > 0):
+													iProductionPercent = (iTheirProduction * 100) / iOurProduction
+												else:
+													iProductionPercent = 0
+												if (iOurScience > 0):
+													iSciencePercent = (iTheirScience * 100) / iOurScience
+												else:
+													iSciencePercent = 0
+												szEspInner = szEspInner + u"-%s (%d) %c%d/%d%% %c%d/%d%%" %(
+													gc.getTechInfo(gc.getPlayer(ePlayer).getCurrentResearch()).getDescription(), gc.getPlayer(ePlayer).getResearchTurnsLeft(gc.getPlayer(ePlayer).getCurrentResearch(), True),
+													gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar(), iTheirProduction, iProductionPercent,
+													gc.getCommerceInfo(CommerceTypes.COMMERCE_RESEARCH).getChar(), iTheirScience, iSciencePercent)
+
+											if (bTeamVisible or bEspionageCanSeePower):
+												iTheirPower = gc.getPlayer(ePlayer).getPower()
+												if (iOurPower > 0):
+													iPowerPercent = (iTheirPower * 100) / iOurPower
+												else:
+													iPowerPercent = 0
+												if (len(szEspInner) > 0):
+													szEspInner = szEspInner + u" "
+												szEspInner = szEspInner + u"%c%d/%d (%d%%)" %(CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR), iTheirPower, iOurPower, iPowerPercent)
+
+											if (len(szEspInner) > 0):
+												szEspBuffer = u"<font=2><color=%d,%d,%d,%d>%s</color></font>" %(
+													gc.getPlayer(ePlayer).getPlayerTextColorR(), gc.getPlayer(ePlayer).getPlayerTextColorG(), gc.getPlayer(ePlayer).getPlayerTextColorB(), gc.getPlayer(ePlayer).getPlayerTextColorA(),
+													szEspInner)
+												bHasEspLine = True
 										if (CyGame().isNetworkMultiPlayer()):
 											szBuffer = szBuffer + CyGameTextMgr().getNetStats(ePlayer)
 											
@@ -2895,14 +2943,26 @@ class CvMainInterface:
 										if ( CyInterface().determineWidth( szBuffer ) > iWidth ):
 											iWidth = CyInterface().determineWidth( szBuffer )
 
-										szName = "ScoreText" + str(ePlayer)
 										if ( CyInterface().getShowInterface() == InterfaceVisibility.INTERFACE_SHOW or CyInterface().isInAdvancedStart()):
 											yCoord = yResolution - 206
 										else:
 											yCoord = yResolution - 88
+
+										# The panel stacks upward from the bottom, so a later (higher) iCount
+										# lands higher on screen - place the espionage line first at the
+										# current iCount so it ends up below the civ/name line.
+										if (bHasEspLine):
+											if ( CyInterface().determineWidth( szEspBuffer ) > iWidth ):
+												iWidth = CyInterface().determineWidth( szEspBuffer )
+											szEspName = "ScoreTextEsp" + str(ePlayer)
+											screen.setText( szEspName, "Background", szEspBuffer, CvUtil.FONT_RIGHT_JUSTIFY, xResolution - 12, yCoord - (iCount * iBtnHeight), -0.3, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+											screen.show( szEspName )
+											iCount = iCount + 1
+
+										szName = "ScoreText" + str(ePlayer)
 										screen.setText( szName, "Background", szBuffer, CvUtil.FONT_RIGHT_JUSTIFY, xResolution - 12, yCoord - (iCount * iBtnHeight), -0.3, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_CONTACT_CIV, ePlayer, -1 )
 										screen.show( szName )
-										
+
 										CyInterface().checkFlashReset(ePlayer)
 
 										iCount = iCount + 1
@@ -3157,7 +3217,7 @@ class CvMainInterface:
 		if ( CyInterface().isCityScreenUp() ):
 			bVisible = False
 		
-		kMainButtons = ["UnitIcons", "Grid", "BareMap", "Yields", "ScoresVisible", "ResourceIcons"]
+		kMainButtons = ["UnitIcons", "Grid", "BareMap", "Yields", "ScoresVisible", "ResourceIcons", "EspionageInfoToggle"]
 		kGlobeButtons = []
 		for i in range(kGLM.getNumLayers()):
 			szButtonID = "GlobeLayer" + str(i)
@@ -3260,6 +3320,13 @@ class CvMainInterface:
 		screen.setStyle( "ResourceIcons", "Button_HUDBtnResources_Style" )
 		screen.setState( "ResourceIcons", False )
 		screen.hide( "ResourceIcons" )
+
+		if g_bShowEspionageInfo:
+			szEspionageIcon = ESPIONAGE_TOGGLE_ICON_ON
+		else:
+			szEspionageIcon = ESPIONAGE_TOGGLE_ICON_OFF
+		screen.setImageButton( "EspionageInfoToggle", szEspionageIcon, 0, 0, 28, 28, WidgetTypes.WIDGET_GENERAL, 778, -1 )
+		screen.hide( "EspionageInfoToggle" )
 		
 		screen.addCheckBoxGFC( "GlobeToggle", "", "", -1, -1, 36, 36, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_GLOBELAYER).getActionInfoIndex(), -1, ButtonStyles.BUTTON_STYLE_LABEL )
 		screen.setStyle( "GlobeToggle", "Button_HUDZoom_Style" )
@@ -3271,6 +3338,19 @@ class CvMainInterface:
 		if inputClass.getFunctionName() == "ClimateAdvisorButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
 			import ClimatManager
 			ClimatManager.showClimatePopup()
+			return 1
+
+		if inputClass.getFunctionName() == "EspionageInfoToggle" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			global g_bShowEspionageInfo
+			g_bShowEspionageInfo = not g_bShowEspionageInfo
+			screen = CyGInterfaceScreen( "MainInterface", CvScreenEnums.MAIN_INTERFACE )
+			if g_bShowEspionageInfo:
+				szEspionageIcon = ESPIONAGE_TOGGLE_ICON_ON
+			else:
+				szEspionageIcon = ESPIONAGE_TOGGLE_ICON_OFF
+			screen.setImageButton( "EspionageInfoToggle", szEspionageIcon, 0, 0, 28, 28, WidgetTypes.WIDGET_GENERAL, 778, -1 )
+			self.setMinimapButtonVisibility(True)
+			CyInterface().setDirty(InterfaceDirtyBits.Score_DIRTY_BIT, True)
 			return 1
 
 		# NB: GFC strips the trailing digits off a widget's name and reports them
