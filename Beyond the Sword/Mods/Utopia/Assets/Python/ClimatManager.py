@@ -4,15 +4,50 @@ import CvUtil
 gc = CyGlobalContext()
 
 # ---- Параметры баланса климатического клеточного автомата ----
-CLIMATE_TILES_PER_TURN = 50            # сколько случайных клеток суши проверяем за ход
-CLIMATE_SHIFT_CHANCE_PERCENT = 20      # шанс (%), что подходящая клетка реально сменит террейн
-CLIMATE_VEGETATION_NEIGHBOR_THRESHOLD = 2  # сколько соседних лесов/джунглей считается "достаточно" для озеленения
-CLIMATE_DESERT_LATITUDE = 65           # |широта| меньше этого - равнина без леса сохнет в пустыню, иначе в тундру
-CLIMATE_MIN_LAND_NEIGHBORS = 3         # меньше соседей-суши - клетка на одиноком острове, климат не трогаем
-CLIMATE_SPREAD_NEIGHBOR_THRESHOLD = 2  # дальше равнины (пустыня/тундра/лёд) ползёт только от уже готовых соседей такого же типа
-CLIMATE_LAND_PICK_ATTEMPTS = 8         # попыток найти клетку суши на один слот (техническая настройка, не баланс)
-CLIMATE_FOREST_SPREAD_CHANCE_PERCENT = 2  # % за каждого соседа того же террейна с лесом (итог = это * кол-во соседей)
-CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT = 3  # % за каждого соседа того же террейна с джунглями
+CLIMATE_TILES_PER_TURN_MIN = 30        # минимум случайных клеток суши, проверяемых за ход
+CLIMATE_TILES_PER_TURN_MAX = 70        # максимум случайных клеток суши, проверяемых за ход
+CLIMATE_GREEN_WATER_THRESHOLD = 2      # сколько источников воды рядом нужно, чтобы клетка могла зазеленеть
+CLIMATE_GREEN_CHANCE_PER_SOURCE_PERCENT = 3  # % за каждый источник воды (итог = это * кол-во источников)
+CLIMATE_DESERT_CHANCE_PERCENT = 15     # плоский шанс (%) опустынивания/заморозки, если условие выполнено
+CLIMATE_DESERT_LATITUDE = 65           # |широта| меньше этого - равнина без воды сохнет в пустыню, иначе в тундру
+CLIMATE_MIN_LAND_NEIGHBORS = 4         # меньше соседей-суши - клетка на одиноком острове, опустыниваться не может
+CLIMATE_FOREST_SPREAD_CHANCE_PERCENT = 2  # % за каждого подходящего соседа с лесом (итог = это * кол-во соседей)
+CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT = 3  # % за каждого подходящего соседа с джунглями
+
+# Улучшения, при которых клетка точно не может зазеленеть (но может опустыниться)
+CLIMATE_NEVER_GREEN_IMPROVEMENTS = [
+    "IMPROVEMENT_CITY_RUINS",
+    "IMPROVEMENT_CITY_RUINS_ARCOLOGY",
+    "IMPROVEMENT_MINE",
+    "IMPROVEMENT_EXTRACTION_FACILITY",
+    "IMPROVEMENT_WORKSHOP",
+    "IMPROVEMENT_QUARRY",
+    "IMPROVEMENT_GLASSBLOWING",
+    "IMPROVEMENT_WELL",
+    "IMPROVEMENT_VILLAGE",
+    "IMPROVEMENT_TOWN",
+]
+
+# Кэш индексов клеток суши - считается один раз за сессию (initLandPlotsCache,
+# вызывается из onGameStart/onLoadGame), чтобы не промахиваться по воде каждый раз.
+_landPlotIndices = []
+
+def initLandPlotsCache():
+    global _landPlotIndices
+    mapObj = CyMap()
+    totalPlots = mapObj.numPlots()
+    iOasis = gc.getInfoTypeForString("FEATURE_OASIS")
+
+    _landPlotIndices = []
+    for i in range(totalPlots):
+        plot = mapObj.plotByIndex(i)
+        if plot.isWater():
+            continue
+        if plot.isPeak():
+            continue  # горы - террейн под ними климат не меняет, нет смысла проверять
+        if plot.getFeatureType() == iOasis:
+            continue  # оазис - feature, которая никогда не меняется климатом
+        _landPlotIndices.append(i)
 
 def showClimatePopup():
     CvUtil.pyPrint('ClimateManager: popup called')
@@ -123,15 +158,29 @@ def showClimatePopup():
 
     CvUtil.pyPrint('ClimateManager: Full analytics popup displayed successfully.')
     
-def _scanNeighbors(plot, iOwnTerrain, iForest, iJungle, iDesert, iTundra, iSnow):
-    # Один проход по 8 соседям сразу считает сушу, растительность (лес/джунгли),
-    # уже существующие "заразные" террейны (пустыня/тундра/лёд) и соседей с лесом/
-    # джунглями ТОГО ЖЕ террейна, что и наша клетка (для распространения растительности).
+def _aridityTier(terrain, iPlains, iDesert, iTundra, iSnow):
+    # Шкала "зелёности" для сравнения террейнов: 0 - самый зелёный (луга и всё
+    # остальное, что не входит в цепочку), дальше суше/холоднее по возрастанию.
+    if terrain == iSnow:
+        return 3
+    if terrain == iDesert or terrain == iTundra:
+        return 2
+    if terrain == iPlains:
+        return 1
+    return 0
+
+def _scanNeighbors(plot, iOwnTerrain, iOwnTier, iForest, iJungle, iForestPreserve, iPlains, iDesert, iTundra, iSnow):
+    # Один проход по 8 соседям считает:
+    # - сушу (защита одиноких островов от опустынивания);
+    # - источники воды (гора/река/лес-джунгли, лес+заповедник = 2) - независимые,
+    #   складываются с одной и той же клетки-соседа;
+    # - самый "сухой" уровень среди соседей-суши (граница, выше которой клетка
+    #   не опустынится за один проход, даже если условие выполнено);
+    # - соседей с лесом/джунглями того же террейна ИЛИ террейна суше/холоднее
+    #   нашего (для распространения растительности на лучшую почву).
     iLandCount = 0
-    iVegCount = 0
-    iDesertCount = 0
-    iTundraCount = 0
-    iSnowCount = 0
+    iWaterSources = 0
+    iMaxNeighborTier = -1
     iMatchingForestCount = 0
     iMatchingJungleCount = 0
     iX = plot.getX()
@@ -143,103 +192,150 @@ def _scanNeighbors(plot, iOwnTerrain, iForest, iJungle, iDesert, iTundra, iSnow)
             neighborPlot = plotXY(iX, iY, iDX, iDY)
             if not neighborPlot or neighborPlot.isNone():
                 continue
+
+            feature = neighborPlot.getFeatureType()
+            bHasForest = (feature == iForest)
+            bHasJungle = (feature == iJungle)
+
+            if neighborPlot.isPeak():
+                iWaterSources += 1
+            if neighborPlot.isRiver():
+                iWaterSources += 1
+            if bHasForest or bHasJungle:
+                iWaterSources += 1
+                if neighborPlot.getImprovementType() == iForestPreserve:
+                    iWaterSources += 1
+
             if neighborPlot.isWater():
                 continue
-            iLandCount += 1
-            feature = neighborPlot.getFeatureType()
-            if feature == iForest or feature == iJungle:
-                iVegCount += 1
-            neighborTerrain = neighborPlot.getTerrainType()
-            if neighborTerrain == iDesert:
-                iDesertCount += 1
-            elif neighborTerrain == iTundra:
-                iTundraCount += 1
-            elif neighborTerrain == iSnow:
-                iSnowCount += 1
-            if neighborTerrain == iOwnTerrain:
-                if feature == iForest:
-                    iMatchingForestCount += 1
-                elif feature == iJungle:
-                    iMatchingJungleCount += 1
-    return (iLandCount, iVegCount, iDesertCount, iTundraCount, iSnowCount, iMatchingForestCount, iMatchingJungleCount)
 
-def _pickRandomLandPlot(mapObj, totalPlots):
+            iLandCount += 1
+
+            if neighborPlot.isPeak():
+                continue  # гора не входит в цепочку террейнов - не считаем её "уровень"
+
+            neighborTerrain = neighborPlot.getTerrainType()
+            iNeighborTier = _aridityTier(neighborTerrain, iPlains, iDesert, iTundra, iSnow)
+            if iNeighborTier > iMaxNeighborTier:
+                iMaxNeighborTier = iNeighborTier
+
+            if neighborTerrain == iOwnTerrain or iNeighborTier > iOwnTier:
+                if bHasForest:
+                    iMatchingForestCount += 1
+                elif bHasJungle:
+                    iMatchingJungleCount += 1
+
+    return (iLandCount, iWaterSources, iMaxNeighborTier, iMatchingForestCount, iMatchingJungleCount)
+
+def _pickRandomLandPlot(mapObj):
     # SorenRand - синхронный РНГ движка, одинаковый у всех клиентов в мультиплеере.
     # Обычный Python random() тут недопустим - приведёт к рассинхрону карты.
-    for i in range(CLIMATE_LAND_PICK_ATTEMPTS):
-        iIndex = gc.getGame().getSorenRandNum(totalPlots, "Climate: pick random plot")
-        plot = mapObj.plotByIndex(iIndex)
-        if not plot.isWater():
-            return plot
-    return None
+    # Берём индекс только из кэша суши - промахов по воде больше нет.
+    if len(_landPlotIndices) == 0:
+        return None
+    iIndex = _landPlotIndices[gc.getGame().getSorenRandNum(len(_landPlotIndices), "Climate: pick random land plot")]
+    return mapObj.plotByIndex(iIndex)
 
 def processClimateShift():
     mapObj = CyMap()
-    totalPlots = mapObj.numPlots()
-    if totalPlots == 0:
+    if len(_landPlotIndices) == 0:
         return
 
     iForest = gc.getInfoTypeForString("FEATURE_FOREST")
     iJungle = gc.getInfoTypeForString("FEATURE_JUNGLE")
+    iFloodPlains = gc.getInfoTypeForString("FEATURE_FLOOD_PLAINS")
+    iForestPreserve = gc.getInfoTypeForString("IMPROVEMENT_FOREST_PRESERVE")
     iDesert = gc.getInfoTypeForString("TERRAIN_DESERT")
     iPlains = gc.getInfoTypeForString("TERRAIN_PLAINS")
     iGrass = gc.getInfoTypeForString("TERRAIN_GRASS")
     iTundra = gc.getInfoTypeForString("TERRAIN_TUNDRA")
     iSnow = gc.getInfoTypeForString("TERRAIN_SNOW")
 
-    for i in range(CLIMATE_TILES_PER_TURN):
-        plot = _pickRandomLandPlot(mapObj, totalPlots)
+    listNeverGreenImprovements = [gc.getInfoTypeForString(szType) for szType in CLIMATE_NEVER_GREEN_IMPROVEMENTS]
+
+    iRange = CLIMATE_TILES_PER_TURN_MAX - CLIMATE_TILES_PER_TURN_MIN
+    iTilesThisTurn = CLIMATE_TILES_PER_TURN_MIN + gc.getGame().getSorenRandNum(iRange + 1, "Climate: tiles to check this turn")
+
+    for i in range(iTilesThisTurn):
+        plot = _pickRandomLandPlot(mapObj)
         if plot is None:
             continue
 
-        # Лес/джунгли (или оазис/т.п.) на самой клетке "консервируют" её террейн
-        if plot.getFeatureType() != FeatureTypes.NO_FEATURE:
+        feature = plot.getFeatureType()
+
+        # Пойму и полноценный город (не городок-улучшение) климат не трогает вообще
+        if feature == iFloodPlains or plot.isCity():
             continue
 
         terrain = plot.getTerrainType()
-        (iLandNeighbors, iVegNeighbors, iDesertNeighbors, iTundraNeighbors, iSnowNeighbors,
-         iMatchingForestNeighbors, iMatchingJungleNeighbors) = _scanNeighbors(plot, terrain, iForest, iJungle, iDesert, iTundra, iSnow)
-        if iLandNeighbors < CLIMATE_MIN_LAND_NEIGHBORS:
-            continue  # одинокий остров - климат его не трогает
+        iOwnTier = _aridityTier(terrain, iPlains, iDesert, iTundra, iSnow)
+        bHasVegetation = (feature == iForest or feature == iJungle)
+        bBlockedFromGreening = plot.getImprovementType() in listNeverGreenImprovements
+
+        (iLandNeighbors, iWaterSources, iMaxNeighborTier,
+         iMatchingForestNeighbors, iMatchingJungleNeighbors) = _scanNeighbors(
+            plot, terrain, iOwnTier, iForest, iJungle, iForestPreserve, iPlains, iDesert, iTundra, iSnow)
+
+        # Лес/джунгли на клетке - защита от опустынивания (но не от озеленения).
+        # Остров (< CLIMATE_MIN_LAND_NEIGHBORS соседей-суши) - та же защита.
+        bCanDesertify = (not bHasVegetation) and (iLandNeighbors >= CLIMATE_MIN_LAND_NEIGHBORS)
+        bCanGreen = not bBlockedFromGreening
 
         iNewTerrain = -1
 
-        if iVegNeighbors >= CLIMATE_VEGETATION_NEIGHBOR_THRESHOLD:
-            # Лес/джунгли рядом - клетка "зеленеет"
-            if terrain == iDesert:
-                iNewTerrain = iPlains
-            elif terrain == iPlains:
-                iNewTerrain = iGrass
-            elif terrain == iSnow:
-                iNewTerrain = iTundra
-            elif terrain == iTundra:
-                iNewTerrain = iPlains
-        elif iVegNeighbors == 0:
-            # Растительности рядом нет - клетка деградирует.
-            # До равнины опустынивание/заморозка идёт свободно, а дальше (в пустыню,
-            # тундру или лёд) - только если рядом уже есть минимум 2 таких соседа,
-            # иначе это выглядело бы как пустыня/тундра/лёд "из ниоткуда".
+        if bCanDesertify and iWaterSources == 0:
+            # Источников воды рядом нет вообще - клетка сохнет/мёрзнет на шаг,
+            # но не дальше уровня самого "сухого" соседа рядом (без скачков в никуда).
+            iTargetTerrain = -1
+            iTargetTier = -1
             if terrain == iGrass:
-                iNewTerrain = iPlains
+                iTargetTerrain = iPlains
+                iTargetTier = 1
             elif terrain == iPlains:
                 if abs(plot.getLatitude()) < CLIMATE_DESERT_LATITUDE:
-                    if iDesertNeighbors >= CLIMATE_SPREAD_NEIGHBOR_THRESHOLD:
-                        iNewTerrain = iDesert
+                    iTargetTerrain = iDesert
                 else:
-                    if iTundraNeighbors >= CLIMATE_SPREAD_NEIGHBOR_THRESHOLD:
-                        iNewTerrain = iTundra
+                    iTargetTerrain = iTundra
+                iTargetTier = 2
             elif terrain == iTundra:
-                if iSnowNeighbors >= CLIMATE_SPREAD_NEIGHBOR_THRESHOLD:
-                    iNewTerrain = iSnow
+                iTargetTerrain = iSnow
+                iTargetTier = 3
 
-        if iNewTerrain != -1 and iNewTerrain != terrain:
-            if gc.getGame().getSorenRandNum(100, "Climate: terrain shift roll") < CLIMATE_SHIFT_CHANCE_PERCENT:
-                plot.setTerrainType(iNewTerrain, True, True) # True аргументы обновляют графику и карту
-                continue  # смена террейна - растительность на эту клетку в этот проход не распространяем
+            if iTargetTerrain != -1 and iMaxNeighborTier >= iTargetTier:
+                if gc.getGame().getSorenRandNum(100, "Climate: desertify roll") < CLIMATE_DESERT_CHANCE_PERCENT:
+                    iNewTerrain = iTargetTerrain
 
-        # Распространение растительности: лес/джунгли могут "перепрыгнуть" на соседнюю
-        # клетку ТОГО ЖЕ террейна (тундра рядом с тундрой, равнина рядом с равниной и т.д.).
-        # Шанс = базовый % * количество таких соседей, лес и джунгли считаются отдельно.
+        elif bCanGreen and iWaterSources >= CLIMATE_GREEN_WATER_THRESHOLD:
+            # Источников воды рядом достаточно - клетка зеленеет на шаг.
+            # Шанс растёт с количеством источников (каждый добавляет свой %).
+            iTargetTerrain = -1
+            if terrain == iDesert:
+                iTargetTerrain = iPlains
+            elif terrain == iPlains:
+                iTargetTerrain = iGrass
+            elif terrain == iSnow:
+                iTargetTerrain = iTundra
+            elif terrain == iTundra:
+                iTargetTerrain = iPlains
+
+            if iTargetTerrain != -1:
+                iChance = iWaterSources * CLIMATE_GREEN_CHANCE_PER_SOURCE_PERCENT
+                if gc.getGame().getSorenRandNum(100, "Climate: green roll") < iChance:
+                    iNewTerrain = iTargetTerrain
+
+        if iNewTerrain != -1:
+            plot.setTerrainType(iNewTerrain, True, True) # True аргументы обновляют графику и карту
+            continue  # смена террейна - растительность на эту клетку в этот проход не распространяем
+
+        # Распространение растительности - только на клетку без feature (пойма/
+        # город уже отфильтрованы выше, лес/джунгли сюда просто не доходят, т.к.
+        # terrain-переход выше уже случился бы раньше через continue).
+        if feature != FeatureTypes.NO_FEATURE:
+            continue
+
+        # Лес/джунгли могут "перепрыгнуть" на соседнюю клетку того же террейна ИЛИ
+        # террейна суше/холоднее нашего (переселяются на почву не хуже своей).
+        # Шанс = базовый % * количество таких соседей, лес и джунгли - отдельно.
         if iMatchingForestNeighbors > 0:
             iForestChance = CLIMATE_FOREST_SPREAD_CHANCE_PERCENT * iMatchingForestNeighbors
             if gc.getGame().getSorenRandNum(100, "Climate: forest spread roll") < iForestChance:

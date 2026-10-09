@@ -356,12 +356,14 @@ class CvEventManager:
 
 	def onLoadGame(self, argsList):
 		CvAdvisorUtils.resetNoLiberateCities()
+		ClimatManager.initLandPlotsCache()
 		return 0
 
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
 
 		self.initScriptData()
+		ClimatManager.initLandPlotsCache()
 
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
 			for iPlayer in range(gc.getMAX_PLAYERS()):

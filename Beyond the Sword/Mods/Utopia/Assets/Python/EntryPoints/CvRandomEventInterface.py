@@ -1115,7 +1115,7 @@ def canTriggerDustbowl(argsList):
 	kTriggeredData = argsList[0]
 
 	iVegNeighbors = _countVegetationNeighbors(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
-	return iVegNeighbors < ClimatManager.CLIMATE_VEGETATION_NEIGHBOR_THRESHOLD
+	return iVegNeighbors < ClimatManager.CLIMATE_GREEN_WATER_THRESHOLD
 
 def canTriggerDustbowlCont(argsList):
 	kTriggeredData = argsList[0]
@@ -1138,7 +1138,7 @@ def canTriggerDustbowlCont(argsList):
 		plot = map.plotByIndex(i)
 		if (plot.getOwner() == kTriggeredData.ePlayer and plot.getImprovementType() == iFarmType and plot.getTerrainType() == iPlainsType):
 			# Лес/джунгли рядом защищают эту ферму - ищем следующую незащищённую
-			if _countVegetationNeighbors(plot.getX(), plot.getY()) >= ClimatManager.CLIMATE_VEGETATION_NEIGHBOR_THRESHOLD:
+			if _countVegetationNeighbors(plot.getX(), plot.getY()) >= ClimatManager.CLIMATE_GREEN_WATER_THRESHOLD:
 				continue
 			iValue = plotDistance(kOrigTriggeredData.iPlotX, kOrigTriggeredData.iPlotY, plot.getX(), plot.getY())
 			if iValue < iBestValue:
