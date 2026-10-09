@@ -11,6 +11,51 @@
 		<English>Espionage</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_HOVER_HAPPY</Tag>
+		<Russian>
+			<Text>&#196;&#238;&#226;&#238;&#235;&#252;&#237;&#251;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Russian>
+		<English>Happy</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_HOVER_HEALTHY</Tag>
+		<Russian>
+			<Text>&#199;&#228;&#238;&#240;&#238;&#226;&#251;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Russian>
+		<English>Healthy</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_STARVE_TURNS</Tag>
+		<Russian>
+			<Text>&#195;&#238;&#235;&#238;&#228;: %d1 [NUM1:&#245;&#238;&#228;:&#245;&#238;&#228;&#238;&#226;]</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Starving: %d1 [NUM1:Turn:Turns]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_TURN_SHORT</Tag>
+		<Russian>
+			<Text>&#245;&#238;&#228;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>turn</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_GROWTH_LOCKED</Tag>
+		<Russian>
+			<Text>&#208;&#238;&#241;&#242;: &#225;&#235;&#238;&#234;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Growth: locked</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_PROCESS_ESPIONAGE_STRATEGY</Tag>
 		<Russian>
 			<Text>&#207;&#229;&#240;&#229;&#226;&#238;&#228;&#232;&#242; &#247;&#224;&#241;&#242;&#252; &#239;&#240;&#238;&#232;&#231;&#226;&#238;&#228;&#241;&#242;&#226;&#224; &#227;&#238;&#240;&#238;&#228;&#224; &#226; &#238;&#247;&#234;&#232; &#248;&#239;&#232;&#238;&#237;&#224;&#230;&#224;.</Text>

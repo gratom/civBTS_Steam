@@ -2924,8 +2924,87 @@ class CvMainInterface:
 		if ( CyInterface().getShowInterface() == InterfaceVisibility.INTERFACE_HIDE_ALL ):
 			screen.setHelpTextString( "" )
 		else:
-			screen.setHelpTextString( CvNetworkNameFix.fixEmbeddedPlayerNames(CyInterface().getHelpString()) )
-		
+			szHelpString = CvNetworkNameFix.fixEmbeddedPlayerNames(CyInterface().getHelpString())
+
+			try:
+				pMouseOverPlot = CyInterface().getMouseOverPlot()
+				if (pMouseOverPlot and pMouseOverPlot.isCity()):
+					pCity = pMouseOverPlot.getPlotCity()
+					if (pCity):
+						cHappy = CyGame().getSymbolID(FontSymbols.HAPPY_CHAR)
+						cHealthy = CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR)
+						cFood = gc.getYieldInfo(YieldTypes.YIELD_FOOD).getChar()
+						cHammer = gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()
+
+						def netColor(iNet):
+							if (iNet > 0):
+								return u"<color=0,255,0>"
+							elif (iNet == 0):
+								return u"<color=255,255,0>"
+							else:
+								return u"<color=255,0,0>"
+
+						# Happy: unhappy/happy (net available)
+						iHappy = pCity.happyLevel()
+						iUnhappy = pCity.unhappyLevel(0)
+						iNetHappy = iHappy - iUnhappy
+						szHappyLine = netColor(iNetHappy) + u"%c %d/%d (%d)</color>" %(cHappy, iUnhappy, iHappy, iNetHappy)
+
+						# Healthy: unhealthy/healthy (net available)
+						iHealthy = pCity.goodHealth()
+						iUnhealthy = pCity.badHealth(False)
+						iNetHealthy = iHealthy - iUnhealthy
+						szHealthyLine = netColor(iNetHealthy) + u"%c %d/%d (%d)</color>" %(cHealthy, iUnhealthy, iHealthy, iNetHealthy)
+
+						# Food: consumption/total (surplus/turn, growth status)
+						iFoodTotal = pCity.getYieldRate(YieldTypes.YIELD_FOOD)
+						iFoodConsumption = pCity.foodConsumption(False, 0)
+						iFoodDifference = pCity.foodDifference(True)
+
+						iAvoidGrowthEmphasize = gc.getInfoTypeForString("EMPHASIZE_AVOID_GROWTH")
+						bGrowthLocked = (iAvoidGrowthEmphasize != -1 and pCity.AI_isEmphasize(iAvoidGrowthEmphasize))
+
+						if (bGrowthLocked):
+							szGrowthColor = u"<color=255,255,255>"
+							szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_GROWTH_LOCKED", ())
+						elif (iFoodDifference > 0):
+							szGrowthColor = u"<color=0,255,0>"
+							szGrowthInfo = localText.getText("INTERFACE_CITY_GROWING", (pCity.getFoodTurnsLeft(), ))
+						elif (iFoodDifference < 0):
+							szGrowthColor = u"<color=255,0,0>"
+							iStoredFood = pCity.getFood()
+							if (iStoredFood <= 0):
+								iStarveTurns = 0
+							else:
+								iStarveTurns = (iStoredFood + (-iFoodDifference) - 1) / (-iFoodDifference)
+							szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_STARVE_TURNS", (iStarveTurns, ))
+						else:
+							szGrowthColor = u"<color=255,255,0>"
+							szGrowthInfo = localText.getText("INTERFACE_CITY_STAGNANT", ())
+
+						szTurnShort = localText.getText("TXT_KEY_UTOPIA_TURN_SHORT", ())
+						szFoodLine = u"%c%d/%d (%d/%s, " %(cFood, iFoodConsumption, iFoodTotal, iFoodDifference, szTurnShort) + szGrowthColor + szGrowthInfo + u"</color>)"
+
+						# Free (unspecialized) citizens
+						cCitizen = CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR)
+						iCitizenSpecialist = gc.getInfoTypeForString("SPECIALIST_CITIZEN")
+						if (iCitizenSpecialist != -1):
+							iFreeCitizens = pCity.getSpecialistCount(iCitizenSpecialist)
+						else:
+							iFreeCitizens = 0
+
+						szHammerLine = u"%d%c   %d%c" %(
+							pCity.getYieldRate(YieldTypes.YIELD_PRODUCTION), cHammer,
+							iFreeCitizens, cCitizen,
+						)
+
+						szPrefix = szHappyLine + u"\n" + szHealthyLine + u"\n" + szFoodLine + u"\n" + szHammerLine
+						szHelpString = szPrefix + u"\n" + u"\n" + u"\n" + szHelpString
+			except:
+				pass
+
+			screen.setHelpTextString( szHelpString )
+
 		return 0
 		
 	# Will set the promotion button position
