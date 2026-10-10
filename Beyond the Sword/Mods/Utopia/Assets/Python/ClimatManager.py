@@ -17,7 +17,7 @@ CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT = 5  # % за каждого подходя
 
 # ---- Параметры "тектонического сдвига" - рождение нового острова в открытом океане ----
 # Не привязано к игроку - рождается "само", вызывается глобально из onBeginGameTurn.
-TECTONIC_SHIFT_CHANCE_PERCENT = 50      # шанс % в ход, что где-то в океане родится остров
+TECTONIC_SHIFT_CHANCE_PERCENT = 1      # шанс % в ход, что где-то в океане родится остров
 TECTONIC_ISOLATION_RADIUS = 2          # в этом радиусе не должно быть вообще никакой суши
 TECTONIC_MIN_ISLAND_TILES = 5
 TECTONIC_MAX_ISLAND_TILES = 8
