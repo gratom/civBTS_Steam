@@ -11,8 +11,8 @@ CLIMATE_GREEN_CHANCE_PER_SOURCE_PERCENT = 3  # % за каждый источн�
 CLIMATE_DESERT_CHANCE_PERCENT = 15     # плоский шанс (%) опустынивания/заморозки, если условие выполнено
 CLIMATE_DESERT_LATITUDE = 65           # |широта| меньше этого - равнина без воды сохнет в пустыню, иначе в тундру
 CLIMATE_MIN_LAND_NEIGHBORS = 4         # меньше соседей-суши - клетка на одиноком острове, опустыниваться не может
-CLIMATE_FOREST_SPREAD_CHANCE_PERCENT = 2  # % за каждого подходящего соседа с лесом (итог = это * кол-во соседей)
-CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT = 3  # % за каждого подходящего соседа с джунглями
+CLIMATE_FOREST_SPREAD_CHANCE_PERCENT = 4  # % за каждого подходящего соседа с лесом (итог = это * кол-во соседей)
+CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT = 5  # % за каждого подходящего соседа с джунглями
 
 # Улучшения, при которых клетка точно не может зазеленеть (но может опустыниться)
 CLIMATE_NEVER_GREEN_IMPROVEMENTS = [
@@ -26,6 +26,20 @@ CLIMATE_NEVER_GREEN_IMPROVEMENTS = [
     "IMPROVEMENT_WELL",
     "IMPROVEMENT_VILLAGE",
     "IMPROVEMENT_TOWN",
+]
+
+# Улучшения, на которых лес/джунгли всё же могут вырасти. Любое другое
+# улучшение (кроме этих) рост леса/джунглей блокирует - почва под ним может
+# позеленеть/опустыниться как обычно, но feature на неё не распространится.
+CLIMATE_FOREST_GROWTH_ALLOWED_IMPROVEMENTS = [
+    "IMPROVEMENT_MIRACLE",
+    "IMPROVEMENT_PILGRIMAGE",
+    "IMPROVEMENT_SHRINE",
+    "IMPROVEMENT_FORT",
+    "IMPROVEMENT_COTTAGE",
+    "IMPROVEMENT_HAMLET",
+    "IMPROVEMENT_WINERY",
+    "IMPROVEMENT_CAMP",
 ]
 
 # Кэш индексов клеток суши - считается один раз за сессию (initLandPlotsCache,
@@ -252,6 +266,7 @@ def processClimateShift():
     iSnow = gc.getInfoTypeForString("TERRAIN_SNOW")
 
     listNeverGreenImprovements = [gc.getInfoTypeForString(szType) for szType in CLIMATE_NEVER_GREEN_IMPROVEMENTS]
+    listForestGrowthAllowedImprovements = [gc.getInfoTypeForString(szType) for szType in CLIMATE_FOREST_GROWTH_ALLOWED_IMPROVEMENTS]
 
     iRange = CLIMATE_TILES_PER_TURN_MAX - CLIMATE_TILES_PER_TURN_MIN
     iTilesThisTurn = CLIMATE_TILES_PER_TURN_MIN + gc.getGame().getSorenRandNum(iRange + 1, "Climate: tiles to check this turn")
@@ -331,6 +346,13 @@ def processClimateShift():
         # город уже отфильтрованы выше, лес/джунгли сюда просто не доходят, т.к.
         # terrain-переход выше уже случился бы раньше через continue).
         if feature != FeatureTypes.NO_FEATURE:
+            continue
+
+        # Под большинством построек лес/джунгли не растут - только на тех, что в
+        # белом списке (или если улучшения нет вовсе). Почва при этом всё равно
+        # может зеленеть/опустыниваться - это проверено выше и не зависит от этого.
+        iImprovement = plot.getImprovementType()
+        if iImprovement != -1 and iImprovement not in listForestGrowthAllowedImprovements:
             continue
 
         # Лес/джунгли могут "перепрыгнуть" на соседнюю клетку того же террейна ИЛИ
