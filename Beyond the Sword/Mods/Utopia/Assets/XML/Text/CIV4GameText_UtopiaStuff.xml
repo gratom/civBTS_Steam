@@ -202,4 +202,8 @@
 		</Russian>
 		<English>Free: %d1</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECTONIC_SHIFT_ISLAND_FORMED</Tag>
+		<English>Look, a new island has risen from the sea due to a volcanic eruption! The lava created fertile soil for plants, and corals have grown along the coastline. The lava also brought many valuable minerals to the surface!</English>
+	</TEXT>
 </Civ4GameText>

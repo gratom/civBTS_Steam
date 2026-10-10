@@ -396,6 +396,7 @@ class CvEventManager:
 		'Called at the beginning of the end of each turn'
 		iGameTurn = argsList[0]
 		ClimatManager.processClimateShift()
+		ClimatManager.processTectonicShift()
 		CvTopCivs.CvTopCivs().turnChecker(iGameTurn)
 		if (CyMap().plot(0,0).getScriptData() == "Scenario"):
 			if iGameTurn!=0:

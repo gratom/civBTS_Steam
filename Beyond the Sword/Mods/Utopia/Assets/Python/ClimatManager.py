@@ -2,6 +2,7 @@ from CvPythonExtensions import *
 import CvUtil
 
 gc = CyGlobalContext()
+localText = CyTranslator()
 
 # ---- Параметры баланса климатического клеточного автомата ----
 CLIMATE_TILES_PER_TURN_MIN = 30        # минимум случайных клеток суши, проверяемых за ход
@@ -13,6 +14,25 @@ CLIMATE_DESERT_LATITUDE = 65           # |широта| меньше этого 
 CLIMATE_MIN_LAND_NEIGHBORS = 4         # меньше соседей-суши - клетка на одиноком острове, опустыниваться не может
 CLIMATE_FOREST_SPREAD_CHANCE_PERCENT = 4  # % за каждого подходящего соседа с лесом (итог = это * кол-во соседей)
 CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT = 5  # % за каждого подходящего соседа с джунглями
+
+# ---- Параметры "тектонического сдвига" - рождение нового острова в открытом океане ----
+# Не привязано к игроку - рождается "само", вызывается глобально из onBeginGameTurn.
+TECTONIC_SHIFT_CHANCE_PERCENT = 50      # шанс % в ход, что где-то в океане родится остров
+TECTONIC_ISOLATION_RADIUS = 2          # в этом радиусе не должно быть вообще никакой суши
+TECTONIC_MIN_ISLAND_TILES = 5
+TECTONIC_MAX_ISLAND_TILES = 8
+TECTONIC_PEAK_TILE_COUNT = 0            # ровно столько клеток острова становятся горой
+TECTONIC_HILLS_TILE_COUNT = 3           # ровно столько клеток становятся холмами
+TECTONIC_GRASS_TILE_COUNT = 2           # ровно столько клеток получают террейн "луга", остальные - равнина
+TECTONIC_MIN_FOREST_TILES = 2           # минимум клеток (кроме горы) с лесом - дальше рандомно
+TECTONIC_ISLAND_BONUS_TYPES = ["BONUS_COPPER", "BONUS_IRON", "BONUS_GOLD", "BONUS_SILVER", "BONUS_GEMS", "BONUS_ALUMINUM"]
+TECTONIC_ISLAND_BONUS_COUNT = 2         # сколько разных ресурсов из списка выше появится на самом острове
+# Серебро/самоцветы в реальной игре встречаются и не по "положенному" рельефу
+# (серебро в шахте на равнине, самоцветы на лугах) - для них правила canHaveBonus
+# игнорируем совсем, ставим на любую свободную клетку острова.
+TECTONIC_FORCE_PLACE_BONUS_TYPES = ["BONUS_SILVER", "BONUS_GEMS"]
+TECTONIC_COASTAL_BONUS_TYPES = ["BONUS_FISH", "BONUS_CLAM", "BONUS_CRAB"]  # по 1 каждого на побережье вокруг
+TECTONIC_OCEAN_PICK_ATTEMPTS = 20      # попыток найти достаточно пустое место в океане за проход (техническая)
 
 # Улучшения, при которых клетка точно не может зазеленеть (но может опустыниться)
 CLIMATE_NEVER_GREEN_IMPROVEMENTS = [
@@ -42,20 +62,25 @@ CLIMATE_FOREST_GROWTH_ALLOWED_IMPROVEMENTS = [
     "IMPROVEMENT_CAMP",
 ]
 
-# Кэш индексов клеток суши - считается один раз за сессию (initLandPlotsCache,
-# вызывается из onGameStart/onLoadGame), чтобы не промахиваться по воде каждый раз.
+# Кэш индексов клеток суши и воды - считается один раз за сессию (initLandPlotsCache,
+# вызывается из onGameStart/onLoadGame), чтобы не промахиваться по воде/суше каждый раз.
+# Водный кэш нужен тектоническому сдвигу - без него случайный выбор клетки на всю
+# карту тонет в сухих промахах (большая часть карты обычно суша или наоборот).
 _landPlotIndices = []
+_waterPlotIndices = []
 
 def initLandPlotsCache():
-    global _landPlotIndices
+    global _landPlotIndices, _waterPlotIndices
     mapObj = CyMap()
     totalPlots = mapObj.numPlots()
     iOasis = gc.getInfoTypeForString("FEATURE_OASIS")
 
     _landPlotIndices = []
+    _waterPlotIndices = []
     for i in range(totalPlots):
         plot = mapObj.plotByIndex(i)
         if plot.isWater():
+            _waterPlotIndices.append(i)
             continue
         if plot.isPeak():
             continue  # горы - террейн под ними климат не меняет, нет смысла проверять
@@ -368,3 +393,220 @@ def processClimateShift():
             iJungleChance = CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT * iMatchingJungleNeighbors
             if gc.getGame().getSorenRandNum(100, "Climate: jungle spread roll") < iJungleChance:
                 plot.setFeatureType(iJungle, -1)
+
+def _isOceanSpotIsolated(plot, iRadius):
+    # В этом радиусе не должно быть вообще никакой суши - новый остров должен
+    # появиться в открытом океане, а не слипнуться с чужим берегом.
+    iX = plot.getX()
+    iY = plot.getY()
+    for iDX in range(-iRadius, iRadius + 1):
+        for iDY in range(-iRadius, iRadius + 1):
+            loopPlot = plotXY(iX, iY, iDX, iDY)
+            if not loopPlot or loopPlot.isNone():
+                continue
+            if not loopPlot.isWater():
+                return False
+    return True
+
+def _pickRandomSubset(listItems, iCount):
+    # Возвращает до iCount случайных ЭЛЕМЕНТОВ без повторов (не индексов) -
+    # используется и для клеток, и для типов ресурсов.
+    listPool = list(listItems)
+    iCount = min(iCount, len(listPool))
+    listPicked = []
+    for i in range(iCount):
+        iIndex = gc.getGame().getSorenRandNum(len(listPool), "Tectonic shift: pick random subset")
+        listPicked.append(listPool[iIndex])
+        del listPool[iIndex]
+    return listPicked
+
+def processTectonicShift():
+    # Не привязано к игроку вообще - вызывается один раз глобально из onBeginGameTurn,
+    # как и processClimateShift. С небольшим шансом где-то в открытом океане,
+    # вдали от любой суши, рождается новый остров.
+    if len(_waterPlotIndices) == 0:
+        return
+
+    if gc.getGame().getSorenRandNum(100, "Tectonic shift: chance roll") >= TECTONIC_SHIFT_CHANCE_PERCENT:
+        return
+
+    mapObj = CyMap()
+    centerPlot = None
+    for i in range(TECTONIC_OCEAN_PICK_ATTEMPTS):
+        iIndex = _waterPlotIndices[gc.getGame().getSorenRandNum(len(_waterPlotIndices), "Tectonic shift: pick ocean plot")]
+        loopPlot = mapObj.plotByIndex(iIndex)
+        if _isOceanSpotIsolated(loopPlot, TECTONIC_ISOLATION_RADIUS):
+            centerPlot = loopPlot
+            break
+
+    if centerPlot is None:
+        return  # не нашли достаточно пустого места в океане в этот раз - не судьба
+
+    listNeighbors = []
+    for iDX in range(-1, 2):
+        for iDY in range(-1, 2):
+            if iDX == 0 and iDY == 0:
+                continue
+            loopPlot = plotXY(centerPlot.getX(), centerPlot.getY(), iDX, iDY)
+            if loopPlot and not loopPlot.isNone():
+                listNeighbors.append(loopPlot)
+
+    iRange = TECTONIC_MAX_ISLAND_TILES - TECTONIC_MIN_ISLAND_TILES
+    iNumTiles = TECTONIC_MIN_ISLAND_TILES + gc.getGame().getSorenRandNum(iRange + 1, "Tectonic shift: island size")
+    iNumExtra = min(iNumTiles - 1, len(listNeighbors))  # -1, т.к. центр уже в острове
+
+    listIslandPlots = [centerPlot]
+    for i in range(iNumExtra):
+        iPick = gc.getGame().getSorenRandNum(len(listNeighbors), "Tectonic shift: pick island tile")
+        listIslandPlots.append(listNeighbors[iPick])
+        del listNeighbors[iPick]
+
+    # --- Рельеф: ровно 1 гора, ровно 2 холма, остальное - равнинная суша ("плато") ---
+    listRolePool = list(listIslandPlots)
+
+    listPeakPlots = _pickRandomSubset(listRolePool, TECTONIC_PEAK_TILE_COUNT)
+    for loopPlot in listPeakPlots:
+        listRolePool.remove(loopPlot)
+    peakPlot = None
+    if len(listPeakPlots) > 0:
+        peakPlot = listPeakPlots[0]
+
+    listHillPlots = _pickRandomSubset(listRolePool, TECTONIC_HILLS_TILE_COUNT)
+    for loopPlot in listHillPlots:
+        listRolePool.remove(loopPlot)
+
+    listFlatPlots = listRolePool  # всё, что осталось после горы и холмов
+
+    if peakPlot is not None:
+        peakPlot.setPlotType(PlotTypes.PLOT_PEAK, True, True)
+    for loopPlot in listHillPlots:
+        loopPlot.setPlotType(PlotTypes.PLOT_HILLS, True, True)
+    for loopPlot in listFlatPlots:
+        loopPlot.setPlotType(PlotTypes.PLOT_LAND, True, True)
+
+    # --- Террейн: ровно 2 луга, остальное равнина - независимо от рельефа выше,
+    # то есть и холм, и гора могут оказаться на лугах, и наоборот. ---
+    iGrass = gc.getInfoTypeForString("TERRAIN_GRASS")
+    iPlains = gc.getInfoTypeForString("TERRAIN_PLAINS")
+
+    listGrassPlots = _pickRandomSubset(listIslandPlots, TECTONIC_GRASS_TILE_COUNT)
+    for loopPlot in listIslandPlots:
+        if loopPlot in listGrassPlots:
+            loopPlot.setTerrainType(iGrass, True, True)
+        else:
+            loopPlot.setTerrainType(iPlains, True, True)
+
+    # --- Полезные ископаемые на самом острове - СНАЧАЛА, пока свободны все клетки,
+    # включая оба холма (золоту/алюминию нужен именно холм, а лес их не трогал бы,
+    # но порядок "ресурсы раньше леса" забирает свободные холмы наверняка).
+    # Список типов перемешивается и пробуется по одному, пока не наберётся нужное
+    # количество успехов - некоторые типы (серебро/самоцветы) физически не могут
+    # встать на нашем острове (нужны тундра/джунгли, которых тут не бывает), и без
+    # повторных попыток это тихо "съедало" один из двух слотов ни с чем.
+    listUsedForBonus = []
+    listShuffledIslandBonuses = _pickRandomSubset(TECTONIC_ISLAND_BONUS_TYPES, len(TECTONIC_ISLAND_BONUS_TYPES))
+    iIslandBonusesPlaced = 0
+    for szBonusType in listShuffledIslandBonuses:
+        if iIslandBonusesPlaced >= TECTONIC_ISLAND_BONUS_COUNT:
+            break
+        iBonus = gc.getInfoTypeForString(szBonusType)
+        listCandidates = list(listIslandPlots)
+        while len(listCandidates) > 0:
+            iPick = gc.getGame().getSorenRandNum(len(listCandidates), "Tectonic shift: pick island bonus tile")
+            bonusPlot = listCandidates[iPick]
+            del listCandidates[iPick]
+            if bonusPlot.getBonusType(-1) != -1:
+                continue
+            bForcePlace = szBonusType in TECTONIC_FORCE_PLACE_BONUS_TYPES
+            if bForcePlace or bonusPlot.canHaveBonus(iBonus, False):
+                bonusPlot.setBonusType(iBonus)
+                listUsedForBonus.append(bonusPlot)
+                iIslandBonusesPlaced += 1
+                break
+
+    # --- Лес: минимум TECTONIC_MIN_FOREST_TILES клеток, дальше рандомно. Гора и
+    # клетки, уже занятые полезным ископаемым, в список кандидатов не идут. ---
+    iForest = gc.getInfoTypeForString("FEATURE_FOREST")
+    listForestCandidates = []
+    for loopPlot in listIslandPlots:
+        if loopPlot is peakPlot:
+            continue
+        if loopPlot in listUsedForBonus:
+            continue
+        if loopPlot.canHaveFeature(iForest):
+            listForestCandidates.append(loopPlot)
+
+    if len(listForestCandidates) > 0:
+        iMinForest = min(TECTONIC_MIN_FOREST_TILES, len(listForestCandidates))
+        iForestRange = len(listForestCandidates) - iMinForest
+        iNumForest = iMinForest
+        if iForestRange > 0:
+            iNumForest += gc.getGame().getSorenRandNum(iForestRange + 1, "Tectonic shift: forest tile count")
+
+        listForestPlots = _pickRandomSubset(listForestCandidates, iNumForest)
+        for loopPlot in listForestPlots:
+            loopPlot.setFeatureType(iForest, -1)
+
+    # --- Морские ресурсы на побережье вокруг острова: рыба/моллюск/краб. Краб и
+    # моллюск требуют почти противоположные широты (40-90 и 0-50) - на многих
+    # островах один из них физически не появится, это не баг, так устроены
+    # ванильные ресурсы. Пробуем все три, оставляем что получилось. ---
+    listCoastalCandidates = []
+    setSeenCoords = set()
+    for loopPlot in listIslandPlots:
+        for iDX in range(-1, 2):
+            for iDY in range(-1, 2):
+                if iDX == 0 and iDY == 0:
+                    continue
+                neighborPlot = plotXY(loopPlot.getX(), loopPlot.getY(), iDX, iDY)
+                if not neighborPlot or neighborPlot.isNone() or not neighborPlot.isWater():
+                    continue
+                coordKey = (neighborPlot.getX(), neighborPlot.getY())
+                if coordKey in setSeenCoords:
+                    continue
+                setSeenCoords.add(coordKey)
+                listCoastalCandidates.append(neighborPlot)
+
+    # Если краб/моллюск не встал (чаще всего - широта не подошла), ставим на его
+    # место ещё одну рыбу, чтобы остров не остался совсем без морских ресурсов.
+    iFish = gc.getInfoTypeForString("BONUS_FISH")
+    iNumExtraFish = 0
+
+    listShuffledCoastalBonuses = _pickRandomSubset(TECTONIC_COASTAL_BONUS_TYPES, len(TECTONIC_COASTAL_BONUS_TYPES))
+    for szBonusType in listShuffledCoastalBonuses:
+        iBonus = gc.getInfoTypeForString(szBonusType)
+        bPlaced = False
+        listCandidates = list(listCoastalCandidates)
+        while len(listCandidates) > 0:
+            iPick = gc.getGame().getSorenRandNum(len(listCandidates), "Tectonic shift: pick coastal bonus tile")
+            bonusPlot = listCandidates[iPick]
+            del listCandidates[iPick]
+            if bonusPlot.getBonusType(-1) == -1 and bonusPlot.canHaveBonus(iBonus, False):
+                bonusPlot.setBonusType(iBonus)
+                bPlaced = True
+                break
+
+        if not bPlaced and szBonusType != "BONUS_FISH":
+            iNumExtraFish += 1
+
+    for i in range(iNumExtraFish):
+        listCandidates = list(listCoastalCandidates)
+        while len(listCandidates) > 0:
+            iPick = gc.getGame().getSorenRandNum(len(listCandidates), "Tectonic shift: pick extra fish tile")
+            bonusPlot = listCandidates[iPick]
+            del listCandidates[iPick]
+            if bonusPlot.getBonusType(-1) == -1 and bonusPlot.canHaveBonus(iFish, False):
+                bonusPlot.setBonusType(iFish)
+                break
+
+    # Новые клетки суши должны попасть в кэш, иначе климат-автомат их не увидит
+    initLandPlotsCache()
+
+    # --- Сообщение всем живым игрокам, а не только тому, на чьём ходу выпал бросок ---
+    szMessage = localText.getText("TXT_KEY_TECTONIC_SHIFT_ISLAND_FORMED", ())
+    for iPlayer in range(gc.getMAX_CIV_PLAYERS()):
+        loopPlayer = gc.getPlayer(iPlayer)
+        if loopPlayer.isAlive():
+            CyInterface().addMessage(iPlayer, False, gc.getEVENT_MESSAGE_TIME(), szMessage, "",
+                InterfaceMessageTypes.MESSAGE_TYPE_INFO, None, gc.getInfoTypeForString("COLOR_WHITE"),
+                centerPlot.getX(), centerPlot.getY(), True, True)
