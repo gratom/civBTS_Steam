@@ -26893,7 +26893,7 @@
             <UniqueNames/>
             <Special>SPECIALUNIT_PEOPLE</Special>
             <Capture>NONE</Capture>
-            <Combat>NONE</Combat>
+            <Combat>UNITCOMBAT_RECON</Combat>
             <Domain>DOMAIN_LAND</Domain>
             <DefaultUnitAI>UNITAI_SPY</DefaultUnitAI>
             <Invisible>NONE</Invisible>
@@ -26905,8 +26905,8 @@
             <bAnimal>0</bAnimal>
             <bFood>0</bFood>
             <bNoBadGoodies>0</bNoBadGoodies>
-            <bOnlyDefensive>0</bOnlyDefensive>
-            <bNoCapture>0</bNoCapture>
+            <bOnlyDefensive>1</bOnlyDefensive>
+            <bNoCapture>1</bNoCapture>
             <bQuickCombat>0</bQuickCombat>
             <bRivalTerritory>1</bRivalTerritory>
             <bMilitaryHappiness>0</bMilitaryHappiness>
@@ -26929,7 +26929,7 @@
             <bCanMoveAllTerrain>1</bCanMoveAllTerrain>
             <bFlatMovementCost>1</bFlatMovementCost>
             <bIgnoreTerrainCost>1</bIgnoreTerrainCost>
-            <bNukeImmune>0</bNukeImmune>
+            <bNukeImmune>1</bNukeImmune>
             <bPrereqBonuses>0</bPrereqBonuses>
             <bPrereqReligion>0</bPrereqReligion>
             <bMechanized>0</bMechanized>
@@ -27001,7 +27001,7 @@
             <FeatureImpassables/>
             <TerrainPassableTechs/>
             <FeaturePassableTechs/>
-            <iCombat>0</iCombat>
+            <iCombat>1</iCombat>
             <iCombatLimit>0</iCombatLimit>
             <iAirCombat>0</iAirCombat>
             <iAirCombatLimit>0</iAirCombatLimit>
