@@ -889,6 +889,15 @@
 			<DefaultUnit>UNIT_ZOND</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
+			<Type>UNITCLASS_RADAR</Type>
+			<Description>TXT_KEY_UNIT_ZOND_RADAR</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>10</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<DefaultUnit>UNIT_RADAR</DefaultUnit>
+		</UnitClassInfo>
+		<UnitClassInfo>
 			<Type>UNITCLASS_DREADNOUGHT</Type>
 			<Description>TXT_KEY_UNIT_DREADNOUGHT</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>

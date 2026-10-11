@@ -6066,6 +6066,33 @@
 			<ActionSound>AS3D_UN_ICBM_SELECT</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_RADAR</Type>
+			<Button>Art/Interface/Buttons/Units/radar.dds</Button>
+			<fScale>0.25</fScale>
+			<fInterfaceScale>0.35</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>1</bActAsAir>
+			<NIF>Art/Units/Utopia_SatelliteBase/PlanetaryDefense.nif</NIF>
+			<KFM/>
+			<SHADERNIF>Art/Units/Utopia_SatelliteBase/PlanetaryDefense_FX.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/MechInfantryShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0</fShadowScale>
+			</ShadowDef>
+			<iDamageStates>4</iDamageStates>
+			<fBattleDistance>0.55</fBattleDistance>
+			<fRangedDeathTime>0.12</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_ICBM_SELECT</SelectionSound>
+			<ActionSound>AS3D_UN_ICBM_SELECT</ActionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_DREADNOUGHT</Type>
 			<Button>,Art/Interface/Buttons/Units/Panzer.dds,Art/Interface/Buttons/NextWar_Atlas.dds,5,1</Button>
 			<fScale>0.65</fScale>

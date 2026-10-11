@@ -67,6 +67,23 @@
 			<ProductionTraits/>
 		</SpecialUnitInfo>
 		<SpecialUnitInfo>
+			<Type>SPECIALUNIT_RADAR</Type>
+			<Description>TXT_KEY_SPECIALUNIT_RADAR</Description>
+			<bValid>1</bValid>
+			<bCityLoad>0</bCityLoad>
+			<CarrierUnitAIs>
+				<CarrierUnitAI>
+					<UnitAIType>UNITAI_SPY</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</CarrierUnitAI>
+				<CarrierUnitAI>
+					<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</CarrierUnitAI>
+			</CarrierUnitAIs>
+			<ProductionTraits/>
+		</SpecialUnitInfo>
+		<SpecialUnitInfo>
 			<Type>SPECIALUNIT_MISSILE</Type>
 			<Description>TXT_KEY_SPECIALUNIT_MISSILE</Description>
 			<bValid>1</bValid>
