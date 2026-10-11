@@ -408,6 +408,15 @@ def _isOceanSpotIsolated(plot, iRadius):
                 return False
     return True
 
+def _destroyUnitsOnPlot(plot):
+    # Извержение уничтожает все юниты на клетке, свои и чужие - индексы сдвигаются
+    # при каждой смерти, поэтому всегда берём текущий 0-й юнит, а не идём по range().
+    iSafety = plot.getNumUnits() + 5
+    while plot.getNumUnits() > 0 and iSafety > 0:
+        loopUnit = plot.getUnit(0)
+        loopUnit.kill(False, -1)
+        iSafety -= 1
+
 def _pickRandomSubset(listItems, iCount):
     # Возвращает до iCount случайных ЭЛЕМЕНТОВ без повторов (не индексов) -
     # используется и для клеток, и для типов ресурсов.
@@ -460,6 +469,11 @@ def processTectonicShift():
         iPick = gc.getGame().getSorenRandNum(len(listNeighbors), "Tectonic shift: pick island tile")
         listIslandPlots.append(listNeighbors[iPick])
         del listNeighbors[iPick]
+
+    # Извержение уничтожает любые юниты (свои и чужие) на клетках, из которых
+    # сейчас будет формироваться остров - до того, как эти клетки станут сушей.
+    for loopPlot in listIslandPlots:
+        _destroyUnitsOnPlot(loopPlot)
 
     # --- Рельеф: ровно 1 гора, ровно 2 холма, остальное - равнинная суша ("плато") ---
     listRolePool = list(listIslandPlots)

@@ -26947,6 +26947,10 @@
                     <UnitAIType>UNITAI_SPY</UnitAIType>
                     <bUnitAI>1</bUnitAI>
                 </UnitAI>
+				<UnitAI>
+                    <UnitAIType>UNITAI_EXPLORE</UnitAIType>
+                    <bUnitAI>1</bUnitAI>
+                </UnitAI>
             </UnitAIs>
             <NotUnitAIs/>
             <Builds/>
