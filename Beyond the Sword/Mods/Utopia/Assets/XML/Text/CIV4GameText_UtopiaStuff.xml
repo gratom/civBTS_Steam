@@ -206,4 +206,49 @@
 		<Tag>TXT_KEY_TECTONIC_SHIFT_ISLAND_FORMED</Tag>
 		<English>Look, a new island has risen from the sea due to a volcanic eruption! The lava created fertile soil for plants, and corals have grown along the coastline. The lava also brought many valuable minerals to the surface!</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARZOND</Tag>
+		<Russian>
+			<Text>&#194;&#238;&#229;&#237;&#237;&#251;&#233;&#32;&#241;&#239;&#243;&#242;&#237;&#232;&#234;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>War Satellite</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARZOND_STRATEGY</Tag>
+		<Russian>
+			<Text>&#205;&#229;&#226;&#232;&#228;&#232;&#236;&#224;&#255;&#32;&#238;&#240;&#225;&#232;&#242;&#224;&#235;&#252;&#237;&#224;&#255;&#32;&#239;&#235;&#224;&#242;&#244;&#238;&#240;&#236;&#224;&#46;&#32;&#205;&#229;&#241;&#184;&#242;&#32;&#228;&#238;&#32;&#52;&#32;&#243;&#228;&#224;&#240;&#237;&#251;&#245;&#32;&#234;&#224;&#239;&#241;&#243;&#235;&#32;&#34;&#193;&#238;&#230;&#252;&#255;&#32;&#241;&#242;&#240;&#229;&#235;&#224;&#34;&#32;&#232;&#32;&#228;&#238;&#241;&#242;&#224;&#226;&#235;&#255;&#229;&#242;&#32;&#232;&#245;&#32;&#234;&#32;&#246;&#229;&#235;&#232;&#46;&#32;&#209;&#224;&#236;&#32;&#239;&#238;&#32;&#241;&#229;&#225;&#229;&#32;&#239;&#238;&#247;&#242;&#232;&#32;&#225;&#229;&#231;&#238;&#240;&#243;&#230;&#229;&#237;&#32;&#232;&#32;&#237;&#229;&#32;&#226;&#229;&#228;&#184;&#242;&#32;&#240;&#224;&#231;&#226;&#229;&#228;&#234;&#243;&#46;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Invisible orbital platform. Carries up to 4 "God's Arrow" strike pods and delivers them to the target. Nearly unarmed itself and performs no reconnaissance.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GODARROW</Tag>
+		<Russian>
+			<Text>&#193;&#238;&#230;&#252;&#255;&#32;&#241;&#242;&#240;&#229;&#235;&#224;</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>God's Arrow</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GODARROW_STRATEGY</Tag>
+		<Russian>
+			<Text>&#206;&#228;&#237;&#238;&#240;&#224;&#231;&#238;&#226;&#224;&#255;&#32;&#243;&#228;&#224;&#240;&#237;&#224;&#255;&#32;&#234;&#224;&#239;&#241;&#243;&#235;&#224;&#44;&#32;&#231;&#224;&#239;&#243;&#241;&#234;&#224;&#229;&#236;&#224;&#255;&#32;&#241;&#32;&#226;&#238;&#229;&#237;&#237;&#238;&#227;&#238;&#32;&#241;&#239;&#243;&#242;&#237;&#232;&#234;&#224;&#46;&#32;&#193;&#252;&#184;&#242;&#32;&#237;&#224;&#32;&#50;&#32;&#234;&#235;&#229;&#242;&#234;&#232;&#32;&#238;&#242;&#32;&#239;&#235;&#224;&#242;&#244;&#238;&#240;&#236;&#251;&#44;&#32;&#239;&#238;&#241;&#235;&#229;&#32;&#243;&#228;&#224;&#240;&#224;&#32;&#240;&#224;&#241;&#245;&#238;&#228;&#243;&#229;&#242;&#241;&#255;&#46;&#32;&#207;&#238;&#247;&#242;&#232;&#32;&#237;&#229;&#32;&#239;&#229;&#240;&#229;&#245;&#226;&#224;&#242;&#251;&#226;&#224;&#229;&#242;&#241;&#255;&#32;&#232;&#32;&#237;&#224;&#237;&#238;&#241;&#232;&#242;&#32;&#241;&#238;&#239;&#243;&#242;&#241;&#242;&#226;&#243;&#254;&#249;&#232;&#233;&#32;&#243;&#240;&#238;&#237;&#32;&#239;&#238;&#32;&#241;&#238;&#241;&#229;&#228;&#255;&#236;&#32;&#246;&#229;&#235;&#232;&#46;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>A single-use strike pod launched from the War Satellite. Strikes up to 2 tiles from the platform and is expended on impact. Nearly impossible to intercept and deals collateral damage to units near the target.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALUNIT_GODARROW</Tag>
+		<Russian>
+			<Text>&#193;&#238;&#230;&#252;&#255;&#32;&#241;&#242;&#240;&#229;&#235;&#224;</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>God's Arrow</English>
+	</TEXT>
 </Civ4GameText>
