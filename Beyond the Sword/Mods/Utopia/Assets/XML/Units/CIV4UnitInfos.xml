@@ -26934,7 +26934,7 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bMechanized>0</bMechanized>
             <bSuicide>0</bSuicide>
-            <bHiddenNationality>1</bHiddenNationality>
+            <bHiddenNationality>0</bHiddenNationality>
             <bAlwaysHostile>0</bAlwaysHostile>
             <UnitClassUpgrades/>
             <UnitClassTargets/>
@@ -27119,7 +27119,7 @@
             <bPrereqReligion>0</bPrereqReligion>
             <bMechanized>0</bMechanized>
             <bSuicide>0</bSuicide>
-            <bHiddenNationality>1</bHiddenNationality>
+            <bHiddenNationality>0</bHiddenNationality>
             <bAlwaysHostile>0</bAlwaysHostile>
             <UnitClassUpgrades/>
             <UnitClassTargets/>
