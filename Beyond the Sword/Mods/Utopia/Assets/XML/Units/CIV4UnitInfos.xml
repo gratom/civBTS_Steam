@@ -27043,7 +27043,7 @@
 			</BonusProductionModifiers>
             <iBombRate>0</iBombRate>
             <iBombardRate>0</iBombardRate>
-            <SpecialCargo>SPECIALUNIT_RADAR</SpecialCargo>
+            <SpecialCargo>SPECIALUNIT_SPACE_CARGO</SpecialCargo>
             <DomainCargo>DOMAIN_AIR</DomainCargo>
             <iCargo>1</iCargo>
             <iConscription>0</iConscription>
@@ -27076,7 +27076,7 @@
             <Class>UNITCLASS_RADAR</Class>
             <Type>UNIT_RADAR</Type>
             <UniqueNames/>
-            <Special>SPECIALUNIT_RADAR</Special>
+            <Special>SPECIALUNIT_SPACE_CARGO</Special>
             <Capture>NONE</Capture>
             <Combat>NONE</Combat>
             <Domain>DOMAIN_AIR</Domain>

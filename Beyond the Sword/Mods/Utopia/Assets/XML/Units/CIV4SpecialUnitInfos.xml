@@ -67,8 +67,8 @@
 			<ProductionTraits/>
 		</SpecialUnitInfo>
 		<SpecialUnitInfo>
-			<Type>SPECIALUNIT_RADAR</Type>
-			<Description>TXT_KEY_SPECIALUNIT_RADAR</Description>
+			<Type>SPECIALUNIT_SPACE_CARGO</Type>
+			<Description>TXT_KEY_SPECIALUNIT_SPACE_CARGO</Description>
 			<bValid>1</bValid>
 			<bCityLoad>0</bCityLoad>
 			<CarrierUnitAIs>
