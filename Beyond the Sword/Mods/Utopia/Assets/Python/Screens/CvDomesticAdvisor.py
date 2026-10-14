@@ -479,7 +479,9 @@ class CvDomesticAdvisor:
 
 		return 0
 
-	# Rush-buys the production of the row's city directly, bypassing city selection
+	# Rush-buys the production of the row's city directly, bypassing city selection.
+	# Goes through the network message queue (like the city screen's own Hurry buttons) so
+	# the action reaches every client in multiplayer instead of only changing state locally.
 	def doHurryClick(self, iColumn, iOwner, iCityID):
 		if (iOwner == -1 or iCityID == -1):
 			return
@@ -494,7 +496,7 @@ class CvDomesticAdvisor:
 			eHurry = self.getHurryGoldType()
 
 		if (eHurry != -1 and pCity.canHurry(eHurry, False)):
-			pCity.hurry(eHurry)
+			CyMessageControl().sendDoTask(pCity.getID(), TaskTypes.TASK_HURRY, eHurry, -1, False, False, False, False)
 			CyInterface().setDirty(InterfaceDirtyBits.Domestic_Advisor_DIRTY_BIT, True)
 
 	def updateAppropriateCitySelection(self):
