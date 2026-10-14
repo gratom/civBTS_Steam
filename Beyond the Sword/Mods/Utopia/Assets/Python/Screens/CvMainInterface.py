@@ -250,6 +250,10 @@ class CvMainInterface:
 		screen.hide( "DomesticAdvisorButton" )
 
 		iBtnX += iBtnAdvance
+		screen.setImageButton( "ConstructionPlannerButton", "Art/Interface/Buttons/TechTree/BuilderWindow.dds", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+		screen.hide( "ConstructionPlannerButton" )
+
+		iBtnX += iBtnAdvance
 		screen.setImageButton( "FinanceAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_FINANCIAL_SCREEN).getActionInfoIndex(), -1 )
 		screen.setStyle( "FinanceAdvisorButton", "Button_HUDAdvisorFinance_Style" )
 		screen.hide( "FinanceAdvisorButton" )
@@ -867,6 +871,7 @@ class CvMainInterface:
 			screen.hide( "TurnLogButton" )
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
+			screen.hide( "ConstructionPlannerButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -890,6 +895,7 @@ class CvMainInterface:
 			screen.hide( "TurnLogButton" )
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
+			screen.hide( "ConstructionPlannerButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -913,6 +919,7 @@ class CvMainInterface:
 			screen.show( "TurnLogButton" )
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
+			screen.show( "ConstructionPlannerButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -926,6 +933,7 @@ class CvMainInterface:
 			screen.moveToFront( "TurnLogButton" )
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
+			screen.moveToFront( "ConstructionPlannerButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -949,6 +957,7 @@ class CvMainInterface:
 			screen.hide( "TurnLogButton" )
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
+			screen.hide( "ConstructionPlannerButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -972,6 +981,7 @@ class CvMainInterface:
 			screen.show( "TurnLogButton" )
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
+			screen.show( "ConstructionPlannerButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -985,6 +995,7 @@ class CvMainInterface:
 			screen.moveToFront( "TurnLogButton" )
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
+			screen.moveToFront( "ConstructionPlannerButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -1008,6 +1019,7 @@ class CvMainInterface:
 			screen.show( "TurnLogButton" )
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
+			screen.show( "ConstructionPlannerButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -1021,6 +1033,7 @@ class CvMainInterface:
 			screen.moveToFront( "TurnLogButton" )
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
+			screen.moveToFront( "ConstructionPlannerButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -3338,6 +3351,11 @@ class CvMainInterface:
 		if inputClass.getFunctionName() == "ClimateAdvisorButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
 			import ClimatManager
 			ClimatManager.showClimatePopup()
+			return 1
+
+		if inputClass.getFunctionName() == "ConstructionPlannerButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			import CvScreensInterface
+			CvScreensInterface.showConstructionPlanner()
 			return 1
 
 		if inputClass.getFunctionName() == "EspionageInfoToggle" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:

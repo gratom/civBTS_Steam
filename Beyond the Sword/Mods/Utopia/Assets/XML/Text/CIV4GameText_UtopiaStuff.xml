@@ -269,4 +269,31 @@
 		</Russian>
 		<English>Rush: Gold</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_CONSTRUCTION_PLANNER</Tag>
+		<Russian>
+			<Text>&#207;&#235;&#224;&#237;&#232;&#240;&#238;&#226;&#249;&#232;&#234; &#241;&#242;&#240;&#238;&#232;&#242;&#229;&#235;&#252;&#241;&#242;&#226;&#224;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Construction Planner</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_SELECT_ALL_CITIES</Tag>
+		<Russian>
+			<Text>&#194;&#251;&#225;&#240;&#224;&#242;&#252; &#226;&#241;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Select All</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESET_ALL_CITIES</Tag>
+		<Russian>
+			<Text>&#209;&#225;&#240;&#238;&#241;&#232;&#242;&#252; &#226;&#241;&#229;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Reset All</English>
+	</TEXT>
 </Civ4GameText>

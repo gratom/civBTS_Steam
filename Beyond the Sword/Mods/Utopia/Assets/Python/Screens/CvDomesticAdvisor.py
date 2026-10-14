@@ -88,8 +88,12 @@ class CvDomesticAdvisor:
 		self.nScreenWidth = screen.getXResolution() - 30
 		self.nScreenHeight = screen.getYResolution() - 250
 		self.nTableWidth = self.nScreenWidth - 35
-		self.nTableHeight = self.nScreenHeight - 85
 		self.nNormalizedTableWidth = 978
+
+		# A thin row above the table is reserved for the Construction Planner button
+		self.nPlannerButtonHeight = 26
+		self.nTableY = 21 + self.nPlannerButtonHeight + 4
+		self.nTableHeight = self.nScreenHeight - 85 - (self.nPlannerButtonHeight + 4)
 
 		self.nFirstSpecialistX = 30
 		self.nSpecialistY = self.nScreenHeight - 55
@@ -114,6 +118,13 @@ class CvDomesticAdvisor:
 		# Here we set the background widget and exit button, and we show the screen
 		screen.addPanel( "DomesticAdvisorBG", u"", u"", True, False, 0, 0, self.nScreenWidth, self.nScreenHeight, PanelStyles.PANEL_STYLE_MAIN )
 		screen.setText("DomesticExit", "Background", localText.getText("TXT_KEY_PEDIA_SCREEN_EXIT", ()).upper(), CvUtil.FONT_RIGHT_JUSTIFY, self.nScreenWidth - 25, self.nScreenHeight - 45, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_CLOSE_SCREEN, -1, -1 )
+
+		# Opens the Construction Planner - sized and positioned to sit exactly above the
+		# "Producing" column (15). 729/132 are the summed width-units of columns 0-14 and
+		# the width-units of column 15 itself - keep these in sync if those columns change.
+		iPlannerBtnX = 18 + (729 * self.nTableWidth) / self.nNormalizedTableWidth
+		iPlannerBtnWidth = (132 * self.nTableWidth) / self.nNormalizedTableWidth
+		screen.setButtonGFC( "ConstructionPlannerOpenButton", localText.getText("TXT_KEY_UTOPIA_CONSTRUCTION_PLANNER", ()), "", iPlannerBtnX, 21, iPlannerBtnWidth, self.nPlannerButtonHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
 
 		bCanLiberate = false
 		(loopCity, iter) = player.firstCity(false)
@@ -208,7 +219,7 @@ class CvDomesticAdvisor:
 		screen.moveToFront( "Background" )
 
 		# Build the table
-		screen.addTableControlGFC( "CityListBackground", 19, 18, 21, self.nTableWidth, self.nTableHeight, True, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD )
+		screen.addTableControlGFC( "CityListBackground", 19, 18, self.nTableY, self.nTableWidth, self.nTableHeight, True, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD )
 		screen.enableSelect( "CityListBackground", True )
 		screen.enableSort( "CityListBackground" )
 		screen.setStyle("CityListBackground", "Table_StandardCiv_Style")
@@ -476,6 +487,9 @@ class CvDomesticAdvisor:
 			if (inputClass.getFunctionName() == "DomesticSplit"):
 				screen = CyGInterfaceScreen( "DomesticAdvisor", CvScreenEnums.DOMESTIC_ADVISOR )
 				screen.hideScreen()
+			elif (inputClass.getFunctionName() == "ConstructionPlannerOpenButton"):
+				import CvScreensInterface
+				CvScreensInterface.showConstructionPlanner()
 
 		return 0
 

@@ -2,6 +2,7 @@
 ## Copyright Firaxis Games 2005
 import CvMainInterface
 import CvDomesticAdvisor
+import CvConstructionPlanner
 import CvTechChooser
 import CvForeignAdvisor
 import CvExoticForeignAdvisor
@@ -113,6 +114,11 @@ domesticAdvisor = CvDomesticAdvisor.CvDomesticAdvisor()
 def showDomesticAdvisor(argsList):
 	if (-1 != CyGame().getActivePlayer()):
 		domesticAdvisor.interfaceScreen()
+
+constructionPlanner = CvConstructionPlanner.CvConstructionPlanner()
+def showConstructionPlanner():
+	if (-1 != CyGame().getActivePlayer()):
+		constructionPlanner.interfaceScreen()
 
 militaryAdvisor = CvMilitaryAdvisor.CvMilitaryAdvisor(MILITARY_ADVISOR)
 def showMilitaryAdvisor():
@@ -874,6 +880,7 @@ HandleCloseMap = {  DAWN_OF_MAN : dawnOfMan,
 #######################################################################################
 HandleInputMap = {  MAIN_INTERFACE : mainInterface,
 					DOMESTIC_ADVISOR : domesticAdvisor,
+					CONSTRUCTION_PLANNER : constructionPlanner,
 					RELIGION_SCREEN : religionScreen,
 					CORPORATION_SCREEN : corporationScreen,
 					CIVICS_SCREEN : civicScreen,
