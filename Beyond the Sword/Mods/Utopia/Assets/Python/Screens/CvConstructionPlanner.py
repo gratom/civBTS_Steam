@@ -26,6 +26,7 @@ CHECK_MARK_TEXT = u"[x]"
 CHECK_EMPTY_TEXT = u"[ ]"
 
 BUILD_PANEL_NAME = "ConstructionPlannerBuildScroll"
+UNIT_PANEL_NAME = "ConstructionPlannerUnitScroll"
 BUILD_ROW_HEIGHT = 36
 BUILD_ICON_SIZE = 32
 BUILD_NAME_WIDTH = 185
@@ -38,6 +39,8 @@ class CvConstructionPlanner:
 		self.selectedCityIDs = set()
 		self.selectedBuildingType = -1
 		self.buildableBuildings = []
+		self.selectedUnitType = -1
+		self.buildableUnits = []
 		self.iActivePlayer = -1
 
 	# Screen construction function
@@ -46,6 +49,7 @@ class CvConstructionPlanner:
 
 		self.iActivePlayer = gc.getGame().getActivePlayer()
 		self.buildableBuildings = self.computeBuildableBuildings()
+		self.buildableUnits = self.computeBuildableUnits()
 
 		self.nListX = 20
 		self.nListWidth = 330
@@ -54,7 +58,10 @@ class CvConstructionPlanner:
 		self.nBuildX = self.nListX + self.nListWidth + 24
 		self.nBuildWidth = BUILD_ICON_SIZE + BUILD_GAP + BUILD_NAME_WIDTH + BUILD_GAP + BUILD_COST_WIDTH
 
-		self.nScreenWidth = self.nBuildX + self.nBuildWidth + 20
+		self.nUnitX = self.nBuildX + self.nBuildWidth + 24
+		self.nUnitWidth = BUILD_ICON_SIZE + BUILD_GAP + BUILD_NAME_WIDTH + BUILD_GAP + BUILD_COST_WIDTH
+
+		self.nScreenWidth = self.nUnitX + self.nUnitWidth + 20
 		self.nScreenHeight = 644
 		self.nListHeight = self.nScreenHeight - self.nListY - 60
 
@@ -92,11 +99,23 @@ class CvConstructionPlanner:
 		screen.setViewMin( BUILD_PANEL_NAME, self.nBuildWidth, max(self.nListHeight, len(self.buildableBuildings) * BUILD_ROW_HEIGHT) )
 		screen.show( BUILD_PANEL_NAME )
 
+		# Unit-order action buttons - same 2x2 grid, mirrors the building ones
+		screen.setButtonGFC( "ConstructionPlannerUnitBuildNow", localText.getText("TXT_KEY_UTOPIA_BUILD_NOW", ()), "", self.nUnitX, 55, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		screen.setButtonGFC( "ConstructionPlannerUnitQueueEnd", localText.getText("TXT_KEY_UTOPIA_QUEUE_AT_END", ()), "", self.nUnitX + iActionWidth + 8, 55, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		screen.setButtonGFC( "ConstructionPlannerUnitQueueFront", localText.getText("TXT_KEY_UTOPIA_QUEUE_AT_FRONT", ()), "", self.nUnitX, 85, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		screen.setButtonGFC( "ConstructionPlannerUnitRemoveFromQueue", localText.getText("TXT_KEY_UTOPIA_REMOVE_FROM_QUEUE", ()), "", self.nUnitX + iActionWidth + 8, 85, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+
+		# Unit list - same scroll-panel approach as the building list
+		screen.addScrollPanel( UNIT_PANEL_NAME, u"", self.nUnitX, self.nListY, self.nUnitWidth, self.nListHeight, PanelStyles.PANEL_STYLE_EXTERNAL )
+		screen.setViewMin( UNIT_PANEL_NAME, self.nUnitWidth, max(self.nListHeight, len(self.buildableUnits) * BUILD_ROW_HEIGHT) )
+		screen.show( UNIT_PANEL_NAME )
+
 		# Close button, bottom right - same style as the other advisor screens
 		screen.setText( "ConstructionPlannerClose", "Background", localText.getText("TXT_KEY_PEDIA_SCREEN_EXIT", ()).upper(), CvUtil.FONT_RIGHT_JUSTIFY, self.nScreenWidth - 25, self.nScreenHeight - 35, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_CLOSE_SCREEN, -1, -1 )
 
 		self.drawCityList()
 		self.drawBuildingList()
+		self.drawUnitList()
 
 	def getRowIconName(self, i):
 		return "ConstructionPlannerBuildIcon" + str(i)
@@ -107,11 +126,43 @@ class CvConstructionPlanner:
 	def getRowCostName(self, i):
 		return "ConstructionPlannerBuildCost" + str(i)
 
-	# Every regular (non-wonder, non-small-wonder) building the player could ever build,
-	# regardless of whether any one particular city currently meets its requirements.
+	def getUnitRowIconName(self, i):
+		return "ConstructionPlannerUnitIcon" + str(i)
+
+	def getUnitRowNameName(self, i):
+		return "ConstructionPlannerUnitName" + str(i)
+
+	def getUnitRowCostName(self, i):
+		return "ConstructionPlannerUnitCost" + str(i)
+
+	def getPlayerCities(self, player):
+		cities = []
+		(pLoopCity, iter) = player.firstCity(false)
+		while(pLoopCity):
+			cities.append(pLoopCity)
+			(pLoopCity, iter) = player.nextCity(iter, false)
+		return cities
+
+	def anyCityCanConstruct(self, cities, eBuilding):
+		for pLoopCity in cities:
+			if pLoopCity.canConstruct(eBuilding, False, False, False):
+				return True
+		return False
+
+	def anyCityCanTrain(self, cities, eUnit):
+		for pLoopCity in cities:
+			if pLoopCity.canTrain(eUnit, False, False):
+				return True
+		return False
+
+	# Every regular (non-wonder, non-small-wonder) building the player could in principle
+	# build (tech/era/etc. all in place) AND that at least one actual city can really build
+	# right now - this is what drops things like a religion-tied temple when no city of
+	# ours has that religion, or a corporation building when nobody has the corporation.
 	def computeBuildableBuildings(self):
 		player = gc.getPlayer(self.iActivePlayer)
 		eCiv = player.getCivilizationType()
+		cities = self.getPlayerCities(player)
 		listBuildings = []
 		for iBuildingClass in range(gc.getNumBuildingClassInfos()):
 			if isLimitedWonderClass(iBuildingClass):
@@ -119,9 +170,28 @@ class CvConstructionPlanner:
 			eBuilding = gc.getCivilizationInfo(eCiv).getCivilizationBuildings(iBuildingClass)
 			if eBuilding == -1:
 				continue
-			if player.canConstruct(eBuilding, False, True, False):
+			if not player.canConstruct(eBuilding, False, True, False):
+				continue
+			if self.anyCityCanConstruct(cities, eBuilding):
 				listBuildings.append(eBuilding)
 		return listBuildings
+
+	# Same reasoning as computeBuildableBuildings, for units (drops e.g. missionaries/
+	# corporation executives when no city has the matching religion/corporation).
+	def computeBuildableUnits(self):
+		player = gc.getPlayer(self.iActivePlayer)
+		eCiv = player.getCivilizationType()
+		cities = self.getPlayerCities(player)
+		listUnits = []
+		for iUnitClass in range(gc.getNumUnitClassInfos()):
+			eUnit = gc.getCivilizationInfo(eCiv).getCivilizationUnits(iUnitClass)
+			if eUnit == -1:
+				continue
+			if not player.canTrain(eUnit, False, True):
+				continue
+			if self.anyCityCanTrain(cities, eUnit):
+				listUnits.append(eUnit)
+		return listUnits
 
 	# Builds the city rows once per screen open - row count doesn't change afterwards,
 	# only the checkbox cell content gets refreshed in place.
@@ -208,6 +278,42 @@ class CvConstructionPlanner:
 			self.updateBuildingNameRow(i, eLoopBuilding)
 			i += 1
 
+	# Same as drawBuildingList, for the unit scroll panel.
+	def drawUnitList(self):
+		screen = CyGInterfaceScreen( SCREEN_NAME, CvScreenEnums.CONSTRUCTION_PLANNER )
+		szHammerIcon = u"<font=2>" + (u"%c" % gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()) + u"</font>"
+		player = gc.getPlayer(self.iActivePlayer)
+
+		i = 0
+		for eUnit in self.buildableUnits:
+			pUnitInfo = gc.getUnitInfo(eUnit)
+			iRowY = i * BUILD_ROW_HEIGHT
+
+			screen.addDDSGFCAt( self.getUnitRowIconName(i), UNIT_PANEL_NAME, pUnitInfo.getButton(), 0, iRowY, BUILD_ICON_SIZE, BUILD_ICON_SIZE, WidgetTypes.WIDGET_GENERAL, eUnit, -1, False )
+
+			szCost = unicode(player.getUnitProductionNeeded(eUnit)) + u" " + szHammerIcon
+			screen.setLabelAt( self.getUnitRowCostName(i), UNIT_PANEL_NAME, szCost, CvUtil.FONT_RIGHT_JUSTIFY, BUILD_ICON_SIZE + BUILD_GAP + BUILD_NAME_WIDTH + BUILD_GAP, iRowY + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+
+			self.updateUnitNameRow(i, eUnit)
+			i += 1
+
+	def updateUnitNameRow(self, i, eUnit):
+		screen = CyGInterfaceScreen( SCREEN_NAME, CvScreenEnums.CONSTRUCTION_PLANNER )
+		szName = gc.getUnitInfo(eUnit).getDescription()
+		if (eUnit == self.selectedUnitType):
+			szName = localText.getText("TXT_KEY_COLOR_POSITIVE", ()) + szName + localText.getText("TXT_KEY_COLOR_REVERT", ())
+		screen.setTextAt( self.getUnitRowNameName(i), UNIT_PANEL_NAME, szName, CvUtil.FONT_LEFT_JUSTIFY, BUILD_ICON_SIZE + BUILD_GAP, i * BUILD_ROW_HEIGHT + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eUnit, -1 )
+
+	def selectUnit(self, eUnit):
+		if (eUnit == self.selectedUnitType):
+			return
+		self.selectedUnitType = eUnit
+
+		i = 0
+		for eLoopUnit in self.buildableUnits:
+			self.updateUnitNameRow(i, eLoopUnit)
+			i += 1
+
 	# Pushes the selected building onto every selected city's order queue.
 	# bShift/bCtrl match the real key-held meaning used by the native city screen:
 	# neither -> replace current production, bShift -> queue at the end,
@@ -250,6 +356,39 @@ class CvConstructionPlanner:
 			for (eOrderType, iData1) in remainingOrders:
 				CyMessageControl().sendPushOrder(iCityID, eOrderType, iData1, False, True, False)
 
+	# Same as applyBuildOrder, for the selected unit (ORDER_TRAIN instead of ORDER_CONSTRUCT).
+	def applyUnitOrder(self, bShift, bCtrl):
+		if (self.selectedUnitType == -1 or len(self.selectedCityIDs) == 0):
+			return
+		for iCityID in self.selectedCityIDs:
+			CyMessageControl().sendPushOrder(iCityID, OrderTypes.ORDER_TRAIN, self.selectedUnitType, False, bShift, bCtrl)
+
+	# Same as removeBuildingFromQueues, for the selected unit.
+	def removeUnitFromQueues(self):
+		if (self.selectedUnitType == -1 or len(self.selectedCityIDs) == 0):
+			return
+		player = gc.getPlayer(self.iActivePlayer)
+		for iCityID in self.selectedCityIDs:
+			pCity = player.getCity(iCityID)
+			if (not pCity):
+				continue
+
+			bFound = False
+			remainingOrders = []
+			for i in range(pCity.getOrderQueueLength()):
+				order = pCity.getOrderFromQueue(i)
+				if (order.eOrderType == OrderTypes.ORDER_TRAIN) and (order.iData1 == self.selectedUnitType):
+					bFound = True
+					continue
+				remainingOrders.append((order.eOrderType, order.iData1))
+
+			if not bFound:
+				continue
+
+			CyMessageControl().sendDoTask(iCityID, TaskTypes.TASK_CLEAR_ORDERS, -1, -1, False, False, False, False)
+			for (eOrderType, iData1) in remainingOrders:
+				CyMessageControl().sendPushOrder(iCityID, eOrderType, iData1, False, True, False)
+
 	# Will handle the input for this screen...
 	def handleInput (self, inputClass):
 		if ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_LISTBOX_ITEM_SELECTED ):
@@ -274,10 +413,22 @@ class CvConstructionPlanner:
 				self.applyBuildOrder(False, True)
 			elif (szName == "ConstructionPlannerRemoveFromQueue"):
 				self.removeBuildingFromQueues()
+			elif (szName == "ConstructionPlannerUnitBuildNow"):
+				self.applyUnitOrder(False, False)
+			elif (szName == "ConstructionPlannerUnitQueueEnd"):
+				self.applyUnitOrder(True, False)
+			elif (szName == "ConstructionPlannerUnitQueueFront"):
+				self.applyUnitOrder(False, True)
+			elif (szName == "ConstructionPlannerUnitRemoveFromQueue"):
+				self.removeUnitFromQueues()
 			elif (szName.startswith("ConstructionPlannerBuildIcon") or szName.startswith("ConstructionPlannerBuildName")):
 				eBuilding = inputClass.getData1()
 				if (eBuilding != -1):
 					self.selectBuilding(eBuilding)
+			elif (szName.startswith("ConstructionPlannerUnitIcon") or szName.startswith("ConstructionPlannerUnitName")):
+				eUnit = inputClass.getData1()
+				if (eUnit != -1):
+					self.selectUnit(eUnit)
 
 		return 0
 
