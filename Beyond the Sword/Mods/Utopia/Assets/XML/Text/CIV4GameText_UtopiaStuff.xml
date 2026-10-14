@@ -296,4 +296,31 @@
 		</Russian>
 		<English>Reset All</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_BUILD_NOW</Tag>
+		<Russian>
+			<Text>&#209;&#242;&#240;&#238;&#232;&#242;&#252;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Build</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_QUEUE_AT_END</Tag>
+		<Russian>
+			<Text>&#194; &#234;&#238;&#237;&#229;&#246;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Queue at End</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_QUEUE_AT_FRONT</Tag>
+		<Russian>
+			<Text>&#194; &#237;&#224;&#247;&#224;&#235;&#238;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Queue at Front</English>
+	</TEXT>
 </Civ4GameText>
