@@ -35,6 +35,7 @@ class CvDomesticAdvisor:
 		self.listSelectedCities = []
 		self.eHurryPopulation = None
 		self.eHurryGold = None
+		self.specialistByGreatPeopleUnitClass = None
 
 	# Lazily resolved so we never touch game XML data before a game is loaded
 	def getHurryPopulationType(self):
@@ -46,6 +47,35 @@ class CvDomesticAdvisor:
 		if self.eHurryGold is None:
 			self.eHurryGold = gc.getInfoTypeForString("HURRY_GOLD")
 		return self.eHurryGold
+
+	# Builds the always-visible rush-buy cell text: normal cost when affordable, red cost when
+	# only short on money/population, or an "x" when the civic itself forbids this hurry type
+	def getHurryCellText(self, pLoopCity, eHurry, cSymbolChar, iCost):
+		szSymbol = u"<font=2>" + (u"%c" % cSymbolChar) + u"</font>"
+
+		if (not gc.getPlayer(pLoopCity.getOwner()).canHurry(eHurry)):
+			return szSymbol + u"x"
+
+		if (pLoopCity.isDisorder() or pLoopCity.getProduction() >= pLoopCity.getProductionNeeded() or not (pLoopCity.isProductionUnit() or pLoopCity.isProductionBuilding())):
+			return szSymbol + u"x"
+
+		if (pLoopCity.canHurry(eHurry, False)):
+			return szSymbol + u"-" + unicode(iCost)
+
+		return szSymbol + localText.getText("TXT_KEY_COLOR_NEGATIVE", ()) + u"-" + unicode(iCost) + localText.getText("TXT_KEY_COLOR_REVERT", ())
+
+	# Maps a Great Person unit type to the specialist that produces it, so we can reuse the same
+	# icon shown in the specialist bar (and at the bottom of the city screen) when that type joins a city
+	def getSpecialistForGreatPeopleUnit(self, eUnit):
+		if self.specialistByGreatPeopleUnitClass is None:
+			self.specialistByGreatPeopleUnitClass = {}
+			for i in range(gc.getNumSpecialistInfos()):
+				eGreatPeopleUnitClass = gc.getSpecialistInfo(i).getGreatPeopleUnitClass()
+				if eGreatPeopleUnitClass != -1:
+					self.specialistByGreatPeopleUnitClass[eGreatPeopleUnitClass] = i
+
+		eUnitClass = gc.getUnitInfo(eUnit).getUnitClassType()
+		return self.specialistByGreatPeopleUnitClass.get(eUnitClass, -1)
 
 	# Screen construction function
 	def interfaceScreen(self):
@@ -59,7 +89,7 @@ class CvDomesticAdvisor:
 		self.nScreenHeight = screen.getYResolution() - 250
 		self.nTableWidth = self.nScreenWidth - 35
 		self.nTableHeight = self.nScreenHeight - 85
-		self.nNormalizedTableWidth = 948
+		self.nNormalizedTableWidth = 978
 
 		self.nFirstSpecialistX = 30
 		self.nSpecialistY = self.nScreenHeight - 55
@@ -151,7 +181,7 @@ class CvDomesticAdvisor:
 		screen.setTableColumnHeader( "CityListBackground", 12, "<font=2>" + (u"%c" % CyGame().getSymbolID(FontSymbols.BAD_GOLD_CHAR)) + "</font>", (40 * self.nTableWidth) / self.nNormalizedTableWidth )
 
 		# Great Person Column
-		screen.setTableColumnHeader( "CityListBackground", 13, "<font=2>" + (u"%c" % CyGame().getSymbolID(FontSymbols.GREAT_PEOPLE_CHAR)) + "</font>", (70 * self.nTableWidth) / self.nNormalizedTableWidth )
+		screen.setTableColumnHeader( "CityListBackground", 13, "<font=2>" + (u"%c" % CyGame().getSymbolID(FontSymbols.GREAT_PEOPLE_CHAR)) + "</font>", (100 * self.nTableWidth) / self.nNormalizedTableWidth )
 
 		# Garrison Column
 		screen.setTableColumnHeader( "CityListBackground", 14, "<font=2>" + (u"%c" % CyGame().getSymbolID(FontSymbols.DEFENSE_CHAR)) + "</font>", (18 * self.nTableWidth) / self.nNormalizedTableWidth )
@@ -302,7 +332,30 @@ class CvDomesticAdvisor:
 					iTurnsLeft += 1
 				szGreatPerson += u" (" + unicode(iTurnsLeft) + u")"
 
-		screen.setTableInt( "CityListBackground", 13, i, szGreatPerson, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
+		# Most likely Great Person type to be born next, and its chance - mirrors the weighted-random pick in CvCity::doGreatPeople
+		szBestGPButton = ""
+		eBestGPUnit = -1
+		iBestGPUnitProgress = 0
+		iTotalGPUnitProgress = 0
+		for iUnitLoop in range(gc.getNumUnitInfos()):
+			iUnitGPProgress = pLoopCity.getGreatPeopleUnitProgress(iUnitLoop)
+			if iUnitGPProgress > 0:
+				iTotalGPUnitProgress += iUnitGPProgress
+				if iUnitGPProgress > iBestGPUnitProgress:
+					iBestGPUnitProgress = iUnitGPProgress
+					eBestGPUnit = iUnitLoop
+
+		if eBestGPUnit != -1 and iTotalGPUnitProgress > 0:
+			iGPChancePercent = (iBestGPUnitProgress * 100) / iTotalGPUnitProgress
+			szGreatPerson += u" " + unicode(iGPChancePercent) + u"%"
+
+			eBestGPSpecialist = self.getSpecialistForGreatPeopleUnit(eBestGPUnit)
+			if eBestGPSpecialist != -1:
+				szBestGPButton = gc.getSpecialistInfo(eBestGPSpecialist).getTexture()
+			else:
+				szBestGPButton = gc.getUnitInfo(eBestGPUnit).getButton()
+
+		screen.setTableText( "CityListBackground", 13, i, szGreatPerson, szBestGPButton, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
 
 		# Garrison
 		screen.setTableInt( "CityListBackground", 14, i, unicode(pLoopCity.plot().getNumDefenders(pLoopCity.getOwner())), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
@@ -310,19 +363,21 @@ class CvDomesticAdvisor:
 		# Producing
 		screen.setTableText( "CityListBackground", 15, i, pLoopCity.getProductionName() + " (" + str(pLoopCity.getGeneralProductionTurnsLeft()) + ")", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
 
-		# Rush-buy with Population - shows the citizen cost, only when the city can actually use it
+		# Rush-buy with Population - always visible: normal cost when affordable, red cost when only short on population, "x" when the civic forbids it
 		eHurryPopulation = self.getHurryPopulationType()
-		screen.setTableText( "CityListBackground", COLUMN_HURRY_POPULATION, i, "", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
-		if eHurryPopulation != -1 and pLoopCity.canHurry(eHurryPopulation, False):
-			szHurryPopText = u"<font=2>" + (u"%c" % CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR)) + u"</font>-" + unicode(pLoopCity.hurryPopulation(eHurryPopulation))
-			screen.setTableText( "CityListBackground", COLUMN_HURRY_POPULATION, i, szHurryPopText, "", WidgetTypes.WIDGET_GENERAL, pLoopCity.getOwner(), pLoopCity.getID(), CvUtil.FONT_LEFT_JUSTIFY )
+		if eHurryPopulation == -1:
+			szHurryPopText = ""
+		else:
+			szHurryPopText = self.getHurryCellText(pLoopCity, eHurryPopulation, CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR), pLoopCity.hurryPopulation(eHurryPopulation))
+		screen.setTableText( "CityListBackground", COLUMN_HURRY_POPULATION, i, szHurryPopText, "", WidgetTypes.WIDGET_GENERAL, pLoopCity.getOwner(), pLoopCity.getID(), CvUtil.FONT_LEFT_JUSTIFY )
 
-		# Rush-buy with Gold - shows the gold cost, only when the city can actually use it
+		# Rush-buy with Gold - always visible: normal cost when affordable, red cost when only short on gold, "x" when the civic forbids it
 		eHurryGold = self.getHurryGoldType()
-		screen.setTableText( "CityListBackground", COLUMN_HURRY_GOLD, i, "", "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
-		if eHurryGold != -1 and pLoopCity.canHurry(eHurryGold, False):
-			szHurryGoldText = u"<font=2>" + (u"%c" % gc.getCommerceInfo(CommerceTypes.COMMERCE_GOLD).getChar()) + u"</font>-" + unicode(pLoopCity.hurryGold(eHurryGold))
-			screen.setTableText( "CityListBackground", COLUMN_HURRY_GOLD, i, szHurryGoldText, "", WidgetTypes.WIDGET_GENERAL, pLoopCity.getOwner(), pLoopCity.getID(), CvUtil.FONT_LEFT_JUSTIFY )
+		if eHurryGold == -1:
+			szHurryGoldText = ""
+		else:
+			szHurryGoldText = self.getHurryCellText(pLoopCity, eHurryGold, gc.getCommerceInfo(CommerceTypes.COMMERCE_GOLD).getChar(), pLoopCity.hurryGold(eHurryGold))
+		screen.setTableText( "CityListBackground", COLUMN_HURRY_GOLD, i, szHurryGoldText, "", WidgetTypes.WIDGET_GENERAL, pLoopCity.getOwner(), pLoopCity.getID(), CvUtil.FONT_LEFT_JUSTIFY )
 
 		# Liberation
 		if pLoopCity.getLiberationPlayer(false) != -1:
