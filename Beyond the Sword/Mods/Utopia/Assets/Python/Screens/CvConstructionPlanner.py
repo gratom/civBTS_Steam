@@ -2,10 +2,12 @@
 ## Lets the player pick a subset of cities and a regular building, then push that
 ## building onto all of them at once (build now / queue at end / queue at front).
 ##
-## Only the city list is a real GFC table - running two addTableControlGFC tables in
-## the same screen turned out unreliable, so the building list is instead a small
-## fixed set of manually laid out rows (icon + name + cost) that we scroll ourselves
-## with two arrow buttons, redrawing the visible window in place.
+## The city list is a real GFC table. The building list is a real addScrollPanel -
+## the same native scrollable-content widget CvTechChooser uses for the tech tree
+## (screen.addScrollPanel + attachPanelAt/setTextAt/addDDSGFCAt + setViewMin) - so it
+## gets a proper draggable scrollbar for free, no manual offset/arrow bookkeeping.
+## Running two addTableControlGFC tables in the same screen turned out unreliable,
+## so the building list deliberately avoids a second Table and uses this instead.
 from CvPythonExtensions import *
 import CvUtil
 import CvScreenEnums
@@ -23,11 +25,12 @@ COLUMN_HAMMERS = 2
 CHECK_MARK_TEXT = u"[x]"
 CHECK_EMPTY_TEXT = u"[ ]"
 
-VISIBLE_BUILDING_ROWS = 12
-BUILDING_ROW_HEIGHT = 36
-BUILDING_ICON_SIZE = 32
-BUILDING_COST_WIDTH = 70
-BUILDING_SCROLL_STRIP_WIDTH = 30
+BUILD_PANEL_NAME = "ConstructionPlannerBuildScroll"
+BUILD_ROW_HEIGHT = 36
+BUILD_ICON_SIZE = 32
+BUILD_NAME_WIDTH = 185
+BUILD_COST_WIDTH = 85
+BUILD_GAP = 8
 
 class CvConstructionPlanner:
 	"Construction Planner Screen"
@@ -35,7 +38,6 @@ class CvConstructionPlanner:
 		self.selectedCityIDs = set()
 		self.selectedBuildingType = -1
 		self.buildableBuildings = []
-		self.iBuildScrollOffset = 0
 		self.iActivePlayer = -1
 
 	# Screen construction function
@@ -44,20 +46,17 @@ class CvConstructionPlanner:
 
 		self.iActivePlayer = gc.getGame().getActivePlayer()
 		self.buildableBuildings = self.computeBuildableBuildings()
-		self.iBuildScrollOffset = 0
-
-		self.nScreenWidth = 900
-		self.nScreenHeight = 620
 
 		self.nListX = 20
 		self.nListWidth = 330
-		self.nListY = 95
-		self.nListHeight = self.nScreenHeight - self.nListY - 60
+		self.nListY = 119
 
 		self.nBuildX = self.nListX + self.nListWidth + 24
-		self.nBuildWidth = self.nScreenWidth - self.nBuildX - 20
-		self.nBuildContentWidth = self.nBuildWidth - BUILDING_SCROLL_STRIP_WIDTH - 6
-		self.nBuildNameWidth = self.nBuildContentWidth - BUILDING_ICON_SIZE - 8 - BUILDING_COST_WIDTH - 8
+		self.nBuildWidth = BUILD_ICON_SIZE + BUILD_GAP + BUILD_NAME_WIDTH + BUILD_GAP + BUILD_COST_WIDTH
+
+		self.nScreenWidth = self.nBuildX + self.nBuildWidth + 20
+		self.nScreenHeight = 644
+		self.nListHeight = self.nScreenHeight - self.nListY - 60
 
 		screen.setRenderInterfaceOnly(True)
 		screen.setDimensions(100, 100, self.nScreenWidth, self.nScreenHeight)
@@ -80,38 +79,33 @@ class CvConstructionPlanner:
 		screen.setTableColumnHeader( CITY_TABLE_NAME, COLUMN_NAME, localText.getText("TXT_KEY_DOMESTIC_ADVISOR_NAME", ()), self.nListWidth - 40 - 55 )
 		screen.setTableColumnHeader( CITY_TABLE_NAME, COLUMN_HAMMERS, "<font=2>" + (u"%c" % gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()) + "</font>", 55 )
 
-		# Build-order action buttons - above the building list
-		iActionWidth = (self.nBuildWidth - 16) / 3
+		# Build-order action buttons - 2x2 grid above the building list
+		iActionWidth = (self.nBuildWidth - 8) / 2
 		screen.setButtonGFC( "ConstructionPlannerBuildNow", localText.getText("TXT_KEY_UTOPIA_BUILD_NOW", ()), "", self.nBuildX, 55, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
 		screen.setButtonGFC( "ConstructionPlannerQueueEnd", localText.getText("TXT_KEY_UTOPIA_QUEUE_AT_END", ()), "", self.nBuildX + iActionWidth + 8, 55, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
-		screen.setButtonGFC( "ConstructionPlannerQueueFront", localText.getText("TXT_KEY_UTOPIA_QUEUE_AT_FRONT", ()), "", self.nBuildX + 2 * (iActionWidth + 8), 55, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		screen.setButtonGFC( "ConstructionPlannerQueueFront", localText.getText("TXT_KEY_UTOPIA_QUEUE_AT_FRONT", ()), "", self.nBuildX, 85, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		screen.setButtonGFC( "ConstructionPlannerRemoveFromQueue", localText.getText("TXT_KEY_UTOPIA_REMOVE_FROM_QUEUE", ()), "", self.nBuildX + iActionWidth + 8, 85, iActionWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
 
-		# Scroll arrows for the building list, stacked on its right edge
-		iScrollX = self.nBuildX + self.nBuildContentWidth + 6
-		screen.setButtonGFC( "ConstructionPlannerBuildScrollUp", u"", "", iScrollX, self.nListY, BUILDING_SCROLL_STRIP_WIDTH, 30, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_ARROW_LEFT )
-		screen.setButtonGFC( "ConstructionPlannerBuildScrollDown", u"", "", iScrollX, self.nListY + self.nListHeight - 30, BUILDING_SCROLL_STRIP_WIDTH, 30, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_ARROW_RIGHT )
-
-		# Building rows - created once, hidden/shown and re-filled as we scroll
-		for iSlot in range(VISIBLE_BUILDING_ROWS):
-			iRowY = self.nListY + iSlot * BUILDING_ROW_HEIGHT
-			screen.setImageButton( self.getSlotIconName(iSlot), "", self.nBuildX, iRowY, BUILDING_ICON_SIZE, BUILDING_ICON_SIZE, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-			screen.setText( self.getSlotNameName(iSlot), "Background", u"", CvUtil.FONT_LEFT_JUSTIFY, self.nBuildX + BUILDING_ICON_SIZE + 8, iRowY + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-			screen.setLabel( self.getSlotCostName(iSlot), "Background", u"", CvUtil.FONT_RIGHT_JUSTIFY, self.nBuildX + BUILDING_ICON_SIZE + 8 + self.nBuildNameWidth + 8, iRowY + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+		# Building list - a real scroll panel (same widget CvTechChooser uses for the tech
+		# tree), so it gets a proper native scrollbar instead of our own arrow buttons.
+		screen.addScrollPanel( BUILD_PANEL_NAME, u"", self.nBuildX, self.nListY, self.nBuildWidth, self.nListHeight, PanelStyles.PANEL_STYLE_EXTERNAL )
+		screen.setViewMin( BUILD_PANEL_NAME, self.nBuildWidth, max(self.nListHeight, len(self.buildableBuildings) * BUILD_ROW_HEIGHT) )
+		screen.show( BUILD_PANEL_NAME )
 
 		# Close button, bottom right - same style as the other advisor screens
 		screen.setText( "ConstructionPlannerClose", "Background", localText.getText("TXT_KEY_PEDIA_SCREEN_EXIT", ()).upper(), CvUtil.FONT_RIGHT_JUSTIFY, self.nScreenWidth - 25, self.nScreenHeight - 35, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_CLOSE_SCREEN, -1, -1 )
 
 		self.drawCityList()
-		self.refreshBuildingSlots()
+		self.drawBuildingList()
 
-	def getSlotIconName(self, iSlot):
-		return "ConstructionPlannerBuildIcon" + str(iSlot)
+	def getRowIconName(self, i):
+		return "ConstructionPlannerBuildIcon" + str(i)
 
-	def getSlotNameName(self, iSlot):
-		return "ConstructionPlannerBuildName" + str(iSlot)
+	def getRowNameName(self, i):
+		return "ConstructionPlannerBuildName" + str(i)
 
-	def getSlotCostName(self, iSlot):
-		return "ConstructionPlannerBuildCost" + str(iSlot)
+	def getRowCostName(self, i):
+		return "ConstructionPlannerBuildCost" + str(i)
 
 	# Every regular (non-wonder, non-small-wonder) building the player could ever build,
 	# regardless of whether any one particular city currently meets its requirements.
@@ -176,54 +170,43 @@ class CvConstructionPlanner:
 		self.selectedCityIDs = set()
 		self.refreshCheckboxColumn()
 
-	# Redraws the fixed window of visible building slots at the current scroll offset
-	def refreshBuildingSlots(self):
+	# Builds every building row once, all at once, inside the scroll panel's content
+	# space (coordinates here are relative to the panel's content, not the screen -
+	# row i sits at y = i * BUILD_ROW_HEIGHT regardless of how tall the panel itself is).
+	def drawBuildingList(self):
 		screen = CyGInterfaceScreen( SCREEN_NAME, CvScreenEnums.CONSTRUCTION_PLANNER )
-		iTotal = len(self.buildableBuildings)
+		szHammerIcon = u"<font=2>" + (u"%c" % gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()) + u"</font>"
+		player = gc.getPlayer(self.iActivePlayer)
 
-		for iSlot in range(VISIBLE_BUILDING_ROWS):
-			iBuildingIndex = self.iBuildScrollOffset + iSlot
-			szIconName = self.getSlotIconName(iSlot)
-			szNameName = self.getSlotNameName(iSlot)
-			szCostName = self.getSlotCostName(iSlot)
-
-			if (iBuildingIndex >= iTotal):
-				screen.hide(szIconName)
-				screen.hide(szNameName)
-				screen.hide(szCostName)
-				continue
-
-			eBuilding = self.buildableBuildings[iBuildingIndex]
+		i = 0
+		for eBuilding in self.buildableBuildings:
 			pBuildingInfo = gc.getBuildingInfo(eBuilding)
+			iRowY = i * BUILD_ROW_HEIGHT
 
-			screen.setImageButton( szIconName, pBuildingInfo.getButton(), self.nBuildX, self.nListY + iSlot * BUILDING_ROW_HEIGHT, BUILDING_ICON_SIZE, BUILDING_ICON_SIZE, WidgetTypes.WIDGET_GENERAL, eBuilding, -1 )
-			screen.show(szIconName)
+			screen.addDDSGFCAt( self.getRowIconName(i), BUILD_PANEL_NAME, pBuildingInfo.getButton(), 0, iRowY, BUILD_ICON_SIZE, BUILD_ICON_SIZE, WidgetTypes.WIDGET_GENERAL, eBuilding, -1, False )
 
-			szName = pBuildingInfo.getDescription()
-			if (eBuilding == self.selectedBuildingType):
-				szName = localText.getText("TXT_KEY_COLOR_POSITIVE", ()) + szName + localText.getText("TXT_KEY_COLOR_REVERT", ())
-			screen.setText( szNameName, "Background", szName, CvUtil.FONT_LEFT_JUSTIFY, self.nBuildX + BUILDING_ICON_SIZE + 8, self.nListY + iSlot * BUILDING_ROW_HEIGHT + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eBuilding, -1 )
-			screen.show(szNameName)
+			szCost = unicode(player.getBuildingProductionNeeded(eBuilding)) + u" " + szHammerIcon
+			screen.setLabelAt( self.getRowCostName(i), BUILD_PANEL_NAME, szCost, CvUtil.FONT_RIGHT_JUSTIFY, BUILD_ICON_SIZE + BUILD_GAP + BUILD_NAME_WIDTH + BUILD_GAP, iRowY + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 
-			screen.setLabel( szCostName, "Background", unicode(pBuildingInfo.getProductionCost()), CvUtil.FONT_RIGHT_JUSTIFY, self.nBuildX + BUILDING_ICON_SIZE + 8 + self.nBuildNameWidth + 8, self.nListY + iSlot * BUILDING_ROW_HEIGHT + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-			screen.show(szCostName)
+			self.updateBuildingNameRow(i, eBuilding)
+			i += 1
 
-	def scrollBuildingList(self, iDirection):
-		iMaxOffset = max(0, len(self.buildableBuildings) - VISIBLE_BUILDING_ROWS)
-		iNewOffset = self.iBuildScrollOffset + iDirection
-		if iNewOffset < 0:
-			iNewOffset = 0
-		elif iNewOffset > iMaxOffset:
-			iNewOffset = iMaxOffset
-		if iNewOffset != self.iBuildScrollOffset:
-			self.iBuildScrollOffset = iNewOffset
-			self.refreshBuildingSlots()
+	def updateBuildingNameRow(self, i, eBuilding):
+		screen = CyGInterfaceScreen( SCREEN_NAME, CvScreenEnums.CONSTRUCTION_PLANNER )
+		szName = gc.getBuildingInfo(eBuilding).getDescription()
+		if (eBuilding == self.selectedBuildingType):
+			szName = localText.getText("TXT_KEY_COLOR_POSITIVE", ()) + szName + localText.getText("TXT_KEY_COLOR_REVERT", ())
+		screen.setTextAt( self.getRowNameName(i), BUILD_PANEL_NAME, szName, CvUtil.FONT_LEFT_JUSTIFY, BUILD_ICON_SIZE + BUILD_GAP, i * BUILD_ROW_HEIGHT + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eBuilding, -1 )
 
 	def selectBuilding(self, eBuilding):
 		if (eBuilding == self.selectedBuildingType):
 			return
 		self.selectedBuildingType = eBuilding
-		self.refreshBuildingSlots()
+
+		i = 0
+		for eLoopBuilding in self.buildableBuildings:
+			self.updateBuildingNameRow(i, eLoopBuilding)
+			i += 1
 
 	# Pushes the selected building onto every selected city's order queue.
 	# bShift/bCtrl match the real key-held meaning used by the native city screen:
@@ -234,6 +217,38 @@ class CvConstructionPlanner:
 			return
 		for iCityID in self.selectedCityIDs:
 			CyMessageControl().sendPushOrder(iCityID, OrderTypes.ORDER_CONSTRUCT, self.selectedBuildingType, False, bShift, bCtrl)
+
+	# Removes the selected building from every selected city's queue, wherever it appears.
+	# There's no networked "pop this one order" message exposed to Python (CvMessageControl::
+	# sendPopOrder exists in the DLL but isn't bound), so this rebuilds the queue instead -
+	# read it, clear it (TASK_CLEAR_ORDERS, networked), then re-push everything except the
+	# target building, in the same order (sendPushOrder, networked). Net effect is the same
+	# as popping that one order, except any shields already accumulated on an in-progress
+	# head order being removed are not carried over (same as cancelling it outright).
+	def removeBuildingFromQueues(self):
+		if (self.selectedBuildingType == -1 or len(self.selectedCityIDs) == 0):
+			return
+		player = gc.getPlayer(self.iActivePlayer)
+		for iCityID in self.selectedCityIDs:
+			pCity = player.getCity(iCityID)
+			if (not pCity):
+				continue
+
+			bFound = False
+			remainingOrders = []
+			for i in range(pCity.getOrderQueueLength()):
+				order = pCity.getOrderFromQueue(i)
+				if (order.eOrderType == OrderTypes.ORDER_CONSTRUCT) and (order.iData1 == self.selectedBuildingType):
+					bFound = True
+					continue
+				remainingOrders.append((order.eOrderType, order.iData1))
+
+			if not bFound:
+				continue
+
+			CyMessageControl().sendDoTask(iCityID, TaskTypes.TASK_CLEAR_ORDERS, -1, -1, False, False, False, False)
+			for (eOrderType, iData1) in remainingOrders:
+				CyMessageControl().sendPushOrder(iCityID, eOrderType, iData1, False, True, False)
 
 	# Will handle the input for this screen...
 	def handleInput (self, inputClass):
@@ -257,10 +272,8 @@ class CvConstructionPlanner:
 				self.applyBuildOrder(True, False)
 			elif (szName == "ConstructionPlannerQueueFront"):
 				self.applyBuildOrder(False, True)
-			elif (szName == "ConstructionPlannerBuildScrollUp"):
-				self.scrollBuildingList(-1)
-			elif (szName == "ConstructionPlannerBuildScrollDown"):
-				self.scrollBuildingList(1)
+			elif (szName == "ConstructionPlannerRemoveFromQueue"):
+				self.removeBuildingFromQueues()
 			elif (szName.startswith("ConstructionPlannerBuildIcon") or szName.startswith("ConstructionPlannerBuildName")):
 				eBuilding = inputClass.getData1()
 				if (eBuilding != -1):
