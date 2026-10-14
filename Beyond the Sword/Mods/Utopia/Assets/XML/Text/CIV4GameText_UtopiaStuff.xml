@@ -251,4 +251,22 @@
 		</Russian>
 		<English>God's Arrow</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_HURRY_POPULATION_HEADER</Tag>
+		<Russian>
+			<Text>&#211;&#241;&#234;. &#230;&#232;&#242;&#229;&#235;&#232;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Rush: Pop</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_HURRY_GOLD_HEADER</Tag>
+		<Russian>
+			<Text>&#211;&#241;&#234;. &#228;&#229;&#237;&#252;&#227;&#232;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Rush: Gold</English>
+	</TEXT>
 </Civ4GameText>
