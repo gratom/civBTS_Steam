@@ -664,7 +664,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			x = self.X_ITEMS_PANE + iCol * colWidth + 10
 			y = panelY + HEADER_HEIGHT + iRow * rowHeight + 4
 
-			szCheckName = "TraitFilterCheck" + str(iTrait)
+			szCheckName = self.getNextWidgetName()
 			screen.addCheckBoxGFC(szCheckName, self.traitIconPaths[iTrait],
 				ArtFileMgr.getInterfaceArtInfo("BUTTON_HILITE_SQUARE").getPath(),
 				x, y, ICON_SIZE, ICON_SIZE,
