@@ -79,11 +79,76 @@ def handleNetMessage(iData2, iData3, iData4, iData5):
 		CyInterface().setDirty(InterfaceDirtyBits.CitizenButtons_DIRTY_BIT, True)
 
 
+NUM_CITY_PLOTS = 21	# home plot (index 0) + the 20 plots in the city's work radius
+CITY_HOME_PLOT = 0
+
+
+def _specialistRoom(pCity, iSpecialist):
+	'How many more of this specialist type the city will currently accept.'
+	if gc.getPlayer(pCity.getOwner()).isSpecialistValid(iSpecialist):
+		return 999	# a building/civic override lifts the max count entirely
+	return max(0, pCity.getMaxSpecialistCount(iSpecialist) - pCity.getSpecialistCount(iSpecialist))
+
+
+def _fallbackSpecialistTargets(pCity, aiFlagged, iDefaultSpecialist):
+	'Visible, non-blocked specialist types, candidates to redirect overflow Citizens into.'
+	# Reverse XML order: specialist row i sits at y = yResolution - 272 - (26*i) in
+	# CvMainInterface, so higher indices draw higher up the screen. Walking from the
+	# highest index down matches "top of the panel first" the way the UI reads.
+	for i in range(gc.getNumSpecialistInfos() - 1, -1, -1):
+		if i == iDefaultSpecialist or i in aiFlagged:
+			continue
+		if gc.getSpecialistInfo(i).isVisible():
+			yield i
+
+
 def enforceCity(pCity):
-	for iSpecialist in getAutoRemoveList(pCity):
+	aiFlagged = getAutoRemoveList(pCity)
+	if not aiFlagged:
+		return
+
+	iDefaultSpecialist = gc.getDefineINT("DEFAULT_SPECIALIST")
+
+	# Any other specialist type always converts straight to DEFAULT_SPECIALIST
+	# (plain "Citizen") when removed - that part of CvCity::alterSpecialistCount
+	# is unconditional, no AI choice involved, so this half is always safe.
+	for iSpecialist in aiFlagged:
+		if iSpecialist == iDefaultSpecialist:
+			continue
 		iCount = pCity.getSpecialistCount(iSpecialist)
 		if iCount > 0:
 			pCity.alterSpecialistCount(iSpecialist, -iCount)
+
+	if iDefaultSpecialist == -1 or iDefaultSpecialist not in aiFlagged:
+		return
+
+	# Citizen is ALSO blocked: the overflow dumped there in the step above (or already
+	# sitting there from a previous turn) has to go somewhere else. Increasing a
+	# *different* specialist type makes the engine's own AI_removeWorstCitizen() pull
+	# the body it needs straight out of the Citizen pool first - before it ever looks
+	# at a worked tile - so this reliably moves people out of Citizen into a type we
+	# pick ourselves, instead of leaving the engine to choose (and possibly bounce them
+	# straight back onto whatever we just blocked).
+	for iTarget in _fallbackSpecialistTargets(pCity, aiFlagged, iDefaultSpecialist):
+		iResidual = pCity.getSpecialistCount(iDefaultSpecialist)
+		if iResidual <= 0:
+			break
+		iRoom = _specialistRoom(pCity, iTarget)
+		if iRoom > 0:
+			pCity.alterSpecialistCount(iTarget, min(iRoom, iResidual))
+
+	# Nowhere left with room for a specialist? Last resort: put them to work on an
+	# actual tile instead, if the city has one free - alterWorkingPlot() drains the
+	# Citizen pool through that same AI_removeWorstCitizen() mechanism.
+	iResidual = pCity.getSpecialistCount(iDefaultSpecialist)
+	if iResidual > 0:
+		for i in range(CITY_HOME_PLOT + 1, NUM_CITY_PLOTS):
+			if pCity.getSpecialistCount(iDefaultSpecialist) <= 0:
+				break
+			if not pCity.isWorkingPlotByIndex(i):
+				pPlot = pCity.getCityIndexPlot(i)
+				if pPlot and pCity.canWork(pPlot):
+					pCity.alterWorkingPlot(i)
 
 
 def enforcePlayer(iPlayer):
