@@ -41,6 +41,7 @@ class CvConstructionPlanner:
 		self.buildableBuildings = []
 		self.selectedUnitType = -1
 		self.buildableUnits = []
+		self.iTopPercent = 100
 		self.iActivePlayer = -1
 
 	# Screen construction function
@@ -77,6 +78,29 @@ class CvConstructionPlanner:
 		iHalfWidth = (self.nListWidth - 8) / 2
 		screen.setButtonGFC( "ConstructionPlannerSelectAll", localText.getText("TXT_KEY_UTOPIA_SELECT_ALL_CITIES", ()), "", self.nListX, 55, iHalfWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
 		screen.setButtonGFC( "ConstructionPlannerResetAll", localText.getText("TXT_KEY_UTOPIA_RESET_ALL_CITIES", ()), "", self.nListX + iHalfWidth + 8, 55, iHalfWidth, 26, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+
+		# Top N% by production filter - what "Select All" actually selects. 5 widgets in
+		# a row: -25% / -5% / counter / +5% / +25%, counter clamped to [0, 100].
+		# The 4 step buttons share one name prefix with NO digits in it - the delta is
+		# carried in data1 instead (same convention the game itself uses for Hurry0/
+		# Hurry1/CityTab0 etc.) because a digit-suffixed widget name apparently doesn't
+		# come back unchanged from getFunctionName(), so exact-matching against it never
+		# fires even though the click visibly registers on the button itself.
+		iStepWidth = 50
+		iStepGap = 6
+		iCounterWidth = self.nListWidth - 4 * iStepWidth - 4 * iStepGap
+		iStepX = self.nListX
+		screen.setButtonGFC( "ConstructionPlannerTopPercentStepA", u"-25%", "", iStepX, 85, iStepWidth, 26, WidgetTypes.WIDGET_GENERAL, -25, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		iStepX += iStepWidth + iStepGap
+		screen.setButtonGFC( "ConstructionPlannerTopPercentStepB", u"-5%", "", iStepX, 85, iStepWidth, 26, WidgetTypes.WIDGET_GENERAL, -5, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		iStepX += iStepWidth + iStepGap
+		self.nTopPercentLabelX = iStepX + iCounterWidth / 2
+		self.nTopPercentLabelY = 92
+		iStepX += iCounterWidth + iStepGap
+		screen.setButtonGFC( "ConstructionPlannerTopPercentStepC", u"+5%", "", iStepX, 85, iStepWidth, 26, WidgetTypes.WIDGET_GENERAL, 5, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		iStepX += iStepWidth + iStepGap
+		screen.setButtonGFC( "ConstructionPlannerTopPercentStepD", u"+25%", "", iStepX, 85, iStepWidth, 26, WidgetTypes.WIDGET_GENERAL, 25, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
+		self.refreshTopPercentLabel()
 
 		# City list - checkbox + name + hammers/turn, click anywhere on a row to toggle it
 		screen.addTableControlGFC( CITY_TABLE_NAME, 3, self.nListX, self.nListY, self.nListWidth, self.nListHeight, True, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD )
@@ -228,17 +252,39 @@ class CvConstructionPlanner:
 			szCheck = CHECK_EMPTY_TEXT
 		screen.setTableText( CITY_TABLE_NAME, COLUMN_CHECK, iRow, szCheck, "", WidgetTypes.WIDGET_GENERAL, self.iActivePlayer, iCityID, CvUtil.FONT_CENTER_JUSTIFY )
 
+	# Selects the top iTopPercent% of cities by hammers/turn (100% = literally all of them).
 	def selectAllCities(self):
 		player = gc.getPlayer(self.iActivePlayer)
-		(pLoopCity, iter) = player.firstCity(false)
-		while(pLoopCity):
-			self.selectedCityIDs.add(pLoopCity.getID())
-			(pLoopCity, iter) = player.nextCity(iter, false)
+		cities = self.getPlayerCities(player)
+		cities.sort(lambda a, b: b.getYieldRate(YieldTypes.YIELD_PRODUCTION) - a.getYieldRate(YieldTypes.YIELD_PRODUCTION))
+
+		iCount = (len(cities) * self.iTopPercent) / 100
+		for i in range(iCount):
+			self.selectedCityIDs.add(cities[i].getID())
 		self.refreshCheckboxColumn()
 
 	def resetAllCities(self):
 		self.selectedCityIDs = set()
 		self.refreshCheckboxColumn()
+
+	def adjustTopPercent(self, iDelta):
+		iNewPercent = self.iTopPercent + iDelta
+		if iNewPercent < 0:
+			iNewPercent = 0
+		elif iNewPercent > 100:
+			iNewPercent = 100
+		self.iTopPercent = iNewPercent
+		self.refreshTopPercentLabel()
+
+	def refreshTopPercentLabel(self):
+		screen = CyGInterfaceScreen( SCREEN_NAME, CvScreenEnums.CONSTRUCTION_PLANNER )
+		szHammerIcon = u"<font=2>" + (u"%c" % gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()) + u"</font>"
+		szText = u"Top " + unicode(self.iTopPercent) + u"% " + szHammerIcon
+		# hide before re-setting the text - a show() call on an already-visible widget
+		# seems to be a no-op (no visible state change), so force an actual transition
+		screen.hide( "ConstructionPlannerTopPercentLabel" )
+		screen.setLabel( "ConstructionPlannerTopPercentLabel", "Background", szText, CvUtil.FONT_CENTER_JUSTIFY, self.nTopPercentLabelX, self.nTopPercentLabelY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+		screen.show( "ConstructionPlannerTopPercentLabel" )
 
 	# Builds every building row once, all at once, inside the scroll panel's content
 	# space (coordinates here are relative to the panel's content, not the screen -
@@ -267,6 +313,7 @@ class CvConstructionPlanner:
 		if (eBuilding == self.selectedBuildingType):
 			szName = localText.getText("TXT_KEY_COLOR_POSITIVE", ()) + szName + localText.getText("TXT_KEY_COLOR_REVERT", ())
 		screen.setTextAt( self.getRowNameName(i), BUILD_PANEL_NAME, szName, CvUtil.FONT_LEFT_JUSTIFY, BUILD_ICON_SIZE + BUILD_GAP, i * BUILD_ROW_HEIGHT + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eBuilding, -1 )
+		screen.show( self.getRowNameName(i) )
 
 	def selectBuilding(self, eBuilding):
 		if (eBuilding == self.selectedBuildingType):
@@ -303,6 +350,7 @@ class CvConstructionPlanner:
 		if (eUnit == self.selectedUnitType):
 			szName = localText.getText("TXT_KEY_COLOR_POSITIVE", ()) + szName + localText.getText("TXT_KEY_COLOR_REVERT", ())
 		screen.setTextAt( self.getUnitRowNameName(i), UNIT_PANEL_NAME, szName, CvUtil.FONT_LEFT_JUSTIFY, BUILD_ICON_SIZE + BUILD_GAP, i * BUILD_ROW_HEIGHT + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eUnit, -1 )
+		screen.show( self.getUnitRowNameName(i) )
 
 	def selectUnit(self, eUnit):
 		if (eUnit == self.selectedUnitType):
@@ -405,6 +453,8 @@ class CvConstructionPlanner:
 				self.selectAllCities()
 			elif (szName == "ConstructionPlannerResetAll"):
 				self.resetAllCities()
+			elif (szName.startswith("ConstructionPlannerTopPercentStep")):
+				self.adjustTopPercent(inputClass.getData1())
 			elif (szName == "ConstructionPlannerBuildNow"):
 				self.applyBuildOrder(False, False)
 			elif (szName == "ConstructionPlannerQueueEnd"):
