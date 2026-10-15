@@ -36,6 +36,11 @@ class CvDomesticAdvisor:
 		self.eHurryPopulation = None
 		self.eHurryGold = None
 		self.specialistByGreatPeopleUnitClass = None
+		# Row index -> CyCity, rebuilt every time the table is (re)drawn. Click events on the
+		# rush-buy cells only reliably report the clicked row (getMouseY), not per-cell bound
+		# data, so we keep our own row->city mapping instead of trusting getData1()/getData2()
+		# for those cells (which was found to always resolve to the first row).
+		self.rowCities = []
 
 	# Lazily resolved so we never touch game XML data before a game is loaded
 	def getHurryPopulationType(self):
@@ -226,12 +231,14 @@ class CvDomesticAdvisor:
 
 		# Loop through the cities
 		i = 0
+		self.rowCities = []
 		(pLoopCity, iter) = player.firstCity(false)
 		while(pLoopCity):
 			screen.appendTableRow( "CityListBackground" )
 			if (pLoopCity.getName() in self.listSelectedCities):
 				screen.selectRow( "CityListBackground", i, True )
 			self.updateTable(pLoopCity, i)
+			self.rowCities.append(pLoopCity)
 			i += 1
 			(pLoopCity, iter) = player.nextCity(iter, false)
 
@@ -380,7 +387,7 @@ class CvDomesticAdvisor:
 			szHurryPopText = ""
 		else:
 			szHurryPopText = self.getHurryCellText(pLoopCity, eHurryPopulation, CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR), pLoopCity.hurryPopulation(eHurryPopulation))
-		screen.setTableText( "CityListBackground", COLUMN_HURRY_POPULATION, i, szHurryPopText, "", WidgetTypes.WIDGET_GENERAL, pLoopCity.getOwner(), pLoopCity.getID(), CvUtil.FONT_LEFT_JUSTIFY )
+		screen.setTableText( "CityListBackground", COLUMN_HURRY_POPULATION, i, szHurryPopText, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
 
 		# Rush-buy with Gold - always visible: normal cost when affordable, red cost when only short on gold, "x" when the civic forbids it
 		eHurryGold = self.getHurryGoldType()
@@ -388,7 +395,7 @@ class CvDomesticAdvisor:
 			szHurryGoldText = ""
 		else:
 			szHurryGoldText = self.getHurryCellText(pLoopCity, eHurryGold, gc.getCommerceInfo(CommerceTypes.COMMERCE_GOLD).getChar(), pLoopCity.hurryGold(eHurryGold))
-		screen.setTableText( "CityListBackground", COLUMN_HURRY_GOLD, i, szHurryGoldText, "", WidgetTypes.WIDGET_GENERAL, pLoopCity.getOwner(), pLoopCity.getID(), CvUtil.FONT_LEFT_JUSTIFY )
+		screen.setTableText( "CityListBackground", COLUMN_HURRY_GOLD, i, szHurryGoldText, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY )
 
 		# Liberation
 		if pLoopCity.getLiberationPlayer(false) != -1:
@@ -479,7 +486,9 @@ class CvDomesticAdvisor:
 				popupInfo.setText(u"showDomesticAdvisor")
 				popupInfo.addPopup(inputClass.getData1())
 			elif (iColumn == COLUMN_HURRY_POPULATION or iColumn == COLUMN_HURRY_GOLD):
-				self.doHurryClick(iColumn, inputClass.getData1(), inputClass.getData2())
+				iRow = inputClass.getMouseY()
+				if (iRow >= 0 and iRow < len(self.rowCities)):
+					self.doHurryClick(iColumn, self.rowCities[iRow])
 			else:
 				self.updateAppropriateCitySelection()
 				self.updateSpecialists()
@@ -496,11 +505,10 @@ class CvDomesticAdvisor:
 	# Rush-buys the production of the row's city directly, bypassing city selection.
 	# Goes through the network message queue (like the city screen's own Hurry buttons) so
 	# the action reaches every client in multiplayer instead of only changing state locally.
-	def doHurryClick(self, iColumn, iOwner, iCityID):
-		if (iOwner == -1 or iCityID == -1):
-			return
-
-		pCity = gc.getPlayer(iOwner).getCity(iCityID)
+	# pCity is resolved by the caller from the clicked row index (self.rowCities), not from
+	# the click event's data1/data2 - those were found to always resolve to the first row for
+	# these WIDGET_GENERAL cells, unlike the native per-row widgets (e.g. the zoom-city icon).
+	def doHurryClick(self, iColumn, pCity):
 		if (not pCity):
 			return
 
@@ -530,9 +538,11 @@ class CvDomesticAdvisor:
 			player = gc.getPlayer(CyGame().getActivePlayer())
 
 			i = 0
+			self.rowCities = []
 			(pLoopCity, iter) = player.firstCity(false)
 			while(pLoopCity):
 				self.updateTable(pLoopCity, i)
+				self.rowCities.append(pLoopCity)
 				i += 1
 				(pLoopCity, iter) = player.nextCity(iter, false)
 
