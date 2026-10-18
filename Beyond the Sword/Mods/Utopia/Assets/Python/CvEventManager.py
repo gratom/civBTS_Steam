@@ -431,6 +431,9 @@ class CvEventManager:
 		import CvAutoGrowthManager
 		CvAutoGrowthManager.enforcePlayer(iPlayer)
 
+		import CvBetterEspionage
+		CvBetterEspionage.enforcePlayer(iPlayer)
+
 		self.doAIWildImprovements(iPlayer)
 
 	def doAIWildImprovements(self, iPlayer):
