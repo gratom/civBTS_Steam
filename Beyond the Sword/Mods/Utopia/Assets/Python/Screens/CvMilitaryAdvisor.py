@@ -344,7 +344,12 @@ class CvMilitaryAdvisor:
 						screen.setListBoxStringGFC(self.UNIT_LIST_ID, iItem, szDescription, WidgetTypes.WIDGET_MINIMAP_HIGHLIGHT, 1, self.unitsList[iUnit][0] + gc.getNumUnitInfos(), CvUtil.FONT_LEFT_JUSTIFY)
 					iItem += 1
 				
-				szDescription = gc.getUnitInfo(self.unitsList[iUnit][1]).getDescription() + u" (" + unicode(len(self.unitsList[iUnit][2])) + u")"
+				unitInfo = gc.getUnitInfo(self.unitsList[iUnit][1])
+				if (unitInfo.getAirCombat() > 0 and unitInfo.getCombat() == 0):
+					iStrength = unitInfo.getAirCombat()
+				else:
+					iStrength = unitInfo.getCombat()
+				szDescription = unitInfo.getDescription() + u" " + unicode(iStrength) + u"%c" % CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR) + u" " + unicode(unitInfo.getMoves()) + u"%c" % CyGame().getSymbolID(FontSymbols.MOVES_CHAR) + u" (" + unicode(len(self.unitsList[iUnit][2])) + u")"
 				if (self.isSelectedUnitType(self.unitsList[iUnit][1], False)):
 					szDescription = u"      <u>" + szDescription + u"</u>"
 				else:
