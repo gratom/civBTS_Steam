@@ -17,7 +17,7 @@ CLIMATE_JUNGLE_SPREAD_CHANCE_PERCENT = 5  # % за каждого подходя
 
 # ---- Параметры "тектонического сдвига" - рождение нового острова в открытом океане ----
 # Не привязано к игроку - рождается "само", вызывается глобально из onBeginGameTurn.
-TECTONIC_SHIFT_CHANCE_PERCENT = 1      # шанс % в ход, что где-то в океане родится остров
+TECTONIC_SHIFT_CHANCE_PER_10000 = 10000   # шанс в ход (из 10000, т.е. 100 = 1%), что где-то в океане родится остров - минимальный шаг теперь 0.01%, а не 1%
 TECTONIC_ISOLATION_RADIUS = 2          # в этом радиусе не должно быть вообще никакой суши
 TECTONIC_MIN_ISLAND_TILES = 5
 TECTONIC_MAX_ISLAND_TILES = 8
@@ -80,7 +80,11 @@ def initLandPlotsCache():
     for i in range(totalPlots):
         plot = mapObj.plotByIndex(i)
         if plot.isWater():
-            _waterPlotIndices.append(i)
+            # Только чистый глубокий океан - не озеро и без ресурса. Такие клетки
+            # почти всегда достаточно далеко от суши/берега, так что тектонический
+            # сдвиг реже впустую промахивается на проверке изоляции.
+            if not plot.isLake() and plot.getBonusType(-1) == -1:
+                _waterPlotIndices.append(i)
             continue
         if plot.isPeak():
             continue  # горы - террейн под ними климат не меняет, нет смысла проверять
@@ -417,6 +421,24 @@ def _destroyUnitsOnPlot(plot):
         loopUnit.kill(False, -1)
         iSafety -= 1
 
+def _refreshAllFarmsIrrigation():
+    # ЭКСПЕРИМЕНТАЛЬНЫЙ фикс: CvPlot.isIrrigated() - закэшированный флаг (не то
+    # же самое, что живой isFreshWater()), пересчитывается через FAStar-поиск
+    # внутри CvPlot::updateIrrigated(), который вызывается ТОЛЬКО по явным
+    # триггерам типа setImprovementType - а не из-за recalculateAreas() где-то
+    # на другом конце карты. Поэтому ферма у озера может "залипнуть" без
+    # орошения после того, как где-то родился остров. Снимаем и сразу ставим
+    # обратно каждую ферму на карте - это гарантированно вызывает
+    # updateIrrigated()+updateYield() у движка снова, свежими данными.
+    iFarm = gc.getInfoTypeForString("IMPROVEMENT_FARM")
+    mapObj = CyMap()
+    totalPlots = mapObj.numPlots()
+    for i in range(totalPlots):
+        plot = mapObj.plotByIndex(i)
+        if plot.getImprovementType() == iFarm:
+            plot.setImprovementType(-1)
+            plot.setImprovementType(iFarm)
+
 def _pickRandomSubset(listItems, iCount):
     # Возвращает до iCount случайных ЭЛЕМЕНТОВ без повторов (не индексов) -
     # используется и для клеток, и для типов ресурсов.
@@ -436,7 +458,7 @@ def processTectonicShift():
     if len(_waterPlotIndices) == 0:
         return
 
-    if gc.getGame().getSorenRandNum(100, "Tectonic shift: chance roll") >= TECTONIC_SHIFT_CHANCE_PERCENT:
+    if gc.getGame().getSorenRandNum(10000, "Tectonic shift: chance roll") >= TECTONIC_SHIFT_CHANCE_PER_10000:
         return
 
     mapObj = CyMap()
@@ -491,12 +513,44 @@ def processTectonicShift():
 
     listFlatPlots = listRolePool  # всё, что осталось после горы и холмов
 
+    # bRecalculate=False на каждой отдельной клетке - иначе CvPlot::setPlotType
+    # сам решает (по числу разных областей среди 8 соседей), что нужен полный
+    # CyMap.recalculateAreas() по ВСЕЙ карте, и может дёргать его несколько раз
+    # подряд пока остров собирается по одной клетке. Это разом пересчитывает
+    # Area у всех озёр на карте и, похоже, портит кэш урожая у ферм с орошением
+    # от озера (сама isFreshWater() всё ещё живая и верная - поэтому в тултипе
+    # видно правильное число, а на клетке и в росте города - старое закэшированное).
+    # Правильный паттерн (так и подписан в самом API) - выставить все клетки без
+    # пересчёта, а затем вызвать recalculateAreas() самим, ровно один раз.
     if peakPlot is not None:
-        peakPlot.setPlotType(PlotTypes.PLOT_PEAK, True, True)
+        peakPlot.setPlotType(PlotTypes.PLOT_PEAK, False, True)
     for loopPlot in listHillPlots:
-        loopPlot.setPlotType(PlotTypes.PLOT_HILLS, True, True)
+        loopPlot.setPlotType(PlotTypes.PLOT_HILLS, False, True)
     for loopPlot in listFlatPlots:
-        loopPlot.setPlotType(PlotTypes.PLOT_LAND, True, True)
+        loopPlot.setPlotType(PlotTypes.PLOT_LAND, False, True)
+
+    CyMap().recalculateAreas()
+
+    # bRecalculate=True у setPlotType выше заодно превращал бы соседний океан в
+    # мелководье/побережье сам - раз мы это пропустили, красим его сами явно,
+    # той же клеткой, что движок использовал бы (SHALLOW_WATER_TERRAIN).
+    iCoastTerrain = gc.getDefineINT("SHALLOW_WATER_TERRAIN")
+    listCoastalCandidates = []
+    setSeenCoords = set()
+    for loopPlot in listIslandPlots:
+        for iDX in range(-1, 2):
+            for iDY in range(-1, 2):
+                if iDX == 0 and iDY == 0:
+                    continue
+                neighborPlot = plotXY(loopPlot.getX(), loopPlot.getY(), iDX, iDY)
+                if not neighborPlot or neighborPlot.isNone() or not neighborPlot.isWater():
+                    continue
+                coordKey = (neighborPlot.getX(), neighborPlot.getY())
+                if coordKey in setSeenCoords:
+                    continue
+                setSeenCoords.add(coordKey)
+                listCoastalCandidates.append(neighborPlot)
+                neighborPlot.setTerrainType(iCoastTerrain, True, True)
 
     # --- Террейн: ровно 2 луга, остальное равнина - независимо от рельефа выше,
     # то есть и холм, и гора могут оказаться на лугах, и наоборот. ---
@@ -561,25 +615,11 @@ def processTectonicShift():
         for loopPlot in listForestPlots:
             loopPlot.setFeatureType(iForest, -1)
 
-    # --- Морские ресурсы на побережье вокруг острова: рыба/моллюск/краб. Краб и
+    # --- Морские ресурсы на побережье вокруг острова: рыба/моллюск/краб (список
+    # listCoastalCandidates уже построен и покрашен в побережье выше). Краб и
     # моллюск требуют почти противоположные широты (40-90 и 0-50) - на многих
     # островах один из них физически не появится, это не баг, так устроены
     # ванильные ресурсы. Пробуем все три, оставляем что получилось. ---
-    listCoastalCandidates = []
-    setSeenCoords = set()
-    for loopPlot in listIslandPlots:
-        for iDX in range(-1, 2):
-            for iDY in range(-1, 2):
-                if iDX == 0 and iDY == 0:
-                    continue
-                neighborPlot = plotXY(loopPlot.getX(), loopPlot.getY(), iDX, iDY)
-                if not neighborPlot or neighborPlot.isNone() or not neighborPlot.isWater():
-                    continue
-                coordKey = (neighborPlot.getX(), neighborPlot.getY())
-                if coordKey in setSeenCoords:
-                    continue
-                setSeenCoords.add(coordKey)
-                listCoastalCandidates.append(neighborPlot)
 
     # Если краб/моллюск не встал (чаще всего - широта не подошла), ставим на его
     # место ещё одну рыбу, чтобы остров не остался совсем без морских ресурсов.
@@ -615,6 +655,8 @@ def processTectonicShift():
 
     # Новые клетки суши должны попасть в кэш, иначе климат-автомат их не увидит
     initLandPlotsCache()
+
+    _refreshAllFarmsIrrigation()
 
     # --- Сообщение всем живым игрокам, а не только тому, на чьём ходу выпал бросок ---
     szMessage = localText.getText("TXT_KEY_TECTONIC_SHIFT_ISLAND_FORMED", ())
