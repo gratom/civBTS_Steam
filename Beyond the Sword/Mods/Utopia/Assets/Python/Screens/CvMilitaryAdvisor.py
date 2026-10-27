@@ -6,6 +6,7 @@ import ScreenInput
 import time
 import PyHelpers
 import re
+import math
 
 PyPlayer = PyHelpers.PyPlayer
 PyInfo = PyHelpers.PyInfo
@@ -37,6 +38,12 @@ class CvMilitaryAdvisor:
 		self.UNIT_LIST_ID = "MilitaryAdvisorUnitList"
 		self.GREAT_GENERAL_BAR_ID = "MilitaryAdvisorGreatGeneralBar"
 		self.GREAT_GENERAL_LABEL_ID = "MilitaryAdvisorGreatGeneralLabel"
+		self.RALLY_CANVAS_ID = "MilitaryAdvisorRallyCanvas"
+		self.RALLY_LINE_ID = "MilitaryAdvisorRallyLine"
+		self.nRallyLineCount = 0
+		# Extra columns of terrain the minimap duplicates across the whole width because of
+		# cylindrical map wrap (observed as roughly 3 tiles combined) - see plotToMinimapXY.
+		self.MAP_WRAP_PADDING = 3.0
 
 		self.Z_BACKGROUND = -2.1
 		self.Z_CONTROLS = self.Z_BACKGROUND - 0.2
@@ -145,6 +152,18 @@ class CvMilitaryAdvisor:
 		screen.initMinimap(self.X_MAP + self.MAP_MARGIN, self.X_MAP + self.W_MAP - self.MAP_MARGIN, self.Y_MAP + self.MAP_MARGIN, self.Y_MAP + self.H_MAP - self.MAP_MARGIN, self.Z_CONTROLS)
 		screen.updateMinimapSection(False, False)
 
+		self.W_MAP_INNER = self.W_MAP - 2 * self.MAP_MARGIN
+		self.H_MAP_INNER = self.H_MAP - 2 * self.MAP_MARGIN
+
+		# Dedicated draw-control canvas for the rally arrows, sized to exactly cover the
+		# minimap's inner (margin-trimmed) rectangle - NOT the whole screen. addLineGFC needs
+		# a real draw control as its parent (like CvForeignAdvisor's BACKGROUND_ID, which is
+		# an addDrawControl); our own BACKGROUND_ID is a plain addDDSGFC image and silently
+		# ignores lines attached to it. A screen-sized canvas here previously ate clicks meant
+		# for the exit button and other widgets underneath it, so keep it scoped to the map.
+		screen.addDrawControl(self.RALLY_CANVAS_ID, None, self.X_MAP + self.MAP_MARGIN, self.Y_MAP + self.MAP_MARGIN, self.W_MAP_INNER, self.H_MAP_INNER, WidgetTypes.WIDGET_GENERAL, -1, -1)
+		screen.moveToFront(self.RALLY_CANVAS_ID)
+
 		screen.updateMinimapColorFromMap(MinimapModeTypes.MINIMAPMODE_TERRITORY, 0.3)
 
 		screen.setMinimapMode(MinimapModeTypes.MINIMAPMODE_MILITARY)
@@ -163,6 +182,8 @@ class CvMilitaryAdvisor:
 		self.drawCombatExperience()
 
 		self.refresh(true)
+
+		self.refreshRallyArrows()
 		
 	def drawCombatExperience(self):
 	
@@ -199,9 +220,78 @@ class CvMilitaryAdvisor:
 			self.refreshUnitSelection(True)
 		elif (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CHARACTER):
 			if (inputClass.getData() == int(InputTypes.KB_LSHIFT) or inputClass.getData() == int(InputTypes.KB_RSHIFT)):
-				self.iShiftKeyDown = inputClass.getID() 
-		
+				self.iShiftKeyDown = inputClass.getID()
+
 		return 0
+
+	# Converts a world plot to a pixel position local to the rally-arrow canvas, which is
+	# sized and positioned to exactly cover the minimap's inner (margin-trimmed) rectangle.
+	# The minimap renders a few extra columns of wrapped terrain duplicated past both the
+	# left and right edges (cylindrical map wrap) - MAP_WRAP_PADDING corrects for that so
+	# plots near the east/west edges don't land a tile or two off. It's an approximation
+	# (observed as "about 3 tiles" of combined overlap) - adjust it here if arrows are still
+	# off horizontally. There's no such wrap vertically, so Y needs no correction.
+	def plotToMinimapXY(self, iPlotX, iPlotY, iGridWidth, iGridHeight):
+		fPaddedWidth = iGridWidth + self.MAP_WRAP_PADDING
+		fPctX = (iPlotX + 0.5 + self.MAP_WRAP_PADDING / 2.0) / fPaddedWidth
+		fPctY = (iPlotY + 0.5) / float(iGridHeight)
+		x = fPctX * self.W_MAP_INNER
+		y = (1.0 - fPctY) * self.H_MAP_INNER
+		return (int(x), int(y))
+
+	# Draws a line plus a small V-shaped arrowhead at (x1, y1) pointing from (x0, y0).
+	def drawRallyArrow(self, screen, x0, y0, x1, y1, color):
+		szLine = self.RALLY_LINE_ID + str(self.nRallyLineCount)
+		self.nRallyLineCount += 1
+		screen.addLineGFC(self.RALLY_CANVAS_ID, szLine, x0, y0, x1, y1, color)
+
+		dx = x1 - x0
+		dy = y1 - y0
+		fLen = math.sqrt(dx * dx + dy * dy)
+		if (fLen < 1):
+			return
+
+		ux = dx / fLen
+		uy = dy / fLen
+		px = -uy
+		py = ux
+
+		iHeadLen = 8
+		iHeadWidth = 4
+
+		xBack = x1 - ux * iHeadLen
+		yBack = y1 - uy * iHeadLen
+
+		for (xSide, ySide) in [(xBack + px * iHeadWidth, yBack + py * iHeadWidth), (xBack - px * iHeadWidth, yBack - py * iHeadWidth)]:
+			szHead = self.RALLY_LINE_ID + str(self.nRallyLineCount)
+			self.nRallyLineCount += 1
+			screen.addLineGFC(self.RALLY_CANVAS_ID, szHead, int(xSide), int(ySide), x1, y1, color)
+
+	# Redraws one arrow per city that has a rally point assigned, from the city to its own
+	# rally plot - different cities can point at different places.
+	def refreshRallyArrows(self):
+		screen = self.getScreen()
+
+		for i in range(self.nRallyLineCount):
+			screen.removeLineGFC(self.RALLY_CANVAS_ID, self.RALLY_LINE_ID + str(i))
+		self.nRallyLineCount = 0
+
+		if (self.iActivePlayer < 0):
+			return
+
+		iGridWidth = CyMap().getGridWidth()
+		iGridHeight = CyMap().getGridHeight()
+		color = gc.getInfoTypeForString("COLOR_YELLOW")
+
+		player = gc.getPlayer(self.iActivePlayer)
+		(loopCity, iter) = player.firstCity(false)
+		while (loopCity):
+			pRallyPlot = loopCity.getRallyPlot()
+			if (pRallyPlot and not pRallyPlot.isNone()):
+				x0, y0 = self.plotToMinimapXY(loopCity.getX(), loopCity.getY(), iGridWidth, iGridHeight)
+				x1, y1 = self.plotToMinimapXY(pRallyPlot.getX(), pRallyPlot.getY(), iGridWidth, iGridHeight)
+				self.drawRallyArrow(screen, x0, y0, x1, y1, color)
+			(loopCity, iter) = player.nextCity(iter, false)
 
 	def update(self, fDelta):
 		screen = self.getScreen()

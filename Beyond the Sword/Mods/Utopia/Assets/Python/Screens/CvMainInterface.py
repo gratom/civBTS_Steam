@@ -6,6 +6,7 @@ import ScreenInput
 import CvScreenEnums
 import CvEventInterface
 import CvNetworkNameFix
+import PyHelpers
 import CvAutoSpecialistManager
 import CvAutoGrowthManager
 import CvAutoScienceManager
@@ -17,6 +18,20 @@ ArtFileMgr = CyArtFileMgr()
 localText = CyTranslator()
 
 fixNetworkPlayerName = CvNetworkNameFix.fixNetworkPlayerName
+
+def calculatePlayerNetScience(ePlayer):
+	"""Sums each city's actual science commerce rate.
+
+	calculateResearchRate() can disagree with what the cities themselves
+	report (it's meant for hypothetical "what if" previews, not a clean
+	current total), so for a side-by-side comparison we add up the real
+	per-city COMMERCE_RESEARCH rate instead - the same number each city
+	screen shows for itself.
+	"""
+	iTotal = 0
+	for pCity in PyHelpers.PyPlayer(ePlayer).getCityList():
+		iTotal += pCity.GetCy().getCommerceRate(CommerceTypes.COMMERCE_RESEARCH)
+	return iTotal
 
 g_NumEmphasizeInfos = 0
 g_NumCityTabTypes = 0
@@ -2849,7 +2864,7 @@ class CvMainInterface:
 			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyEngine().isGlobeviewUp() == false):
 
 				iOurProduction = gc.getPlayer(gc.getGame().getActivePlayer()).calculateTotalYield(YieldTypes.YIELD_PRODUCTION)
-				iOurScience = gc.getPlayer(gc.getGame().getActivePlayer()).calculateResearchRate(-1)
+				iOurScience = calculatePlayerNetScience(gc.getGame().getActivePlayer())
 				iOurPower = gc.getPlayer(gc.getGame().getActivePlayer()).getPower()
 
 				i = gc.getMAX_CIV_TEAMS() - 1
@@ -2926,7 +2941,7 @@ class CvMainInterface:
 											szEspInner = u""
 											if ((bTeamVisible or bEspionageCanSeeResearch) and gc.getPlayer(ePlayer).getCurrentResearch() != -1):
 												iTheirProduction = gc.getPlayer(ePlayer).calculateTotalYield(YieldTypes.YIELD_PRODUCTION)
-												iTheirScience = gc.getPlayer(ePlayer).calculateResearchRate(-1)
+												iTheirScience = calculatePlayerNetScience(ePlayer)
 												if (iOurProduction > 0):
 													iProductionPercent = (iTheirProduction * 100) / iOurProduction
 												else:
