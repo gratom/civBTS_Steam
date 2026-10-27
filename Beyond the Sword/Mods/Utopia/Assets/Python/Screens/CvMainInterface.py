@@ -2040,7 +2040,7 @@ class CvMainInterface:
 						szTexture = "Art/Interface/Buttons/UI/AutoGrowEnabled.dds"
 					else:
 						szTexture = "Art/Interface/Buttons/UI/AutoGrowDisabled.dds"
-					screen.setImageButton( "ConsiderHealthButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow1Y - 4, 32, 32, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.setImageButton( "ConsiderHealthButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow1Y - 4, 24, 24, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 					screen.show( "ConsiderHealthButton" )
 					screen.moveToFront( "ConsiderHealthButton" )
 
@@ -2112,7 +2112,7 @@ class CvMainInterface:
 						szTexture = "Art/Interface/Buttons/UI/AutoGrowEnabled.dds"
 					else:
 						szTexture = "Art/Interface/Buttons/UI/AutoGrowDisabled.dds"
-					screen.setImageButton( "ConsiderHappyButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow2Y - 4, 32, 32, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.setImageButton( "ConsiderHappyButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow2Y - 4, 24, 24, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 					screen.show( "ConsiderHappyButton" )
 					screen.moveToFront( "ConsiderHappyButton" )
 
