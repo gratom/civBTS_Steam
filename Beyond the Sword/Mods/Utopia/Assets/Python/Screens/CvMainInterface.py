@@ -8,6 +8,7 @@ import CvEventInterface
 import CvNetworkNameFix
 import CvAutoSpecialistManager
 import CvAutoGrowthManager
+import CvAutoScienceManager
 import time
 
 # globals
@@ -775,6 +776,7 @@ class CvMainInterface:
 			screen.hide( szString )
 			szString = "DecreasePercent" + str(iI)
 			screen.hide( szString )
+		screen.hide( "ToggleAutoScienceButton" )
 
 		pHeadSelectedCity = CyInterface().getHeadSelectedCity()
 
@@ -785,7 +787,7 @@ class CvMainInterface:
 				for iI in range( CommerceTypes.NUM_COMMERCE_TYPES ):
 					# Intentional offset...
 					eCommerce = (iI + 1) % CommerceTypes.NUM_COMMERCE_TYPES
-										
+
 					if (gc.getActivePlayer().isCommerceFlexible(eCommerce) or (CyInterface().isCityScreenUp() and (eCommerce == CommerceTypes.COMMERCE_GOLD))):
 						szString1 = "IncreasePercent" + str(eCommerce)
 						screen.setButtonGFC( szString1, u"", "", 70, 50 + (19 * iCount), 20, 20, WidgetTypes.WIDGET_CHANGE_PERCENT, eCommerce, gc.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"), ButtonStyles.BUTTON_STYLE_CITY_PLUS )
@@ -793,6 +795,15 @@ class CvMainInterface:
 						szString2 = "DecreasePercent" + str(eCommerce)
 						screen.setButtonGFC( szString2, u"", "", 90, 50 + (19 * iCount), 20, 20, WidgetTypes.WIDGET_CHANGE_PERCENT, eCommerce, -gc.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"), ButtonStyles.BUTTON_STYLE_CITY_MINUS )
 						screen.show( szString2 )
+
+						if (eCommerce == CommerceTypes.COMMERCE_RESEARCH):
+							if (CvAutoScienceManager.isAutoScience(gc.getActivePlayer())):
+								szTexture = "Art/Interface/Buttons/UI/AutoGrowEnabled.dds"
+							else:
+								szTexture = "Art/Interface/Buttons/UI/AutoGrowDisabled.dds"
+							screen.setImageButton( "ToggleAutoScienceButton", szTexture, 112, 48 + (19 * iCount), 20, 20, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+							screen.show( "ToggleAutoScienceButton" )
+							screen.moveToFront( "ToggleAutoScienceButton" )
 
 						iCount = iCount + 1
 
@@ -802,7 +813,7 @@ class CvMainInterface:
 						else:
 							screen.enable( szString1, False )
 							screen.enable( szString2, False )
-							
+
 		return 0
 
 	# Will update the end Turn Button
@@ -1784,7 +1795,7 @@ class CvMainInterface:
 						if not CyInterface().isCityScreenUp():
 							szOutText = u"<font=2>" + localText.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN", (gc.getPlayer(ePlayer).getCommerceRate(CommerceTypes(eCommerce)), )) + u"</font>"
 							szString = "RateText" + str(iI)
-							screen.setLabel( szString, "Background", szOutText, CvUtil.FONT_LEFT_JUSTIFY, 112, 50 + (iCount * 19), -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+							screen.setLabel( szString, "Background", szOutText, CvUtil.FONT_LEFT_JUSTIFY, 136, 50 + (iCount * 19), -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 							screen.show( szString )
 
 						iCount = iCount + 1;
@@ -3393,6 +3404,10 @@ class CvMainInterface:
 			pHeadSelectedCity = CyInterface().getHeadSelectedCity()
 			if (pHeadSelectedCity and (pHeadSelectedCity.getOwner() == gc.getGame().getActivePlayer() or gc.getGame().isDebugMode())):
 				CvAutoGrowthManager.requestToggleHappy(pHeadSelectedCity)
+			return 1
+
+		if inputClass.getFunctionName() == "ToggleAutoScienceButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			CvAutoScienceManager.requestToggle(gc.getActivePlayer())
 			return 1
 
 	def update(self, fDelta):

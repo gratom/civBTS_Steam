@@ -1,0 +1,1763 @@
+requestToggle: player 0 -> True
+handleNetMessage: player 0 flag set to True
+[turn 0 player 0] flag is ON, checking preconditions
+[turn 0 player 0] tech=27 step=5 gold=225 goldPerTurn=0 inflatedCosts=7 origPercents={CvPythonExtensions.CommerceTypes(0): 0, CvPythonExtensions.CommerceTypes(1): 100, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 0 player 0]  candidate research=0% -> actual=0% goldRate=21 turns=336 goldPercentNow=100
+[turn 0 player 0]  candidate research=5% -> actual=5% goldRate=19 turns=168 goldPercentNow=95
+[turn 0 player 0]  candidate research=10% -> actual=10% goldRate=18 turns=112 goldPercentNow=90
+[turn 0 player 0]  candidate research=15% -> actual=15% goldRate=16 turns=68 goldPercentNow=85
+[turn 0 player 0]  candidate research=20% -> actual=20% goldRate=15 turns=56 goldPercentNow=80
+[turn 0 player 0]  candidate research=25% -> actual=25% goldRate=14 turns=42 goldPercentNow=75
+[turn 0 player 0]  candidate research=30% -> actual=30% goldRate=12 turns=38 goldPercentNow=70
+[turn 0 player 0]  candidate research=35% -> actual=35% goldRate=11 turns=34 goldPercentNow=65
+[turn 0 player 0]  candidate research=40% -> actual=40% goldRate=9 turns=28 goldPercentNow=60
+[turn 0 player 0]  candidate research=45% -> actual=45% goldRate=8 turns=26 goldPercentNow=55
+[turn 0 player 0]  candidate research=50% -> actual=50% goldRate=7 turns=23 goldPercentNow=50
+[turn 0 player 0]  candidate research=55% -> actual=55% goldRate=5 turns=21 goldPercentNow=45
+[turn 0 player 0]  candidate research=60% -> actual=60% goldRate=4 turns=20 goldPercentNow=40
+[turn 0 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=18 goldPercentNow=35
+[turn 0 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=17 goldPercentNow=30
+[turn 0 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=16 goldPercentNow=25
+[turn 0 player 0]  candidate research=80% -> actual=80% goldRate=-2 turns=15 goldPercentNow=20
+[turn 0 player 0]  candidate research=85% -> actual=85% goldRate=-3 turns=14 goldPercentNow=15
+[turn 0 player 0]  candidate research=90% -> actual=90% goldRate=-5 turns=13 goldPercentNow=10
+[turn 0 player 0]  candidate research=95% -> actual=95% goldRate=-6 turns=13 goldPercentNow=5
+[turn 0 player 0]  candidate research=100% -> actual=100% goldRate=-7 turns=12 goldPercentNow=0
+[turn 0 player 1] flag is OFF, skipping
+[turn 0 player 2] flag is OFF, skipping
+[turn 0 player 3] flag is OFF, skipping
+[turn 0 player 4] flag is OFF, skipping
+[turn 0 player 5] flag is OFF, skipping
+[turn 0 player 6] flag is OFF, skipping
+[turn 0 player 7] flag is OFF, skipping
+[turn 0 player 8] flag is OFF, skipping
+[turn 0 player 18] flag is OFF, skipping
+[turn 1 player 0] flag is ON, checking preconditions
+[turn 1 player 0] tech=27 step=5 gold=218 goldPerTurn=0 inflatedCosts=7 origPercents={CvPythonExtensions.CommerceTypes(0): 0, CvPythonExtensions.CommerceTypes(1): 100, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 1 player 0]  candidate research=0% -> actual=0% goldRate=21 turns=307 goldPercentNow=100
+[turn 1 player 0]  candidate research=5% -> actual=5% goldRate=19 turns=154 goldPercentNow=95
+[turn 1 player 0]  candidate research=10% -> actual=10% goldRate=18 turns=103 goldPercentNow=90
+[turn 1 player 0]  candidate research=15% -> actual=15% goldRate=16 turns=62 goldPercentNow=85
+[turn 1 player 0]  candidate research=20% -> actual=20% goldRate=15 turns=52 goldPercentNow=80
+[turn 1 player 0]  candidate research=25% -> actual=25% goldRate=14 turns=39 goldPercentNow=75
+[turn 1 player 0]  candidate research=30% -> actual=30% goldRate=12 turns=35 goldPercentNow=70
+[turn 1 player 0]  candidate research=35% -> actual=35% goldRate=11 turns=31 goldPercentNow=65
+[turn 1 player 0]  candidate research=40% -> actual=40% goldRate=9 turns=26 goldPercentNow=60
+[turn 1 player 0]  candidate research=45% -> actual=45% goldRate=8 turns=24 goldPercentNow=55
+[turn 1 player 0]  candidate research=50% -> actual=50% goldRate=7 turns=21 goldPercentNow=50
+[turn 1 player 0]  candidate research=55% -> actual=55% goldRate=5 turns=20 goldPercentNow=45
+[turn 1 player 0]  candidate research=60% -> actual=60% goldRate=4 turns=19 goldPercentNow=40
+[turn 1 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=17 goldPercentNow=35
+[turn 1 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=16 goldPercentNow=30
+[turn 1 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=14 goldPercentNow=25
+[turn 1 player 0]  candidate research=80% -> actual=80% goldRate=-2 turns=14 goldPercentNow=20
+[turn 1 player 0]  candidate research=85% -> actual=85% goldRate=-3 turns=13 goldPercentNow=15
+[turn 1 player 0]  candidate research=90% -> actual=90% goldRate=-5 turns=12 goldPercentNow=10
+[turn 1 player 0]  candidate research=95% -> actual=95% goldRate=-6 turns=12 goldPercentNow=5
+[turn 1 player 0]  candidate research=100% -> actual=100% goldRate=-7 turns=11 goldPercentNow=0
+[turn 1 player 1] flag is OFF, skipping
+[turn 1 player 2] flag is OFF, skipping
+[turn 1 player 3] flag is OFF, skipping
+[turn 1 player 4] flag is OFF, skipping
+[turn 1 player 5] flag is OFF, skipping
+[turn 1 player 6] flag is OFF, skipping
+[turn 1 player 7] flag is OFF, skipping
+[turn 1 player 8] flag is OFF, skipping
+[turn 1 player 18] flag is OFF, skipping
+requestToggle: player 0 -> False
+handleNetMessage: player 0 flag set to False
+[turn 2 player 0] flag is OFF, skipping
+[turn 2 player 1] flag is OFF, skipping
+[turn 2 player 2] flag is OFF, skipping
+[turn 2 player 3] flag is OFF, skipping
+[turn 2 player 4] flag is OFF, skipping
+[turn 2 player 5] flag is OFF, skipping
+[turn 2 player 6] flag is OFF, skipping
+[turn 2 player 7] flag is OFF, skipping
+[turn 2 player 8] flag is OFF, skipping
+[turn 2 player 18] flag is OFF, skipping
+requestToggle: player 0 -> True
+handleNetMessage: player 0 flag set to True
+[turn 3 player 0] flag is ON, checking preconditions
+[turn 3 player 0] tech=27 step=5 gold=205 goldPerTurn=0 inflatedCosts=7 origPercents={CvPythonExtensions.CommerceTypes(0): 5, CvPythonExtensions.CommerceTypes(1): 95, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 3 player 0]  candidate research=0% -> actual=0% goldRate=19 turns=253 goldPercentNow=100
+[turn 3 player 0]  candidate research=5% -> actual=5% goldRate=17 turns=127 goldPercentNow=95
+[turn 3 player 0]  candidate research=10% -> actual=10% goldRate=16 turns=85 goldPercentNow=90
+[turn 3 player 0]  candidate research=15% -> actual=15% goldRate=15 turns=64 goldPercentNow=85
+[turn 3 player 0]  candidate research=20% -> actual=20% goldRate=13 turns=43 goldPercentNow=80
+[turn 3 player 0]  candidate research=25% -> actual=25% goldRate=12 turns=37 goldPercentNow=75
+[turn 3 player 0]  candidate research=30% -> actual=30% goldRate=11 turns=32 goldPercentNow=70
+[turn 3 player 0]  candidate research=35% -> actual=35% goldRate=9 turns=26 goldPercentNow=65
+[turn 3 player 0]  candidate research=40% -> actual=40% goldRate=8 turns=23 goldPercentNow=60
+[turn 3 player 0]  candidate research=45% -> actual=45% goldRate=7 turns=22 goldPercentNow=55
+[turn 3 player 0]  candidate research=50% -> actual=50% goldRate=6 turns=19 goldPercentNow=50
+[turn 3 player 0]  candidate research=55% -> actual=55% goldRate=4 turns=17 goldPercentNow=45
+[turn 3 player 0]  candidate research=60% -> actual=60% goldRate=3 turns=16 goldPercentNow=40
+[turn 3 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=15 goldPercentNow=35
+[turn 3 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=14 goldPercentNow=30
+[turn 3 player 0]  candidate research=75% -> actual=75% goldRate=-1 turns=13 goldPercentNow=25
+[turn 3 player 0]  candidate research=80% -> actual=80% goldRate=-2 turns=13 goldPercentNow=20
+[turn 3 player 0]  candidate research=85% -> actual=85% goldRate=-4 turns=11 goldPercentNow=15
+[turn 3 player 0]  candidate research=90% -> actual=90% goldRate=-5 turns=11 goldPercentNow=10
+[turn 3 player 0]  candidate research=95% -> actual=95% goldRate=-6 turns=11 goldPercentNow=5
+[turn 3 player 0]  candidate research=100% -> actual=100% goldRate=-7 turns=10 goldPercentNow=0
+[turn 3 player 1] flag is OFF, skipping
+[turn 3 player 2] flag is OFF, skipping
+[turn 3 player 3] flag is OFF, skipping
+[turn 3 player 4] flag is OFF, skipping
+[turn 3 player 5] flag is OFF, skipping
+[turn 3 player 6] flag is OFF, skipping
+[turn 3 player 7] flag is OFF, skipping
+[turn 3 player 8] flag is OFF, skipping
+[turn 3 player 18] flag is OFF, skipping
+[turn 4 player 0] flag is ON, checking preconditions
+[turn 4 player 0] tech=27 step=5 gold=198 goldPerTurn=0 inflatedCosts=7 origPercents={CvPythonExtensions.CommerceTypes(0): 0, CvPythonExtensions.CommerceTypes(1): 100, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 4 player 0]  candidate research=0% -> actual=0% goldRate=15 turns=224 goldPercentNow=100
+[turn 4 player 0]  candidate research=5% -> actual=5% goldRate=13 turns=112 goldPercentNow=95
+[turn 4 player 0]  candidate research=10% -> actual=10% goldRate=12 turns=75 goldPercentNow=90
+[turn 4 player 0]  candidate research=15% -> actual=15% goldRate=11 turns=56 goldPercentNow=85
+[turn 4 player 0]  candidate research=20% -> actual=20% goldRate=10 turns=45 goldPercentNow=80
+[turn 4 player 0]  candidate research=25% -> actual=25% goldRate=9 turns=38 goldPercentNow=75
+[turn 4 player 0]  candidate research=30% -> actual=30% goldRate=8 turns=32 goldPercentNow=70
+[turn 4 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=28 goldPercentNow=65
+[turn 4 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=25 goldPercentNow=60
+[turn 4 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=23 goldPercentNow=55
+[turn 4 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=19 goldPercentNow=50
+[turn 4 player 0]  candidate research=55% -> actual=55% goldRate=2 turns=18 goldPercentNow=45
+[turn 4 player 0]  candidate research=60% -> actual=60% goldRate=1 turns=16 goldPercentNow=40
+[turn 4 player 0]  candidate research=65% -> actual=65% goldRate=0 turns=15 goldPercentNow=35
+[turn 4 player 0]  candidate research=70% -> actual=70% goldRate=-1 turns=14 goldPercentNow=30
+[turn 4 player 0]  candidate research=75% -> actual=75% goldRate=-2 turns=14 goldPercentNow=25
+[turn 4 player 0]  candidate research=80% -> actual=80% goldRate=-3 turns=13 goldPercentNow=20
+[turn 4 player 0]  candidate research=85% -> actual=85% goldRate=-4 turns=12 goldPercentNow=15
+[turn 4 player 0]  candidate research=90% -> actual=90% goldRate=-5 turns=12 goldPercentNow=10
+[turn 4 player 0]  candidate research=95% -> actual=95% goldRate=-6 turns=11 goldPercentNow=5
+[turn 4 player 0]  candidate research=100% -> actual=100% goldRate=-7 turns=10 goldPercentNow=0
+[turn 4 player 1] flag is OFF, skipping
+[turn 4 player 2] flag is OFF, skipping
+[turn 4 player 3] flag is OFF, skipping
+[turn 4 player 4] flag is OFF, skipping
+[turn 4 player 5] flag is OFF, skipping
+[turn 4 player 6] flag is OFF, skipping
+[turn 4 player 7] flag is OFF, skipping
+[turn 4 player 8] flag is OFF, skipping
+[turn 4 player 18] flag is OFF, skipping
+requestToggle: player 0 -> True
+handleNetMessage: player 0 flag set to True
+[turn 0 player 0] flag is ON, checking preconditions
+[turn 0 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 0, CvPythonExtensions.CommerceTypes(1): 100, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 0 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=336 goldPercentNow=100
+[turn 0 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=336 goldPercentNow=95
+[turn 0 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=168 goldPercentNow=90
+[turn 0 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=112 goldPercentNow=85
+[turn 0 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=112 goldPercentNow=80
+[turn 0 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=84 goldPercentNow=75
+[turn 0 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=56 goldPercentNow=70
+[turn 0 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=56 goldPercentNow=65
+[turn 0 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=48 goldPercentNow=60
+[turn 0 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=42 goldPercentNow=55
+[turn 0 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=38 goldPercentNow=50
+[turn 0 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=38 goldPercentNow=45
+[turn 0 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=34 goldPercentNow=40
+[turn 0 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=28 goldPercentNow=35
+[turn 0 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=28 goldPercentNow=30
+[turn 0 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=26 goldPercentNow=25
+[turn 0 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=24 goldPercentNow=20
+[turn 0 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=24 goldPercentNow=15
+[turn 0 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=23 goldPercentNow=10
+[turn 0 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=21 goldPercentNow=5
+[turn 0 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=19 goldPercentNow=0
+[turn 0 player 0] chosen percent=75% (goldRate=0 turns=26) affordableCount=16
+[turn 0 player 1] flag is OFF, skipping
+[turn 0 player 2] flag is OFF, skipping
+[turn 0 player 3] flag is OFF, skipping
+[turn 0 player 4] flag is OFF, skipping
+[turn 0 player 5] flag is OFF, skipping
+[turn 0 player 6] flag is OFF, skipping
+[turn 0 player 7] flag is OFF, skipping
+[turn 0 player 8] flag is OFF, skipping
+[turn 0 player 18] flag is OFF, skipping
+[turn 1 player 0] flag is ON, checking preconditions
+[turn 1 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 1 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=323 goldPercentNow=100
+[turn 1 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=323 goldPercentNow=95
+[turn 1 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=162 goldPercentNow=90
+[turn 1 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=108 goldPercentNow=85
+[turn 1 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=108 goldPercentNow=80
+[turn 1 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=81 goldPercentNow=75
+[turn 1 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=54 goldPercentNow=70
+[turn 1 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=54 goldPercentNow=65
+[turn 1 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=47 goldPercentNow=60
+[turn 1 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=41 goldPercentNow=55
+[turn 1 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=36 goldPercentNow=50
+[turn 1 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=36 goldPercentNow=45
+[turn 1 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=33 goldPercentNow=40
+[turn 1 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=27 goldPercentNow=35
+[turn 1 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=27 goldPercentNow=30
+[turn 1 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=25 goldPercentNow=25
+[turn 1 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=24 goldPercentNow=20
+[turn 1 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=24 goldPercentNow=15
+[turn 1 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=22 goldPercentNow=10
+[turn 1 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=21 goldPercentNow=5
+[turn 1 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=18 goldPercentNow=0
+[turn 1 player 0] chosen percent=75% (goldRate=0 turns=25) affordableCount=16
+[turn 1 player 1] flag is OFF, skipping
+[turn 1 player 2] flag is OFF, skipping
+[turn 1 player 3] flag is OFF, skipping
+[turn 1 player 4] flag is OFF, skipping
+[turn 1 player 5] flag is OFF, skipping
+[turn 1 player 6] flag is OFF, skipping
+[turn 1 player 7] flag is OFF, skipping
+[turn 1 player 8] flag is OFF, skipping
+[turn 1 player 18] flag is OFF, skipping
+[turn 2 player 0] flag is ON, checking preconditions
+[turn 2 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 2 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=310 goldPercentNow=100
+[turn 2 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=310 goldPercentNow=95
+[turn 2 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=155 goldPercentNow=90
+[turn 2 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=104 goldPercentNow=85
+[turn 2 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=104 goldPercentNow=80
+[turn 2 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=78 goldPercentNow=75
+[turn 2 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=52 goldPercentNow=70
+[turn 2 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=52 goldPercentNow=65
+[turn 2 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=45 goldPercentNow=60
+[turn 2 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=39 goldPercentNow=55
+[turn 2 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=35 goldPercentNow=50
+[turn 2 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=35 goldPercentNow=45
+[turn 2 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=31 goldPercentNow=40
+[turn 2 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=26 goldPercentNow=35
+[turn 2 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=26 goldPercentNow=30
+[turn 2 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=24 goldPercentNow=25
+[turn 2 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=23 goldPercentNow=20
+[turn 2 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=23 goldPercentNow=15
+[turn 2 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=21 goldPercentNow=10
+[turn 2 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=20 goldPercentNow=5
+[turn 2 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=18 goldPercentNow=0
+[turn 2 player 0] chosen percent=75% (goldRate=0 turns=24) affordableCount=16
+[turn 2 player 1] flag is OFF, skipping
+[turn 2 player 2] flag is OFF, skipping
+[turn 2 player 3] flag is OFF, skipping
+[turn 2 player 4] flag is OFF, skipping
+[turn 2 player 5] flag is OFF, skipping
+[turn 2 player 6] flag is OFF, skipping
+[turn 2 player 7] flag is OFF, skipping
+[turn 2 player 8] flag is OFF, skipping
+[turn 2 player 18] flag is OFF, skipping
+[turn 3 player 0] flag is ON, checking preconditions
+[turn 3 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 3 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=297 goldPercentNow=100
+[turn 3 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=297 goldPercentNow=95
+[turn 3 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=149 goldPercentNow=90
+[turn 3 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=99 goldPercentNow=85
+[turn 3 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=99 goldPercentNow=80
+[turn 3 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=75 goldPercentNow=75
+[turn 3 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=50 goldPercentNow=70
+[turn 3 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=50 goldPercentNow=65
+[turn 3 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=43 goldPercentNow=60
+[turn 3 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=38 goldPercentNow=55
+[turn 3 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=33 goldPercentNow=50
+[turn 3 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=33 goldPercentNow=45
+[turn 3 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=30 goldPercentNow=40
+[turn 3 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=25 goldPercentNow=35
+[turn 3 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=25 goldPercentNow=30
+[turn 3 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=23 goldPercentNow=25
+[turn 3 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=22 goldPercentNow=20
+[turn 3 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=22 goldPercentNow=15
+[turn 3 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=20 goldPercentNow=10
+[turn 3 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=19 goldPercentNow=5
+[turn 3 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=17 goldPercentNow=0
+[turn 3 player 0] chosen percent=75% (goldRate=0 turns=23) affordableCount=16
+[turn 3 player 1] flag is OFF, skipping
+[turn 3 player 2] flag is OFF, skipping
+[turn 3 player 3] flag is OFF, skipping
+[turn 3 player 4] flag is OFF, skipping
+[turn 3 player 5] flag is OFF, skipping
+[turn 3 player 6] flag is OFF, skipping
+[turn 3 player 7] flag is OFF, skipping
+[turn 3 player 8] flag is OFF, skipping
+[turn 3 player 18] flag is OFF, skipping
+[turn 4 player 0] flag is ON, checking preconditions
+[turn 4 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 4 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=284 goldPercentNow=100
+[turn 4 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=284 goldPercentNow=95
+[turn 4 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=142 goldPercentNow=90
+[turn 4 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=95 goldPercentNow=85
+[turn 4 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=95 goldPercentNow=80
+[turn 4 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=71 goldPercentNow=75
+[turn 4 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=48 goldPercentNow=70
+[turn 4 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=48 goldPercentNow=65
+[turn 4 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=41 goldPercentNow=60
+[turn 4 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=36 goldPercentNow=55
+[turn 4 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=32 goldPercentNow=50
+[turn 4 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=32 goldPercentNow=45
+[turn 4 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=29 goldPercentNow=40
+[turn 4 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=24 goldPercentNow=35
+[turn 4 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=24 goldPercentNow=30
+[turn 4 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=22 goldPercentNow=25
+[turn 4 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=21 goldPercentNow=20
+[turn 4 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=21 goldPercentNow=15
+[turn 4 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=19 goldPercentNow=10
+[turn 4 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=18 goldPercentNow=5
+[turn 4 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=16 goldPercentNow=0
+[turn 4 player 0] chosen percent=75% (goldRate=0 turns=22) affordableCount=16
+[turn 4 player 1] flag is OFF, skipping
+[turn 4 player 2] flag is OFF, skipping
+[turn 4 player 3] flag is OFF, skipping
+[turn 4 player 4] flag is OFF, skipping
+[turn 4 player 5] flag is OFF, skipping
+[turn 4 player 6] flag is OFF, skipping
+[turn 4 player 7] flag is OFF, skipping
+[turn 4 player 8] flag is OFF, skipping
+[turn 4 player 18] flag is OFF, skipping
+[turn 5 player 0] flag is ON, checking preconditions
+[turn 5 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 5 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=271 goldPercentNow=100
+[turn 5 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=271 goldPercentNow=95
+[turn 5 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=136 goldPercentNow=90
+[turn 5 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=91 goldPercentNow=85
+[turn 5 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=91 goldPercentNow=80
+[turn 5 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=68 goldPercentNow=75
+[turn 5 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=46 goldPercentNow=70
+[turn 5 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=46 goldPercentNow=65
+[turn 5 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=39 goldPercentNow=60
+[turn 5 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=34 goldPercentNow=55
+[turn 5 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=31 goldPercentNow=50
+[turn 5 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=31 goldPercentNow=45
+[turn 5 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=28 goldPercentNow=40
+[turn 5 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=23 goldPercentNow=35
+[turn 5 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=23 goldPercentNow=30
+[turn 5 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=21 goldPercentNow=25
+[turn 5 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=20 goldPercentNow=20
+[turn 5 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=20 goldPercentNow=15
+[turn 5 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=19 goldPercentNow=10
+[turn 5 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=17 goldPercentNow=5
+[turn 5 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=16 goldPercentNow=0
+[turn 5 player 0] chosen percent=75% (goldRate=0 turns=21) affordableCount=16
+[turn 5 player 1] flag is OFF, skipping
+[turn 5 player 2] flag is OFF, skipping
+[turn 5 player 3] flag is OFF, skipping
+[turn 5 player 4] flag is OFF, skipping
+[turn 5 player 5] flag is OFF, skipping
+[turn 5 player 6] flag is OFF, skipping
+[turn 5 player 7] flag is OFF, skipping
+[turn 5 player 8] flag is OFF, skipping
+[turn 5 player 18] flag is OFF, skipping
+[turn 6 player 0] flag is ON, checking preconditions
+[turn 6 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 6 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=258 goldPercentNow=100
+[turn 6 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=258 goldPercentNow=95
+[turn 6 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=129 goldPercentNow=90
+[turn 6 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=86 goldPercentNow=85
+[turn 6 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=86 goldPercentNow=80
+[turn 6 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=65 goldPercentNow=75
+[turn 6 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=43 goldPercentNow=70
+[turn 6 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=43 goldPercentNow=65
+[turn 6 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=37 goldPercentNow=60
+[turn 6 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=33 goldPercentNow=55
+[turn 6 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=29 goldPercentNow=50
+[turn 6 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=29 goldPercentNow=45
+[turn 6 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=26 goldPercentNow=40
+[turn 6 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=22 goldPercentNow=35
+[turn 6 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=22 goldPercentNow=30
+[turn 6 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=20 goldPercentNow=25
+[turn 6 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=19 goldPercentNow=20
+[turn 6 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=19 goldPercentNow=15
+[turn 6 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=18 goldPercentNow=10
+[turn 6 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=17 goldPercentNow=5
+[turn 6 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=15 goldPercentNow=0
+[turn 6 player 0] chosen percent=75% (goldRate=0 turns=20) affordableCount=16
+[turn 6 player 1] flag is OFF, skipping
+[turn 6 player 2] flag is OFF, skipping
+[turn 6 player 3] flag is OFF, skipping
+[turn 6 player 4] flag is OFF, skipping
+[turn 6 player 5] flag is OFF, skipping
+[turn 6 player 6] flag is OFF, skipping
+[turn 6 player 7] flag is OFF, skipping
+[turn 6 player 8] flag is OFF, skipping
+[turn 6 player 18] flag is OFF, skipping
+[turn 7 player 0] flag is ON, checking preconditions
+[turn 7 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 7 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=245 goldPercentNow=100
+[turn 7 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=245 goldPercentNow=95
+[turn 7 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=123 goldPercentNow=90
+[turn 7 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=82 goldPercentNow=85
+[turn 7 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=82 goldPercentNow=80
+[turn 7 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=62 goldPercentNow=75
+[turn 7 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=41 goldPercentNow=70
+[turn 7 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=41 goldPercentNow=65
+[turn 7 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=35 goldPercentNow=60
+[turn 7 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=31 goldPercentNow=55
+[turn 7 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=28 goldPercentNow=50
+[turn 7 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=28 goldPercentNow=45
+[turn 7 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=25 goldPercentNow=40
+[turn 7 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=21 goldPercentNow=35
+[turn 7 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=21 goldPercentNow=30
+[turn 7 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=19 goldPercentNow=25
+[turn 7 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=18 goldPercentNow=20
+[turn 7 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=18 goldPercentNow=15
+[turn 7 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=17 goldPercentNow=10
+[turn 7 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=16 goldPercentNow=5
+[turn 7 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=14 goldPercentNow=0
+[turn 7 player 0] chosen percent=75% (goldRate=0 turns=19) affordableCount=16
+[turn 7 player 1] flag is OFF, skipping
+[turn 7 player 2] flag is OFF, skipping
+[turn 7 player 3] flag is OFF, skipping
+[turn 7 player 4] flag is OFF, skipping
+[turn 7 player 5] flag is OFF, skipping
+[turn 7 player 6] flag is OFF, skipping
+[turn 7 player 7] flag is OFF, skipping
+[turn 7 player 8] flag is OFF, skipping
+[turn 7 player 18] flag is OFF, skipping
+[turn 8 player 0] flag is ON, checking preconditions
+[turn 8 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 8 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=232 goldPercentNow=100
+[turn 8 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=232 goldPercentNow=95
+[turn 8 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=116 goldPercentNow=90
+[turn 8 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=78 goldPercentNow=85
+[turn 8 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=78 goldPercentNow=80
+[turn 8 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=58 goldPercentNow=75
+[turn 8 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=39 goldPercentNow=70
+[turn 8 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=39 goldPercentNow=65
+[turn 8 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=34 goldPercentNow=60
+[turn 8 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=29 goldPercentNow=55
+[turn 8 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=26 goldPercentNow=50
+[turn 8 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=26 goldPercentNow=45
+[turn 8 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=24 goldPercentNow=40
+[turn 8 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=20 goldPercentNow=35
+[turn 8 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=20 goldPercentNow=30
+[turn 8 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=18 goldPercentNow=25
+[turn 8 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=17 goldPercentNow=20
+[turn 8 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=17 goldPercentNow=15
+[turn 8 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=16 goldPercentNow=10
+[turn 8 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=15 goldPercentNow=5
+[turn 8 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=13 goldPercentNow=0
+[turn 8 player 0] chosen percent=75% (goldRate=0 turns=18) affordableCount=16
+[turn 8 player 1] flag is OFF, skipping
+[turn 8 player 2] flag is OFF, skipping
+[turn 8 player 3] flag is OFF, skipping
+[turn 8 player 4] flag is OFF, skipping
+[turn 8 player 5] flag is OFF, skipping
+[turn 8 player 6] flag is OFF, skipping
+[turn 8 player 7] flag is OFF, skipping
+[turn 8 player 8] flag is OFF, skipping
+[turn 8 player 18] flag is OFF, skipping
+[turn 9 player 0] flag is ON, checking preconditions
+[turn 9 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 30, CvPythonExtensions.CommerceTypes(1): 70, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 9 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=219 goldPercentNow=100
+[turn 9 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=219 goldPercentNow=95
+[turn 9 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=110 goldPercentNow=90
+[turn 9 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=73 goldPercentNow=85
+[turn 9 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=73 goldPercentNow=80
+[turn 9 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=55 goldPercentNow=75
+[turn 9 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=37 goldPercentNow=70
+[turn 9 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=37 goldPercentNow=65
+[turn 9 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=32 goldPercentNow=60
+[turn 9 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=28 goldPercentNow=55
+[turn 9 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=25 goldPercentNow=50
+[turn 9 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=25 goldPercentNow=45
+[turn 9 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=22 goldPercentNow=40
+[turn 9 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=19 goldPercentNow=35
+[turn 9 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=19 goldPercentNow=30
+[turn 9 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=17 goldPercentNow=25
+[turn 9 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=16 goldPercentNow=20
+[turn 9 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=16 goldPercentNow=15
+[turn 9 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=15 goldPercentNow=10
+[turn 9 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=14 goldPercentNow=5
+[turn 9 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=13 goldPercentNow=0
+[turn 9 player 0] chosen percent=75% (goldRate=0 turns=17) affordableCount=16
+[turn 9 player 1] flag is OFF, skipping
+[turn 9 player 2] flag is OFF, skipping
+[turn 9 player 3] flag is OFF, skipping
+[turn 9 player 4] flag is OFF, skipping
+[turn 9 player 5] flag is OFF, skipping
+[turn 9 player 6] flag is OFF, skipping
+[turn 9 player 7] flag is OFF, skipping
+[turn 9 player 8] flag is OFF, skipping
+[turn 9 player 18] flag is OFF, skipping
+[turn 10 player 0] flag is ON, checking preconditions
+[turn 10 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 10 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=206 goldPercentNow=100
+[turn 10 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=206 goldPercentNow=95
+[turn 10 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=103 goldPercentNow=90
+[turn 10 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=69 goldPercentNow=85
+[turn 10 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=69 goldPercentNow=80
+[turn 10 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=52 goldPercentNow=75
+[turn 10 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=35 goldPercentNow=70
+[turn 10 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=35 goldPercentNow=65
+[turn 10 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=30 goldPercentNow=60
+[turn 10 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=26 goldPercentNow=55
+[turn 10 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=23 goldPercentNow=50
+[turn 10 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=23 goldPercentNow=45
+[turn 10 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=21 goldPercentNow=40
+[turn 10 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=18 goldPercentNow=35
+[turn 10 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=18 goldPercentNow=30
+[turn 10 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=16 goldPercentNow=25
+[turn 10 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=15 goldPercentNow=20
+[turn 10 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=15 goldPercentNow=15
+[turn 10 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=14 goldPercentNow=10
+[turn 10 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=13 goldPercentNow=5
+[turn 10 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=12 goldPercentNow=0
+[turn 10 player 0] chosen percent=75% (goldRate=0 turns=16) affordableCount=16
+[turn 10 player 1] flag is OFF, skipping
+[turn 10 player 2] flag is OFF, skipping
+[turn 10 player 3] flag is OFF, skipping
+[turn 10 player 4] flag is OFF, skipping
+[turn 10 player 5] flag is OFF, skipping
+[turn 10 player 6] flag is OFF, skipping
+[turn 10 player 7] flag is OFF, skipping
+[turn 10 player 8] flag is OFF, skipping
+[turn 10 player 18] flag is OFF, skipping
+[turn 11 player 0] flag is ON, checking preconditions
+[turn 11 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 11 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=193 goldPercentNow=100
+[turn 11 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=193 goldPercentNow=95
+[turn 11 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=97 goldPercentNow=90
+[turn 11 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=65 goldPercentNow=85
+[turn 11 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=65 goldPercentNow=80
+[turn 11 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=49 goldPercentNow=75
+[turn 11 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=33 goldPercentNow=70
+[turn 11 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=33 goldPercentNow=65
+[turn 11 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=28 goldPercentNow=60
+[turn 11 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=25 goldPercentNow=55
+[turn 11 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=22 goldPercentNow=50
+[turn 11 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=22 goldPercentNow=45
+[turn 11 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=20 goldPercentNow=40
+[turn 11 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=17 goldPercentNow=35
+[turn 11 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=17 goldPercentNow=30
+[turn 11 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=15 goldPercentNow=25
+[turn 11 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=14 goldPercentNow=20
+[turn 11 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=14 goldPercentNow=15
+[turn 11 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=13 goldPercentNow=10
+[turn 11 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=13 goldPercentNow=5
+[turn 11 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=11 goldPercentNow=0
+[turn 11 player 0] chosen percent=75% (goldRate=0 turns=15) affordableCount=16
+[turn 11 player 1] flag is OFF, skipping
+[turn 11 player 2] flag is OFF, skipping
+[turn 11 player 3] flag is OFF, skipping
+[turn 11 player 4] flag is OFF, skipping
+[turn 11 player 5] flag is OFF, skipping
+[turn 11 player 6] flag is OFF, skipping
+[turn 11 player 7] flag is OFF, skipping
+[turn 11 player 8] flag is OFF, skipping
+[turn 11 player 18] flag is OFF, skipping
+[turn 12 player 0] flag is ON, checking preconditions
+[turn 12 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 12 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=180 goldPercentNow=100
+[turn 12 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=180 goldPercentNow=95
+[turn 12 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=90 goldPercentNow=90
+[turn 12 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=60 goldPercentNow=85
+[turn 12 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=60 goldPercentNow=80
+[turn 12 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=45 goldPercentNow=75
+[turn 12 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=30 goldPercentNow=70
+[turn 12 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=30 goldPercentNow=65
+[turn 12 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=26 goldPercentNow=60
+[turn 12 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=23 goldPercentNow=55
+[turn 12 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=20 goldPercentNow=50
+[turn 12 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=20 goldPercentNow=45
+[turn 12 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=18 goldPercentNow=40
+[turn 12 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=15 goldPercentNow=35
+[turn 12 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=15 goldPercentNow=30
+[turn 12 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=14 goldPercentNow=25
+[turn 12 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=13 goldPercentNow=20
+[turn 12 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=13 goldPercentNow=15
+[turn 12 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=12 goldPercentNow=10
+[turn 12 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=12 goldPercentNow=5
+[turn 12 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=10 goldPercentNow=0
+[turn 12 player 0] chosen percent=75% (goldRate=0 turns=14) affordableCount=16
+[turn 12 player 1] flag is OFF, skipping
+[turn 12 player 2] flag is OFF, skipping
+[turn 12 player 3] flag is OFF, skipping
+[turn 12 player 4] flag is OFF, skipping
+[turn 12 player 5] flag is OFF, skipping
+[turn 12 player 6] flag is OFF, skipping
+[turn 12 player 7] flag is OFF, skipping
+[turn 12 player 8] flag is OFF, skipping
+[turn 12 player 18] flag is OFF, skipping
+[turn 13 player 0] flag is ON, checking preconditions
+[turn 13 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 13 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=167 goldPercentNow=100
+[turn 13 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=167 goldPercentNow=95
+[turn 13 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=84 goldPercentNow=90
+[turn 13 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=56 goldPercentNow=85
+[turn 13 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=56 goldPercentNow=80
+[turn 13 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=42 goldPercentNow=75
+[turn 13 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=28 goldPercentNow=70
+[turn 13 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=28 goldPercentNow=65
+[turn 13 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=24 goldPercentNow=60
+[turn 13 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=21 goldPercentNow=55
+[turn 13 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=19 goldPercentNow=50
+[turn 13 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=19 goldPercentNow=45
+[turn 13 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=17 goldPercentNow=40
+[turn 13 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=14 goldPercentNow=35
+[turn 13 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=14 goldPercentNow=30
+[turn 13 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=13 goldPercentNow=25
+[turn 13 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=12 goldPercentNow=20
+[turn 13 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=12 goldPercentNow=15
+[turn 13 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=12 goldPercentNow=10
+[turn 13 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=11 goldPercentNow=5
+[turn 13 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=10 goldPercentNow=0
+[turn 13 player 0] chosen percent=75% (goldRate=0 turns=13) affordableCount=16
+[turn 13 player 1] flag is OFF, skipping
+[turn 13 player 2] flag is OFF, skipping
+[turn 13 player 3] flag is OFF, skipping
+[turn 13 player 4] flag is OFF, skipping
+[turn 13 player 5] flag is OFF, skipping
+[turn 13 player 6] flag is OFF, skipping
+[turn 13 player 7] flag is OFF, skipping
+[turn 13 player 8] flag is OFF, skipping
+[turn 13 player 18] flag is OFF, skipping
+[turn 14 player 0] flag is ON, checking preconditions
+[turn 14 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 14 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=154 goldPercentNow=100
+[turn 14 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=154 goldPercentNow=95
+[turn 14 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=77 goldPercentNow=90
+[turn 14 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=52 goldPercentNow=85
+[turn 14 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=52 goldPercentNow=80
+[turn 14 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=39 goldPercentNow=75
+[turn 14 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=26 goldPercentNow=70
+[turn 14 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=26 goldPercentNow=65
+[turn 14 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=22 goldPercentNow=60
+[turn 14 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=20 goldPercentNow=55
+[turn 14 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=18 goldPercentNow=50
+[turn 14 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=18 goldPercentNow=45
+[turn 14 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=16 goldPercentNow=40
+[turn 14 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=13 goldPercentNow=35
+[turn 14 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=13 goldPercentNow=30
+[turn 14 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=12 goldPercentNow=25
+[turn 14 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=11 goldPercentNow=20
+[turn 14 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=11 goldPercentNow=15
+[turn 14 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=11 goldPercentNow=10
+[turn 14 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=10 goldPercentNow=5
+[turn 14 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=9 goldPercentNow=0
+[turn 14 player 0] chosen percent=75% (goldRate=0 turns=12) affordableCount=16
+[turn 14 player 1] flag is OFF, skipping
+[turn 14 player 2] flag is OFF, skipping
+[turn 14 player 3] flag is OFF, skipping
+[turn 14 player 4] flag is OFF, skipping
+[turn 14 player 5] flag is OFF, skipping
+[turn 14 player 6] flag is OFF, skipping
+[turn 14 player 7] flag is OFF, skipping
+[turn 14 player 8] flag is OFF, skipping
+[turn 14 player 18] flag is OFF, skipping
+[turn 15 player 0] flag is ON, checking preconditions
+[turn 15 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 15 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=141 goldPercentNow=100
+[turn 15 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=141 goldPercentNow=95
+[turn 15 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=71 goldPercentNow=90
+[turn 15 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=47 goldPercentNow=85
+[turn 15 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=47 goldPercentNow=80
+[turn 15 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=36 goldPercentNow=75
+[turn 15 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=24 goldPercentNow=70
+[turn 15 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=24 goldPercentNow=65
+[turn 15 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=21 goldPercentNow=60
+[turn 15 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=18 goldPercentNow=55
+[turn 15 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=16 goldPercentNow=50
+[turn 15 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=16 goldPercentNow=45
+[turn 15 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=15 goldPercentNow=40
+[turn 15 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=12 goldPercentNow=35
+[turn 15 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=12 goldPercentNow=30
+[turn 15 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=11 goldPercentNow=25
+[turn 15 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=11 goldPercentNow=20
+[turn 15 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=11 goldPercentNow=15
+[turn 15 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=10 goldPercentNow=10
+[turn 15 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=9 goldPercentNow=5
+[turn 15 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=8 goldPercentNow=0
+[turn 15 player 0] chosen percent=75% (goldRate=0 turns=11) affordableCount=16
+[turn 15 player 1] flag is OFF, skipping
+[turn 15 player 2] flag is OFF, skipping
+[turn 15 player 3] flag is OFF, skipping
+[turn 15 player 4] flag is OFF, skipping
+[turn 15 player 5] flag is OFF, skipping
+[turn 15 player 6] flag is OFF, skipping
+[turn 15 player 7] flag is OFF, skipping
+[turn 15 player 8] flag is OFF, skipping
+[turn 15 player 18] flag is OFF, skipping
+[turn 16 player 0] flag is ON, checking preconditions
+[turn 16 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 16 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=128 goldPercentNow=100
+[turn 16 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=128 goldPercentNow=95
+[turn 16 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=64 goldPercentNow=90
+[turn 16 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=43 goldPercentNow=85
+[turn 16 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=43 goldPercentNow=80
+[turn 16 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=32 goldPercentNow=75
+[turn 16 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=22 goldPercentNow=70
+[turn 16 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=22 goldPercentNow=65
+[turn 16 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=19 goldPercentNow=60
+[turn 16 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=16 goldPercentNow=55
+[turn 16 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=15 goldPercentNow=50
+[turn 16 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=15 goldPercentNow=45
+[turn 16 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=13 goldPercentNow=40
+[turn 16 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=11 goldPercentNow=35
+[turn 16 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=11 goldPercentNow=30
+[turn 16 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=10 goldPercentNow=25
+[turn 16 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=10 goldPercentNow=20
+[turn 16 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=10 goldPercentNow=15
+[turn 16 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=9 goldPercentNow=10
+[turn 16 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=8 goldPercentNow=5
+[turn 16 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=8 goldPercentNow=0
+[turn 16 player 0] chosen percent=75% (goldRate=0 turns=10) affordableCount=16
+[turn 16 player 1] flag is OFF, skipping
+[turn 16 player 2] flag is OFF, skipping
+[turn 16 player 3] flag is OFF, skipping
+[turn 16 player 4] flag is OFF, skipping
+[turn 16 player 5] flag is OFF, skipping
+[turn 16 player 6] flag is OFF, skipping
+[turn 16 player 7] flag is OFF, skipping
+[turn 16 player 8] flag is OFF, skipping
+[turn 16 player 18] flag is OFF, skipping
+[turn 17 player 0] flag is ON, checking preconditions
+[turn 17 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 17 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=115 goldPercentNow=100
+[turn 17 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=115 goldPercentNow=95
+[turn 17 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=58 goldPercentNow=90
+[turn 17 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=39 goldPercentNow=85
+[turn 17 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=39 goldPercentNow=80
+[turn 17 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=29 goldPercentNow=75
+[turn 17 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=20 goldPercentNow=70
+[turn 17 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=20 goldPercentNow=65
+[turn 17 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=17 goldPercentNow=60
+[turn 17 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=15 goldPercentNow=55
+[turn 17 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=13 goldPercentNow=50
+[turn 17 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=13 goldPercentNow=45
+[turn 17 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=12 goldPercentNow=40
+[turn 17 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=10 goldPercentNow=35
+[turn 17 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=10 goldPercentNow=30
+[turn 17 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=9 goldPercentNow=25
+[turn 17 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=9 goldPercentNow=20
+[turn 17 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=9 goldPercentNow=15
+[turn 17 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=8 goldPercentNow=10
+[turn 17 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=8 goldPercentNow=5
+[turn 17 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=7 goldPercentNow=0
+[turn 17 player 0] chosen percent=75% (goldRate=0 turns=9) affordableCount=16
+[turn 17 player 1] flag is OFF, skipping
+[turn 17 player 2] flag is OFF, skipping
+[turn 17 player 3] flag is OFF, skipping
+[turn 17 player 4] flag is OFF, skipping
+[turn 17 player 5] flag is OFF, skipping
+[turn 17 player 6] flag is OFF, skipping
+[turn 17 player 7] flag is OFF, skipping
+[turn 17 player 8] flag is OFF, skipping
+[turn 17 player 18] flag is OFF, skipping
+[turn 18 player 0] flag is ON, checking preconditions
+[turn 18 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 18 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=102 goldPercentNow=100
+[turn 18 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=102 goldPercentNow=95
+[turn 18 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=51 goldPercentNow=90
+[turn 18 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=34 goldPercentNow=85
+[turn 18 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=34 goldPercentNow=80
+[turn 18 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=26 goldPercentNow=75
+[turn 18 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=17 goldPercentNow=70
+[turn 18 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=17 goldPercentNow=65
+[turn 18 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=15 goldPercentNow=60
+[turn 18 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=13 goldPercentNow=55
+[turn 18 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=12 goldPercentNow=50
+[turn 18 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=12 goldPercentNow=45
+[turn 18 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=11 goldPercentNow=40
+[turn 18 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=9 goldPercentNow=35
+[turn 18 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=9 goldPercentNow=30
+[turn 18 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=8 goldPercentNow=25
+[turn 18 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=8 goldPercentNow=20
+[turn 18 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=8 goldPercentNow=15
+[turn 18 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=7 goldPercentNow=10
+[turn 18 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=7 goldPercentNow=5
+[turn 18 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=6 goldPercentNow=0
+[turn 18 player 0] chosen percent=75% (goldRate=0 turns=8) affordableCount=16
+[turn 18 player 1] flag is OFF, skipping
+[turn 18 player 2] flag is OFF, skipping
+[turn 18 player 3] flag is OFF, skipping
+[turn 18 player 4] flag is OFF, skipping
+[turn 18 player 5] flag is OFF, skipping
+[turn 18 player 6] flag is OFF, skipping
+[turn 18 player 7] flag is OFF, skipping
+[turn 18 player 8] flag is OFF, skipping
+[turn 18 player 18] flag is OFF, skipping
+[turn 19 player 0] flag is ON, checking preconditions
+[turn 19 player 0] tech=61 step=5 gold=1680 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 19 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=89 goldPercentNow=100
+[turn 19 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=89 goldPercentNow=95
+[turn 19 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=45 goldPercentNow=90
+[turn 19 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=30 goldPercentNow=85
+[turn 19 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=30 goldPercentNow=80
+[turn 19 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=23 goldPercentNow=75
+[turn 19 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=15 goldPercentNow=70
+[turn 19 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=15 goldPercentNow=65
+[turn 19 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=13 goldPercentNow=60
+[turn 19 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=12 goldPercentNow=55
+[turn 19 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=10 goldPercentNow=50
+[turn 19 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=10 goldPercentNow=45
+[turn 19 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=9 goldPercentNow=40
+[turn 19 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=8 goldPercentNow=35
+[turn 19 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=8 goldPercentNow=30
+[turn 19 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=7 goldPercentNow=25
+[turn 19 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=7 goldPercentNow=20
+[turn 19 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=7 goldPercentNow=15
+[turn 19 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=6 goldPercentNow=10
+[turn 19 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=6 goldPercentNow=5
+[turn 19 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=5 goldPercentNow=0
+[turn 19 player 0] chosen percent=75% (goldRate=0 turns=7) affordableCount=16
+[turn 19 player 1] flag is OFF, skipping
+[turn 19 player 2] flag is OFF, skipping
+[turn 19 player 3] flag is OFF, skipping
+[turn 19 player 4] flag is OFF, skipping
+[turn 19 player 5] flag is OFF, skipping
+[turn 19 player 6] flag is OFF, skipping
+[turn 19 player 7] flag is OFF, skipping
+[turn 19 player 8] flag is OFF, skipping
+[turn 19 player 18] flag is OFF, skipping
+[turn 20 player 0] flag is ON, checking preconditions
+[turn 20 player 0] tech=61 step=5 gold=1887 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 20 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=76 goldPercentNow=100
+[turn 20 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=76 goldPercentNow=95
+[turn 20 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=38 goldPercentNow=90
+[turn 20 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=26 goldPercentNow=85
+[turn 20 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=26 goldPercentNow=80
+[turn 20 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=19 goldPercentNow=75
+[turn 20 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=13 goldPercentNow=70
+[turn 20 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=13 goldPercentNow=65
+[turn 20 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=11 goldPercentNow=60
+[turn 20 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=10 goldPercentNow=55
+[turn 20 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=9 goldPercentNow=50
+[turn 20 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=9 goldPercentNow=45
+[turn 20 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=8 goldPercentNow=40
+[turn 20 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=7 goldPercentNow=35
+[turn 20 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=7 goldPercentNow=30
+[turn 20 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=6 goldPercentNow=25
+[turn 20 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=6 goldPercentNow=20
+[turn 20 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=6 goldPercentNow=15
+[turn 20 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=6 goldPercentNow=10
+[turn 20 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=5 goldPercentNow=5
+[turn 20 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=5 goldPercentNow=0
+[turn 20 player 0] chosen percent=75% (goldRate=0 turns=6) affordableCount=16
+[turn 20 player 1] flag is OFF, skipping
+[turn 20 player 2] flag is OFF, skipping
+[turn 20 player 3] flag is OFF, skipping
+[turn 20 player 4] flag is OFF, skipping
+[turn 20 player 5] flag is OFF, skipping
+[turn 20 player 6] flag is OFF, skipping
+[turn 20 player 7] flag is OFF, skipping
+[turn 20 player 8] flag is OFF, skipping
+[turn 20 player 18] flag is OFF, skipping
+[turn 21 player 0] flag is ON, checking preconditions
+[turn 21 player 0] tech=61 step=5 gold=1887 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 21 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=63 goldPercentNow=100
+[turn 21 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=63 goldPercentNow=95
+[turn 21 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=32 goldPercentNow=90
+[turn 21 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=21 goldPercentNow=85
+[turn 21 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=21 goldPercentNow=80
+[turn 21 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=16 goldPercentNow=75
+[turn 21 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=11 goldPercentNow=70
+[turn 21 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=11 goldPercentNow=65
+[turn 21 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=9 goldPercentNow=60
+[turn 21 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=8 goldPercentNow=55
+[turn 21 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=7 goldPercentNow=50
+[turn 21 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=7 goldPercentNow=45
+[turn 21 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=7 goldPercentNow=40
+[turn 21 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=6 goldPercentNow=35
+[turn 21 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=6 goldPercentNow=30
+[turn 21 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=5 goldPercentNow=25
+[turn 21 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=5 goldPercentNow=20
+[turn 21 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=5 goldPercentNow=15
+[turn 21 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=5 goldPercentNow=10
+[turn 21 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=4 goldPercentNow=5
+[turn 21 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=4 goldPercentNow=0
+[turn 21 player 0] chosen percent=75% (goldRate=0 turns=5) affordableCount=16
+[turn 21 player 1] flag is OFF, skipping
+[turn 21 player 2] flag is OFF, skipping
+[turn 21 player 3] flag is OFF, skipping
+[turn 21 player 4] flag is OFF, skipping
+[turn 21 player 5] flag is OFF, skipping
+[turn 21 player 6] flag is OFF, skipping
+[turn 21 player 7] flag is OFF, skipping
+[turn 21 player 8] flag is OFF, skipping
+[turn 21 player 18] flag is OFF, skipping
+[turn 22 player 0] flag is ON, checking preconditions
+[turn 22 player 0] tech=61 step=5 gold=2016 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 22 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=50 goldPercentNow=100
+[turn 22 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=50 goldPercentNow=95
+[turn 22 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=25 goldPercentNow=90
+[turn 22 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=17 goldPercentNow=85
+[turn 22 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=17 goldPercentNow=80
+[turn 22 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=13 goldPercentNow=75
+[turn 22 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=9 goldPercentNow=70
+[turn 22 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=9 goldPercentNow=65
+[turn 22 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=8 goldPercentNow=60
+[turn 22 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=7 goldPercentNow=55
+[turn 22 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=6 goldPercentNow=50
+[turn 22 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=6 goldPercentNow=45
+[turn 22 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=5 goldPercentNow=40
+[turn 22 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=5 goldPercentNow=35
+[turn 22 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=5 goldPercentNow=30
+[turn 22 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=4 goldPercentNow=25
+[turn 22 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=4 goldPercentNow=20
+[turn 22 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=4 goldPercentNow=15
+[turn 22 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=4 goldPercentNow=10
+[turn 22 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=4 goldPercentNow=5
+[turn 22 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=3 goldPercentNow=0
+[turn 22 player 0] chosen percent=75% (goldRate=0 turns=4) affordableCount=16
+[turn 22 player 1] flag is OFF, skipping
+[turn 22 player 2] flag is OFF, skipping
+[turn 22 player 3] flag is OFF, skipping
+[turn 22 player 4] flag is OFF, skipping
+[turn 22 player 5] flag is OFF, skipping
+[turn 22 player 6] flag is OFF, skipping
+[turn 22 player 7] flag is OFF, skipping
+[turn 22 player 8] flag is OFF, skipping
+[turn 22 player 18] flag is OFF, skipping
+[turn 23 player 0] flag is ON, checking preconditions
+[turn 23 player 0] tech=61 step=5 gold=2016 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 23 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=37 goldPercentNow=100
+[turn 23 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=37 goldPercentNow=95
+[turn 23 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=19 goldPercentNow=90
+[turn 23 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=13 goldPercentNow=85
+[turn 23 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=13 goldPercentNow=80
+[turn 23 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=10 goldPercentNow=75
+[turn 23 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=7 goldPercentNow=70
+[turn 23 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=7 goldPercentNow=65
+[turn 23 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=6 goldPercentNow=60
+[turn 23 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=5 goldPercentNow=55
+[turn 23 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=5 goldPercentNow=50
+[turn 23 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=5 goldPercentNow=45
+[turn 23 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=4 goldPercentNow=40
+[turn 23 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=4 goldPercentNow=35
+[turn 23 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=4 goldPercentNow=30
+[turn 23 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=3 goldPercentNow=25
+[turn 23 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=3 goldPercentNow=20
+[turn 23 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=3 goldPercentNow=15
+[turn 23 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=3 goldPercentNow=10
+[turn 23 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=3 goldPercentNow=5
+[turn 23 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=3 goldPercentNow=0
+[turn 23 player 0] chosen percent=75% (goldRate=0 turns=3) affordableCount=16
+[turn 23 player 1] flag is OFF, skipping
+[turn 23 player 2] flag is OFF, skipping
+[turn 23 player 3] flag is OFF, skipping
+[turn 23 player 4] flag is OFF, skipping
+[turn 23 player 5] flag is OFF, skipping
+[turn 23 player 6] flag is OFF, skipping
+[turn 23 player 7] flag is OFF, skipping
+[turn 23 player 8] flag is OFF, skipping
+[turn 23 player 18] flag is OFF, skipping
+[turn 24 player 0] flag is ON, checking preconditions
+[turn 24 player 0] tech=61 step=5 gold=2016 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 24 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=24 goldPercentNow=100
+[turn 24 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=24 goldPercentNow=95
+[turn 24 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=12 goldPercentNow=90
+[turn 24 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=8 goldPercentNow=85
+[turn 24 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=8 goldPercentNow=80
+[turn 24 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=6 goldPercentNow=75
+[turn 24 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=4 goldPercentNow=70
+[turn 24 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=4 goldPercentNow=65
+[turn 24 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=4 goldPercentNow=60
+[turn 24 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=3 goldPercentNow=55
+[turn 24 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=3 goldPercentNow=50
+[turn 24 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=3 goldPercentNow=45
+[turn 24 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=3 goldPercentNow=40
+[turn 24 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=2 goldPercentNow=35
+[turn 24 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=2 goldPercentNow=30
+[turn 24 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=2 goldPercentNow=25
+[turn 24 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=2 goldPercentNow=20
+[turn 24 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=2 goldPercentNow=15
+[turn 24 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=2 goldPercentNow=10
+[turn 24 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=2 goldPercentNow=5
+[turn 24 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=2 goldPercentNow=0
+[turn 24 player 0] chosen percent=70% (goldRate=1 turns=2) affordableCount=16
+[turn 24 player 1] flag is OFF, skipping
+[turn 24 player 2] flag is OFF, skipping
+[turn 24 player 3] flag is OFF, skipping
+[turn 24 player 4] flag is OFF, skipping
+[turn 24 player 5] flag is OFF, skipping
+[turn 24 player 6] flag is OFF, skipping
+[turn 24 player 7] flag is OFF, skipping
+[turn 24 player 8] flag is OFF, skipping
+[turn 24 player 18] flag is OFF, skipping
+[turn 25 player 0] flag is ON, checking preconditions
+[turn 25 player 0] tech=61 step=5 gold=2017 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 30, CvPythonExtensions.CommerceTypes(1): 70, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 25 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=12 goldPercentNow=100
+[turn 25 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=12 goldPercentNow=95
+[turn 25 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=6 goldPercentNow=90
+[turn 25 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=4 goldPercentNow=85
+[turn 25 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=4 goldPercentNow=80
+[turn 25 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=3 goldPercentNow=75
+[turn 25 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=2 goldPercentNow=70
+[turn 25 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=2 goldPercentNow=65
+[turn 25 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=2 goldPercentNow=60
+[turn 25 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=2 goldPercentNow=55
+[turn 25 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=2 goldPercentNow=50
+[turn 25 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=2 goldPercentNow=45
+[turn 25 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=2 goldPercentNow=40
+[turn 25 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=1 goldPercentNow=35
+[turn 25 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=1 goldPercentNow=30
+[turn 25 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=1 goldPercentNow=25
+[turn 25 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=1 goldPercentNow=20
+[turn 25 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=1 goldPercentNow=15
+[turn 25 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=1 goldPercentNow=10
+[turn 25 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=1 goldPercentNow=5
+[turn 25 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=1 goldPercentNow=0
+[turn 25 player 0] chosen percent=70% (goldRate=1 turns=1) affordableCount=16
+[turn 25 player 1] flag is OFF, skipping
+[turn 25 player 2] flag is OFF, skipping
+[turn 25 player 3] flag is OFF, skipping
+[turn 25 player 4] flag is OFF, skipping
+[turn 25 player 5] flag is OFF, skipping
+[turn 25 player 6] flag is OFF, skipping
+[turn 25 player 7] flag is OFF, skipping
+[turn 25 player 8] flag is OFF, skipping
+[turn 25 player 18] flag is OFF, skipping
+[turn 26 player 0] flag is ON, checking preconditions
+[turn 26 player 0] tech=0 step=5 gold=2018 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 30, CvPythonExtensions.CommerceTypes(1): 70, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 26 player 0]  candidate research=0% -> actual=0% goldRate=11 turns=280 goldPercentNow=100
+[turn 26 player 0]  candidate research=5% -> actual=5% goldRate=10 turns=280 goldPercentNow=95
+[turn 26 player 0]  candidate research=10% -> actual=10% goldRate=9 turns=140 goldPercentNow=90
+[turn 26 player 0]  candidate research=15% -> actual=15% goldRate=8 turns=94 goldPercentNow=85
+[turn 26 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=94 goldPercentNow=80
+[turn 26 player 0]  candidate research=25% -> actual=25% goldRate=7 turns=70 goldPercentNow=75
+[turn 26 player 0]  candidate research=30% -> actual=30% goldRate=6 turns=56 goldPercentNow=70
+[turn 26 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=56 goldPercentNow=65
+[turn 26 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=47 goldPercentNow=60
+[turn 26 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=40 goldPercentNow=55
+[turn 26 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=35 goldPercentNow=50
+[turn 26 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=35 goldPercentNow=45
+[turn 26 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=32 goldPercentNow=40
+[turn 26 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=28 goldPercentNow=35
+[turn 26 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=28 goldPercentNow=30
+[turn 26 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=26 goldPercentNow=25
+[turn 26 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=24 goldPercentNow=20
+[turn 26 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=24 goldPercentNow=15
+[turn 26 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=22 goldPercentNow=10
+[turn 26 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=20 goldPercentNow=5
+[turn 26 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=19 goldPercentNow=0
+[turn 26 player 0] chosen percent=75% (goldRate=0 turns=26) affordableCount=16
+[turn 26 player 1] flag is OFF, skipping
+[turn 26 player 2] flag is OFF, skipping
+[turn 26 player 3] flag is OFF, skipping
+[turn 26 player 4] flag is OFF, skipping
+[turn 26 player 5] flag is OFF, skipping
+[turn 26 player 6] flag is OFF, skipping
+[turn 26 player 7] flag is OFF, skipping
+[turn 26 player 8] flag is OFF, skipping
+[turn 26 player 18] flag is OFF, skipping
+[turn 27 player 0] flag is ON, checking preconditions
+[turn 27 player 0] tech=0 step=5 gold=2019 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 27 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=267 goldPercentNow=100
+[turn 27 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=267 goldPercentNow=95
+[turn 27 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=134 goldPercentNow=90
+[turn 27 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=89 goldPercentNow=85
+[turn 27 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=67 goldPercentNow=80
+[turn 27 player 0]  candidate research=25% -> actual=25% goldRate=9 turns=54 goldPercentNow=75
+[turn 27 player 0]  candidate research=30% -> actual=30% goldRate=8 turns=54 goldPercentNow=70
+[turn 27 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=45 goldPercentNow=65
+[turn 27 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=39 goldPercentNow=60
+[turn 27 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=34 goldPercentNow=55
+[turn 27 player 0]  candidate research=50% -> actual=50% goldRate=5 turns=30 goldPercentNow=50
+[turn 27 player 0]  candidate research=55% -> actual=55% goldRate=4 turns=30 goldPercentNow=45
+[turn 27 player 0]  candidate research=60% -> actual=60% goldRate=3 turns=27 goldPercentNow=40
+[turn 27 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=25 goldPercentNow=35
+[turn 27 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=23 goldPercentNow=30
+[turn 27 player 0]  candidate research=75% -> actual=75% goldRate=1 turns=21 goldPercentNow=25
+[turn 27 player 0]  candidate research=80% -> actual=80% goldRate=0 turns=21 goldPercentNow=20
+[turn 27 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=20 goldPercentNow=15
+[turn 27 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=18 goldPercentNow=10
+[turn 27 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=17 goldPercentNow=5
+[turn 27 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=16 goldPercentNow=0
+[turn 27 player 0] chosen percent=75% (goldRate=1 turns=21) affordableCount=17
+[turn 27 player 1] flag is OFF, skipping
+[turn 27 player 2] flag is OFF, skipping
+[turn 27 player 3] flag is OFF, skipping
+[turn 27 player 4] flag is OFF, skipping
+[turn 27 player 5] flag is OFF, skipping
+[turn 27 player 6] flag is OFF, skipping
+[turn 27 player 7] flag is OFF, skipping
+[turn 27 player 8] flag is OFF, skipping
+[turn 27 player 18] flag is OFF, skipping
+[turn 28 player 0] flag is ON, checking preconditions
+[turn 28 player 0] tech=0 step=5 gold=2020 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 15, CvPythonExtensions.CommerceTypes(1): 85, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 28 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=254 goldPercentNow=100
+[turn 28 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=254 goldPercentNow=95
+[turn 28 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=127 goldPercentNow=90
+[turn 28 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=85 goldPercentNow=85
+[turn 28 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=64 goldPercentNow=80
+[turn 28 player 0]  candidate research=25% -> actual=25% goldRate=9 turns=51 goldPercentNow=75
+[turn 28 player 0]  candidate research=30% -> actual=30% goldRate=8 turns=51 goldPercentNow=70
+[turn 28 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=43 goldPercentNow=65
+[turn 28 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=37 goldPercentNow=60
+[turn 28 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=32 goldPercentNow=55
+[turn 28 player 0]  candidate research=50% -> actual=50% goldRate=5 turns=29 goldPercentNow=50
+[turn 28 player 0]  candidate research=55% -> actual=55% goldRate=4 turns=29 goldPercentNow=45
+[turn 28 player 0]  candidate research=60% -> actual=60% goldRate=3 turns=26 goldPercentNow=40
+[turn 28 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=24 goldPercentNow=35
+[turn 28 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=22 goldPercentNow=30
+[turn 28 player 0]  candidate research=75% -> actual=75% goldRate=1 turns=20 goldPercentNow=25
+[turn 28 player 0]  candidate research=80% -> actual=80% goldRate=0 turns=20 goldPercentNow=20
+[turn 28 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=19 goldPercentNow=15
+[turn 28 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=17 goldPercentNow=10
+[turn 28 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=16 goldPercentNow=5
+[turn 28 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=15 goldPercentNow=0
+[turn 28 player 0] chosen percent=75% (goldRate=1 turns=20) affordableCount=17
+[turn 28 player 1] flag is OFF, skipping
+[turn 28 player 2] flag is OFF, skipping
+[turn 28 player 3] flag is OFF, skipping
+[turn 28 player 4] flag is OFF, skipping
+[turn 28 player 5] flag is OFF, skipping
+[turn 28 player 6] flag is OFF, skipping
+[turn 28 player 7] flag is OFF, skipping
+[turn 28 player 8] flag is OFF, skipping
+[turn 28 player 18] flag is OFF, skipping
+[turn 29 player 0] flag is ON, checking preconditions
+[turn 29 player 0] tech=0 step=5 gold=2021 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 29 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=241 goldPercentNow=100
+[turn 29 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=241 goldPercentNow=95
+[turn 29 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=121 goldPercentNow=90
+[turn 29 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=81 goldPercentNow=85
+[turn 29 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=61 goldPercentNow=80
+[turn 29 player 0]  candidate research=25% -> actual=25% goldRate=9 turns=49 goldPercentNow=75
+[turn 29 player 0]  candidate research=30% -> actual=30% goldRate=8 turns=49 goldPercentNow=70
+[turn 29 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=41 goldPercentNow=65
+[turn 29 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=35 goldPercentNow=60
+[turn 29 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=31 goldPercentNow=55
+[turn 29 player 0]  candidate research=50% -> actual=50% goldRate=5 turns=27 goldPercentNow=50
+[turn 29 player 0]  candidate research=55% -> actual=55% goldRate=4 turns=27 goldPercentNow=45
+[turn 29 player 0]  candidate research=60% -> actual=60% goldRate=3 turns=25 goldPercentNow=40
+[turn 29 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=22 goldPercentNow=35
+[turn 29 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=21 goldPercentNow=30
+[turn 29 player 0]  candidate research=75% -> actual=75% goldRate=1 turns=19 goldPercentNow=25
+[turn 29 player 0]  candidate research=80% -> actual=80% goldRate=0 turns=19 goldPercentNow=20
+[turn 29 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=18 goldPercentNow=15
+[turn 29 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=17 goldPercentNow=10
+[turn 29 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=16 goldPercentNow=5
+[turn 29 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=15 goldPercentNow=0
+[turn 29 player 0] chosen percent=75% (goldRate=1 turns=19) affordableCount=17
+[turn 29 player 1] flag is OFF, skipping
+[turn 29 player 2] flag is OFF, skipping
+[turn 29 player 3] flag is OFF, skipping
+[turn 29 player 4] flag is OFF, skipping
+[turn 29 player 5] flag is OFF, skipping
+[turn 29 player 6] flag is OFF, skipping
+[turn 29 player 7] flag is OFF, skipping
+[turn 29 player 8] flag is OFF, skipping
+[turn 29 player 18] flag is OFF, skipping
+[turn 30 player 0] flag is ON, checking preconditions
+[turn 30 player 0] tech=0 step=5 gold=2022 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 30 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=228 goldPercentNow=100
+[turn 30 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=228 goldPercentNow=95
+[turn 30 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=114 goldPercentNow=90
+[turn 30 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=76 goldPercentNow=85
+[turn 30 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=57 goldPercentNow=80
+[turn 30 player 0]  candidate research=25% -> actual=25% goldRate=9 turns=46 goldPercentNow=75
+[turn 30 player 0]  candidate research=30% -> actual=30% goldRate=8 turns=46 goldPercentNow=70
+[turn 30 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=38 goldPercentNow=65
+[turn 30 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=33 goldPercentNow=60
+[turn 30 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=29 goldPercentNow=55
+[turn 30 player 0]  candidate research=50% -> actual=50% goldRate=5 turns=26 goldPercentNow=50
+[turn 30 player 0]  candidate research=55% -> actual=55% goldRate=4 turns=26 goldPercentNow=45
+[turn 30 player 0]  candidate research=60% -> actual=60% goldRate=3 turns=23 goldPercentNow=40
+[turn 30 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=21 goldPercentNow=35
+[turn 30 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=19 goldPercentNow=30
+[turn 30 player 0]  candidate research=75% -> actual=75% goldRate=1 turns=18 goldPercentNow=25
+[turn 30 player 0]  candidate research=80% -> actual=80% goldRate=0 turns=18 goldPercentNow=20
+[turn 30 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=17 goldPercentNow=15
+[turn 30 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=16 goldPercentNow=10
+[turn 30 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=15 goldPercentNow=5
+[turn 30 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=14 goldPercentNow=0
+[turn 30 player 0] chosen percent=75% (goldRate=1 turns=18) affordableCount=17
+[turn 30 player 1] flag is OFF, skipping
+[turn 30 player 2] flag is OFF, skipping
+[turn 30 player 3] flag is OFF, skipping
+[turn 30 player 4] flag is OFF, skipping
+[turn 30 player 5] flag is OFF, skipping
+[turn 30 player 6] flag is OFF, skipping
+[turn 30 player 7] flag is OFF, skipping
+[turn 30 player 8] flag is OFF, skipping
+[turn 30 player 18] flag is OFF, skipping
+[turn 31 player 0] flag is ON, checking preconditions
+[turn 31 player 0] tech=0 step=5 gold=2023 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 31 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=215 goldPercentNow=100
+[turn 31 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=215 goldPercentNow=95
+[turn 31 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=108 goldPercentNow=90
+[turn 31 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=72 goldPercentNow=85
+[turn 31 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=54 goldPercentNow=80
+[turn 31 player 0]  candidate research=25% -> actual=25% goldRate=9 turns=43 goldPercentNow=75
+[turn 31 player 0]  candidate research=30% -> actual=30% goldRate=8 turns=43 goldPercentNow=70
+[turn 31 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=36 goldPercentNow=65
+[turn 31 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=31 goldPercentNow=60
+[turn 31 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=27 goldPercentNow=55
+[turn 31 player 0]  candidate research=50% -> actual=50% goldRate=5 turns=24 goldPercentNow=50
+[turn 31 player 0]  candidate research=55% -> actual=55% goldRate=4 turns=24 goldPercentNow=45
+[turn 31 player 0]  candidate research=60% -> actual=60% goldRate=3 turns=22 goldPercentNow=40
+[turn 31 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=20 goldPercentNow=35
+[turn 31 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=18 goldPercentNow=30
+[turn 31 player 0]  candidate research=75% -> actual=75% goldRate=1 turns=17 goldPercentNow=25
+[turn 31 player 0]  candidate research=80% -> actual=80% goldRate=0 turns=17 goldPercentNow=20
+[turn 31 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=16 goldPercentNow=15
+[turn 31 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=15 goldPercentNow=10
+[turn 31 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=14 goldPercentNow=5
+[turn 31 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=13 goldPercentNow=0
+[turn 31 player 0] chosen percent=75% (goldRate=1 turns=17) affordableCount=17
+[turn 31 player 1] flag is OFF, skipping
+[turn 31 player 2] flag is OFF, skipping
+[turn 31 player 3] flag is OFF, skipping
+[turn 31 player 4] flag is OFF, skipping
+[turn 31 player 5] flag is OFF, skipping
+[turn 31 player 6] flag is OFF, skipping
+[turn 31 player 7] flag is OFF, skipping
+[turn 31 player 8] flag is OFF, skipping
+[turn 31 player 18] flag is OFF, skipping
+[turn 32 player 0] flag is ON, checking preconditions
+[turn 32 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=3 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 32 player 0]  candidate research=0% -> actual=0% goldRate=14 turns=202 goldPercentNow=100
+[turn 32 player 0]  candidate research=5% -> actual=5% goldRate=13 turns=202 goldPercentNow=95
+[turn 32 player 0]  candidate research=10% -> actual=10% goldRate=12 turns=101 goldPercentNow=90
+[turn 32 player 0]  candidate research=15% -> actual=15% goldRate=11 turns=68 goldPercentNow=85
+[turn 32 player 0]  candidate research=20% -> actual=20% goldRate=10 turns=51 goldPercentNow=80
+[turn 32 player 0]  candidate research=25% -> actual=25% goldRate=9 turns=41 goldPercentNow=75
+[turn 32 player 0]  candidate research=30% -> actual=30% goldRate=8 turns=34 goldPercentNow=70
+[turn 32 player 0]  candidate research=35% -> actual=35% goldRate=8 turns=34 goldPercentNow=65
+[turn 32 player 0]  candidate research=40% -> actual=40% goldRate=7 turns=29 goldPercentNow=60
+[turn 32 player 0]  candidate research=45% -> actual=45% goldRate=6 turns=26 goldPercentNow=55
+[turn 32 player 0]  candidate research=50% -> actual=50% goldRate=5 turns=23 goldPercentNow=50
+[turn 32 player 0]  candidate research=55% -> actual=55% goldRate=4 turns=21 goldPercentNow=45
+[turn 32 player 0]  candidate research=60% -> actual=60% goldRate=3 turns=19 goldPercentNow=40
+[turn 32 player 0]  candidate research=65% -> actual=65% goldRate=2 turns=17 goldPercentNow=35
+[turn 32 player 0]  candidate research=70% -> actual=70% goldRate=2 turns=17 goldPercentNow=30
+[turn 32 player 0]  candidate research=75% -> actual=75% goldRate=1 turns=16 goldPercentNow=25
+[turn 32 player 0]  candidate research=80% -> actual=80% goldRate=0 turns=15 goldPercentNow=20
+[turn 32 player 0]  candidate research=85% -> actual=85% goldRate=-1 turns=14 goldPercentNow=15
+[turn 32 player 0]  candidate research=90% -> actual=90% goldRate=-2 turns=13 goldPercentNow=10
+[turn 32 player 0]  candidate research=95% -> actual=95% goldRate=-3 turns=12 goldPercentNow=5
+[turn 32 player 0]  candidate research=100% -> actual=100% goldRate=-3 turns=12 goldPercentNow=0
+[turn 32 player 0] chosen percent=80% (goldRate=0 turns=15) affordableCount=17
+[turn 32 player 1] flag is OFF, skipping
+[turn 32 player 2] flag is OFF, skipping
+[turn 32 player 3] flag is OFF, skipping
+[turn 32 player 4] flag is OFF, skipping
+[turn 32 player 5] flag is OFF, skipping
+[turn 32 player 6] flag is OFF, skipping
+[turn 32 player 7] flag is OFF, skipping
+[turn 32 player 8] flag is OFF, skipping
+[turn 32 player 18] flag is OFF, skipping
+[turn 33 player 0] flag is ON, checking preconditions
+[turn 33 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 20, CvPythonExtensions.CommerceTypes(1): 80, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 33 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=188 goldPercentNow=100
+[turn 33 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=188 goldPercentNow=95
+[turn 33 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=94 goldPercentNow=90
+[turn 33 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=63 goldPercentNow=85
+[turn 33 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=47 goldPercentNow=80
+[turn 33 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=38 goldPercentNow=75
+[turn 33 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=32 goldPercentNow=70
+[turn 33 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=32 goldPercentNow=65
+[turn 33 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=27 goldPercentNow=60
+[turn 33 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=24 goldPercentNow=55
+[turn 33 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=21 goldPercentNow=50
+[turn 33 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=19 goldPercentNow=45
+[turn 33 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=18 goldPercentNow=40
+[turn 33 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=16 goldPercentNow=35
+[turn 33 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=16 goldPercentNow=30
+[turn 33 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=15 goldPercentNow=25
+[turn 33 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=14 goldPercentNow=20
+[turn 33 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=13 goldPercentNow=15
+[turn 33 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=12 goldPercentNow=10
+[turn 33 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=12 goldPercentNow=5
+[turn 33 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=11 goldPercentNow=0
+[turn 33 player 0] chosen percent=75% (goldRate=0 turns=15) affordableCount=16
+[turn 33 player 1] flag is OFF, skipping
+[turn 33 player 2] flag is OFF, skipping
+[turn 33 player 3] flag is OFF, skipping
+[turn 33 player 4] flag is OFF, skipping
+[turn 33 player 5] flag is OFF, skipping
+[turn 33 player 6] flag is OFF, skipping
+[turn 33 player 7] flag is OFF, skipping
+[turn 33 player 8] flag is OFF, skipping
+[turn 33 player 18] flag is OFF, skipping
+[turn 34 player 0] flag is ON, checking preconditions
+[turn 34 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 34 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=175 goldPercentNow=100
+[turn 34 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=175 goldPercentNow=95
+[turn 34 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=88 goldPercentNow=90
+[turn 34 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=59 goldPercentNow=85
+[turn 34 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=44 goldPercentNow=80
+[turn 34 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=35 goldPercentNow=75
+[turn 34 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=30 goldPercentNow=70
+[turn 34 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=30 goldPercentNow=65
+[turn 34 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=25 goldPercentNow=60
+[turn 34 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=22 goldPercentNow=55
+[turn 34 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=20 goldPercentNow=50
+[turn 34 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=18 goldPercentNow=45
+[turn 34 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=16 goldPercentNow=40
+[turn 34 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=15 goldPercentNow=35
+[turn 34 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=15 goldPercentNow=30
+[turn 34 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=14 goldPercentNow=25
+[turn 34 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=13 goldPercentNow=20
+[turn 34 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=12 goldPercentNow=15
+[turn 34 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=11 goldPercentNow=10
+[turn 34 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=11 goldPercentNow=5
+[turn 34 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=10 goldPercentNow=0
+[turn 34 player 0] chosen percent=75% (goldRate=0 turns=14) affordableCount=16
+[turn 34 player 1] flag is OFF, skipping
+[turn 34 player 2] flag is OFF, skipping
+[turn 34 player 3] flag is OFF, skipping
+[turn 34 player 4] flag is OFF, skipping
+[turn 34 player 5] flag is OFF, skipping
+[turn 34 player 6] flag is OFF, skipping
+[turn 34 player 7] flag is OFF, skipping
+[turn 34 player 8] flag is OFF, skipping
+[turn 34 player 18] flag is OFF, skipping
+[turn 35 player 0] flag is ON, checking preconditions
+[turn 35 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 35 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=162 goldPercentNow=100
+[turn 35 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=162 goldPercentNow=95
+[turn 35 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=81 goldPercentNow=90
+[turn 35 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=54 goldPercentNow=85
+[turn 35 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=41 goldPercentNow=80
+[turn 35 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=33 goldPercentNow=75
+[turn 35 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=27 goldPercentNow=70
+[turn 35 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=27 goldPercentNow=65
+[turn 35 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=24 goldPercentNow=60
+[turn 35 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=21 goldPercentNow=55
+[turn 35 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=18 goldPercentNow=50
+[turn 35 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=17 goldPercentNow=45
+[turn 35 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=15 goldPercentNow=40
+[turn 35 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=14 goldPercentNow=35
+[turn 35 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=14 goldPercentNow=30
+[turn 35 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=13 goldPercentNow=25
+[turn 35 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=12 goldPercentNow=20
+[turn 35 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=11 goldPercentNow=15
+[turn 35 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=11 goldPercentNow=10
+[turn 35 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=10 goldPercentNow=5
+[turn 35 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=9 goldPercentNow=0
+[turn 35 player 0] chosen percent=75% (goldRate=0 turns=13) affordableCount=16
+[turn 35 player 1] flag is OFF, skipping
+[turn 35 player 2] flag is OFF, skipping
+[turn 35 player 3] flag is OFF, skipping
+[turn 35 player 4] flag is OFF, skipping
+[turn 35 player 5] flag is OFF, skipping
+[turn 35 player 6] flag is OFF, skipping
+[turn 35 player 7] flag is OFF, skipping
+[turn 35 player 8] flag is OFF, skipping
+[turn 35 player 18] flag is OFF, skipping
+[turn 36 player 0] flag is ON, checking preconditions
+[turn 36 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 36 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=149 goldPercentNow=100
+[turn 36 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=149 goldPercentNow=95
+[turn 36 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=75 goldPercentNow=90
+[turn 36 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=50 goldPercentNow=85
+[turn 36 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=38 goldPercentNow=80
+[turn 36 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=30 goldPercentNow=75
+[turn 36 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=25 goldPercentNow=70
+[turn 36 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=25 goldPercentNow=65
+[turn 36 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=22 goldPercentNow=60
+[turn 36 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=19 goldPercentNow=55
+[turn 36 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=17 goldPercentNow=50
+[turn 36 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=15 goldPercentNow=45
+[turn 36 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=14 goldPercentNow=40
+[turn 36 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=13 goldPercentNow=35
+[turn 36 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=13 goldPercentNow=30
+[turn 36 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=12 goldPercentNow=25
+[turn 36 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=11 goldPercentNow=20
+[turn 36 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=10 goldPercentNow=15
+[turn 36 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=10 goldPercentNow=10
+[turn 36 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=9 goldPercentNow=5
+[turn 36 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=9 goldPercentNow=0
+[turn 36 player 0] chosen percent=75% (goldRate=0 turns=12) affordableCount=16
+[turn 36 player 1] flag is OFF, skipping
+[turn 36 player 2] flag is OFF, skipping
+[turn 36 player 3] flag is OFF, skipping
+[turn 36 player 4] flag is OFF, skipping
+[turn 36 player 5] flag is OFF, skipping
+[turn 36 player 6] flag is OFF, skipping
+[turn 36 player 7] flag is OFF, skipping
+[turn 36 player 8] flag is OFF, skipping
+[turn 36 player 18] flag is OFF, skipping
+[turn 37 player 0] flag is ON, checking preconditions
+[turn 37 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 37 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=136 goldPercentNow=100
+[turn 37 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=136 goldPercentNow=95
+[turn 37 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=68 goldPercentNow=90
+[turn 37 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=46 goldPercentNow=85
+[turn 37 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=34 goldPercentNow=80
+[turn 37 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=28 goldPercentNow=75
+[turn 37 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=23 goldPercentNow=70
+[turn 37 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=23 goldPercentNow=65
+[turn 37 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=20 goldPercentNow=60
+[turn 37 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=17 goldPercentNow=55
+[turn 37 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=16 goldPercentNow=50
+[turn 37 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=14 goldPercentNow=45
+[turn 37 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=13 goldPercentNow=40
+[turn 37 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=12 goldPercentNow=35
+[turn 37 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=12 goldPercentNow=30
+[turn 37 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=11 goldPercentNow=25
+[turn 37 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=10 goldPercentNow=20
+[turn 37 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=10 goldPercentNow=15
+[turn 37 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=9 goldPercentNow=10
+[turn 37 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=8 goldPercentNow=5
+[turn 37 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=8 goldPercentNow=0
+[turn 37 player 0] chosen percent=75% (goldRate=0 turns=11) affordableCount=16
+[turn 37 player 1] flag is OFF, skipping
+[turn 37 player 2] flag is OFF, skipping
+[turn 37 player 3] flag is OFF, skipping
+[turn 37 player 4] flag is OFF, skipping
+[turn 37 player 5] flag is OFF, skipping
+[turn 37 player 6] flag is OFF, skipping
+[turn 37 player 7] flag is OFF, skipping
+[turn 37 player 8] flag is OFF, skipping
+[turn 37 player 18] flag is OFF, skipping
+[turn 38 player 0] flag is ON, checking preconditions
+[turn 38 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 38 player 0]  candidate research=0% -> actual=0% goldRate=13 turns=123 goldPercentNow=100
+[turn 38 player 0]  candidate research=5% -> actual=5% goldRate=12 turns=123 goldPercentNow=95
+[turn 38 player 0]  candidate research=10% -> actual=10% goldRate=11 turns=62 goldPercentNow=90
+[turn 38 player 0]  candidate research=15% -> actual=15% goldRate=10 turns=41 goldPercentNow=85
+[turn 38 player 0]  candidate research=20% -> actual=20% goldRate=9 turns=31 goldPercentNow=80
+[turn 38 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=25 goldPercentNow=75
+[turn 38 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=21 goldPercentNow=70
+[turn 38 player 0]  candidate research=35% -> actual=35% goldRate=7 turns=21 goldPercentNow=65
+[turn 38 player 0]  candidate research=40% -> actual=40% goldRate=6 turns=18 goldPercentNow=60
+[turn 38 player 0]  candidate research=45% -> actual=45% goldRate=5 turns=16 goldPercentNow=55
+[turn 38 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=14 goldPercentNow=50
+[turn 38 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=13 goldPercentNow=45
+[turn 38 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=12 goldPercentNow=40
+[turn 38 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=11 goldPercentNow=35
+[turn 38 player 0]  candidate research=70% -> actual=70% goldRate=1 turns=11 goldPercentNow=30
+[turn 38 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=10 goldPercentNow=25
+[turn 38 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=9 goldPercentNow=20
+[turn 38 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=9 goldPercentNow=15
+[turn 38 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=8 goldPercentNow=10
+[turn 38 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=8 goldPercentNow=5
+[turn 38 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=7 goldPercentNow=0
+[turn 38 player 0] chosen percent=75% (goldRate=0 turns=10) affordableCount=16
+[turn 38 player 1] flag is OFF, skipping
+[turn 38 player 2] flag is OFF, skipping
+[turn 38 player 3] flag is OFF, skipping
+[turn 38 player 4] flag is OFF, skipping
+[turn 38 player 5] flag is OFF, skipping
+[turn 38 player 6] flag is OFF, skipping
+[turn 38 player 7] flag is OFF, skipping
+[turn 38 player 8] flag is OFF, skipping
+[turn 38 player 18] flag is OFF, skipping
+[turn 39 player 0] flag is ON, checking preconditions
+[turn 39 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 39 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=110 goldPercentNow=100
+[turn 39 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=110 goldPercentNow=95
+[turn 39 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=55 goldPercentNow=90
+[turn 39 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=37 goldPercentNow=85
+[turn 39 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=28 goldPercentNow=80
+[turn 39 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=22 goldPercentNow=75
+[turn 39 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=22 goldPercentNow=70
+[turn 39 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=19 goldPercentNow=65
+[turn 39 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=16 goldPercentNow=60
+[turn 39 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=14 goldPercentNow=55
+[turn 39 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=13 goldPercentNow=50
+[turn 39 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=13 goldPercentNow=45
+[turn 39 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=11 goldPercentNow=40
+[turn 39 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=10 goldPercentNow=35
+[turn 39 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=10 goldPercentNow=30
+[turn 39 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=9 goldPercentNow=25
+[turn 39 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=9 goldPercentNow=20
+[turn 39 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=8 goldPercentNow=15
+[turn 39 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=8 goldPercentNow=10
+[turn 39 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=7 goldPercentNow=5
+[turn 39 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=7 goldPercentNow=0
+[turn 39 player 0] chosen percent=75% (goldRate=0 turns=9) affordableCount=16
+[turn 39 player 1] flag is OFF, skipping
+[turn 39 player 2] flag is OFF, skipping
+[turn 39 player 3] flag is OFF, skipping
+[turn 39 player 4] flag is OFF, skipping
+[turn 39 player 5] flag is OFF, skipping
+[turn 39 player 6] flag is OFF, skipping
+[turn 39 player 7] flag is OFF, skipping
+[turn 39 player 8] flag is OFF, skipping
+[turn 39 player 18] flag is OFF, skipping
+[turn 40 player 0] flag is ON, checking preconditions
+[turn 40 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 40 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=97 goldPercentNow=100
+[turn 40 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=97 goldPercentNow=95
+[turn 40 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=49 goldPercentNow=90
+[turn 40 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=33 goldPercentNow=85
+[turn 40 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=25 goldPercentNow=80
+[turn 40 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=20 goldPercentNow=75
+[turn 40 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=20 goldPercentNow=70
+[turn 40 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=17 goldPercentNow=65
+[turn 40 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=14 goldPercentNow=60
+[turn 40 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=13 goldPercentNow=55
+[turn 40 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=11 goldPercentNow=50
+[turn 40 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=11 goldPercentNow=45
+[turn 40 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=10 goldPercentNow=40
+[turn 40 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=9 goldPercentNow=35
+[turn 40 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=9 goldPercentNow=30
+[turn 40 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=8 goldPercentNow=25
+[turn 40 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=8 goldPercentNow=20
+[turn 40 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=7 goldPercentNow=15
+[turn 40 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=7 goldPercentNow=10
+[turn 40 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=7 goldPercentNow=5
+[turn 40 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=6 goldPercentNow=0
+[turn 40 player 0] chosen percent=75% (goldRate=0 turns=8) affordableCount=16
+[turn 40 player 1] flag is OFF, skipping
+[turn 40 player 2] flag is OFF, skipping
+[turn 40 player 3] flag is OFF, skipping
+[turn 40 player 4] flag is OFF, skipping
+[turn 40 player 5] flag is OFF, skipping
+[turn 40 player 6] flag is OFF, skipping
+[turn 40 player 7] flag is OFF, skipping
+[turn 40 player 8] flag is OFF, skipping
+[turn 40 player 18] flag is OFF, skipping
+[turn 41 player 0] flag is ON, checking preconditions
+[turn 41 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 41 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=84 goldPercentNow=100
+[turn 41 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=84 goldPercentNow=95
+[turn 41 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=42 goldPercentNow=90
+[turn 41 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=28 goldPercentNow=85
+[turn 41 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=21 goldPercentNow=80
+[turn 41 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=17 goldPercentNow=75
+[turn 41 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=17 goldPercentNow=70
+[turn 41 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=14 goldPercentNow=65
+[turn 41 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=12 goldPercentNow=60
+[turn 41 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=11 goldPercentNow=55
+[turn 41 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=10 goldPercentNow=50
+[turn 41 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=10 goldPercentNow=45
+[turn 41 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=9 goldPercentNow=40
+[turn 41 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=8 goldPercentNow=35
+[turn 41 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=7 goldPercentNow=30
+[turn 41 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=7 goldPercentNow=25
+[turn 41 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=7 goldPercentNow=20
+[turn 41 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=6 goldPercentNow=15
+[turn 41 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=6 goldPercentNow=10
+[turn 41 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=6 goldPercentNow=5
+[turn 41 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=5 goldPercentNow=0
+[turn 41 player 0] chosen percent=75% (goldRate=0 turns=7) affordableCount=16
+[turn 41 player 1] flag is OFF, skipping
+[turn 41 player 2] flag is OFF, skipping
+[turn 41 player 3] flag is OFF, skipping
+[turn 41 player 4] flag is OFF, skipping
+[turn 41 player 5] flag is OFF, skipping
+[turn 41 player 6] flag is OFF, skipping
+[turn 41 player 7] flag is OFF, skipping
+[turn 41 player 8] flag is OFF, skipping
+[turn 41 player 18] flag is OFF, skipping
+[turn 42 player 0] flag is ON, checking preconditions
+[turn 42 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 42 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=71 goldPercentNow=100
+[turn 42 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=71 goldPercentNow=95
+[turn 42 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=36 goldPercentNow=90
+[turn 42 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=24 goldPercentNow=85
+[turn 42 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=18 goldPercentNow=80
+[turn 42 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=15 goldPercentNow=75
+[turn 42 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=15 goldPercentNow=70
+[turn 42 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=12 goldPercentNow=65
+[turn 42 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=11 goldPercentNow=60
+[turn 42 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=9 goldPercentNow=55
+[turn 42 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=8 goldPercentNow=50
+[turn 42 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=8 goldPercentNow=45
+[turn 42 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=8 goldPercentNow=40
+[turn 42 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=7 goldPercentNow=35
+[turn 42 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=6 goldPercentNow=30
+[turn 42 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=6 goldPercentNow=25
+[turn 42 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=6 goldPercentNow=20
+[turn 42 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=6 goldPercentNow=15
+[turn 42 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=5 goldPercentNow=10
+[turn 42 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=5 goldPercentNow=5
+[turn 42 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=5 goldPercentNow=0
+[turn 42 player 0] chosen percent=75% (goldRate=0 turns=6) affordableCount=16
+[turn 42 player 1] flag is OFF, skipping
+[turn 42 player 2] flag is OFF, skipping
+[turn 42 player 3] flag is OFF, skipping
+[turn 42 player 4] flag is OFF, skipping
+[turn 42 player 5] flag is OFF, skipping
+[turn 42 player 6] flag is OFF, skipping
+[turn 42 player 7] flag is OFF, skipping
+[turn 42 player 8] flag is OFF, skipping
+[turn 42 player 18] flag is OFF, skipping
+[turn 43 player 0] flag is ON, checking preconditions
+[turn 43 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 43 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=58 goldPercentNow=100
+[turn 43 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=58 goldPercentNow=95
+[turn 43 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=29 goldPercentNow=90
+[turn 43 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=20 goldPercentNow=85
+[turn 43 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=15 goldPercentNow=80
+[turn 43 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=12 goldPercentNow=75
+[turn 43 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=12 goldPercentNow=70
+[turn 43 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=10 goldPercentNow=65
+[turn 43 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=9 goldPercentNow=60
+[turn 43 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=8 goldPercentNow=55
+[turn 43 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=7 goldPercentNow=50
+[turn 43 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=7 goldPercentNow=45
+[turn 43 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=6 goldPercentNow=40
+[turn 43 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=6 goldPercentNow=35
+[turn 43 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=5 goldPercentNow=30
+[turn 43 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=5 goldPercentNow=25
+[turn 43 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=5 goldPercentNow=20
+[turn 43 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=5 goldPercentNow=15
+[turn 43 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=4 goldPercentNow=10
+[turn 43 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=4 goldPercentNow=5
+[turn 43 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=4 goldPercentNow=0
+[turn 43 player 0] chosen percent=75% (goldRate=0 turns=5) affordableCount=16
+[turn 43 player 1] flag is OFF, skipping
+[turn 43 player 2] flag is OFF, skipping
+[turn 43 player 3] flag is OFF, skipping
+[turn 43 player 4] flag is OFF, skipping
+[turn 43 player 5] flag is OFF, skipping
+[turn 43 player 6] flag is OFF, skipping
+[turn 43 player 7] flag is OFF, skipping
+[turn 43 player 8] flag is OFF, skipping
+[turn 43 player 18] flag is OFF, skipping
+[turn 44 player 0] flag is ON, checking preconditions
+[turn 44 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 25, CvPythonExtensions.CommerceTypes(1): 75, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 44 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=45 goldPercentNow=100
+[turn 44 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=45 goldPercentNow=95
+[turn 44 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=23 goldPercentNow=90
+[turn 44 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=15 goldPercentNow=85
+[turn 44 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=12 goldPercentNow=80
+[turn 44 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=9 goldPercentNow=75
+[turn 44 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=9 goldPercentNow=70
+[turn 44 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=8 goldPercentNow=65
+[turn 44 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=7 goldPercentNow=60
+[turn 44 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=6 goldPercentNow=55
+[turn 44 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=5 goldPercentNow=50
+[turn 44 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=5 goldPercentNow=45
+[turn 44 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=5 goldPercentNow=40
+[turn 44 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=5 goldPercentNow=35
+[turn 44 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=4 goldPercentNow=30
+[turn 44 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=4 goldPercentNow=25
+[turn 44 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=4 goldPercentNow=20
+[turn 44 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=4 goldPercentNow=15
+[turn 44 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=3 goldPercentNow=10
+[turn 44 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=3 goldPercentNow=5
+[turn 44 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=3 goldPercentNow=0
+[turn 44 player 0] chosen percent=75% (goldRate=0 turns=4) affordableCount=16
+[turn 44 player 1] flag is OFF, skipping
+[turn 44 player 2] flag is OFF, skipping
+[turn 44 player 3] flag is OFF, skipping
+[turn 44 player 4] flag is OFF, skipping
+[turn 44 player 5] flag is OFF, skipping
+[turn 44 player 6] flag is OFF, skipping
+[turn 44 player 7] flag is OFF, skipping
+[turn 44 player 8] flag is OFF, skipping
+[turn 44 player 18] flag is OFF, skipping
+[turn 45 player 0] flag is ON, checking preconditions
+[turn 45 player 0] tech=0 step=5 gold=2024 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 30, CvPythonExtensions.CommerceTypes(1): 70, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 45 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=32 goldPercentNow=100
+[turn 45 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=32 goldPercentNow=95
+[turn 45 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=16 goldPercentNow=90
+[turn 45 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=11 goldPercentNow=85
+[turn 45 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=8 goldPercentNow=80
+[turn 45 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=7 goldPercentNow=75
+[turn 45 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=7 goldPercentNow=70
+[turn 45 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=6 goldPercentNow=65
+[turn 45 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=5 goldPercentNow=60
+[turn 45 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=4 goldPercentNow=55
+[turn 45 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=4 goldPercentNow=50
+[turn 45 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=4 goldPercentNow=45
+[turn 45 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=4 goldPercentNow=40
+[turn 45 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=3 goldPercentNow=35
+[turn 45 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=3 goldPercentNow=30
+[turn 45 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=3 goldPercentNow=25
+[turn 45 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=3 goldPercentNow=20
+[turn 45 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=3 goldPercentNow=15
+[turn 45 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=3 goldPercentNow=10
+[turn 45 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=2 goldPercentNow=5
+[turn 45 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=2 goldPercentNow=0
+[turn 45 player 0] chosen percent=65% (goldRate=1 turns=3) affordableCount=16
+[turn 45 player 1] flag is OFF, skipping
+[turn 45 player 2] flag is OFF, skipping
+[turn 45 player 3] flag is OFF, skipping
+[turn 45 player 4] flag is OFF, skipping
+[turn 45 player 5] flag is OFF, skipping
+[turn 45 player 6] flag is OFF, skipping
+[turn 45 player 7] flag is OFF, skipping
+[turn 45 player 8] flag is OFF, skipping
+[turn 45 player 18] flag is OFF, skipping
+[turn 46 player 0] flag is ON, checking preconditions
+[turn 46 player 0] tech=0 step=5 gold=2025 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 35, CvPythonExtensions.CommerceTypes(1): 65, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 46 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=21 goldPercentNow=100
+[turn 46 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=21 goldPercentNow=95
+[turn 46 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=11 goldPercentNow=90
+[turn 46 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=7 goldPercentNow=85
+[turn 46 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=6 goldPercentNow=80
+[turn 46 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=5 goldPercentNow=75
+[turn 46 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=5 goldPercentNow=70
+[turn 46 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=4 goldPercentNow=65
+[turn 46 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=3 goldPercentNow=60
+[turn 46 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=3 goldPercentNow=55
+[turn 46 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=3 goldPercentNow=50
+[turn 46 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=3 goldPercentNow=45
+[turn 46 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=3 goldPercentNow=40
+[turn 46 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=2 goldPercentNow=35
+[turn 46 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=2 goldPercentNow=30
+[turn 46 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=2 goldPercentNow=25
+[turn 46 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=2 goldPercentNow=20
+[turn 46 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=2 goldPercentNow=15
+[turn 46 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=2 goldPercentNow=10
+[turn 46 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=2 goldPercentNow=5
+[turn 46 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=2 goldPercentNow=0
+[turn 46 player 0] chosen percent=65% (goldRate=1 turns=2) affordableCount=16
+[turn 46 player 1] flag is OFF, skipping
+[turn 46 player 2] flag is OFF, skipping
+[turn 46 player 3] flag is OFF, skipping
+[turn 46 player 4] flag is OFF, skipping
+[turn 46 player 5] flag is OFF, skipping
+[turn 46 player 6] flag is OFF, skipping
+[turn 46 player 7] flag is OFF, skipping
+[turn 46 player 8] flag is OFF, skipping
+[turn 46 player 18] flag is OFF, skipping
+[turn 47 player 0] flag is ON, checking preconditions
+[turn 47 player 0] tech=0 step=5 gold=2026 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 35, CvPythonExtensions.CommerceTypes(1): 65, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 47 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=10 goldPercentNow=100
+[turn 47 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=10 goldPercentNow=95
+[turn 47 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=5 goldPercentNow=90
+[turn 47 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=4 goldPercentNow=85
+[turn 47 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=3 goldPercentNow=80
+[turn 47 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=2 goldPercentNow=75
+[turn 47 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=2 goldPercentNow=70
+[turn 47 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=2 goldPercentNow=65
+[turn 47 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=2 goldPercentNow=60
+[turn 47 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=2 goldPercentNow=55
+[turn 47 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=2 goldPercentNow=50
+[turn 47 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=2 goldPercentNow=45
+[turn 47 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=1 goldPercentNow=40
+[turn 47 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=1 goldPercentNow=35
+[turn 47 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=1 goldPercentNow=30
+[turn 47 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=1 goldPercentNow=25
+[turn 47 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=1 goldPercentNow=20
+[turn 47 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=1 goldPercentNow=15
+[turn 47 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=1 goldPercentNow=10
+[turn 47 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=1 goldPercentNow=5
+[turn 47 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=1 goldPercentNow=0
+[turn 47 player 0] chosen percent=60% (goldRate=2 turns=1) affordableCount=16
+[turn 47 player 1] flag is OFF, skipping
+[turn 47 player 2] flag is OFF, skipping
+[turn 47 player 3] flag is OFF, skipping
+[turn 47 player 4] flag is OFF, skipping
+[turn 47 player 5] flag is OFF, skipping
+[turn 47 player 6] flag is OFF, skipping
+[turn 47 player 7] flag is OFF, skipping
+[turn 47 player 8] flag is OFF, skipping
+[turn 47 player 18] flag is OFF, skipping
+[turn 48 player 0] flag is ON, checking preconditions
+[turn 48 player 0] tech=1 step=5 gold=2028 goldPerTurn=0 inflatedCosts=4 origPercents={CvPythonExtensions.CommerceTypes(0): 40, CvPythonExtensions.CommerceTypes(1): 60, CvPythonExtensions.CommerceTypes(2): 0, CvPythonExtensions.CommerceTypes(3): 0}
+[turn 48 player 0]  candidate research=0% -> actual=0% goldRate=12 turns=448 goldPercentNow=100
+[turn 48 player 0]  candidate research=5% -> actual=5% goldRate=11 turns=448 goldPercentNow=95
+[turn 48 player 0]  candidate research=10% -> actual=10% goldRate=10 turns=224 goldPercentNow=90
+[turn 48 player 0]  candidate research=15% -> actual=15% goldRate=9 turns=150 goldPercentNow=85
+[turn 48 player 0]  candidate research=20% -> actual=20% goldRate=8 turns=112 goldPercentNow=80
+[turn 48 player 0]  candidate research=25% -> actual=25% goldRate=8 turns=75 goldPercentNow=75
+[turn 48 player 0]  candidate research=30% -> actual=30% goldRate=7 turns=75 goldPercentNow=70
+[turn 48 player 0]  candidate research=35% -> actual=35% goldRate=6 turns=64 goldPercentNow=65
+[turn 48 player 0]  candidate research=40% -> actual=40% goldRate=5 turns=56 goldPercentNow=60
+[turn 48 player 0]  candidate research=45% -> actual=45% goldRate=4 turns=50 goldPercentNow=55
+[turn 48 player 0]  candidate research=50% -> actual=50% goldRate=4 turns=45 goldPercentNow=50
+[turn 48 player 0]  candidate research=55% -> actual=55% goldRate=3 turns=45 goldPercentNow=45
+[turn 48 player 0]  candidate research=60% -> actual=60% goldRate=2 turns=38 goldPercentNow=40
+[turn 48 player 0]  candidate research=65% -> actual=65% goldRate=1 turns=35 goldPercentNow=35
+[turn 48 player 0]  candidate research=70% -> actual=70% goldRate=0 turns=32 goldPercentNow=30
+[turn 48 player 0]  candidate research=75% -> actual=75% goldRate=0 turns=30 goldPercentNow=25
+[turn 48 player 0]  candidate research=80% -> actual=80% goldRate=-1 turns=30 goldPercentNow=20
+[turn 48 player 0]  candidate research=85% -> actual=85% goldRate=-2 turns=28 goldPercentNow=15
+[turn 48 player 0]  candidate research=90% -> actual=90% goldRate=-3 turns=25 goldPercentNow=10
+[turn 48 player 0]  candidate research=95% -> actual=95% goldRate=-4 turns=24 goldPercentNow=5
+[turn 48 player 0]  candidate research=100% -> actual=100% goldRate=-4 turns=23 goldPercentNow=0
+[turn 48 player 0] chosen percent=75% (goldRate=0 turns=30) affordableCount=16
+[turn 48 player 1] flag is OFF, skipping
+[turn 48 player 2] flag is OFF, skipping
+[turn 48 player 3] flag is OFF, skipping
+[turn 48 player 4] flag is OFF, skipping
+[turn 48 player 5] flag is OFF, skipping
+[turn 48 player 6] flag is OFF, skipping
+[turn 48 player 7] flag is OFF, skipping
+[turn 48 player 8] flag is OFF, skipping
+[turn 48 player 18] flag is OFF, skipping

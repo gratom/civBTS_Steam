@@ -325,6 +325,11 @@ class CvEventManager:
 			CvAutoGrowthManager.handleNetMessage(iData2, iData3, iData4, iData5)
 			return
 
+		import CvAutoScienceManager
+		if (iData1 == CvAutoScienceManager.MOD_MESSAGE_TOGGLE_AUTO_SCIENCE):
+			CvAutoScienceManager.handleNetMessage(iData2, iData3, iData4, iData5)
+			return
+
 		CvUtil.pyPrint( 'onModNetMessage' )
 
 	def onInit(self, argsList):
@@ -410,6 +415,9 @@ class CvEventManager:
 	def onBeginPlayerTurn(self, argsList):
 		'Called at the beginning of a players turn'
 		iGameTurn, iPlayer = argsList
+
+		import CvAutoScienceManager
+		CvAutoScienceManager.enforcePlayer(iPlayer)
 
 	def onEndPlayerTurn(self, argsList):
 		'Called at the end of a players turn'
