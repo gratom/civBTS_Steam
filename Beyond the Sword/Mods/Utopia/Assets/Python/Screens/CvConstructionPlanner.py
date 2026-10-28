@@ -43,6 +43,14 @@ class CvConstructionPlanner:
 		self.buildableUnits = []
 		self.iTopPercent = 100
 		self.iActivePlayer = -1
+		# Set by a city-selection click/button instead of redrawing the checkbox column right
+		# there - update(fDelta) does the actual redraw a frame later. Redrawing synchronously
+		# inside the click handler was what made clicking a city look like it took two clicks
+		# to register, and then toggle whichever city had been clicked before instead of the
+		# one just clicked - see CvAutoMilitaryBuildManager.getVersion()'s header comment in
+		# the Military Advisor for the same symptom and a more detailed account of why a
+		# same-tick redraw right after a selection change causes it.
+		self.bCityCheckboxesDirty = False
 
 	# Screen construction function
 	def interfaceScreen(self):
@@ -261,11 +269,11 @@ class CvConstructionPlanner:
 		iCount = (len(cities) * self.iTopPercent) / 100
 		for i in range(iCount):
 			self.selectedCityIDs.add(cities[i].getID())
-		self.refreshCheckboxColumn()
+		self.bCityCheckboxesDirty = True
 
 	def resetAllCities(self):
 		self.selectedCityIDs = set()
-		self.refreshCheckboxColumn()
+		self.bCityCheckboxesDirty = True
 
 	def adjustTopPercent(self, iDelta):
 		iNewPercent = self.iTopPercent + iDelta
@@ -446,7 +454,7 @@ class CvConstructionPlanner:
 					self.selectedCityIDs.discard(iCityID)
 				else:
 					self.selectedCityIDs.add(iCityID)
-				self.updateCheckboxCell(inputClass.getMouseY(), iCityID, iCityID in self.selectedCityIDs)
+				self.bCityCheckboxesDirty = True
 		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED ):
 			szName = inputClass.getFunctionName()
 			if (szName == "ConstructionPlannerSelectAll"):
@@ -483,4 +491,6 @@ class CvConstructionPlanner:
 		return 0
 
 	def update(self, fDelta):
-		return
+		if (self.bCityCheckboxesDirty):
+			self.bCityCheckboxesDirty = False
+			self.refreshCheckboxColumn()

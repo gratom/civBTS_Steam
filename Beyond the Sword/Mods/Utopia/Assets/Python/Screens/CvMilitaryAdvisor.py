@@ -21,7 +21,9 @@ COLUMN_PRODUCTION_CITY = 0
 COLUMN_PRODUCTION_UNIT = 1
 COLUMN_PRODUCTION_TURNS = 2
 
-AUTO_MIL_ROW_HEIGHT = 26
+AUTO_MIL_ROW_HEIGHT = 30
+AUTO_MIL_ICON_SIZE = 24
+AUTO_MIL_BUTTON_SIZE = 24
 
 class CvMilitaryAdvisor:
 	"Military Advisor"
@@ -57,16 +59,25 @@ class CvMilitaryAdvisor:
 
 		self.AUTO_SELECT_ALL_ID = "MilitaryAdvisorAutoSelectAll"
 		self.AUTO_RESET_ALL_ID = "MilitaryAdvisorAutoResetAll"
-		self.AUTO_TOP_HALF_ID = "MilitaryAdvisorAutoTopHalf"
+		self.AUTO_TOP_PERCENT_STEP_A_ID = "MilitaryAdvisorAutoTopPercentStepA"
+		self.AUTO_TOP_PERCENT_STEP_B_ID = "MilitaryAdvisorAutoTopPercentStepB"
+		self.AUTO_TOP_PERCENT_STEP_C_ID = "MilitaryAdvisorAutoTopPercentStepC"
+		self.AUTO_TOP_PERCENT_STEP_D_ID = "MilitaryAdvisorAutoTopPercentStepD"
+		self.AUTO_TOP_PERCENT_LABEL_ID = "MilitaryAdvisorAutoTopPercentLabel"
 		self.AUTO_CITY_PANEL_ID = "MilitaryAdvisorAutoCityPanel"
 		self.AUTO_UNIT_PANEL_ID = "MilitaryAdvisorAutoUnitPanel"
 		self.AUTO_CITY_ROW_PREFIX = "MilitaryAdvisorAutoCityRow"
+		self.AUTO_UNIT_ICON_PREFIX = "MilitaryAdvisorAutoUnitIcon"
 		self.AUTO_UNIT_NAME_PREFIX = "MilitaryAdvisorAutoUnitName"
+		self.AUTO_UNIT_COST_PREFIX = "MilitaryAdvisorAutoUnitCost"
+		self.AUTO_UNIT_COUNT_PREFIX = "MilitaryAdvisorAutoUnitCount"
 		self.AUTO_UNIT_MINUS_PREFIX = "MilitaryAdvisorAutoUnitMinus"
 		self.AUTO_UNIT_PLUS_PREFIX = "MilitaryAdvisorAutoUnitPlus"
 		self.buildableMilitaryUnits = []
 		self.nAutoCityRowCount = 0
 		self.nAutoUnitRowCount = 0
+		self.iAutoTopPercent = 100
+		self.iAutoMilVersionSeen = -1
 
 		self.Z_BACKGROUND = -2.1
 		self.Z_CONTROLS = self.Z_BACKGROUND - 0.2
@@ -271,8 +282,14 @@ class CvMilitaryAdvisor:
 			self.selectAllAutoCities()
 		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_RESET_ALL_ID) :
 			self.resetAllAutoCities()
-		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_TOP_HALF_ID) :
-			self.selectTopHalfAutoCities()
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_TOP_PERCENT_STEP_A_ID) :
+			self.adjustAutoTopPercent(inputClass.getData1())
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_TOP_PERCENT_STEP_B_ID) :
+			self.adjustAutoTopPercent(inputClass.getData1())
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_TOP_PERCENT_STEP_C_ID) :
+			self.adjustAutoTopPercent(inputClass.getData1())
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_TOP_PERCENT_STEP_D_ID) :
+			self.adjustAutoTopPercent(inputClass.getData1())
 		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName().startswith(self.AUTO_CITY_ROW_PREFIX)) :
 			iCityID = inputClass.getData1()
 			if (iCityID != -1):
@@ -280,22 +297,18 @@ class CvMilitaryAdvisor:
 				pCity = player.getCity(iCityID)
 				if (pCity):
 					CvAutoMilitaryBuildManager.requestToggleCity(pCity)
-					self.refreshAutoCityList()
-					self.refreshAutoUnitList()
 		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName().startswith(self.AUTO_UNIT_MINUS_PREFIX)) :
 			eUnit = inputClass.getData1()
 			if (eUnit != -1):
 				player = gc.getPlayer(self.iActivePlayer)
 				iCurrent = CvAutoMilitaryBuildManager.getDesiredCount(player, eUnit)
 				CvAutoMilitaryBuildManager.requestSetDesiredCount(player, eUnit, iCurrent - 1)
-				self.refreshAutoUnitList()
 		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName().startswith(self.AUTO_UNIT_PLUS_PREFIX)) :
 			eUnit = inputClass.getData1()
 			if (eUnit != -1):
 				player = gc.getPlayer(self.iActivePlayer)
 				iCurrent = CvAutoMilitaryBuildManager.getDesiredCount(player, eUnit)
 				CvAutoMilitaryBuildManager.requestSetDesiredCount(player, eUnit, iCurrent + 1)
-				self.refreshAutoUnitList()
 		elif (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CHARACTER):
 			if (inputClass.getData() == int(InputTypes.KB_LSHIFT) or inputClass.getData() == int(InputTypes.KB_RSHIFT)):
 				self.iShiftKeyDown = inputClass.getID()
@@ -377,35 +390,57 @@ class CvMilitaryAdvisor:
 		screen.addPanel(self.RESERVED_PANEL_ID, "", "", True, False, self.X_RESERVED, self.Y_RESERVED, self.W_RESERVED, self.H_RESERVED, PanelStyles.PANEL_STYLE_MAIN)
 
 		# Auto-reinforcement: a city checklist on top, a desired-unit-count list on the
-		# bottom. Both are addScrollPanel content (setTextAt rows, like
+		# bottom. Both are addScrollPanel content (setTextAt/addDDSGFCAt rows, like
 		# CvConstructionPlanner's building/unit lists) rather than a second real table -
 		# CvConstructionPlanner's own header notes running two addTableControlGFC tables in
 		# one screen is unreliable, and this screen already has one (the production list).
 		iHeaderHeight = 20
 		iButtonRowHeight = 24
+		iStepperGap = 4
 		iGap = 8
 
-		self.Y_AUTO_CITY_BUTTONS = self.Y_RESERVED + iHeaderHeight
-		self.Y_AUTO_CITY_LIST = self.Y_AUTO_CITY_BUTTONS + iButtonRowHeight + iGap
+		self.Y_AUTO_SELECT_ROW = self.Y_RESERVED + iHeaderHeight
+		self.Y_AUTO_STEPPER_ROW = self.Y_AUTO_SELECT_ROW + iButtonRowHeight + iStepperGap
+		self.Y_AUTO_CITY_LIST = self.Y_AUTO_STEPPER_ROW + iButtonRowHeight + iGap
 
-		iOverhead = iHeaderHeight + iButtonRowHeight + iGap + iHeaderHeight + iGap * 2
+		# Extra breathing room above "unit targets" specifically - with many cities the city
+		# list's scrollbar/last row sits right up against it otherwise.
+		iUnitHeaderGap = iGap + 10
+
+		iButtonAreaHeight = iButtonRowHeight * 2 + iStepperGap
+		iOverhead = iHeaderHeight + iButtonAreaHeight + iUnitHeaderGap + iHeaderHeight + iGap * 2
 		iAvailable = self.H_RESERVED - iOverhead
 		self.H_AUTO_CITY_LIST = iAvailable * 2 / 5
 		self.H_AUTO_UNIT_LIST = iAvailable - self.H_AUTO_CITY_LIST
 
-		self.Y_AUTO_UNIT_HEADER = self.Y_AUTO_CITY_LIST + self.H_AUTO_CITY_LIST + iGap
+		self.Y_AUTO_UNIT_HEADER = self.Y_AUTO_CITY_LIST + self.H_AUTO_CITY_LIST + iUnitHeaderGap
 		self.Y_AUTO_UNIT_LIST = self.Y_AUTO_UNIT_HEADER + iHeaderHeight
 
 		screen.setLabel(self.getNextWidgetName(), "Background", localText.getText("TXT_KEY_UTOPIA_AUTO_MILITARY_CITIES_HEADER", ()), CvUtil.FONT_LEFT_JUSTIFY, self.X_RESERVED + 4, self.Y_RESERVED + 2, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 		screen.setLabel(self.getNextWidgetName(), "Background", localText.getText("TXT_KEY_UTOPIA_AUTO_MILITARY_UNITS_HEADER", ()), CvUtil.FONT_LEFT_JUSTIFY, self.X_RESERVED + 4, self.Y_AUTO_UNIT_HEADER + 2, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 
-		iButtonWidth = (self.W_RESERVED - 2 * iGap) / 3
-		iButtonX = self.X_RESERVED
-		screen.setButtonGFC(self.AUTO_SELECT_ALL_ID, localText.getText("TXT_KEY_UTOPIA_SELECT_ALL_CITIES", ()), "", iButtonX, self.Y_AUTO_CITY_BUTTONS, iButtonWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
-		iButtonX += iButtonWidth + iGap
-		screen.setButtonGFC(self.AUTO_RESET_ALL_ID, localText.getText("TXT_KEY_UTOPIA_RESET_ALL_CITIES", ()), "", iButtonX, self.Y_AUTO_CITY_BUTTONS, iButtonWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
-		iButtonX += iButtonWidth + iGap
-		screen.setButtonGFC(self.AUTO_TOP_HALF_ID, localText.getText("TXT_KEY_UTOPIA_AUTO_MILITARY_TOP_HALF", ()), "", iButtonX, self.Y_AUTO_CITY_BUTTONS, iButtonWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+		# Row 1: Select All / Reset All (Select All respects the top-% stepper below it).
+		iHalfWidth = (self.W_RESERVED - iGap) / 2
+		screen.setButtonGFC(self.AUTO_SELECT_ALL_ID, localText.getText("TXT_KEY_UTOPIA_SELECT_ALL_CITIES", ()), "", self.X_RESERVED, self.Y_AUTO_SELECT_ROW, iHalfWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+		screen.setButtonGFC(self.AUTO_RESET_ALL_ID, localText.getText("TXT_KEY_UTOPIA_RESET_ALL_CITIES", ()), "", self.X_RESERVED + iHalfWidth + iGap, self.Y_AUTO_SELECT_ROW, iHalfWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+
+		# Row 2: top-N% stepper - same -25/-5/counter/+5/+25 layout as CvConstructionPlanner's
+		# own city-selection stepper (self.iAutoTopPercent, adjusted here, consumed by
+		# selectAllAutoCities()).
+		iStepWidth = 50
+		iStepGap = 6
+		iCounterWidth = self.W_RESERVED - 4 * iStepWidth - 4 * iStepGap
+		iStepX = self.X_RESERVED
+		screen.setButtonGFC(self.AUTO_TOP_PERCENT_STEP_A_ID, u"-25%", "", iStepX, self.Y_AUTO_STEPPER_ROW, iStepWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -25, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+		iStepX += iStepWidth + iStepGap
+		screen.setButtonGFC(self.AUTO_TOP_PERCENT_STEP_B_ID, u"-5%", "", iStepX, self.Y_AUTO_STEPPER_ROW, iStepWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -5, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+		iStepX += iStepWidth + iStepGap
+		self.X_AUTO_TOP_PERCENT_LABEL = iStepX + iCounterWidth / 2
+		iStepX += iCounterWidth + iStepGap
+		screen.setButtonGFC(self.AUTO_TOP_PERCENT_STEP_C_ID, u"+5%", "", iStepX, self.Y_AUTO_STEPPER_ROW, iStepWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, 5, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+		iStepX += iStepWidth + iStepGap
+		screen.setButtonGFC(self.AUTO_TOP_PERCENT_STEP_D_ID, u"+25%", "", iStepX, self.Y_AUTO_STEPPER_ROW, iStepWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, 25, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+		self.refreshAutoTopPercentLabel()
 
 		screen.addScrollPanel(self.AUTO_CITY_PANEL_ID, u"", self.X_RESERVED, self.Y_AUTO_CITY_LIST, self.W_RESERVED, self.H_AUTO_CITY_LIST, PanelStyles.PANEL_STYLE_EXTERNAL)
 		screen.show(self.AUTO_CITY_PANEL_ID)
@@ -415,6 +450,20 @@ class CvMilitaryAdvisor:
 
 		self.refreshAutoCityList()
 		self.refreshAutoUnitList()
+		self.iAutoMilVersionSeen = CvAutoMilitaryBuildManager.getVersion()
+
+	def refreshAutoTopPercentLabel(self):
+		screen = self.getScreen()
+		screen.setLabel(self.AUTO_TOP_PERCENT_LABEL_ID, "Background", u"<font=2>" + unicode(self.iAutoTopPercent) + u"%</font>", CvUtil.FONT_CENTER_JUSTIFY, self.X_AUTO_TOP_PERCENT_LABEL, self.Y_AUTO_STEPPER_ROW + 4, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+
+	def adjustAutoTopPercent(self, iDelta):
+		iNewPercent = self.iAutoTopPercent + iDelta
+		if iNewPercent < 0:
+			iNewPercent = 0
+		elif iNewPercent > 100:
+			iNewPercent = 100
+		self.iAutoTopPercent = iNewPercent
+		self.refreshAutoTopPercentLabel()
 
 	def getAutoEligibleCities(self):
 		player = gc.getPlayer(self.iActivePlayer)
@@ -459,35 +508,27 @@ class CvMilitaryAdvisor:
 			screen.hide(self.getAutoCityRowName(i))
 		self.nAutoCityRowCount = len(cities)
 
+	# Selects the top self.iAutoTopPercent% of cities by hammers/turn (100% = all of them) -
+	# same mechanic as CvConstructionPlanner's own selectAllCities(). Only sends the toggle
+	# messages; the actual list refresh happens from update(fDelta) once they've landed (see
+	# CvAutoMilitaryBuildManager.getVersion()'s header comment for why that's done lazily
+	# instead of right here).
 	def selectAllAutoCities(self):
-		player = gc.getPlayer(self.iActivePlayer)
-		cityIDs = [pCity.getID() for pCity in self.getAutoEligibleCities()]
-		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, cityIDs, True)
-		self.refreshAutoCityList()
-		self.refreshAutoUnitList()
-
-	def resetAllAutoCities(self):
-		player = gc.getPlayer(self.iActivePlayer)
-		cityIDs = [pCity.getID() for pCity in self.getAutoEligibleCities()]
-		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, cityIDs, False)
-		self.refreshAutoCityList()
-		self.refreshAutoUnitList()
-
-	def selectTopHalfAutoCities(self):
 		player = gc.getPlayer(self.iActivePlayer)
 		cities = self.getAutoEligibleCities()
 		if not cities:
 			return
 		cities.sort(lambda a, b: b.getYieldRate(YieldTypes.YIELD_PRODUCTION) - a.getYieldRate(YieldTypes.YIELD_PRODUCTION))
-		iCount = len(cities) / 2
-		if iCount < 1:
-			iCount = 1
+		iCount = (len(cities) * self.iAutoTopPercent) / 100
 		topIDs = [pCity.getID() for pCity in cities[:iCount]]
 		restIDs = [pCity.getID() for pCity in cities[iCount:]]
 		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, topIDs, True)
 		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, restIDs, False)
-		self.refreshAutoCityList()
-		self.refreshAutoUnitList()
+
+	def resetAllAutoCities(self):
+		player = gc.getPlayer(self.iActivePlayer)
+		cityIDs = [pCity.getID() for pCity in self.getAutoEligibleCities()]
+		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, cityIDs, False)
 
 	# Every military unit type (UnitCombatType set, same test the unit list above uses) that
 	# at least one currently-selected city can actually train right now.
@@ -506,8 +547,17 @@ class CvMilitaryAdvisor:
 					break
 		return units
 
+	def getAutoUnitIconName(self, i):
+		return self.AUTO_UNIT_ICON_PREFIX + str(i)
+
 	def getAutoUnitNameName(self, i):
 		return self.AUTO_UNIT_NAME_PREFIX + str(i)
+
+	def getAutoUnitCostName(self, i):
+		return self.AUTO_UNIT_COST_PREFIX + str(i)
+
+	def getAutoUnitCountName(self, i):
+		return self.AUTO_UNIT_COUNT_PREFIX + str(i)
 
 	def getAutoUnitMinusName(self, i):
 		return self.AUTO_UNIT_MINUS_PREFIX + str(i)
@@ -515,9 +565,28 @@ class CvMilitaryAdvisor:
 	def getAutoUnitPlusName(self, i):
 		return self.AUTO_UNIT_PLUS_PREFIX + str(i)
 
-	# One row per buildable military unit type - name, "have/desired" (have counts every
-	# living copy anywhere plus everything already queued anywhere, not just in the
-	# selected cities), and a pair of -/+ targets to adjust the desired count.
+	# Turns left for the slowest copy of eUnit already queued (built or not) in any of the
+	# given cities - i.e. in how many turns every currently-queued order of this type will
+	# be done. 0 if none of them have it queued at all.
+	def getMaxQueuedTurnsForUnit(self, eUnit, cities):
+		iMaxTurns = 0
+		for pCity in cities:
+			iLastIndex = -1
+			for i in range(pCity.getOrderQueueLength()):
+				order = pCity.getOrderFromQueue(i)
+				if (order.eOrderType == OrderTypes.ORDER_TRAIN) and (order.iData1 == eUnit):
+					iLastIndex = i
+			if (iLastIndex != -1):
+				iTurns = pCity.getUnitProductionTurnsLeft(eUnit, iLastIndex)
+				if (iTurns > iMaxTurns):
+					iMaxTurns = iTurns
+		return iMaxTurns
+
+	# One row per buildable military unit type: icon, name and hammer cost anchored left;
+	# a big [+] button, "have/desired (turns)" and a big [-] button anchored right. "Have"
+	# counts every living copy anywhere plus everything already queued anywhere, not just
+	# in the selected cities. Green once have >= desired, yellow while still short and
+	# (presumably) being built, neutral when there's no target set at all.
 	def refreshAutoUnitList(self):
 		screen = self.getScreen()
 		player = gc.getPlayer(self.iActivePlayer)
@@ -525,29 +594,85 @@ class CvMilitaryAdvisor:
 		self.buildableMilitaryUnits = self.computeBuildableMilitaryUnits()
 		screen.setViewMin(self.AUTO_UNIT_PANEL_ID, self.W_RESERVED, max(self.H_AUTO_UNIT_LIST, len(self.buildableMilitaryUnits) * AUTO_MIL_ROW_HEIGHT))
 
+		selectedCityIDs = CvAutoMilitaryBuildManager.getSelectedCityIDs(player)
+		eligibleCities = [pCity for pCity in self.getAutoEligibleCities() if pCity.getID() in selectedCityIDs]
+		szHammerIcon = u"<font=1>" + (u"%c" % gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()) + u"</font>"
+
+		# Right-anchored cluster, left to right: [+][-] (a tight pair) then the have/desired
+		# count. Anchoring the whole cluster as one block from the right edge (instead of
+		# anchoring each piece separately) is what keeps the gaps between them constant
+		# regardless of W_RESERVED - letting them drift apart was the earlier bug.
+		iScrollbarMargin = 26
+		iPairGap = 2
+		iAfterPairGap = 6
+		iCountWidth = 65
+		iClusterWidth = AUTO_MIL_BUTTON_SIZE + iPairGap + AUTO_MIL_BUTTON_SIZE + iAfterPairGap + iCountWidth
+		iClusterX = self.W_RESERVED - iScrollbarMargin - iClusterWidth
+
+		iPlusX = iClusterX
+		iMinusX = iPlusX + AUTO_MIL_BUTTON_SIZE + iPairGap
+		iCountX = iMinusX + AUTO_MIL_BUTTON_SIZE + iAfterPairGap
+
+		iNameX = 4 + AUTO_MIL_ICON_SIZE + 4
+		iNameWidth = 85
+		iCostX = iNameX + iNameWidth + 4
+
 		for i in range(len(self.buildableMilitaryUnits)):
 			eUnit = self.buildableMilitaryUnits[i]
+			pUnitInfo = gc.getUnitInfo(eUnit)
 			iDesired = CvAutoMilitaryBuildManager.getDesiredCount(player, eUnit)
 			iHave = CvAutoMilitaryBuildManager.countUnitTypeEverywhere(player, eUnit)
-			iRowY = i * AUTO_MIL_ROW_HEIGHT + 4
+			iMaxTurns = self.getMaxQueuedTurnsForUnit(eUnit, eligibleCities)
+			iRowY = i * AUTO_MIL_ROW_HEIGHT
+			iTextY = iRowY + (AUTO_MIL_ROW_HEIGHT - AUTO_MIL_ICON_SIZE) / 2 + 4
 
-			szText = gc.getUnitInfo(eUnit).getDescription() + u"  " + unicode(iHave) + u"/" + unicode(iDesired)
-			if iDesired > 0:
-				szText = localText.changeTextColor(szText, gc.getInfoTypeForString("COLOR_YELLOW"))
-			screen.setTextAt(self.getAutoUnitNameName(i), self.AUTO_UNIT_PANEL_ID, szText, CvUtil.FONT_LEFT_JUSTIFY, 4, iRowY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+			if (iDesired > 0) and (iHave >= iDesired):
+				eRowColor = gc.getInfoTypeForString("COLOR_GREEN")
+			elif (iDesired > 0):
+				eRowColor = gc.getInfoTypeForString("COLOR_YELLOW")
+			else:
+				eRowColor = -1
+
+			screen.addDDSGFCAt(self.getAutoUnitIconName(i), self.AUTO_UNIT_PANEL_ID, pUnitInfo.getButton(), 4, iRowY + (AUTO_MIL_ROW_HEIGHT - AUTO_MIL_ICON_SIZE) / 2, AUTO_MIL_ICON_SIZE, AUTO_MIL_ICON_SIZE, WidgetTypes.WIDGET_GENERAL, -1, -1, False)
+			screen.show(self.getAutoUnitIconName(i))
+
+			szName = pUnitInfo.getDescription()
+			if (eRowColor != -1):
+				szName = localText.changeTextColor(szName, eRowColor)
+			screen.setTextAt(self.getAutoUnitNameName(i), self.AUTO_UNIT_PANEL_ID, szName, CvUtil.FONT_LEFT_JUSTIFY, iNameX, iTextY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 			screen.show(self.getAutoUnitNameName(i))
 
-			screen.setTextAt(self.getAutoUnitMinusName(i), self.AUTO_UNIT_PANEL_ID, u"[-]", CvUtil.FONT_RIGHT_JUSTIFY, self.W_RESERVED - 48, iRowY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eUnit, -1)
-			screen.show(self.getAutoUnitMinusName(i))
+			szCost = unicode(player.getUnitProductionNeeded(eUnit)) + szHammerIcon
+			screen.setTextAt(self.getAutoUnitCostName(i), self.AUTO_UNIT_PANEL_ID, szCost, CvUtil.FONT_LEFT_JUSTIFY, iCostX, iTextY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+			screen.show(self.getAutoUnitCostName(i))
 
-			screen.setTextAt(self.getAutoUnitPlusName(i), self.AUTO_UNIT_PANEL_ID, u"[+]", CvUtil.FONT_RIGHT_JUSTIFY, self.W_RESERVED - 20, iRowY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eUnit, -1)
+			szCount = unicode(iHave) + u"/" + unicode(iDesired)
+			if (iMaxTurns > 0):
+				szCount += u" (" + unicode(iMaxTurns) + u")"
+			if (eRowColor != -1):
+				szCount = localText.changeTextColor(szCount, eRowColor)
+			screen.setTextAt(self.getAutoUnitCountName(i), self.AUTO_UNIT_PANEL_ID, szCount, CvUtil.FONT_LEFT_JUSTIFY, iCountX, iTextY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+			screen.show(self.getAutoUnitCountName(i))
+
+			# addCheckBoxGFCAt (same call CvExoticForeignAdvisor uses for its own plus/minus
+			# toggle) renders the stock plus/minus button art via BUTTON_STYLE_CITY_PLUS/MINUS
+			# - the same icon buttons used elsewhere (e.g. science) - instead of guessing at a
+			# text glyph's rendered width.
+			iButtonY = iRowY + (AUTO_MIL_ROW_HEIGHT - AUTO_MIL_BUTTON_SIZE) / 2
+			screen.addCheckBoxGFCAt(self.AUTO_UNIT_PANEL_ID, self.getAutoUnitPlusName(i), "", "", iPlusX, iButtonY, AUTO_MIL_BUTTON_SIZE, AUTO_MIL_BUTTON_SIZE, WidgetTypes.WIDGET_GENERAL, eUnit, -1, ButtonStyles.BUTTON_STYLE_CITY_PLUS, False)
 			screen.show(self.getAutoUnitPlusName(i))
+
+			screen.addCheckBoxGFCAt(self.AUTO_UNIT_PANEL_ID, self.getAutoUnitMinusName(i), "", "", iMinusX, iButtonY, AUTO_MIL_BUTTON_SIZE, AUTO_MIL_BUTTON_SIZE, WidgetTypes.WIDGET_GENERAL, eUnit, -1, ButtonStyles.BUTTON_STYLE_CITY_MINUS, False)
+			screen.show(self.getAutoUnitMinusName(i))
 
 		# Hide any rows left over from a previous, longer list (fewer cities selected, or a
 		# tech/resource change shrinks what's buildable) - otherwise they'd keep showing
 		# stale data past the new row count.
 		for i in range(len(self.buildableMilitaryUnits), self.nAutoUnitRowCount):
+			screen.hide(self.getAutoUnitIconName(i))
 			screen.hide(self.getAutoUnitNameName(i))
+			screen.hide(self.getAutoUnitCostName(i))
+			screen.hide(self.getAutoUnitCountName(i))
 			screen.hide(self.getAutoUnitMinusName(i))
 			screen.hide(self.getAutoUnitPlusName(i))
 		self.nAutoUnitRowCount = len(self.buildableMilitaryUnits)
@@ -565,9 +690,9 @@ class CvMilitaryAdvisor:
 		# Turns needs more room than the scrollbar leaves it when there are many rows, so it
 		# borrows 20px from the unit column and 10px from the city column.
 		iHalfWidth = (self.W_PRODUCTION - 60) / 2
-		iNameWidth = iHalfWidth
-		iUnitWidth = iHalfWidth
-		iTurnsWidth = 60
+		iNameWidth = iHalfWidth - 10
+		iUnitWidth = iHalfWidth - 20
+		iTurnsWidth = 90
 		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_CITY, localText.getText("TXT_KEY_DOMESTIC_ADVISOR_NAME", ()), iNameWidth)
 		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_UNIT, localText.getText("TXT_KEY_UTOPIA_MILITARY_PRODUCTION_UNIT_HEADER", ()), iUnitWidth)
 		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_TURNS, localText.getText("TXT_KEY_UTOPIA_MILITARY_PRODUCTION_TURNS_HEADER", ()), iTurnsWidth)
@@ -599,6 +724,15 @@ class CvMilitaryAdvisor:
 	def update(self, fDelta):
 		screen = self.getScreen()
 		screen.updateMinimap(fDelta)
+
+		# Picks up city-toggle/desired-count changes a frame after they're actually sent -
+		# see CvAutoMilitaryBuildManager's getVersion() header comment for why refreshing
+		# right inside the click handler itself was reading pre-change state.
+		iVersion = CvAutoMilitaryBuildManager.getVersion()
+		if (iVersion != self.iAutoMilVersionSeen):
+			self.iAutoMilVersionSeen = iVersion
+			self.refreshAutoCityList()
+			self.refreshAutoUnitList()
 
 	def minimapClicked(self):
 		pass

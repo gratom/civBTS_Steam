@@ -377,4 +377,76 @@
 		</Russian>
 		<English>Top 50%</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR</Tag>
+		<Russian>
+			<Text>&#209;&#238;&#226;&#229;&#242;&#237;&#232;&#234; &#239;&#238; &#240;&#229;&#241;&#243;&#240;&#241;&#224;&#236;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Resource Advisor</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR_TOTAL</Tag>
+		<Russian>
+			<Text>&#194;&#241;&#229;&#227;&#238;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Total</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR_WITH_BONUS</Tag>
+		<Russian>
+			<Text>&#209; &#240;&#229;&#241;.</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Has</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR_WITHOUT_BONUS</Tag>
+		<Russian>
+			<Text>&#193;&#229;&#231; &#240;&#229;&#241;.</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Empty</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR_WORKED</Tag>
+		<Russian>
+			<Text>&#206;&#225;&#240;.</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Worked</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR_1_TURN</Tag>
+		<Russian>
+			<Text>1 &#245;&#238;&#228;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>1 turn</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR_10_TURNS</Tag>
+		<Russian>
+			<Text>10 &#245;&#238;&#228;&#238;&#226;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>10 turns</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR_100_TURNS</Tag>
+		<Russian>
+			<Text>100 &#245;&#238;&#228;&#238;&#226;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>100 turns</English>
+	</TEXT>
 </Civ4GameText>

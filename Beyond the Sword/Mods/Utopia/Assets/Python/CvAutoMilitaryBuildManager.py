@@ -28,6 +28,26 @@ import cPickle as pickle
 
 gc = CyGlobalContext()
 
+# Bumped every time a toggle/count message actually lands (handleToggleCityMessage /
+# handleSetDesiredCountMessage). The screen polls this from its own update(fDelta) instead
+# of refreshing its lists immediately after sending a message - sendModNetMessage's net
+# message only takes effect once CvEventManager.onModNetMessage replays it, which is not
+# guaranteed to have happened yet by the time the click handler that sent it returns. A
+# synchronous refresh right after sending was reading the state from BEFORE the message
+# landed - showing the previous click's result (or none at all) instead of this one's,
+# which is what made city/unit rows look one click behind, or stuck, once toggled.
+g_iVersion = 0
+
+
+def _bumpVersion():
+	global g_iVersion
+	g_iVersion += 1
+
+
+def getVersion():
+	return g_iVersion
+
+
 SCRIPT_DATA_KEY_SELECTED_CITIES = "AutoMilitarySelectedCities"
 SCRIPT_DATA_KEY_DESIRED_COUNTS = "AutoMilitaryDesiredCounts"
 
@@ -84,6 +104,7 @@ def handleToggleCityMessage(iData2, iData3, iData4, iData5):
 	data[SCRIPT_DATA_KEY_SELECTED_CITIES] = selected
 	_savePlayerData(pPlayer, data)
 	CyInterface().setDirty(InterfaceDirtyBits.CityScreen_DIRTY_BIT, True)
+	_bumpVersion()
 
 
 def getDesiredCounts(pPlayer):
@@ -111,11 +132,11 @@ def handleSetDesiredCountMessage(iData2, iData3, iData4, iData5):
 	data[SCRIPT_DATA_KEY_DESIRED_COUNTS] = counts
 	_savePlayerData(pPlayer, data)
 	CyInterface().setDirty(InterfaceDirtyBits.CityScreen_DIRTY_BIT, True)
+	_bumpVersion()
 
 
 def countUnitTypeEverywhere(pPlayer, eUnit):
-	'Every living copy the player owns, anywhere, plus every copy already queued (built or
-	not) in any of the players cities - not just the ones eligible for auto-assignment.'
+	'Every living copy the player owns, anywhere, plus every copy already queued (built or not) in any of the players cities - not just the ones eligible for auto-assignment.'
 	iCount = 0
 
 	(pUnit, iter) = pPlayer.firstUnit(false)
@@ -174,22 +195,37 @@ def enforcePlayer(iPlayer):
 		if not candidates:
 			continue
 
-		# Turns a new order of eUnit would take to finish in each candidate city if appended
-		# at the end of its queue right now, tracked and bumped locally as we tentatively
-		# assign more copies to the same city within this loop, so repeated picks don't all
-		# keep looking equally "free".
-		queueLengths = {}
+		# getUnitProductionNeeded is a CyPlayer method, not a CyCity one - cost doesn't vary
+		# per city here, same as how CvConstructionPlanner's own unit list prices things.
+		iUnitCost = pPlayer.getUnitProductionNeeded(eUnit)
+
+		# Picks the city with the lowest turns-equivalent tentatively piled onto it SO FAR in
+		# this loop, weighted by its own hammer rate - a city twice as productive ends up
+		# with roughly twice as many of the new orders. This is computed entirely ourselves
+		# rather than via getUnitProductionTurnsLeft(eUnit, iHypotheticalQueuePos): that call
+		# only reflects the city's REAL current queue, which sendPushOrder below has not
+		# actually landed in yet (it is a networked message, same as the toggle/count ones
+		# this module also sends) - every pick within one single pass was reading the exact
+		# same real state and so always favored whichever city happened to be first in the
+		# candidates list, instead of spreading across them.
+		eligibleLoad = {}
 		for pCity in candidates:
-			queueLengths[pCity.getID()] = pCity.getOrderQueueLength()
+			eligibleLoad[pCity.getID()] = pCity.getOrderQueueLength() * iUnitCost
 
 		for i in range(iShort):
 			bestCity = None
-			bestTurns = None
+			bestEta = None
 			for pCity in candidates:
-				iTurns = pCity.getUnitProductionTurnsLeft(eUnit, queueLengths[pCity.getID()])
-				if (bestCity is None) or (iTurns < bestTurns):
+				iRate = pCity.getYieldRate(YieldTypes.YIELD_PRODUCTION)
+				if (iRate <= 0):
+					continue
+				iEta = eligibleLoad[pCity.getID()] / float(iRate)
+				if (bestCity is None) or (iEta < bestEta):
 					bestCity = pCity
-					bestTurns = iTurns
+					bestEta = iEta
+
+			if (bestCity is None):
+				break
 
 			CyMessageControl().sendPushOrder(bestCity.getID(), OrderTypes.ORDER_TRAIN, eUnit, False, True, False)
-			queueLengths[bestCity.getID()] += 1
+			eligibleLoad[bestCity.getID()] += iUnitCost

@@ -1085,6 +1085,13 @@ class CvEventManager:
 		pCity = argsList[0]
 		iHurryType = argsList[1]
 
+		# Fires once the engine has actually applied the hurry - CvDomesticAdvisor's own
+		# Domestic_Advisor_DIRTY_BIT set right after sendDoTask(TASK_HURRY) in doHurryClick
+		# only means "requested", not "applied yet", so a refresh triggered from there alone
+		# could still read pre-hurry city stats. This one is the reliable trigger.
+		if (pCity.getOwner() == gc.getGame().getActivePlayer()):
+			CyInterface().setDirty(InterfaceDirtyBits.Domestic_Advisor_DIRTY_BIT, True)
+
 	def onVictory(self, argsList):
 		'Victory'
 		iTeam, iVictory = argsList

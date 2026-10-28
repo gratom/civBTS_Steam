@@ -131,6 +131,11 @@ class CvDomesticAdvisor:
 		iPlannerBtnWidth = (132 * self.nTableWidth) / self.nNormalizedTableWidth
 		screen.setButtonGFC( "ConstructionPlannerOpenButton", localText.getText("TXT_KEY_UTOPIA_CONSTRUCTION_PLANNER", ()), "", iPlannerBtnX, 21, iPlannerBtnWidth, self.nPlannerButtonHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD )
 
+		# Opens the Resource Advisor - a small icon button right after the Construction
+		# Planner button, on that same thin row (above the Hurry/Liberate columns, 16-18).
+		iResourceBtnX = iPlannerBtnX + iPlannerBtnWidth + 4
+		screen.setImageButton( "ResourceAdvisorOpenButton", "Art/Interface/Buttons/TechTree/Resoures.dds", iResourceBtnX, 21, self.nPlannerButtonHeight, self.nPlannerButtonHeight, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+
 		bCanLiberate = false
 		(loopCity, iter) = player.firstCity(false)
 		while(loopCity):
@@ -499,6 +504,9 @@ class CvDomesticAdvisor:
 			elif (inputClass.getFunctionName() == "ConstructionPlannerOpenButton"):
 				import CvScreensInterface
 				CvScreensInterface.showConstructionPlanner()
+			elif (inputClass.getFunctionName() == "ResourceAdvisorOpenButton"):
+				import CvScreensInterface
+				CvScreensInterface.showResourceAdvisor()
 
 		return 0
 
