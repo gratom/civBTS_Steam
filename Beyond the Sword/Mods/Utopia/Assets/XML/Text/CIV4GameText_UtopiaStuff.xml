@@ -350,4 +350,31 @@
 		</Russian>
 		<English>Turns</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_AUTO_MILITARY_CITIES_HEADER</Tag>
+		<Russian>
+			<Text>&#195;&#238;&#240;&#238;&#228;&#224;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Cities</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_AUTO_MILITARY_UNITS_HEADER</Tag>
+		<Russian>
+			<Text>&#214;&#229;&#235;&#252; &#239;&#238; &#254;&#237;&#232;&#242;&#224;&#236;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Unit Targets</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_AUTO_MILITARY_TOP_HALF</Tag>
+		<Russian>
+			<Text>&#210;&#238;&#239; 50%</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Top 50%</English>
+	</TEXT>
 </Civ4GameText>

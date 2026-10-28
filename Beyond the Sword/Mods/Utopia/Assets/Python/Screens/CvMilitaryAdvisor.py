@@ -7,6 +7,7 @@ import time
 import PyHelpers
 import re
 import math
+import CvAutoMilitaryBuildManager
 
 PyPlayer = PyHelpers.PyPlayer
 PyInfo = PyHelpers.PyInfo
@@ -19,6 +20,8 @@ localText = CyTranslator()
 COLUMN_PRODUCTION_CITY = 0
 COLUMN_PRODUCTION_UNIT = 1
 COLUMN_PRODUCTION_TURNS = 2
+
+AUTO_MIL_ROW_HEIGHT = 26
 
 class CvMilitaryAdvisor:
 	"Military Advisor"
@@ -51,6 +54,19 @@ class CvMilitaryAdvisor:
 
 		self.PRODUCTION_LIST_ID = "MilitaryAdvisorProductionList"
 		self.RESERVED_PANEL_ID = "MilitaryAdvisorReservedPanel"
+
+		self.AUTO_SELECT_ALL_ID = "MilitaryAdvisorAutoSelectAll"
+		self.AUTO_RESET_ALL_ID = "MilitaryAdvisorAutoResetAll"
+		self.AUTO_TOP_HALF_ID = "MilitaryAdvisorAutoTopHalf"
+		self.AUTO_CITY_PANEL_ID = "MilitaryAdvisorAutoCityPanel"
+		self.AUTO_UNIT_PANEL_ID = "MilitaryAdvisorAutoUnitPanel"
+		self.AUTO_CITY_ROW_PREFIX = "MilitaryAdvisorAutoCityRow"
+		self.AUTO_UNIT_NAME_PREFIX = "MilitaryAdvisorAutoUnitName"
+		self.AUTO_UNIT_MINUS_PREFIX = "MilitaryAdvisorAutoUnitMinus"
+		self.AUTO_UNIT_PLUS_PREFIX = "MilitaryAdvisorAutoUnitPlus"
+		self.buildableMilitaryUnits = []
+		self.nAutoCityRowCount = 0
+		self.nAutoUnitRowCount = 0
 
 		self.Z_BACKGROUND = -2.1
 		self.Z_CONTROLS = self.Z_BACKGROUND - 0.2
@@ -251,6 +267,35 @@ class CvMilitaryAdvisor:
 		if ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.UNIT_BUTTON_ID) :
 			self.bUnitDetails = not self.bUnitDetails
 			self.refreshUnitSelection(True)
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_SELECT_ALL_ID) :
+			self.selectAllAutoCities()
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_RESET_ALL_ID) :
+			self.resetAllAutoCities()
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName() == self.AUTO_TOP_HALF_ID) :
+			self.selectTopHalfAutoCities()
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName().startswith(self.AUTO_CITY_ROW_PREFIX)) :
+			iCityID = inputClass.getData1()
+			if (iCityID != -1):
+				player = gc.getPlayer(self.iActivePlayer)
+				pCity = player.getCity(iCityID)
+				if (pCity):
+					CvAutoMilitaryBuildManager.requestToggleCity(pCity)
+					self.refreshAutoCityList()
+					self.refreshAutoUnitList()
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName().startswith(self.AUTO_UNIT_MINUS_PREFIX)) :
+			eUnit = inputClass.getData1()
+			if (eUnit != -1):
+				player = gc.getPlayer(self.iActivePlayer)
+				iCurrent = CvAutoMilitaryBuildManager.getDesiredCount(player, eUnit)
+				CvAutoMilitaryBuildManager.requestSetDesiredCount(player, eUnit, iCurrent - 1)
+				self.refreshAutoUnitList()
+		elif ( inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED and inputClass.getFunctionName().startswith(self.AUTO_UNIT_PLUS_PREFIX)) :
+			eUnit = inputClass.getData1()
+			if (eUnit != -1):
+				player = gc.getPlayer(self.iActivePlayer)
+				iCurrent = CvAutoMilitaryBuildManager.getDesiredCount(player, eUnit)
+				CvAutoMilitaryBuildManager.requestSetDesiredCount(player, eUnit, iCurrent + 1)
+				self.refreshAutoUnitList()
 		elif (inputClass.getNotifyCode() == NotifyCode.NOTIFY_CHARACTER):
 			if (inputClass.getData() == int(InputTypes.KB_LSHIFT) or inputClass.getData() == int(InputTypes.KB_RSHIFT)):
 				self.iShiftKeyDown = inputClass.getID()
@@ -331,6 +376,182 @@ class CvMilitaryAdvisor:
 		screen = self.getScreen()
 		screen.addPanel(self.RESERVED_PANEL_ID, "", "", True, False, self.X_RESERVED, self.Y_RESERVED, self.W_RESERVED, self.H_RESERVED, PanelStyles.PANEL_STYLE_MAIN)
 
+		# Auto-reinforcement: a city checklist on top, a desired-unit-count list on the
+		# bottom. Both are addScrollPanel content (setTextAt rows, like
+		# CvConstructionPlanner's building/unit lists) rather than a second real table -
+		# CvConstructionPlanner's own header notes running two addTableControlGFC tables in
+		# one screen is unreliable, and this screen already has one (the production list).
+		iHeaderHeight = 20
+		iButtonRowHeight = 24
+		iGap = 8
+
+		self.Y_AUTO_CITY_BUTTONS = self.Y_RESERVED + iHeaderHeight
+		self.Y_AUTO_CITY_LIST = self.Y_AUTO_CITY_BUTTONS + iButtonRowHeight + iGap
+
+		iOverhead = iHeaderHeight + iButtonRowHeight + iGap + iHeaderHeight + iGap * 2
+		iAvailable = self.H_RESERVED - iOverhead
+		self.H_AUTO_CITY_LIST = iAvailable * 2 / 5
+		self.H_AUTO_UNIT_LIST = iAvailable - self.H_AUTO_CITY_LIST
+
+		self.Y_AUTO_UNIT_HEADER = self.Y_AUTO_CITY_LIST + self.H_AUTO_CITY_LIST + iGap
+		self.Y_AUTO_UNIT_LIST = self.Y_AUTO_UNIT_HEADER + iHeaderHeight
+
+		screen.setLabel(self.getNextWidgetName(), "Background", localText.getText("TXT_KEY_UTOPIA_AUTO_MILITARY_CITIES_HEADER", ()), CvUtil.FONT_LEFT_JUSTIFY, self.X_RESERVED + 4, self.Y_RESERVED + 2, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+		screen.setLabel(self.getNextWidgetName(), "Background", localText.getText("TXT_KEY_UTOPIA_AUTO_MILITARY_UNITS_HEADER", ()), CvUtil.FONT_LEFT_JUSTIFY, self.X_RESERVED + 4, self.Y_AUTO_UNIT_HEADER + 2, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+
+		iButtonWidth = (self.W_RESERVED - 2 * iGap) / 3
+		iButtonX = self.X_RESERVED
+		screen.setButtonGFC(self.AUTO_SELECT_ALL_ID, localText.getText("TXT_KEY_UTOPIA_SELECT_ALL_CITIES", ()), "", iButtonX, self.Y_AUTO_CITY_BUTTONS, iButtonWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+		iButtonX += iButtonWidth + iGap
+		screen.setButtonGFC(self.AUTO_RESET_ALL_ID, localText.getText("TXT_KEY_UTOPIA_RESET_ALL_CITIES", ()), "", iButtonX, self.Y_AUTO_CITY_BUTTONS, iButtonWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+		iButtonX += iButtonWidth + iGap
+		screen.setButtonGFC(self.AUTO_TOP_HALF_ID, localText.getText("TXT_KEY_UTOPIA_AUTO_MILITARY_TOP_HALF", ()), "", iButtonX, self.Y_AUTO_CITY_BUTTONS, iButtonWidth, iButtonRowHeight, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
+
+		screen.addScrollPanel(self.AUTO_CITY_PANEL_ID, u"", self.X_RESERVED, self.Y_AUTO_CITY_LIST, self.W_RESERVED, self.H_AUTO_CITY_LIST, PanelStyles.PANEL_STYLE_EXTERNAL)
+		screen.show(self.AUTO_CITY_PANEL_ID)
+
+		screen.addScrollPanel(self.AUTO_UNIT_PANEL_ID, u"", self.X_RESERVED, self.Y_AUTO_UNIT_LIST, self.W_RESERVED, self.H_AUTO_UNIT_LIST, PanelStyles.PANEL_STYLE_EXTERNAL)
+		screen.show(self.AUTO_UNIT_PANEL_ID)
+
+		self.refreshAutoCityList()
+		self.refreshAutoUnitList()
+
+	def getAutoEligibleCities(self):
+		player = gc.getPlayer(self.iActivePlayer)
+		cities = []
+		(loopCity, iter) = player.firstCity(false)
+		while loopCity:
+			cities.append(loopCity)
+			(loopCity, iter) = player.nextCity(iter, false)
+		return cities
+
+	def getAutoCityRowName(self, i):
+		return self.AUTO_CITY_ROW_PREFIX + str(i)
+
+	# One clickable row per city - "[x]/[ ] Name  hammers", click anywhere on the row to
+	# toggle it. Shares CvAutoMilitaryBuildManager's persistent selection (survives closing
+	# this screen and saving/loading), not a throwaway instance variable.
+	def refreshAutoCityList(self):
+		screen = self.getScreen()
+		player = gc.getPlayer(self.iActivePlayer)
+		selectedCityIDs = CvAutoMilitaryBuildManager.getSelectedCityIDs(player)
+		szHammerIcon = u"<font=2>" + (u"%c" % gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()) + u"</font>"
+
+		cities = self.getAutoEligibleCities()
+		screen.setViewMin(self.AUTO_CITY_PANEL_ID, self.W_RESERVED, max(self.H_AUTO_CITY_LIST, len(cities) * AUTO_MIL_ROW_HEIGHT))
+
+		for i in range(len(cities)):
+			pCity = cities[i]
+			bSelected = pCity.getID() in selectedCityIDs
+			if bSelected:
+				szText = u"[x] "
+			else:
+				szText = u"[ ] "
+			szText += pCity.getName() + u"  " + unicode(pCity.getYieldRate(YieldTypes.YIELD_PRODUCTION)) + szHammerIcon
+			if bSelected:
+				szText = localText.changeTextColor(szText, gc.getInfoTypeForString("COLOR_YELLOW"))
+			screen.setTextAt(self.getAutoCityRowName(i), self.AUTO_CITY_PANEL_ID, szText, CvUtil.FONT_LEFT_JUSTIFY, 4, i * AUTO_MIL_ROW_HEIGHT + 4, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, pCity.getID(), -1)
+			screen.show(self.getAutoCityRowName(i))
+
+		# Hide any rows left over from a previous, longer list (a city founded/lost between
+		# refreshes) - otherwise they'd keep showing stale data past the new row count.
+		for i in range(len(cities), self.nAutoCityRowCount):
+			screen.hide(self.getAutoCityRowName(i))
+		self.nAutoCityRowCount = len(cities)
+
+	def selectAllAutoCities(self):
+		player = gc.getPlayer(self.iActivePlayer)
+		cityIDs = [pCity.getID() for pCity in self.getAutoEligibleCities()]
+		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, cityIDs, True)
+		self.refreshAutoCityList()
+		self.refreshAutoUnitList()
+
+	def resetAllAutoCities(self):
+		player = gc.getPlayer(self.iActivePlayer)
+		cityIDs = [pCity.getID() for pCity in self.getAutoEligibleCities()]
+		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, cityIDs, False)
+		self.refreshAutoCityList()
+		self.refreshAutoUnitList()
+
+	def selectTopHalfAutoCities(self):
+		player = gc.getPlayer(self.iActivePlayer)
+		cities = self.getAutoEligibleCities()
+		if not cities:
+			return
+		cities.sort(lambda a, b: b.getYieldRate(YieldTypes.YIELD_PRODUCTION) - a.getYieldRate(YieldTypes.YIELD_PRODUCTION))
+		iCount = len(cities) / 2
+		if iCount < 1:
+			iCount = 1
+		topIDs = [pCity.getID() for pCity in cities[:iCount]]
+		restIDs = [pCity.getID() for pCity in cities[iCount:]]
+		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, topIDs, True)
+		CvAutoMilitaryBuildManager.requestSetCitiesSelected(player, restIDs, False)
+		self.refreshAutoCityList()
+		self.refreshAutoUnitList()
+
+	# Every military unit type (UnitCombatType set, same test the unit list above uses) that
+	# at least one currently-selected city can actually train right now.
+	def computeBuildableMilitaryUnits(self):
+		player = gc.getPlayer(self.iActivePlayer)
+		selectedCityIDs = CvAutoMilitaryBuildManager.getSelectedCityIDs(player)
+		eligibleCities = [pCity for pCity in self.getAutoEligibleCities() if pCity.getID() in selectedCityIDs]
+
+		units = []
+		for eUnit in range(gc.getNumUnitInfos()):
+			if gc.getUnitInfo(eUnit).getUnitCombatType() == -1:
+				continue
+			for pCity in eligibleCities:
+				if pCity.canTrain(eUnit, False, False):
+					units.append(eUnit)
+					break
+		return units
+
+	def getAutoUnitNameName(self, i):
+		return self.AUTO_UNIT_NAME_PREFIX + str(i)
+
+	def getAutoUnitMinusName(self, i):
+		return self.AUTO_UNIT_MINUS_PREFIX + str(i)
+
+	def getAutoUnitPlusName(self, i):
+		return self.AUTO_UNIT_PLUS_PREFIX + str(i)
+
+	# One row per buildable military unit type - name, "have/desired" (have counts every
+	# living copy anywhere plus everything already queued anywhere, not just in the
+	# selected cities), and a pair of -/+ targets to adjust the desired count.
+	def refreshAutoUnitList(self):
+		screen = self.getScreen()
+		player = gc.getPlayer(self.iActivePlayer)
+
+		self.buildableMilitaryUnits = self.computeBuildableMilitaryUnits()
+		screen.setViewMin(self.AUTO_UNIT_PANEL_ID, self.W_RESERVED, max(self.H_AUTO_UNIT_LIST, len(self.buildableMilitaryUnits) * AUTO_MIL_ROW_HEIGHT))
+
+		for i in range(len(self.buildableMilitaryUnits)):
+			eUnit = self.buildableMilitaryUnits[i]
+			iDesired = CvAutoMilitaryBuildManager.getDesiredCount(player, eUnit)
+			iHave = CvAutoMilitaryBuildManager.countUnitTypeEverywhere(player, eUnit)
+			iRowY = i * AUTO_MIL_ROW_HEIGHT + 4
+
+			szText = gc.getUnitInfo(eUnit).getDescription() + u"  " + unicode(iHave) + u"/" + unicode(iDesired)
+			if iDesired > 0:
+				szText = localText.changeTextColor(szText, gc.getInfoTypeForString("COLOR_YELLOW"))
+			screen.setTextAt(self.getAutoUnitNameName(i), self.AUTO_UNIT_PANEL_ID, szText, CvUtil.FONT_LEFT_JUSTIFY, 4, iRowY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+			screen.show(self.getAutoUnitNameName(i))
+
+			screen.setTextAt(self.getAutoUnitMinusName(i), self.AUTO_UNIT_PANEL_ID, u"[-]", CvUtil.FONT_RIGHT_JUSTIFY, self.W_RESERVED - 48, iRowY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eUnit, -1)
+			screen.show(self.getAutoUnitMinusName(i))
+
+			screen.setTextAt(self.getAutoUnitPlusName(i), self.AUTO_UNIT_PANEL_ID, u"[+]", CvUtil.FONT_RIGHT_JUSTIFY, self.W_RESERVED - 20, iRowY, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, eUnit, -1)
+			screen.show(self.getAutoUnitPlusName(i))
+
+		# Hide any rows left over from a previous, longer list (fewer cities selected, or a
+		# tech/resource change shrinks what's buildable) - otherwise they'd keep showing
+		# stale data past the new row count.
+		for i in range(len(self.buildableMilitaryUnits), self.nAutoUnitRowCount):
+			screen.hide(self.getAutoUnitNameName(i))
+			screen.hide(self.getAutoUnitMinusName(i))
+			screen.hide(self.getAutoUnitPlusName(i))
+		self.nAutoUnitRowCount = len(self.buildableMilitaryUnits)
+
 	# Lists every city of the active player currently building a military unit (one whose
 	# UnitCombatType isn't NONE - the same grouping the unit list above uses), with the unit
 	# being built and turns left, soonest first.
@@ -341,9 +562,12 @@ class CvMilitaryAdvisor:
 		screen.enableSelect(self.PRODUCTION_LIST_ID, True)
 		screen.setStyle(self.PRODUCTION_LIST_ID, "Table_StandardCiv_Style")
 
+		# Turns needs more room than the scrollbar leaves it when there are many rows, so it
+		# borrows 20px from the unit column and 10px from the city column.
+		iHalfWidth = (self.W_PRODUCTION - 60) / 2
+		iNameWidth = iHalfWidth
+		iUnitWidth = iHalfWidth
 		iTurnsWidth = 60
-		iNameWidth = (self.W_PRODUCTION - iTurnsWidth) / 2
-		iUnitWidth = self.W_PRODUCTION - iNameWidth - iTurnsWidth
 		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_CITY, localText.getText("TXT_KEY_DOMESTIC_ADVISOR_NAME", ()), iNameWidth)
 		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_UNIT, localText.getText("TXT_KEY_UTOPIA_MILITARY_PRODUCTION_UNIT_HEADER", ()), iUnitWidth)
 		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_TURNS, localText.getText("TXT_KEY_UTOPIA_MILITARY_PRODUCTION_TURNS_HEADER", ()), iTurnsWidth)
@@ -354,8 +578,10 @@ class CvMilitaryAdvisor:
 		while (loopCity):
 			if (loopCity.isProductionUnit()):
 				eUnit = loopCity.getProductionUnit()
-				if (gc.getUnitInfo(eUnit).getUnitCombatType() != -1):
-					rows.append((loopCity.getProductionTurnsLeft(), loopCity.getName(), gc.getUnitInfo(eUnit).getDescription()))
+				unitInfo = gc.getUnitInfo(eUnit)
+				if (unitInfo.getUnitCombatType() != -1):
+					szUnitName = unitInfo.getDescription() + u" " + unicode(unitInfo.getProductionCost()) + u"%c" % gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()
+					rows.append((loopCity.getProductionTurnsLeft(), loopCity.getName(), szUnitName))
 			(loopCity, iter) = player.nextCity(iter, false)
 
 		rows.sort()
@@ -365,7 +591,10 @@ class CvMilitaryAdvisor:
 			screen.appendTableRow(self.PRODUCTION_LIST_ID)
 			screen.setTableText(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_CITY, i, szCityName, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 			screen.setTableText(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_UNIT, i, szUnitName, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
-			screen.setTableInt(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_TURNS, i, unicode(iTurns), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_RIGHT_JUSTIFY)
+			# setTableInt anchors its content to the right regardless of the justify flag
+			# passed to it - setTableText (the same call the city/unit columns use) actually
+			# honors FONT_LEFT_JUSTIFY, which is what keeps this column clear of the scrollbar.
+			screen.setTableText(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_TURNS, i, unicode(iTurns), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 
 	def update(self, fDelta):
 		screen = self.getScreen()

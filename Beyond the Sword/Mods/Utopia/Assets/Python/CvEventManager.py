@@ -330,6 +330,14 @@ class CvEventManager:
 			CvAutoScienceManager.handleNetMessage(iData2, iData3, iData4, iData5)
 			return
 
+		import CvAutoMilitaryBuildManager
+		if (iData1 == CvAutoMilitaryBuildManager.MOD_MESSAGE_TOGGLE_CITY):
+			CvAutoMilitaryBuildManager.handleToggleCityMessage(iData2, iData3, iData4, iData5)
+			return
+		if (iData1 == CvAutoMilitaryBuildManager.MOD_MESSAGE_SET_DESIRED_COUNT):
+			CvAutoMilitaryBuildManager.handleSetDesiredCountMessage(iData2, iData3, iData4, iData5)
+			return
+
 		CvUtil.pyPrint( 'onModNetMessage' )
 
 	def onInit(self, argsList):
@@ -438,6 +446,9 @@ class CvEventManager:
 
 		import CvAutoGrowthManager
 		CvAutoGrowthManager.enforcePlayer(iPlayer)
+
+		import CvAutoMilitaryBuildManager
+		CvAutoMilitaryBuildManager.enforcePlayer(iPlayer)
 
 		import CvBetterEspionage
 		CvBetterEspionage.enforcePlayer(iPlayer)
