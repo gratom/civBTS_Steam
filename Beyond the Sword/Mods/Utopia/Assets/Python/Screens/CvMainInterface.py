@@ -258,9 +258,12 @@ class CvMainInterface:
 		screen.setStyle( "TurnLogButton", "Button_HUDLog_Style" )
 		screen.hide( "TurnLogButton" )
 		
-		iBtnX = xResolution - 325
-		
-		# Advisor Buttons...
+		iBtnX = xResolution - 350
+
+		# Advisor Buttons... (one extra icon - ResourceAdvisorButton - was inserted after
+		# ConstructionPlannerButton, so the row start above was shifted left by one
+		# iBtnAdvance (25px) to compensate - otherwise ClimateAdvisorButton, the last icon
+		# in this row, runs off the right edge of the screen.)
 		screen.setImageButton( "DomesticAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_DOMESTIC_SCREEN).getActionInfoIndex(), -1 )
 		screen.setStyle( "DomesticAdvisorButton", "Button_HUDAdvisorDomestic_Style" )
 		screen.hide( "DomesticAdvisorButton" )
@@ -268,6 +271,10 @@ class CvMainInterface:
 		iBtnX += iBtnAdvance
 		screen.setImageButton( "ConstructionPlannerButton", "Art/Interface/Buttons/TechTree/BuilderWindow.dds", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 		screen.hide( "ConstructionPlannerButton" )
+
+		iBtnX += iBtnAdvance
+		screen.setImageButton( "ResourceAdvisorButton", "Art/Interface/Buttons/TechTree/Resoures.dds", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+		screen.hide( "ResourceAdvisorButton" )
 
 		iBtnX += iBtnAdvance
 		screen.setImageButton( "FinanceAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_FINANCIAL_SCREEN).getActionInfoIndex(), -1 )
@@ -898,6 +905,7 @@ class CvMainInterface:
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
 			screen.hide( "ConstructionPlannerButton" )
+			screen.hide( "ResourceAdvisorButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -922,6 +930,7 @@ class CvMainInterface:
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
 			screen.hide( "ConstructionPlannerButton" )
+			screen.hide( "ResourceAdvisorButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -946,6 +955,7 @@ class CvMainInterface:
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
 			screen.show( "ConstructionPlannerButton" )
+			screen.show( "ResourceAdvisorButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -960,6 +970,7 @@ class CvMainInterface:
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ConstructionPlannerButton" )
+			screen.moveToFront( "ResourceAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -984,6 +995,7 @@ class CvMainInterface:
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
 			screen.hide( "ConstructionPlannerButton" )
+			screen.hide( "ResourceAdvisorButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -1008,6 +1020,7 @@ class CvMainInterface:
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
 			screen.show( "ConstructionPlannerButton" )
+			screen.show( "ResourceAdvisorButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -1022,6 +1035,7 @@ class CvMainInterface:
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ConstructionPlannerButton" )
+			screen.moveToFront( "ResourceAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -1046,6 +1060,7 @@ class CvMainInterface:
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
 			screen.show( "ConstructionPlannerButton" )
+			screen.show( "ResourceAdvisorButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -1060,6 +1075,7 @@ class CvMainInterface:
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ConstructionPlannerButton" )
+			screen.moveToFront( "ResourceAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -3382,6 +3398,11 @@ class CvMainInterface:
 		if inputClass.getFunctionName() == "ConstructionPlannerButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
 			import CvScreensInterface
 			CvScreensInterface.showConstructionPlanner()
+			return 1
+
+		if inputClass.getFunctionName() == "ResourceAdvisorButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			import CvScreensInterface
+			CvScreensInterface.showResourceAdvisor()
 			return 1
 
 		if inputClass.getFunctionName() == "EspionageInfoToggle" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:

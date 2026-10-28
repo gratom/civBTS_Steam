@@ -449,4 +449,13 @@
 		</Russian>
 		<English>100 turns</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_RESOURCE_ADVISOR_EXPECTED_TURNS</Tag>
+		<Russian>
+			<Text>~ &#245;&#238;&#228;&#238;&#226;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>~ turns</English>
+	</TEXT>
 </Civ4GameText>

@@ -20,6 +20,10 @@
 ## and the expected COUNT of plots finding resource j within N turns, across M identically-
 ## eligible plots, is simply M times that single-plot probability - expectation is linear in
 ## the plot count, no matter how many mines/quarries/farms are involved.
+##
+## The extra "~N turns" column is the mean of a geometric distribution: across M eligible
+## plots, the chance SOME plot hits resource j in a given turn is q = 1-(1-P_turn(j))^M, so
+## the expected number of turns until the first hit anywhere is 1/q.
 from CvPythonExtensions import *
 import CvUtil
 import CvScreenEnums
@@ -48,7 +52,8 @@ X_WORKED = X_WITHOUT + COUNT_WIDTH + COLUMN_GAP
 X_T1 = X_WORKED + COUNT_WIDTH + COLUMN_GAP
 X_T10 = X_T1 + CHANCE_WIDTH + COLUMN_GAP
 X_T100 = X_T10 + CHANCE_WIDTH + COLUMN_GAP
-PANEL_CONTENT_WIDTH = X_T100 + CHANCE_WIDTH
+X_EXPECTED_TURNS = X_T100 + CHANCE_WIDTH + COLUMN_GAP
+PANEL_CONTENT_WIDTH = X_EXPECTED_TURNS + CHANCE_WIDTH
 
 class CvResourceAdvisor:
 	"Resource Advisor Screen - odds of discovering a hidden resource on worked improvements"
@@ -131,10 +136,26 @@ class CvResourceAdvisor:
 		pFoundByN = 1.0 - ((1.0 - pAny) ** N)
 		return nWorked * pFoundByN * (pThis / pAny)
 
+	# Approximately how many turns until the FIRST of the nWorked eligible plots lands on
+	# this outcome (pThis per turn, per plot) - the mean of a geometric distribution. Treats
+	# nWorked as constant, which is a fine approximation here: these per-turn odds are tiny
+	# (1/iDiscoverRand, typically in the thousands), so across the handful of turns where a
+	# first hit actually becomes likely, "how many eligible plots are left" barely moves.
+	#   q = chance SOME plot (out of nWorked) hits this turn = 1 - (1-pThis)^nWorked
+	#   E[turns until first hit] = 1 / q
+	def expectedTurnsUntilFirst(self, nWorked, pThis):
+		if nWorked <= 0 or pThis <= 0:
+			return None
+		q = 1.0 - ((1.0 - pThis) ** nWorked)
+		if q <= 0.0:
+			return None
+		return 1.0 / q
+
 	# One row entry per improvement that both has at least one plot and at least one
 	# currently-knowable (reveal tech already researched) resource left to find.
-	# Each entry: (eImprovement, countsDict, anyExpected[3], resourceRows) where resourceRows
-	# is [(eBonus, expected[3]), ...] and anyExpected/expected are keyed to TURN_HORIZONS.
+	# Each entry: (eImprovement, countsDict, anyExpected[3], anyExpectedTurns, resourceRows)
+	# where resourceRows is [(eBonus, expected[3], expectedTurns), ...] and anyExpected/
+	# expected are keyed to TURN_HORIZONS.
 	def computeRows(self):
 		ePlayer = gc.getGame().getActivePlayer()
 		iTeam = gc.getPlayer(ePlayer).getTeam()
@@ -156,18 +177,30 @@ class CvResourceAdvisor:
 
 			nWorked = countsForImprovement["worked"]
 			anyExpected = [self.expectedCount(nWorked, pAny, pAny, N) for N in TURN_HORIZONS]
+			anyExpectedTurns = self.expectedTurnsUntilFirst(nWorked, pAny)
 
 			resourceRows = []
 			for (eBonus, pThis) in perBonusChance:
 				expected = [self.expectedCount(nWorked, pThis, pAny, N) for N in TURN_HORIZONS]
-				resourceRows.append((eBonus, expected))
+				expectedTurns = self.expectedTurnsUntilFirst(nWorked, pThis)
+				resourceRows.append((eBonus, expected, expectedTurns))
 
-			rows.append((eImprovement, countsForImprovement, anyExpected, resourceRows))
+			rows.append((eImprovement, countsForImprovement, anyExpected, anyExpectedTurns, resourceRows))
 
 		return rows
 
+	# Shown as a percentage - fValue is an expected COUNT (can exceed 1 when there are many
+	# eligible plots over a long horizon), so this can read above 100%, which is correct: it
+	# just means "on average more than one" rather than a bounded single-event probability.
 	def formatExpected(self, fValue):
-		return u"%.3f" % fValue
+		return u"%.2f%%" % (fValue * 100.0)
+
+	# "~N" turns until the first of the eligible plots is expected to hit - None means no
+	# eligible plots (or a zero chance), shown as a dash rather than a bogus number.
+	def formatExpectedTurns(self, fValue):
+		if fValue is None:
+			return u"-"
+		return u"~" + unicode(int(round(fValue)))
 
 	# Screen construction function
 	def interfaceScreen(self):
@@ -193,7 +226,7 @@ class CvResourceAdvisor:
 		rows = self.computeRows()
 
 		self.rowWidgetCount = 0
-		for (eImprovement, countsForImprovement, anyExpected, resourceRows) in rows:
+		for (eImprovement, countsForImprovement, anyExpected, anyExpectedTurns, resourceRows) in rows:
 			self.rowWidgetCount += 1 + len(resourceRows)
 
 		screen.addScrollPanel( PANEL_NAME, u"", self.nListX, self.nListY, PANEL_CONTENT_WIDTH, self.nListHeight, PanelStyles.PANEL_STYLE_EXTERNAL )
@@ -215,20 +248,21 @@ class CvResourceAdvisor:
 		screen.setLabel( "ResourceAdvisorHdrT1", "Background", localText.getText("TXT_KEY_UTOPIA_RESOURCE_ADVISOR_1_TURN", ()), CvUtil.FONT_LEFT_JUSTIFY, self.nListX + X_T1, y, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 		screen.setLabel( "ResourceAdvisorHdrT10", "Background", localText.getText("TXT_KEY_UTOPIA_RESOURCE_ADVISOR_10_TURNS", ()), CvUtil.FONT_LEFT_JUSTIFY, self.nListX + X_T10, y, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 		screen.setLabel( "ResourceAdvisorHdrT100", "Background", localText.getText("TXT_KEY_UTOPIA_RESOURCE_ADVISOR_100_TURNS", ()), CvUtil.FONT_LEFT_JUSTIFY, self.nListX + X_T100, y, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+		screen.setLabel( "ResourceAdvisorHdrExpectedTurns", "Background", localText.getText("TXT_KEY_UTOPIA_RESOURCE_ADVISOR_EXPECTED_TURNS", ()), CvUtil.FONT_LEFT_JUSTIFY, self.nListX + X_EXPECTED_TURNS, y, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 
 	# Draws every row once, all at once, inside the scroll panel's content space (coordinates
 	# here are relative to the panel's content, not the screen - same approach as the
 	# Construction Planner's building/unit lists).
 	def drawRows(self, screen, rows):
 		iRow = 0
-		for (eImprovement, countsForImprovement, anyExpected, resourceRows) in rows:
-			self.drawImprovementRow(screen, iRow, eImprovement, countsForImprovement, anyExpected)
+		for (eImprovement, countsForImprovement, anyExpected, anyExpectedTurns, resourceRows) in rows:
+			self.drawImprovementRow(screen, iRow, eImprovement, countsForImprovement, anyExpected, anyExpectedTurns)
 			iRow += 1
-			for (eBonus, expected) in resourceRows:
-				self.drawResourceRow(screen, iRow, eBonus, expected)
+			for (eBonus, expected, expectedTurns) in resourceRows:
+				self.drawResourceRow(screen, iRow, eBonus, expected, expectedTurns)
 				iRow += 1
 
-	def drawImprovementRow(self, screen, iRow, eImprovement, countsForImprovement, anyExpected):
+	def drawImprovementRow(self, screen, iRow, eImprovement, countsForImprovement, anyExpected, anyExpectedTurns):
 		y = iRow * ROW_HEIGHT
 		improvementInfo = gc.getImprovementInfo(eImprovement)
 
@@ -246,8 +280,9 @@ class CvResourceAdvisor:
 		self.setCountLabel( screen, "ResourceAdvisorT1_" + str(iRow), X_T1, y, self.formatExpected(anyExpected[0]) )
 		self.setCountLabel( screen, "ResourceAdvisorT10_" + str(iRow), X_T10, y, self.formatExpected(anyExpected[1]) )
 		self.setCountLabel( screen, "ResourceAdvisorT100_" + str(iRow), X_T100, y, self.formatExpected(anyExpected[2]) )
+		self.setCountLabel( screen, "ResourceAdvisorExpTurns" + str(iRow), X_EXPECTED_TURNS, y, self.formatExpectedTurns(anyExpectedTurns) )
 
-	def drawResourceRow(self, screen, iRow, eBonus, expected):
+	def drawResourceRow(self, screen, iRow, eBonus, expected, expectedTurns):
 		y = iRow * ROW_HEIGHT
 		bonusInfo = gc.getBonusInfo(eBonus)
 
@@ -260,6 +295,7 @@ class CvResourceAdvisor:
 		self.setCountLabel( screen, "ResourceAdvisorT1_" + str(iRow), X_T1, y, self.formatExpected(expected[0]) )
 		self.setCountLabel( screen, "ResourceAdvisorT10_" + str(iRow), X_T10, y, self.formatExpected(expected[1]) )
 		self.setCountLabel( screen, "ResourceAdvisorT100_" + str(iRow), X_T100, y, self.formatExpected(expected[2]) )
+		self.setCountLabel( screen, "ResourceAdvisorExpTurns" + str(iRow), X_EXPECTED_TURNS, y, self.formatExpectedTurns(expectedTurns) )
 
 	def setCountLabel(self, screen, szWidgetName, x, y, szText):
 		screen.setLabelAt( szWidgetName, PANEL_NAME, szText, CvUtil.FONT_LEFT_JUSTIFY, x, y + 6, -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
