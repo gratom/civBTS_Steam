@@ -332,4 +332,22 @@
 		</Russian>
 		<English>Remove from Queue</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_MILITARY_PRODUCTION_UNIT_HEADER</Tag>
+		<Russian>
+			<Text>&#222;&#237;&#232;&#242;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Unit</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UTOPIA_MILITARY_PRODUCTION_TURNS_HEADER</Tag>
+		<Russian>
+			<Text>&#213;&#238;&#228;&#251;</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Russian>
+		<English>Turns</English>
+	</TEXT>
 </Civ4GameText>

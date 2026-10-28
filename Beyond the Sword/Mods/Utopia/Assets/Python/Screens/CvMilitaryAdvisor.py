@@ -16,6 +16,10 @@ gc = CyGlobalContext()
 ArtFileMgr = CyArtFileMgr()
 localText = CyTranslator()
 
+COLUMN_PRODUCTION_CITY = 0
+COLUMN_PRODUCTION_UNIT = 1
+COLUMN_PRODUCTION_TURNS = 2
+
 class CvMilitaryAdvisor:
 	"Military Advisor"
 
@@ -44,6 +48,9 @@ class CvMilitaryAdvisor:
 		# Extra columns of terrain the minimap duplicates across the whole width because of
 		# cylindrical map wrap (observed as roughly 3 tiles combined) - see plotToMinimapXY.
 		self.MAP_WRAP_PADDING = 3.0
+
+		self.PRODUCTION_LIST_ID = "MilitaryAdvisorProductionList"
+		self.RESERVED_PANEL_ID = "MilitaryAdvisorReservedPanel"
 
 		self.Z_BACKGROUND = -2.1
 		self.Z_CONTROLS = self.Z_BACKGROUND - 0.2
@@ -117,7 +124,7 @@ class CvMilitaryAdvisor:
 		# above the bottom bar); the map takes the rest of the width on the left, capped
 		# at 1.5x its original size and vertically centered in whatever space is left -
 		# never bigger than the screen actually has room for.
-		self.W_TEXT = 380
+		self.W_TEXT = 330
 		iBodyTop = self.Y_LEADERS + self.H_LEADERS + self.MAP_MARGIN
 		iBodyBottom = self.H_SCREEN - 55 - self.MAP_MARGIN
 		iBodyHeight = iBodyBottom - iBodyTop
@@ -127,9 +134,24 @@ class CvMilitaryAdvisor:
 		self.H_MAP_MAX = min(int(500 * 1.5), iBodyHeight)
 		self.Y_MAP = iBodyTop + (iBodyHeight - self.H_MAP_MAX) / 2
 
-		self.X_TEXT = self.X_MAP + self.W_MAP + self.MAP_MARGIN
+		self.X_TEXT = self.X_MAP + self.W_MAP + self.MAP_MARGIN - 25
 		self.Y_TEXT = iBodyTop
 		self.H_TEXT = iBodyHeight
+
+		# Two more columns to the right of the unit list, flush against it (no gap) and
+		# against each other. The production list is a fixed, content-sized width like the
+		# unit list; the reserved panel (nothing in it yet) is the elastic one that soaks up
+		# whatever's left over to the screen's right edge - so narrowing either list to its
+		# left only ever grows the reserved panel, never the other list.
+		self.X_PRODUCTION = self.X_TEXT + self.W_TEXT
+		self.W_PRODUCTION = 320
+		self.Y_PRODUCTION = iBodyTop
+		self.H_PRODUCTION = iBodyHeight
+
+		self.X_RESERVED = self.X_PRODUCTION + self.W_PRODUCTION
+		self.W_RESERVED = self.W_SCREEN - self.MAP_MARGIN - self.X_RESERVED
+		self.Y_RESERVED = iBodyTop
+		self.H_RESERVED = iBodyHeight
 
 		# Set the background and exit button, and show the screen
 		screen.setDimensions(15, 100, self.W_SCREEN, self.H_SCREEN)
@@ -184,6 +206,9 @@ class CvMilitaryAdvisor:
 		self.refresh(true)
 
 		self.refreshRallyArrows()
+
+		self.drawReservedPanel()
+		self.drawProductionList()
 		
 	def drawCombatExperience(self):
 	
@@ -207,6 +232,14 @@ class CvMilitaryAdvisor:
 		self.nWidgetCount += 1
 		return szName
 																	
+	# A unit type's combat strength for power-counting purposes: air strength for units
+	# that only fight in the air (ground combat 0), ground strength otherwise.
+	def getUnitTypeStrength(self, iUnitType):
+		unitInfo = gc.getUnitInfo(iUnitType)
+		if (unitInfo.getAirCombat() > 0 and unitInfo.getCombat() == 0):
+			return unitInfo.getAirCombat()
+		return unitInfo.getCombat()
+
 	def resetMinimapColor(self):
 		screen = self.getScreen()
 		for iX in range(gc.getMap().getGridWidth()):
@@ -292,6 +325,47 @@ class CvMilitaryAdvisor:
 				x1, y1 = self.plotToMinimapXY(pRallyPlot.getX(), pRallyPlot.getY(), iGridWidth, iGridHeight)
 				self.drawRallyArrow(screen, x0, y0, x1, y1, color)
 			(loopCity, iter) = player.nextCity(iter, false)
+
+	# Just reserves the space for now - a more complex custom panel goes here later.
+	def drawReservedPanel(self):
+		screen = self.getScreen()
+		screen.addPanel(self.RESERVED_PANEL_ID, "", "", True, False, self.X_RESERVED, self.Y_RESERVED, self.W_RESERVED, self.H_RESERVED, PanelStyles.PANEL_STYLE_MAIN)
+
+	# Lists every city of the active player currently building a military unit (one whose
+	# UnitCombatType isn't NONE - the same grouping the unit list above uses), with the unit
+	# being built and turns left, soonest first.
+	def drawProductionList(self):
+		screen = self.getScreen()
+
+		screen.addTableControlGFC(self.PRODUCTION_LIST_ID, 3, self.X_PRODUCTION, self.Y_PRODUCTION, self.W_PRODUCTION, self.H_PRODUCTION, True, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD)
+		screen.enableSelect(self.PRODUCTION_LIST_ID, True)
+		screen.setStyle(self.PRODUCTION_LIST_ID, "Table_StandardCiv_Style")
+
+		iTurnsWidth = 60
+		iNameWidth = (self.W_PRODUCTION - iTurnsWidth) / 2
+		iUnitWidth = self.W_PRODUCTION - iNameWidth - iTurnsWidth
+		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_CITY, localText.getText("TXT_KEY_DOMESTIC_ADVISOR_NAME", ()), iNameWidth)
+		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_UNIT, localText.getText("TXT_KEY_UTOPIA_MILITARY_PRODUCTION_UNIT_HEADER", ()), iUnitWidth)
+		screen.setTableColumnHeader(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_TURNS, localText.getText("TXT_KEY_UTOPIA_MILITARY_PRODUCTION_TURNS_HEADER", ()), iTurnsWidth)
+
+		rows = []
+		player = gc.getPlayer(self.iActivePlayer)
+		(loopCity, iter) = player.firstCity(false)
+		while (loopCity):
+			if (loopCity.isProductionUnit()):
+				eUnit = loopCity.getProductionUnit()
+				if (gc.getUnitInfo(eUnit).getUnitCombatType() != -1):
+					rows.append((loopCity.getProductionTurnsLeft(), loopCity.getName(), gc.getUnitInfo(eUnit).getDescription()))
+			(loopCity, iter) = player.nextCity(iter, false)
+
+		rows.sort()
+
+		for i in range(len(rows)):
+			(iTurns, szCityName, szUnitName) = rows[i]
+			screen.appendTableRow(self.PRODUCTION_LIST_ID)
+			screen.setTableText(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_CITY, i, szCityName, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+			screen.setTableText(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_UNIT, i, szUnitName, "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
+			screen.setTableInt(self.PRODUCTION_LIST_ID, COLUMN_PRODUCTION_TURNS, i, unicode(iTurns), "", WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_RIGHT_JUSTIFY)
 
 	def update(self, fDelta):
 		screen = self.getScreen()
@@ -404,7 +478,16 @@ class CvMilitaryAdvisor:
 			# sort by unit combat type
 			self.unitsList.sort()
 		
-		szText = localText.getText("TXT_KEY_PEDIA_ALL_UNITS", ()).upper()
+		# Total military power of everything currently listed below (sum of count * strength
+		# per unit type) - computed ourselves rather than trusting any built-in power value,
+		# since there isn't one that matches what's actually on screen.
+		iTotalPower = 0
+		for iUnit in range(gc.getNumUnitInfos()):
+			iCount = len(self.unitsList[iUnit][2])
+			if (iCount > 0):
+				iTotalPower += iCount * self.getUnitTypeStrength(self.unitsList[iUnit][1])
+
+		szText = localText.getText("TXT_KEY_PEDIA_ALL_UNITS", ()).upper() + u" " + unicode(iTotalPower) + u"%c" % CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR)
 		if (-1 in self.selectedGroupList):
 			szText = localText.changeTextColor(u"<u>" + szText + u"</u>", gc.getInfoTypeForString("COLOR_YELLOW"))
 		if (bReload):
@@ -435,10 +518,7 @@ class CvMilitaryAdvisor:
 					iItem += 1
 				
 				unitInfo = gc.getUnitInfo(self.unitsList[iUnit][1])
-				if (unitInfo.getAirCombat() > 0 and unitInfo.getCombat() == 0):
-					iStrength = unitInfo.getAirCombat()
-				else:
-					iStrength = unitInfo.getCombat()
+				iStrength = self.getUnitTypeStrength(self.unitsList[iUnit][1])
 				szDescription = unitInfo.getDescription() + u" " + unicode(iStrength) + u"%c" % CyGame().getSymbolID(FontSymbols.STRENGTH_CHAR) + u" " + unicode(unitInfo.getMoves()) + u"%c" % CyGame().getSymbolID(FontSymbols.MOVES_CHAR) + u" (" + unicode(len(self.unitsList[iUnit][2])) + u")"
 				if (self.isSelectedUnitType(self.unitsList[iUnit][1], False)):
 					szDescription = u"      <u>" + szDescription + u"</u>"
