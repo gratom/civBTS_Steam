@@ -21,7 +21,6 @@ import CvWorldBuilderScreen
 import CvAdvisorUtils
 import CvTechChooser
 import ClimatManager
-import ModGameData
 
 gc = CyGlobalContext()
 localText = CyTranslator()
@@ -33,16 +32,13 @@ PyInfo = PyHelpers.PyInfo
 ###################################################
 
 
-g_iNumNukesWarningMessage = 7
-g_iNumNukesGameOver = 20
-
 # AI "wild growth" tile improvements (doAIWildImprovements)
 # % chance per turn (0-100), rolled per eligible tile with the synced game RNG,
 # for an AI-worked tile to advance one step up the cottage chain on its own.
 # Set any value to 0 to disable that step.
-CottageChance = 5
-HamletChance = 1
-VillageChance = 1
+CottageChance = 10
+HamletChance = 5
+VillageChance = 2
 TownChance = 1
 
 # Once a city has at least (population * Num / Den) Farms (or Workshops), its *extra* Farms/Workshops
@@ -375,7 +371,6 @@ class CvEventManager:
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
 
-		self.initScriptData()
 		ClimatManager.initLandPlotsCache()
 
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
@@ -655,8 +650,6 @@ class CvEventManager:
 		CvUtil.pyPrint('Nuke detonated at %d, %d'
 			%(pPlot.getX(), pPlot.getY()))
 
-		self.changeGameNumNukes(1)
-		
 	def onGotoPlotSet(self, argsList):
 		'Nuke Explosion'
 		pPlot, iPlayer = argsList
@@ -1394,39 +1387,4 @@ class CvEventManager:
 			popup.setBodyString(szText)
 			popup.launch(true, PopupStates.POPUPSTATE_QUEUED)
 
-
-	def initScriptData(self):
-		ModGameData.setValue("numNukes", 0)
-
-	def getGameNumNukes(self):
-		return ModGameData.getValue("numNukes", 0)
-	def setGameNumNukes(self, iValue):
-		ModGameData.setValue("numNukes", iValue)
-
-		self.checkNukeStuff(iValue)
-
-	def changeGameNumNukes(self, iChange):
-		iNumNukes = ModGameData.getValue("numNukes", 0) + iChange
-		ModGameData.setValue("numNukes", iNumNukes)
-
-		self.checkNukeStuff(iNumNukes)
-		
-	def checkNukeStuff(self, iNumNukes):
-		
-		print("iNumNukes")
-		print(iNumNukes)
-		print("g_iNumNukesGameOver")
-		print(g_iNumNukesGameOver)
-		
-		# Amount of nukes matches Warning message
-		if (CyMap().plot(0,0).getScriptData() == "Scenario"):
-			if (iNumNukes == g_iNumNukesWarningMessage):
-				self.addPopup("", localText.getText("TXT_KEY_ROUND_THREE_NUKE_WARNING", ()))
-		
-		# Amount of nukes matches Game over
-			elif (iNumNukes == g_iNumNukesGameOver):
-			
-			# Show the screen that shows the world 'sploding
-				CvScreensInterface.showNextWarScreen()
-				gc.getGame().setWinner(18, 3)
 
