@@ -53,22 +53,26 @@ class CvCorporationScreen:
 		self.X_CORPORATION_START = 155
 		self.DX_CORPORATION = 116
 		self.Y_CORPORATION = 35
-		self.Y_GREAT_PERSON = 57
-		self.Y_BONUSES = 77
-		self.Y_FOUNDED = 112
-		self.Y_HEADQUARTERS = 142
+		self.Y_GREAT_PERSON = 80
+		self.Y_BONUSES = 115
+		self.Y_FOUNDED = 160
+		self.Y_HEADQUARTERS = 190
 		self.Y_CORPORATION_NAME = 58
+
+		self.GP_ICON_SIZE = 32
+		self.DX_GP_ICON = -18
+		self.DX_TECH_ICON = 18
 
 		self.X_CORPORATION_AREA = 45
 		self.Y_CORPORATION_AREA = 84
 		self.W_CORPORATION_AREA = 934
-		self.H_CORPORATION_AREA = 180
+		self.H_CORPORATION_AREA = 220
 
 		self.X_CITY1_AREA = 45
 		self.X_CITY2_AREA = 522
-		self.Y_CITY_AREA = 282
+		self.Y_CITY_AREA = 322
 		self.W_CITY_AREA = 457
-		self.H_CITY_AREA = 395
+		self.H_CITY_AREA = 375
 		
 		self.X_CITY = 10
 		self.DY_CITY = 38
@@ -143,18 +147,25 @@ class CvCorporationScreen:
 			screen.addCheckBoxGFC(szButtonName, gc.getCorporationInfo(i).getButton(), ArtFileMgr.getInterfaceArtInfo("BUTTON_HILITE_SQUARE").getPath(), self.X_CORPORATION_AREA + xLoop - self.BUTTON_SIZE/2, self.Y_CORPORATION_AREA + self.Y_CORPORATION - self.BUTTON_SIZE/2, self.BUTTON_SIZE, self.BUTTON_SIZE, WidgetTypes.WIDGET_GENERAL, -1, -1, ButtonStyles.BUTTON_STYLE_LABEL)
 			xLoop += self.DX_CORPORATION
 
-		# Great Person				
+		# Great Person icon + the technology that unlocks this corporation
 		xLoop = self.X_CORPORATION_START
 		for i in range(gc.getNumCorporationInfos()):
-			szGreatPerson = ""
+			iGreatPersonUnit = -1
+			iTechPrereq = -1
 			for iBuilding in range(gc.getNumBuildingInfos()):
 				if (gc.getBuildingInfo(iBuilding).getFoundsCorporation() == i):
+					for iUnit in range(gc.getNumUnitInfos()):
+						if gc.getUnitInfo(iUnit).getBuildings(iBuilding) or gc.getUnitInfo(iUnit).getForceBuildings(iBuilding):
+							iGreatPersonUnit = iUnit
+							break
+					iTechPrereq = gc.getBuildingInfo(iBuilding).getPrereqAndTech()
 					break
-			for iUnit in range(gc.getNumUnitInfos()):
-				if gc.getUnitInfo(iUnit).getBuildings(iBuilding) or gc.getUnitInfo(iUnit).getForceBuildings(iBuilding):
-					szGreatPerson = gc.getUnitInfo(iUnit).getDescription()
-					break
-			screen.setLabelAt("", szArea, szGreatPerson, CvUtil.FONT_CENTER_JUSTIFY, xLoop, self.Y_GREAT_PERSON, self.DZ, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+
+			if iGreatPersonUnit != -1:
+				screen.addDDSGFC(self.getCorporationGreatPersonIconName(i), gc.getUnitInfo(iGreatPersonUnit).getButton(), self.X_CORPORATION_AREA + xLoop + self.DX_GP_ICON - self.GP_ICON_SIZE/2, self.Y_CORPORATION_AREA + self.Y_GREAT_PERSON - self.GP_ICON_SIZE/2, self.GP_ICON_SIZE, self.GP_ICON_SIZE, WidgetTypes.WIDGET_PEDIA_JUMP_TO_UNIT, iGreatPersonUnit, -1)
+
+			if iTechPrereq != -1:
+				screen.addDDSGFC(self.getCorporationTechIconName(i), gc.getTechInfo(iTechPrereq).getButton(), self.X_CORPORATION_AREA + xLoop + self.DX_TECH_ICON - self.GP_ICON_SIZE/2, self.Y_CORPORATION_AREA + self.Y_GREAT_PERSON - self.GP_ICON_SIZE/2, self.GP_ICON_SIZE, self.GP_ICON_SIZE, WidgetTypes.WIDGET_PEDIA_JUMP_TO_TECH, iTechPrereq, -1)
 
 			xLoop += self.DX_CORPORATION
 
@@ -323,7 +334,13 @@ class CvCorporationScreen:
 	def getCorporationTextName(self, iCorporation):
 		szName = self.CORPORATION_NAME + str(iCorporation)
 		return szName
-								
+
+	def getCorporationGreatPersonIconName(self, iCorporation):
+		return "CorporationGreatPersonIcon" + str(iCorporation)
+
+	def getCorporationTechIconName(self, iCorporation):
+		return "CorporationTechIcon" + str(iCorporation)
+
 	# Will handle the input for this screen...
 	def handleInput (self, inputClass):
 		if (inputClass.getNotifyCode() == NotifyCode.NOTIFY_LISTBOX_ITEM_SELECTED):
