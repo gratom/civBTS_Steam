@@ -427,6 +427,9 @@ class CvEventManager:
 		import CvAutoScienceManager
 		CvAutoScienceManager.enforcePlayer(iPlayer)
 
+		import CvLabourExchangeManager
+		CvLabourExchangeManager.enforcePlayer(iPlayer)
+
 	def onEndPlayerTurn(self, argsList):
 		'Called at the end of a players turn'
 		iGameTurn, iPlayer = argsList

@@ -1757,5 +1757,15 @@
 			<KFM/>
 			<Button>,Art/Interface/Buttons/Buildings/Colossus.dds,Art/Interface/Buttons/NextWar_Atlas.dds,5,2</Button>
 		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_LABOUR_EXCHANGE</Type>
+			<LSystem>LSYSTEM_2x1</LSystem>
+			<bAnimated>1</bAnimated>
+			<fScale>1.31</fScale>
+			<fInterfaceScale>0.47</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Forge/Forge.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/Buildings/labour.dds</Button>
+		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>
