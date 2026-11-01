@@ -3043,7 +3043,7 @@ class CvMainInterface:
 
 			try:
 				pMouseOverPlot = CyInterface().getMouseOverPlot()
-				if (pMouseOverPlot and pMouseOverPlot.isCity()):
+				if (pMouseOverPlot and pMouseOverPlot.isCity() and pMouseOverPlot.isActiveVisible(False)):
 					pCity = pMouseOverPlot.getPlotCity()
 					if (pCity):
 						cHappy = CyGame().getSymbolID(FontSymbols.HAPPY_CHAR)
