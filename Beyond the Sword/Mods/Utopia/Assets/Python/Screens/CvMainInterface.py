@@ -3043,94 +3043,169 @@ class CvMainInterface:
 
 			try:
 				pMouseOverPlot = CyInterface().getMouseOverPlot()
-				if (pMouseOverPlot and pMouseOverPlot.isCity() and pMouseOverPlot.isActiveVisible(False)):
-					pCity = pMouseOverPlot.getPlotCity()
-					if (pCity):
-						cHappy = CyGame().getSymbolID(FontSymbols.HAPPY_CHAR)
-						cHealthy = CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR)
-						cFood = gc.getYieldInfo(YieldTypes.YIELD_FOOD).getChar()
-						cHammer = gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()
+				if (pMouseOverPlot and pMouseOverPlot.isActiveVisible(False)):
+					szTurnShort = localText.getText("TXT_KEY_UTOPIA_TURN_SHORT", ())
+					cCulture = gc.getCommerceInfo(CommerceTypes.COMMERCE_CULTURE).getChar()
 
-						def netColor(iNet):
-							if (iNet > 0):
-								return u"<color=0,255,0>"
-							elif (iNet == 0):
-								return u"<color=255,255,0>"
-							else:
-								return u"<color=255,0,0>"
-
-						# Happy: unhappy/happy (net available)
-						iHappy = pCity.happyLevel()
-						iUnhappy = pCity.unhappyLevel(0)
-						iNetHappy = iHappy - iUnhappy
-						szHappyLine = netColor(iNetHappy) + u"%c %d/%d (%d)</color>" %(cHappy, iUnhappy, iHappy, iNetHappy)
-
-						# Healthy: unhealthy/healthy (net available)
-						iHealthy = pCity.goodHealth()
-						iUnhealthy = pCity.badHealth(False)
-						iNetHealthy = iHealthy - iUnhealthy
-						szHealthyLine = netColor(iNetHealthy) + u"%c %d/%d (%d)</color>" %(cHealthy, iUnhealthy, iHealthy, iNetHealthy)
-
-						# Food: consumption/total (surplus/turn, growth status)
-						iFoodTotal = pCity.getYieldRate(YieldTypes.YIELD_FOOD)
-						iFoodConsumption = pCity.foodConsumption(False, 0)
-						iFoodDifference = pCity.foodDifference(True)
-
-						iAvoidGrowthEmphasize = gc.getInfoTypeForString("EMPHASIZE_AVOID_GROWTH")
-						bGrowthLocked = (iAvoidGrowthEmphasize != -1 and pCity.AI_isEmphasize(iAvoidGrowthEmphasize))
-
-						if (bGrowthLocked):
-							szGrowthColor = u"<color=255,255,255>"
-							szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_GROWTH_LOCKED", ())
-						elif (iFoodDifference > 0):
-							szGrowthColor = u"<color=0,255,0>"
-							szGrowthInfo = localText.getText("INTERFACE_CITY_GROWING", (pCity.getFoodTurnsLeft(), ))
-						elif (iFoodDifference < 0):
-							szGrowthColor = u"<color=255,0,0>"
-							iStoredFood = pCity.getFood()
-							if (iStoredFood <= 0):
-								iStarveTurns = 0
-							else:
-								iStarveTurns = (iStoredFood + (-iFoodDifference) - 1) / (-iFoodDifference)
-							szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_STARVE_TURNS", (iStarveTurns, ))
-						else:
-							szGrowthColor = u"<color=255,255,0>"
-							szGrowthInfo = localText.getText("INTERFACE_CITY_STAGNANT", ())
-
-						szTurnShort = localText.getText("TXT_KEY_UTOPIA_TURN_SHORT", ())
-						szFoodLine = u"%c%d/%d (%d/%s, " %(cFood, iFoodConsumption, iFoodTotal, iFoodDifference, szTurnShort) + szGrowthColor + szGrowthInfo + u"</color>)"
-
-						# Culture: current, +rate/turn (turns to next culture level)
-						cCulture = gc.getCommerceInfo(CommerceTypes.COMMERCE_CULTURE).getChar()
-						iCultureNow = pCity.getCulture(pCity.getOwner())
-						iCultureRate = pCity.getCommerceRate(CommerceTypes.COMMERCE_CULTURE)
-						szCultureLine = u"%c %d, +%d/%s" %(cCulture, iCultureNow, iCultureRate, szTurnShort)
-
+					if (pMouseOverPlot.isCity()):
 						try:
-							iMaxCultureLevel = gc.getNumCultureLevelInfos() - 1
-							if (int(pCity.getCultureLevel()) < iMaxCultureLevel and iCultureRate > 0):
-								iCultureLeft = pCity.getCultureThreshold() - iCultureNow
-								if (iCultureLeft > 0):
-									iCultureTurns = (iCultureLeft + iCultureRate - 1) / iCultureRate
-									szCultureLine += u" (" + unicode(iCultureTurns) + u" " + szTurnShort + u")"
+							pCity = pMouseOverPlot.getPlotCity()
+							if (pCity):
+								cHappy = CyGame().getSymbolID(FontSymbols.HAPPY_CHAR)
+								cHealthy = CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR)
+								cFood = gc.getYieldInfo(YieldTypes.YIELD_FOOD).getChar()
+								cHammer = gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()
+
+								def netColor(iNet):
+									if (iNet > 0):
+										return u"<color=0,255,0>"
+									elif (iNet == 0):
+										return u"<color=255,255,0>"
+									else:
+										return u"<color=255,0,0>"
+
+								# Happy: unhappy/happy (net available)
+								iHappy = pCity.happyLevel()
+								iUnhappy = pCity.unhappyLevel(0)
+								iNetHappy = iHappy - iUnhappy
+								szHappyLine = netColor(iNetHappy) + u"%c %d/%d (%d)</color>" %(cHappy, iUnhappy, iHappy, iNetHappy)
+
+								# Healthy: unhealthy/healthy (net available)
+								iHealthy = pCity.goodHealth()
+								iUnhealthy = pCity.badHealth(False)
+								iNetHealthy = iHealthy - iUnhealthy
+								szHealthyLine = netColor(iNetHealthy) + u"%c %d/%d (%d)</color>" %(cHealthy, iUnhealthy, iHealthy, iNetHealthy)
+
+								# Food: consumption/total (surplus/turn, growth status)
+								iFoodTotal = pCity.getYieldRate(YieldTypes.YIELD_FOOD)
+								iFoodConsumption = pCity.foodConsumption(False, 0)
+								iFoodDifference = pCity.foodDifference(True)
+
+								iAvoidGrowthEmphasize = gc.getInfoTypeForString("EMPHASIZE_AVOID_GROWTH")
+								bGrowthLocked = (iAvoidGrowthEmphasize != -1 and pCity.AI_isEmphasize(iAvoidGrowthEmphasize))
+
+								if (bGrowthLocked):
+									szGrowthColor = u"<color=255,255,255>"
+									szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_GROWTH_LOCKED", ())
+								elif (iFoodDifference > 0):
+									szGrowthColor = u"<color=0,255,0>"
+									szGrowthInfo = localText.getText("INTERFACE_CITY_GROWING", (pCity.getFoodTurnsLeft(), ))
+								elif (iFoodDifference < 0):
+									szGrowthColor = u"<color=255,0,0>"
+									iStoredFood = pCity.getFood()
+									if (iStoredFood <= 0):
+										iStarveTurns = 0
+									else:
+										iStarveTurns = (iStoredFood + (-iFoodDifference) - 1) / (-iFoodDifference)
+									szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_STARVE_TURNS", (iStarveTurns, ))
+								else:
+									szGrowthColor = u"<color=255,255,0>"
+									szGrowthInfo = localText.getText("INTERFACE_CITY_STAGNANT", ())
+
+								szFoodLine = u"%c%d/%d (%d/%s, " %(cFood, iFoodConsumption, iFoodTotal, iFoodDifference, szTurnShort) + szGrowthColor + szGrowthInfo + u"</color>)"
+
+								# Culture: current, +rate/turn (turns to next culture level)
+								iCultureNow = pCity.getCulture(pCity.getOwner())
+								iCultureRate = pCity.getCommerceRate(CommerceTypes.COMMERCE_CULTURE)
+								szCultureLine = u"%c %d, +%d/%s" %(cCulture, iCultureNow, iCultureRate, szTurnShort)
+
+								try:
+									iMaxCultureLevel = gc.getNumCultureLevelInfos() - 1
+									if (int(pCity.getCultureLevel()) < iMaxCultureLevel and iCultureRate > 0):
+										iCultureLeft = pCity.getCultureThreshold() - iCultureNow
+										if (iCultureLeft > 0):
+											iCultureTurns = (iCultureLeft + iCultureRate - 1) / iCultureRate
+											szCultureLine += u" (" + unicode(iCultureTurns) + u" " + szTurnShort + u")"
+								except:
+									pass
+
+								# Free (unspecialized) citizens
+								cCitizen = CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR)
+								iCitizenSpecialist = gc.getInfoTypeForString("SPECIALIST_CITIZEN")
+								if (iCitizenSpecialist != -1):
+									iFreeCitizens = pCity.getSpecialistCount(iCitizenSpecialist)
+								else:
+									iFreeCitizens = 0
+
+								szHammerLine = u"%d%c   %d%c" %(
+									pCity.getYieldRate(YieldTypes.YIELD_PRODUCTION), cHammer,
+									iFreeCitizens, cCitizen,
+								)
+
+								szPrefix = szHappyLine + u"\n" + szHealthyLine + u"\n" + szFoodLine + u"\n" + szCultureLine + u"\n" + szHammerLine
+								szHelpString = szPrefix + u"\n" + u"\n" + u"\n" + szHelpString
 						except:
 							pass
 
-						# Free (unspecialized) citizens
-						cCitizen = CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR)
-						iCitizenSpecialist = gc.getInfoTypeForString("SPECIALIST_CITIZEN")
-						if (iCitizenSpecialist != -1):
-							iFreeCitizens = pCity.getSpecialistCount(iCitizenSpecialist)
-						else:
-							iFreeCitizens = 0
+					# Culture contest forecast: which civs are gaining/losing ground on this plot,
+					# and (if contested by 2+ civs) how many turns until the leader changes.
+					try:
+						iFreeCultureRate = gc.getDefineINT("CITY_FREE_CULTURE_GROWTH_FACTOR")
+						iPlotX = pMouseOverPlot.getX()
+						iPlotY = pMouseOverPlot.getY()
+						iActivePlayer = gc.getGame().getActivePlayer()
+						iActiveTeam = gc.getGame().getActiveTeam()
+						dPlayerRate = {}
 
-						szHammerLine = u"%d%c   %d%c" %(
-							pCity.getYieldRate(YieldTypes.YIELD_PRODUCTION), cHammer,
-							iFreeCitizens, cCitizen,
-						)
+						for iLoopPlayer in range(gc.getMAX_PLAYERS()):
+							pLoopPlayer = gc.getPlayer(iLoopPlayer)
+							if not pLoopPlayer.isAlive():
+								continue
+							if (iLoopPlayer != iActivePlayer and not gc.getTeam(iActiveTeam).isHasMet(pLoopPlayer.getTeam())):
+								continue
+							(pLoopCity, iCityIter) = pLoopPlayer.firstCity(False)
+							while (pLoopCity):
+								iCultureRange = max(1, plotDistance(pLoopCity.getX(), pLoopCity.getY(), iPlotX, iPlotY))
+								iCultureLevel = int(pLoopCity.getCultureLevel())
+								if (iCultureRange <= iCultureLevel and pMouseOverPlot.isPotentialCityWorkForArea(pLoopCity.area())):
+									iRate = ((iCultureLevel - iCultureRange) * iFreeCultureRate) + pLoopCity.getCommerceRate(CommerceTypes.COMMERCE_CULTURE) + 1
+									dPlayerRate[iLoopPlayer] = dPlayerRate.get(iLoopPlayer, 0) + iRate
+								(pLoopCity, iCityIter) = pLoopPlayer.nextCity(iCityIter, False)
 
-						szPrefix = szHappyLine + u"\n" + szHealthyLine + u"\n" + szFoodLine + u"\n" + szCultureLine + u"\n" + szHammerLine
-						szHelpString = szPrefix + u"\n" + u"\n" + u"\n" + szHelpString
+						dPlayerCulture = {}
+						for iLoopPlayer in dPlayerRate.keys():
+							dPlayerCulture[iLoopPlayer] = pMouseOverPlot.getCulture(iLoopPlayer)
+						for iLoopPlayer in range(gc.getMAX_PLAYERS()):
+							if (iLoopPlayer not in dPlayerCulture) and gc.getPlayer(iLoopPlayer).isAlive():
+								if (iLoopPlayer != iActivePlayer and not gc.getTeam(iActiveTeam).isHasMet(gc.getPlayer(iLoopPlayer).getTeam())):
+									continue
+								iExistingCulture = pMouseOverPlot.getCulture(iLoopPlayer)
+								if (iExistingCulture > 0):
+									dPlayerCulture[iLoopPlayer] = iExistingCulture
+									dPlayerRate[iLoopPlayer] = dPlayerRate.get(iLoopPlayer, 0)
+
+						aPlayers = dPlayerCulture.keys()
+						if (len(aPlayers) >= 2):
+							aPlayers.sort(lambda a, b: dPlayerCulture[b] - dPlayerCulture[a])
+							iTotalCulture = sum(dPlayerCulture.values())
+
+							aLines = []
+							for iLoopPlayer in aPlayers:
+								iCur = dPlayerCulture[iLoopPlayer]
+								iRate = dPlayerRate[iLoopPlayer]
+								if (iTotalCulture > 0):
+									iPct = (iCur * 100) / iTotalCulture
+								else:
+									iPct = 0
+								pLoopPlayerObj = gc.getPlayer(iLoopPlayer)
+								szColor = u"<color=%d,%d,%d>" %(pLoopPlayerObj.getPlayerTextColorR(), pLoopPlayerObj.getPlayerTextColorG(), pLoopPlayerObj.getPlayerTextColorB())
+								aLines.append(szColor + u"%c %d%% %s (+%d/%s)</color>" %(cCulture, iPct, pLoopPlayerObj.getCivilizationAdjective(0), iRate, szTurnShort))
+
+							szContestBlock = u"\n".join(aLines)
+
+							iLeader = aPlayers[0]
+							iChallenger = aPlayers[1]
+							iRateDiff = dPlayerRate[iChallenger] - dPlayerRate[iLeader]
+							iCultureDiff = dPlayerCulture[iLeader] - dPlayerCulture[iChallenger]
+							if (iRateDiff > 0 and iCultureDiff >= 0):
+								iTurnsToFlip = (iCultureDiff / iRateDiff) + 1
+								pChallengerObj = gc.getPlayer(iChallenger)
+								szWinnerColor = u"<color=%d,%d,%d>" %(pChallengerObj.getPlayerTextColorR(), pChallengerObj.getPlayerTextColorG(), pChallengerObj.getPlayerTextColorB())
+								szContestBlock += u"\n" + szWinnerColor + u"-> " + pChallengerObj.getCivilizationAdjective(0) + u": " + unicode(iTurnsToFlip) + u" " + szTurnShort + u"</color>"
+
+							szHelpString = szHelpString + u"\n" + szContestBlock
+					except:
+						pass
 			except:
 				pass
 
