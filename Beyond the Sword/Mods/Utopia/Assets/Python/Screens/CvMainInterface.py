@@ -3100,6 +3100,22 @@ class CvMainInterface:
 						szTurnShort = localText.getText("TXT_KEY_UTOPIA_TURN_SHORT", ())
 						szFoodLine = u"%c%d/%d (%d/%s, " %(cFood, iFoodConsumption, iFoodTotal, iFoodDifference, szTurnShort) + szGrowthColor + szGrowthInfo + u"</color>)"
 
+						# Culture: current, +rate/turn (turns to next culture level)
+						cCulture = gc.getCommerceInfo(CommerceTypes.COMMERCE_CULTURE).getChar()
+						iCultureNow = pCity.getCulture(pCity.getOwner())
+						iCultureRate = pCity.getCommerceRate(CommerceTypes.COMMERCE_CULTURE)
+						szCultureLine = u"%c %d, +%d/%s" %(cCulture, iCultureNow, iCultureRate, szTurnShort)
+
+						try:
+							iMaxCultureLevel = gc.getNumCultureLevelInfos() - 1
+							if (int(pCity.getCultureLevel()) < iMaxCultureLevel and iCultureRate > 0):
+								iCultureLeft = pCity.getCultureThreshold() - iCultureNow
+								if (iCultureLeft > 0):
+									iCultureTurns = (iCultureLeft + iCultureRate - 1) / iCultureRate
+									szCultureLine += u" (" + unicode(iCultureTurns) + u" " + szTurnShort + u")"
+						except:
+							pass
+
 						# Free (unspecialized) citizens
 						cCitizen = CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR)
 						iCitizenSpecialist = gc.getInfoTypeForString("SPECIALIST_CITIZEN")
@@ -3113,7 +3129,7 @@ class CvMainInterface:
 							iFreeCitizens, cCitizen,
 						)
 
-						szPrefix = szHappyLine + u"\n" + szHealthyLine + u"\n" + szFoodLine + u"\n" + szHammerLine
+						szPrefix = szHappyLine + u"\n" + szHealthyLine + u"\n" + szFoodLine + u"\n" + szCultureLine + u"\n" + szHammerLine
 						szHelpString = szPrefix + u"\n" + u"\n" + u"\n" + szHelpString
 			except:
 				pass
