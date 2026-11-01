@@ -24,7 +24,7 @@
 				<BonusType>BONUS_INCENSE</BonusType>
 			</PrereqBonuses>
 			<HeadquarterCommerces>
-				<iHeadquarterCommerce>3</iHeadquarterCommerce>
+				<iHeadquarterCommerce>2</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 			</HeadquarterCommerces>
@@ -33,7 +33,7 @@
 				<iCommerceProduced>40</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
-				<iYieldProduced>200</iYieldProduced>
+				<iYieldProduced>125</iYieldProduced>
 			</YieldsProduced>
 			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,1,6</Button>
 			<MovieFile>NONE</MovieFile>
@@ -65,10 +65,10 @@
 			<CommercesProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>50</iCommerceProduced>
+				<iCommerceProduced>60</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
-				<iYieldProduced>50</iYieldProduced>
+				<iYieldProduced>85</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
@@ -93,7 +93,7 @@
 				<BonusType>BONUS_SUGAR</BonusType>
 			</PrereqBonuses>
 			<HeadquarterCommerces>
-				<iHeadquarterCommerce>2</iHeadquarterCommerce>
+				<iHeadquarterCommerce>1</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 			</HeadquarterCommerces>
@@ -135,11 +135,11 @@
 			<CommercesProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>50</iCommerceProduced>
+				<iCommerceProduced>65</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>100</iYieldProduced>
+				<iYieldProduced>115</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
 			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,4,6</Button>
@@ -166,7 +166,7 @@
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
 			<HeadquarterCommerces>
-				<iHeadquarterCommerce>3</iHeadquarterCommerce>
+				<iHeadquarterCommerce>2</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 			</HeadquarterCommerces>
@@ -178,7 +178,7 @@
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
-				<iYieldProduced>200</iYieldProduced>
+				<iYieldProduced>165</iYieldProduced>
 				<iYieldProduced>0</iYieldProduced>
 			</YieldsProduced>
 			<Button>,Art/Interface/Buttons/TechTree/Corporation.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,5,6</Button>
@@ -200,14 +200,14 @@
 				<BonusType>BONUS_OIL</BonusType>
 			</PrereqBonuses>
 			<HeadquarterCommerces>
-				<iHeadquarterCommerce>2</iHeadquarterCommerce>
+				<iHeadquarterCommerce>1</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 				<iHeadquarterCommerce>0</iHeadquarterCommerce>
 			</HeadquarterCommerces>
 			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
 				<iCommerceProduced>0</iCommerceProduced>
-				<iCommerceProduced>200</iCommerceProduced>
+				<iCommerceProduced>225</iCommerceProduced>
 			</CommercesProduced>
 			<YieldsProduced>
 				<iYieldProduced>0</iYieldProduced>
@@ -242,7 +242,7 @@
 			</HeadquarterCommerces>
 			<BonusProduced>NONE</BonusProduced>
 			<CommercesProduced>
-				<iCommerceProduced>150</iCommerceProduced>
+				<iCommerceProduced>100</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>0</iCommerceProduced>
 				<iCommerceProduced>200</iCommerceProduced>
