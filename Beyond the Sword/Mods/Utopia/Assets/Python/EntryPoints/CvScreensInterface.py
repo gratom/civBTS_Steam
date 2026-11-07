@@ -3,6 +3,7 @@
 import CvMainInterface
 import CvDomesticAdvisor
 import CvConstructionPlanner
+import CvResourceAdvisor
 import CvTechChooser
 import CvForeignAdvisor
 import CvExoticForeignAdvisor
@@ -119,6 +120,11 @@ constructionPlanner = CvConstructionPlanner.CvConstructionPlanner()
 def showConstructionPlanner():
 	if (-1 != CyGame().getActivePlayer()):
 		constructionPlanner.interfaceScreen()
+
+resourceAdvisor = CvResourceAdvisor.CvResourceAdvisor()
+def showResourceAdvisor():
+	if (-1 != CyGame().getActivePlayer()):
+		resourceAdvisor.interfaceScreen()
 
 militaryAdvisor = CvMilitaryAdvisor.CvMilitaryAdvisor(MILITARY_ADVISOR)
 def showMilitaryAdvisor():
@@ -881,6 +887,7 @@ HandleCloseMap = {  DAWN_OF_MAN : dawnOfMan,
 HandleInputMap = {  MAIN_INTERFACE : mainInterface,
 					DOMESTIC_ADVISOR : domesticAdvisor,
 					CONSTRUCTION_PLANNER : constructionPlanner,
+					RESOURCE_ADVISOR : resourceAdvisor,
 					RELIGION_SCREEN : religionScreen,
 					CORPORATION_SCREEN : corporationScreen,
 					CIVICS_SCREEN : civicScreen,

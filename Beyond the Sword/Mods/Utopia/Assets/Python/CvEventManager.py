@@ -21,7 +21,6 @@ import CvWorldBuilderScreen
 import CvAdvisorUtils
 import CvTechChooser
 import ClimatManager
-import ModGameData
 
 gc = CyGlobalContext()
 localText = CyTranslator()
@@ -33,16 +32,13 @@ PyInfo = PyHelpers.PyInfo
 ###################################################
 
 
-g_iNumNukesWarningMessage = 7
-g_iNumNukesGameOver = 20
-
 # AI "wild growth" tile improvements (doAIWildImprovements)
 # % chance per turn (0-100), rolled per eligible tile with the synced game RNG,
 # for an AI-worked tile to advance one step up the cottage chain on its own.
 # Set any value to 0 to disable that step.
-CottageChance = 5
-HamletChance = 1
-VillageChance = 1
+CottageChance = 10
+HamletChance = 5
+VillageChance = 2
 TownChance = 1
 
 # Once a city has at least (population * Num / Den) Farms (or Workshops), its *extra* Farms/Workshops
@@ -325,6 +321,19 @@ class CvEventManager:
 			CvAutoGrowthManager.handleNetMessage(iData2, iData3, iData4, iData5)
 			return
 
+		import CvAutoScienceManager
+		if (iData1 == CvAutoScienceManager.MOD_MESSAGE_TOGGLE_AUTO_SCIENCE):
+			CvAutoScienceManager.handleNetMessage(iData2, iData3, iData4, iData5)
+			return
+
+		import CvAutoMilitaryBuildManager
+		if (iData1 == CvAutoMilitaryBuildManager.MOD_MESSAGE_TOGGLE_CITY):
+			CvAutoMilitaryBuildManager.handleToggleCityMessage(iData2, iData3, iData4, iData5)
+			return
+		if (iData1 == CvAutoMilitaryBuildManager.MOD_MESSAGE_SET_DESIRED_COUNT):
+			CvAutoMilitaryBuildManager.handleSetDesiredCountMessage(iData2, iData3, iData4, iData5)
+			return
+
 		CvUtil.pyPrint( 'onModNetMessage' )
 
 	def onInit(self, argsList):
@@ -362,7 +371,6 @@ class CvEventManager:
 	def onGameStart(self, argsList):
 		'Called at the start of the game'
 
-		self.initScriptData()
 		ClimatManager.initLandPlotsCache()
 
 		if (gc.getGame().getGameTurnYear() == gc.getDefineINT("START_YEAR") and not gc.getGame().isOption(GameOptionTypes.GAMEOPTION_ADVANCED_START)):
@@ -411,6 +419,12 @@ class CvEventManager:
 		'Called at the beginning of a players turn'
 		iGameTurn, iPlayer = argsList
 
+		import CvAutoScienceManager
+		CvAutoScienceManager.enforcePlayer(iPlayer)
+
+		import CvLabourExchangeManager
+		CvLabourExchangeManager.enforcePlayer(iPlayer)
+
 	def onEndPlayerTurn(self, argsList):
 		'Called at the end of a players turn'
 		iGameTurn, iPlayer = argsList
@@ -430,6 +444,12 @@ class CvEventManager:
 
 		import CvAutoGrowthManager
 		CvAutoGrowthManager.enforcePlayer(iPlayer)
+
+		import CvAutoMilitaryBuildManager
+		CvAutoMilitaryBuildManager.enforcePlayer(iPlayer)
+
+		import CvBetterEspionage
+		CvBetterEspionage.enforcePlayer(iPlayer)
 
 		self.doAIWildImprovements(iPlayer)
 
@@ -630,8 +650,6 @@ class CvEventManager:
 		CvUtil.pyPrint('Nuke detonated at %d, %d'
 			%(pPlot.getX(), pPlot.getY()))
 
-		self.changeGameNumNukes(1)
-		
 	def onGotoPlotSet(self, argsList):
 		'Nuke Explosion'
 		pPlot, iPlayer = argsList
@@ -1063,6 +1081,13 @@ class CvEventManager:
 		pCity = argsList[0]
 		iHurryType = argsList[1]
 
+		# Fires once the engine has actually applied the hurry - CvDomesticAdvisor's own
+		# Domestic_Advisor_DIRTY_BIT set right after sendDoTask(TASK_HURRY) in doHurryClick
+		# only means "requested", not "applied yet", so a refresh triggered from there alone
+		# could still read pre-hurry city stats. This one is the reliable trigger.
+		if (pCity.getOwner() == gc.getGame().getActivePlayer()):
+			CyInterface().setDirty(InterfaceDirtyBits.Domestic_Advisor_DIRTY_BIT, True)
+
 	def onVictory(self, argsList):
 		'Victory'
 		iTeam, iVictory = argsList
@@ -1362,39 +1387,4 @@ class CvEventManager:
 			popup.setBodyString(szText)
 			popup.launch(true, PopupStates.POPUPSTATE_QUEUED)
 
-
-	def initScriptData(self):
-		ModGameData.setValue("numNukes", 0)
-
-	def getGameNumNukes(self):
-		return ModGameData.getValue("numNukes", 0)
-	def setGameNumNukes(self, iValue):
-		ModGameData.setValue("numNukes", iValue)
-
-		self.checkNukeStuff(iValue)
-
-	def changeGameNumNukes(self, iChange):
-		iNumNukes = ModGameData.getValue("numNukes", 0) + iChange
-		ModGameData.setValue("numNukes", iNumNukes)
-
-		self.checkNukeStuff(iNumNukes)
-		
-	def checkNukeStuff(self, iNumNukes):
-		
-		print("iNumNukes")
-		print(iNumNukes)
-		print("g_iNumNukesGameOver")
-		print(g_iNumNukesGameOver)
-		
-		# Amount of nukes matches Warning message
-		if (CyMap().plot(0,0).getScriptData() == "Scenario"):
-			if (iNumNukes == g_iNumNukesWarningMessage):
-				self.addPopup("", localText.getText("TXT_KEY_ROUND_THREE_NUKE_WARNING", ()))
-		
-		# Amount of nukes matches Game over
-			elif (iNumNukes == g_iNumNukesGameOver):
-			
-			# Show the screen that shows the world 'sploding
-				CvScreensInterface.showNextWarScreen()
-				gc.getGame().setWinner(18, 3)
 

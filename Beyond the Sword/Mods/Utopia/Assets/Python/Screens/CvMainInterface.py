@@ -6,8 +6,10 @@ import ScreenInput
 import CvScreenEnums
 import CvEventInterface
 import CvNetworkNameFix
+import PyHelpers
 import CvAutoSpecialistManager
 import CvAutoGrowthManager
+import CvAutoScienceManager
 import time
 
 # globals
@@ -16,6 +18,20 @@ ArtFileMgr = CyArtFileMgr()
 localText = CyTranslator()
 
 fixNetworkPlayerName = CvNetworkNameFix.fixNetworkPlayerName
+
+def calculatePlayerNetScience(ePlayer):
+	"""Sums each city's actual science commerce rate.
+
+	calculateResearchRate() can disagree with what the cities themselves
+	report (it's meant for hypothetical "what if" previews, not a clean
+	current total), so for a side-by-side comparison we add up the real
+	per-city COMMERCE_RESEARCH rate instead - the same number each city
+	screen shows for itself.
+	"""
+	iTotal = 0
+	for pCity in PyHelpers.PyPlayer(ePlayer).getCityList():
+		iTotal += pCity.GetCy().getCommerceRate(CommerceTypes.COMMERCE_RESEARCH)
+	return iTotal
 
 g_NumEmphasizeInfos = 0
 g_NumCityTabTypes = 0
@@ -242,9 +258,12 @@ class CvMainInterface:
 		screen.setStyle( "TurnLogButton", "Button_HUDLog_Style" )
 		screen.hide( "TurnLogButton" )
 		
-		iBtnX = xResolution - 325
-		
-		# Advisor Buttons...
+		iBtnX = xResolution - 350
+
+		# Advisor Buttons... (one extra icon - ResourceAdvisorButton - was inserted after
+		# ConstructionPlannerButton, so the row start above was shifted left by one
+		# iBtnAdvance (25px) to compensate - otherwise ClimateAdvisorButton, the last icon
+		# in this row, runs off the right edge of the screen.)
 		screen.setImageButton( "DomesticAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_DOMESTIC_SCREEN).getActionInfoIndex(), -1 )
 		screen.setStyle( "DomesticAdvisorButton", "Button_HUDAdvisorDomestic_Style" )
 		screen.hide( "DomesticAdvisorButton" )
@@ -252,6 +271,10 @@ class CvMainInterface:
 		iBtnX += iBtnAdvance
 		screen.setImageButton( "ConstructionPlannerButton", "Art/Interface/Buttons/TechTree/BuilderWindow.dds", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 		screen.hide( "ConstructionPlannerButton" )
+
+		iBtnX += iBtnAdvance
+		screen.setImageButton( "ResourceAdvisorButton", "Art/Interface/Buttons/TechTree/Resoures.dds", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+		screen.hide( "ResourceAdvisorButton" )
 
 		iBtnX += iBtnAdvance
 		screen.setImageButton( "FinanceAdvisorButton", "", iBtnX, iBtnY, iBtnWidth, iBtnWidth, WidgetTypes.WIDGET_ACTION, gc.getControlInfo(ControlTypes.CONTROL_FINANCIAL_SCREEN).getActionInfoIndex(), -1 )
@@ -775,6 +798,7 @@ class CvMainInterface:
 			screen.hide( szString )
 			szString = "DecreasePercent" + str(iI)
 			screen.hide( szString )
+		screen.hide( "ToggleAutoScienceButton" )
 
 		pHeadSelectedCity = CyInterface().getHeadSelectedCity()
 
@@ -785,7 +809,7 @@ class CvMainInterface:
 				for iI in range( CommerceTypes.NUM_COMMERCE_TYPES ):
 					# Intentional offset...
 					eCommerce = (iI + 1) % CommerceTypes.NUM_COMMERCE_TYPES
-										
+
 					if (gc.getActivePlayer().isCommerceFlexible(eCommerce) or (CyInterface().isCityScreenUp() and (eCommerce == CommerceTypes.COMMERCE_GOLD))):
 						szString1 = "IncreasePercent" + str(eCommerce)
 						screen.setButtonGFC( szString1, u"", "", 70, 50 + (19 * iCount), 20, 20, WidgetTypes.WIDGET_CHANGE_PERCENT, eCommerce, gc.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"), ButtonStyles.BUTTON_STYLE_CITY_PLUS )
@@ -793,6 +817,15 @@ class CvMainInterface:
 						szString2 = "DecreasePercent" + str(eCommerce)
 						screen.setButtonGFC( szString2, u"", "", 90, 50 + (19 * iCount), 20, 20, WidgetTypes.WIDGET_CHANGE_PERCENT, eCommerce, -gc.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS"), ButtonStyles.BUTTON_STYLE_CITY_MINUS )
 						screen.show( szString2 )
+
+						if (eCommerce == CommerceTypes.COMMERCE_RESEARCH):
+							if (CvAutoScienceManager.isAutoScience(gc.getActivePlayer())):
+								szTexture = "Art/Interface/Buttons/UI/AutoGrowEnabled.dds"
+							else:
+								szTexture = "Art/Interface/Buttons/UI/AutoGrowDisabled.dds"
+							screen.setImageButton( "ToggleAutoScienceButton", szTexture, 112, 48 + (19 * iCount), 20, 20, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+							screen.show( "ToggleAutoScienceButton" )
+							screen.moveToFront( "ToggleAutoScienceButton" )
 
 						iCount = iCount + 1
 
@@ -802,7 +835,7 @@ class CvMainInterface:
 						else:
 							screen.enable( szString1, False )
 							screen.enable( szString2, False )
-							
+
 		return 0
 
 	# Will update the end Turn Button
@@ -872,6 +905,7 @@ class CvMainInterface:
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
 			screen.hide( "ConstructionPlannerButton" )
+			screen.hide( "ResourceAdvisorButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -896,6 +930,7 @@ class CvMainInterface:
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
 			screen.hide( "ConstructionPlannerButton" )
+			screen.hide( "ResourceAdvisorButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -920,6 +955,7 @@ class CvMainInterface:
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
 			screen.show( "ConstructionPlannerButton" )
+			screen.show( "ResourceAdvisorButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -934,6 +970,7 @@ class CvMainInterface:
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ConstructionPlannerButton" )
+			screen.moveToFront( "ResourceAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -958,6 +995,7 @@ class CvMainInterface:
 			screen.hide( "EspionageAdvisorButton" )
 			screen.hide( "DomesticAdvisorButton" )
 			screen.hide( "ConstructionPlannerButton" )
+			screen.hide( "ResourceAdvisorButton" )
 			screen.hide( "ForeignAdvisorButton" )
 			screen.hide( "TechAdvisorButton" )
 			screen.hide( "CivicsAdvisorButton" )
@@ -982,6 +1020,7 @@ class CvMainInterface:
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
 			screen.show( "ConstructionPlannerButton" )
+			screen.show( "ResourceAdvisorButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -996,6 +1035,7 @@ class CvMainInterface:
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ConstructionPlannerButton" )
+			screen.moveToFront( "ResourceAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -1020,6 +1060,7 @@ class CvMainInterface:
 			screen.show( "EspionageAdvisorButton" )
 			screen.show( "DomesticAdvisorButton" )
 			screen.show( "ConstructionPlannerButton" )
+			screen.show( "ResourceAdvisorButton" )
 			screen.show( "ForeignAdvisorButton" )
 			screen.show( "TechAdvisorButton" )
 			screen.show( "CivicsAdvisorButton" )
@@ -1034,6 +1075,7 @@ class CvMainInterface:
 			screen.moveToFront( "EspionageAdvisorButton" )
 			screen.moveToFront( "DomesticAdvisorButton" )
 			screen.moveToFront( "ConstructionPlannerButton" )
+			screen.moveToFront( "ResourceAdvisorButton" )
 			screen.moveToFront( "ForeignAdvisorButton" )
 			screen.moveToFront( "TechAdvisorButton" )
 			screen.moveToFront( "CivicsAdvisorButton" )
@@ -1784,7 +1826,7 @@ class CvMainInterface:
 						if not CyInterface().isCityScreenUp():
 							szOutText = u"<font=2>" + localText.getText("TXT_KEY_MISC_POS_GOLD_PER_TURN", (gc.getPlayer(ePlayer).getCommerceRate(CommerceTypes(eCommerce)), )) + u"</font>"
 							szString = "RateText" + str(iI)
-							screen.setLabel( szString, "Background", szOutText, CvUtil.FONT_LEFT_JUSTIFY, 112, 50 + (iCount * 19), -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+							screen.setLabel( szString, "Background", szOutText, CvUtil.FONT_LEFT_JUSTIFY, 136, 50 + (iCount * 19), -0.1, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 							screen.show( szString )
 
 						iCount = iCount + 1;
@@ -2040,7 +2082,7 @@ class CvMainInterface:
 						szTexture = "Art/Interface/Buttons/UI/AutoGrowEnabled.dds"
 					else:
 						szTexture = "Art/Interface/Buttons/UI/AutoGrowDisabled.dds"
-					screen.setImageButton( "ConsiderHealthButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow1Y - 4, 32, 32, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.setImageButton( "ConsiderHealthButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow1Y - 4, 24, 24, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 					screen.show( "ConsiderHealthButton" )
 					screen.moveToFront( "ConsiderHealthButton" )
 
@@ -2112,7 +2154,7 @@ class CvMainInterface:
 						szTexture = "Art/Interface/Buttons/UI/AutoGrowEnabled.dds"
 					else:
 						szTexture = "Art/Interface/Buttons/UI/AutoGrowDisabled.dds"
-					screen.setImageButton( "ConsiderHappyButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow2Y - 4, 32, 32, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.setImageButton( "ConsiderHappyButton", szTexture, xResolution - iCityCenterRow1X + 6 + 100, iCityCenterRow2Y - 4, 24, 24, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 					screen.show( "ConsiderHappyButton" )
 					screen.moveToFront( "ConsiderHappyButton" )
 
@@ -2838,7 +2880,7 @@ class CvMainInterface:
 			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyEngine().isGlobeviewUp() == false):
 
 				iOurProduction = gc.getPlayer(gc.getGame().getActivePlayer()).calculateTotalYield(YieldTypes.YIELD_PRODUCTION)
-				iOurScience = gc.getPlayer(gc.getGame().getActivePlayer()).calculateResearchRate(-1)
+				iOurScience = calculatePlayerNetScience(gc.getGame().getActivePlayer())
 				iOurPower = gc.getPlayer(gc.getGame().getActivePlayer()).getPower()
 
 				i = gc.getMAX_CIV_TEAMS() - 1
@@ -2915,7 +2957,7 @@ class CvMainInterface:
 											szEspInner = u""
 											if ((bTeamVisible or bEspionageCanSeeResearch) and gc.getPlayer(ePlayer).getCurrentResearch() != -1):
 												iTheirProduction = gc.getPlayer(ePlayer).calculateTotalYield(YieldTypes.YIELD_PRODUCTION)
-												iTheirScience = gc.getPlayer(ePlayer).calculateResearchRate(-1)
+												iTheirScience = calculatePlayerNetScience(ePlayer)
 												if (iOurProduction > 0):
 													iProductionPercent = (iTheirProduction * 100) / iOurProduction
 												else:
@@ -3001,78 +3043,169 @@ class CvMainInterface:
 
 			try:
 				pMouseOverPlot = CyInterface().getMouseOverPlot()
-				if (pMouseOverPlot and pMouseOverPlot.isCity()):
-					pCity = pMouseOverPlot.getPlotCity()
-					if (pCity):
-						cHappy = CyGame().getSymbolID(FontSymbols.HAPPY_CHAR)
-						cHealthy = CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR)
-						cFood = gc.getYieldInfo(YieldTypes.YIELD_FOOD).getChar()
-						cHammer = gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()
+				if (pMouseOverPlot and pMouseOverPlot.isActiveVisible(False)):
+					szTurnShort = localText.getText("TXT_KEY_UTOPIA_TURN_SHORT", ())
+					cCulture = gc.getCommerceInfo(CommerceTypes.COMMERCE_CULTURE).getChar()
 
-						def netColor(iNet):
-							if (iNet > 0):
-								return u"<color=0,255,0>"
-							elif (iNet == 0):
-								return u"<color=255,255,0>"
-							else:
-								return u"<color=255,0,0>"
+					if (pMouseOverPlot.isCity()):
+						try:
+							pCity = pMouseOverPlot.getPlotCity()
+							if (pCity):
+								cHappy = CyGame().getSymbolID(FontSymbols.HAPPY_CHAR)
+								cHealthy = CyGame().getSymbolID(FontSymbols.HEALTHY_CHAR)
+								cFood = gc.getYieldInfo(YieldTypes.YIELD_FOOD).getChar()
+								cHammer = gc.getYieldInfo(YieldTypes.YIELD_PRODUCTION).getChar()
 
-						# Happy: unhappy/happy (net available)
-						iHappy = pCity.happyLevel()
-						iUnhappy = pCity.unhappyLevel(0)
-						iNetHappy = iHappy - iUnhappy
-						szHappyLine = netColor(iNetHappy) + u"%c %d/%d (%d)</color>" %(cHappy, iUnhappy, iHappy, iNetHappy)
+								def netColor(iNet):
+									if (iNet > 0):
+										return u"<color=0,255,0>"
+									elif (iNet == 0):
+										return u"<color=255,255,0>"
+									else:
+										return u"<color=255,0,0>"
 
-						# Healthy: unhealthy/healthy (net available)
-						iHealthy = pCity.goodHealth()
-						iUnhealthy = pCity.badHealth(False)
-						iNetHealthy = iHealthy - iUnhealthy
-						szHealthyLine = netColor(iNetHealthy) + u"%c %d/%d (%d)</color>" %(cHealthy, iUnhealthy, iHealthy, iNetHealthy)
+								# Happy: unhappy/happy (net available)
+								iHappy = pCity.happyLevel()
+								iUnhappy = pCity.unhappyLevel(0)
+								iNetHappy = iHappy - iUnhappy
+								szHappyLine = netColor(iNetHappy) + u"%c %d/%d (%d)</color>" %(cHappy, iUnhappy, iHappy, iNetHappy)
 
-						# Food: consumption/total (surplus/turn, growth status)
-						iFoodTotal = pCity.getYieldRate(YieldTypes.YIELD_FOOD)
-						iFoodConsumption = pCity.foodConsumption(False, 0)
-						iFoodDifference = pCity.foodDifference(True)
+								# Healthy: unhealthy/healthy (net available)
+								iHealthy = pCity.goodHealth()
+								iUnhealthy = pCity.badHealth(False)
+								iNetHealthy = iHealthy - iUnhealthy
+								szHealthyLine = netColor(iNetHealthy) + u"%c %d/%d (%d)</color>" %(cHealthy, iUnhealthy, iHealthy, iNetHealthy)
 
-						iAvoidGrowthEmphasize = gc.getInfoTypeForString("EMPHASIZE_AVOID_GROWTH")
-						bGrowthLocked = (iAvoidGrowthEmphasize != -1 and pCity.AI_isEmphasize(iAvoidGrowthEmphasize))
+								# Food: consumption/total (surplus/turn, growth status)
+								iFoodTotal = pCity.getYieldRate(YieldTypes.YIELD_FOOD)
+								iFoodConsumption = pCity.foodConsumption(False, 0)
+								iFoodDifference = pCity.foodDifference(True)
 
-						if (bGrowthLocked):
-							szGrowthColor = u"<color=255,255,255>"
-							szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_GROWTH_LOCKED", ())
-						elif (iFoodDifference > 0):
-							szGrowthColor = u"<color=0,255,0>"
-							szGrowthInfo = localText.getText("INTERFACE_CITY_GROWING", (pCity.getFoodTurnsLeft(), ))
-						elif (iFoodDifference < 0):
-							szGrowthColor = u"<color=255,0,0>"
-							iStoredFood = pCity.getFood()
-							if (iStoredFood <= 0):
-								iStarveTurns = 0
-							else:
-								iStarveTurns = (iStoredFood + (-iFoodDifference) - 1) / (-iFoodDifference)
-							szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_STARVE_TURNS", (iStarveTurns, ))
-						else:
-							szGrowthColor = u"<color=255,255,0>"
-							szGrowthInfo = localText.getText("INTERFACE_CITY_STAGNANT", ())
+								iAvoidGrowthEmphasize = gc.getInfoTypeForString("EMPHASIZE_AVOID_GROWTH")
+								bGrowthLocked = (iAvoidGrowthEmphasize != -1 and pCity.AI_isEmphasize(iAvoidGrowthEmphasize))
 
-						szTurnShort = localText.getText("TXT_KEY_UTOPIA_TURN_SHORT", ())
-						szFoodLine = u"%c%d/%d (%d/%s, " %(cFood, iFoodConsumption, iFoodTotal, iFoodDifference, szTurnShort) + szGrowthColor + szGrowthInfo + u"</color>)"
+								if (bGrowthLocked):
+									szGrowthColor = u"<color=255,255,255>"
+									szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_GROWTH_LOCKED", ())
+								elif (iFoodDifference > 0):
+									szGrowthColor = u"<color=0,255,0>"
+									szGrowthInfo = localText.getText("INTERFACE_CITY_GROWING", (pCity.getFoodTurnsLeft(), ))
+								elif (iFoodDifference < 0):
+									szGrowthColor = u"<color=255,0,0>"
+									iStoredFood = pCity.getFood()
+									if (iStoredFood <= 0):
+										iStarveTurns = 0
+									else:
+										iStarveTurns = (iStoredFood + (-iFoodDifference) - 1) / (-iFoodDifference)
+									szGrowthInfo = localText.getText("TXT_KEY_UTOPIA_STARVE_TURNS", (iStarveTurns, ))
+								else:
+									szGrowthColor = u"<color=255,255,0>"
+									szGrowthInfo = localText.getText("INTERFACE_CITY_STAGNANT", ())
 
-						# Free (unspecialized) citizens
-						cCitizen = CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR)
-						iCitizenSpecialist = gc.getInfoTypeForString("SPECIALIST_CITIZEN")
-						if (iCitizenSpecialist != -1):
-							iFreeCitizens = pCity.getSpecialistCount(iCitizenSpecialist)
-						else:
-							iFreeCitizens = 0
+								szFoodLine = u"%c%d/%d (%d/%s, " %(cFood, iFoodConsumption, iFoodTotal, iFoodDifference, szTurnShort) + szGrowthColor + szGrowthInfo + u"</color>)"
 
-						szHammerLine = u"%d%c   %d%c" %(
-							pCity.getYieldRate(YieldTypes.YIELD_PRODUCTION), cHammer,
-							iFreeCitizens, cCitizen,
-						)
+								# Culture: current, +rate/turn (turns to next culture level)
+								iCultureNow = pCity.getCulture(pCity.getOwner())
+								iCultureRate = pCity.getCommerceRate(CommerceTypes.COMMERCE_CULTURE)
+								szCultureLine = u"%c %d, +%d/%s" %(cCulture, iCultureNow, iCultureRate, szTurnShort)
 
-						szPrefix = szHappyLine + u"\n" + szHealthyLine + u"\n" + szFoodLine + u"\n" + szHammerLine
-						szHelpString = szPrefix + u"\n" + u"\n" + u"\n" + szHelpString
+								try:
+									iMaxCultureLevel = gc.getNumCultureLevelInfos() - 1
+									if (int(pCity.getCultureLevel()) < iMaxCultureLevel and iCultureRate > 0):
+										iCultureLeft = pCity.getCultureThreshold() - iCultureNow
+										if (iCultureLeft > 0):
+											iCultureTurns = (iCultureLeft + iCultureRate - 1) / iCultureRate
+											szCultureLine += u" (" + unicode(iCultureTurns) + u" " + szTurnShort + u")"
+								except:
+									pass
+
+								# Free (unspecialized) citizens
+								cCitizen = CyGame().getSymbolID(FontSymbols.ANGRY_POP_CHAR)
+								iCitizenSpecialist = gc.getInfoTypeForString("SPECIALIST_CITIZEN")
+								if (iCitizenSpecialist != -1):
+									iFreeCitizens = pCity.getSpecialistCount(iCitizenSpecialist)
+								else:
+									iFreeCitizens = 0
+
+								szHammerLine = u"%d%c   %d%c" %(
+									pCity.getYieldRate(YieldTypes.YIELD_PRODUCTION), cHammer,
+									iFreeCitizens, cCitizen,
+								)
+
+								szPrefix = szHappyLine + u"\n" + szHealthyLine + u"\n" + szFoodLine + u"\n" + szCultureLine + u"\n" + szHammerLine
+								szHelpString = szPrefix + u"\n" + u"\n" + u"\n" + szHelpString
+						except:
+							pass
+
+					# Culture contest forecast: which civs are gaining/losing ground on this plot,
+					# and (if contested by 2+ civs) how many turns until the leader changes.
+					try:
+						iFreeCultureRate = gc.getDefineINT("CITY_FREE_CULTURE_GROWTH_FACTOR")
+						iPlotX = pMouseOverPlot.getX()
+						iPlotY = pMouseOverPlot.getY()
+						iActivePlayer = gc.getGame().getActivePlayer()
+						iActiveTeam = gc.getGame().getActiveTeam()
+						dPlayerRate = {}
+
+						for iLoopPlayer in range(gc.getMAX_PLAYERS()):
+							pLoopPlayer = gc.getPlayer(iLoopPlayer)
+							if not pLoopPlayer.isAlive():
+								continue
+							if (iLoopPlayer != iActivePlayer and not gc.getTeam(iActiveTeam).isHasMet(pLoopPlayer.getTeam())):
+								continue
+							(pLoopCity, iCityIter) = pLoopPlayer.firstCity(False)
+							while (pLoopCity):
+								iCultureRange = max(1, plotDistance(pLoopCity.getX(), pLoopCity.getY(), iPlotX, iPlotY))
+								iCultureLevel = int(pLoopCity.getCultureLevel())
+								if (iCultureRange <= iCultureLevel and pMouseOverPlot.isPotentialCityWorkForArea(pLoopCity.area())):
+									iRate = ((iCultureLevel - iCultureRange) * iFreeCultureRate) + pLoopCity.getCommerceRate(CommerceTypes.COMMERCE_CULTURE) + 1
+									dPlayerRate[iLoopPlayer] = dPlayerRate.get(iLoopPlayer, 0) + iRate
+								(pLoopCity, iCityIter) = pLoopPlayer.nextCity(iCityIter, False)
+
+						dPlayerCulture = {}
+						for iLoopPlayer in dPlayerRate.keys():
+							dPlayerCulture[iLoopPlayer] = pMouseOverPlot.getCulture(iLoopPlayer)
+						for iLoopPlayer in range(gc.getMAX_PLAYERS()):
+							if (iLoopPlayer not in dPlayerCulture) and gc.getPlayer(iLoopPlayer).isAlive():
+								if (iLoopPlayer != iActivePlayer and not gc.getTeam(iActiveTeam).isHasMet(gc.getPlayer(iLoopPlayer).getTeam())):
+									continue
+								iExistingCulture = pMouseOverPlot.getCulture(iLoopPlayer)
+								if (iExistingCulture > 0):
+									dPlayerCulture[iLoopPlayer] = iExistingCulture
+									dPlayerRate[iLoopPlayer] = dPlayerRate.get(iLoopPlayer, 0)
+
+						aPlayers = dPlayerCulture.keys()
+						if (len(aPlayers) >= 2):
+							aPlayers.sort(lambda a, b: dPlayerCulture[b] - dPlayerCulture[a])
+							iTotalCulture = sum(dPlayerCulture.values())
+
+							aLines = []
+							for iLoopPlayer in aPlayers:
+								iCur = dPlayerCulture[iLoopPlayer]
+								iRate = dPlayerRate[iLoopPlayer]
+								if (iTotalCulture > 0):
+									iPct = (iCur * 100) / iTotalCulture
+								else:
+									iPct = 0
+								pLoopPlayerObj = gc.getPlayer(iLoopPlayer)
+								szColor = u"<color=%d,%d,%d>" %(pLoopPlayerObj.getPlayerTextColorR(), pLoopPlayerObj.getPlayerTextColorG(), pLoopPlayerObj.getPlayerTextColorB())
+								aLines.append(szColor + u"%c %d%% %s (+%d/%s)</color>" %(cCulture, iPct, pLoopPlayerObj.getCivilizationAdjective(0), iRate, szTurnShort))
+
+							szContestBlock = u"\n".join(aLines)
+
+							iLeader = aPlayers[0]
+							iChallenger = aPlayers[1]
+							iRateDiff = dPlayerRate[iChallenger] - dPlayerRate[iLeader]
+							iCultureDiff = dPlayerCulture[iLeader] - dPlayerCulture[iChallenger]
+							if (iRateDiff > 0 and iCultureDiff >= 0):
+								iTurnsToFlip = (iCultureDiff / iRateDiff) + 1
+								pChallengerObj = gc.getPlayer(iChallenger)
+								szWinnerColor = u"<color=%d,%d,%d>" %(pChallengerObj.getPlayerTextColorR(), pChallengerObj.getPlayerTextColorG(), pChallengerObj.getPlayerTextColorB())
+								szContestBlock += u"\n" + szWinnerColor + u"-> " + pChallengerObj.getCivilizationAdjective(0) + u": " + unicode(iTurnsToFlip) + u" " + szTurnShort + u"</color>"
+
+							szHelpString = szHelpString + u"\n" + szContestBlock
+					except:
+						pass
 			except:
 				pass
 
@@ -3358,6 +3491,11 @@ class CvMainInterface:
 			CvScreensInterface.showConstructionPlanner()
 			return 1
 
+		if inputClass.getFunctionName() == "ResourceAdvisorButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			import CvScreensInterface
+			CvScreensInterface.showResourceAdvisor()
+			return 1
+
 		if inputClass.getFunctionName() == "EspionageInfoToggle" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
 			global g_bShowEspionageInfo
 			g_bShowEspionageInfo = not g_bShowEspionageInfo
@@ -3393,6 +3531,10 @@ class CvMainInterface:
 			pHeadSelectedCity = CyInterface().getHeadSelectedCity()
 			if (pHeadSelectedCity and (pHeadSelectedCity.getOwner() == gc.getGame().getActivePlayer() or gc.getGame().isDebugMode())):
 				CvAutoGrowthManager.requestToggleHappy(pHeadSelectedCity)
+			return 1
+
+		if inputClass.getFunctionName() == "ToggleAutoScienceButton" and inputClass.getNotifyCode() == NotifyCode.NOTIFY_CLICKED:
+			CvAutoScienceManager.requestToggle(gc.getActivePlayer())
 			return 1
 
 	def update(self, fDelta):

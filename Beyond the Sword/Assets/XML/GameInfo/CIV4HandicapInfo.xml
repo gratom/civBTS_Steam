@@ -16,7 +16,7 @@
 			<iAdvancedStartPointsMod>125</iAdvancedStartPointsMod>
 			<iGold>250</iGold>
 			<iFreeUnits>28</iFreeUnits>
-			<iUnitCostPercent>55</iUnitCostPercent>
+			<iUnitCostPercent>45</iUnitCostPercent>
 			<iResearchPercent>65</iResearchPercent>
 			<iDistanceMaintenancePercent>40</iDistanceMaintenancePercent>
 			<iNumCitiesMaintenancePercent>45</iNumCitiesMaintenancePercent>
@@ -24,7 +24,7 @@
 			<iColonyMaintenancePercent>75</iColonyMaintenancePercent>
 			<iMaxColonyMaintenance>150</iMaxColonyMaintenance>
 			<iCorporationMaintenancePercent>85</iCorporationMaintenancePercent>
-			<iCivicUpkeepPercent>55</iCivicUpkeepPercent>
+			<iCivicUpkeepPercent>30</iCivicUpkeepPercent>
 			<iInflationPercent>0</iInflationPercent>
 			<iHealthBonus>15</iHealthBonus>
 			<iHappyBonus>5</iHappyBonus>
@@ -524,13 +524,13 @@
 			<iAICreatePercent>100</iAICreatePercent>
 			<iAIWorldCreatePercent>100</iAIWorldCreatePercent>
 			<iAICivicUpkeepPercent>100</iAICivicUpkeepPercent>
-			<iAIUnitCostPercent>100</iAIUnitCostPercent>
-			<iAIUnitSupplyPercent>50</iAIUnitSupplyPercent>
-			<iAIUnitUpgradePercent>50</iAIUnitUpgradePercent>
-			<iAIInflationPercent>80</iAIInflationPercent>
+			<iAIUnitCostPercent>90</iAIUnitCostPercent>
+			<iAIUnitSupplyPercent>35</iAIUnitSupplyPercent>
+			<iAIUnitUpgradePercent>40</iAIUnitUpgradePercent>
+			<iAIInflationPercent>0</iAIInflationPercent>
 			<iAIWarWearinessPercent>80</iAIWarWearinessPercent>
 			<iAIPerEraModifier>0</iAIPerEraModifier>
-			<iAIAdvancedStartPercent>100</iAIAdvancedStartPercent>
+			<iAIAdvancedStartPercent>115</iAIAdvancedStartPercent>
 			<Goodies>
 				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
 				<GoodyType>GOODY_HIGH_GOLD</GoodyType>
