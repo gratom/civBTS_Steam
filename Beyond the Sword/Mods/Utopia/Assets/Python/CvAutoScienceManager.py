@@ -24,20 +24,6 @@ gc = CyGlobalContext()
 SCRIPT_DATA_KEY = "AutoScience"
 MOD_MESSAGE_TOGGLE_AUTO_SCIENCE = 7263	# tag for CyMessageControl().sendModNetMessage / onModNetMessage
 
-# Temporary plain-text debug log - delete DEBUG_LOG_PATH logging once the feature is verified.
-DEBUG_LOG_PATH = "G:\\steam\\steamapps\\common\\Sid Meier's Civilization IV Beyond the Sword\\Beyond the Sword\\Mods\\Utopia\\Assets\\Python\\AutoScienceDebug.log"
-
-
-def _log(szLine):
-	try:
-		f = open(DEBUG_LOG_PATH, "a")
-		try:
-			f.write(szLine + "\n")
-		finally:
-			f.close()
-	except Exception:
-		pass
-
 
 def _loadPlayerData(pPlayer):
 	szData = pPlayer.getScriptData()
@@ -63,7 +49,6 @@ def isAutoScience(pPlayer):
 def requestToggle(pPlayer):
 	'Call this from UI click handlers.'
 	bNewValue = not isAutoScience(pPlayer)
-	_log("requestToggle: player %d -> %s" % (pPlayer.getID(), str(bNewValue)))
 	CyMessageControl().sendModNetMessage(MOD_MESSAGE_TOGGLE_AUTO_SCIENCE, pPlayer.getID(), 0, 0, int(bNewValue))
 
 
@@ -73,7 +58,6 @@ def handleNetMessage(iData2, iData3, iData4, iData5):
 	data = _loadPlayerData(pPlayer)
 	data[SCRIPT_DATA_KEY] = bool(iData5)
 	_savePlayerData(pPlayer, data)
-	_log("handleNetMessage: player %d flag set to %s" % (iData2, str(bool(iData5))))
 	CyInterface().setDirty(InterfaceDirtyBits.PercentButtons_DIRTY_BIT, True)
 	CyInterface().setDirty(InterfaceDirtyBits.GameData_DIRTY_BIT, True)
 
@@ -107,30 +91,19 @@ def _applyResearchPercent(pPlayer, mapOriginalPercents, iPercent):
 def enforcePlayer(iPlayer):
 	'Call this once per player turn (onBeginPlayerTurn, before doGold()/doResearch() credit the turn) - never from a UI click.'
 	pPlayer = gc.getPlayer(iPlayer)
-	iTurn = gc.getGame().getGameTurn()
-	szTag = "[turn %d player %d]" % (iTurn, iPlayer)
 
 	if not isAutoScience(pPlayer):
-		_log("%s flag is OFF, skipping" % szTag)
 		return
-
-	_log("%s flag is ON, checking preconditions" % szTag)
-
-	if not pPlayer.isAlive():
-		_log("%s abort: player not alive" % szTag)
-		return
-	if pPlayer.isAnarchy():
-		_log("%s abort: anarchy" % szTag)
+	if not pPlayer.isAlive() or pPlayer.isAnarchy():
 		return
 
 	eResearch = CommerceTypes.COMMERCE_RESEARCH
 	if not pPlayer.isCommerceFlexible(eResearch):
-		_log("%s abort: research slider not flexible" % szTag)
 		return
 
 	eTech = pPlayer.getCurrentResearch()
 	if eTech == -1:
-		_log("%s abort: no tech queued" % szTag)
+		# Nothing queued - there is no "turns to complete" to optimize against, leave the slider alone.
 		return
 
 	iStep = gc.getDefineINT("COMMERCE_PERCENT_CHANGE_INCREMENTS")
@@ -141,10 +114,6 @@ def enforcePlayer(iPlayer):
 	for iI in range(CommerceTypes.NUM_COMMERCE_TYPES):
 		eCommerce = CommerceTypes(iI)
 		mapOriginalPercents[eCommerce] = pPlayer.getCommercePercent(eCommerce)
-
-	_log("%s tech=%d step=%d gold=%d goldPerTurn=%d inflatedCosts=%d origPercents=%s" % (
-		szTag, eTech, iStep, pPlayer.getGold(), pPlayer.getGoldPerTurn(), pPlayer.calculateInflatedCosts(),
-		str(mapOriginalPercents)))
 
 	aPercents = list(range(0, 100, iStep))
 	aPercents.append(100)
@@ -157,8 +126,6 @@ def enforcePlayer(iPlayer):
 		iGoldRate = pPlayer.calculateGoldRate()
 		iTurns = _turnsToCompleteResearch(pPlayer, eTech)
 		aCandidates.append((iActualPercent, iTurns, iGoldRate))
-		_log("%s  candidate research=%d%% -> actual=%d%% goldRate=%d turns=%d goldPercentNow=%d" % (
-			szTag, iPercent, iActualPercent, iGoldRate, iTurns, pPlayer.getCommercePercent(CommerceTypes.COMMERCE_GOLD)))
 
 	aAffordable = [c for c in aCandidates if c[2] >= 0]
 
@@ -176,9 +143,6 @@ def enforcePlayer(iPlayer):
 		aByPercent = aCandidates[:]
 		aByPercent.sort(key=lambda c: c[0])
 		best = aByPercent[0]
-
-	_log("%s chosen percent=%d%% (goldRate=%d turns=%d) affordableCount=%d" % (
-		szTag, best[0], best[2], best[1], len(aAffordable)))
 
 	_applyResearchPercent(pPlayer, mapOriginalPercents, best[0])
 
