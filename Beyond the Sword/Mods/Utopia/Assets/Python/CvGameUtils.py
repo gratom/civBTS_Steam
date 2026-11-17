@@ -352,6 +352,29 @@ class CvGameUtils:
 	
 	def citiesDestroyFeatures(self,argsList):
 		iX, iY= argsList
+		pPlot = CyMap().plot(iX, iY)
+		eFeature = pPlot.getFeatureType()
+
+		if (eFeature != FeatureTypes.NO_FEATURE):
+			pCity = pPlot.getPlotCity()
+			if (pCity):
+				# Same per-feature base value the worker "chop" mechanic uses (CIV4BuildInfos.xml FeatureStruct)
+				iProduction = 0
+				for iBuild in range(gc.getNumBuildInfos()):
+					if (gc.getBuildInfo(iBuild).isFeatureRemove(eFeature)):
+						iProduction = gc.getBuildInfo(iBuild).getFeatureProduction(eFeature)
+						break
+
+				if (iProduction > 0):
+					iProduction *= gc.getGameSpeedInfo(CyGame().getGameSpeedType()).getFeatureProductionPercent()
+					iProduction /= 100
+					iProduction *= max(0, (gc.getPlayer(pCity.getOwner()).getFeatureProductionModifier() + 100))
+					iProduction /= 100
+
+					if (iProduction > 0):
+						# Same bucket vanilla chopping uses - applies to the city's current build on its next turn
+						pCity.setFeatureProduction(pCity.getFeatureProduction() + iProduction)
+
 		return True
 		
 	def canFoundCitiesOnWater(self,argsList):
